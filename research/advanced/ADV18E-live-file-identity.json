@@ -1,0 +1,9 @@
+{
+  "selected_node": 498,
+  "selector": "0x3aa94610",
+  "root_pointer": "0x303162f4",
+  "MAIN_base": "0x302f4070",
+  "live_sha256": "02b385cfacbbd698cbcb2ab81429391125d0d9b959a348c31b621195b78a759d",
+  "disk_sha256": "02b385cfacbbd698cbcb2ab81429391125d0d9b959a348c31b621195b78a759d",
+  "exact_match": true
+}

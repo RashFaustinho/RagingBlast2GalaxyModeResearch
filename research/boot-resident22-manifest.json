@@ -1,0 +1,165 @@
+{
+  "afs_index": 22,
+  "afs_offset": 4814848,
+  "afs_member_size": 936880,
+  "afs_member_sha256": "1b4986c11fd2c73cdabd6e81826988e7ee2bd86386e5a15c65506173c675439a",
+  "decompressed_size": 1605184,
+  "outer_members": [
+    {
+      "index": 0,
+      "name": "db_font_pad_PS3.spr",
+      "offset": 448,
+      "size": 3424,
+      "sha256": "107312f8b9c3aaa69e1b13374a6dda32007b98e345782edb56e90297301f5807"
+    },
+    {
+      "index": 1,
+      "name": "db_character_shader_ps3.spr",
+      "offset": 3872,
+      "size": 794480,
+      "sha256": "76794fe079a7eb5e5c682655d7678cc9c0a1783321799f529cc8aa80a945c45a"
+    },
+    {
+      "index": 2,
+      "name": "game_resident_param_m.pak",
+      "offset": 798352,
+      "size": 191872,
+      "sha256": "f00e68d6927a84d243ef568eeefdeb225022d64758d7814a22ae9e984ec9dfa8"
+    },
+    {
+      "index": 3,
+      "name": "system_window_m.pak",
+      "offset": 990224,
+      "size": 38800,
+      "sha256": "0f31925b6931d98a3500fd95521a1a2df7fb4e69d08c7bd467730c3a9298f1d8"
+    },
+    {
+      "index": 4,
+      "name": "system_bar_ALL_m.pak",
+      "offset": 1029024,
+      "size": 3984,
+      "sha256": "9ad1a1048f07aafc9f4616fee245d2fd9d7e5b589dd5b045d2d72c5a74e54657"
+    },
+    {
+      "index": 5,
+      "name": "sys_button_icon_ALL_m.pak",
+      "offset": 1033008,
+      "size": 6032,
+      "sha256": "1e8fb62d355f5c65587798c1d2aa33f497f16429bc79e7aaf3e6341504634b14"
+    },
+    {
+      "index": 6,
+      "name": "loading_icon_ALL_m.pak",
+      "offset": 1039040,
+      "size": 36560,
+      "sha256": "c2316c28d9dd87b1f57961c6288c31a2ca863ce6ecc950caef5891acadcd9399"
+    },
+    {
+      "index": 7,
+      "name": "loading_game_m.pak",
+      "offset": 1075600,
+      "size": 24320,
+      "sha256": "c587fed05c919e3e184f1f9b8dc11a7b772db7ccd4290ae7316b55dd6ef8a00d"
+    },
+    {
+      "index": 8,
+      "name": "system_ps3.pak",
+      "offset": 1099920,
+      "size": 504576,
+      "sha256": "db506c2d73be6c5ce774f0fa60e816446cccf41e3f69f8b02223b82f52d29082"
+    }
+  ],
+  "parameter_members": [
+    {
+      "index": 0,
+      "name": "game_resident_character_param.da",
+      "offset": 640,
+      "size": 5600,
+      "sha256": "95511b9934ea2a1d74bd04378e35adea6f481db0d1147aed7be38fbb27ecf4c6"
+    },
+    {
+      "index": 1,
+      "name": "game_resident_character_param_un",
+      "offset": 6240,
+      "size": 5600,
+      "sha256": "1ea78f2e3903c8ab0853b1db6f8a19cfd4aa6a053920dc46baeb2bb895ff8d5a"
+    },
+    {
+      "index": 2,
+      "name": "preset_appearance_table.dat",
+      "offset": 11840,
+      "size": 11760,
+      "sha256": "d051651113f89174dfb6f9845ce217497ee70532ac1304e72e138bef31a50159"
+    },
+    {
+      "index": 3,
+      "name": "preset_character_battle_zone_nor",
+      "offset": 23600,
+      "size": 4680,
+      "sha256": "2bc6a8606411b8791d96792e01cda50a29a5bc5b2d6da8b793c5b35f3a8e72d2"
+    },
+    {
+      "index": 4,
+      "name": "preset_character_battle_zone_spe",
+      "offset": 28288,
+      "size": 6572,
+      "sha256": "d043c8c39a8d2365811537fbce979cbe319b215191b85326604ce452ffb89818"
+    },
+    {
+      "index": 5,
+      "name": "preset_character_download.dat",
+      "offset": 34864,
+      "size": 4416,
+      "sha256": "bfffe56eeaa8a56e50b2c137a6adf8d317b31d14ef81bc6960347c6fbf25f1ff"
+    },
+    {
+      "index": 6,
+      "name": "preset_character_galaxy.dat",
+      "offset": 39280,
+      "size": 46568,
+      "sha256": "d84e9233155a3f2ffe49630b965ab92b3badd3f39e93ebb7dce11b98de547b5c"
+    },
+    {
+      "index": 7,
+      "name": "preset_character_tutorial.dat",
+      "offset": 85856,
+      "size": 1116,
+      "sha256": "15ca9c287d726614d0da3b94a7d58782c38084f95e35f188e13350f4a63c7842"
+    },
+    {
+      "index": 8,
+      "name": "preset_strength_table.dat",
+      "offset": 86976,
+      "size": 68392,
+      "sha256": "f39177872cb2950209167624df6c97e479945ec615cfe8381a0276c599fcf7b5"
+    },
+    {
+      "index": 9,
+      "name": "game_resident_transformer_info.d",
+      "offset": 155376,
+      "size": 3300,
+      "sha256": "5b93831a7b3d5854f7b34c44c8596f24e76124c8c0ad5c09ea954d2250a5a0cb"
+    },
+    {
+      "index": 10,
+      "name": "item_parameter.dat",
+      "offset": 158688,
+      "size": 32004,
+      "sha256": "c6d7b2643fa0bbdca8ea449ebc7933cc6745dbc0d20c051937945f3d5526c700"
+    },
+    {
+      "index": 11,
+      "name": "game_resident_bgm_table_JP.dat",
+      "offset": 190704,
+      "size": 464,
+      "sha256": "38637b09e6515db2621ab96616cef67f5fe1fcba4ce3333556fd516e649affbc"
+    },
+    {
+      "index": 12,
+      "name": "game_resident_bgm_table_US.dat",
+      "offset": 191168,
+      "size": 464,
+      "sha256": "9e038349e6bfe8cb289ced72c7ce539739d8c0c1ce1224fe4699dc49a8771fab"
+    }
+  ]
+}

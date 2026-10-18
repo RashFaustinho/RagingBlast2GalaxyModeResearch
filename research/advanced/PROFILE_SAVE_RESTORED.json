@@ -1,0 +1,30 @@
+{
+  "restored_utc": "2026-10-15T00:39:27.857355+00:00",
+  "research_emulator_stopped": true,
+  "profile_save_restored_to_pre_ADV18A_backup": true,
+  "all_files_match": true,
+  "files": [
+    {
+      "file": "ICON0.PNG",
+      "sha256": "230f8399251c65fe1d2083f7aa3ed23e5927cd6478745a1f87c3b2d122cf62fd"
+    },
+    {
+      "file": "PIC1.PNG",
+      "sha256": "40d91952ed977ae8deddd312faa3d6c055cc8997d673b8392e1ef5f1311ef4fc"
+    },
+    {
+      "file": "ICON1.PAM",
+      "sha256": "3a690b4efa9e6d3c1395801d30741ec013471e530a7bba6d09e9ea885545912b"
+    },
+    {
+      "file": "PARAM.SFO",
+      "sha256": "e6313976b35d18b1653faa8c7ce5286cdd79636fccbb36db0c7d370d4f403d15"
+    },
+    {
+      "file": "SYS-DATA",
+      "sha256": "1b7afb290b309511ca359f420a959dd541bddd79bebaeb508383b3eef556cf33"
+    }
+  ],
+  "original_uploaded_game_and_save_untouched": true,
+  "ADV18E_result_backup_retained_for_research": true
+}

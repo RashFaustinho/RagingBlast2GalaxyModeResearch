@@ -1,0 +1,66 @@
+{
+  "experiment": "KB07B",
+  "status": "DATA_VERIFIED_GAMEPLAY_UNTESTED",
+  "baseline": "KB06",
+  "preset": 1061,
+  "strength_row": 780,
+  "slot": 0,
+  "offset": "0x10c38",
+  "before": "0x15f",
+  "after": "0xffffffff",
+  "only_decoded_change": "One u32 item slot",
+  "boot_before_sha256": "5805a229566e16221f167627664adfc237e498c629c481702ff6d1757afd4790",
+  "boot_after_sha256": "aa6f832029fb5e01dc43afa05a8992e86959986326034eb36396a82e1ba962e5",
+  "parameter_archive": {
+    "before_sha256": "67a52d1d6dafadbf7aa2f1afc7d17ffd155610e9f672c7dbd2161800c970ae3d",
+    "after_sha256": "9d7849a5e7c240a543b031e19bde28a8a30eb764c6cbf5926a9d5cd449c90607",
+    "changed_members": [
+      "preset_strength_table.dat"
+    ],
+    "member_count": 13,
+    "decompressed_sha256": "9d7849a5e7c240a543b031e19bde28a8a30eb764c6cbf5926a9d5cd449c90607",
+    "verification": "Byte-for-byte decompression and unchanged other members; no game execution"
+  },
+  "resident_archive": {
+    "before_sha256": "94c603abdde00ca9e11786b89ad3d263140a655137e89c6c46dc00767a067d92",
+    "after_sha256": "9185358eb2e3cc3dd41d706875d0ec573d25cdb45b17ac48e23a67f4981f0528",
+    "changed_members": [
+      "game_resident_param_m.pak"
+    ],
+    "member_count": 9,
+    "decompressed_sha256": "37e7d4ff82f3dec1f0acc387e075f19eed33a289bff0387df2b9684667c96f7d",
+    "verification": "Byte-for-byte decompression and unchanged other members; no game execution"
+  },
+  "afs": {
+    "before_sha256": "5805a229566e16221f167627664adfc237e498c629c481702ff6d1757afd4790",
+    "after_sha256": "aa6f832029fb5e01dc43afa05a8992e86959986326034eb36396a82e1ba962e5",
+    "member_index": 22,
+    "old_size": 937205,
+    "new_size": 937204,
+    "slot_capacity": 937984,
+    "status": "Other members identical; experimental copy, gameplay unrun",
+    "placement": "original_slot",
+    "verification": "Other 40 members and their offsets unchanged"
+  },
+  "galaxy": "Exact KB06 Galaxy unchanged",
+  "elf": "Unmodified",
+  "galaxy_sha256": "ebfa9de1489904714025c5b45d7d10ef06d490f20651d6257c3b8b3ed6985f15",
+  "independent_verification": {
+    "one_u32_only": true,
+    "other_rows_identical": true,
+    "other_parameter_files_identical": true,
+    "galaxy_identical": true
+  },
+  "gameplay_report": {
+    "source": "User report; no new RAM snapshot",
+    "status": "USER_REPORTED_NO_TRANSFORMATION_SWAP_PERSISTS",
+    "goku_ssj2_item_in_verified_archive": "157",
+    "goku_transforms_to_ssj3_at_reported_hp": null,
+    "goku_ssj3_returns_to_base": null,
+    "vegeta_changes_companion_at_reported_hp": 30000,
+    "restart_between_variants": "Not yet documented",
+    "results_document": "ESITO_KB07A_KB07B.md",
+    "goku_ssj2_transforms_to_ssj3": false,
+    "correction": "User retracts initial transformation report specifically for KB07B; no transformation in recheck"
+  }
+}

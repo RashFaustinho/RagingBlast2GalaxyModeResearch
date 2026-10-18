@@ -1,0 +1,37 @@
+{
+  "observed_failure": "Tutorial64: node+40 circle pointer zero at completed-root animation, native kind2 allocator returns null on empty list",
+  "capacity_evidence": [
+    {
+      "kind": 0,
+      "count": 10,
+      "loop_end": "0x1f2d94",
+      "compare_offset": 36
+    },
+    {
+      "kind": 1,
+      "count": 3,
+      "loop_end": "0x1f2dfc",
+      "compare_offset": 8
+    },
+    {
+      "kind": 2,
+      "count": 4,
+      "loop_end": "0x1f2e64",
+      "compare_offset": 12
+    },
+    {
+      "kind": 3,
+      "count": 5,
+      "loop_end": "0x1f2ecc",
+      "compare_offset": 16
+    },
+    {
+      "kind": 8,
+      "count": 8,
+      "loop_end": "0x1f3054",
+      "compare_offset": 28
+    }
+  ],
+  "not_a_global_playable_mission_maximum": true,
+  "visibility_and_circle_kind_matter": true
+}

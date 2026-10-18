@@ -1,0 +1,26 @@
+[
+  {
+    "start": "0x1ea78c",
+    "end": "0x1eacf0",
+    "new_frame": 448,
+    "buffer_start": 116,
+    "buffer_bytes": 256,
+    "buffer_end": 372,
+    "min_saved_register_offset": 384,
+    "return_paths": 4,
+    "all_return_sizes_correct": true,
+    "lr_at_caller_sp_plus16": true
+  },
+  {
+    "start": "0x20b5cc",
+    "end": "0x20b7f8",
+    "new_frame": 432,
+    "buffer_start": 112,
+    "buffer_bytes": 256,
+    "buffer_end": 368,
+    "min_saved_register_offset": 376,
+    "return_paths": 2,
+    "all_return_sizes_correct": true,
+    "lr_at_caller_sp_plus16": true
+  }
+]

@@ -1,0 +1,16 @@
+stage_id_decimal,stage_id_hex_u16_BE,original_english_name,binding
+0,0000,Wasteland,NAS text index; Kai8 and Cave9 also gameplay-confirmed
+1,0001,Rocky Land,NAS text index; Kai8 and Cave9 also gameplay-confirmed
+2,0002,Planet Namek,NAS text index; Kai8 and Cave9 also gameplay-confirmed
+3,0003,Ruined Planet Namek,NAS text index; Kai8 and Cave9 also gameplay-confirmed
+4,0004,Ruined City,NAS text index; Kai8 and Cave9 also gameplay-confirmed
+5,0005,Cell Game Arena,NAS text index; Kai8 and Cave9 also gameplay-confirmed
+6,0006,Island,NAS text index; Kai8 and Cave9 also gameplay-confirmed
+7,0007,World Tournament Stage,NAS text index; Kai8 and Cave9 also gameplay-confirmed
+8,0008,Supreme Kai's World,NAS text index; Kai8 and Cave9 also gameplay-confirmed
+9,0009,Cave,NAS text index; Kai8 and Cave9 also gameplay-confirmed
+10,000A,Temple,NAS text index; Kai8 and Cave9 also gameplay-confirmed
+11,000B,Glacier,NAS text index; Kai8 and Cave9 also gameplay-confirmed
+12,000C,Underworld,NAS text index; Kai8 and Cave9 also gameplay-confirmed
+13,000D,Planet,NAS text index; Kai8 and Cave9 also gameplay-confirmed
+14,000E,Tutorial / Practice (Tutorial selector),All 9 original tutorial.mmd missions use 14; descriptive name reported by the user; not a verified ordinary Galaxy/Battle Zone arena

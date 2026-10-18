@@ -1,0 +1,28 @@
+{
+  "breakpoint_PC": "0x1ca768",
+  "r4_table": "0x369408d0",
+  "r5_preset_index": 0,
+  "r6_mode": 4,
+  "normal_table_row_count": 106,
+  "normal_table_sha256": "2bc6a8606411b8791d96792e01cda50a29a5bc5b2d6da8b793c5b35f3a8e72d2",
+  "live_table_sha256": "2bc6a8606411b8791d96792e01cda50a29a5bc5b2d6da8b793c5b35f3a8e72d2",
+  "entire_normal_table_matches": true,
+  "root_pointer": "0x3a828a08",
+  "root_hex": "000000000000000000000000000000000000000100000000000000b40000000d000000380000000000000001000000000000000000000002",
+  "root_words": [
+    0,
+    0,
+    0,
+    0,
+    1,
+    0,
+    180,
+    13,
+    56,
+    0,
+    1,
+    0,
+    0,
+    2
+  ]
+}

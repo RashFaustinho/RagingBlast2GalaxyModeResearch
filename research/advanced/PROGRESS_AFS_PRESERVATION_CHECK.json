@@ -1,0 +1,15 @@
+{
+  "original_and_working_AFS_size": 1334114304,
+  "bytes_compared_outside_Galaxy_entry": 1333792760,
+  "only_allowed_changed_ranges": [
+    {
+      "start_hex": "0x1b48",
+      "end_exclusive_hex": "0x1b50"
+    },
+    {
+      "start_hex": "0x2b519800",
+      "end_exclusive_hex": "0x2b568000"
+    }
+  ],
+  "outside_ranges_identical": true
+}

@@ -1,0 +1,18 @@
+[
+  {
+    "side": 0,
+    "native": 66,
+    "preset": 2,
+    "maxHP": 40000,
+    "HP": 40000,
+    "flags": 1
+  },
+  {
+    "side": 1,
+    "native": 12,
+    "preset": 496,
+    "maxHP": 40000,
+    "HP": 40000,
+    "flags": 65
+  }
+]

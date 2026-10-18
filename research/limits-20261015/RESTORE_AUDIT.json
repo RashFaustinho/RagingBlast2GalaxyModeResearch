@@ -1,0 +1,20 @@
+{
+  "restored_isolated_working_game_to_pre_test_ADV18E": true,
+  "uploaded_game_originals_unchanged": true,
+  "boot_backup_sha256": "e2be23c227872fd05ecfbade6f187253dc732564268791a5b86c22e537e4b3b1",
+  "progress_slot872_restored": true,
+  "progress_directory_and_member_size_restored": true,
+  "progress_member_metadata_restored": true,
+  "save_files_restored_sha256": {
+    "ICON0.PNG": "230f8399251c65fe1d2083f7aa3ed23e5927cd6478745a1f87c3b2d122cf62fd",
+    "PIC1.PNG": "40d91952ed977ae8deddd312faa3d6c055cc8997d673b8392e1ef5f1311ef4fc",
+    "ICON1.PAM": "3a690b4efa9e6d3c1395801d30741ec013471e530a7bba6d09e9ea885545912b",
+    "PARAM.SFO": "e6313976b35d18b1653faa8c7ce5286cdd79636fccbb36db0c7d370d4f403d15",
+    "SYS-DATA": "1b7afb290b309511ca359f420a959dd541bddd79bebaeb508383b3eef556cf33"
+  },
+  "original_EBOOT_BIN_sha256": "da28849b6dafc65c0de74d79f3bd1c54ff19f0368ffb728faa5d97ce77a03c30",
+  "experimental_ELFs_removed_from_working_game": true,
+  "current_research_RPCs3_and_helper_stopped": true,
+  "research_after_saves_retained": true,
+  "prior_display99_untouched": true
+}

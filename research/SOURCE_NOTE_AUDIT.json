@@ -1,0 +1,1944 @@
+{
+  "schema_version": 1,
+  "original_collection_files": 276,
+  "files": [
+    {
+      "original_path": "research/KB07A-manifest.json",
+      "original_sha256": "7cf82aca12fa998121c51dc462921d3cca56689c24c2fb8a41b019790b41746e",
+      "disposition": "retained",
+      "reason": "Original structured evidence, catalog or readable report retained with its historical scope.",
+      "current_reference": "research/KB07A-manifest.json"
+    },
+    {
+      "original_path": "research/GALAXY_MODDING_BEGINNER_GUIDE_EN.html",
+      "original_sha256": "4054fca0846baa1a138a90bad1d9f40e60b91a8451182d3d25c18e9d9521d8b2",
+      "disposition": "consolidated-or-omitted",
+      "reason": "Duplicate generated/earlier presentation omitted; corrected English guide and topic summaries retained.",
+      "current_reference": "research/EXPERIMENT_HISTORY.md"
+    },
+    {
+      "original_path": "research/EBOOT_E_PRESET.md",
+      "original_sha256": "4bcc00ab49b92fc4043dfc8661ebdad5985636053d2be2674115b9d237f0a16c",
+      "disposition": "consolidated-or-omitted",
+      "reason": "Italian narrative or superseded community-label table consolidated in English topic/history guides; original privately backed up.",
+      "current_reference": "research/EXPERIMENT_HISTORY.md"
+    },
+    {
+      "original_path": "research/battle-121742-findings.json",
+      "original_sha256": "265f9a53cb526c19fcb55aeefb1ffb3fe37205c7ec6507071fae6da1dc952c1e",
+      "disposition": "retained",
+      "reason": "Original structured evidence, catalog or readable report retained with its historical scope.",
+      "current_reference": "research/battle-121742-findings.json"
+    },
+    {
+      "original_path": "research/galaxy-descriptors.csv",
+      "original_sha256": "fc31d87bea3e93fcb1ca65c2d445dbb9e7a815570795dabc9bea25855493b797",
+      "disposition": "retained",
+      "reason": "Original structured evidence, catalog or readable report retained with its historical scope.",
+      "current_reference": "research/galaxy-descriptors.csv"
+    },
+    {
+      "original_path": "research/kb13a-ko-entry-g0.json",
+      "original_sha256": "8aeac7c34ea47f5d67729bd8d1f71403e14421b0faffb9c213c1965ac3f41d99",
+      "disposition": "retained",
+      "reason": "Original structured evidence, catalog or readable report retained with its historical scope.",
+      "current_reference": "research/kb13a-ko-entry-g0.json"
+    },
+    {
+      "original_path": "research/RAM_132126_E_PROVA_KB06.md",
+      "original_sha256": "1b22e2551d0c30a7d05dd65485eeb6c4c1ffc7cbb2c192bb4da43ad2a0dbb432",
+      "disposition": "consolidated-or-omitted",
+      "reason": "Italian narrative or superseded community-label table consolidated in English topic/history guides; original privately backed up.",
+      "current_reference": "research/EXPERIMENT_HISTORY.md"
+    },
+    {
+      "original_path": "research/RAM_134024_CONDIZIONE_ORIGINALE_E_KB07B.md",
+      "original_sha256": "b276d595c260595ee9f4d90a8bd545942422696115a071b3ee61ff730257e60d",
+      "disposition": "consolidated-or-omitted",
+      "reason": "Italian narrative or superseded community-label table consolidated in English topic/history guides; original privately backed up.",
+      "current_reference": "research/EXPERIMENT_HISTORY.md"
+    },
+    {
+      "original_path": "research/ESITO_KB07A_KB07B.md",
+      "original_sha256": "dfe9e51b707d450bf929d7083b2d922c5b5a20d0d9330e597e77ee1e17ea38a9",
+      "disposition": "consolidated-or-omitted",
+      "reason": "Italian narrative or superseded community-label table consolidated in English topic/history guides; original privately backed up.",
+      "current_reference": "research/EXPERIMENT_HISTORY.md"
+    },
+    {
+      "original_path": "research/RAM_VERIFICA.md",
+      "original_sha256": "50154093ce5df3a6c255e37fbd20750637b7cbe1ffcbdd5f307663ee24ebcc8e",
+      "disposition": "consolidated-or-omitted",
+      "reason": "Italian narrative or superseded community-label table consolidated in English topic/history guides; original privately backed up.",
+      "current_reference": "research/EXPERIMENT_HISTORY.md"
+    },
+    {
+      "original_path": "research/g12b-rsp-evidence.jsonl",
+      "original_sha256": "4a8cb4aafab220dc7505d47d4cde038af83d30da421cc5b722cdff40b0dd5fe1",
+      "disposition": "retained",
+      "reason": "Original structured evidence, catalog or readable report retained with its historical scope.",
+      "current_reference": "research/g12b-rsp-evidence.jsonl"
+    },
+    {
+      "original_path": "research/boot-resident22-manifest.json",
+      "original_sha256": "a5f3c57e41e19f54afdb828d82170aed1a656330478cfdcbc01edb06cdfe4698",
+      "disposition": "retained",
+      "reason": "Original structured evidence, catalog or readable report retained with its historical scope.",
+      "current_reference": "research/boot-resident22-manifest.json"
+    },
+    {
+      "original_path": "research/KB15B-validation-updated.json",
+      "original_sha256": "3b5c2591a776a8391e8b22cb330851705e2db299f5399078ca904cf5fa844a2b",
+      "disposition": "retained",
+      "reason": "Original structured evidence, catalog or readable report retained with its historical scope.",
+      "current_reference": "research/KB15B-validation-updated.json"
+    },
+    {
+      "original_path": "research/PROVA_KB04A_TIPO_IA.md",
+      "original_sha256": "adaece0301af36795248fd9aead9867a3f2c23a57c4c55decfbfddf4b31cd7c1",
+      "disposition": "consolidated-or-omitted",
+      "reason": "Italian narrative or superseded community-label table consolidated in English topic/history guides; original privately backed up.",
+      "current_reference": "research/EXPERIMENT_HISTORY.md"
+    },
+    {
+      "original_path": "research/kb13a-g2-request.json",
+      "original_sha256": "4d8296fbdfe067afca3ece33c6a51da4fde978eb27be3096b711b01a7887213b",
+      "disposition": "retained",
+      "reason": "Original structured evidence, catalog or readable report retained with its historical scope.",
+      "current_reference": "research/kb13a-g2-request.json"
+    },
+    {
+      "original_path": "research/items-decoded.csv",
+      "original_sha256": "52106ce7176c19d715dd460270a2ba0a9ddbf32f5ecfa51c219c97caa70958eb",
+      "disposition": "consolidated-or-omitted",
+      "reason": "Italian narrative or superseded community-label table consolidated in English topic/history guides; original privately backed up.",
+      "current_reference": "research/EXPERIMENT_HISTORY.md"
+    },
+    {
+      "original_path": "research/kb11d-rsp-evidence.jsonl",
+      "original_sha256": "4b8d8f4f9a36e3cf42d946dd4038d0d5ad4a281b8069096b157c27680f4e9981",
+      "disposition": "retained",
+      "reason": "Original structured evidence, catalog or readable report retained with its historical scope.",
+      "current_reference": "research/kb11d-rsp-evidence.jsonl"
+    },
+    {
+      "original_path": "research/STUDIO_0_8_PACKAGED_SMOKE.json",
+      "original_sha256": "18b2fb1f9878457c4d226f0c38fe47628b90f4fee6708fad2d59b9e1fa2e025b",
+      "disposition": "retained",
+      "reason": "Original structured evidence, catalog or readable report retained with its historical scope.",
+      "current_reference": "research/STUDIO_0_8_PACKAGED_SMOKE.json"
+    },
+    {
+      "original_path": "research/kb10a-runtime-controlled.json",
+      "original_sha256": "55684a56d1e06618b89465097f73aa2dafb4c13dca22d693894008a41e89f857",
+      "disposition": "retained",
+      "reason": "Original structured evidence, catalog or readable report retained with its historical scope.",
+      "current_reference": "research/kb10a-runtime-controlled.json"
+    },
+    {
+      "original_path": "research/MAIN_PROGRESSION_FLAGS_NATIVE_EVIDENCE.json",
+      "original_sha256": "84070d8ee3bd9a4c1d9a17c9cd8cf1ad8bc2078c2b62585a9c9a19c4e7e445ab",
+      "disposition": "retained",
+      "reason": "Original structured evidence, catalog or readable report retained with its historical scope.",
+      "current_reference": "research/MAIN_PROGRESSION_FLAGS_NATIVE_EVIDENCE.json"
+    },
+    {
+      "original_path": "research/kb13a-g0-confirmed.json",
+      "original_sha256": "647ba4f77a56fa0195bed456314f2d67639b957dd08aeee410aceb3dced7934a",
+      "disposition": "retained",
+      "reason": "Original structured evidence, catalog or readable report retained with its historical scope.",
+      "current_reference": "research/kb13a-g0-confirmed.json"
+    },
+    {
+      "original_path": "research/STAGE_IDS_BLES00978_EN.csv",
+      "original_sha256": "938431b3c195a7540139e068a4ab7df1dbab0aeaea31a4ea6406c5aa503735fe",
+      "disposition": "retained",
+      "reason": "Original structured evidence, catalog or readable report retained with its historical scope.",
+      "current_reference": "research/STAGE_IDS_BLES00978_EN.csv"
+    },
+    {
+      "original_path": "research/BATTLE_ZONE_ARENA_RUNTIME_ATTEMPT.json",
+      "original_sha256": "9b231c37704a99947babcfd15589eec4399b384ab93253dbe1baa0a2f28fe0d1",
+      "disposition": "retained",
+      "reason": "Original structured evidence, catalog or readable report retained with its historical scope.",
+      "current_reference": "research/BATTLE_ZONE_ARENA_RUNTIME_ATTEMPT.json"
+    },
+    {
+      "original_path": "research/KB06-manifest.json",
+      "original_sha256": "82cf50447e90e16bf3968d8ca3ca3f4ca49c7b5b261ad49eb3077bae2447454c",
+      "disposition": "retained",
+      "reason": "Original structured evidence, catalog or readable report retained with its historical scope.",
+      "current_reference": "research/KB06-manifest.json"
+    },
+    {
+      "original_path": "research/item-catalog-BLES00978-EN.csv",
+      "original_sha256": "cecf7dc20009933c383c715b6f4e551a310c378f5faa50bf155e21ca5c05f3df",
+      "disposition": "retained",
+      "reason": "Original structured evidence, catalog or readable report retained with its historical scope.",
+      "current_reference": "research/item-catalog-BLES00978-EN.csv"
+    },
+    {
+      "original_path": "research/kb15b-resident-table-equivalence.json",
+      "original_sha256": "17a8a763f718b02209b4b84307c04fb041655bc6f3c054beff8a1fa19257dee8",
+      "disposition": "retained",
+      "reason": "Original structured evidence, catalog or readable report retained with its historical scope.",
+      "current_reference": "research/kb15b-resident-table-equivalence.json"
+    },
+    {
+      "original_path": "research/OGGETTI_CORRETTI_E_KB10A.md",
+      "original_sha256": "da0e653d811ad1f4114557919b56a949f2dc74f238cea7f2639ab7798bde8038",
+      "disposition": "consolidated-or-omitted",
+      "reason": "Italian narrative or superseded community-label table consolidated in English topic/history guides; original privately backed up.",
+      "current_reference": "research/EXPERIMENT_HISTORY.md"
+    },
+    {
+      "original_path": "research/kb13a-fat-ko-melee-check.json",
+      "original_sha256": "7eb6a35772bbf94f49e0f5343e3efe00845ae856885a92d704cd66d50156a471",
+      "disposition": "retained",
+      "reason": "Original structured evidence, catalog or readable report retained with its historical scope.",
+      "current_reference": "research/kb13a-fat-ko-melee-check.json"
+    },
+    {
+      "original_path": "research/GALAXY_MISSION_INDEX_ORIGINAL.csv",
+      "original_sha256": "7b4d8d58a1e1ba83c20cca324b3a40594061c1b209af56f0ef99bd13ee399656",
+      "disposition": "retained",
+      "reason": "Original structured evidence, catalog or readable report retained with its historical scope.",
+      "current_reference": "research/GALAXY_MISSION_INDEX_ORIGINAL.csv"
+    },
+    {
+      "original_path": "research/boot-afl-mapping.csv",
+      "original_sha256": "a449138087097f5f33b06fd7a655759696356ff085862eaae6505153852bedd3",
+      "disposition": "retained",
+      "reason": "Original structured evidence, catalog or readable report retained with its historical scope.",
+      "current_reference": "research/boot-afl-mapping.csv"
+    },
+    {
+      "original_path": "research/RAM_121742_E_TEST_INCROCIATO.md",
+      "original_sha256": "097b4cf06663e01cd28d948bff276f0be3d9c1edf9146e2aa87bbfb3e8c92640",
+      "disposition": "consolidated-or-omitted",
+      "reason": "Italian narrative or superseded community-label table consolidated in English topic/history guides; original privately backed up.",
+      "current_reference": "research/EXPERIMENT_HISTORY.md"
+    },
+    {
+      "original_path": "research/kb13a-g3-cancel-request.json",
+      "original_sha256": "658fc359c30ecbcfb439e585cbd89ec1501eec1667158080818cf959ac77d055",
+      "disposition": "retained",
+      "reason": "Original structured evidence, catalog or readable report retained with its historical scope.",
+      "current_reference": "research/kb13a-g3-cancel-request.json"
+    },
+    {
+      "original_path": "research/battle-114443-findings.json",
+      "original_sha256": "dc1a7dc8ba60e2f363a3dfd330000960ae10b565945d6ad79e4858a7c89473fc",
+      "disposition": "retained",
+      "reason": "Original structured evidence, catalog or readable report retained with its historical scope.",
+      "current_reference": "research/battle-114443-findings.json"
+    },
+    {
+      "original_path": "research/RUNTIME_CACHE_E_CONTROLLI.md",
+      "original_sha256": "a83aae02d7edf2ca731a65f69fd36e6521ed282918f991935f59dbca8c182b37",
+      "disposition": "consolidated-or-omitted",
+      "reason": "Italian narrative or superseded community-label table consolidated in English topic/history guides; original privately backed up.",
+      "current_reference": "research/EXPERIMENT_HISTORY.md"
+    },
+    {
+      "original_path": "research/galaxy-preset-form-links.csv",
+      "original_sha256": "dae320437b99bb7c0f2a74fecdfc7f552c6989893751bbf599fd7d3c67a7a6a9",
+      "disposition": "retained",
+      "reason": "Original structured evidence, catalog or readable report retained with its historical scope.",
+      "current_reference": "research/galaxy-preset-form-links.csv"
+    },
+    {
+      "original_path": "research/ITEM_LIST_EN.html",
+      "original_sha256": "d34c04d7e0d795ccd74f3c2a9715eec2593f86c2b5cb7cf714713a582759c2da",
+      "disposition": "consolidated-or-omitted",
+      "reason": "Duplicate generated/earlier presentation omitted; corrected English guide and topic summaries retained.",
+      "current_reference": "research/EXPERIMENT_HISTORY.md"
+    },
+    {
+      "original_path": "research/KB07B-manifest.json",
+      "original_sha256": "c809bf89e0d44824d6697bf9d1843a644ad6e29c7e512d644497935a743c9623",
+      "disposition": "retained",
+      "reason": "Original structured evidence, catalog or readable report retained with its historical scope.",
+      "current_reference": "research/KB07B-manifest.json"
+    },
+    {
+      "original_path": "research/NATIVE_FORM_SLOTS_BLES00978.csv",
+      "original_sha256": "15a2a8f14fef490b883509f8f709ca166568886022ad3074482cd230a499e316",
+      "disposition": "retained",
+      "reason": "Original structured evidence, catalog or readable report retained with its historical scope.",
+      "current_reference": "research/NATIVE_FORM_SLOTS_BLES00978.csv"
+    },
+    {
+      "original_path": "research/RISULTATI_E_GUIDA.md",
+      "original_sha256": "7b0da3b8a229e769c2dc14671c55dd22aee1ead3ace19a16d496b8b23956af41",
+      "disposition": "consolidated-or-omitted",
+      "reason": "Italian narrative or superseded community-label table consolidated in English topic/history guides; original privately backed up.",
+      "current_reference": "research/EXPERIMENT_HISTORY.md"
+    },
+    {
+      "original_path": "research/original-flow-item-usage.json",
+      "original_sha256": "8e41742fd8fd775300b6746da83eea995786479ee74f36d470cbbde3fc025365",
+      "disposition": "retained",
+      "reason": "Original structured evidence, catalog or readable report retained with its historical scope.",
+      "current_reference": "research/original-flow-item-usage.json"
+    },
+    {
+      "original_path": "research/GALAXY_MODDING_BEGINNER_GUIDE_EN_V2.md",
+      "original_sha256": "35620b7197fff35cb3df73fa83168ec7c81622d900a765464e313322de75210b",
+      "disposition": "retained-with-current-status-guidance",
+      "reason": "Original structured evidence, catalog or readable report retained with its historical scope.",
+      "current_reference": "research/GALAXY_MODDING_BEGINNER_GUIDE_EN_V2.md"
+    },
+    {
+      "original_path": "research/KB15B-manifest.json",
+      "original_sha256": "f46b6ec1ef09ffc2cda0cbf43cc131bba76abd13514cb38646e379984f4eb36e",
+      "disposition": "retained",
+      "reason": "Original structured evidence, catalog or readable report retained with its historical scope.",
+      "current_reference": "research/KB15B-manifest.json"
+    },
+    {
+      "original_path": "research/property-metadata-selected.json",
+      "original_sha256": "016bf82ef4252d76a79cea158817074e97349c8496fc38947e67d5888551cbe9",
+      "disposition": "retained",
+      "reason": "Original structured evidence, catalog or readable report retained with its historical scope.",
+      "current_reference": "research/property-metadata-selected.json"
+    },
+    {
+      "original_path": "research/kb08a-runtime-controlled.json",
+      "original_sha256": "3e79071c1d5bb807d729235ed6866b3fcbdc72ac8e76c80ccfc689b8781d49be",
+      "disposition": "retained",
+      "reason": "Original structured evidence, catalog or readable report retained with its historical scope.",
+      "current_reference": "research/kb08a-runtime-controlled.json"
+    },
+    {
+      "original_path": "research/kb13a-v0-switch-after-recross.json",
+      "original_sha256": "19d16c883a0abb5a6fc8ecd84a489f69d6430040430f6b162969449a1e5db3cd",
+      "disposition": "retained",
+      "reason": "Original structured evidence, catalog or readable report retained with its historical scope.",
+      "current_reference": "research/kb13a-v0-switch-after-recross.json"
+    },
+    {
+      "original_path": "research/ram-findings.json",
+      "original_sha256": "69bf74857f8b2baeae345bd39b26597a9760a84e84247ea86e8fe3a60ddee4b5",
+      "disposition": "retained",
+      "reason": "Original structured evidence, catalog or readable report retained with its historical scope.",
+      "current_reference": "research/ram-findings.json"
+    },
+    {
+      "original_path": "research/kb13a-v2-request-after-recross.json",
+      "original_sha256": "9dadb83858040d852b405e7f1453aa19be664a3b13c5e1542d6acefcff382f8f",
+      "disposition": "retained",
+      "reason": "Original structured evidence, catalog or readable report retained with its historical scope.",
+      "current_reference": "research/kb13a-v2-request-after-recross.json"
+    },
+    {
+      "original_path": "research/RAM_BATTAGLIA_E_KB02.md",
+      "original_sha256": "2cecaa2038e364cbca5da5f2be994da85a9a2f8747fa1f7da9c29afe00f06147",
+      "disposition": "consolidated-or-omitted",
+      "reason": "Italian narrative or superseded community-label table consolidated in English topic/history guides; original privately backed up.",
+      "current_reference": "research/EXPERIMENT_HISTORY.md"
+    },
+    {
+      "original_path": "research/KB05A-manifest.json",
+      "original_sha256": "1079c82e2870eeed2704322e927cfd0d9aed355d2f781aef1a8216ed951b2494",
+      "disposition": "retained",
+      "reason": "Original structured evidence, catalog or readable report retained with its historical scope.",
+      "current_reference": "research/KB05A-manifest.json"
+    },
+    {
+      "original_path": "research/tutorial-presets-decoded.csv",
+      "original_sha256": "053ae78f771056b3862f15b4a45d6ad208682ac1e3c603254a8ae993bd543423",
+      "disposition": "retained",
+      "reason": "Original structured evidence, catalog or readable report retained with its historical scope.",
+      "current_reference": "research/tutorial-presets-decoded.csv"
+    },
+    {
+      "original_path": "research/item-localization-provenance.json",
+      "original_sha256": "6a0765ee0e4fe7dd367b73931300ddcc6b9716d056ec09a409307dba8fdde490",
+      "disposition": "retained",
+      "reason": "Original structured evidence, catalog or readable report retained with its historical scope.",
+      "current_reference": "research/item-localization-provenance.json"
+    },
+    {
+      "original_path": "research/advanced/GALAXY_OBJECTIVE_TYPES_EN.csv",
+      "original_sha256": "eb4a546d4bd7417c53c18439284d522aae35967037350c77a72a927e8a67b472",
+      "disposition": "retained",
+      "reason": "Original structured evidence, catalog or readable report retained with its historical scope.",
+      "current_reference": "research/advanced/GALAXY_OBJECTIVE_TYPES_EN.csv"
+    },
+    {
+      "original_path": "research/advanced/ADV18C-new-mission-started.png",
+      "original_sha256": "2b8f3afede639fe8e8f67b31e38328ea56c562a31202d86cf74cd5291801cf73",
+      "disposition": "retained",
+      "reason": "Original structured evidence, catalog or readable report retained with its historical scope.",
+      "current_reference": "research/advanced/ADV18C-new-mission-started.png"
+    },
+    {
+      "original_path": "research/advanced/ADDITIONAL_NATIVE_EVIDENCE.txt",
+      "original_sha256": "cd8e72f5a906d11178da14a7a38aee5f7f472e03646f7cebd2bc5daa32a2432e",
+      "disposition": "retained",
+      "reason": "Original structured evidence, catalog or readable report retained with its historical scope.",
+      "current_reference": "research/advanced/ADDITIONAL_NATIVE_EVIDENCE.txt"
+    },
+    {
+      "original_path": "research/advanced/GALAXY_UNLOCK_OR_QUERY_LISTS.csv",
+      "original_sha256": "7190f35140f4aadb3214e63e9fce644a5c78b840e5279f28cd9cbb26f478c4ce",
+      "disposition": "retained",
+      "reason": "Original structured evidence, catalog or readable report retained with its historical scope.",
+      "current_reference": "research/advanced/GALAXY_UNLOCK_OR_QUERY_LISTS.csv"
+    },
+    {
+      "original_path": "research/advanced/OPTIONAL_ACTION_PROMPTS_EN.md",
+      "original_sha256": "ca770a60bc9fa9c54e2d7de9a49c181107444a7318e3a30169ac441f475ba805",
+      "disposition": "retained",
+      "reason": "Original structured evidence, catalog or readable report retained with its historical scope.",
+      "current_reference": "research/advanced/OPTIONAL_ACTION_PROMPTS_EN.md"
+    },
+    {
+      "original_path": "research/advanced/NATIVE_CHARACTER_IDS_EN.csv",
+      "original_sha256": "4c9a3dfa60f8fa3b4f4f65200b7f8c6e5ef88c3d636a4971528dc13bc1ec5c6b",
+      "disposition": "retained",
+      "reason": "Original structured evidence, catalog or readable report retained with its historical scope.",
+      "current_reference": "research/advanced/NATIVE_CHARACTER_IDS_EN.csv"
+    },
+    {
+      "original_path": "research/advanced/BZ01-battle-actors.json",
+      "original_sha256": "2105bcfac68f56f91a231815577cb29564a44506f998b1e7e2c6c605493e035a",
+      "disposition": "retained",
+      "reason": "Original structured evidence, catalog or readable report retained with its historical scope.",
+      "current_reference": "research/advanced/BZ01-battle-actors.json"
+    },
+    {
+      "original_path": "research/advanced/ADV18B-old-boss-with-ally.png",
+      "original_sha256": "c6462b0116bfb6d7f8ca00584d8d49142d3e2b5f20acb8a8b482b224bfbf7f60",
+      "disposition": "retained",
+      "reason": "Original structured evidence, catalog or readable report retained with its historical scope.",
+      "current_reference": "research/advanced/ADV18B-old-boss-with-ally.png"
+    },
+    {
+      "original_path": "research/advanced/ADV18E-battle-config-and-actors.json",
+      "original_sha256": "789413ab9cd824e1c21a120c5b87d08dc210ed01a004c2f8d1428f7e3859dd9a",
+      "disposition": "retained",
+      "reason": "Original structured evidence, catalog or readable report retained with its historical scope.",
+      "current_reference": "research/advanced/ADV18E-battle-config-and-actors.json"
+    },
+    {
+      "original_path": "research/advanced/BATTLE_ZONE_PRESETS_NORMAL.csv",
+      "original_sha256": "419baa6a42e12c08cbf4e37815fb592adccb81a9cf701522b07d6046ee23761b",
+      "disposition": "retained",
+      "reason": "Original structured evidence, catalog or readable report retained with its historical scope.",
+      "current_reference": "research/advanced/BATTLE_ZONE_PRESETS_NORMAL.csv"
+    },
+    {
+      "original_path": "research/advanced/TUTORIAL_ALLY_CANDIDATES_EN.csv",
+      "original_sha256": "a7fe19efa48f5cc4674bb7497257670d3a88eddb769040d78e1ce18a701e788b",
+      "disposition": "retained",
+      "reason": "Original structured evidence, catalog or readable report retained with its historical scope.",
+      "current_reference": "research/advanced/TUTORIAL_ALLY_CANDIDATES_EN.csv"
+    },
+    {
+      "original_path": "research/advanced/PROGRESS_AFS_PRESERVATION_CHECK.json",
+      "original_sha256": "750f6bfaf5e6b86c158dd0270e99a920c0a39fe003a37de7489c580726183f76",
+      "disposition": "retained",
+      "reason": "Original structured evidence, catalog or readable report retained with its historical scope.",
+      "current_reference": "research/advanced/PROGRESS_AFS_PRESERVATION_CHECK.json"
+    },
+    {
+      "original_path": "research/advanced/GALAXY_RULE_FIELDS_ORIGINAL.csv",
+      "original_sha256": "0eabcb96b7b7e5844fc82bd7309796c57613783baa140e9df5f55074ff45d210",
+      "disposition": "retained",
+      "reason": "Original structured evidence, catalog or readable report retained with its historical scope.",
+      "current_reference": "research/advanced/GALAXY_RULE_FIELDS_ORIGINAL.csv"
+    },
+    {
+      "original_path": "research/advanced/BZ01-live-preset-table-selection.json",
+      "original_sha256": "1605fad836ee1e9996eeddafa86d3c50e45673addee61391d4357704107dfba8",
+      "disposition": "retained",
+      "reason": "Original structured evidence, catalog or readable report retained with its historical scope.",
+      "current_reference": "research/advanced/BZ01-live-preset-table-selection.json"
+    },
+    {
+      "original_path": "research/advanced/GALAXY_ADVANCED_RESEARCH_EN.md",
+      "original_sha256": "6f52ded1aa3ecb15d771c124ec3de1296011a094411c54cdc29de94d0e024567",
+      "disposition": "retained",
+      "reason": "Original structured evidence, catalog or readable report retained with its historical scope.",
+      "current_reference": "research/advanced/GALAXY_ADVANCED_RESEARCH_EN.md"
+    },
+    {
+      "original_path": "research/advanced/ADV18E-cold-reload-record-persisted.png",
+      "original_sha256": "b12a12cd11d53f4892334781a80eb1e53e7c506c25b9f0a0a61dc5220d8120c9",
+      "disposition": "retained",
+      "reason": "Original structured evidence, catalog or readable report retained with its historical scope.",
+      "current_reference": "research/advanced/ADV18E-cold-reload-record-persisted.png"
+    },
+    {
+      "original_path": "research/advanced/ELF_EVIDENCE_ADVANCED.json",
+      "original_sha256": "884ce8d4d34d356513461577a8cf6981392271d7c34ac300e3e7ccb85ec35ced",
+      "disposition": "retained",
+      "reason": "Original structured evidence, catalog or readable report retained with its historical scope.",
+      "current_reference": "research/advanced/ELF_EVIDENCE_ADVANCED.json"
+    },
+    {
+      "original_path": "research/advanced/EXECUTABLE_UNCHANGED.json",
+      "original_sha256": "0a993d5c549a51430b85b4181be643c7655f938fdc68f6aeaa375b748041773b",
+      "disposition": "retained",
+      "reason": "Original structured evidence, catalog or readable report retained with its historical scope.",
+      "current_reference": "research/advanced/EXECUTABLE_UNCHANGED.json"
+    },
+    {
+      "original_path": "research/advanced/ADV18C-new-mission-selected.png",
+      "original_sha256": "80cf9ee33e3ff589835ddeb9ae8023ffb973db6808dbcd233d2747feeb5011a0",
+      "disposition": "retained",
+      "reason": "Original structured evidence, catalog or readable report retained with its historical scope.",
+      "current_reference": "research/advanced/ADV18C-new-mission-selected.png"
+    },
+    {
+      "original_path": "research/advanced/BATTLE_ZONE_HANDICAP_CODES_EN.csv",
+      "original_sha256": "b6eda0eb34cd828419ee880edcfee67d5c4b5e777b8d77a36ada87de9d25c087",
+      "disposition": "retained",
+      "reason": "Original structured evidence, catalog or readable report retained with its historical scope.",
+      "current_reference": "research/advanced/BATTLE_ZONE_HANDICAP_CODES_EN.csv"
+    },
+    {
+      "original_path": "research/advanced/ADV18E-live-file-identity.json",
+      "original_sha256": "4364dca9e28c64699d43ed67f10872d96caa51d5c1291004b84f983744650633",
+      "disposition": "retained",
+      "reason": "Original structured evidence, catalog or readable report retained with its historical scope.",
+      "current_reference": "research/advanced/ADV18E-live-file-identity.json"
+    },
+    {
+      "original_path": "research/advanced/EXTRA_STATIC_VALIDATION.json",
+      "original_sha256": "00861d1d397ce3aeb5a7fa2dfdf1347a74c4bb2ca44b6ee2a90ba32a0b0f339f",
+      "disposition": "retained",
+      "reason": "Original structured evidence, catalog or readable report retained with its historical scope.",
+      "current_reference": "research/advanced/EXTRA_STATIC_VALIDATION.json"
+    },
+    {
+      "original_path": "research/advanced/ADV18E-action-victory-result.png",
+      "original_sha256": "cf755558a06339a2662b7fd79c0b61ab440324be4a6b5c3570324f7330862078",
+      "disposition": "retained",
+      "reason": "Original structured evidence, catalog or readable report retained with its historical scope.",
+      "current_reference": "research/advanced/ADV18E-action-victory-result.png"
+    },
+    {
+      "original_path": "research/advanced/ADV18C-battle-actors.json",
+      "original_sha256": "d96890ba980e89065331ab1bbd1cc7dcc62162f53ba8d4384a5a5fadc3bc5353",
+      "disposition": "retained",
+      "reason": "Original structured evidence, catalog or readable report retained with its historical scope.",
+      "current_reference": "research/advanced/ADV18C-battle-actors.json"
+    },
+    {
+      "original_path": "research/advanced/GALAXY_PROGRESSION_EXPRESSIONS.csv",
+      "original_sha256": "a1ac28271c162dba875af62cea004134cfb868d719f601ba8f3ec691de088654",
+      "disposition": "retained",
+      "reason": "Original structured evidence, catalog or readable report retained with its historical scope.",
+      "current_reference": "research/advanced/GALAXY_PROGRESSION_EXPRESSIONS.csv"
+    },
+    {
+      "original_path": "research/advanced/ADV18E-cold-reload-100-percent.png",
+      "original_sha256": "3f1e258c41492d3aaf05ce537269fb83b618296ce05f6b3d11312c7c47fb99c9",
+      "disposition": "retained",
+      "reason": "Original structured evidence, catalog or readable report retained with its historical scope.",
+      "current_reference": "research/advanced/ADV18E-cold-reload-100-percent.png"
+    },
+    {
+      "original_path": "research/advanced/OPTIONAL_ACTION_PROMPTS_EN.json",
+      "original_sha256": "a56150bd92f04b654afc547171be32b607dba5a301675a12677cc1335771bfc0",
+      "disposition": "retained",
+      "reason": "Original structured evidence, catalog or readable report retained with its historical scope.",
+      "current_reference": "research/advanced/OPTIONAL_ACTION_PROMPTS_EN.json"
+    },
+    {
+      "original_path": "research/advanced/ADV18E-after-action-victory-actors.json",
+      "original_sha256": "6314357020843c00806389ffaf7ad4c7dec1f3c8cbe93d3492568ed8ca53dc19",
+      "disposition": "retained",
+      "reason": "Original structured evidence, catalog or readable report retained with its historical scope.",
+      "current_reference": "research/advanced/ADV18E-after-action-victory-actors.json"
+    },
+    {
+      "original_path": "research/advanced/ADV18E-new-action-mission-selected.png",
+      "original_sha256": "b21690976584cd4ddb7040650fda1e034f77858f171786c6dc6c92619fdfd3ce",
+      "disposition": "retained",
+      "reason": "Original structured evidence, catalog or readable report retained with its historical scope.",
+      "current_reference": "research/advanced/ADV18E-new-action-mission-selected.png"
+    },
+    {
+      "original_path": "research/advanced/BATTLE_ZONE_CHALLENGE_STAMP_CRITERIA_EN.csv",
+      "original_sha256": "98e03636cca7010e2d9d42ec22119b9d3d2f129ea5e14eb44da9ec110ffaa92f",
+      "disposition": "retained",
+      "reason": "Original structured evidence, catalog or readable report retained with its historical scope.",
+      "current_reference": "research/advanced/BATTLE_ZONE_CHALLENGE_STAMP_CRITERIA_EN.csv"
+    },
+    {
+      "original_path": "research/advanced/STATIC_EXPORT_VALIDATION.json",
+      "original_sha256": "dfe1081308ab83390eff8902bb1f0415dd57eb5ca3d9241129652bd9ecfb85d9",
+      "disposition": "retained",
+      "reason": "Original structured evidence, catalog or readable report retained with its historical scope.",
+      "current_reference": "research/advanced/STATIC_EXPORT_VALIDATION.json"
+    },
+    {
+      "original_path": "research/advanced/BATTLE_ZONE_MISSIONS_ORIGINAL.csv",
+      "original_sha256": "d0f809954e4f3e95040806b6e02c94cd497feb0450f729fb8071ff021605fb52",
+      "disposition": "retained",
+      "reason": "Original structured evidence, catalog or readable report retained with its historical scope.",
+      "current_reference": "research/advanced/BATTLE_ZONE_MISSIONS_ORIGINAL.csv"
+    },
+    {
+      "original_path": "research/advanced/RUNTIME_VALIDATION.json",
+      "original_sha256": "3e7dff678d2852543e0af6d0cbc5b0f451c9e5489e8e0fbef65d81eb2b996b52",
+      "disposition": "retained",
+      "reason": "Original structured evidence, catalog or readable report retained with its historical scope.",
+      "current_reference": "research/advanced/RUNTIME_VALIDATION.json"
+    },
+    {
+      "original_path": "research/advanced/TUTORIAL_HELP_TEXT_IDS_EN.csv",
+      "original_sha256": "025c5582599499c6187cf87d08fb963162b3e0caeafc5aa460b647ca450f8656",
+      "disposition": "retained",
+      "reason": "Original structured evidence, catalog or readable report retained with its historical scope.",
+      "current_reference": "research/advanced/TUTORIAL_HELP_TEXT_IDS_EN.csv"
+    },
+    {
+      "original_path": "research/advanced/GALAXY_ADVANCED_RESEARCH_EN.html",
+      "original_sha256": "7d5daad370552103f54bd2d93354d744fee0c1839578e9089e64c50bef433fd7",
+      "disposition": "consolidated-or-omitted",
+      "reason": "Duplicate generated/earlier presentation omitted; corrected English guide and topic summaries retained.",
+      "current_reference": "research/EXPERIMENT_HISTORY.md"
+    },
+    {
+      "original_path": "research/advanced/README_IT.md",
+      "original_sha256": "f487d365705345543932141980a147f9897b721e4109d591a86159137d183154",
+      "disposition": "consolidated-or-omitted",
+      "reason": "Italian narrative or superseded community-label table consolidated in English topic/history guides; original privately backed up.",
+      "current_reference": "research/EXPERIMENT_HISTORY.md"
+    },
+    {
+      "original_path": "research/advanced/LOCAL_MOVE_IDS_EN.csv",
+      "original_sha256": "f86c6a35e9497311782e064be7ef7fc9a5bc033d1b7b7b6411834a9277171702",
+      "disposition": "retained",
+      "reason": "Original structured evidence, catalog or readable report retained with its historical scope.",
+      "current_reference": "research/advanced/LOCAL_MOVE_IDS_EN.csv"
+    },
+    {
+      "original_path": "research/advanced/PROFILE_SAVE_RESTORED.json",
+      "original_sha256": "2a52928e03e7023c5e40d5e69c3fdcd479eb0aa320ff2589cc42e5e457c26170",
+      "disposition": "retained",
+      "reason": "Original structured evidence, catalog or readable report retained with its historical scope.",
+      "current_reference": "research/advanced/PROFILE_SAVE_RESTORED.json"
+    },
+    {
+      "original_path": "research/advanced/PREVIOUS_DELIVERABLES_UNCHANGED.json",
+      "original_sha256": "767a372bfc979701484e7fe8cf3b44173f83b60b34fb8e2115d24b94df606634",
+      "disposition": "retained",
+      "reason": "Original structured evidence, catalog or readable report retained with its historical scope.",
+      "current_reference": "research/advanced/PREVIOUS_DELIVERABLES_UNCHANGED.json"
+    },
+    {
+      "original_path": "research/advanced/ADV18E-COLD_RELOAD_PERSISTENCE.json",
+      "original_sha256": "b961a1077817da9186e87b196cb4975c00cf89438dba7aaf4905494fe9136435",
+      "disposition": "retained",
+      "reason": "Original structured evidence, catalog or readable report retained with its historical scope.",
+      "current_reference": "research/advanced/ADV18E-COLD_RELOAD_PERSISTENCE.json"
+    },
+    {
+      "original_path": "research/advanced/ADV18E-ARCHIVE_MANIFEST.json",
+      "original_sha256": "10acb64ac5c9fcadf2a1e33a8d4c759469fb66045e5ed6c5c4bd87cb842502ec",
+      "disposition": "retained",
+      "reason": "Original structured evidence, catalog or readable report retained with its historical scope.",
+      "current_reference": "research/advanced/ADV18E-ARCHIVE_MANIFEST.json"
+    },
+    {
+      "original_path": "research/advanced/BATTLE_ZONE_REWARD_RECORDS.csv",
+      "original_sha256": "2b4fc708da2c8488c9375d683ef88aacbc26df8cb5a7a6559776fbbc80f62ac7",
+      "disposition": "retained",
+      "reason": "Original structured evidence, catalog or readable report retained with its historical scope.",
+      "current_reference": "research/advanced/BATTLE_ZONE_REWARD_RECORDS.csv"
+    },
+    {
+      "original_path": "research/advanced/GALAXY_ALLY_CANDIDATES_EN.csv",
+      "original_sha256": "4eb28bbd43f8d11f4f5c9ac2b3652fec5a5af6e539ecfe8cfe7d1389bcfe4cf8",
+      "disposition": "retained",
+      "reason": "Original structured evidence, catalog or readable report retained with its historical scope.",
+      "current_reference": "research/advanced/GALAXY_ALLY_CANDIDATES_EN.csv"
+    },
+    {
+      "original_path": "research/advanced/GALAXY_RULE_DESCRIPTION_TEXTS_EN.csv",
+      "original_sha256": "afb55c2813694eb127f849e4c0918ca3cfceb07387878fe5df7945e8dabd238c",
+      "disposition": "retained",
+      "reason": "Original structured evidence, catalog or readable report retained with its historical scope.",
+      "current_reference": "research/advanced/GALAXY_RULE_DESCRIPTION_TEXTS_EN.csv"
+    },
+    {
+      "original_path": "research/advanced/BATTLE_ZONE_PRESETS_ULTIMATE.csv",
+      "original_sha256": "0b94e58c6158962ce649df8a7d350f0601028a0c9bb0521e1b960a3e4cb268ee",
+      "disposition": "retained",
+      "reason": "Original structured evidence, catalog or readable report retained with its historical scope.",
+      "current_reference": "research/advanced/BATTLE_ZONE_PRESETS_ULTIMATE.csv"
+    },
+    {
+      "original_path": "research/advanced/ADV18C-battle-config.json",
+      "original_sha256": "87ccd303da753e75e624618230e4a1a6784b12c532131e036c237b6e42e7f47c",
+      "disposition": "retained",
+      "reason": "Original structured evidence, catalog or readable report retained with its historical scope.",
+      "current_reference": "research/advanced/ADV18C-battle-config.json"
+    },
+    {
+      "original_path": "research/advanced/ADV18E-save-file-check.json",
+      "original_sha256": "dac730b6f49d2134d44344a9e970d029f2e907670471319782d21c5f43c4f4f5",
+      "disposition": "retained",
+      "reason": "Original structured evidence, catalog or readable report retained with its historical scope.",
+      "current_reference": "research/advanced/ADV18E-save-file-check.json"
+    },
+    {
+      "original_path": "research/advanced/OFFLINE_TEST_RESULTS.txt",
+      "original_sha256": "57c642ced145c8c53cdd3d407dc1299ade504e87445af67c5d217c3445703d29",
+      "disposition": "retained",
+      "reason": "Original structured evidence, catalog or readable report retained with its historical scope.",
+      "current_reference": "research/advanced/OFFLINE_TEST_RESULTS.txt"
+    },
+    {
+      "original_path": "research/advanced/ADV18E-cold-reload-save-loaded.png",
+      "original_sha256": "e3ad01e1a67b5c5f3897a23b5d7ea6d6288152fabb0fc6803aa3d059df3e2b33",
+      "disposition": "retained",
+      "reason": "Original structured evidence, catalog or readable report retained with its historical scope.",
+      "current_reference": "research/advanced/ADV18E-cold-reload-save-loaded.png"
+    },
+    {
+      "original_path": "research/advanced/ADV18B-galaxy-90-percent.png",
+      "original_sha256": "768b831382e85b6702069d2c06231edd1fe30d29ceb5a69cf9c75684a9e85df8",
+      "disposition": "retained",
+      "reason": "Original structured evidence, catalog or readable report retained with its historical scope.",
+      "current_reference": "research/advanced/ADV18B-galaxy-90-percent.png"
+    },
+    {
+      "original_path": "research/advanced/MISSION_JUST_ACTION_SEQUENCES_EN.csv",
+      "original_sha256": "d5fb45427afe0d61532deedf8cf9479f2bd9f4d4d3d59cc12a659538ef9f64e1",
+      "disposition": "retained",
+      "reason": "Original structured evidence, catalog or readable report retained with its historical scope.",
+      "current_reference": "research/advanced/MISSION_JUST_ACTION_SEQUENCES_EN.csv"
+    },
+    {
+      "original_path": "research/advanced/README_IT.html",
+      "original_sha256": "3c7733c93baa8dac8f0d8da39fd969a96a90097e6b2907598bef9438c1fb0d38",
+      "disposition": "consolidated-or-omitted",
+      "reason": "Duplicate generated/earlier presentation omitted; corrected English guide and topic summaries retained.",
+      "current_reference": "research/EXPERIMENT_HISTORY.md"
+    },
+    {
+      "original_path": "research/advanced/CSV_ROW_COUNTS.json",
+      "original_sha256": "54ba61ff7620c35e53713851ce17b349720f18d84472298a7e9217c70b14fd23",
+      "disposition": "retained",
+      "reason": "Original structured evidence, catalog or readable report retained with its historical scope.",
+      "current_reference": "research/advanced/CSV_ROW_COUNTS.json"
+    },
+    {
+      "original_path": "research/advanced/BZ01-first-fight-intro.png",
+      "original_sha256": "0b0cbe98746a311bacb03aa97c817581f6e66f17524ff794fef473cf498ffbda",
+      "disposition": "retained",
+      "reason": "Original structured evidence, catalog or readable report retained with its historical scope.",
+      "current_reference": "research/advanced/BZ01-first-fight-intro.png"
+    },
+    {
+      "original_path": "research/advanced/ADV18E-node-progress-flags.json",
+      "original_sha256": "ad1caefc499c91b0b12e22b7317175bb4e32e69f86d82dbbfd8a6883592b18ca",
+      "disposition": "retained",
+      "reason": "Original structured evidence, catalog or readable report retained with its historical scope.",
+      "current_reference": "research/advanced/ADV18E-node-progress-flags.json"
+    },
+    {
+      "original_path": "research/advanced/JUST_ACTION_TEXT_IDS_EN.csv",
+      "original_sha256": "ad6f0d82a2d78dac7c60b7f9665221a07c57311d8a0b4691bf27ce938dac1fcc",
+      "disposition": "retained",
+      "reason": "Original structured evidence, catalog or readable report retained with its historical scope.",
+      "current_reference": "research/advanced/JUST_ACTION_TEXT_IDS_EN.csv"
+    },
+    {
+      "original_path": "research/advanced/ADV18E-new-node-completed-on-map.png",
+      "original_sha256": "a8a7f30730db932208421f228486d2c6c51fa078e1853d7d74640a16a0f61478",
+      "disposition": "retained",
+      "reason": "Original structured evidence, catalog or readable report retained with its historical scope.",
+      "current_reference": "research/advanced/ADV18E-new-node-completed-on-map.png"
+    },
+    {
+      "original_path": "research/KB13_SETUP_COMPLETO.md",
+      "original_sha256": "d39e7d989e478dda60f2517260ecc9e8b054a942cd1b8baaafe1f562d6cc4960",
+      "disposition": "consolidated-or-omitted",
+      "reason": "Italian narrative or superseded community-label table consolidated in English topic/history guides; original privately backed up.",
+      "current_reference": "research/EXPERIMENT_HISTORY.md"
+    },
+    {
+      "original_path": "research/kb11a-runtime-controlled.json",
+      "original_sha256": "b7fd39861a9b82cea6dd853c08e302bc0bfb97c202de6d2e9001a624d598d0f5",
+      "disposition": "retained",
+      "reason": "Original structured evidence, catalog or readable report retained with its historical scope.",
+      "current_reference": "research/kb11a-runtime-controlled.json"
+    },
+    {
+      "original_path": "research/kb15a-initial.json",
+      "original_sha256": "5cbc5e0f587fb5daec54220ebfaa15c40156d4fb49d35c4a720f59033addd231",
+      "disposition": "retained",
+      "reason": "Original structured evidence, catalog or readable report retained with its historical scope.",
+      "current_reference": "research/kb15a-initial.json"
+    },
+    {
+      "original_path": "research/KB17A-manifest.json",
+      "original_sha256": "58b9eee61dd756453e4f0ba9a723076b7985f3796d0566b5a72779e204ca14fa",
+      "disposition": "retained",
+      "reason": "Original structured evidence, catalog or readable report retained with its historical scope.",
+      "current_reference": "research/KB17A-manifest.json"
+    },
+    {
+      "original_path": "research/KB03X-manifest.json",
+      "original_sha256": "1da10020ca73e80a54a92e5f440f640eda8f871f5a2d8a5562c422cdf35a5081",
+      "disposition": "retained",
+      "reason": "Original structured evidence, catalog or readable report retained with its historical scope.",
+      "current_reference": "research/KB03X-manifest.json"
+    },
+    {
+      "original_path": "research/studio-v02/RELEASE_STATUS.json",
+      "original_sha256": "c03f99405eb54c86bb8a8d4d3a1629628d9b58c6d883ebf9cd6b49f33f188784",
+      "disposition": "retained",
+      "reason": "Original structured evidence, catalog or readable report retained with its historical scope.",
+      "current_reference": "research/studio-v02/RELEASE_STATUS.json"
+    },
+    {
+      "original_path": "research/studio-v02/PROGRESSION_AND_MODIFIERS_EN.md",
+      "original_sha256": "b430ddd879240fca165e1766e21d515a18ef5f150b2389c61df16ebe32c9ba50",
+      "disposition": "retained-with-current-status-guidance",
+      "reason": "Original structured evidence, catalog or readable report retained with its historical scope.",
+      "current_reference": "research/studio-v02/PROGRESSION_AND_MODIFIERS_EN.md"
+    },
+    {
+      "original_path": "research/studio-v02/PROGRESSION_REFERENCE.json",
+      "original_sha256": "bd2acfa142aca8c34bf622c7c0c656c12c59799fe265065a1952cd851dadf250",
+      "disposition": "retained",
+      "reason": "Original structured evidence, catalog or readable report retained with its historical scope.",
+      "current_reference": "research/studio-v02/PROGRESSION_REFERENCE.json"
+    },
+    {
+      "original_path": "research/KB14A-manifest.json",
+      "original_sha256": "318c8285f34086f11a31670f654f64cfe626a9d25d5c3fea3492860e521c382f",
+      "disposition": "retained",
+      "reason": "Original structured evidence, catalog or readable report retained with its historical scope.",
+      "current_reference": "research/KB14A-manifest.json"
+    },
+    {
+      "original_path": "research/kb13a-g0-switch-after-recross.json",
+      "original_sha256": "d1df344d1299f926b9d33291567510ef9717c903c37074e163137c21ed65a1b2",
+      "disposition": "retained",
+      "reason": "Original structured evidence, catalog or readable report retained with its historical scope.",
+      "current_reference": "research/kb13a-g0-switch-after-recross.json"
+    },
+    {
+      "original_path": "research/kb11d-runtime-controlled.json",
+      "original_sha256": "b3aca91cda7046719a46c599792c1b480d8f4abe521daa3fddba904889fd5e19",
+      "disposition": "retained",
+      "reason": "Original structured evidence, catalog or readable report retained with its historical scope.",
+      "current_reference": "research/kb11d-runtime-controlled.json"
+    },
+    {
+      "original_path": "research/kb11c-rsp-evidence.jsonl",
+      "original_sha256": "b64d99a99f64c75dc0a6eb3484e868cbd188964f7957bb9d46348fee98bd2cb6",
+      "disposition": "retained",
+      "reason": "Original structured evidence, catalog or readable report retained with its historical scope.",
+      "current_reference": "research/kb11c-rsp-evidence.jsonl"
+    },
+    {
+      "original_path": "research/g12a-rsp-evidence.jsonl",
+      "original_sha256": "e9d5c5cf4308282fd7942cb205ae072e7282ac9190ad50ad5ff06c7d38dfdcee",
+      "disposition": "retained",
+      "reason": "Original structured evidence, catalog or readable report retained with its historical scope.",
+      "current_reference": "research/g12a-rsp-evidence.jsonl"
+    },
+    {
+      "original_path": "research/kb10b-runtime-controlled.json",
+      "original_sha256": "58d6a38c60a0cf2774e53a4c3f22ef93d2a61230290d0ea6d95170e6279908bd",
+      "disposition": "retained",
+      "reason": "Original structured evidence, catalog or readable report retained with its historical scope.",
+      "current_reference": "research/kb10b-runtime-controlled.json"
+    },
+    {
+      "original_path": "research/battle-132126-findings.json",
+      "original_sha256": "113cc632ef0a092df1db7cb8850657472ab80fe362b3f6542b776f503d01874f",
+      "disposition": "retained",
+      "reason": "Original structured evidence, catalog or readable report retained with its historical scope.",
+      "current_reference": "research/battle-132126-findings.json"
+    },
+    {
+      "original_path": "research/CONFRONTO_GOHAN_GOKU_DOPO_KB03X.md",
+      "original_sha256": "3325fcffd5c74c25313fdfbbd0fbcb276ef503dced3fe8f892cfe7513ab9bd9f",
+      "disposition": "consolidated-or-omitted",
+      "reason": "Italian narrative or superseded community-label table consolidated in English topic/history guides; original privately backed up.",
+      "current_reference": "research/EXPERIMENT_HISTORY.md"
+    },
+    {
+      "original_path": "research/KB16A_ROSTER_E_NESSUN_CAMBIO.md",
+      "original_sha256": "fc25849364475f6ad96d615b8a669f1b41c32139b87f7a605d5474d04f75c00d",
+      "disposition": "consolidated-or-omitted",
+      "reason": "Italian narrative or superseded community-label table consolidated in English topic/history guides; original privately backed up.",
+      "current_reference": "research/EXPERIMENT_HISTORY.md"
+    },
+    {
+      "original_path": "research/kb15b-g0-confirmed.json",
+      "original_sha256": "4dd98681cebd28ec3ef0c37bc7f0f1e81aaec1db5e6f23702052ae7119088a9b",
+      "disposition": "retained",
+      "reason": "Original structured evidence, catalog or readable report retained with its historical scope.",
+      "current_reference": "research/kb15b-g0-confirmed.json"
+    },
+    {
+      "original_path": "research/kb13a-g0-switch-not-yet.json",
+      "original_sha256": "5a9fc5ff7492d51c7588f62fa6c1e2c14b9653dd20106177bf031b4c688118ac",
+      "disposition": "retained",
+      "reason": "Original structured evidence, catalog or readable report retained with its historical scope.",
+      "current_reference": "research/kb13a-g0-switch-not-yet.json"
+    },
+    {
+      "original_path": "research/kb13a-initial.json",
+      "original_sha256": "05f42bbda4fcec678e13c345e47a24551e64549fa6763ac0d2db86d77996e099",
+      "disposition": "retained",
+      "reason": "Original structured evidence, catalog or readable report retained with its historical scope.",
+      "current_reference": "research/kb13a-initial.json"
+    },
+    {
+      "original_path": "research/kb13a-g3-confirmed.json",
+      "original_sha256": "2f568b619260bbde15763a62f94c01d39a289083ae6217f188b1a977b95f8c58",
+      "disposition": "retained",
+      "reason": "Original structured evidence, catalog or readable report retained with its historical scope.",
+      "current_reference": "research/kb13a-g3-confirmed.json"
+    },
+    {
+      "original_path": "research/kb15b-g0-switch-check.json",
+      "original_sha256": "1169cdd109bc9e0ddff7acc8f1773c2987576592ddd6068096e3cfe79a8d4a3d",
+      "disposition": "retained",
+      "reason": "Original structured evidence, catalog or readable report retained with its historical scope.",
+      "current_reference": "research/kb15b-g0-switch-check.json"
+    },
+    {
+      "original_path": "research/kb11b-rsp-evidence.jsonl",
+      "original_sha256": "f4eaf48fa8c816b3fc266819b2f16aa23ec2cd583bce31651cfdb52839bfe766",
+      "disposition": "retained",
+      "reason": "Original structured evidence, catalog or readable report retained with its historical scope.",
+      "current_reference": "research/kb11b-rsp-evidence.jsonl"
+    },
+    {
+      "original_path": "research/kb15b-g3-cancel-request.json",
+      "original_sha256": "8ad5cafdd4908742538b375d60f302337c9e84063043d4d17c23401e9246a2d8",
+      "disposition": "retained",
+      "reason": "Original structured evidence, catalog or readable report retained with its historical scope.",
+      "current_reference": "research/kb15b-g3-cancel-request.json"
+    },
+    {
+      "original_path": "research/property-metadata-runtime.bin",
+      "original_sha256": "3b696e05fc000d9bbafb68d77f5e68c496a07651cebd1797b85edb90a6453460",
+      "disposition": "consolidated-or-omitted",
+      "reason": "Raw memory blob omitted; selected property metadata and English interpretation retained.",
+      "current_reference": "research/EXPERIMENT_HISTORY.md"
+    },
+    {
+      "original_path": "research/elf-evidence.txt",
+      "original_sha256": "33d0bce661ca7bde5b59193ca248e6a23ee2f22bcb51b74d08ac552ad3241392",
+      "disposition": "retained",
+      "reason": "Original structured evidence, catalog or readable report retained with its historical scope.",
+      "current_reference": "research/elf-evidence.txt"
+    },
+    {
+      "original_path": "research/KB16A-manifest.json",
+      "original_sha256": "25b46133766b5fe3c4d27b0443d4926f53220757df2af34f8e62702ce8ddb9e0",
+      "disposition": "retained",
+      "reason": "Original structured evidence, catalog or readable report retained with its historical scope.",
+      "current_reference": "research/KB16A-manifest.json"
+    },
+    {
+      "original_path": "research/README.md",
+      "original_sha256": "747592949fa61e186c4be65310a3b80c93f358b5f48754181ec183c943c8efeb",
+      "disposition": "retained-with-current-status-guidance",
+      "reason": "Original structured evidence, catalog or readable report retained with its historical scope.",
+      "current_reference": "research/README.md"
+    },
+    {
+      "original_path": "research/g12b-runtime-controlled.json",
+      "original_sha256": "dc163e2d6918ab9bf6c580868289b9b59b740b3f23a9c9ed904e5ba7b3cf0cbc",
+      "disposition": "retained",
+      "reason": "Original structured evidence, catalog or readable report retained with its historical scope.",
+      "current_reference": "research/g12b-runtime-controlled.json"
+    },
+    {
+      "original_path": "research/kb11c-runtime-controlled.json",
+      "original_sha256": "c794b07d815c36a9f5748579555462795adb66b3e1874b60c2377434691221c2",
+      "disposition": "retained",
+      "reason": "Original structured evidence, catalog or readable report retained with its historical scope.",
+      "current_reference": "research/kb11c-runtime-controlled.json"
+    },
+    {
+      "original_path": "research/kb10b-rsp-evidence.jsonl",
+      "original_sha256": "8644b5e6f2f3b0ee84f56360d2fe094b4f9976d9cf93cbc5e39fc5d387e9ce54",
+      "disposition": "retained",
+      "reason": "Original structured evidence, catalog or readable report retained with its historical scope.",
+      "current_reference": "research/kb10b-rsp-evidence.jsonl"
+    },
+    {
+      "original_path": "research/items-italian.csv",
+      "original_sha256": "bd6dd0504640cb5b052b18ecae011e4616eaea62c28cdbfc033faf52a0462eba",
+      "disposition": "consolidated-or-omitted",
+      "reason": "Italian narrative or superseded community-label table consolidated in English topic/history guides; original privately backed up.",
+      "current_reference": "research/EXPERIMENT_HISTORY.md"
+    },
+    {
+      "original_path": "research/galaxy-character-index.csv",
+      "original_sha256": "de79414c71de95a5d083b683aa9e5480ba84de982392068f9aca24dcd03de84a",
+      "disposition": "retained",
+      "reason": "Original structured evidence, catalog or readable report retained with its historical scope.",
+      "current_reference": "research/galaxy-character-index.csv"
+    },
+    {
+      "original_path": "research/limits-20261015/GS512-runtime.json",
+      "original_sha256": "7840c22de6ea20b5a254bc60f5796294f50094896b4024d37f7a2ab1f0320b5c",
+      "disposition": "retained",
+      "reason": "Original structured evidence, catalog or readable report retained with its historical scope.",
+      "current_reference": "research/limits-20261015/GS512-runtime.json"
+    },
+    {
+      "original_path": "research/limits-20261015/GS512_RUNTIME_EN.md",
+      "original_sha256": "b6882053bbfec62b48bdb75903db54854a5c2a30911bbe05a6eb1a69d71c5416",
+      "disposition": "retained-with-current-status-guidance",
+      "reason": "Original structured evidence, catalog or readable report retained with its historical scope.",
+      "current_reference": "research/limits-20261015/GS512_RUNTIME_EN.md"
+    },
+    {
+      "original_path": "research/limits-20261015/M512-511-controlled-finish.json",
+      "original_sha256": "8bc4b9b88b33567d3f6fb92984b58b0c862ca092b572337914eb615967d34eb2",
+      "disposition": "retained",
+      "reason": "Original structured evidence, catalog or readable report retained with its historical scope.",
+      "current_reference": "research/limits-20261015/M512-511-controlled-finish.json"
+    },
+    {
+      "original_path": "research/limits-20261015/character-initialization.txt",
+      "original_sha256": "2666072184a2e2b9700bc5fc2fb64da75c368550f5ff94a9622ec1f92c94961d",
+      "disposition": "retained",
+      "reason": "Original structured evidence, catalog or readable report retained with its historical scope.",
+      "current_reference": "research/limits-20261015/character-initialization.txt"
+    },
+    {
+      "original_path": "research/limits-20261015/initial-unlocks.json",
+      "original_sha256": "e182a256b78460297a50fa60d70a06453c5da32080d28d1ae069522ca76b4891",
+      "disposition": "retained",
+      "reason": "Original structured evidence, catalog or readable report retained with its historical scope.",
+      "current_reference": "research/limits-20261015/initial-unlocks.json"
+    },
+    {
+      "original_path": "research/limits-20261015/GS512-r2-coldload-502.json",
+      "original_sha256": "f79d62cb3ed0bde3f4eadfa53afb33a53abac20b350120e11175a1a439d95fd0",
+      "disposition": "retained",
+      "reason": "Original structured evidence, catalog or readable report retained with its historical scope.",
+      "current_reference": "research/limits-20261015/GS512-r2-coldload-502.json"
+    },
+    {
+      "original_path": "research/limits-20261015/EDITOR_RELEASE.json",
+      "original_sha256": "66f8b04840efdc1c4d4461a3c2870bbd89f69ca0b9aebbab9c91c24ce39bd4fe",
+      "disposition": "retained",
+      "reason": "Original structured evidence, catalog or readable report retained with its historical scope.",
+      "current_reference": "research/limits-20261015/EDITOR_RELEASE.json"
+    },
+    {
+      "original_path": "research/limits-20261015/zone-parser.txt",
+      "original_sha256": "9d37c695f67d811eb1378561eff6e40d1cc9001f6de083fe3beea8f0efea9829",
+      "disposition": "retained",
+      "reason": "Original structured evidence, catalog or readable report retained with its historical scope.",
+      "current_reference": "research/limits-20261015/zone-parser.txt"
+    },
+    {
+      "original_path": "research/limits-20261015/M512-502-save-audit.json",
+      "original_sha256": "9199a71c0c6e9ee03bced6acab456971e7f394d0328e73077bafa0909c47543a",
+      "disposition": "retained",
+      "reason": "Original structured evidence, catalog or readable report retained with its historical scope.",
+      "current_reference": "research/limits-20261015/M512-502-save-audit.json"
+    },
+    {
+      "original_path": "research/limits-20261015/M512-502-intro.json",
+      "original_sha256": "30b50d33eab17e3576f9a5252c6fa23a2eb285e6a81e7c56e8e46d30f8354e18",
+      "disposition": "retained",
+      "reason": "Original structured evidence, catalog or readable report retained with its historical scope.",
+      "current_reference": "research/limits-20261015/M512-502-intro.json"
+    },
+    {
+      "original_path": "research/limits-20261015/tutorial-records.txt",
+      "original_sha256": "bef0f28e2e40add9a5bfeb5d357648124afeeaaa080222d136fb33421e6a37fb",
+      "disposition": "retained",
+      "reason": "Original structured evidence, catalog or readable report retained with its historical scope.",
+      "current_reference": "research/limits-20261015/tutorial-records.txt"
+    },
+    {
+      "original_path": "research/limits-20261015/M512-511-save-audit.json",
+      "original_sha256": "b7a754c5f9a0e88b274829bf9a1f99bef101e789f3f7bbd78f452df753e9a283",
+      "disposition": "retained",
+      "reason": "Original structured evidence, catalog or readable report retained with its historical scope.",
+      "current_reference": "research/limits-20261015/M512-511-save-audit.json"
+    },
+    {
+      "original_path": "research/limits-20261015/modifier-player-apply.txt",
+      "original_sha256": "c0b11fcbf5a4be79c97415c64c1c137c0dd65885ad740d8798120f9194434668",
+      "disposition": "retained",
+      "reason": "Original structured evidence, catalog or readable report retained with its historical scope.",
+      "current_reference": "research/limits-20261015/modifier-player-apply.txt"
+    },
+    {
+      "original_path": "research/limits-20261015/TUTORIAL_SAVE_BOUNDS_EN.md",
+      "original_sha256": "c3754a0c876eda4a7321f1b30721e5d1bb2dc8517e4c9900c32c81443d5bdaa3",
+      "disposition": "retained",
+      "reason": "Original structured evidence, catalog or readable report retained with its historical scope.",
+      "current_reference": "research/limits-20261015/TUTORIAL_SAVE_BOUNDS_EN.md"
+    },
+    {
+      "original_path": "research/limits-20261015/zone-coordinate-path.txt",
+      "original_sha256": "9da6b19ef03ede6fec2366bdb64a32ee543c19ececf13d1ca1b1ea6ce47c226d",
+      "disposition": "retained",
+      "reason": "Original structured evidence, catalog or readable report retained with its historical scope.",
+      "current_reference": "research/limits-20261015/zone-coordinate-path.txt"
+    },
+    {
+      "original_path": "research/limits-20261015/GS512-RPCS3-patch.yml",
+      "original_sha256": "f4e0960fd8d1412e8dd1ce20aad427a33cfd8b9951335fc9c9af9c2fd14ba53b",
+      "disposition": "retained",
+      "reason": "Original structured evidence, catalog or readable report retained with its historical scope.",
+      "current_reference": "research/limits-20261015/GS512-RPCS3-patch.yml"
+    },
+    {
+      "original_path": "research/limits-20261015/M512-511-intro.json",
+      "original_sha256": "6b8d3dc22d44c9b1843223a15085ab25b052d67a9adae908c8b14f73480514a0",
+      "disposition": "retained",
+      "reason": "Original structured evidence, catalog or readable report retained with its historical scope.",
+      "current_reference": "research/limits-20261015/M512-511-intro.json"
+    },
+    {
+      "original_path": "research/limits-20261015/GS512_TOOLS_PACKAGE.json",
+      "original_sha256": "0020a2dac1e6ead5d438d7becc18a69d161f2a05db50e99ef6081ee9a9191e0e",
+      "disposition": "retained",
+      "reason": "Original structured evidence, catalog or readable report retained with its historical scope.",
+      "current_reference": "research/limits-20261015/GS512_TOOLS_PACKAGE.json"
+    },
+    {
+      "original_path": "research/limits-20261015/README_IT.md",
+      "original_sha256": "cff349fd14e6a7ffd63ac8e2a1536d0a3498ef284d19f4e588457cb9e70f4b6c",
+      "disposition": "consolidated-or-omitted",
+      "reason": "Italian narrative or superseded community-label table consolidated in English topic/history guides; original privately backed up.",
+      "current_reference": "research/EXPERIMENT_HISTORY.md"
+    },
+    {
+      "original_path": "research/limits-20261015/GS512_TOOLS_EN.md",
+      "original_sha256": "53dea0b028aa06ba8d08068421f966de1a458e86e57f0fe2d20b8893cc225e9a",
+      "disposition": "retained-with-current-status-guidance",
+      "reason": "Original structured evidence, catalog or readable report retained with its historical scope.",
+      "current_reference": "research/limits-20261015/GS512_TOOLS_EN.md"
+    },
+    {
+      "original_path": "research/limits-20261015/MODIFIER_TARGET_RUNTIME_EN.md",
+      "original_sha256": "0bf53ac7b58dc3ce11fbfc866bb4517de33bef1e68527683888d384e803a2a7e",
+      "disposition": "retained",
+      "reason": "Original structured evidence, catalog or readable report retained with its historical scope.",
+      "current_reference": "research/limits-20261015/MODIFIER_TARGET_RUNTIME_EN.md"
+    },
+    {
+      "original_path": "research/limits-20261015/M512-511-result-ram.json",
+      "original_sha256": "0b7a35437ec9d414cc3d16c7a24e3d3754711c759a151c21122e17480cbfc2de",
+      "disposition": "retained",
+      "reason": "Original structured evidence, catalog or readable report retained with its historical scope.",
+      "current_reference": "research/limits-20261015/M512-511-result-ram.json"
+    },
+    {
+      "original_path": "research/limits-20261015/GS512-patch.json",
+      "original_sha256": "517d859ba3e67b002f1e673b1ba8329bf986f6af9d2f8a2c5673a2107bc83ee3",
+      "disposition": "retained",
+      "reason": "Original structured evidence, catalog or readable report retained with its historical scope.",
+      "current_reference": "research/limits-20261015/GS512-patch.json"
+    },
+    {
+      "original_path": "research/limits-20261015/RESTORE_AUDIT.json",
+      "original_sha256": "22156e7a46a86c81bde63e589f6c99fa7b3802d8d2f96a96c72836bfb9eb056e",
+      "disposition": "retained",
+      "reason": "Original structured evidence, catalog or readable report retained with its historical scope.",
+      "current_reference": "research/limits-20261015/RESTORE_AUDIT.json"
+    },
+    {
+      "original_path": "research/limits-20261015/BATTLE_ZONE_FREE_CELLS.json",
+      "original_sha256": "c6c778ff875d81d9768bf47e0796574e27e81a5749d6b6b3ebb362c11ac7b07d",
+      "disposition": "retained",
+      "reason": "Original structured evidence, catalog or readable report retained with its historical scope.",
+      "current_reference": "research/limits-20261015/BATTLE_ZONE_FREE_CELLS.json"
+    },
+    {
+      "original_path": "research/limits-20261015/EDITOR_RELEASE_0.4.json",
+      "original_sha256": "38164c64ab5b2eaa993863b1b8e92678a5ee094847948f3e0345be061d128d78",
+      "disposition": "retained",
+      "reason": "Original structured evidence, catalog or readable report retained with its historical scope.",
+      "current_reference": "research/limits-20261015/EDITOR_RELEASE_0.4.json"
+    },
+    {
+      "original_path": "research/limits-20261015/M500-save-result.json",
+      "original_sha256": "f683ffbcb2174f9965db0030a8d5548eb3e9fa57c2b3d8b90852792703dd11cd",
+      "disposition": "retained",
+      "reason": "Original structured evidence, catalog or readable report retained with its historical scope.",
+      "current_reference": "research/limits-20261015/M500-save-result.json"
+    },
+    {
+      "original_path": "research/limits-20261015/tutorial-scan.txt",
+      "original_sha256": "392d3c215478aa3ea99c26fe2f3d141a76aaec2ded0d4093e88f7d4afb6baa7e",
+      "disposition": "retained",
+      "reason": "Original structured evidence, catalog or readable report retained with its historical scope.",
+      "current_reference": "research/limits-20261015/tutorial-scan.txt"
+    },
+    {
+      "original_path": "research/limits-20261015/tutorial-tail-read.txt",
+      "original_sha256": "92d5154772dab7d35e4fcf5446c6c5eae059c57eddd5c0d1b2dc02f209cb555b",
+      "disposition": "retained",
+      "reason": "Original structured evidence, catalog or readable report retained with its historical scope.",
+      "current_reference": "research/limits-20261015/tutorial-tail-read.txt"
+    },
+    {
+      "original_path": "research/limits-20261015/GS512-r1-patch.json",
+      "original_sha256": "e628722534204cd11237bd98c55aeef4abd38615afd4866cdfd22eb6d586e4b9",
+      "disposition": "retained",
+      "reason": "Original structured evidence, catalog or readable report retained with its historical scope.",
+      "current_reference": "research/limits-20261015/GS512-r1-patch.json"
+    },
+    {
+      "original_path": "research/limits-20261015/SAVE_AND_RAM_LIMITS_EN.md",
+      "original_sha256": "ccf4b6a7710c8e74ea79de36b88e1917ca1ce627c7809509605840488a589c85",
+      "disposition": "retained-with-current-status-guidance",
+      "reason": "Original structured evidence, catalog or readable report retained with its historical scope.",
+      "current_reference": "research/limits-20261015/SAVE_AND_RAM_LIMITS_EN.md"
+    },
+    {
+      "original_path": "research/limits-20261015/M512-511-result.png",
+      "original_sha256": "b7b4d50bc1cfaa48c8f0a03b882e19d2b5b5e0f00419471c2cf58162fe954e0e",
+      "disposition": "retained",
+      "reason": "Original structured evidence, catalog or readable report retained with its historical scope.",
+      "current_reference": "research/limits-20261015/M512-511-result.png"
+    },
+    {
+      "original_path": "research/limits-20261015/M500-controlled-victory.png",
+      "original_sha256": "00b7c80e1c9854b62a994504fca11f8a0460f1d3319d3e42b8789172eca24f11",
+      "disposition": "retained",
+      "reason": "Original structured evidence, catalog or readable report retained with its historical scope.",
+      "current_reference": "research/limits-20261015/M500-controlled-victory.png"
+    },
+    {
+      "original_path": "research/limits-20261015/tutorial-save-fields.txt",
+      "original_sha256": "e5f9b13d43aca66f82a6571a597a4a075686100c69796280e22884664f2654a5",
+      "disposition": "retained",
+      "reason": "Original structured evidence, catalog or readable report retained with its historical scope.",
+      "current_reference": "research/limits-20261015/tutorial-save-fields.txt"
+    },
+    {
+      "original_path": "research/kb11a-rsp-evidence.jsonl",
+      "original_sha256": "3dc07807c8f97a8966763248741274195ac5e7cf60b94b7ccdccbf359d13518d",
+      "disposition": "retained",
+      "reason": "Original structured evidence, catalog or readable report retained with its historical scope.",
+      "current_reference": "research/kb11a-rsp-evidence.jsonl"
+    },
+    {
+      "original_path": "research/BATTLE_ZONE_OUTCOME_FLAGS_NATIVE_EVIDENCE.json",
+      "original_sha256": "adc530aa06e0dc6a1f7a489ccca591d1168fa619148a725472244325bf559814",
+      "disposition": "retained",
+      "reason": "Original structured evidence, catalog or readable report retained with its historical scope.",
+      "current_reference": "research/BATTLE_ZONE_OUTCOME_FLAGS_NATIVE_EVIDENCE.json"
+    },
+    {
+      "original_path": "research/arena-names-from-ram.csv",
+      "original_sha256": "15b3a601b55077d019be4ff5b39f4ac9c144d01ef3af62926c73df8a5226932b",
+      "disposition": "retained",
+      "reason": "Original structured evidence, catalog or readable report retained with its historical scope.",
+      "current_reference": "research/arena-names-from-ram.csv"
+    },
+    {
+      "original_path": "research/GALAXY_E_OGGETTI.md",
+      "original_sha256": "d84a785672ec5582b1b3f39a35b61b27c28d5e3908e04453478f3ff451d05f0e",
+      "disposition": "consolidated-or-omitted",
+      "reason": "Italian narrative or superseded community-label table consolidated in English topic/history guides; original privately backed up.",
+      "current_reference": "research/EXPERIMENT_HISTORY.md"
+    },
+    {
+      "original_path": "research/tutorial-analysis.json",
+      "original_sha256": "9cbd44c5a804659da52cd3202c500410e6571ce7b24bca31c99525fb2fa40004",
+      "disposition": "retained",
+      "reason": "Original structured evidence, catalog or readable report retained with its historical scope.",
+      "current_reference": "research/tutorial-analysis.json"
+    },
+    {
+      "original_path": "research/annullamento-code-check.json",
+      "original_sha256": "c32db0590551858fdd3c529a0b34ff14d8173f56b6a4f750fcadce32d1483f9f",
+      "disposition": "retained",
+      "reason": "Original structured evidence, catalog or readable report retained with its historical scope.",
+      "current_reference": "research/annullamento-code-check.json"
+    },
+    {
+      "original_path": "research/battle-134024-findings.json",
+      "original_sha256": "b0823e56483954d0a675761ac979700125501b2b3bcb95474bbdee828cb5e3f6",
+      "disposition": "retained",
+      "reason": "Original structured evidence, catalog or readable report retained with its historical scope.",
+      "current_reference": "research/battle-134024-findings.json"
+    },
+    {
+      "original_path": "research/kb13a-simple-mission-menu.png",
+      "original_sha256": "761c768ab429a4a51f1fc3e8c87aa44635a97945181dbfb1687dc8ac2da5cb1c",
+      "disposition": "retained",
+      "reason": "Original structured evidence, catalog or readable report retained with its historical scope.",
+      "current_reference": "research/kb13a-simple-mission-menu.png"
+    },
+    {
+      "original_path": "research/ITEM_LIST_EN.md",
+      "original_sha256": "81af0432572a22fbf7abcbc6abce6e1bb217e047f7e4e9dcd8682c13c130cd99",
+      "disposition": "retained",
+      "reason": "Original structured evidence, catalog or readable report retained with its historical scope.",
+      "current_reference": "research/ITEM_LIST_EN.md"
+    },
+    {
+      "original_path": "research/MOD_KB01.md",
+      "original_sha256": "03bd38bc3fc7c2226a7fc4297b7ec6aff4460de40f58c4b2d7f895d44b7dff26",
+      "disposition": "consolidated-or-omitted",
+      "reason": "Italian narrative or superseded community-label table consolidated in English topic/history guides; original privately backed up.",
+      "current_reference": "research/EXPERIMENT_HISTORY.md"
+    },
+    {
+      "original_path": "research/kb07a-runtime-intro-limited.json",
+      "original_sha256": "c2522548d91b9e0e4868387d636e5ca21591db7f84198135fdd114db7a39e259",
+      "disposition": "retained",
+      "reason": "Original structured evidence, catalog or readable report retained with its historical scope.",
+      "current_reference": "research/kb07a-runtime-intro-limited.json"
+    },
+    {
+      "original_path": "research/tutorial-descriptors.csv",
+      "original_sha256": "c365378b07a55c24f729e2bf8653b76ac1ea9b7e367c62efea6b2b4a38ca73fd",
+      "disposition": "retained",
+      "reason": "Original structured evidence, catalog or readable report retained with its historical scope.",
+      "current_reference": "research/tutorial-descriptors.csv"
+    },
+    {
+      "original_path": "research/STUDIO_0_8_RELEASE.json",
+      "original_sha256": "8c25fa5366bfd8bdfb52445018ef3f9cfef152a42c96faea33aa8a0e115bfa37",
+      "disposition": "retained",
+      "reason": "Original structured evidence, catalog or readable report retained with its historical scope.",
+      "current_reference": "research/STUDIO_0_8_RELEASE.json"
+    },
+    {
+      "original_path": "research/PROVA_KB05A_OGGETTI_GOHAN.md",
+      "original_sha256": "ff559df454d94b40358351ecb47d487cb4b7b15952f871c156d388d133f76017",
+      "disposition": "consolidated-or-omitted",
+      "reason": "Italian narrative or superseded community-label table consolidated in English topic/history guides; original privately backed up.",
+      "current_reference": "research/EXPERIMENT_HISTORY.md"
+    },
+    {
+      "original_path": "research/kb13a-rsp-evidence.jsonl",
+      "original_sha256": "09b10fb064be72d24b23975b3b8701e9ff02afb51f9e505781ba6b3b617fb5fb",
+      "disposition": "retained",
+      "reason": "Original structured evidence, catalog or readable report retained with its historical scope.",
+      "current_reference": "research/kb13a-rsp-evidence.jsonl"
+    },
+    {
+      "original_path": "research/galaxy-transfer-20261016/original-donor-audit.json",
+      "original_sha256": "51b4aa429b3af8cd4b1aa7c6ff52ba729f6e72b71c986fb2a434c8b646195fe9",
+      "disposition": "retained",
+      "reason": "Original structured evidence, catalog or readable report retained with its historical scope.",
+      "current_reference": "research/galaxy-transfer-20261016/original-donor-audit.json"
+    },
+    {
+      "original_path": "research/galaxy-transfer-20261016/personal-goku-ssj2.png",
+      "original_sha256": "e60c7c0b6bf51b1e6de6665b03937dc8997ca28a4972e8c1508aa7a5a81f045b",
+      "disposition": "retained",
+      "reason": "Original structured evidence, catalog or readable report retained with its historical scope.",
+      "current_reference": "research/galaxy-transfer-20261016/personal-goku-ssj2.png"
+    },
+    {
+      "original_path": "research/galaxy-transfer-20261016/cold-load-confirmation.png",
+      "original_sha256": "c095e78cf087d476222fe1ad5b27b2af4dd473b85632b2f16ab921ebecbb7d12",
+      "disposition": "retained",
+      "reason": "Original structured evidence, catalog or readable report retained with its historical scope.",
+      "current_reference": "research/galaxy-transfer-20261016/cold-load-confirmation.png"
+    },
+    {
+      "original_path": "research/galaxy-transfer-20261016/archive-preservation.json",
+      "original_sha256": "2005b62afa5e154897b6907aabf61538bd3c154d44ec5f51b5a97b6053687432",
+      "disposition": "retained",
+      "reason": "Original structured evidence, catalog or readable report retained with its historical scope.",
+      "current_reference": "research/galaxy-transfer-20261016/archive-preservation.json"
+    },
+    {
+      "original_path": "research/galaxy-transfer-20261016/world-goku-ssj2.png",
+      "original_sha256": "220ac6222184e3183dc392daba02740f2c9c808da6c92e11af7f78ab312812ce",
+      "disposition": "retained",
+      "reason": "Original structured evidence, catalog or readable report retained with its historical scope.",
+      "current_reference": "research/galaxy-transfer-20261016/world-goku-ssj2.png"
+    },
+    {
+      "original_path": "research/galaxy-transfer-20261016/battle-active.json",
+      "original_sha256": "925c521f0e5f25f6a394bf94b83db454eed4718f1154ab9b4fd3bdd4baa0731f",
+      "disposition": "retained",
+      "reason": "Original structured evidence, catalog or readable report retained with its historical scope.",
+      "current_reference": "research/galaxy-transfer-20261016/battle-active.json"
+    },
+    {
+      "original_path": "research/galaxy-transfer-20261016/TRANSFER_EN.md",
+      "original_sha256": "3e1c72fa699f761dbdd3b1f1b50e6de2c0e2add272e9970ab6596bda97e6c2d6",
+      "disposition": "retained",
+      "reason": "Original structured evidence, catalog or readable report retained with its historical scope.",
+      "current_reference": "research/galaxy-transfer-20261016/TRANSFER_EN.md"
+    },
+    {
+      "original_path": "research/galaxy-transfer-20261016/runtime-preparation.json",
+      "original_sha256": "c22548607a24a4c89961a120557eaff852dd97143bb9be8651669ac528b87831",
+      "disposition": "retained",
+      "reason": "Original structured evidence, catalog or readable report retained with its historical scope.",
+      "current_reference": "research/galaxy-transfer-20261016/runtime-preparation.json"
+    },
+    {
+      "original_path": "research/galaxy-transfer-20261016/save-audit.json",
+      "original_sha256": "2fc20ce70d252af96d28fe9ab658809751958f4301e8bf0127d90ade8431adf2",
+      "disposition": "retained",
+      "reason": "Original structured evidence, catalog or readable report retained with its historical scope.",
+      "current_reference": "research/galaxy-transfer-20261016/save-audit.json"
+    },
+    {
+      "original_path": "research/galaxy-transfer-20261016/cold-save-probe.json",
+      "original_sha256": "52ea68dacd3fa375958d2cde6609205ec6148af6d0858c6ee2204b7ccd650288",
+      "disposition": "retained",
+      "reason": "Original structured evidence, catalog or readable report retained with its historical scope.",
+      "current_reference": "research/galaxy-transfer-20261016/cold-save-probe.json"
+    },
+    {
+      "original_path": "research/galaxy-transfer-20261016/mission-record-saved.png",
+      "original_sha256": "28279ea1c76d36f9ce71c2a8403ed041374702cad9afaed1520704d96155f9ab",
+      "disposition": "retained",
+      "reason": "Original structured evidence, catalog or readable report retained with its historical scope.",
+      "current_reference": "research/galaxy-transfer-20261016/mission-record-saved.png"
+    },
+    {
+      "original_path": "research/galaxy-transfer-20261016/manifest.json",
+      "original_sha256": "5bd9dff36118cbec25209c7acd0759c5357f6fa08e98fe5fdeb266397a2d8199",
+      "disposition": "retained",
+      "reason": "Original structured evidence, catalog or readable report retained with its historical scope.",
+      "current_reference": "research/galaxy-transfer-20261016/manifest.json"
+    },
+    {
+      "original_path": "research/galaxy-transfer-20261016/result-native-final.png",
+      "original_sha256": "b3a4650147cf509ec4b6e2f009c8dec12450e7752c13f11d7416784349902c93",
+      "disposition": "retained",
+      "reason": "Original structured evidence, catalog or readable report retained with its historical scope.",
+      "current_reference": "research/galaxy-transfer-20261016/result-native-final.png"
+    },
+    {
+      "original_path": "research/MUSIC_SELECTOR_NATIVE_EVIDENCE.json",
+      "original_sha256": "b26f514115c8956d4b718feefc2eaeb841388fa1ac8c89a79b9a112f238acbef",
+      "disposition": "retained",
+      "reason": "Original structured evidence, catalog or readable report retained with its historical scope.",
+      "current_reference": "research/MUSIC_SELECTOR_NATIVE_EVIDENCE.json"
+    },
+    {
+      "original_path": "research/MUSIC_IDS_BLES00978_EN.csv",
+      "original_sha256": "64f279b933ac49065d490c23bf9f912f07aa8d79af29bbd3a5818969c28c1d75",
+      "disposition": "retained",
+      "reason": "Original structured evidence, catalog or readable report retained with its historical scope.",
+      "current_reference": "research/MUSIC_IDS_BLES00978_EN.csv"
+    },
+    {
+      "original_path": "research/KB04A-manifest.json",
+      "original_sha256": "67ec84271077b981190ba704aaf865a6898a190e2d79895753d67372b1f9f99e",
+      "disposition": "retained",
+      "reason": "Original structured evidence, catalog or readable report retained with its historical scope.",
+      "current_reference": "research/KB04A-manifest.json"
+    },
+    {
+      "original_path": "research/item-catalog-BLES00978-IT.csv",
+      "original_sha256": "1df442622aa607527c7768155a6ff2d0b4ab1041732b2c07c9186b96f8ed5295",
+      "disposition": "consolidated-or-omitted",
+      "reason": "Italian narrative or superseded community-label table consolidated in English topic/history guides; original privately backed up.",
+      "current_reference": "research/EXPERIMENT_HISTORY.md"
+    },
+    {
+      "original_path": "research/kb10a-rsp-evidence.jsonl",
+      "original_sha256": "00c8aae60e96d1f87c6cd5a1f6170a89342a2bd572f6de70f064b16e7229c163",
+      "disposition": "retained",
+      "reason": "Original structured evidence, catalog or readable report retained with its historical scope.",
+      "current_reference": "research/kb10a-rsp-evidence.jsonl"
+    },
+    {
+      "original_path": "research/expansion-20261015/TEST_AUDIT.json",
+      "original_sha256": "9f8c817dd3d20eccf276692bc07afeb042c7d5db077c4c335f6efc6c3bb46d39",
+      "disposition": "retained",
+      "reason": "Original structured evidence, catalog or readable report retained with its historical scope.",
+      "current_reference": "research/expansion-20261015/TEST_AUDIT.json"
+    },
+    {
+      "original_path": "research/expansion-20261015/GX19A-save-collision-runtime.json",
+      "original_sha256": "959feba4cf25309a0e8d95d64e339b2c2a39c388a7225ce0b68ca95c51523c97",
+      "disposition": "retained",
+      "reason": "Original structured evidence, catalog or readable report retained with its historical scope.",
+      "current_reference": "research/expansion-20261015/GX19A-save-collision-runtime.json"
+    },
+    {
+      "original_path": "research/expansion-20261015/BATTLE_ZONE_STATIC.json",
+      "original_sha256": "5bc7e0ff9303055cbbab48718bb6194348a7da0e3dd5ebdc5fbe88475a477a41",
+      "disposition": "retained",
+      "reason": "Original structured evidence, catalog or readable report retained with its historical scope.",
+      "current_reference": "research/expansion-20261015/BATTLE_ZONE_STATIC.json"
+    },
+    {
+      "original_path": "research/expansion-20261015/GX19A-new-mission-map.png",
+      "original_sha256": "837f8da4f3e7e9c3fbf3f4a0d0c063198969732672a8eaaead7c722e006738ac",
+      "disposition": "retained",
+      "reason": "Original structured evidence, catalog or readable report retained with its historical scope.",
+      "current_reference": "research/expansion-20261015/GX19A-new-mission-map.png"
+    },
+    {
+      "original_path": "research/expansion-20261015/STOP_AND_RESTORE.json",
+      "original_sha256": "de05e8acd0c31e6a67637abf622a4ea0378b66f1c8fcf2f3739a1cfe30803cd5",
+      "disposition": "retained",
+      "reason": "Original structured evidence, catalog or readable report retained with its historical scope.",
+      "current_reference": "research/expansion-20261015/STOP_AND_RESTORE.json"
+    },
+    {
+      "original_path": "research/expansion-20261015/GX19A-new-galaxy-selected.png",
+      "original_sha256": "1bef65a538196d36b53ceac878370aaa9bca6474c6b69f078792b935e5759b4b",
+      "disposition": "retained",
+      "reason": "Original structured evidence, catalog or readable report retained with its historical scope.",
+      "current_reference": "research/expansion-20261015/GX19A-new-galaxy-selected.png"
+    },
+    {
+      "original_path": "research/expansion-20261015/GALAXY_STATIC_DISASSEMBLY.txt",
+      "original_sha256": "ebdbb3a32d83d5c191d0410a013d0637689f81b7be83fc89bd39bc7d6ffb4060",
+      "disposition": "retained",
+      "reason": "Original structured evidence, catalog or readable report retained with its historical scope.",
+      "current_reference": "research/expansion-20261015/GALAXY_STATIC_DISASSEMBLY.txt"
+    },
+    {
+      "original_path": "research/expansion-20261015/GALAXY_STATIC.md",
+      "original_sha256": "f56004ef3c0d57fb8c549d2628d90e0bbcf3a5b74e9d26a1fe9e8c71d8575711",
+      "disposition": "retained",
+      "reason": "Original structured evidence, catalog or readable report retained with its historical scope.",
+      "current_reference": "research/expansion-20261015/GALAXY_STATIC.md"
+    },
+    {
+      "original_path": "research/expansion-20261015/GX19A-498-completed-map.png",
+      "original_sha256": "f5e37240312d2d1c1b53d1fcf43d4dc0430363cfa88063c9d2431a882d6c7bc0",
+      "disposition": "retained",
+      "reason": "Original structured evidence, catalog or readable report retained with its historical scope.",
+      "current_reference": "research/expansion-20261015/GX19A-498-completed-map.png"
+    },
+    {
+      "original_path": "research/expansion-20261015/GX19A_SELECTED_RUNTIME.json",
+      "original_sha256": "6842bf8fb9fb42e8a6ec51d8beee285b0735589b350f6cf72d7985bdb2085c42",
+      "disposition": "retained",
+      "reason": "Original structured evidence, catalog or readable report retained with its historical scope.",
+      "current_reference": "research/expansion-20261015/GX19A_SELECTED_RUNTIME.json"
+    },
+    {
+      "original_path": "research/expansion-20261015/GX19A-498-victory.png",
+      "original_sha256": "8dbc730803f9d640dcc72c593a870be2bc453bbd6893e37ee3407fec90f618fd",
+      "disposition": "retained",
+      "reason": "Original structured evidence, catalog or readable report retained with its historical scope.",
+      "current_reference": "research/expansion-20261015/GX19A-498-victory.png"
+    },
+    {
+      "original_path": "research/expansion-20261015/GALAXY_STATIC.json",
+      "original_sha256": "9045392ea788243a5d3cf1afd3051b3d94aa131eb7500f2285113e30c238f231",
+      "disposition": "retained",
+      "reason": "Original structured evidence, catalog or readable report retained with its historical scope.",
+      "current_reference": "research/expansion-20261015/GALAXY_STATIC.json"
+    },
+    {
+      "original_path": "research/expansion-20261015/SAVE_LIMITS.md",
+      "original_sha256": "6b30541ab8f963a880cdbfc846cc535e7d42a83330f297848473415b2aed09f1",
+      "disposition": "retained-with-current-status-guidance",
+      "reason": "Original structured evidence, catalog or readable report retained with its historical scope.",
+      "current_reference": "research/expansion-20261015/SAVE_LIMITS.md"
+    },
+    {
+      "original_path": "research/expansion-20261015/EDITOR_FOLLOWUP.md",
+      "original_sha256": "767ef346777fcd9650b7b4ddbc569fd769a26e9665a2ace3c0473099678a39c5",
+      "disposition": "retained-with-current-status-guidance",
+      "reason": "Original structured evidence, catalog or readable report retained with its historical scope.",
+      "current_reference": "research/expansion-20261015/EDITOR_FOLLOWUP.md"
+    },
+    {
+      "original_path": "research/expansion-20261015/GALAXY_WORLD_MAP_ICONS.csv",
+      "original_sha256": "65004990236132e80e7b8aa398fb1871d5398fe1479e6048ca8d455db8dc9e31",
+      "disposition": "retained",
+      "reason": "Original structured evidence, catalog or readable report retained with its historical scope.",
+      "current_reference": "research/expansion-20261015/GALAXY_WORLD_MAP_ICONS.csv"
+    },
+    {
+      "original_path": "research/expansion-20261015/EDITOR_FOLLOWUP_SOURCE_HASHES.json",
+      "original_sha256": "cce9328b6b2b2bf3fc37727989d05b8c4aa161602344caf1ff7cc77a6c1903e7",
+      "disposition": "retained",
+      "reason": "Original structured evidence, catalog or readable report retained with its historical scope.",
+      "current_reference": "research/expansion-20261015/EDITOR_FOLLOWUP_SOURCE_HASHES.json"
+    },
+    {
+      "original_path": "research/expansion-20261015/GX19A_WORLD_RUNTIME.json",
+      "original_sha256": "e53f53e5bf9ad8c4ea0c9c36d0eec6f13a112cccf1f8d87038c300d0cdd6231c",
+      "disposition": "retained",
+      "reason": "Original structured evidence, catalog or readable report retained with its historical scope.",
+      "current_reference": "research/expansion-20261015/GX19A_WORLD_RUNTIME.json"
+    },
+    {
+      "original_path": "research/expansion-20261015/audit_expansion.py",
+      "original_sha256": "0bb376ce763fe0f4e51c4ee9b24c0e3ad13f87b5e78650319c38d1fda36a6508",
+      "disposition": "retained",
+      "reason": "Original structured evidence, catalog or readable report retained with its historical scope.",
+      "current_reference": "research/expansion-20261015/audit_expansion.py"
+    },
+    {
+      "original_path": "research/expansion-20261015/GALAXY_OWNER_SLOTS.csv",
+      "original_sha256": "faf461cca61acb53ec32e0c3799c0859a4b5b3f17c05f277dd5d4e58b4048fd7",
+      "disposition": "retained",
+      "reason": "Original structured evidence, catalog or readable report retained with its historical scope.",
+      "current_reference": "research/expansion-20261015/GALAXY_OWNER_SLOTS.csv"
+    },
+    {
+      "original_path": "research/expansion-20261015/GX19A-498-action-completed.json",
+      "original_sha256": "af9132a40bcdf52cc8fb4f6e5e6fc813c9beb70a135abec91e28e3da8a55eee7",
+      "disposition": "retained",
+      "reason": "Original structured evidence, catalog or readable report retained with its historical scope.",
+      "current_reference": "research/expansion-20261015/GX19A-498-action-completed.json"
+    },
+    {
+      "original_path": "research/expansion-20261015/SAVE_LIMITS.json",
+      "original_sha256": "19cf4b5be7f4d4492ee8bd9ef9dc5c6fc08f57babce74e658a7a8bcd749a1dd8",
+      "disposition": "retained",
+      "reason": "Original structured evidence, catalog or readable report retained with its historical scope.",
+      "current_reference": "research/expansion-20261015/SAVE_LIMITS.json"
+    },
+    {
+      "original_path": "research/expansion-20261015/GX19A-498-intro.json",
+      "original_sha256": "af9132a40bcdf52cc8fb4f6e5e6fc813c9beb70a135abec91e28e3da8a55eee7",
+      "disposition": "retained",
+      "reason": "Original structured evidence, catalog or readable report retained with its historical scope.",
+      "current_reference": "research/expansion-20261015/GX19A-498-intro.json"
+    },
+    {
+      "original_path": "research/expansion-20261015/BATTLE_ZONE_STATIC.md",
+      "original_sha256": "4b3a41525993958cab3ca2f4e0e927dd80314d787ce1a36126a4b60fc9a46071",
+      "disposition": "retained-with-current-status-guidance",
+      "reason": "Original structured evidence, catalog or readable report retained with its historical scope.",
+      "current_reference": "research/expansion-20261015/BATTLE_ZONE_STATIC.md"
+    },
+    {
+      "original_path": "research/expansion-20261015/GX19A-498-after-ascend.json",
+      "original_sha256": "af9132a40bcdf52cc8fb4f6e5e6fc813c9beb70a135abec91e28e3da8a55eee7",
+      "disposition": "retained",
+      "reason": "Original structured evidence, catalog or readable report retained with its historical scope.",
+      "current_reference": "research/expansion-20261015/GX19A-498-after-ascend.json"
+    },
+    {
+      "original_path": "research/g12a-runtime-controlled.json",
+      "original_sha256": "9e7e70d6117cb2dcdf4fc628d5f20ea43f3d5de85f6892c9a929167e5b36ca5a",
+      "disposition": "retained",
+      "reason": "Original structured evidence, catalog or readable report retained with its historical scope.",
+      "current_reference": "research/g12a-runtime-controlled.json"
+    },
+    {
+      "original_path": "research/experiment-log.csv",
+      "original_sha256": "631bf6a14cd048a496738372f9ce684e5899b1a047f074793a1110ccf6b70e73",
+      "disposition": "retained",
+      "reason": "Original structured evidence, catalog or readable report retained with its historical scope.",
+      "current_reference": "research/experiment-log.csv"
+    },
+    {
+      "original_path": "research/galaxy-presets-decoded.csv",
+      "original_sha256": "ca7835a462d64f4e0680abb2ec6e15cca0f2fa74d257d7fb7aa492ba7df3a43f",
+      "disposition": "retained",
+      "reason": "Original structured evidence, catalog or readable report retained with its historical scope.",
+      "current_reference": "research/galaxy-presets-decoded.csv"
+    },
+    {
+      "original_path": "research/PRESET_E_TRASFORMAZIONI.md",
+      "original_sha256": "5a225616db2e47984802176e52e0414d8499603fbb6d3bac23ae2ef81bfde0f8",
+      "disposition": "consolidated-or-omitted",
+      "reason": "Italian narrative or superseded community-label table consolidated in English topic/history guides; original privately backed up.",
+      "current_reference": "research/EXPERIMENT_HISTORY.md"
+    },
+    {
+      "original_path": "research/kb15b-g2-slot1-request.json",
+      "original_sha256": "ded00e54c9d640755f544db53a468438a69ee3e154d6d4ec139143ac7dc52fa6",
+      "disposition": "retained",
+      "reason": "Original structured evidence, catalog or readable report retained with its historical scope.",
+      "current_reference": "research/kb15b-g2-slot1-request.json"
+    },
+    {
+      "original_path": "research/KB15_NATIVE_SLOTS_AND_TAG_ORDER.md",
+      "original_sha256": "15bb3a3a558da5b8d447110b6983ddad0402cf9fbc67e0d32bbf4ced6159d82e",
+      "disposition": "retained",
+      "reason": "Original structured evidence, catalog or readable report retained with its historical scope.",
+      "current_reference": "research/KB15_NATIVE_SLOTS_AND_TAG_ORDER.md"
+    },
+    {
+      "original_path": "research/kb11b-runtime-controlled.json",
+      "original_sha256": "17e3d06dc9fb469a2b2ffacc89bc8d5690a38e01ad700fcb4f673a9245289f5a",
+      "disposition": "retained",
+      "reason": "Original structured evidence, catalog or readable report retained with its historical scope.",
+      "current_reference": "research/kb11b-runtime-controlled.json"
+    },
+    {
+      "original_path": "research/kb13a-v0-confirmed.json",
+      "original_sha256": "72f9cb260b25b9860144212d6b1e4b5efbd4e963663deb224c77ffcdf8f2b902",
+      "disposition": "retained",
+      "reason": "Original structured evidence, catalog or readable report retained with its historical scope.",
+      "current_reference": "research/kb13a-v0-confirmed.json"
+    },
+    {
+      "original_path": "research/g12a-simple-mission-menu.png",
+      "original_sha256": "72eb1615c1dbab6d9f07f8d9c140a0d2e8e9d226782857f7e31002231039567e",
+      "disposition": "retained",
+      "reason": "Original structured evidence, catalog or readable report retained with its historical scope.",
+      "current_reference": "research/g12a-simple-mission-menu.png"
+    },
+    {
+      "original_path": "research/galaxy-nodes.csv",
+      "original_sha256": "e4e32d4c492c7ad522e8de5f50bed42862573ad9f6ce95e35421c105e250bc21",
+      "disposition": "retained",
+      "reason": "Original structured evidence, catalog or readable report retained with its historical scope.",
+      "current_reference": "research/galaxy-nodes.csv"
+    },
+    {
+      "original_path": "research/galaxy-archive-manifest.json",
+      "original_sha256": "5dc823824a9194e6054986af0bbb20d66af537dae97bdee9cbaa660d57024756",
+      "disposition": "retained",
+      "reason": "Original structured evidence, catalog or readable report retained with its historical scope.",
+      "current_reference": "research/galaxy-archive-manifest.json"
+    },
+    {
+      "original_path": "research/boot-afs-manifest.json",
+      "original_sha256": "d9d8d1f2b7f2cf8a424f09388809af6ce58a89d416f09c4d713c611b010cbeaf",
+      "disposition": "retained",
+      "reason": "Original structured evidence, catalog or readable report retained with its historical scope.",
+      "current_reference": "research/boot-afs-manifest.json"
+    },
+    {
+      "original_path": "research/kb09a-runtime-controlled.json",
+      "original_sha256": "e7e9a6d95c1966cd6472dea3477159299cb42fa8d523cda55d8fa7c58fc99a6d",
+      "disposition": "retained",
+      "reason": "Original structured evidence, catalog or readable report retained with its historical scope.",
+      "current_reference": "research/kb09a-runtime-controlled.json"
+    },
+    {
+      "original_path": "research/double-save-20261015/bz-first-crash-ram-audit.json",
+      "original_sha256": "9ff41b70f793e888c27fbd14000b20f83e0bf9835cdc319ab27fbe519044fe8b",
+      "disposition": "retained",
+      "reason": "Original structured evidence, catalog or readable report retained with its historical scope.",
+      "current_reference": "research/double-save-20261015/bz-first-crash-ram-audit.json"
+    },
+    {
+      "original_path": "research/double-save-20261015/tutorial329-failed-exit-audit.json",
+      "original_sha256": "25f680d1a9a02efc940dfa5dc1b1163e9728ff31c064798c7b4125c7c4ac030c",
+      "disposition": "retained",
+      "reason": "Original structured evidence, catalog or readable report retained with its historical scope.",
+      "current_reference": "research/double-save-20261015/tutorial329-failed-exit-audit.json"
+    },
+    {
+      "original_path": "research/double-save-20261015/D2-patch.json",
+      "original_sha256": "8d3e288892d2ae0f8c8324592458c8aa1f79f6d9f291c0fc1f34a54e4d36d7bf",
+      "disposition": "retained",
+      "reason": "Original structured evidence, catalog or readable report retained with its historical scope.",
+      "current_reference": "research/double-save-20261015/D2-patch.json"
+    },
+    {
+      "original_path": "research/double-save-20261015/tutorial63-persist-audit.json",
+      "original_sha256": "0d8a9db97eccb2dcacc8131610b238d7cb85e52bfdba2dc58da497b6236bb37d",
+      "disposition": "retained",
+      "reason": "Original structured evidence, catalog or readable report retained with its historical scope.",
+      "current_reference": "research/double-save-20261015/tutorial63-persist-audit.json"
+    },
+    {
+      "original_path": "research/double-save-20261015/bz-original-link-directions.json",
+      "original_sha256": "5247e22ff45e604d3e41569ab0fcc879ad4aee1d4acf8eca097f33c8bbc42887",
+      "disposition": "retained",
+      "reason": "Original structured evidence, catalog or readable report retained with its historical scope.",
+      "current_reference": "research/double-save-20261015/bz-original-link-directions.json"
+    },
+    {
+      "original_path": "research/double-save-20261015/tutorial63-cold-success.json",
+      "original_sha256": "33c2792042616c8c6c4ec392114e6b051746d0a69626e2c813989a094e4687fc",
+      "disposition": "retained",
+      "reason": "Original structured evidence, catalog or readable report retained with its historical scope.",
+      "current_reference": "research/double-save-20261015/tutorial63-cold-success.json"
+    },
+    {
+      "original_path": "research/double-save-20261015/AI_RESUME_NOTES.md",
+      "original_sha256": "ac2c52efac0a9fc7b9522f4067441ee6f231ded53fd9d1ba78ab9b73d6ecb160",
+      "disposition": "retained-with-current-status-guidance",
+      "reason": "Original structured evidence, catalog or readable report retained with its historical scope.",
+      "current_reference": "research/double-save-20261015/AI_RESUME_NOTES.md"
+    },
+    {
+      "original_path": "research/double-save-20261015/STACK_ARRAY_AUDIT.json",
+      "original_sha256": "8c7fad9af784bc410dc4cd72c5b196d1dda6f03e19890a6eb2178a3e3590cddf",
+      "disposition": "retained",
+      "reason": "Original structured evidence, catalog or readable report retained with its historical scope.",
+      "current_reference": "research/double-save-20261015/STACK_ARRAY_AUDIT.json"
+    },
+    {
+      "original_path": "research/double-save-20261015/PATCH_REPRODUCTION.json",
+      "original_sha256": "eeac9dfe02fdadeb9e4fc24cb0572a384d464842f29781ef02346503e463adba",
+      "disposition": "retained",
+      "reason": "Original structured evidence, catalog or readable report retained with its historical scope.",
+      "current_reference": "research/double-save-20261015/PATCH_REPRODUCTION.json"
+    },
+    {
+      "original_path": "research/double-save-20261015/circle-pool-static-evidence.json",
+      "original_sha256": "69e4e899e7e8512dbb02c23dc817e1a4df1d7204d3e0e30fb7ce06dc23c4c331",
+      "disposition": "retained",
+      "reason": "Original structured evidence, catalog or readable report retained with its historical scope.",
+      "current_reference": "research/double-save-20261015/circle-pool-static-evidence.json"
+    },
+    {
+      "original_path": "research/double-save-20261015/tutorial-sparse-boundary.json",
+      "original_sha256": "4d1c90b25a20d2bc38db3b08f25b30680311677fa627d67cd3b9ad044ff7b119",
+      "disposition": "retained",
+      "reason": "Original structured evidence, catalog or readable report retained with its historical scope.",
+      "current_reference": "research/double-save-20261015/tutorial-sparse-boundary.json"
+    },
+    {
+      "original_path": "research/double-save-20261015/RESEARCH_EN.md",
+      "original_sha256": "0a43f4602dc165817fbd7c606670dbc5ca1ca1f93726ef245a66925263516f8c",
+      "disposition": "retained-with-current-status-guidance",
+      "reason": "Original structured evidence, catalog or readable report retained with its historical scope.",
+      "current_reference": "research/double-save-20261015/RESEARCH_EN.md"
+    },
+    {
+      "original_path": "research/double-save-20261015/bz-canonical21-fixture.json",
+      "original_sha256": "d00515c6d4616aa0e6e7b195f5b1ebc418491d22b557d399444262aea5cf6bae",
+      "disposition": "retained",
+      "reason": "Original structured evidence, catalog or readable report retained with its historical scope.",
+      "current_reference": "research/double-save-20261015/bz-canonical21-fixture.json"
+    },
+    {
+      "original_path": "research/double-save-20261015/bz-sparse53-exact-grid-fault.json",
+      "original_sha256": "85766b8a422ac90da1740f2fed776367eac74266174d3cb46ec215e6ce5e3b2f",
+      "disposition": "retained",
+      "reason": "Original structured evidence, catalog or readable report retained with its historical scope.",
+      "current_reference": "research/double-save-20261015/bz-sparse53-exact-grid-fault.json"
+    },
+    {
+      "original_path": "research/double-save-20261015/galaxy-circle-balanced-audit.json",
+      "original_sha256": "2e3fed00350445e0b123dfd72f20fd8ff6c4ad35e7292b4b7f35cc466b35fa73",
+      "disposition": "retained",
+      "reason": "Original structured evidence, catalog or readable report retained with its historical scope.",
+      "current_reference": "research/double-save-20261015/galaxy-circle-balanced-audit.json"
+    },
+    {
+      "original_path": "research/double-save-20261015/VALIDATION_MATRIX.json",
+      "original_sha256": "63f3603aba0539fc951f82ea1717ad417653bf30d7a113c600b70527ae4e731e",
+      "disposition": "retained",
+      "reason": "Original structured evidence, catalog or readable report retained with its historical scope.",
+      "current_reference": "research/double-save-20261015/VALIDATION_MATRIX.json"
+    },
+    {
+      "original_path": "research/double-save-20261015/galaxy-circle2-capacity-audit.json",
+      "original_sha256": "64e976a2c2056a79cc66d840cad8637066a67cfadc669b0b75d8936c3d948b3d",
+      "disposition": "retained",
+      "reason": "Original structured evidence, catalog or readable report retained with its historical scope.",
+      "current_reference": "research/double-save-20261015/galaxy-circle2-capacity-audit.json"
+    },
+    {
+      "original_path": "research/double-save-20261015/LAYOUT.json",
+      "original_sha256": "5ca4ef47157638d20e34f6fdcd7f53661b2aad26f55148501a9973b5632ef5f3",
+      "disposition": "retained",
+      "reason": "Original structured evidence, catalog or readable report retained with its historical scope.",
+      "current_reference": "research/double-save-20261015/LAYOUT.json"
+    },
+    {
+      "original_path": "research/double-save-20261015/bz-visual-grid-evidence.json",
+      "original_sha256": "741974106c27d214292c9e93f6c538a01c4b6e06b2559ac63f5ccbb445bd4aef",
+      "disposition": "retained",
+      "reason": "Original structured evidence, catalog or readable report retained with its historical scope.",
+      "current_reference": "research/double-save-20261015/bz-visual-grid-evidence.json"
+    },
+    {
+      "original_path": "research/item-localization-provenance-EN.json",
+      "original_sha256": "b49571c7888c52f677f427e5e4ab9385b1e0a4259c089698c4b8d28e51e309a5",
+      "disposition": "retained",
+      "reason": "Original structured evidence, catalog or readable report retained with its historical scope.",
+      "current_reference": "research/item-localization-provenance-EN.json"
+    },
+    {
+      "original_path": "research/gohan-goku-preset-comparison.json",
+      "original_sha256": "86250b18e4ad0a492047fb181313cb519a061c77357380d7a57a33a8994946bd",
+      "disposition": "retained",
+      "reason": "Original structured evidence, catalog or readable report retained with its historical scope.",
+      "current_reference": "research/gohan-goku-preset-comparison.json"
+    },
+    {
+      "original_path": "research/GALAXY_MODDING_BEGINNER_GUIDE_EN_V2.html",
+      "original_sha256": "6b9c25db9229d932b6ebb31db16498ccd798ab633a457d8d2e6278e7d0128983",
+      "disposition": "consolidated-or-omitted",
+      "reason": "Duplicate generated/earlier presentation omitted; corrected English guide and topic summaries retained.",
+      "current_reference": "research/EXPERIMENT_HISTORY.md"
+    },
+    {
+      "original_path": "research/STAGE_MUSIC_PROVENANCE.json",
+      "original_sha256": "743a30b2fdec844bb758c7aebada25f1d999162b61ecf786caa576d39992ac7e",
+      "disposition": "retained",
+      "reason": "Original structured evidence, catalog or readable report retained with its historical scope.",
+      "current_reference": "research/STAGE_MUSIC_PROVENANCE.json"
+    },
+    {
+      "original_path": "research/kb13a-fat-ko-check.json",
+      "original_sha256": "f33407452c04afc2b9f211e8f8704c9bdff7eef318b57255b2680d5d43daa629",
+      "disposition": "retained",
+      "reason": "Original structured evidence, catalog or readable report retained with its historical scope.",
+      "current_reference": "research/kb13a-fat-ko-check.json"
+    },
+    {
+      "original_path": "research/GALAXY_MODDING_BEGINNER_GUIDE_EN.md",
+      "original_sha256": "0cc40fc364b9623cab4c7f99290aa4f32a06b93533b5432931258102bc3dc4f5",
+      "disposition": "consolidated-or-omitted",
+      "reason": "Duplicate generated/earlier presentation omitted; corrected English guide and topic summaries retained.",
+      "current_reference": "research/EXPERIMENT_HISTORY.md"
+    },
+    {
+      "original_path": "research/PROVA_G04.md",
+      "original_sha256": "a40ce0edd261bccb3e08428951bf6a5f8402e972207d302470d5fdfa3c0f6696",
+      "disposition": "consolidated-or-omitted",
+      "reason": "Italian narrative or superseded community-label table consolidated in English topic/history guides; original privately backed up.",
+      "current_reference": "research/EXPERIMENT_HISTORY.md"
+    },
+    {
+      "original_path": "research/kb15b-g3-confirmed.json",
+      "original_sha256": "ca97f444579377f49dec59d1a802869e7dc8a0ece1098829b6aa421e80e795be",
+      "disposition": "retained",
+      "reason": "Original structured evidence, catalog or readable report retained with its historical scope.",
+      "current_reference": "research/kb15b-g3-confirmed.json"
+    },
+    {
+      "original_path": "research/BATTLE_ZONE_CONDITION_NATIVE_EVIDENCE.json",
+      "original_sha256": "92fd9a598a60e144eb522f9c922c38f75c361958a8260a11f65bacb7bf770386",
+      "disposition": "retained",
+      "reason": "Original structured evidence, catalog or readable report retained with its historical scope.",
+      "current_reference": "research/BATTLE_ZONE_CONDITION_NATIVE_EVIDENCE.json"
+    },
+    {
+      "original_path": "research/kb13a-v0-switch-confirmed.json",
+      "original_sha256": "9687a08a0e7475ab614f5d418bb214b313e85aee9ff1c3e85931d236c95fcb3a",
+      "disposition": "retained",
+      "reason": "Original structured evidence, catalog or readable report retained with its historical scope.",
+      "current_reference": "research/kb13a-v0-switch-confirmed.json"
+    },
+    {
+      "original_path": "research/galaxy-enemies-decoded.csv",
+      "original_sha256": "9a64ed076232b8ff57ec964fc581b0df75cc9f9e168419f408fa792ae00bca12",
+      "disposition": "retained",
+      "reason": "Original structured evidence, catalog or readable report retained with its historical scope.",
+      "current_reference": "research/galaxy-enemies-decoded.csv"
+    },
+    {
+      "original_path": "research/DEBUG_ANNULLAMENTO_KB07A.md",
+      "original_sha256": "776f37fddb5a77f6ebd299e4d48204b025b10dccc452b52e8e7cc09a4e7686ce",
+      "disposition": "consolidated-or-omitted",
+      "reason": "Italian narrative or superseded community-label table consolidated in English topic/history guides; original privately backed up.",
+      "current_reference": "research/EXPERIMENT_HISTORY.md"
+    }
+  ],
+  "personal_handoff": {
+    "source_sha256": "1255a601f308d779375212e079e70fdb1b0d045c467b0f94a4afad0164540eaf",
+    "disposition": "Important durable findings consolidated into AI_HANDOFF.md, FINDINGS.md, SAVE_RAM_AND_EXPANSION.md and EXPERIMENT_HISTORY.md; stale process/session instructions omitted.",
+    "raw_notes_published": false
+  },
+  "note": "A disposition is not certification that every historical derived label was correct. Read the current claim registry and corrections."
+}

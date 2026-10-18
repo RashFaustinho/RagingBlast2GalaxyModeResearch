@@ -1,0 +1,14 @@
+{
+  "TOC": "0x6e8d90",
+  "manager": "0x3a7dbba0",
+  "save_base": "0x30000020",
+  "globals_address": "0x3000bf50",
+  "globals_words": [
+    338996,
+    2,
+    498,
+    0
+  ],
+  "missions498_499_hex": "000010010000000100052c310000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+  "collision_expected": "global lastNative now equals mission498 score338993 plus priornative3 =338996"
+}

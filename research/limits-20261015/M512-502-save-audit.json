@@ -1,0 +1,28 @@
+{
+  "size": 71336,
+  "checksum_valid": true,
+  "row502": [
+    4097,
+    1,
+    339187,
+    0,
+    0,
+    0,
+    0
+  ],
+  "changed_rows": [
+    502
+  ],
+  "changed_aggregates": [
+    21
+  ],
+  "preserved": {
+    "stale_original_Galaxy": true,
+    "Tutorial": true,
+    "Battle_Zone": true
+  },
+  "other_original_byte_offsets": [
+    "0x1b"
+  ],
+  "other_original_byte_offsets_explanation": "0x1B is the timestamp minute in date header (year/month/day/hour/minute/user):30\u219249."
+}

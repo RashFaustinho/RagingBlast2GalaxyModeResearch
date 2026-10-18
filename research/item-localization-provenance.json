@@ -1,0 +1,16 @@
+{
+  "title": "BLES00978",
+  "source_afs": "st_pack_progress_pt_ps3.afs",
+  "member_index": 1955,
+  "member_offset": 1300877312,
+  "member_size": 42134,
+  "inner_member": "F_Item_IT.pak",
+  "inner_sha256": "f11b4c51e72b388560072ef771e8ef3251fdf3434b0391c7ffac18cad34f4c0a",
+  "encoding": "UTF16LE BOM + NUL terminator",
+  "text_files": 750,
+  "definition_source": "st_pack_boot_pt_ps3.afs member22 / game_resident_param_m.pak / item_parameter.dat",
+  "definition_sha256": "c6d7b2643fa0bbdca8ea449ebc7933cc6745dbc0d20c051937945f3d5526c700",
+  "definition_count": 381,
+  "binding": "word0 indexes ITEM_NNN_IT.txt name; word1 indexes description",
+  "limits": "Text binding confirms labels and advertised effects, not every runtime trigger or cost."
+}

@@ -1,0 +1,56 @@
+{
+  "variant": "KB08A",
+  "status": "CONTROLLED_ACTIVE_BATTLE_FORWARD_CONFIRMED_BASE_NOT_OBSERVED_IN30_WALL_SECONDS",
+  "boot_sha256": "b3756d6ad9cd8ae5794a49744f00f8bba254304bffbc35b1a55803651d0d0b93",
+  "observations": [
+    {
+      "utc": "2026-10-14T16:10:37Z",
+      "event": "Active combat: hits and damage in image; actor reset after intro",
+      "native": 2,
+      "preset": 1058,
+      "hp": 40000
+    },
+    {
+      "utc": "2026-10-14T16:11:22Z",
+      "event": "Controlled HP20000 aura50 probe on2/1058"
+    },
+    {
+      "utc": "2026-10-14T16:11:32Z",
+      "event": "Forward request",
+      "pc": "0x3a7c0",
+      "r3": "0x3aaa3ea0",
+      "r4": 1,
+      "LR": "0x88174",
+      "native": 2,
+      "preset": 1058
+    },
+    {
+      "utc": "2026-10-14T16:13:04Z",
+      "event": "Completed transform actor",
+      "native": 3,
+      "preset": 1059,
+      "HP": 20000,
+      "aura": 20,
+      "items": [
+        "155"
+      ]
+    },
+    {
+      "utc": "2026-10-14T16:13:40Z",
+      "event": "Controlled HP9000 aura50 probe on3/1059"
+    },
+    {
+      "utc": "2026-10-14T16:14:11Z",
+      "event": "No new transform request in30 wall seconds",
+      "native": 3,
+      "preset": 1059,
+      "HP": 9000,
+      "aura": 32.966,
+      "items": [
+        "155"
+      ]
+    }
+  ],
+  "limits": "Initial intro-phase readings excluded. A single bounded active window is not proof of impossibility. No change to EBOOT.",
+  "item_label_correction": "See OGGETTI_CORRETTI_E_KB10A.md: 155=second transform at two bars; 15E=swap at two bars. Earlier cancellation interpretation superseded."
+}

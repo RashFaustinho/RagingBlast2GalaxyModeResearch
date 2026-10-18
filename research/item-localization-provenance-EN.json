@@ -1,0 +1,39 @@
+{
+  "member_index": 1961,
+  "member_offset": 1301200896,
+  "member_size": 36863,
+  "language_tag": "US",
+  "definition_sha256": "c6d7b2643fa0bbdca8ea449ebc7933cc6745dbc0d20c051937945f3d5526c700",
+  "inner_sha256": "f5c9468364261f1a7a11bed70a69560add3afe12ca966dcb0164051bf678268d",
+  "definition_count": 381,
+  "text_files": 750,
+  "binding": "word0 is name-text ID; word1 is description-text ID; equip slots use array indices",
+  "independent_copies_checked": [
+    {
+      "member_index": 884,
+      "member_offset": 738283520,
+      "member_size": 61121,
+      "inner_sha256": "f5c9468364261f1a7a11bed70a69560add3afe12ca966dcb0164051bf678268d",
+      "text_files": 750
+    },
+    {
+      "member_index": 1903,
+      "member_offset": 1273335808,
+      "member_size": 99558,
+      "inner_sha256": "f5c9468364261f1a7a11bed70a69560add3afe12ca966dcb0164051bf678268d",
+      "text_files": 750
+    },
+    {
+      "member_index": 1961,
+      "member_offset": 1301200896,
+      "member_size": 36863,
+      "inner_sha256": "f5c9468364261f1a7a11bed70a69560add3afe12ca966dcb0164051bf678268d",
+      "text_files": 750
+    }
+  ],
+  "title": "BLES00978",
+  "definition_source": "boot AFS member22 / game_resident_param_m.pak / item_parameter.dat",
+  "inner_member": "F_Item_US.pak",
+  "encoding": "UTF16LE BOM and NUL terminator",
+  "limits": "Names and advertised effects, not certification of every runtime effect or causal trigger."
+}

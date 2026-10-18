@@ -1,0 +1,32 @@
+{
+  "experiment": "KB17A",
+  "baseline": "KB16A",
+  "status": "ARCHIVE_READBACK_VERIFIED_GAMEPLAY_UNTESTED",
+  "node": 117,
+  "roster_before": [
+    1058,
+    1063,
+    1061
+  ],
+  "roster_after": [
+    1058,
+    1061
+  ],
+  "roster_names": [
+    "Goku SSJ2",
+    "Vegeta SSJ2"
+  ],
+  "roster_descriptor": 788,
+  "roster_file_offset_hex": "0x26c5c",
+  "participant_count": 2,
+  "removed_character": "Fat Buu",
+  "boot_sha256": "c75518d280783028a0df8c55d435db87907db6a60595d394aaa989ce6484e1bb",
+  "boot_identical_to_KB16A": true,
+  "galaxy_sha256": "8a3979418efc071013010c1c564f2bd53f9594b9fcd1165d59f92744e8ffe44d",
+  "galaxy_mmd_sha256": "5a61384b20aa3c0f506f6953f335fa7b1d2403925ca56614029cf8b4f5f8191c",
+  "mmd_bytes_before": 158836,
+  "mmd_bytes_after": 158828,
+  "preserved": "All Goku/Vegeta form links, equipment including16A No Switch Outs, stage and battle settings from KB16A",
+  "executable_modified": false,
+  "verification": "Readback matches rebuilt MMD; exactly two roster participants; all other Galaxy archive member bodies unchanged. No gameplay test."
+}

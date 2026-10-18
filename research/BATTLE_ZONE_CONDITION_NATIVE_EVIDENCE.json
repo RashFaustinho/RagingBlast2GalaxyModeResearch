@@ -1,0 +1,1895 @@
+{
+  "source_elf_sha256": "8e2b454ca5959476a5869d0ab9e652123a019d72791f61ab37f7dd9936b2b892",
+  "instruction_checks": 12,
+  "scope": "Static original-code analysis and original ZONE parsing. Does not claim every secret route was played. Flag11/12/13 gameplay names remain unverified.",
+  "findings": {
+    "arena_field": "+1C read by setup; originals vary by fight",
+    "reward_query_1_14": "Remaining health percentage; native getter scales team-health ratio to integer percent",
+    "query_1_3": "Maximum combo hit count",
+    "query_1_11_12_13": "Recorded battle outcome flags at statistics+60/+64/+68; do not guess gameplay trigger names",
+    "routing": "Ordinary forks use +34 destinations; secret destinations additionally follow native per-zone requirements and a latched result. The traced native secret check does not evaluate root+30. Rewards are evaluated separately at272B58."
+  },
+  "zones": [
+    {
+      "file": "zone_aquamarine_sphere.mmd",
+      "sha256": "33658d085837bdc8df5f9788fc6c1ec1b646ab486492550c78a6cd2c07326b52",
+      "arenas": [
+        12,
+        12,
+        12,
+        10,
+        3,
+        13,
+        10,
+        3,
+        13
+      ],
+      "stored_conditions": [],
+      "rewards": [
+        {
+          "node": 1,
+          "kind": 8,
+          "target": 424,
+          "condition": "(query(type=1, argument=14) >= 40)"
+        },
+        {
+          "node": 2,
+          "kind": 8,
+          "target": 220,
+          "condition": "(query(type=1, argument=14) >= 40)"
+        },
+        {
+          "node": 3,
+          "kind": 8,
+          "target": 39,
+          "condition": "(query(type=1, argument=14) >= 40)"
+        },
+        {
+          "node": 4,
+          "kind": 8,
+          "target": 288,
+          "condition": "(query(type=1, argument=14) >= 40)"
+        },
+        {
+          "node": 5,
+          "kind": 8,
+          "target": 134,
+          "condition": "(query(type=1, argument=14) >= 40)"
+        },
+        {
+          "node": 6,
+          "kind": 8,
+          "target": 277,
+          "condition": "(query(type=1, argument=14) >= 40)"
+        },
+        {
+          "node": 7,
+          "kind": 8,
+          "target": 272,
+          "condition": "(query(type=1, argument=14) >= 40)"
+        },
+        {
+          "node": 8,
+          "kind": 8,
+          "target": 273,
+          "condition": "(query(type=1, argument=14) >= 40)"
+        }
+      ]
+    },
+    {
+      "file": "zone_blue_lozenge.mmd",
+      "sha256": "23a9f311984e22bdfb90fc86e2977ad343477ad978c42aae068b9eadd7bd7f04",
+      "arenas": [
+        0,
+        0,
+        6,
+        1,
+        6,
+        1
+      ],
+      "stored_conditions": [],
+      "rewards": [
+        {
+          "node": 1,
+          "kind": 8,
+          "target": 2,
+          "condition": "(query(type=1, argument=14) >= 35)"
+        },
+        {
+          "node": 2,
+          "kind": 8,
+          "target": 40,
+          "condition": "(query(type=1, argument=14) >= 35)"
+        },
+        {
+          "node": 3,
+          "kind": 8,
+          "target": 5,
+          "condition": "(query(type=1, argument=14) >= 35)"
+        },
+        {
+          "node": 4,
+          "kind": 8,
+          "target": 86,
+          "condition": "(query(type=1, argument=14) >= 35)"
+        },
+        {
+          "node": 5,
+          "kind": 8,
+          "target": 81,
+          "condition": "(query(type=1, argument=14) >= 35)"
+        }
+      ]
+    },
+    {
+      "file": "zone_crimson_liner.mmd",
+      "sha256": "2458c10990ba35d99fed06c49e8e40e9ae9c34a1c89bd98f910c04a6b133ad07",
+      "arenas": [
+        0,
+        0,
+        1,
+        11,
+        1,
+        11,
+        1,
+        6,
+        11
+      ],
+      "stored_conditions": [
+        {
+          "node": 7,
+          "expression": "(query(type=1, argument=3) >= 20)"
+        }
+      ],
+      "rewards": [
+        {
+          "node": 1,
+          "kind": 8,
+          "target": 14,
+          "condition": "(query(type=1, argument=14) >= 40)"
+        },
+        {
+          "node": 2,
+          "kind": 8,
+          "target": 429,
+          "condition": "(query(type=1, argument=14) >= 40)"
+        },
+        {
+          "node": 3,
+          "kind": 8,
+          "target": 428,
+          "condition": "(query(type=1, argument=14) >= 40)"
+        },
+        {
+          "node": 4,
+          "kind": 8,
+          "target": 65,
+          "condition": "(query(type=1, argument=14) >= 40)"
+        },
+        {
+          "node": 5,
+          "kind": 8,
+          "target": 403,
+          "condition": "(query(type=1, argument=14) >= 40)"
+        },
+        {
+          "node": 6,
+          "kind": 8,
+          "target": 354,
+          "condition": "(query(type=1, argument=14) >= 40)"
+        },
+        {
+          "node": 7,
+          "kind": 8,
+          "target": 418,
+          "condition": "(query(type=1, argument=14) >= 40)"
+        },
+        {
+          "node": 8,
+          "kind": 8,
+          "target": 43,
+          "condition": "(query(type=1, argument=14) >= 40)"
+        }
+      ]
+    },
+    {
+      "file": "zone_final.mmd",
+      "sha256": "f6fec4babbdec09a3107da024137d2325191718c6fbffa4834ab25fcb51a545b",
+      "arenas": [
+        5,
+        0,
+        13,
+        12,
+        9,
+        10,
+        3
+      ],
+      "stored_conditions": [],
+      "rewards": [
+        {
+          "node": 0,
+          "kind": 8,
+          "target": 126,
+          "condition": "(query(type=1, argument=14) >= 40)"
+        },
+        {
+          "node": 1,
+          "kind": 8,
+          "target": 72,
+          "condition": "(query(type=1, argument=14) >= 40)"
+        },
+        {
+          "node": 2,
+          "kind": 8,
+          "target": 219,
+          "condition": "(query(type=1, argument=14) >= 40)"
+        },
+        {
+          "node": 3,
+          "kind": 8,
+          "target": 275,
+          "condition": "(query(type=1, argument=14) >= 40)"
+        },
+        {
+          "node": 4,
+          "kind": 8,
+          "target": 17,
+          "condition": "(query(type=1, argument=14) >= 40)"
+        },
+        {
+          "node": 5,
+          "kind": 8,
+          "target": 132,
+          "condition": "(query(type=1, argument=14) >= 40)"
+        },
+        {
+          "node": 6,
+          "kind": 8,
+          "target": 48,
+          "condition": "(query(type=1, argument=14) >= 40)"
+        }
+      ]
+    },
+    {
+      "file": "zone_final_ultimate.mmd",
+      "sha256": "84c3d38a4fd0eb086aeb7099ca12b46c4af24afab2a602020e1110ee35046620",
+      "arenas": [
+        1,
+        10,
+        3,
+        6,
+        11,
+        4,
+        13,
+        13,
+        9,
+        8,
+        12
+      ],
+      "stored_conditions": [
+        {
+          "node": 4,
+          "expression": "query(type=1, argument=11)"
+        },
+        {
+          "node": 6,
+          "expression": "query(type=1, argument=11)"
+        },
+        {
+          "node": 8,
+          "expression": "query(type=1, argument=11)"
+        },
+        {
+          "node": 10,
+          "expression": "query(type=1, argument=11)"
+        }
+      ],
+      "rewards": [
+        {
+          "node": 0,
+          "kind": 8,
+          "target": 404,
+          "condition": "(query(type=1, argument=14) >= 30)"
+        },
+        {
+          "node": 1,
+          "kind": 8,
+          "target": 169,
+          "condition": "(query(type=1, argument=14) >= 30)"
+        },
+        {
+          "node": 2,
+          "kind": 8,
+          "target": 274,
+          "condition": "(query(type=1, argument=14) >= 30)"
+        },
+        {
+          "node": 3,
+          "kind": 8,
+          "target": 37,
+          "condition": "(query(type=1, argument=14) >= 30)"
+        },
+        {
+          "node": 4,
+          "kind": 8,
+          "target": 414,
+          "condition": "(query(type=1, argument=14) >= 30)"
+        },
+        {
+          "node": 5,
+          "kind": 8,
+          "target": 26,
+          "condition": "(query(type=1, argument=14) >= 30)"
+        },
+        {
+          "node": 6,
+          "kind": 8,
+          "target": 28,
+          "condition": "(query(type=1, argument=14) >= 30)"
+        },
+        {
+          "node": 7,
+          "kind": 8,
+          "target": 104,
+          "condition": "(query(type=1, argument=14) >= 30)"
+        },
+        {
+          "node": 8,
+          "kind": 8,
+          "target": 49,
+          "condition": "(query(type=1, argument=14) >= 30)"
+        },
+        {
+          "node": 9,
+          "kind": 8,
+          "target": 35,
+          "condition": "(query(type=1, argument=14) >= 30)"
+        },
+        {
+          "node": 10,
+          "kind": 8,
+          "target": 70,
+          "condition": "(query(type=1, argument=14) >= 30)"
+        }
+      ]
+    },
+    {
+      "file": "zone_green_square.mmd",
+      "sha256": "37fbfc3e0529f4eda842c952d2c2727130b386680053a478201610227e153b99",
+      "arenas": [
+        13,
+        13,
+        13,
+        13
+      ],
+      "stored_conditions": [],
+      "rewards": [
+        {
+          "node": 1,
+          "kind": 8,
+          "target": 8,
+          "condition": "(query(type=1, argument=14) >= 30)"
+        },
+        {
+          "node": 2,
+          "kind": 8,
+          "target": 120,
+          "condition": "(query(type=1, argument=14) >= 30)"
+        },
+        {
+          "node": 3,
+          "kind": 8,
+          "target": 118,
+          "condition": "(query(type=1, argument=14) >= 30)"
+        }
+      ]
+    },
+    {
+      "file": "zone_red_triangle.mmd",
+      "sha256": "cd697806fbbf921f7166fe043f17e6e0e6dae73735edcc2882ea8123060d7bdf",
+      "arenas": [
+        11,
+        11,
+        4,
+        3,
+        4,
+        3
+      ],
+      "stored_conditions": [
+        {
+          "node": 3,
+          "expression": "query(type=1, argument=11)"
+        },
+        {
+          "node": 5,
+          "expression": "query(type=1, argument=11)"
+        }
+      ],
+      "rewards": [
+        {
+          "node": 1,
+          "kind": 8,
+          "target": 21,
+          "condition": "(query(type=1, argument=14) >= 30)"
+        },
+        {
+          "node": 2,
+          "kind": 8,
+          "target": 30,
+          "condition": "(query(type=1, argument=14) >= 30)"
+        },
+        {
+          "node": 3,
+          "kind": 8,
+          "target": 107,
+          "condition": "(query(type=1, argument=14) >= 30)"
+        },
+        {
+          "node": 4,
+          "kind": 8,
+          "target": 216,
+          "condition": "(query(type=1, argument=14) >= 30)"
+        },
+        {
+          "node": 5,
+          "kind": 8,
+          "target": 374,
+          "condition": "(query(type=1, argument=14) >= 30)"
+        }
+      ]
+    },
+    {
+      "file": "zone_ultimate_circle.mmd",
+      "sha256": "eb974ee61e8e62f80bb10edfa11b24d87a4e10d3f574f27ff4c9ec9146cfb825",
+      "arenas": [
+        5,
+        5,
+        2,
+        5,
+        2,
+        11,
+        6,
+        2,
+        11,
+        6,
+        2
+      ],
+      "stored_conditions": [
+        {
+          "node": 2,
+          "expression": "query(type=1, argument=13)"
+        },
+        {
+          "node": 4,
+          "expression": "query(type=1, argument=12)"
+        },
+        {
+          "node": 7,
+          "expression": "query(type=1, argument=12)"
+        },
+        {
+          "node": 10,
+          "expression": "query(type=1, argument=12)"
+        }
+      ],
+      "rewards": [
+        {
+          "node": 1,
+          "kind": 8,
+          "target": 23,
+          "condition": "(query(type=1, argument=14) >= 35)"
+        },
+        {
+          "node": 2,
+          "kind": 8,
+          "target": 250,
+          "condition": "(query(type=1, argument=14) >= 35)"
+        },
+        {
+          "node": 3,
+          "kind": 8,
+          "target": 422,
+          "condition": "(query(type=1, argument=14) >= 35)"
+        },
+        {
+          "node": 4,
+          "kind": 8,
+          "target": 47,
+          "condition": "(query(type=1, argument=14) >= 35)"
+        },
+        {
+          "node": 5,
+          "kind": 8,
+          "target": 18,
+          "condition": "(query(type=1, argument=14) >= 35)"
+        },
+        {
+          "node": 6,
+          "kind": 8,
+          "target": 19,
+          "condition": "(query(type=1, argument=14) >= 35)"
+        },
+        {
+          "node": 7,
+          "kind": 8,
+          "target": 423,
+          "condition": "(query(type=1, argument=14) >= 35)"
+        },
+        {
+          "node": 8,
+          "kind": 8,
+          "target": 62,
+          "condition": "(query(type=1, argument=14) >= 35)"
+        },
+        {
+          "node": 9,
+          "kind": 8,
+          "target": 57,
+          "condition": "(query(type=1, argument=14) >= 35)"
+        },
+        {
+          "node": 10,
+          "kind": 8,
+          "target": 9,
+          "condition": "(query(type=1, argument=14) >= 35)"
+        }
+      ]
+    },
+    {
+      "file": "zone_ultimate_liner.mmd",
+      "sha256": "ba6872f533e3fcbe7e2e58721727f73d2894f385eda4655b9bd9e1950921e7d3",
+      "arenas": [
+        6,
+        10,
+        12,
+        10,
+        12,
+        10,
+        5,
+        12,
+        10,
+        5,
+        12
+      ],
+      "stored_conditions": [
+        {
+          "node": 6,
+          "expression": "query(type=1, argument=13)"
+        },
+        {
+          "node": 9,
+          "expression": "query(type=1, argument=13)"
+        }
+      ],
+      "rewards": [
+        {
+          "node": 1,
+          "kind": 8,
+          "target": 253,
+          "condition": "(query(type=1, argument=14) >= 30)"
+        },
+        {
+          "node": 2,
+          "kind": 8,
+          "target": 32,
+          "condition": "(query(type=1, argument=14) >= 30)"
+        },
+        {
+          "node": 3,
+          "kind": 8,
+          "target": 223,
+          "condition": "(query(type=1, argument=14) >= 30)"
+        },
+        {
+          "node": 4,
+          "kind": 8,
+          "target": 224,
+          "condition": "(query(type=1, argument=14) >= 30)"
+        },
+        {
+          "node": 5,
+          "kind": 8,
+          "target": 146,
+          "condition": "(query(type=1, argument=14) >= 30)"
+        },
+        {
+          "node": 6,
+          "kind": 8,
+          "target": 56,
+          "condition": "(query(type=1, argument=14) >= 30)"
+        },
+        {
+          "node": 7,
+          "kind": 8,
+          "target": 145,
+          "condition": "(query(type=1, argument=14) >= 30)"
+        },
+        {
+          "node": 8,
+          "kind": 8,
+          "target": 15,
+          "condition": "(query(type=1, argument=14) >= 30)"
+        },
+        {
+          "node": 9,
+          "kind": 8,
+          "target": 170,
+          "condition": "(query(type=1, argument=14) >= 30)"
+        },
+        {
+          "node": 10,
+          "kind": 8,
+          "target": 88,
+          "condition": "(query(type=1, argument=14) >= 30)"
+        }
+      ]
+    },
+    {
+      "file": "zone_ultimate_lozenge.mmd",
+      "sha256": "17cb713e22b41c58694adb7e0768f873e539b1690128fbc75e4f8d61afcc4df4",
+      "arenas": [
+        0,
+        3,
+        12,
+        3,
+        12,
+        3,
+        12
+      ],
+      "stored_conditions": [],
+      "rewards": [
+        {
+          "node": 1,
+          "kind": 8,
+          "target": 254,
+          "condition": "(query(type=1, argument=14) >= 40)"
+        },
+        {
+          "node": 2,
+          "kind": 8,
+          "target": 215,
+          "condition": "(query(type=1, argument=14) >= 40)"
+        },
+        {
+          "node": 3,
+          "kind": 8,
+          "target": 51,
+          "condition": "(query(type=1, argument=14) >= 40)"
+        },
+        {
+          "node": 4,
+          "kind": 8,
+          "target": 54,
+          "condition": "(query(type=1, argument=14) >= 40)"
+        },
+        {
+          "node": 5,
+          "kind": 8,
+          "target": 415,
+          "condition": "(query(type=1, argument=14) >= 40)"
+        },
+        {
+          "node": 6,
+          "kind": 8,
+          "target": 103,
+          "condition": "(query(type=1, argument=14) >= 40)"
+        }
+      ]
+    },
+    {
+      "file": "zone_ultimate_sphere.mmd",
+      "sha256": "7b830cb084b7724d3d4ad1ddaf4ff8bce49fba4f07eee5856eefde618ebdebbc",
+      "arenas": [
+        13,
+        13,
+        8,
+        9,
+        0,
+        8,
+        9,
+        0,
+        8,
+        9,
+        0
+      ],
+      "stored_conditions": [],
+      "rewards": [
+        {
+          "node": 1,
+          "kind": 8,
+          "target": 229,
+          "condition": "(query(type=1, argument=14) >= 35)"
+        },
+        {
+          "node": 2,
+          "kind": 8,
+          "target": 24,
+          "condition": "(query(type=1, argument=14) >= 35)"
+        },
+        {
+          "node": 3,
+          "kind": 8,
+          "target": 6,
+          "condition": "(query(type=1, argument=14) >= 35)"
+        },
+        {
+          "node": 4,
+          "kind": 8,
+          "target": 7,
+          "condition": "(query(type=1, argument=14) >= 35)"
+        },
+        {
+          "node": 5,
+          "kind": 8,
+          "target": 419,
+          "condition": "(query(type=1, argument=14) >= 35)"
+        },
+        {
+          "node": 6,
+          "kind": 8,
+          "target": 421,
+          "condition": "(query(type=1, argument=14) >= 35)"
+        },
+        {
+          "node": 7,
+          "kind": 8,
+          "target": 425,
+          "condition": "(query(type=1, argument=14) >= 35)"
+        },
+        {
+          "node": 8,
+          "kind": 8,
+          "target": 413,
+          "condition": "(query(type=1, argument=14) >= 35)"
+        },
+        {
+          "node": 9,
+          "kind": 8,
+          "target": 260,
+          "condition": "(query(type=1, argument=14) >= 35)"
+        },
+        {
+          "node": 10,
+          "kind": 8,
+          "target": 291,
+          "condition": "(query(type=1, argument=14) >= 35)"
+        }
+      ]
+    },
+    {
+      "file": "zone_ultimate_spiral.mmd",
+      "sha256": "61dfbaf2315461b523c7f114d9638b87f4552104d9ef64b3f4dbdf4aa2cdffc2",
+      "arenas": [
+        0,
+        1,
+        13,
+        1,
+        13,
+        1,
+        10,
+        13
+      ],
+      "stored_conditions": [
+        {
+          "node": 6,
+          "expression": "query(type=1, argument=11)"
+        }
+      ],
+      "rewards": [
+        {
+          "node": 1,
+          "kind": 8,
+          "target": 384,
+          "condition": "(query(type=1, argument=14) >= 40)"
+        },
+        {
+          "node": 2,
+          "kind": 8,
+          "target": 289,
+          "condition": "(query(type=1, argument=14) >= 40)"
+        },
+        {
+          "node": 3,
+          "kind": 8,
+          "target": 402,
+          "condition": "(query(type=1, argument=14) >= 40)"
+        },
+        {
+          "node": 4,
+          "kind": 8,
+          "target": 405,
+          "condition": "(query(type=1, argument=14) >= 40)"
+        },
+        {
+          "node": 5,
+          "kind": 8,
+          "target": 22,
+          "condition": "(query(type=1, argument=14) >= 40)"
+        },
+        {
+          "node": 6,
+          "kind": 8,
+          "target": 299,
+          "condition": "(query(type=1, argument=14) >= 40)"
+        },
+        {
+          "node": 7,
+          "kind": 8,
+          "target": 278,
+          "condition": "(query(type=1, argument=14) >= 40)"
+        }
+      ]
+    },
+    {
+      "file": "zone_ultimate_square.mmd",
+      "sha256": "4eada963c60d6733b76dc9007159880b4be2e5d54af81725c4ad428071dffe0f",
+      "arenas": [
+        9,
+        9,
+        9,
+        10,
+        9
+      ],
+      "stored_conditions": [
+        {
+          "node": 3,
+          "expression": "query(type=1, argument=12)"
+        }
+      ],
+      "rewards": [
+        {
+          "node": 1,
+          "kind": 8,
+          "target": 420,
+          "condition": "(query(type=1, argument=14) >= 45)"
+        },
+        {
+          "node": 2,
+          "kind": 8,
+          "target": 426,
+          "condition": "(query(type=1, argument=14) >= 45)"
+        },
+        {
+          "node": 3,
+          "kind": 8,
+          "target": 16,
+          "condition": "(query(type=1, argument=14) >= 45)"
+        },
+        {
+          "node": 4,
+          "kind": 8,
+          "target": 27,
+          "condition": "(query(type=1, argument=14) >= 45)"
+        }
+      ]
+    },
+    {
+      "file": "zone_ultimate_triangle.mmd",
+      "sha256": "bf7b53615af9befcf87da8e672c854e1f0d8e8d5c594c79a64f09e985ba5e9dc",
+      "arenas": [
+        8,
+        8,
+        8,
+        12,
+        8
+      ],
+      "stored_conditions": [
+        {
+          "node": 3,
+          "expression": "(query(type=1, argument=3) >= 20)"
+        }
+      ],
+      "rewards": [
+        {
+          "node": 1,
+          "kind": 8,
+          "target": 427,
+          "condition": "(query(type=1, argument=14) >= 45)"
+        },
+        {
+          "node": 2,
+          "kind": 8,
+          "target": 25,
+          "condition": "(query(type=1, argument=14) >= 45)"
+        },
+        {
+          "node": 3,
+          "kind": 8,
+          "target": 20,
+          "condition": "(query(type=1, argument=14) >= 45)"
+        },
+        {
+          "node": 4,
+          "kind": 8,
+          "target": 42,
+          "condition": "(query(type=1, argument=14) >= 45)"
+        }
+      ]
+    },
+    {
+      "file": "zone_violet_circle.mmd",
+      "sha256": "1b4ea736c37c1e26e2bc3f7ed1714efc4aea8943c308983bd8293fef4e7b9ac5",
+      "arenas": [
+        6,
+        6,
+        6,
+        5,
+        4,
+        12,
+        5,
+        4,
+        12,
+        5
+      ],
+      "stored_conditions": [
+        {
+          "node": 3,
+          "expression": "query(type=1, argument=12)"
+        },
+        {
+          "node": 6,
+          "expression": "query(type=1, argument=12)"
+        },
+        {
+          "node": 9,
+          "expression": "query(type=1, argument=12)"
+        }
+      ],
+      "rewards": [
+        {
+          "node": 1,
+          "kind": 8,
+          "target": 34,
+          "condition": "(query(type=1, argument=14) >= 40)"
+        },
+        {
+          "node": 2,
+          "kind": 8,
+          "target": 85,
+          "condition": "(query(type=1, argument=14) >= 40)"
+        },
+        {
+          "node": 3,
+          "kind": 8,
+          "target": 416,
+          "condition": "(query(type=1, argument=14) >= 40)"
+        },
+        {
+          "node": 4,
+          "kind": 8,
+          "target": 3,
+          "condition": "(query(type=1, argument=14) >= 40)"
+        },
+        {
+          "node": 5,
+          "kind": 8,
+          "target": 60,
+          "condition": "(query(type=1, argument=14) >= 40)"
+        },
+        {
+          "node": 6,
+          "kind": 8,
+          "target": 271,
+          "condition": "(query(type=1, argument=14) >= 40)"
+        },
+        {
+          "node": 7,
+          "kind": 8,
+          "target": 150,
+          "condition": "(query(type=1, argument=14) >= 40)"
+        },
+        {
+          "node": 8,
+          "kind": 8,
+          "target": 55,
+          "condition": "(query(type=1, argument=14) >= 40)"
+        },
+        {
+          "node": 9,
+          "kind": 8,
+          "target": 226,
+          "condition": "(query(type=1, argument=14) >= 40)"
+        }
+      ]
+    },
+    {
+      "file": "zone_yellow_spiral.mmd",
+      "sha256": "1b5e9cedf432818fdba555d72207b0e1d1f46793b4721fc3dc41782b1d8ee913",
+      "arenas": [
+        2,
+        8,
+        10,
+        8,
+        10,
+        8,
+        10,
+        7
+      ],
+      "stored_conditions": [
+        {
+          "node": 7,
+          "expression": "query(type=1, argument=13)"
+        }
+      ],
+      "rewards": [
+        {
+          "node": 1,
+          "kind": 8,
+          "target": 390,
+          "condition": "(query(type=1, argument=14) >= 35)"
+        },
+        {
+          "node": 2,
+          "kind": 8,
+          "target": 394,
+          "condition": "(query(type=1, argument=14) >= 35)"
+        },
+        {
+          "node": 3,
+          "kind": 8,
+          "target": 142,
+          "condition": "(query(type=1, argument=14) >= 35)"
+        },
+        {
+          "node": 4,
+          "kind": 8,
+          "target": 139,
+          "condition": "(query(type=1, argument=14) >= 35)"
+        },
+        {
+          "node": 5,
+          "kind": 8,
+          "target": 214,
+          "condition": "(query(type=1, argument=14) >= 35)"
+        },
+        {
+          "node": 6,
+          "kind": 8,
+          "target": 11,
+          "condition": "(query(type=1, argument=14) >= 35)"
+        },
+        {
+          "node": 7,
+          "kind": 8,
+          "target": 36,
+          "condition": "(query(type=1, argument=14) >= 35)"
+        }
+      ]
+    }
+  ],
+  "disassembly": {
+    "arena_setup": [
+      "00271700: bl 0x1cd534",
+      "00271704: nop",
+      "00271708: mr r31, r3",
+      "0027170C: mr r3, r28",
+      "00271710: bl 0x26d078",
+      "00271714: lwz r4, 0x1c(r3)",
+      "00271718: mr r3, r28",
+      "0027171C: extsw r4, r4",
+      "00271720: bl 0x26cea0",
+      "00271724: mr r26, r3",
+      "00271728: mr r3, r28",
+      "0027172C: bl 0x26f740",
+      "00271730: mr r27, r3",
+      "00271734: mr r3, r28",
+      "00271738: bl 0x26d078",
+      "0027173C: lwz r4, 8(r3)",
+      "00271740: mr r3, r28",
+      "00271744: extsw r4, r4",
+      "00271748: bl 0x26ccc0",
+      "0027174C: cmpwi cr7, r3, 0",
+      "00271750: beq cr7, 0x271768",
+      "00271754: mr r3, r28",
+      "00271758: bl 0x26d078",
+      "0027175C: lwz r0, 0x14(r3)",
+      "00271760: cmpwi cr7, r0, 0xc",
+      "00271764: beq cr7, 0x2718f0",
+      "00271768: bl 0x26c7f4",
+      "0027176C: nop",
+      "00271770: lfs f0, -0x234(r2)",
+      "00271774: stfs f0, 0x14(r3)",
+      "00271778: clrldi r29, r31, 0x20",
+      "0027177C: li r30, 0",
+      "00271780: mr r3, r29",
+      "00271784: addi r25, r1, 0x70",
+      "00271788: bl 0x1cd568",
+      "0027178C: nop",
+      "00271790: mr r3, r29",
+      "00271794: li r4, 3",
+      "00271798: bl 0x1cd6d0",
+      "0027179C: nop",
+      "002717A0: mr r3, r29",
+      "002717A4: li r4, 0",
+      "002717A8: li r5, 0x12",
+      "002717AC: bl 0x1cd6a0",
+      "002717B0: nop",
+      "002717B4: mr r3, r29",
+      "002717B8: li r5, 0",
+      "002717BC: li r4, 1",
+      "002717C0: bl 0x1cd6a0",
+      "002717C4: nop",
+      "002717C8: mr r3, r29",
+      "002717CC: clrldi r4, r26, 0x20",
+      "002717D0: bl 0x1cd6e0",
+      "002717D4: nop",
+      "002717D8: mr r3, r29",
+      "002717DC: clrldi r4, r27, 0x20",
+      "002717E0: bl 0x1cd6f0"
+    ],
+    "arena_converter": [
+      "0026CEA0: cmpwi cr7, r4, 0xf",
+      "0026CEA4: slwi r0, r4, 2",
+      "0026CEA8: li r3, 0",
+      "0026CEAC: extsw r0, r0",
+      "0026CEB0: beq cr7, 0x26cec0",
+      "0026CEB4: lwz r9, -0x238(r2)",
+      "0026CEB8: add r9, r0, r9",
+      "0026CEBC: lwz r3, 0x20(r9)",
+      "0026CEC0: clrldi r3, r3, 0x20",
+      "0026CEC4: blr",
+      "0026CEC8: blr"
+    ],
+    "statistic_dispatch": [
+      "002F3B34: stdu r1, -0x70(r1)",
+      "002F3B38: mflr r0",
+      "002F3B3C: cmpwi cr7, r3, 0x10",
+      "002F3B40: std r0, 0x80(r1)",
+      "002F3B44: slwi r0, r3, 2",
+      "002F3B48: li r9, 0",
+      "002F3B4C: extsw r0, r0",
+      "002F3B50: bgt cr7, 0x2f3b78",
+      "002F3B54: lwz r9, 0x19e4(r2)",
+      "002F3B58: lwzx r11, r9, r0",
+      "002F3B5C: lwz r0, 0(r11)",
+      "002F3B60: std r2, 0x28(r1)",
+      "002F3B64: mtctr r0",
+      "002F3B68: lwz r2, 4(r11)",
+      "002F3B6C: bctrl",
+      "002F3B70: ld r2, 0x28(r1)",
+      "002F3B74: mr r9, r3",
+      "002F3B78: ld r0, 0x80(r1)",
+      "002F3B7C: extsw r3, r9",
+      "002F3B80: addi r1, r1, 0x70",
+      "002F3B84: mtlr r0",
+      "002F3B88: blr"
+    ],
+    "statistic_getters": [
+      "002F3CE0: stdu r1, -0x70(r1)",
+      "002F3CE4: mflr r0",
+      "002F3CE8: std r0, 0x80(r1)",
+      "002F3CEC: bl 0x1224bc",
+      "002F3CF0: nop",
+      "002F3CF4: lwz r9, 0xc(r3)",
+      "002F3CF8: ld r0, 0x80(r1)",
+      "002F3CFC: addi r1, r1, 0x70",
+      "002F3D00: mtlr r0",
+      "002F3D04: lwz r3, 0x38(r9)",
+      "002F3D08: extsw r3, r3",
+      "002F3D0C: blr",
+      "002F3D10: stdu r1, -0x70(r1)",
+      "002F3D14: mflr r0",
+      "002F3D18: std r0, 0x80(r1)",
+      "002F3D1C: bl 0x1224bc",
+      "002F3D20: nop",
+      "002F3D24: lwz r9, 0xc(r3)",
+      "002F3D28: ld r0, 0x80(r1)",
+      "002F3D2C: addi r1, r1, 0x70",
+      "002F3D30: mtlr r0",
+      "002F3D34: lwz r3, 0x3c(r9)",
+      "002F3D38: extsw r3, r3",
+      "002F3D3C: blr",
+      "002F3D40: stdu r1, -0x70(r1)",
+      "002F3D44: mflr r0",
+      "002F3D48: std r0, 0x80(r1)",
+      "002F3D4C: bl 0x1224bc",
+      "002F3D50: nop",
+      "002F3D54: lwz r9, 0xc(r3)",
+      "002F3D58: ld r0, 0x80(r1)",
+      "002F3D5C: addi r1, r1, 0x70",
+      "002F3D60: mtlr r0",
+      "002F3D64: lwz r3, 0x74(r9)",
+      "002F3D68: extsw r3, r3",
+      "002F3D6C: blr",
+      "002F3D70: stdu r1, -0x70(r1)",
+      "002F3D74: mflr r0",
+      "002F3D78: std r0, 0x80(r1)",
+      "002F3D7C: bl 0x1224bc",
+      "002F3D80: nop",
+      "002F3D84: lwz r9, 0xc(r3)",
+      "002F3D88: ld r0, 0x80(r1)",
+      "002F3D8C: addi r1, r1, 0x70",
+      "002F3D90: mtlr r0",
+      "002F3D94: lwz r3, 0x70(r9)",
+      "002F3D98: extsw r3, r3",
+      "002F3D9C: blr",
+      "002F3DA0: stdu r1, -0x80(r1)",
+      "002F3DA4: mflr r0",
+      "002F3DA8: std r0, 0x90(r1)",
+      "002F3DAC: bl 0x1224bc",
+      "002F3DB0: nop",
+      "002F3DB4: lwz r9, 0xc(r3)",
+      "002F3DB8: lfs f13, 0x19ec(r2)",
+      "002F3DBC: ld r0, 0x90(r1)",
+      "002F3DC0: mtlr r0",
+      "002F3DC4: lfs f0, 0x6c(r9)",
+      "002F3DC8: addi r9, r1, 0x70",
+      "002F3DCC: fmuls f0, f0, f13",
+      "002F3DD0: fctiwz f0, f0",
+      "002F3DD4: stfiwx f0, 0, r9",
+      "002F3DD8: lwz r3, 0x70(r1)",
+      "002F3DDC: addi r1, r1, 0x80",
+      "002F3DE0: extsw r3, r3",
+      "002F3DE4: blr",
+      "002F3DE8: stdu r1, -0x70(r1)",
+      "002F3DEC: mflr r0",
+      "002F3DF0: std r0, 0x80(r1)",
+      "002F3DF4: bl 0x1224bc",
+      "002F3DF8: nop",
+      "002F3DFC: lwz r9, 0xc(r3)",
+      "002F3E00: ld r0, 0x80(r1)",
+      "002F3E04: addi r1, r1, 0x70",
+      "002F3E08: mtlr r0",
+      "002F3E0C: lwz r3, 0x68(r9)",
+      "002F3E10: extsw r3, r3",
+      "002F3E14: blr",
+      "002F3E18: stdu r1, -0x70(r1)",
+      "002F3E1C: mflr r0",
+      "002F3E20: std r0, 0x80(r1)",
+      "002F3E24: bl 0x1224bc",
+      "002F3E28: nop",
+      "002F3E2C: lwz r9, 0xc(r3)",
+      "002F3E30: ld r0, 0x80(r1)",
+      "002F3E34: addi r1, r1, 0x70",
+      "002F3E38: mtlr r0",
+      "002F3E3C: lwz r3, 0x64(r9)",
+      "002F3E40: extsw r3, r3",
+      "002F3E44: blr",
+      "002F3E48: stdu r1, -0x70(r1)",
+      "002F3E4C: mflr r0",
+      "002F3E50: std r0, 0x80(r1)",
+      "002F3E54: bl 0x1224bc",
+      "002F3E58: nop",
+      "002F3E5C: lwz r9, 0xc(r3)",
+      "002F3E60: ld r0, 0x80(r1)",
+      "002F3E64: addi r1, r1, 0x70",
+      "002F3E68: mtlr r0",
+      "002F3E6C: lwz r3, 0x60(r9)",
+      "002F3E70: extsw r3, r3",
+      "002F3E74: blr",
+      "002F3E78: stdu r1, -0x70(r1)",
+      "002F3E7C: mflr r0",
+      "002F3E80: std r0, 0x80(r1)",
+      "002F3E84: bl 0x1224bc",
+      "002F3E88: nop",
+      "002F3E8C: lwz r9, 0xc(r3)",
+      "002F3E90: ld r0, 0x80(r1)",
+      "002F3E94: addi r1, r1, 0x70",
+      "002F3E98: mtlr r0",
+      "002F3E9C: lwz r3, 0x5c(r9)",
+      "002F3EA0: extsw r3, r3",
+      "002F3EA4: blr",
+      "002F3EA8: stdu r1, -0x70(r1)",
+      "002F3EAC: mflr r0",
+      "002F3EB0: std r0, 0x80(r1)",
+      "002F3EB4: bl 0x1224bc",
+      "002F3EB8: nop",
+      "002F3EBC: lwz r9, 0xc(r3)",
+      "002F3EC0: ld r0, 0x80(r1)",
+      "002F3EC4: addi r1, r1, 0x70",
+      "002F3EC8: mtlr r0",
+      "002F3ECC: lwz r3, 0x58(r9)",
+      "002F3ED0: extsw r3, r3",
+      "002F3ED4: blr",
+      "002F3ED8: stdu r1, -0x70(r1)",
+      "002F3EDC: mflr r0",
+      "002F3EE0: std r0, 0x80(r1)",
+      "002F3EE4: bl 0x1224bc",
+      "002F3EE8: nop",
+      "002F3EEC: lwz r9, 0xc(r3)",
+      "002F3EF0: ld r0, 0x80(r1)",
+      "002F3EF4: addi r1, r1, 0x70",
+      "002F3EF8: mtlr r0",
+      "002F3EFC: lwz r3, 0x54(r9)",
+      "002F3F00: extsw r3, r3",
+      "002F3F04: blr",
+      "002F3F08: stdu r1, -0x70(r1)",
+      "002F3F0C: mflr r0",
+      "002F3F10: std r0, 0x80(r1)",
+      "002F3F14: bl 0x1224bc",
+      "002F3F18: nop",
+      "002F3F1C: lwz r9, 0xc(r3)",
+      "002F3F20: ld r0, 0x80(r1)",
+      "002F3F24: addi r1, r1, 0x70",
+      "002F3F28: mtlr r0",
+      "002F3F2C: lwz r3, 0x50(r9)",
+      "002F3F30: extsw r3, r3",
+      "002F3F34: blr",
+      "002F3F38: stdu r1, -0x70(r1)",
+      "002F3F3C: mflr r0",
+      "002F3F40: std r0, 0x80(r1)",
+      "002F3F44: bl 0x1224bc",
+      "002F3F48: nop",
+      "002F3F4C: lwz r9, 0xc(r3)",
+      "002F3F50: ld r0, 0x80(r1)",
+      "002F3F54: addi r1, r1, 0x70",
+      "002F3F58: mtlr r0",
+      "002F3F5C: lwz r3, 0x4c(r9)",
+      "002F3F60: extsw r3, r3",
+      "002F3F64: blr",
+      "002F3F68: stdu r1, -0x70(r1)",
+      "002F3F6C: mflr r0",
+      "002F3F70: std r0, 0x80(r1)",
+      "002F3F74: bl 0x1224bc",
+      "002F3F78: nop",
+      "002F3F7C: lwz r9, 0xc(r3)",
+      "002F3F80: ld r0, 0x80(r1)",
+      "002F3F84: addi r1, r1, 0x70",
+      "002F3F88: mtlr r0",
+      "002F3F8C: lwz r3, 0x48(r9)",
+      "002F3F90: extsw r3, r3",
+      "002F3F94: blr",
+      "002F3F98: stdu r1, -0x70(r1)",
+      "002F3F9C: mflr r0",
+      "002F3FA0: std r0, 0x80(r1)",
+      "002F3FA4: bl 0x1224bc",
+      "002F3FA8: nop",
+      "002F3FAC: lwz r9, 0xc(r3)",
+      "002F3FB0: ld r0, 0x80(r1)",
+      "002F3FB4: addi r1, r1, 0x70",
+      "002F3FB8: mtlr r0",
+      "002F3FBC: lwz r3, 0x44(r9)",
+      "002F3FC0: extsw r3, r3",
+      "002F3FC4: blr",
+      "002F3FC8: stdu r1, -0x70(r1)",
+      "002F3FCC: mflr r0",
+      "002F3FD0: std r0, 0x80(r1)",
+      "002F3FD4: bl 0x1224bc",
+      "002F3FD8: nop",
+      "002F3FDC: lwz r9, 0xc(r3)",
+      "002F3FE0: ld r0, 0x80(r1)",
+      "002F3FE4: addi r1, r1, 0x70",
+      "002F3FE8: mtlr r0",
+      "002F3FEC: lwz r3, 0x40(r9)",
+      "002F3FF0: extsw r3, r3",
+      "002F3FF4: blr"
+    ],
+    "result_statistic_collector": [
+      "000F01E0: lwz r9, 0x3c(r28)",
+      "000F01E4: lwz r8, 0x44(r28)",
+      "000F01E8: mr r30, r3",
+      "000F01EC: addi r31, r3, 0x40",
+      "000F01F0: lwz r10, 8(r9)",
+      "000F01F4: lwz r7, 0(r8)",
+      "000F01F8: lwz r9, 4(r10)",
+      "000F01FC: lwz r11, 8(r9)",
+      "000F0200: lwz r10, 0x10(r11)",
+      "000F0204: lwz r0, 0x1b4(r10)",
+      "000F0208: cmpw cr7, r0, r7",
+      "000F020C: bge cr7, 0xf0214",
+      "000F0210: mr r0, r7",
+      "000F0214: lis r11, 1",
+      "000F0218: mr r9, r0",
+      "000F021C: ori r11, r11, 0x869f",
+      "000F0220: stw r0, 0(r8)",
+      "000F0224: cmpw cr7, r0, r11",
+      "000F0228: ble cr7, 0xf0230",
+      "000F022C: mr r9, r11",
+      "000F0230: stw r9, 0(r8)",
+      "000F0234: lwz r0, 0x124(r10)",
+      "000F0238: lwz r9, 4(r8)",
+      "000F023C: cmpw cr7, r0, r9",
+      "000F0240: bge cr7, 0xf0248",
+      "000F0244: mr r0, r9",
+      "000F0248: cmpwi cr7, r0, 0x63",
+      "000F024C: mr r9, r0",
+      "000F0250: stw r0, 4(r8)",
+      "000F0254: ble cr7, 0xf025c",
+      "000F0258: li r9, 0x63",
+      "000F025C: stw r9, 4(r8)",
+      "000F0260: lwz r0, 0x1bc(r10)",
+      "000F0264: lwz r9, 8(r8)",
+      "000F0268: cmpw cr7, r0, r9",
+      "000F026C: bge cr7, 0xf0274",
+      "000F0270: mr r0, r9",
+      "000F0274: cmpwi cr7, r0, 0x63",
+      "000F0278: mr r9, r0",
+      "000F027C: stw r0, 8(r8)",
+      "000F0280: ble cr7, 0xf0288",
+      "000F0284: li r9, 0x63",
+      "000F0288: stw r9, 8(r8)",
+      "000F028C: lwz r3, 0x48(r28)",
+      "000F0290: bl 0x1cddac",
+      "000F0294: nop",
+      "000F0298: lwz r8, 0x44(r28)",
+      "000F029C: clrldi r11, r8, 0x20",
+      "000F02A0: lwz r0, 0xc(r11)",
+      "000F02A4: cmpw cr7, r3, r0",
+      "000F02A8: bge cr7, 0xf02b0",
+      "000F02AC: mr r3, r0",
+      "000F02B0: stw r3, 0xc(r11)",
+      "000F02B4: lwz r9, 0x10(r11)",
+      "000F02B8: lwz r0, 0x48(r28)",
+      "000F02BC: cmpw cr7, r0, r9",
+      "000F02C0: bge cr7, 0xf02c8",
+      "000F02C4: mr r0, r9",
+      "000F02C8: lis r10, 0xf",
+      "000F02CC: mr r9, r0",
+      "000F02D0: ori r10, r10, 0x423f",
+      "000F02D4: stw r0, 0x10(r11)",
+      "000F02D8: cmpw cr7, r0, r10",
+      "000F02DC: ble cr7, 0xf02e4",
+      "000F02E0: mr r9, r10",
+      "000F02E4: stw r9, 0x10(r11)",
+      "000F02E8: lwz r0, 8(r31)",
+      "000F02EC: lwz r9, 0x14(r11)",
+      "000F02F0: cmpw cr7, r0, r9",
+      "000F02F4: ble cr7, 0xf02fc",
+      "000F02F8: mr r0, r9",
+      "000F02FC: cmpwi cr7, r0, 0xe10",
+      "000F0300: mr r9, r0",
+      "000F0304: stw r0, 0x14(r11)",
+      "000F0308: ble cr7, 0xf0310",
+      "000F030C: li r9, 0xe10",
+      "000F0310: stw r9, 0x14(r11)",
+      "000F0314: lwz r0, 8(r31)",
+      "000F0318: lwz r9, 0x18(r11)",
+      "000F031C: cmpw cr7, r0, r9",
+      "000F0320: bge cr7, 0xf0328",
+      "000F0324: mr r0, r9",
+      "000F0328: cmpwi cr7, r0, 0xe10",
+      "000F032C: mr r9, r0",
+      "000F0330: stw r0, 0x18(r11)",
+      "000F0334: ble cr7, 0xf033c",
+      "000F0338: li r9, 0xe10",
+      "000F033C: stw r9, 0x18(r11)",
+      "000F0340: lwz r3, 0x34(r30)",
+      "000F0344: li r0, 0",
+      "000F0348: cmpwi cr7, r3, -1",
+      "000F034C: ble cr7, 0xf0504",
+      "000F0350: clrldi r7, r8, 0x20",
+      "000F0354: lwz r9, 0x1c(r7)",
+      "000F0358: cmpw cr7, r0, r9",
+      "000F035C: bge cr7, 0xf0364",
+      "000F0360: mr r0, r9",
+      "000F0364: lwz r8, 0x3c(r28)",
+      "000F0368: stw r0, 0x1c(r7)",
+      "000F036C: lwz r9, 8(r8)",
+      "000F0370: lwz r11, 4(r9)",
+      "000F0374: lwz r10, 4(r11)",
+      "000F0378: ld r0, 0x28(r10)",
+      "000F037C: rldicl r0, r0, 0x3e, 0x3f",
+      "000F0380: cmpwi cr7, r0, 0",
+      "000F0384: beq cr7, 0xf0390",
+      "000F0388: li r0, 1",
+      "000F038C: stw r0, 0x28(r7)",
+      "000F0390: lwz r9, 8(r8)",
+      "000F0394: lwz r11, 4(r9)",
+      "000F0398: lwz r10, 4(r11)",
+      "000F039C: ld r0, 0x28(r10)",
+      "000F03A0: rldicl r0, r0, 0x3c, 0x3f",
+      "000F03A4: cmpwi cr7, r0, 0",
+      "000F03A8: beq cr7, 0xf03b4",
+      "000F03AC: li r0, 1",
+      "000F03B0: stw r0, 0x2c(r7)",
+      "000F03B4: lwz r9, 8(r8)",
+      "000F03B8: lwz r11, 4(r9)",
+      "000F03BC: lwz r10, 4(r11)",
+      "000F03C0: ld r0, 0x28(r10)",
+      "000F03C4: rldicl r0, r0, 0x3a, 0x3f",
+      "000F03C8: cmpwi cr7, r0, 0",
+      "000F03CC: beq cr7, 0xf03d8",
+      "000F03D0: li r0, 1",
+      "000F03D4: stw r0, 0x30(r7)",
+      "000F03D8: li r0, 0",
+      "000F03DC: stw r0, 0x34(r7)",
+      "000F03E0: bl 0x1224bc",
+      "000F03E4: nop",
+      "000F03E8: lwz r30, 0(r3)",
+      "000F03EC: lwz r0, 0x5a4(r30)",
+      "000F03F0: cmpwi cr7, r0, 0",
+      "000F03F4: beq cr7, 0xf042c",
+      "000F03F8: li r31, 0",
+      "000F03FC: lwz r29, 0x44(r28)",
+      "000F0400: extsw r4, r31",
+      "000F0404: li r3, 0",
+      "000F0408: addi r31, r31, 1",
+      "000F040C: lfs f31, 0x34(r29)",
+      "000F0410: bl 0x15238",
+      "000F0414: nop",
+      "000F0418: fadds f31, f31, f1",
+      "000F041C: lwz r0, 0x5a4(r30)",
+      "000F0420: cmplw cr7, r0, r31",
+      "000F0424: stfs f31, 0x34(r29)",
+      "000F0428: bgt cr7, 0xf03fc",
+      "000F042C: clrldi r0, r0, 0x20",
+      "000F0430: lwz r8, 0x44(r28)",
+      "000F0434: lwz r9, 0x3c(r28)",
+      "000F0438: std r0, 0x70(r1)",
+      "000F043C: lfd f0, 0x70(r1)",
+      "000F0440: fcfid f0, f0",
+      "000F0444: lwz r7, 0x38(r8)",
+      "000F0448: lwz r10, 8(r9)",
+      "000F044C: lwz r9, 4(r10)",
+      "000F0450: frsp f13, f0",
+      "000F0454: lfs f0, 0x34(r8)",
+      "000F0458: lwz r11, 8(r9)",
+      "000F045C: lwz r10, 0x10(r11)",
+      "000F0460: fdivs f0, f0, f13",
+      "000F0464: lwz r0, 0x1b8(r10)",
+      "000F0468: cmpw cr7, r0, r7",
+      "000F046C: stfs f0, 0x34(r8)",
+      "000F0470: bge cr7, 0xf0478",
+      "000F0474: mr r0, r7",
+      "000F0478: lis r11, 0xf",
+      "000F047C: mr r9, r0",
+      "000F0480: ori r11, r11, 0x423f",
+      "000F0484: stw r0, 0x38(r8)",
+      "000F0488: cmpw cr7, r0, r11",
+      "000F048C: ble cr7, 0xf0494",
+      "000F0490: mr r9, r11",
+      "000F0494: stw r9, 0x38(r8)",
+      "000F0498: lwz r0, 0x194(r10)",
+      "000F049C: lwz r9, 0x3c(r8)",
+      "000F04A0: cmpw cr7, r0, r9",
+      "000F04A4: bge cr7, 0xf04ac",
+      "000F04A8: mr r0, r9",
+      "000F04AC: cmpwi cr7, r0, 0x270f",
+      "000F04B0: mr r11, r0",
+      "000F04B4: stw r0, 0x3c(r8)",
+      "000F04B8: ble cr7, 0xf04c0",
+      "000F04BC: li r11, 0x270f",
+      "000F04C0: lwz r9, 0x38(r28)",
+      "000F04C4: stw r11, 0x3c(r8)",
+      "000F04C8: lwz r0, 4(r9)",
+      "000F04CC: clrlwi r0, r0, 0x1f",
+      "000F04D0: cmpwi cr7, r0, 0",
+      "000F04D4: beq cr7, 0xf04e0",
+      "000F04D8: li r0, 1",
+      "000F04DC: stw r0, 0x40(r8)",
+      "000F04E0: ld r0, 0xc0(r1)",
+      "000F04E4: ld r28, 0x88(r1)",
+      "000F04E8: ld r29, 0x90(r1)",
+      "000F04EC: mtlr r0",
+      "000F04F0: ld r30, 0x98(r1)",
+      "000F04F4: ld r31, 0xa0(r1)",
+      "000F04F8: lfd f31, 0xa8(r1)",
+      "000F04FC: addi r1, r1, 0xb0",
+      "000F0500: blr"
+    ],
+    "secret_requirement": [
+      "0026F8C8: stdu r1, -0x80(r1)",
+      "0026F8CC: mflr r0",
+      "0026F8D0: std r30, 0x70(r1)",
+      "0026F8D4: std r31, 0x78(r1)",
+      "0026F8D8: std r0, 0x90(r1)",
+      "0026F8DC: bl 0x26c7f4",
+      "0026F8E0: nop",
+      "0026F8E4: lwz r31, 4(r3)",
+      "0026F8E8: lwz r30, 8(r3)",
+      "0026F8EC: bl 0x1224bc",
+      "0026F8F0: nop",
+      "0026F8F4: lwz r9, 0xc(r3)",
+      "0026F8F8: cmpwi cr7, r31, 0",
+      "0026F8FC: addi r10, r9, 0x38",
+      "0026F900: beq cr7, 0x26f92c",
+      "0026F904: cmpwi cr7, r31, 1",
+      "0026F908: beq cr7, 0x26f9b8",
+      "0026F90C: li r3, 0",
+      "0026F910: ld r0, 0x90(r1)",
+      "0026F914: extsw r3, r3",
+      "0026F918: ld r30, 0x70(r1)",
+      "0026F91C: ld r31, 0x78(r1)",
+      "0026F920: mtlr r0",
+      "0026F924: addi r1, r1, 0x80",
+      "0026F928: blr",
+      "0026F92C: cmpwi cr7, r30, 3",
+      "0026F930: beq cr7, 0x26f984",
+      "0026F934: ble cr7, 0x26f960",
+      "0026F938: cmpwi cr7, r30, 4",
+      "0026F93C: beq cr7, 0x26f9fc",
+      "0026F940: cmpwi cr7, r30, 6",
+      "0026F944: bne cr7, 0x26f90c",
+      "0026F948: clrldi r9, r10, 0x20",
+      "0026F94C: li r3, 1",
+      "0026F950: lwz r0, 8(r9)",
+      "0026F954: cmpwi cr7, r0, 0x13",
+      "0026F958: bgt cr7, 0x26f910",
+      "0026F95C: b 0x26f90c",
+      "0026F960: cmpwi cr7, r30, 1",
+      "0026F964: bne cr7, 0x26f90c",
+      "0026F968: clrldi r9, r10, 0x20",
+      "0026F96C: lwz r0, 0x28(r9)",
+      "0026F970: srawi r9, r0, 0x1f",
+      "0026F974: xor r11, r9, r0",
+      "0026F978: subf r11, r11, r9",
+      "0026F97C: srwi r3, r11, 0x1f",
+      "0026F980: b 0x26f910",
+      "0026F984: clrldi r9, r10, 0x20",
+      "0026F988: ld r30, 0x70(r1)",
+      "0026F98C: ld r31, 0x78(r1)",
+      "0026F990: lwz r0, 0x30(r9)",
+      "0026F994: srawi r9, r0, 0x1f",
+      "0026F998: xor r11, r9, r0",
+      "0026F99C: ld r0, 0x90(r1)",
+      "0026F9A0: addi r1, r1, 0x80",
+      "0026F9A4: subf r11, r11, r9",
+      "0026F9A8: mtlr r0",
+      "0026F9AC: srwi r3, r11, 0x1f",
+      "0026F9B0: extsw r3, r3",
+      "0026F9B4: blr",
+      "0026F9B8: cmplwi cr7, r30, 7",
+      "0026F9BC: bgt cr7, 0x26f90c",
+      "0026F9C0: lwz r11, -0x1dc(r2)",
+      "0026F9C4: rldic r9, r30, 2, 0x1e",
+      "0026F9C8: lwzx r0, r9, r11",
+      "0026F9CC: extsw r0, r0",
+      "0026F9D0: add r0, r0, r11",
+      "0026F9D4: mtctr r0",
+      "0026F9D8: bctr",
+      "0026F9DC: .byte 0x00, 0x00, 0x00, 0x20",
+      "0026F9E0: .byte 0xff, 0xff, 0xff, 0x6c",
+      "0026F9E4: .byte 0xff, 0xff, 0xff, 0x30",
+      "0026F9E8: .byte 0xff, 0xff, 0xff, 0x8c",
+      "0026F9EC: .byte 0x00, 0x00, 0x00, 0x20",
+      "0026F9F0: .byte 0xff, 0xff, 0xff, 0x30",
+      "0026F9F4: .byte 0xff, 0xff, 0xff, 0xa8",
+      "0026F9F8: .byte 0xff, 0xff, 0xff, 0x8c",
+      "0026F9FC: clrldi r9, r10, 0x20",
+      "0026FA00: lwz r0, 0x2c(r9)",
+      "0026FA04: srawi r9, r0, 0x1f",
+      "0026FA08: xor r11, r9, r0",
+      "0026FA0C: subf r11, r11, r9",
+      "0026FA10: srwi r3, r11, 0x1f",
+      "0026FA14: b 0x26f910"
+    ],
+    "secret_latch": [
+      "0026FA18: stdu r1, -0x90(r1)",
+      "0026FA1C: mflr r0",
+      "0026FA20: std r29, 0x78(r1)",
+      "0026FA24: std r0, 0xa0(r1)",
+      "0026FA28: mr r29, r3",
+      "0026FA2C: bl 0x26c7f4",
+      "0026FA30: nop",
+      "0026FA34: lwz r0, 0x70(r3)",
+      "0026FA38: clrldi r29, r29, 0x20",
+      "0026FA3C: cmpwi cr7, r0, 0",
+      "0026FA40: mr r3, r29",
+      "0026FA44: li r9, 1",
+      "0026FA48: beq cr7, 0x26fa64",
+      "0026FA4C: ld r0, 0xa0(r1)",
+      "0026FA50: extsw r3, r9",
+      "0026FA54: ld r29, 0x78(r1)",
+      "0026FA58: addi r1, r1, 0x90",
+      "0026FA5C: mtlr r0",
+      "0026FA60: blr",
+      "0026FA64: bl 0x26e144",
+      "0026FA68: cmpwi cr7, r3, 0",
+      "0026FA6C: mr r3, r29",
+      "0026FA70: bne cr7, 0x26fa90",
+      "0026FA74: ld r0, 0xa0(r1)",
+      "0026FA78: li r9, 0",
+      "0026FA7C: ld r29, 0x78(r1)",
+      "0026FA80: addi r1, r1, 0x90",
+      "0026FA84: extsw r3, r9",
+      "0026FA88: mtlr r0",
+      "0026FA8C: blr",
+      "0026FA90: bl 0x26f8c8",
+      "0026FA94: cmpwi cr7, r3, 0",
+      "0026FA98: beq cr7, 0x26fa74",
+      "0026FA9C: bl 0x26c7f4",
+      "0026FAA0: nop",
+      "0026FAA4: li r0, 1",
+      "0026FAA8: ld r29, 0x78(r1)",
+      "0026FAAC: stw r0, 0x70(r3)",
+      "0026FAB0: li r9, 1",
+      "0026FAB4: ld r0, 0xa0(r1)",
+      "0026FAB8: addi r1, r1, 0x90",
+      "0026FABC: extsw r3, r9",
+      "0026FAC0: mtlr r0",
+      "0026FAC4: blr"
+    ],
+    "latch_consumer": [
+      "0027678C: mr r3, r25",
+      "00276790: bl 0x26cfc4",
+      "00276794: bl 0x26c7f4",
+      "00276798: nop",
+      "0027679C: lwz r4, 0xc(r3)",
+      "002767A0: mr r3, r25",
+      "002767A4: extsw r4, r4",
+      "002767A8: bl 0x271be4",
+      "002767AC: mr r3, r25",
+      "002767B0: bl 0x26fa18",
+      "002767B4: stw r3, 0x668(r31)"
+    ],
+    "route_selection": [
+      "00271ED0: blr",
+      "00271ED4: bl 0x2f35e0",
+      "00271ED8: nop",
+      "00271EDC: clrldi r9, r31, 0x20",
+      "00271EE0: stw r3, 0(r9)",
+      "00271EE4: b 0x271e54",
+      "00271EE8: stdu r1, -0xb0(r1)",
+      "00271EEC: mflr r0",
+      "00271EF0: std r30, 0xa0(r1)",
+      "00271EF4: clrldi r30, r3, 0x20",
+      "00271EF8: std r25, 0x78(r1)",
+      "00271EFC: std r26, 0x80(r1)",
+      "00271F00: mr r25, r4",
+      "00271F04: mr r26, r3",
+      "00271F08: li r4, 0",
+      "00271F0C: mr r3, r30",
+      "00271F10: std r0, 0xc0(r1)",
+      "00271F14: std r27, 0x88(r1)",
+      "00271F18: std r28, 0x90(r1)",
+      "00271F1C: std r29, 0x98(r1)",
+      "00271F20: std r31, 0xa8(r1)",
+      "00271F24: bl 0x26e240",
+      "00271F28: mr r31, r3",
+      "00271F2C: mr r3, r30",
+      "00271F30: addi r29, r26, 0x638",
+      "00271F34: bl 0x26d078",
+      "00271F38: clrldi r27, r3, 0x20",
+      "00271F3C: clrldi r29, r29, 0x20",
+      "00271F40: mr r4, r27",
+      "00271F44: mr r3, r29",
+      "00271F48: bl 0x2f3624",
+      "00271F4C: nop",
+      "00271F50: lwz r0, 0x668(r26)",
+      "00271F54: cmpwi cr7, r0, 0",
+      "00271F58: mr r28, r3",
+      "00271F5C: beq cr7, 0x271fbc",
+      "00271F60: cmpwi cr7, r3, 0",
+      "00271F64: ble cr7, 0x2720c8",
+      "00271F68: li r31, 0",
+      "00271F6C: b 0x271f7c",
+      "00271F70: addi r31, r31, 1",
+      "00271F74: cmpw cr7, r28, r31",
+      "00271F78: beq cr7, 0x2720c8",
+      "00271F7C: extsw r5, r31",
+      "00271F80: mr r4, r27",
+      "00271F84: mr r3, r29",
+      "00271F88: bl 0x2f3418",
+      "00271F8C: nop",
+      "00271F90: extsw r4, r3",
+      "00271F94: mr r3, r29",
+      "00271F98: bl 0x2f33fc",
+      "00271F9C: nop",
+      "00271FA0: clrldi r4, r3, 0x20",
+      "00271FA4: mr r3, r30",
+      "00271FA8: bl 0x26cde4",
+      "00271FAC: cmpwi cr7, r3, 0",
+      "00271FB0: beq cr7, 0x271f70",
+      "00271FB4: mr r5, r31",
+      "00271FB8: b 0x271fd0",
+      "00271FBC: cmpwi cr7, r31, 1",
+      "00271FC0: beq cr7, 0x272070",
+      "00271FC4: mr r3, r30",
+      "00271FC8: bl 0x26e144",
+      "00271FCC: lwz r5, 0x664(r26)",
+      "00271FD0: extsw r5, r5",
+      "00271FD4: mr r4, r27",
+      "00271FD8: mr r3, r29",
+      "00271FDC: bl 0x2f3418",
+      "00271FE0: nop",
+      "00271FE4: mr r29, r3",
+      "00271FE8: bl 0x26c7f4",
+      "00271FEC: nop",
+      "00271FF0: stw r29, 0xc(r3)",
+      "00271FF4: bl 0x26c7f4",
+      "00271FF8: nop",
+      "00271FFC: lwz r4, 0xc(r3)",
+      "00272000: mr r3, r30",
+      "00272004: extsw r4, r4",
+      "00272008: bl 0x271be4",
+      "0027200C: lwz r5, 0x668(r26)",
+      "00272010: li r4, 0",
+      "00272014: mr r3, r30",
+      "00272018: extsw r5, r5",
+      "0027201C: li r6, 1",
+      "00272020: li r7, 0",
+      "00272024: li r8, 1",
+      "00272028: bl 0x270e58",
+      "0027202C: cmpwi cr7, r25, 0",
+      "00272030: mr r3, r30",
+      "00272034: li r4, 0xa",
+      "00272038: bne cr7, 0x272044",
+      "0027203C: mr r3, r30",
+      "00272040: li r4, 0xb",
+      "00272044: ld r0, 0xc0(r1)",
+      "00272048: ld r25, 0x78(r1)",
+      "0027204C: ld r26, 0x80(r1)",
+      "00272050: mtlr r0",
+      "00272054: ld r27, 0x88(r1)",
+      "00272058: ld r28, 0x90(r1)",
+      "0027205C: ld r29, 0x98(r1)",
+      "00272060: ld r30, 0xa0(r1)",
+      "00272064: ld r31, 0xa8(r1)",
+      "00272068: addi r1, r1, 0xb0",
+      "0027206C: b 0x26cecc",
+      "00272070: cmpwi cr7, r3, 0",
+      "00272074: ble cr7, 0x2720c8",
+      "00272078: li r31, 0",
+      "0027207C: b 0x27208c",
+      "00272080: addi r31, r31, 1",
+      "00272084: cmpw cr7, r28, r31",
+      "00272088: beq cr7, 0x2720c8",
+      "0027208C: extsw r5, r31",
+      "00272090: mr r4, r27",
+      "00272094: mr r3, r29",
+      "00272098: bl 0x2f3418",
+      "0027209C: nop",
+      "002720A0: extsw r4, r3",
+      "002720A4: mr r3, r29",
+      "002720A8: bl 0x2f33fc",
+      "002720AC: nop",
+      "002720B0: clrldi r4, r3, 0x20",
+      "002720B4: mr r3, r30",
+      "002720B8: bl 0x26cde4",
+      "002720BC: cmpwi cr7, r3, 0",
+      "002720C0: bne cr7, 0x272080",
+      "002720C4: b 0x271fb4",
+      "002720C8: li r5, 0",
+      "002720CC: b 0x271fd0",
+      "002720D0: cmpwi cr7, r3, 1",
+      "002720D4: std r29, -0x18(r1)",
+      "002720D8: beq cr7, 0x2720e4",
+      "002720DC: ld r29, -0x18(r1)",
+      "002720E0: blr",
+      "002720E4: xoris r0, r4, 0xffff",
+      "002720E8: cmpwi cr7, r0, -1",
+      "002720EC: bne cr7, 0x2720dc"
+    ],
+    "reward_condition_consumer": [
+      "00272B30: extsw r31, r30",
+      "00272B34: mr r3, r23",
+      "00272B38: mr r4, r22",
+      "00272B3C: mr r5, r31",
+      "00272B40: bl 0x2f3584",
+      "00272B44: nop",
+      "00272B48: cmpwi cr7, r3, 0",
+      "00272B4C: beq cr7, 0x272b68",
+      "00272B50: clrldi r4, r3, 0x20",
+      "00272B54: clrldi r3, r19, 0x20",
+      "00272B58: bl 0x2f5848",
+      "00272B5C: nop",
+      "00272B60: cmpwi cr7, r3, 0",
+      "00272B64: beq cr7, 0x272be4",
+      "00272B68: mr r5, r31",
+      "00272B6C: mr r4, r22",
+      "00272B70: mr r3, r23",
+      "00272B74: bl 0x2f3478",
+      "00272B78: nop",
+      "00272B7C: lhz r29, 2(r3)",
+      "00272B80: mr r31, r3",
+      "00272B84: bl 0x3179c0",
+      "00272B88: nop",
+      "00272B8C: lwz r11, 0(r3)",
+      "00272B90: srawi r9, r29, 6",
+      "00272B94: addze r9, r9",
+      "00272B98: clrlwi r29, r29, 0x1a",
+      "00272B9C: slwi r28, r9, 3",
+      "00272BA0: addi r0, r28, 0x5af0",
+      "00272BA4: extsw r0, r0",
+      "00272BA8: add r11, r11, r0",
+      "00272BAC: ld r9, 8(r11)",
+      "00272BB0: srd r9, r9, r29",
+      "00272BB4: clrlwi r9, r9, 0x1f",
+      "00272BB8: cmpwi cr7, r9, 0",
+      "00272BBC: beq cr7, 0x274458",
+      "00272BC0: li r3, 8",
+      "00272BC4: bl 0x303970",
+      "00272BC8: nop",
+      "00272BCC: li r3, 9",
+      "00272BD0: bl 0x303970",
+      "00272BD4: nop",
+      "00272BD8: li r3, 0xa",
+      "00272BDC: bl 0x303970",
+      "00272BE0: nop",
+      "00272BE4: addi r30, r30, 1",
+      "00272BE8: cmpw cr7, r20, r30",
+      "00272BEC: bne cr7, 0x272b30",
+      "00272BF0: li r28, 0"
+    ]
+  }
+}

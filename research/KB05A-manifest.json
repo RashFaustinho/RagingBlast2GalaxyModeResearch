@@ -1,0 +1,121 @@
+{
+  "experiment": "KB05A",
+  "status": "DATA_VERIFIED_GAMEPLAY_UNTESTED",
+  "baseline": "KB03X (boot identical to KB02B)",
+  "preset": 1058,
+  "strength_row": 777,
+  "probe": "gohan-items",
+  "strength_row_offset": "0x10b28",
+  "table_offset": "0x10b30",
+  "type_before": "FFFFFFFF (native default 6)",
+  "type_after": "FFFFFFFF (native default 6)",
+  "level_word": 20,
+  "gear": [
+    "87",
+    "F8",
+    "C8",
+    "42",
+    "14C",
+    "169",
+    "146",
+    "E1",
+    "155"
+  ],
+  "before_strength_words": [
+    20,
+    4294967295,
+    173,
+    79,
+    78,
+    343,
+    4294967295,
+    4294967295,
+    4294967295,
+    4294967295,
+    4294967295,
+    4294967295,
+    4294967295,
+    4294967295,
+    4294967295,
+    4294967295,
+    4294967295,
+    4294967295,
+    4294967295,
+    4294967295,
+    4294967295,
+    4294967295
+  ],
+  "after_strength_words": [
+    20,
+    4294967295,
+    135,
+    248,
+    200,
+    66,
+    332,
+    361,
+    326,
+    225,
+    341,
+    4294967295,
+    4294967295,
+    4294967295,
+    4294967295,
+    4294967295,
+    4294967295,
+    4294967295,
+    4294967295,
+    4294967295,
+    4294967295,
+    4294967295
+  ],
+  "scope": "Only Goku SSJ2 item slots change from KB03X; native default type 6 restored from KB04A",
+  "boot_before_sha256": "4abbe2057479606a81f5fe520cb8562d981d4466de15ce3a44a40b2885906ed2",
+  "boot_after_sha256": "592ec3f26f56a2e2ddd5ccccb00d0938e5439194a29af6c55c7ae57ec764e555",
+  "strength_before_sha256": "191bb46536dd7c853101387c9ed00d6b2b7b301cd4e116eeb668303ae1e693e2",
+  "strength_after_sha256": "bbc310125c51a601c525d69cb68b82066fd9b43b2d7f2fa2ae88742991eff72d",
+  "parameter_archive": {
+    "before_sha256": "26c6ce6742c6f391186587d7972dce98ec6f05141ba3f9d65170632b27c3da93",
+    "after_sha256": "88650974504d2ab0e4f45a81beb4966c42a9a2e1f0a8aa656082e88bb35b6bdf",
+    "changed_members": [
+      "preset_strength_table.dat"
+    ],
+    "member_count": 13,
+    "decompressed_sha256": "88650974504d2ab0e4f45a81beb4966c42a9a2e1f0a8aa656082e88bb35b6bdf",
+    "verification": "Byte-for-byte decompression and unchanged other members; no game execution"
+  },
+  "resident_archive": {
+    "before_sha256": "18020abaeca316ba787eee63e8fc937de8eecc21565a6b69c1a90f3c445f5916",
+    "after_sha256": "2b850ffb1eb88f911c28f3210e18d0cc7365731ea5df9fb0381df041568b8020",
+    "changed_members": [
+      "game_resident_param_m.pak"
+    ],
+    "member_count": 9,
+    "decompressed_sha256": "dc2744e0ad490c386f40cdefe2fa059475addb219fcb7e6937e13c2d0fde75aa",
+    "verification": "Byte-for-byte decompression and unchanged other members; no game execution"
+  },
+  "afs": {
+    "before_sha256": "4abbe2057479606a81f5fe520cb8562d981d4466de15ce3a44a40b2885906ed2",
+    "after_sha256": "592ec3f26f56a2e2ddd5ccccb00d0938e5439194a29af6c55c7ae57ec764e555",
+    "member_index": 22,
+    "old_size": 937255,
+    "new_size": 937281,
+    "slot_capacity": 937984,
+    "status": "Other members identical; experimental copy, gameplay unrun",
+    "placement": "original_slot",
+    "verification": "Other 40 members and their offsets unchanged"
+  },
+  "galaxy": "Use unchanged exact KB03X galaxy.zpak",
+  "elf": "Original, unmodified",
+  "galaxy_sha256": "5ca7a901dff37e67834985f2bf9e8761e5ac58b81ac9ce042addb2c107ea603a",
+  "independent_verification": {
+    "goku_all20_item_slots_identical_to_gohan788": true,
+    "type_selector_restored_to_default": true,
+    "first20_level_word_preserved": true,
+    "strength_changed_rows": [
+      777
+    ],
+    "other12_parameter_members_identical": true,
+    "other8_resident_members_identical": true
+  }
+}

@@ -1,0 +1,58 @@
+{
+  "experiment": "KB11C_RAM",
+  "status": "GOKU_SSJ3_ITEM15B_FORWARD_SLOT0_TO_BASE_VERIFIED",
+  "baseline": "KB11A archives; one guarded resident strength778.slot0 15A->15B write; no EBOOT edits",
+  "archives_modified": false,
+  "source_word": "0x36960D68",
+  "invalid_attempt": "Riprova retained actor item15A despite source15B; excluded. Retiring to mission selection and entering again rebuilt actor with item15B/property179.",
+  "phase_validation": "PlayerHP40000->38320 before HP19000/aura50 probe",
+  "observations": [
+    {
+      "utc": "2026-10-14T19:00:50Z",
+      "native": 3,
+      "preset": 1059,
+      "gear": [
+        "15B"
+      ],
+      "property_flags": [
+        "179"
+      ]
+    },
+    {
+      "utc": "2026-10-14T19:03:16Z",
+      "HP": 19000,
+      "PC": "0x3A7C0",
+      "r4_selector": 0,
+      "LR": "0x88174"
+    },
+    {
+      "utc": "2026-10-14T19:03:54Z",
+      "PC": "0x3A8B4",
+      "packet_words": [
+        4,
+        1,
+        1060,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "cancel_flag8": false
+    },
+    {
+      "utc": "2026-10-14T19:04:26Z",
+      "native": 0,
+      "preset": 1060,
+      "previous_preset": 1059,
+      "HP": 19000,
+      "gear": [
+        "079"
+      ],
+      "active_enemy_slot": 0
+    }
+  ],
+  "conclusion": "Item15B can request forward slot0 for GokuSSJ3 with only slot0 populated; second-slot-link hypothesis disproved by this run. Vegeta-specific negative remains unexplained.",
+  "limits": "Single positive; exact equality threshold/latency not measured.",
+  "evidence": "kb11c-rsp-evidence.jsonl"
+}

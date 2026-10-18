@@ -1,0 +1,20 @@
+{
+  "game": "BLES00978",
+  "archive": "st_pack_progress_pt_ps3.afs",
+  "sprEntry": 1935,
+  "vramEntry": 1936,
+  "spr": "TitleDummy.spr",
+  "vram": "TitleDummy.vram",
+  "sourceName": "main_title_logo_HOKUBEI.png",
+  "offset": 2097152,
+  "size": 2097152,
+  "width": 1024,
+  "height": 512,
+  "encoding": 0,
+  "conversion": "Original western Morton-swizzled ARGB8 title-screen logo unswizzled and decoded to RGBA PNG. Original transparency retained; no crop, redraw or generated artwork.",
+  "sprSha256": "31263c4dcb7005070b00d7f068d4228ae2a220ac1d4ffbb9f08725284705ed86",
+  "vramSha256": "4e0f560dc60fbee761bc538d2403da8cc84d491fcd9de1253bf93f052b62e468",
+  "sourcePixelsSha256": "bb4c5cbe3f8ba8e75500bbbe3566c981397f15485efe32f0e3054e0eeed75733",
+  "file": "title-logo.png",
+  "pngSha256": "c605c7bc9cc3bc3b722bd0acc0f9facdfbff32c1663c9e7d4232d3379abb49b4"
+}

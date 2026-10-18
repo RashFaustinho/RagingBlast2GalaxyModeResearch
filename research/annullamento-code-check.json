@@ -1,0 +1,36 @@
+{
+  "elf_sha256": "8e2b454ca5959476a5869d0ab9e652123a019d72791f61ab37f7dd9936b2b892",
+  "status": "Static original code and prior RAM comparison; no KB07 live trace",
+  "ranges": [
+    {
+      "start": "0x3a5ec",
+      "end_exclusive": "0x3a7c0",
+      "original_code_sha256": "11147d7432426eee727076643b20fefa0aebd5411052475d91664127701ab33a",
+      "ram_comparisons": [
+        {
+          "dump": "132126",
+          "identical_to_original": true
+        },
+        {
+          "dump": "134024",
+          "identical_to_original": true
+        }
+      ]
+    },
+    {
+      "start": "0x3a12c",
+      "end_exclusive": "0x3a250",
+      "original_code_sha256": "4f2ac918d008731e10c4e661367713240b3b6c8c25080e1815c6c3ec4d846fd6",
+      "ram_comparisons": [
+        {
+          "dump": "132126",
+          "identical_to_original": true
+        },
+        {
+          "dump": "134024",
+          "identical_to_original": true
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,64 @@
+{
+  "result": "PASS",
+  "audited_on": "2026-10-18",
+  "original_note_files_audited": 276,
+  "current_claims": 27,
+  "native_proofs": [
+    {
+      "file": "publication-checks/main-flags.json",
+      "result": "PASS",
+      "instruction_checks": 13,
+      "scope": "Read-only original-code/file evidence; not a new gameplay replay"
+    },
+    {
+      "file": "publication-checks/zone-outcomes.json",
+      "result": "PASS",
+      "instruction_checks": 23,
+      "scope": "Read-only original-code/file evidence; not a new gameplay replay"
+    },
+    {
+      "file": "publication-checks/zone-routing.json",
+      "result": "PASS",
+      "instruction_checks": 12,
+      "scope": "Read-only original-code/file evidence; not a new gameplay replay"
+    },
+    {
+      "file": "publication-checks/music-proof.json",
+      "result": "PASS",
+      "instruction_checks": null,
+      "scope": "Read-only original-code/file evidence; not a new gameplay replay"
+    }
+  ],
+  "d2_delta_reproduced": {
+    "result": "PASS",
+    "patched_sha256": "9f24ca8d05758e112d0a649a09da7519df45a06de947e2855bdfa615bf59d028",
+    "output_binary_published": false
+  },
+  "historical_gameplay_replayed": false,
+  "corrections": [
+    "Wrong community equipment labels / item namespace",
+    "Native transformation animation versus preset destination",
+    "MAIN masks versus Zone callbacks",
+    "Original Zone coordinates/arena variation",
+    "Stock Zone routing versus stored metadata",
+    "GS512 missed readers and D2 sparse/full distinction",
+    "Final minimal Zone boundary failure supersedes pending matrix"
+  ],
+  "excluded": [
+    "Original Discord exports from current tree",
+    "Original game sample/archives/executables/firmware",
+    "User saves/full RAM dumps",
+    "Redundant HTML and superseded Italian narratives"
+  ],
+  "inventory_check": "tools/verify_research_publication.py",
+  "privacy_action": "Owner requested removal of private Discord exports from all Git history; publication uses a clean root and removes local transcript-bearing backups. Server-side retention is checked separately.",
+  "release_checks": {
+    "node_tests": 133,
+    "python_helper_tests": 42,
+    "browser_suites": 14,
+    "failures": 0,
+    "skipped": 0,
+    "english_catalog_rebuild": "All bundled values and 12 source CSV hashes match",
+    "local_markdown_links": 175
+  }
+}

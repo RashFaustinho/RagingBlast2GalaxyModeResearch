@@ -1,0 +1,223 @@
+text_id,text
+0,"Character will normally move in the direction <PAD=Ｌ３>
+is moved. Tilt <PAD=Ｌ３> slightly to move slowly, and
+tilt it all the way to move quickly"
+1,Character will ascend while <PAD=＄Ｌ１> is pressed.
+2,"Character will descend while <PAD=＄Ｌ２> is pressed. You
+can descend all the way from the air until you
+land on the ground."
+3,"Press <PAD=＄×> while pressing <PAD=＄Ｌ１> to use a Quick Ascend.
+Quick Ascends consume Ki and cannot be used without it."
+4,"Press <PAD=＄×> while pressing <PAD=＄Ｌ２> to use a Quick Descend.
+Quick Descends consume Ki and cannot be used without it."
+5,"Press <PAD=＄Ｌ１> quickly on the ground to perform a Jump.
+Press <PAD=＄Ｌ１> again while jumping to ascend."
+6,"Press <PAD=＄×> near an opponent or quickly moving <PAD=Ｌ３>
+to perform a Step."
+7,"Press <PAD=＄×> while moving <PAD=Ｌ３> to perform a Dash. Move
+freely in any direction quickly as you consume Ki."
+8,"Press <PAD=＄×> without moving <PAD=Ｌ３> to use a Homing Dash.
+Press <PAD=＄×> while Homing Dash to cancel the move."
+9,Press <PAD=＄Ｒ１> during a Homing Dash to do a Sudden Stop.
+10,"Press <PAD=＄×> while canceling Homing Dash. You will
+super-dash and move behind the opponent."
+11,"Press <PAD=＄Ｒ１> during a Super Dash to do a Sudden Stop.
+Ki spent by Dash will only be for the distance up
+to the Sudden Stop."
+12,"Press <PAD=＄Ｌ１> and <PAD=＄Ｌ２> at the same time to use a Super 
+Rising. This makes it possible to move quickly in the air."
+13,"Press <PAD=＄Ｒ１> during a Super Rising to do a
+Sudden Stop. Through Sudden Stop, other actions
+will become immediately available."
+14,"Press <PAD=＄×> during <PAD=＄Ｌ１>＋<PAD=＄Ｌ２> Super Rising to connect 
+Super Dash!"
+15,"Press <PAD=＄□> to use punches and kicks in a Rush Attack.
+The Rush Attack accepts <PAD=＄□> command up to 5 times."
+16,"Hold down <PAD=＄□> to use Charge Attacks. The force of a
+Charge Attack depends on the length you hold<PAD=＄□>."
+17,"Keep holding <PAD=＄□> to use a Charge Attack: Max.
+You can blow away your opponent in the direction
+you tilt <PAD=Ｌ３>."
+18,"Press <PAD=＄□> while moving <PAD=Ｌ３> greatly in one direction
+to use a Charge Attack while moving."
+19,"Press <PAD=＄Ｌ１> quickly while on the ground to jump.
+Press <PAD=＄□> while jumping to perform Jump Charge
+Attacks."
+20,"Press <PAD=＄□> and release <PAD=＄□> while holding <PAD=＄×>
+to perform. This can perform during Dash or Homing Dash."
+21,"Press <PAD=＄△> after <PAD=＄□> to do a Smash Attack: 1.
+It will turn your opponent around."
+22,"Press <PAD=＄△> after pressing <PAD=＄□> twice for Smash
+Attack: 2. It breaks your opponent's defense."
+23,"Press <PAD=＄△> after pressing <PAD=＄□> 3 times for Smash
+Attack: 3. It activates consecutive attacks."
+24,"Press <PAD=＄△> after pressing <PAD=＄□> 4 times to use Smash
+Attack: 4. It stiffens your opponent."
+25,"Press <PAD=Ｌ↑>and <PAD=＄△> during a <PAD=＄□> Rush Attack to
+use Smash Attack: High."
+26,"Immediately after Smash Attack: High with <PAD=□> then
+<PAD=Ｌ↑> + <PAD=△>, press <PAD=×> to chain into an Air Combo and
+then repeatedly press <PAD=□> to beat down your opponent.
+"
+27,"Press <PAD=Ｌ↓>and <PAD=＄△> during a <PAD=＄□> Rush Attack to use
+Smash Attack: Low."
+28,"After a <PAD=Ｌ↓>＋<PAD=＄△> Smash Attack: Low, press <PAD=＄△>
+to connect Assault Chase. There are
+different types depending on character."
+29,"Press <PAD=Ｌ↓> + <PAD=＄Ｒ１> + <PAD=＄○> simultaneously to perform on
+downed opponent. Positioning and attack type is
+different for each character."
+30,"After a <PAD=＄□> Charge Attack and blow away opponent,
+press <PAD=＄×> and then hold down and release <PAD=＄□>
+to use Pursuit Attack: 1."
+31,"Blow away opponent with a <PAD=＄□> Charge Attack and use 
+Pursuit Attack: 2 with <PAD=＄□>."
+32,"Pursuit Attacks can blow away your opponent in the 
+direction <PAD=Ｌ３> is tilted."
+33,"Press <PAD=＄Ｒ１> and <PAD=＄○> by your opponent to use an Throw. 
+When a Throw is used by a wall it becomes a Crash."
+34,"Rush Attacks and other attacks can be defended 
+with <PAD=＄Ｒ１>'s Normal Defense. There are attacks that 
+will shave off your health or break your Defense."
+35,"Use <PAD=＄Ｒ１> and <PAD=＄□> to dodge Rush Attacks. Sways only 
+prevent Rush Attacks and can be called an advanced 
+technique."
+36,"Use <PAD=＄Ｒ１> and <PAD=＄△> to avoid Smash Attacks. Counters 
+require ready timing."
+37,"Press <PAD=＄×> while holding <PAD=＄Ｒ１> to disappear and dodge 
+attacks. The direction you re-appear in changes 
+based on the direction you move <PAD=Ｌ３>."
+38,"Press <PAD=×> in time with your opponent's attack to use
+Steps. Then you can dodge melee attacks during a
+Step's period of invincibility."
+39,"Use Recovery from Faint at the instant you 
+crash into the ground to perform a Roll."
+40,"While performing Roll, press <PAD=＄×> to quickly move 
+towards your opponent with a Sudden Dash."
+41,"Repeatedly press one of the <PAD=□△○×> buttons to
+recover from a knock down."
+42,"Tilt <PAD=Ｌ３> left and right while holding <PAD=＄Ｒ１> to use Ki 
+Blast Deflects. Against Charge Ki Blast, time your 
+deflection to return it to your opponent."
+43,"Press <PAD=＄Ｒ１> in time with your opponent's throw to 
+perform a Throw Evasion."
+44,"Press <PAD=Ｐ㊦> to do Ki Charging and charge up your Ki.
+Connecting with Rush Attacks will also charge up
+your Ki."
+45,"Press <PAD=＄△> to spend Ki and use Rush Blasts. The 
+number of Rush Blasts that can be fired is 
+different for each character."
+46,"Hold down <PAD=＄△> to use more Ki and fire a Charge Ki 
+Blast. Charge Ki Blasts have different types for 
+each character."
+47,"From the ground, press <PAD=＄Ｌ１> quickly and <PAD=＄△> to fire 
+this."
+48,"From the ground, press <PAD=＄Ｌ１> quickly and hold <PAD=＄△> to 
+fire this. Charge Ki Attack's power changes based 
+on the length <PAD=＄△> is pressed."
+49,"When <PAD=Ｐ㊦> is pressed to use Ki Charging and Ki is 
+charged up beyond the Ki Gauge, Ki fills the 
+Tension Gauge."
+50,"Ki Charging cannot be performed until High Tension
+ends. Ultimate Attacks can be used in High Tension
+mode."
+51,"After the Tension Gauge is charged up, a Raging 
+Soul can be activated (generally) once per battle 
+with <PAD=＄Ｒ１>."
+52,"Repeatedly press <PAD=＄×>while tilting <PAD=Ｌ３> to perform 
+Vanishing Move. Super/Ultimate Attacks cannot be 
+used during Raging Soul mode."
+53,"Super Attacks can be used by tilting  <PAD=Ｒ３> in each 
+direction. Super Attacks require more than a 
+half-filled Ki Gauge."
+54,"Ki consumption, force and effect are different for
+each Super Attack. You can change equipped Super
+Attacks with Customize."
+55,"Your health needs to be 1 bar or less to display 
+Super Attack's BOOST."
+56,"When 2 well-matched allies meet certain
+requirements with either their Super or Ultimate
+Attacks, they can perform a Team Super Attack."
+57,"Ultimate Attacks can be used in High Tension mode 
+by pressing <PAD=Ｒ㊦>. Its force is far greater than 
+Super Attacks."
+58,"Signature Skills are used with <PAD=＄○> and are unique 
+for every character. They are available anytime as 
+long as you have Ki."
+59,"When a specific character is on your side and your
+opponent's health is below one bar, press the
+Super Attack BOOST to use Team Super Attacks."
+60,"Press <PAD=Ｐ㊧Ｐ㊨> while holding <PAD=＄Ｒ２> down to display
+a switching palette. Press a part corresponding
+button to switch characters."
+61,"Switch with the character used just before to 
+perform Quick Change."
+62,"Press <PAD=Ｐ㊧Ｐ㊨> while holding <PAD=＄Ｒ２> down to display
+a switching palette. Press a part corresponding
+button to consume Ki and transform characters."
+63,"After switching, the switching palette will 
+temporarily turn gray, and you will not be able to 
+switch again until the color returns."
+64,"Along with Switching, you can use Quick Change for 
+Transformation too. However, this is not available 
+for characters that cannot transform back into their 
+original form."
+65,"Press <PAD=Ｐ㊧Ｐ㊨> while holding <PAD=＄Ｒ２> down to display
+a switching palette. Press a part corresponding
+button to perform Fusion."
+66,"BOOST is displayed when your opponent performs 
+Switch. It is important to press buttons quickly 
+for a High-Speed Blow Exchange."
+67,"When both sides use Homing Dash and collide,
+a Blow Exchange will be activated. Rotate <PAD=Ｌ３> more
+times than your opponent."
+68,"When certain Ki-firing Super Attacks crash into
+each other, a Shot Exchange will be activated.
+Rotate <PAD=Ｌ３> more times than your opponent."
+69,"Press <PAD=＄×> during a Rush Attack to use a Rush 
+Vanishing. The place you re-appear will change 
+based on the direction <PAD=Ｌ３> is tilted."
+70,"Hold <PAD=＄□> for Charge Attacks while Dashing to
+perform MAX-Charge Attack while Dashing."
+71,"At the moment your character starts to flash by 
+holding <PAD=＄□>, release the button to use a Charge 
+Attack: Snap."
+72,"At the moment your character starts to flash by 
+holding <PAD=＄△>, release the button to use a Charge Ki 
+Blast: Snap."
+73,"Hold down <PAD=＄△> for a Smash Attacks except for Smash 
+Attack: 3 to use Snap as a Charge Attack."
+74,"Except for Ki Blasts, press <PAD=＄Ｒ１> with good timing 
+against your opponent's attack to use a 
+Snap-Vanishing."
+75,"When you tilt <PAD=Ｌ３> left and right while holding 
+<PAD=＄Ｒ１> against certain Ki-shooting Super Attacks, you 
+can use a Super Attack Deflect."
+76,"When pressing <PAD=×> to follow up on a blown away
+opponent (such as a <PAD=□>Charge Attack), tilt <PAD=Ｒ３> to
+release Super Attack instead of <PAD=□>Pursuit Attack: 1.
+"
+77,"Cancels are different for every character. Goku 
+can perform a Cancel Attack by pressing <PAD=＄○> after 
+<PAD=＄□＄□＄△>."
+78,"When using a Smash Attack during Raging Soul, 
+press <PAD=＄×> to re-appear behind your opponent with a 
+Derived Vanishing."
+79,"You can deflect Ki Blast by pressing <PAD=＄Ｒ１> when it 
+flies in. Against Charge Ki Blast, time your 
+deflection to return it to your opponent."
+80,"Character will be knocked out when the Health gauge
+becomes 0. The Health stock will display if you have
+more than 1 health bar."
+81,"While in High-Tension mode, use Pursuit Attack: 1 
+or Pursuit Attack: 2 against your enemy 
+to finish and you can inflict significant damage."
+82,"You can become this after charging the Tension Gauge 
+by charging your Ki. Ultimate Attacks are available 
+when in High-Tension mode."
+83,"Activate by pressing <PAD=＄Ｒ１> after the Tension Gauge is 
+filled. During battle, Raging Soul is available as 
+many times as you want."
+84,"During Raging Soul, you can chain together more Assault
+Chase attacks than usual.
+<PAD=＄□＄□＄□＄□＄□＄△＄△＄△＄△＄×＄△＄□＄△＄○＄△＄△>"

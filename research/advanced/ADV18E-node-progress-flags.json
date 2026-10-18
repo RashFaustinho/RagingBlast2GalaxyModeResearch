@@ -1,0 +1,15 @@
+{
+  "context": "0x3aa8a6d0",
+  "flags_address": "0x3ab4aea0",
+  "node_flags": {
+    "0": "0x2e",
+    "113": "0x2e",
+    "114": "0x2e",
+    "117": "0x2e",
+    "238": "0x2e",
+    "491": "0x2e",
+    "498": "0x2e"
+  },
+  "query2_node498": 8,
+  "query3_node498": 2
+}

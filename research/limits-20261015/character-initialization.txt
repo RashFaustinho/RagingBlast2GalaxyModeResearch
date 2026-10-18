@@ -1,0 +1,276 @@
+0031A300 stdu       r1, -0xa0(r1)
+0031A304 mflr       r0
+0031A308 std        r30, 0x90(r1)
+0031A30C clrldi     r30, r3, 0x20
+0031A310 std        r27, 0x78(r1)
+0031A314 std        r28, 0x80(r1)
+0031A318 mr         r27, r3
+0031A31C mr         r28, r3
+0031A320 li         r4, 0
+0031A324 li         r5, 0x5dc0
+0031A328 mr         r3, r30
+0031A32C std        r29, 0x88(r1)
+0031A330 std        r31, 0x98(r1)
+0031A334 std        r0, 0xb0(r1)
+0031A338 li         r29, 0
+0031A33C bl         0x5d8dc4
+0031A340 ld         r2, 0x28(r1)
+0031A344 clrldi     r4, r29, 0x20
+0031A348 mr         r3, r30
+0031A34C bl         0x319ff4
+0031A350 cmpwi      cr7, r29, 0x63
+0031A354 addi       r29, r29, 1
+0031A358 bne+       cr7, 0x31a344
+0031A35C li         r4, 0
+0031A360 mr         r3, r30
+0031A364 bl         0x319c18
+0031A368 mr         r3, r30
+0031A36C bl         0x318564
+0031A370 lwz        r9, 0x2254(r2)
+0031A374 li         r0, 0x3c
+0031A378 addi       r31, r9, 0x260
+0031A37C mtctr      r0
+0031A380 clrldi     r9, r31, 0x20
+0031A384 addi       r31, r31, 4
+0031A388 lwz        r11, 0(r9)
+0031A38C mulli      r11, r11, 0xe8
+0031A390 add        r11, r28, r11
+0031A394 clrldi     r11, r11, 0x20
+0031A398 lwz        r0, 0(r11)
+0031A39C ori        r0, r0, 1
+0031A3A0 stw        r0, 0(r11)
+0031A3A4 bdnz+      0x31a380
+0031A3A8 mr         r3, r30
+0031A3AC bl         0x31895c
+0031A3B0 mr         r3, r30
+0031A3B4 li         r4, 0
+0031A3B8 bl         0x319aac
+0031A3BC li         r0, 0xa
+0031A3C0 mr         r10, r31
+0031A3C4 lwz        r11, 0x5ad0(r27)
+0031A3C8 li         r8, 1
+0031A3CC mtctr      r0
+0031A3D0 clrldi     r9, r10, 0x20
+0031A3D4 addi       r10, r10, 4
+0031A3D8 lwz        r0, 0(r9)
+0031A3DC slw        r0, r8, r0
+0031A3E0 or         r11, r11, r0
+0031A3E4 bdnz       0x31a3d0
+0031A3E8 mr         r31, r10
+0031A3EC lwz        r29, 0x225c(r2)
+0031A3F0 stw        r11, 0x5ad0(r27)
+0031A3F4 clrldi     r9, r31, 0x20
+0031A3F8 addi       r31, r31, 4
+0031A3FC mr         r3, r30
+0031A400 lwz        r4, 0(r9)
+0031A404 bl         0x318de4
+0031A408 cmpw       cr7, r31, r29
+0031A40C bne        cr7, 0x31a3f4
+0031A410 lwz        r0, 0x5b18(r27)
+0031A414 li         r9, 0xd9
+0031A418 li         r10, 0
+0031A41C ori        r0, r0, 3
+0031A420 mtctr      r9
+0031A424 li         r8, 1
+0031A428 stw        r0, 0x5b18(r27)
+0031A42C srawi      r9, r10, 5
+0031A430 addze      r9, r9
+0031A434 clrlwi     r11, r10, 0x1b
+0031A438 slwi       r9, r9, 2
+0031A43C slw        r11, r8, r11
+0031A440 addi       r9, r9, 0x5b30
+0031A444 addi       r10, r10, 1
+0031A448 extsw      r9, r9
+0031A44C add        r9, r30, r9
+0031A450 lwz        r0, 8(r9)
+0031A454 andc       r11, r0, r11
+0031A458 stw        r11, 8(r9)
+0031A45C bdnz+      0x31a42c
+0031A460 lwz        r0, 0x5b1c(r27)
+0031A464 li         r3, 0xb
+0031A468 li         r29, 0
+0031A46C ori        r0, r0, 1
+0031A470 stw        r0, 0x5b1c(r27)
+0031A474 bl         0x303970
+0031A478 nop        
+0031A47C li         r3, 0xc
+0031A480 bl         0x303970
+0031A484 nop        
+0031A488 li         r3, 0xd
+0031A48C bl         0x303970
+0031A490 nop        
+0031A494 li         r3, 0
+0031A498 stw        r29, 0x5b58(r27)
+0031A49C bl         0x303970
+0031A4A0 nop        
+0031A4A4 mr         r3, r30
+0031A4A8 stw        r29, 0x5b78(r27)
+0031A4AC stw        r29, 0x5b74(r27)
+0031A4B0 bl         0x319ea0
+0031A4B4 bl         0x3d4edc
+0031A4B8 nop        
+0031A4BC li         r4, 1
+0031A4C0 clrldi     r3, r3, 0x20
+0031A4C4 bl         0x3d4e04
+0031A4C8 nop        
+0031A4CC lwz        r9, 0x68(r3)
+0031A4D0 li         r3, 0
+0031A4D4 cmpwi      cr7, r9, 0
+0031A4D8 beq        cr7, 0x31a500
+0031A4DC clrldi     r9, r9, 0x20
+0031A4E0 li         r4, 0xa
+0031A4E4 lwz        r11, 0x44(r9)
+0031A4E8 lwz        r3, 0x30(r9)
+0031A4EC lwz        r0, 0x70(r11)
+0031A4F0 add        r3, r3, r0
+0031A4F4 clrldi     r3, r3, 0x20
+0031A4F8 bl         0x5d8ea4
+0031A4FC ld         r2, 0x28(r1)
+0031A500 addi       r29, r3, 0x20
+0031A504 li         r31, 0
+0031A508 li         r28, 1
+0031A50C b          0x31a51c
+0031A510 cmpwi      cr7, r31, 0x11f
+0031A514 addi       r31, r31, 1
+0031A518 beq-       cr7, 0x31a574
+0031A51C clrldi     r11, r29, 0x20
+0031A520 clrlwi     r0, r31, 0x1b
+0031A524 srawi      r9, r31, 5
+0031A528 addze      r9, r9
+0031A52C slw        r10, r28, r0
+0031A530 lwz        r0, 0(r11)
+0031A534 slwi       r9, r9, 2
+0031A538 li         r3, 5
+0031A53C rlwinm     r0, r0, 0, 0x1e, 0x1e
+0031A540 addi       r9, r9, 0x5aa0
+0031A544 cmpwi      cr7, r0, 0
+0031A548 extsw      r9, r9
+0031A54C addi       r29, r29, 0x54
+0031A550 beq        cr7, 0x31a510
+0031A554 lwzx       r0, r30, r9
+0031A558 or         r0, r0, r10
+0031A55C stwx       r0, r30, r9
+0031A560 bl         0x303970
+0031A564 nop        
+0031A568 cmpwi      cr7, r31, 0x11f
+0031A56C addi       r31, r31, 1
+0031A570 bne+       cr7, 0x31a51c
+0031A574 ld         r0, 0xb0(r1)
+0031A578 ld         r27, 0x78(r1)
+0031A57C ld         r28, 0x80(r1)
+0031A580 mtlr       r0
+0031A584 ld         r29, 0x88(r1)
+0031A588 ld         r30, 0x90(r1)
+0031A58C ld         r31, 0x98(r1)
+0031A590 addi       r1, r1, 0xa0
+0031A594 blr        
+0031A598 stdu       r1, -0xa0(r1)
+0031A59C mflr       r0
+0031A5A0 li         r4, 0
+0031A5A4 li         r5, 0x5dc0
+0031A5A8 std        r26, 0x70(r1)
+0031A5AC mr         r26, r3
+0031A5B0 std        r31, 0x98(r1)
+0031A5B4 std        r0, 0xb0(r1)
+0031A5B8 std        r27, 0x78(r1)
+0031A5BC std        r28, 0x80(r1)
+0031A5C0 std        r29, 0x88(r1)
+0031A5C4 std        r30, 0x90(r1)
+0031A5C8 mr         r31, r3
+0031A5CC bl         0x5d8dc4
+0031A5D0 ld         r2, 0x28(r1)
+0031A5D4 li         r0, 0x64
+0031A5D8 mr         r11, r26
+0031A5DC mtctr      r0
+0031A5E0 clrldi     r9, r11, 0x20
+0031A5E4 addi       r11, r11, 0xe8
+0031A5E8 lwz        r0, 0(r9)
+0031A5EC oris       r0, r0, 0x100
+0031A5F0 ori        r0, r0, 1
+0031A5F4 stw        r0, 0(r9)
+0031A5F8 bdnz+      0x31a5e0
+0031A5FC mr         r3, r31
+0031A600 li         r4, 1
+0031A604 li         r29, 0
+0031A608 bl         0x319aac
+0031A60C clrldi     r4, r29, 0x20
+0031A610 mr         r3, r31
+0031A614 bl         0x319ff4
+0031A618 cmpwi      cr7, r29, 0x63
+0031A61C addi       r29, r29, 1
+0031A620 bne+       cr7, 0x31a60c
+0031A624 li         r4, 1
+0031A628 mr         r3, r31
+0031A62C bl         0x319c18
+0031A630 mr         r3, r31
+0031A634 bl         0x318564
+0031A638 mr         r3, r31
+0031A63C bl         0x319ea0
+0031A640 mr         r3, r31
+0031A644 bl         0x318614
+0031A648 li         r0, 0xf
+0031A64C lwz        r11, 0x5ad0(r26)
+0031A650 li         r9, 0
+0031A654 li         r10, 1
+0031A658 mtctr      r0
+0031A65C slw        r0, r10, r9
+0031A660 addi       r9, r9, 1
+0031A664 or         r11, r11, r0
+0031A668 bdnz       0x31a65c
+0031A66C mr         r3, r31
+0031A670 li         r4, 0
+0031A674 stw        r11, 0x5ad0(r26)
+0031A678 li         r30, 1
+0031A67C bl         0x318de4
+0031A680 cmpwi      cr7, r30, 5
+0031A684 bne-       cr7, 0x31a68c
+0031A688 li         r30, 6
+0031A68C clrldi     r4, r30, 0x20
+0031A690 mr         r3, r31
+0031A694 addi       r30, r30, 1
+0031A698 bl         0x318de4
+0031A69C cmpwi      cr7, r30, 0x1f
+0031A6A0 ble        cr7, 0x31a680
+0031A6A4 li         r0, 6
+0031A6A8 lwz        r11, 0x5b18(r26)
+0031A6AC li         r9, 0
+0031A6B0 li         r10, 1
+0031A6B4 mtctr      r0
+0031A6B8 slw        r0, r10, r9
+0031A6BC addi       r9, r9, 1
+0031A6C0 or         r11, r11, r0
+0031A6C4 bdnz       0x31a6b8
+0031A6C8 li         r29, 0
+0031A6CC li         r30, 1
+0031A6D0 stw        r11, 0x5b18(r26)
+0031A6D4 srawi      r9, r29, 6
+0031A6D8 addze      r9, r9
+0031A6DC clrlwi     r11, r29, 0x1a
+0031A6E0 slwi       r9, r9, 3
+0031A6E4 sld        r11, r30, r11
+0031A6E8 addi       r9, r9, 0x5ad0
+0031A6EC li         r3, 8
+0031A6F0 extsw      r9, r9
+0031A6F4 add        r9, r31, r9
+0031A6F8 ld         r0, 8(r9)
+0031A6FC or         r0, r0, r11
+0031A700 std        r0, 8(r9)
+0031A704 bl         0x303970
+0031A708 nop        
+0031A70C li         r3, 9
+0031A710 bl         0x303970
+0031A714 nop        
+0031A718 li         r3, 0xa
+0031A71C bl         0x303970
+0031A720 nop        
+0031A724 cmpwi      cr7, r29, 0x1ae
+0031A728 addi       r29, r29, 1
+0031A72C bne+       cr7, 0x31a6d4
+0031A730 li         r0, 0x42
+0031A734 li         r10, 0
+0031A738 li         r8, 1
+0031A73C mtctr      r0
+0031A740 srawi      r0, r10, 5
+0031A744 addze      r0, r0
+0031A748 slwi       r11, r0, 2
+0031A74C slwi       r0, r0, 5

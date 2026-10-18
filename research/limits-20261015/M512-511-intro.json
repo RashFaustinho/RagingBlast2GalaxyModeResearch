@@ -1,0 +1,66 @@
+{
+  "label": "M512-511-intro",
+  "save_manager": "0x3a7dbba0",
+  "save_base": "0x30000020",
+  "save_size": 71336,
+  "save_sha256": "aff7a850bc571c8bfb96164916ef256a6ea9b9a96ec0af5781472b3c7d481854",
+  "config": "0x3a829420",
+  "owner": 66,
+  "node": 511,
+  "objective": 29,
+  "bitmap_lastword": "0xffffffff",
+  "actors": [
+    {
+      "side": 0,
+      "slot": 0,
+      "address": "0x3aa88b64",
+      "native": 66,
+      "preset": 2,
+      "hp": 40000,
+      "maxhp": 40000,
+      "items": [
+        296
+      ]
+    },
+    {
+      "side": 1,
+      "slot": 0,
+      "address": "0x3aa943c0",
+      "native": 12,
+      "preset": 496,
+      "hp": 40000,
+      "maxhp": 40000,
+      "items": [
+        224,
+        225
+      ]
+    }
+  ],
+  "registers": [
+    {
+      "cmd": "qC",
+      "response": "QC0000000001000000",
+      "utc": "2026-10-15T12:59:47.850292+00:00"
+    },
+    {
+      "cmd": "p40",
+      "response": "000000000046503c",
+      "utc": "2026-10-15T12:59:47.942233+00:00"
+    },
+    {
+      "cmd": "p3",
+      "response": "0000000000000000",
+      "utc": "2026-10-15T12:59:48.030283+00:00"
+    },
+    {
+      "cmd": "p9",
+      "response": "0000000040201100",
+      "utc": "2026-10-15T12:59:48.122218+00:00"
+    },
+    {
+      "cmd": "p1e",
+      "response": "000000003a700020",
+      "utc": "2026-10-15T12:59:48.210290+00:00"
+    }
+  ]
+}

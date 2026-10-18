@@ -1,0 +1,120 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="application-version" content="1.0" />
+    <meta name="application-build" content="release-1.0-2026-10-18" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <meta name="color-scheme" content="dark" />
+    <meta
+      http-equiv="Content-Security-Policy"
+      content="default-src 'self' file: data: blob:; script-src 'self' file:; style-src 'self' 'unsafe-inline' file:; img-src 'self' file: data: blob:; connect-src 'none'; object-src 'none'; base-uri 'none'"
+    />
+    <title>RB2 Galaxy Studio</title>
+    <link rel="icon" type="image/svg+xml" href="assets/icon.svg" />
+    <link rel="stylesheet" href="styles.css" />
+    <script defer src="js/ui.js"></script>
+    <script defer src="js/session-log.js"></script>
+    <script defer src="js/localized-text.js"></script>
+    <script defer src="js/data.js"></script>
+    <script defer src="js/mod-support.js"></script>
+    <script defer src="js/mod-support-ui.js"></script>
+    <script defer src="js/mmd.js"></script>
+    <script defer src="js/conditions.js"></script>
+    <script defer src="js/authoring.js"></script>
+    <script defer src="js/galaxy-transfer.js"></script>
+    <script defer src="js/presets.js"></script>
+    <script defer src="js/game-roster.js"></script>
+    <script defer src="js/help-tables.js"></script>
+    <script defer src="js/help-languages.js"></script>
+    <script defer src="js/progression-data.js"></script>
+    <script defer src="js/progression-ui.js"></script>
+    <script defer src="js/archives.js"></script>
+    <script defer src="js/archive-ui.js"></script>
+    <script defer src="js/music.js"></script>
+    <script defer src="js/game-preview.js"></script>
+    <script defer src="js/mmd-ui.js"></script>
+    <script defer src="js/guided.js"></script>
+    <script defer src="js/app.js"></script>
+  </head>
+  <body>
+    <div class="app-layout">
+      <aside class="sidebar">
+        <div class="sidebar-heading">YOUR WORKSPACE <span id="file-count">0</span></div>
+        <button id="open-files" class="primary wide">
+          <span aria-hidden="true">＋</span> Open MMD / DAT files
+        </button>
+        <input id="file-input" type="file" multiple hidden />
+        <nav id="main-tabs" aria-label="Editors">
+          <button data-tab="home" class="nav-tab active">
+            <span class="nav-icon">⌂</span> Overview
+          </button>
+          <button data-tab="galaxy" class="nav-tab">
+            <span class="nav-icon">✧</span> Galaxy & Tutorial
+          </button>
+          <button data-tab="presets" class="nav-tab">
+            <span class="nav-icon">♟︎</span> Character presets
+          </button>
+          <button data-tab="zone" class="nav-tab">
+            <span class="nav-icon">◇</span> Battle Zone
+          </button>
+          <button data-tab="help" class="nav-tab">
+            <span class="nav-icon">▤</span> Tutorial messages
+          </button>
+          <button data-tab="reference" class="nav-tab">
+            <span class="nav-icon">≡</span> Reference library
+          </button>
+        </nav>
+        <div class="sidebar-heading file-heading">
+          OPEN FILES
+          <button id="clear-workspace" title="Close all files" class="quiet compact">
+            Close all
+          </button>
+        </div>
+        <div id="file-list" class="file-list">
+          <p class="empty-sidebar">Drop extracted MMD and DAT files anywhere to begin.</p>
+        </div>
+        <div class="sidebar-bottom">
+          <button id="session-log" class="quiet wide">Session log</button>
+          <button id="help-button" class="quiet wide">Quick guide</button>
+          <button id="save-project" class="secondary wide">Save workspace…</button
+          ><button id="load-project" class="quiet wide">Open saved workspace…</button
+          ><input type="file" id="project-input" accept=".rb2project,.json" hidden /><small
+            >MMD / DAT editing · AFS extraction and import in Overview.</small
+          >
+        </div>
+      </aside>
+      <div class="main-column">
+        <div class="command-bar">
+          <div class="history-buttons">
+            <button id="undo" title="Undo (Ctrl+Z)" disabled>↶ Undo</button
+            ><button id="redo" title="Redo (Ctrl+Shift+Z)" disabled>↷ Redo</button>
+          </div>
+          <span id="change-count" class="muted">No files loaded</span>
+          <div class="command-actions">
+            <button id="validate" class="secondary">Check files</button
+            ><button id="export-current" class="secondary" disabled>Export current file</button
+            ><button id="export-all" class="primary" disabled>
+              Export ALL edited files <span aria-hidden="true">↓</span>
+            </button>
+          </div>
+        </div>
+        <main id="content" tabindex="-1"></main>
+        <footer class="status-bar">
+          <span id="status-text">Ready · Open extracted MMD or DAT files.</span
+          ><span>Big-endian · Original files remain untouched</span>
+        </footer>
+      </div>
+    </div>
+    <div id="drop-overlay" hidden>
+      <div class="drop-card">
+        <span>＋</span>
+        <h2>Bring your battle files</h2>
+        <p>Drop individual .mmd and preset .dat files here.</p>
+      </div>
+    </div>
+    <div id="toast-region" aria-live="polite"></div>
+    <dialog id="app-dialog"><div id="dialog-body"></div></dialog>
+    <noscript>This editor requires JavaScript enabled in Edge, Chrome or Firefox.</noscript>
+  </body>
+</html>

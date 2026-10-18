@@ -1,0 +1,37 @@
+{
+  "region": "BLES00978",
+  "original_save_bytes": 55000,
+  "experimental_save_bytes": 110000,
+  "patch_instruction_count": 329,
+  "galaxy": {
+    "boundary_root": 1039,
+    "natural_win": true,
+    "engine_score": 338793,
+    "autosave_checksum_valid": true,
+    "cold_full_buffer_match": true,
+    "latest_patch_ui_record_read": true,
+    "all1040_played": false
+  },
+  "tutorial": {
+    "boundary_root": 63,
+    "visible_roster_count": 10,
+    "natural_win": true,
+    "engine_score": 398737,
+    "autosave_checksum_valid": true,
+    "cold_full_buffer_match": true,
+    "all64_visible_failed": true,
+    "circle_pool_rework_needed_for_full64": true
+  },
+  "battle_zone": {
+    "stock_map_control_pass": true,
+    "all53_roots_fixture_pass": false,
+    "one_extra_cell53_fixture_pass": false,
+    "cell53_fault_pc": "0x270f80",
+    "cell53_null_grid_flat_index": 73,
+    "canonical_cell21_runtime": "pending"
+  },
+  "original_uploads_modified": false,
+  "frozen_editor_releases_modified": false,
+  "physical_ps3_tested": false,
+  "new_game_initialization_tested": false
+}

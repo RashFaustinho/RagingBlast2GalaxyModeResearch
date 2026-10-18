@@ -1,0 +1,54 @@
+{
+  "feedback": {
+    "exit_code": 0,
+    "stderr_tail": ""
+  },
+  "help": {
+    "exit_code": 0,
+    "stderr_tail": ""
+  },
+  "music": {
+    "exit_code": 0,
+    "stderr_tail": ""
+  },
+  "baseline": {
+    "exit_code": 0,
+    "stderr_tail": ""
+  },
+  "features": {
+    "exit_code": 0,
+    "stderr_tail": ""
+  },
+  "mod_support": {
+    "exit_code": 0,
+    "stderr_tail": ""
+  },
+  "guided": {
+    "exit_code": 0,
+    "stderr_tail": ""
+  },
+  "archives_preview": {
+    "exit_code": 0,
+    "stderr_tail": ""
+  },
+  "refinements": {
+    "exit_code": 0,
+    "stderr_tail": ""
+  },
+  "conditions": {
+    "exit_code": 0,
+    "stderr_tail": ""
+  },
+  "galaxy_transfer": {
+    "exit_code": 0,
+    "stderr_tail": ""
+  },
+  "mission_management": {
+    "exit_code": 0,
+    "stderr_tail": ""
+  },
+  "review": {
+    "exit_code": 0,
+    "stderr_tail": ""
+  }
+}

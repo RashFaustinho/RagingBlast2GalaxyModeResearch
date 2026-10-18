@@ -1,0 +1,260 @@
+00309C50 cmpwi      cr7, r3, 0
+00309C54 beq        cr7, 0x309bfc
+00309C58 ld         r0, 0x1e8(r31)
+00309C5C ori        r0, r0, 0x4000
+00309C60 std        r0, 0x1e8(r31)
+00309C64 b          0x309bfc
+00309C68 stdu       r1, -0x80(r1)
+00309C6C mflr       r0
+00309C70 std        r30, 0x70(r1)
+00309C74 std        r31, 0x78(r1)
+00309C78 std        r0, 0x90(r1)
+00309C7C mr         r31, r3
+00309C80 bl         0x3179c0
+00309C84 nop        
+00309C88 lwz        r9, 0(r3)
+00309C8C li         r0, 9
+00309C90 addis      r9, r9, 1
+00309C94 mr         r30, r31
+00309C98 mtctr      r0
+00309C9C li         r10, 1
+00309CA0 addi       r11, r9, -0x4038
+00309CA4 clrldi     r9, r11, 0x20
+00309CA8 addi       r11, r11, 0x1c
+00309CAC lwz        r0, 0(r9)
+00309CB0 clrlwi     r0, r0, 0x1f
+00309CB4 neg        r0, r0
+00309CB8 and        r10, r10, r0
+00309CBC bdnz       0x309ca4
+00309CC0 cmpwi      cr7, r10, 0
+00309CC4 beq        cr7, 0x309cd8
+00309CC8 ld         r0, 0x1e8(r31)
+00309CCC rlwinm     r0, r0, 0, 9, 9
+00309CD0 cmpdi      cr7, r0, 0
+00309CD4 beq        cr7, 0x309d1c
+00309CD8 lwz        r9, 0(r31)
+00309CDC clrldi     r3, r30, 0x20
+00309CE0 li         r4, 0
+00309CE4 lwz        r11, 8(r9)
+00309CE8 lwz        r0, 0(r11)
+00309CEC std        r2, 0x28(r1)
+00309CF0 mtctr      r0
+00309CF4 lwz        r2, 4(r11)
+00309CF8 bctrl      
+00309CFC ld         r2, 0x28(r1)
+00309D00 ld         r0, 0x90(r1)
+00309D04 li         r3, 0
+00309D08 ld         r30, 0x70(r1)
+00309D0C mtlr       r0
+00309D10 ld         r31, 0x78(r1)
+00309D14 addi       r1, r1, 0x80
+00309D18 blr        
+00309D1C lwz        r3, 4(r31)
+00309D20 li         r4, 0x16
+00309D24 bl         0x304664
+00309D28 nop        
+00309D2C cmpwi      cr7, r3, 0
+00309D30 beq        cr7, 0x309cd8
+00309D34 ld         r0, 0x1e8(r31)
+00309D38 oris       r0, r0, 0x40
+00309D3C std        r0, 0x1e8(r31)
+00309D40 b          0x309cd8
+00309D44 stdu       r1, -0x80(r1)
+00309D48 mflr       r0
+00309D4C std        r30, 0x70(r1)
+00309D50 std        r31, 0x78(r1)
+00309D54 std        r0, 0x90(r1)
+00309D58 mr         r31, r3
+00309D5C bl         0x3179c0
+
+0031AF60 addis      r3, r3, 1
+0031AF64 addi       r3, r3, -0x3320
+0031AF68 clrldi     r3, r3, 0x20
+0031AF6C bl         0x318cd8
+0031AF70 lwz        r3, 0(r29)
+0031AF74 addis      r3, r3, 1
+0031AF78 addi       r3, r3, -0x7eb8
+0031AF7C clrldi     r3, r3, 0x20
+0031AF80 bl         0x3196b8
+0031AF84 lwz        r3, 0(r29)
+0031AF88 addis      r3, r3, 1
+0031AF8C addi       r3, r3, -0x4038
+0031AF90 clrldi     r3, r3, 0x20
+0031AF94 bl         0x3195c8
+0031AF98 lwz        r3, 0(r29)
+0031AF9C addis      r3, r3, 1
+0031AFA0 addi       r3, r3, -0x32e0
+0031AFA4 clrldi     r3, r3, 0x20
+0031AFA8 bl         0x318f78
+0031AFAC lwz        r3, 0(r29)
+0031AFB0 ld         r0, 0xa0(r1)
+0031AFB4 addis      r3, r3, 1
+0031AFB8 ld         r29, 0x78(r1)
+0031AFBC addi       r1, r1, 0x90
+
+001CF200 ld         r23, 0x88(r1)
+001CF204 ld         r24, 0x90(r1)
+001CF208 ld         r25, 0x98(r1)
+001CF20C ld         r26, 0xa0(r1)
+001CF210 ld         r27, 0xa8(r1)
+001CF214 ld         r28, 0xb0(r1)
+001CF218 ld         r29, 0xb8(r1)
+001CF21C ld         r30, 0xc0(r1)
+001CF220 ld         r31, 0xc8(r1)
+001CF224 addi       r1, r1, 0xd0
+001CF228 blr        
+001CF22C stdu       r1, -0x80(r1)
+001CF230 mflr       r0
+001CF234 std        r31, 0x78(r1)
+001CF238 std        r0, 0x90(r1)
+001CF23C mr         r31, r3
+001CF240 bl         0x3179c0
+001CF244 nop        
+001CF248 lwz        r9, 0(r3)
+001CF24C li         r0, 9
+001CF250 addis      r9, r9, 1
+001CF254 li         r8, 0
+001CF258 mtctr      r0
+001CF25C addi       r10, r9, -0x4038
+001CF260 clrldi     r9, r10, 0x20
+001CF264 addi       r10, r10, 0x1c
+001CF268 lwz        r0, 0(r9)
+001CF26C clrlwi     r0, r0, 0x1f
+001CF270 cmpwi      cr7, r0, 0
+001CF274 beq        cr7, 0x1cf2a0
+001CF278 lwz        r0, 0xd0(r31)
+001CF27C cmpw       cr7, r0, r8
+001CF280 beq        cr7, 0x1cf2a0
+001CF284 lwz        r11, 0x318(r31)
+001CF288 lwz        r9, 4(r11)
+001CF28C add        r9, r9, r8
+001CF290 clrldi     r9, r9, 0x20
+001CF294 lbz        r0, 0(r9)
+001CF298 ori        r0, r0, 8
+001CF29C stb        r0, 0(r9)
+001CF2A0 addi       r8, r8, 1
+001CF2A4 bdnz       0x1cf260
+001CF2A8 lwz        r3, 0x318(r31)
+001CF2AC bl         0x2f4760
+001CF2B0 nop        
+001CF2B4 lwz        r3, 0x318(r31)
+001CF2B8 bl         0x2f42a4
+001CF2BC nop        
+
+001EED00 blr        
+001EED04 bl         0x1cdda0
+001EED08 nop        
+001EED0C mr         r21, r3
+001EED10 bl         0x3179c0
+001EED14 nop        
+001EED18 lwz        r9, 0(r3)
+001EED1C addi       r27, r9, 0x20
+001EED20 bl         0x3179c0
+001EED24 nop        
+001EED28 lwz        r9, 0(r3)
+001EED2C addis      r9, r9, 1
+001EED30 addi       r22, r9, -0x7eb8
+001EED34 bl         0x3179c0
+001EED38 nop        
+001EED3C lwz        r7, 0xbc(r24)
+001EED40 lwz        r9, 0(r3)
+001EED44 clrldi     r10, r7, 0x20
+001EED48 addis      r9, r9, 1
+001EED4C mulli      r0, r28, 0x5c
+001EED50 lwz        r11, 0xc(r10)
+001EED54 addi       r23, r9, -0x4038
+001EED58 lwz        r8, 4(r10)
+001EED5C add        r0, r0, r11
+001EED60 clrldi     r29, r0, 0x20
+001EED64 lwz        r9, 0x2c(r29)
+001EED68 slwi       r9, r9, 3
+001EED6C add        r9, r9, r8
+001EED70 clrldi     r9, r9, 0x20
+001EED74 lhz        r30, 0(r9)
+001EED78 cmpwi      cr7, r30, 0
+001EED7C ble        cr7, 0x1eef68
+001EED80 li         r26, 0
+001EED84 li         r31, 0
+001EED88 lwz        r9, 0x2c(r29)
+001EED8C li         r10, 0
+001EED90 cmpwi      cr7, r9, 0
+001EED94 beq        cr7, 0x1eedb8
+001EED98 clrldi     r11, r7, 0x20
+001EED9C slwi       r9, r9, 3
+001EEDA0 lwz        r0, 4(r11)
+001EEDA4 lwz        r10, 8(r11)
+001EEDA8 add        r9, r9, r0
+001EEDAC clrldi     r9, r9, 0x20
+001EEDB0 lwz        r0, 4(r9)
+001EEDB4 add        r10, r10, r0
+001EEDB8 slwi       r0, r31, 3
+001EEDBC add        r0, r0, r10
+001EEDC0 clrldi     r10, r0, 0x20
+001EEDC4 lhz        r0, 0(r10)
+001EEDC8 cmplwi     cr7, r0, 0xa
+001EEDCC bgt        cr7, 0x1eee50
+001EEDD0 lwz        r11, -0x1c44(r2)
+001EEDD4 rlwinm     r9, r0, 2, 0xe, 0x1d
+001EEDD8 lwzx       r0, r9, r11
+001EEDDC extsw      r0, r0
+001EEDE0 add        r0, r0, r11
+001EEDE4 mtctr      r0
+001EEDE8 bctr       
+001EEDEC .byte      0x00, 0x00, 0x01, 0x84
+001EEDF0 .byte      0x00, 0x00, 0x00, 0x2c
+001EEDF4 .byte      0x00, 0x00, 0x01, 0xdc
+001EEDF8 .byte      0x00, 0x00, 0x02, 0x0c
+001EEDFC .byte      0x00, 0x00, 0x02, 0x2c
+001EEE00 .byte      0x00, 0x00, 0x02, 0x4c
+001EEE04 .byte      0x00, 0x00, 0x02, 0x9c
+001EEE08 .byte      0x00, 0x00, 0x00, 0x60
+001EEE0C .byte      0x00, 0x00, 0x03, 0x00
+001EEE10 .byte      0x00, 0x00, 0x02, 0xbc
+001EEE14 .byte      0x00, 0x00, 0x02, 0xdc
+001EEE18 lhz        r11, 2(r10)
+001EEE1C clrldi     r10, r27, 0x20
+001EEE20 srawi      r9, r11, 5
+001EEE24 addze      r9, r9
+001EEE28 clrlwi     r11, r11, 0x1b
+001EEE2C slwi       r9, r9, 2
+001EEE30 addi       r9, r9, 0x5aa0
+001EEE34 extsw      r9, r9
+001EEE38 lwzx       r0, r10, r9
+001EEE3C srw        r0, r0, r11
+001EEE40 clrlwi     r0, r0, 0x1f
+001EEE44 cmpwi      cr7, r0, 0
+001EEE48 beq        cr7, 0x1eee50
+001EEE4C addi       r26, r26, 1
+001EEE50 addi       r9, r30, -1
+001EEE54 addi       r31, r31, 1
+001EEE58 clrldi     r9, r9, 0x20
+001EEE5C addi       r9, r9, 1
+001EEE60 cmpd       cr7, r9, r31
+001EEE64 bne        cr7, 0x1eed88
+001EEE68 cmpw       cr7, r30, r26
+001EEE6C li         r25, 2
+001EEE70 ble        cr7, 0x1eef68
+001EEE74 clrldi     r11, r7, 0x20
+001EEE78 lwz        r9, 0x3c(r29)
+001EEE7C slwi       r9, r9, 3
+001EEE80 lwz        r0, 4(r11)
+001EEE84 add        r9, r9, r0
+001EEE88 clrldi     r9, r9, 0x20
+001EEE8C lhz        r30, 0(r9)
+001EEE90 cmpwi      cr7, r30, 0
+001EEE94 ble        cr7, 0x1eecc4
+001EEE98 slwi       r9, r28, 5
+001EEE9C slwi       r10, r28, 2
+001EEEA0 clrldi     r0, r22, 0x20
+001EEEA4 subf       r9, r10, r9
+001EEEA8 clrldi     r11, r23, 0x20
+001EEEAC extsw      r9, r9
+001EEEB0 clrldi     r28, r21, 0x20
+001EEEB4 add        r26, r11, r9
+001EEEB8 add        r27, r0, r9
+001EEEBC li         r29, 0
+001EEEC0 li         r31, 0
+001EEEC4 b          0x1eeeec
+001EEEC8 lwz        r0, 4(r27)
+001EEECC srw        r0, r0, r31
+

@@ -1,0 +1,29 @@
+{
+  "result": "PASS",
+  "tests": 109,
+  "passed": 109,
+  "failed": 0,
+  "skipped": 0,
+  "source_sha256": {
+    "index.html": "badef84ccf62d7f9d08eaf6f4b7234a7aa43eff939b2e63f09e1efd747c419ee",
+    "styles.css": "1d202b22ae92aad343d72eda09afeb556e69244498140e90ff7a84e6a71f170f",
+    "js/app.js": "209af1ef12123b0b398061679117c38a0f5798e0813fb3a6613a102cec4f0030",
+    "js/archive-ui.js": "391fa983aaa3e048a96a2ba8713e5ef8042be58412ab0dd04ded8a9c03013fb2",
+    "js/archives.js": "7eb6361c0e504e2207ef84d1c1c68ad9def73fc554723a2e3b6e7a4b807b7353",
+    "js/authoring.js": "eb69307de8a7ed0f22cdc86ea58869b7c76e782bfcda871225b86427362f6cb7",
+    "js/conditions.js": "d62ed377f5fc36f04a43f34c85858fae51434b79ab9f84d9ba4727fc4e3678d0",
+    "js/data.js": "699bed236775b21a799ea85bf3423c9d3d946e1ae892a95bbefdd4e2ef19046e",
+    "js/galaxy-transfer.js": "8be66cda5a76903b03feba8e40da26efa3179e0fd5cbc08a1f433b546333c07d",
+    "js/game-preview.js": "89194384956c8dde6fa12bf29af79d258963d77932639632ad07d02c7fb547e1",
+    "js/guided.js": "bd793b2b59b52d5300f49aa616247466759aef11086500e5dd6d56b2cadd252e",
+    "js/help-tables.js": "6140cb7779f07d505f23d5f653e2bc9f8bfc1fdb50eb3fcf04c9d313e2835490",
+    "js/mmd-ui.js": "a64b5ffe5dd0f1ac75dd20745f6ee4cfed4480e8122db3b5c9dd746aefdaa918",
+    "js/mmd.js": "d55ec141aee9089b1621444c4bfe1f4dd92cdf10de87749ff9afc7848aefde7e",
+    "js/mod-support-ui.js": "c4b0cc4c7f13f9ac7ec49d3fb702aa705626f8c777fcfc69158fae0801d32e42",
+    "js/mod-support.js": "e15dae32f803849e444d0012b48c92d88969c981ab05a2f123af8a6a235cc589",
+    "js/presets.js": "eb293a5e415dabee86466af75663b743be9868fa723aef8869fa5b9c7c9fc10f",
+    "js/progression-data.js": "891345f3d8d86b4760bcdb653b02bed23abed2a8a5cbce2f16be7342b7fc1432",
+    "js/progression-ui.js": "b3b540d2bcc6c4a8cdcb31b9d42dae3456bfc1ca16b48d17ba0360f3856b2dbd",
+    "js/ui.js": "c944dcaf2e3428e5f33e4837523469eb897f770394e1493f7613606d138f5479"
+  }
+}

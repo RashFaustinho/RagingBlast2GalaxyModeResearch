@@ -1,0 +1,66 @@
+{
+  "experiment": "KB04A",
+  "status": "DATA_VERIFIED_GAMEPLAY_UNTESTED",
+  "baseline": "KB03X (boot identical to KB02B)",
+  "preset": 1058,
+  "strength_row": 777,
+  "table_offset": "0x10b2c",
+  "before": "FFFFFFFF (native default 6)",
+  "after": 8,
+  "gear": [
+    "AD",
+    "4F",
+    "4E",
+    "157"
+  ],
+  "scope": "Only one decoded u32; compressed bytes/sizes may differ",
+  "boot_before_sha256": "4abbe2057479606a81f5fe520cb8562d981d4466de15ce3a44a40b2885906ed2",
+  "boot_after_sha256": "2661847d5e39a3a6120a239e66a7a9e29c5cf804452a3fdb3e8703f2e3187cbd",
+  "strength_before_sha256": "191bb46536dd7c853101387c9ed00d6b2b7b301cd4e116eeb668303ae1e693e2",
+  "strength_after_sha256": "a4636d27017e2337fa74d00905412c275b7953701b7f9a757adc2714d45f2a90",
+  "parameter_archive": {
+    "before_sha256": "26c6ce6742c6f391186587d7972dce98ec6f05141ba3f9d65170632b27c3da93",
+    "after_sha256": "f9bf0242f1a5f2ec0a71f90f874ae6242c72a7650733d4b189976a1f2d3dbf9f",
+    "changed_members": [
+      "preset_strength_table.dat"
+    ],
+    "member_count": 13,
+    "decompressed_sha256": "f9bf0242f1a5f2ec0a71f90f874ae6242c72a7650733d4b189976a1f2d3dbf9f",
+    "verification": "Byte-for-byte decompression and unchanged other members; no game execution"
+  },
+  "resident_archive": {
+    "before_sha256": "18020abaeca316ba787eee63e8fc937de8eecc21565a6b69c1a90f3c445f5916",
+    "after_sha256": "76198bdb2daed5a932dc92eebf9854a2efa94ce64ceaae0107a3da856a7ef819",
+    "changed_members": [
+      "game_resident_param_m.pak"
+    ],
+    "member_count": 9,
+    "decompressed_sha256": "8a5858cd2f840fc83529211d825ef7dd379fdd754a1c15298ef495ffa0969585",
+    "verification": "Byte-for-byte decompression and unchanged other members; no game execution"
+  },
+  "afs": {
+    "before_sha256": "4abbe2057479606a81f5fe520cb8562d981d4466de15ce3a44a40b2885906ed2",
+    "after_sha256": "2661847d5e39a3a6120a239e66a7a9e29c5cf804452a3fdb3e8703f2e3187cbd",
+    "member_index": 22,
+    "old_size": 937255,
+    "new_size": 937261,
+    "slot_capacity": 937984,
+    "status": "Other members identical; experimental copy, gameplay unrun",
+    "placement": "original_slot",
+    "verification": "Other 40 members and their offsets unchanged"
+  },
+  "galaxy": "Use unchanged exact KB03X galaxy.zpak",
+  "elf": "Original, unmodified",
+  "galaxy_sha256": "5ca7a901dff37e67834985f2bf9e8761e5ac58b81ac9ce042addb2c107ea603a",
+  "independent_verification": {
+    "changed_decoded_bytes": [
+      "0x10b2c",
+      "0x10b2d",
+      "0x10b2e",
+      "0x10b2f"
+    ],
+    "strength777_referenced_only_by_preset1058": true,
+    "other12_parameter_members_identical": true,
+    "other8_resident_members_identical": true
+  }
+}

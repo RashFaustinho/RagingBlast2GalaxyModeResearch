@@ -1,0 +1,34 @@
+objective_type,hex,normal_mission_text_id,text,validation
+0,0000,0,Mission: Defeat the enemy that appears!,Native cases0 and29 examined; other labels are original text bindings
+1,0001,1,Mission: Defeat all the enemies!,Native cases0 and29 examined; other labels are original text bindings
+2,0002,2,Mission: Win against powerful enemy who's powered up to the extreme!,Native cases0 and29 examined; other labels are original text bindings
+3,0003,3,Mission: Start from Near Death and battle to the very limit!,Native cases0 and29 examined; other labels are original text bindings
+4,0004,4,Mission: Win as your Health constantly decreases!,Native cases0 and29 examined; other labels are original text bindings
+5,0005,5,Mission: Settle the fight before High Tension ends!,Native cases0 and29 examined; other labels are original text bindings
+6,0006,6,Mission: Settle the fight before Raging Soul ends!,Native cases0 and29 examined; other labels are original text bindings
+7,0007,7,Mission: Win against enemy who gets stronger with time!,Native cases0 and29 examined; other labels are original text bindings
+8,0008,8,Mission: Win against enemy who gets weaker with time!,Native cases0 and29 examined; other labels are original text bindings
+9,0009,9,Mission: In how many HITS can you defeat the enemy?,Native cases0 and29 examined; other labels are original text bindings
+10,000A,10,Mission: Defeat the enemy within <DIG=●> total HITS!,Native cases0 and29 examined; other labels are original text bindings
+11,000B,11,Mission: Win against enemy who powers up under certain conditions!,Native cases0 and29 examined; other labels are original text bindings
+12,000C,12,Mission: How many seconds can you fight in Near Death?,Native cases0 and29 examined; other labels are original text bindings
+13,000D,13,Mission: Survival battle to defeat all warriors who appear one after another!,Native cases0 and29 examined; other labels are original text bindings
+14,000E,14,Mission: Defeat the Saibamen in the <DIG=●> second time limit!,Native cases0 and29 examined; other labels are original text bindings
+15,000F,15,Mission: Defeat Meta-Cooler in the <DIG=●> second time limit!,Native cases0 and29 examined; other labels are original text bindings
+16,0010,16,Mission: Defeat Cell Jr. in the <DIG=●> second time limit!,Native cases0 and29 examined; other labels are original text bindings
+17,0011,17,Mission: How much damage can you deal in <DIG=●> seconds?,Native cases0 and29 examined; other labels are original text bindings
+18,0012,18,Mission: How many total HITS can you land in <DIG=●> seconds?,Native cases0 and29 examined; other labels are original text bindings
+19,0013,19,Mission: Defeat the enemy within <DIG=●> seconds!,Native cases0 and29 examined; other labels are original text bindings
+20,0014,20,Mission: Defeat all the enemies within <DIG=●> seconds!,Native cases0 and29 examined; other labels are original text bindings
+21,0015,21,Mission: How much damage can you deal in a single Combo?,Native cases0 and29 examined; other labels are original text bindings
+22,0016,22,Mission: How many HITS can you land in a single Combo?,Native cases0 and29 examined; other labels are original text bindings
+23,0017,23,Mission: Time Attack! Defeat <DIG=●> weak opponents!,Native cases0 and29 examined; other labels are original text bindings
+24,0018,24,Mission: Time Attack! Defeat <DIG=●> warriors!,Native cases0 and29 examined; other labels are original text bindings
+25,0019,25,Mission: Time Attack! Defeat <DIG=●> fierce opponent!,Native cases0 and29 examined; other labels are original text bindings
+26,001A,26,Mission: How long will it take to defeat an enemy who runs around?,Native cases0 and29 examined; other labels are original text bindings
+27,001B,27,Mission: Win a battle as your Ki constantly decreases!,Native cases0 and29 examined; other labels are original text bindings
+28,001C,28,Mission: Fight ends when a team member is defeated!,Native cases0 and29 examined; other labels are original text bindings
+29,001D,29,Mission: Successfully pull off all Perfect Actions!,Native cases0 and29 examined; other labels are original text bindings
+30,001E,30,Mission: Defeat the Z-Fighters!,Native cases0 and29 examined; other labels are original text bindings
+31,001F,31,Mission: Defeat all the Villain Warriors!,Native cases0 and29 examined; other labels are original text bindings
+32,0020,32,Mission: Destroy Androids!,Native cases0 and29 examined; other labels are original text bindings

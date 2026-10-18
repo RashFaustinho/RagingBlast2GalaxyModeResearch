@@ -1,0 +1,48 @@
+// Development checks only. The distributed app has no npm/runtime dependencies.
+const hostGlobals = [
+  "window",
+  "document",
+  "Node",
+  "File",
+  "Blob",
+  "FileReader",
+  "URL",
+  "TextEncoder",
+  "TextDecoder",
+  "DOMException",
+  "crypto",
+  "atob",
+  "btoa",
+  "console",
+  "setTimeout",
+  "clearTimeout",
+  "requestAnimationFrame",
+  "module",
+];
+export default [
+  {
+    files: ["js/*.js"],
+    ignores: ["js/data.js", "js/progression-data.js", "js/help-languages.js"],
+    languageOptions: {
+      ecmaVersion: 2022,
+      sourceType: "script",
+      globals: Object.fromEntries(hostGlobals.map((name) => [name, "readonly"])),
+    },
+    rules: {
+      "no-undef": "error",
+      "no-unused-vars": ["error", { args: "none", caughtErrors: "none", ignoreRestSiblings: true }],
+      "no-unreachable": "error",
+      "no-dupe-args": "error",
+      "no-dupe-keys": "error",
+      "valid-typeof": "error",
+      "no-unsafe-negation": "error",
+      "no-constant-condition": "error",
+      "no-constant-binary-expression": "error",
+      "no-self-assign": "error",
+      "no-useless-catch": "error",
+      "no-unneeded-ternary": "error",
+      "no-useless-return": "error",
+      "no-unused-expressions": "error",
+    },
+  },
+];

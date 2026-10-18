@@ -1,0 +1,45 @@
+{
+  "experiment": "G12B_RETRY",
+  "status": "VEGETA_ITEM15B_AT19000_TO_CUSTOM_BASE_VERIFIED",
+  "baseline": "G12A unchanged archives, Retry same mission238",
+  "observations": [
+    {
+      "utc": "2026-10-14T19:55:53Z",
+      "native": 20,
+      "preset": 1061,
+      "gear": [
+        "15B"
+      ],
+      "HP_before": 40000,
+      "controlled_HP": 19000,
+      "controlled_aura": 50
+    },
+    {
+      "utc": "2026-10-14T19:56:24Z",
+      "PC": "0x3A7C0",
+      "HP": 19000,
+      "native": 20,
+      "preset": 1061
+    },
+    {
+      "utc": "2026-10-14T19:58:07Z",
+      "PC": "0x12D3E4",
+      "target_preset_r5": 1062,
+      "HP": 19000
+    },
+    {
+      "utc": "2026-10-14T19:59:39Z",
+      "native": 17,
+      "preset": 1062,
+      "previous_preset": 1061,
+      "HP": 19000,
+      "costume_index": 1,
+      "gear": [
+        "15E"
+      ]
+    }
+  ],
+  "limits": "HP probe before first damage (aura0 before write); no damage-based corroboration. Retry shown entering combat, later request and base state verified.30host polling windows do not measure activation latency. Scene native-transformer table not modified.",
+  "conclusion": "The prior first observation after9000HP is not evidence for a one-bar threshold.15B can lead to base at19000HP. CPU choice/delay explanations remain unproven.",
+  "evidence": "g12b-rsp-evidence.jsonl"
+}

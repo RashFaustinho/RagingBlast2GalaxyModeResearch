@@ -1,0 +1,59 @@
+[
+  {
+    "side": 0,
+    "slot": 0,
+    "address": "0x3aa88b64",
+    "native": 66,
+    "preset": 2,
+    "moves": [
+      0,
+      2,
+      8,
+      7,
+      9
+    ],
+    "level": 0,
+    "maxHP": 40000,
+    "HP": 40000,
+    "items": []
+  },
+  {
+    "side": 0,
+    "slot": 1,
+    "address": "0x3aa8b040",
+    "native": 0,
+    "preset": 1064,
+    "moves": [
+      3,
+      4,
+      6,
+      8,
+      11
+    ],
+    "level": 20,
+    "maxHP": 40000,
+    "HP": 40000,
+    "items": []
+  },
+  {
+    "side": 1,
+    "slot": 0,
+    "address": "0x3aa943c0",
+    "native": 12,
+    "preset": 496,
+    "moves": [
+      0,
+      1,
+      5,
+      4,
+      6
+    ],
+    "level": 5,
+    "maxHP": 40000,
+    "HP": 40000,
+    "items": [
+      "0xe0",
+      "0xe1"
+    ]
+  }
+]

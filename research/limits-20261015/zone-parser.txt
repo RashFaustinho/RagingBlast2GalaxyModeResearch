@@ -1,0 +1,214 @@
+002F33FC lwz        r0, 0xc(r3)
+002F3400 slwi       r3, r4, 6
+002F3404 slwi       r4, r4, 3
+002F3408 subf       r3, r4, r3
+002F340C add        r3, r3, r0
+002F3410 clrldi     r3, r3, 0x20
+002F3414 blr        
+002F3418 lwz        r0, 0x34(r4)
+002F341C slwi       r5, r5, 2
+002F3420 cmpwi      cr7, r0, 0
+002F3424 slwi       r10, r0, 3
+002F3428 li         r0, 0
+002F342C beq        cr7, 0x2f3448
+002F3430 lwz        r9, 4(r3)
+002F3434 lwz        r11, 8(r3)
+002F3438 add        r9, r10, r9
+002F343C clrldi     r9, r9, 0x20
+002F3440 lwz        r0, 4(r9)
+002F3444 add        r0, r11, r0
+002F3448 add        r9, r5, r0
+002F344C clrldi     r9, r9, 0x20
+002F3450 lwz        r3, 0(r9)
+002F3454 extsw      r3, r3
+002F3458 blr        
+002F345C lwz        r9, 0x28(r4)
+002F3460 lwz        r0, 4(r3)
+002F3464 slwi       r9, r9, 3
+002F3468 add        r9, r9, r0
+002F346C clrldi     r9, r9, 0x20
+002F3470 lhz        r3, 0(r9)
+002F3474 blr        
+002F3478 lwz        r0, 0x2c(r4)
+002F347C slwi       r5, r5, 3
+002F3480 cmpwi      cr7, r0, 0
+002F3484 slwi       r10, r0, 3
+002F3488 li         r0, 0
+002F348C beq        cr7, 0x2f34a8
+002F3490 lwz        r9, 4(r3)
+002F3494 lwz        r11, 8(r3)
+002F3498 add        r9, r10, r9
+002F349C clrldi     r9, r9, 0x20
+002F34A0 lwz        r0, 4(r9)
+002F34A4 add        r0, r11, r0
+002F34A8 add        r3, r0, r5
+002F34AC clrldi     r3, r3, 0x20
+002F34B0 blr        
+002F34B4 stdu       r1, -0x90(r1)
+002F34B8 mflr       r0
+002F34BC std        r30, 0x80(r1)
+002F34C0 std        r0, 0xa0(r1)
+002F34C4 mr         r30, r3
+002F34C8 mr         r0, r4
+002F34CC std        r31, 0x88(r1)
+002F34D0 clrldi     r31, r0, 0x20
+002F34D4 std        r29, 0x78(r1)
+002F34D8 li         r5, 4
+002F34DC mr         r29, r4
+002F34E0 lwz        r4, 0x19ac(r2)
+002F34E4 mr         r3, r31
+002F34E8 stw        r0, 0(r30)
+002F34EC bl         0x5da1e4
+002F34F0 ld         r2, 0x28(r1)
+002F34F4 addi       r29, r29, 0x14
+002F34F8 cmpwi      cr7, r3, 0
+002F34FC li         r10, 0
+002F3500 li         r3, 0
+002F3504 bne        cr7, 0x2f3558
+002F3508 lwz        r9, 0x10(r31)
+002F350C lwz        r11, 8(r31)
+002F3510 slwi       r0, r9, 3
+002F3514 cmpwi      cr7, r9, 0
+002F3518 add        r0, r0, r29
+002F351C add        r3, r29, r11
+002F3520 clrldi     r9, r0, 0x20
+002F3524 stw        r29, 4(r30)
+002F3528 stw        r3, 8(r30)
+002F352C bne        cr7, 0x2f3578
+002F3530 lwz        r11, 0(r30)
+002F3534 li         r3, 1
+002F3538 lwz        r0, 4(r30)
+002F353C stw        r10, 0xc(r30)
+002F3540 lwz        r9, 0x10(r11)
+002F3544 slwi       r9, r9, 3
+002F3548 add        r9, r9, r0
+002F354C clrldi     r9, r9, 0x20
+002F3550 lhz        r0, 0(r9)
+002F3554 stw        r0, 0x10(r30)
+002F3558 ld         r0, 0xa0(r1)
+002F355C extsw      r3, r3
+002F3560 ld         r29, 0x78(r1)
+002F3564 ld         r30, 0x80(r1)
+002F3568 mtlr       r0
+002F356C ld         r31, 0x88(r1)
+002F3570 addi       r1, r1, 0x90
+002F3574 blr        
+002F3578 lwz        r0, 4(r9)
+002F357C add        r10, r3, r0
+002F3580 b          0x2f3530
+002F3584 stdu       r1, -0x80(r1)
+002F3588 mflr       r0
+002F358C std        r31, 0x78(r1)
+002F3590 std        r0, 0x90(r1)
+002F3594 mr         r31, r3
+002F3598 bl         0x2f3478
+002F359C lwz        r0, 4(r3)
+002F35A0 li         r3, 0
+002F35A4 cmpwi      cr7, r0, 0
+002F35A8 slwi       r10, r0, 3
+002F35AC beq        cr7, 0x2f35c8
+002F35B0 lwz        r9, 4(r31)
+002F35B4 lwz        r11, 8(r31)
+002F35B8 add        r9, r10, r9
+002F35BC clrldi     r9, r9, 0x20
+002F35C0 lwz        r0, 4(r9)
+002F35C4 add        r3, r11, r0
+002F35C8 ld         r0, 0x90(r1)
+002F35CC clrldi     r3, r3, 0x20
+002F35D0 ld         r31, 0x78(r1)
+002F35D4 addi       r1, r1, 0x80
+002F35D8 mtlr       r0
+002F35DC blr        
+002F35E0 lwz        r0, 0x28(r4)
+002F35E4 slwi       r5, r5, 2
+002F35E8 cmpwi      cr7, r0, 0
+002F35EC slwi       r10, r0, 3
+002F35F0 li         r0, 0
+002F35F4 beq        cr7, 0x2f3610
+002F35F8 lwz        r9, 4(r3)
+002F35FC lwz        r11, 8(r3)
+002F3600 add        r9, r10, r9
+002F3604 clrldi     r9, r9, 0x20
+002F3608 lwz        r0, 4(r9)
+002F360C add        r0, r11, r0
+002F3610 add        r9, r5, r0
+002F3614 clrldi     r9, r9, 0x20
+002F3618 lwz        r3, 0(r9)
+002F361C extsw      r3, r3
+002F3620 blr        
+002F3624 lwz        r9, 0x34(r4)
+002F3628 lwz        r0, 4(r3)
+002F362C slwi       r9, r9, 3
+002F3630 add        r9, r9, r0
+002F3634 clrldi     r9, r9, 0x20
+002F3638 lhz        r3, 0(r9)
+002F363C blr        
+002F3640 lwz        r9, 0x2c(r4)
+002F3644 lwz        r0, 4(r3)
+002F3648 slwi       r9, r9, 3
+002F364C add        r9, r9, r0
+002F3650 clrldi     r9, r9, 0x20
+002F3654 lhz        r3, 0(r9)
+002F3658 blr        
+002F365C cmpwi      cr7, r3, 1
+002F3660 std        r29, -0x18(r1)
+002F3664 beq        cr7, 0x2f3670
+002F3668 ld         r29, -0x18(r1)
+002F366C blr        
+002F3670 xoris      r0, r4, 0xffff
+002F3674 cmpwi      cr7, r0, -1
+002F3678 bne        cr7, 0x2f3668
+002F367C lwz        r9, 0x19bc(r2)
+002F3680 mr         r7, r9
+002F3684 addi       r9, r9, 1
+002F3688 clrldi     r11, r9, 0x20
+002F368C addi       r9, r9, 1
+002F3690 lbz        r0, 0(r7)
+002F3694 clrldi     r10, r9, 0x20
+002F3698 lbz        r29, 8(r7)
+002F369C addi       r9, r9, 1
+002F36A0 lbz        r5, 0(r11)
+002F36A4 clrldi     r8, r9, 0x20
+002F36A8 addi       r9, r9, 1
+002F36AC lbz        r3, 0(r10)
+002F36B0 clrldi     r11, r9, 0x20
+002F36B4 addi       r9, r9, 1
+002F36B8 lbz        r4, 0(r8)
+002F36BC clrldi     r10, r9, 0x20
+002F36C0 addi       r9, r9, 1
+002F36C4 lbz        r6, 0(r11)
+002F36C8 clrldi     r9, r9, 0x20
+002F36CC mulli      r0, r0, 0x89
+002F36D0 add        r0, r0, r5
+002F36D4 lbz        r8, 0(r10)
+002F36D8 lbz        r11, 0(r9)
+002F36DC lbz        r10, 1(r9)
+002F36E0 mulli      r0, r0, 0x89
+002F36E4 add        r0, r0, r3
+002F36E8 mulli      r0, r0, 0x89
+002F36EC add        r0, r0, r4
+002F36F0 mulli      r0, r0, 0x89
+002F36F4 add        r0, r0, r6
+002F36F8 mulli      r0, r0, 0x89
+002F36FC add        r0, r0, r8
+002F3700 mulli      r0, r0, 0x89
+002F3704 add        r0, r0, r11
+002F3708 mulli      r0, r0, 0x89
+002F370C add        r0, r0, r10
+002F3710 mulli      r0, r0, 0x89
+002F3714 add        r29, r29, r0
+002F3718 cmpwi      cr7, r29, 0
+002F371C beq        cr7, 0x2f3818
+002F3720 lwz        r7, 0x19c0(r2)
+002F3724 li         r9, 7
+002F3728 lwz        r10, 0x19b8(r2)
+002F372C li         r0, 0
+002F3730 mtctr      r9
+002F3734 stw        r29, 0(r7)
+002F3738 clrldi     r11, r10, 0x20
+002F373C addi       r10, r10, 1
+002F3740 mulli      r9, r0, 0x89
+002F3744 lbz        r0, 0(r11)
+002F3748 add        r0, r9, r0
+002F374C bdnz       0x2f3738
+

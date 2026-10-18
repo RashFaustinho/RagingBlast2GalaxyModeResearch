@@ -1,0 +1,94 @@
+{
+  "runtime": "RPCS3 0.0.43-20291-ffba2bf0, PPU Interpreter(static), Mesa lavapipe",
+  "game": "BLES00978",
+  "variant": "KB07A",
+  "battle": "Kid Buu, boss node117",
+  "original_EBOOT_preserved": true,
+  "observations": [
+    {
+      "event": "forward request PC sampled at0x3a7c0",
+      "utc": "2026-10-14T15:39:35Z",
+      "actor": "0x3aa943c0",
+      "native": 2,
+      "preset": 1058,
+      "HP": 20000,
+      "probe": "HP/aura were set before active gameplay; this is not a measurement of the natural activation threshold"
+    },
+    {
+      "event": "transformed actor read",
+      "utc": "2026-10-14T15:40:23Z",
+      "native": 3,
+      "preset": 1059,
+      "HP": 20000,
+      "aura": 20.299995,
+      "items": [
+        "0x15e"
+      ]
+    },
+    {
+      "event": "probe HP9000 aura50",
+      "utc": "2026-10-14T15:40:44Z"
+    },
+    {
+      "event": "SSJ3 remains during 6 timed windows of30 wall seconds",
+      "windows_utc": [
+        "15:41:14",
+        "15:42:31",
+        "15:43:49",
+        "15:44:43",
+        "15:47:38",
+        "15:52:25"
+      ],
+      "PC_at_pause": [
+        "0x86564c",
+        "0x46503c",
+        "0x46503c",
+        "0x3c9f2c",
+        "0x46503c",
+        "0x46503c"
+      ],
+      "breakpoints": [
+        "0x3a5ec",
+        "0x3a79c",
+        "0x65b50"
+      ],
+      "limits": "180 wall seconds, software renderer and slow emulation: not180 game seconds. No cancel-path stop in these windows; not proof of impossibility or exclusivity of these paths.",
+      "breakpoint_installation": {
+        "0x3a5ec": "all6 windows",
+        "0x3a79c": "all6 windows",
+        "0x65b50": "last2 windows only"
+      }
+    },
+    {
+      "event": "CPU health blackboard read",
+      "utc": "2026-10-14T15:45:47Z",
+      "interface": "0x3aa46140",
+      "side1_blackboard": "0x3aa49890",
+      "hp_at_plus2100": 9000,
+      "aura_floor_at_plus2104": 73
+    },
+    {
+      "event": "current controller",
+      "address": "0x3aaae8e0",
+      "native_forward_targets": [
+        0,
+        "FFFFFFFF",
+        "FFFFFFFF",
+        "FFFFFFFF"
+      ],
+      "comparison_fields_e0_e4": [
+        "FFFFFFFF",
+        "FFFFFFFF"
+      ]
+    }
+  ],
+  "raw_events": "debug-events.jsonl",
+  "not_yet_explained": [
+    "Item155 vs157 difference",
+    "No cancel request with15E",
+    "Vegeta swap30k"
+  ],
+  "status": "INTRO_PHASE_NOT_VERIFIED_AS_ACTIVE_BATTLE",
+  "correction": "KB08A revealed an intro transformation and reset before playable combat. KB07A no-cancel windows cannot be counted as confirmed active gameplay.",
+  "item_label_correction": "See OGGETTI_CORRETTI_E_KB10A.md: 155=second transform at two bars; 15E=swap at two bars. Earlier cancellation interpretation superseded."
+}

@@ -1,0 +1,47 @@
+test_current_old_progress_survives_downgrade (test_double_save_research.D2Tests.test_current_old_progress_survives_downgrade) ... ok
+test_exact_double_and_lossless_roundtrip (test_double_save_research.D2Tests.test_exact_double_and_lossless_roundtrip) ... ok
+test_new_boundary_records_do_not_alias_old_banks (test_double_save_research.D2Tests.test_new_boundary_records_do_not_alias_old_banks) ... ok
+test_reject_corrupt_and_unknown_format (test_double_save_research.D2Tests.test_reject_corrupt_and_unknown_format) ... ok
+test_all_original_rows_and_globals_move_without_aliases (test_galaxy_save_extension.SaveConversion.test_all_original_rows_and_globals_move_without_aliases) ... ok
+test_bad_checksum_sizes_or_double_conversions_are_rejected (test_galaxy_save_extension.SaveConversion.test_bad_checksum_sizes_or_double_conversions_are_rejected) ... ok
+test_downgrade_preserves_current_non_galaxy_data_and_old_progress (test_galaxy_save_extension.SaveConversion.test_downgrade_preserves_current_non_galaxy_data_and_old_progress) ... ok
+test_original_checksum_matches_independent_le_word_sum (test_galaxy_save_extension.SaveConversion.test_original_checksum_matches_independent_le_word_sum) ... ok
+test_growth_into_nonzero_gap_is_rejected (test_heavy_mod.ArchiveGrowthTests.test_growth_into_nonzero_gap_is_rejected) ... ok
+test_growth_moves_neighbor_preserving_body_and_directory_metadata (test_heavy_mod.ArchiveGrowthTests.test_growth_moves_neighbor_preserving_body_and_directory_metadata) ... ok
+test_oversize_afs_relocates_without_moving_other_member (test_heavy_mod.ArchiveGrowthTests.test_oversize_afs_relocates_without_moving_other_member) ... ok
+test_bad_programs_rejected (test_mmd_advanced.ConditionChecks.test_bad_programs_rejected) ... ok
+test_numeric_task_parameter (test_mmd_advanced.ConditionChecks.test_numeric_task_parameter) ... ok
+test_query_order_and_false_candidate (test_mmd_advanced.ConditionChecks.test_query_order_and_false_candidate) ... ok
+test_signed_arithmetic_divides_towards_zero (test_mmd_advanced.ConditionChecks.test_signed_arithmetic_divides_towards_zero) ... ok
+test_unknown_runtime_query_is_not_guessed (test_mmd_advanced.ConditionChecks.test_unknown_runtime_query_is_not_guessed) ... ok
+test_dangling_incident_edge_is_rejected (test_mmd_advanced.GraphChecks.test_dangling_incident_edge_is_rejected) ... ok
+test_real_tutorial_roundtrip_and_reciprocal_edges (test_mmd_advanced.GraphChecks.test_real_tutorial_roundtrip_and_reciprocal_edges) ... ok
+test_resize_keeps_later_task_bodies_and_updates_geometry (test_mmd_advanced.GraphChecks.test_resize_keeps_later_task_bodies_and_updates_geometry) ... ok
+test_tutorial_ally_and_action_lists_are_separate (test_mmd_advanced.GraphChecks.test_tutorial_ally_and_action_lists_are_separate) ... ok
+test_complete_report_passes_but_changed_source_fails (test_package_galaxy_studio.ReleaseVerificationTests.test_complete_report_passes_but_changed_source_fails) ... ok
+test_incomplete_and_failed_runs_cannot_pass_with_empty_errors (test_package_galaxy_studio.ReleaseVerificationTests.test_incomplete_and_failed_runs_cannot_pass_with_empty_errors) ... ok
+test_missing_new_script_coverage_fails (test_package_galaxy_studio.ReleaseVerificationTests.test_missing_new_script_coverage_fails) ... ok
+test_portable_keeps_current_app_and_evidence_without_duplicating_source_history (test_package_galaxy_studio.ReleaseVerificationTests.test_portable_keeps_current_app_and_evidence_without_duplicating_source_history) ... ok
+test_invalid_or_truncated_reference (test_research_tools.ArchiveChecks.test_invalid_or_truncated_reference) ... ok
+test_literals_backreferences_and_chunk_roundtrips (test_research_tools.ArchiveChecks.test_literals_backreferences_and_chunk_roundtrips) ... ok
+test_member_replacement_and_wrong_size (test_research_tools.ArchiveChecks.test_member_replacement_and_wrong_size) ... ok
+test_overlapping_reference (test_research_tools.ArchiveChecks.test_overlapping_reference) ... ok
+test_raw_stpk_replacement (test_research_tools.ArchiveChecks.test_raw_stpk_replacement) ... ok
+test_unsafe_member_path_and_archive_bounds (test_research_tools.ArchiveChecks.test_unsafe_member_path_and_archive_bounds) ... ok
+test_bad_descriptor_is_rejected (test_research_tools.MMDChecks.test_bad_descriptor_is_rejected) ... ok
+test_geometry_and_indirection_of_real_sample (test_research_tools.MMDChecks.test_geometry_and_indirection_of_real_sample) ... ok
+test_patch_does_not_overwrite_or_change_source (test_research_tools.MMDChecks.test_patch_does_not_overwrite_or_change_source) ... ok
+test_truncation_is_rejected (test_research_tools.MMDChecks.test_truncation_is_rejected) ... ok
+test_wrong_baseline_or_changed_size_is_rejected (test_research_tools.MMDChecks.test_wrong_baseline_or_changed_size_is_rejected) ... ok
+test_exact_search_respects_regions_and_full_content (test_research_tools.MemoryChecks.test_exact_search_respects_regions_and_full_content) ... ok
+test_guest_manifest_rejects_host_layout (test_research_tools.MemoryChecks.test_guest_manifest_rejects_host_layout) ... ok
+test_afs_little_endian_index_and_bounds (test_research_tools.ResidentChecks.test_afs_little_endian_index_and_bounds) ... ok
+test_afs_slot_replacement_preserves_other_member (test_research_tools.ResidentChecks.test_afs_slot_replacement_preserves_other_member) ... ok
+test_item_patch_preserves_original_and_checks_slots (test_research_tools.ResidentChecks.test_item_patch_preserves_original_and_checks_slots) ... ok
+test_item_table_has_no_header (test_research_tools.ResidentChecks.test_item_table_has_no_header) ... ok
+test_parameter_geometry_is_checked (test_research_tools.ResidentChecks.test_parameter_geometry_is_checked) ... ok
+
+----------------------------------------------------------------------
+Ran 42 tests in 0.147s
+
+OK

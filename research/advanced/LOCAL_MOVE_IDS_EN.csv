@@ -1,0 +1,691 @@
+native_id,character,local_move_index,local_move_hex,move_name,name_text_id,pause_name_text_id,pause_move_name,matching_resolved_text,description_text_id,pause_table_offset_hex,HUD_record_offset_hex
+0,Goku,0,0,Kamehameha,26,26,Kamehameha,True,1,0x10,0x0
+0,Goku,1,1,Kaioken Attack,175,175,Kaioken Attack,True,14,0x14,0xc
+0,Goku,2,2,Kaioken Finish,176,176,Kaioken Finish,True,14,0x18,0x18
+0,Goku,3,3,x20 Kaioken Kamehameha,0,0,x20 Kaioken Kamehameha,True,0,0x1c,0x24
+0,Goku,4,4,Meteor Combination,148,148,Meteor Combination,True,14,0x20,0x30
+0,Goku,5,5,Kaioken,174,174,Kaioken,True,31,0x24,0x3c
+0,Goku,6,6,Instant Transmission,201,201,Instant Transmission,True,24,0x28,0x48
+0,Goku,7,7,Solar Flare,213,213,Solar Flare,True,27,0x2c,0x54
+0,Goku,8,8,Give Me Energy!,18,18,Give Me Energy!,True,30,0x30,0x60
+0,Goku,9,9,Saiyan Spirit,53,53,Saiyan Spirit,True,26,0x34,0x6c
+0,Goku,10,A,Spirit Bomb,191,191,Spirit Bomb,True,2,0x38,0x78
+0,Goku,11,B,Large Spirit Bomb,190,190,Large Spirit Bomb,True,2,0x3c,0x84
+0,Goku,12,C,Super Spirit Bomb,218,218,Super Spirit Bomb,True,2,0x40,0x90
+1,Goku / Super Saiyan,0,0,Kamehameha,26,26,Kamehameha,True,1,0x48,0x9c
+1,Goku / Super Saiyan,1,1,Super Energy Wave Volley,225,225,Super Energy Wave Volley,True,7,0x4c,0xa8
+1,Goku / Super Saiyan,2,2,Instant Transmission Kamehameha,202,202,Instant Transmission Kamehameha,True,0,0x50,0xb4
+1,Goku / Super Saiyan,3,3,Meteor Smash,149,149,Meteor Smash,True,10,0x54,0xc0
+1,Goku / Super Saiyan,4,4,Wild Sense,166,166,Wild Sense,True,16,0x58,0xcc
+1,Goku / Super Saiyan,5,5,Instant Transmission,201,201,Instant Transmission,True,24,0x5c,0xd8
+1,Goku / Super Saiyan,6,6,Now I'm Angry!,171,171,Now I'm Angry!,True,32,0x60,0xe4
+1,Goku / Super Saiyan,7,7,Angry Kamehameha,228,228,Angry Kamehameha,True,0,0x64,0xf0
+2,Goku / Super Saiyan 2,0,0,Kamehameha,26,26,Kamehameha,True,1,0x80,0xfc
+2,Goku / Super Saiyan 2,1,1,Super Energy Wave Volley,225,225,Super Energy Wave Volley,True,7,0x84,0x108
+2,Goku / Super Saiyan 2,2,2,Instant Transmission Kamehameha,202,202,Instant Transmission Kamehameha,True,0,0x88,0x114
+2,Goku / Super Saiyan 2,3,3,Meteor Blast,150,150,Meteor Blast,True,10,0x8c,0x120
+2,Goku / Super Saiyan 2,4,4,Instant Transmission,201,201,Instant Transmission,True,24,0x90,0x12c
+2,Goku / Super Saiyan 2,5,5,Wild Sense,166,166,Wild Sense,True,16,0x94,0x138
+2,Goku / Super Saiyan 2,6,6,Saiyan Spirit,53,53,Saiyan Spirit,True,26,0x98,0x144
+2,Goku / Super Saiyan 2,7,7,Super Kamehameha,216,216,Super Kamehameha,True,0,0x9c,0x150
+3,Goku / Super Saiyan 3,0,0,Super Kamehameha,216,216,Super Kamehameha,True,0,0xb8,0x15c
+3,Goku / Super Saiyan 3,1,1,Super Explosive Wave,220,220,Super Explosive Wave,True,5,0xbc,0x168
+3,Goku / Super Saiyan 3,2,2,Super Energy Wave Volley,225,225,Super Energy Wave Volley,True,7,0xc0,0x174
+3,Goku / Super Saiyan 3,3,3,Instant Transmission Kamehameha,202,202,Instant Transmission Kamehameha,True,0,0xc4,0x180
+3,Goku / Super Saiyan 3,4,4,Meteor Impact,147,147,Meteor Impact,True,10,0xc8,0x18c
+3,Goku / Super Saiyan 3,5,5,Instant Transmission,201,201,Instant Transmission,True,24,0xcc,0x198
+3,Goku / Super Saiyan 3,6,6,Saiyan Spirit,53,53,Saiyan Spirit,True,26,0xd0,0x1a4
+3,Goku / Super Saiyan 3,7,7,True Kamehameha,243,243,True Kamehameha,True,0,0xd4,0x1b0
+4,Kid Gohan,0,0,Masenko,248,248,Masenko,True,1,0xf0,0x1bc
+4,Kid Gohan,1,1,Energy Blast Barrage,188,188,Energy Blast Barrage,True,7,0xf4,0x1c8
+4,Kid Gohan,2,2,Leave My Daddy Alone!,21,21,Leave My Daddy Alone!,True,12,0xf8,0x1d4
+4,Kid Gohan,3,3,Hidden Power,238,238,Hidden Power,True,0,0xfc,0x1e0
+4,Kid Gohan,4,4,Thrust Counterattack,8,8,Thrust Counterattack,True,13,0x100,0x1ec
+4,Kid Gohan,5,5,Afterimage Strike,211,211,Afterimage Strike,True,18,0x104,0x1f8
+4,Kid Gohan,6,6,Wild Rush Blaster,237,237,Wild Rush Blaster,True,14,0x108,0x204
+5,Teen Gohan,0,0,Super Masenko,223,223,Super Masenko,True,0,0x128,0x210
+5,Teen Gohan,1,1,Energy Blast Barrage,188,188,Energy Blast Barrage,True,7,0x12c,0x21c
+5,Teen Gohan,2,2,[unassigned text ID],354,65535,[unassigned text ID],False,11,0x130,0x228
+5,Teen Gohan,3,3,Wild Sense,166,166,Wild Sense,True,16,0x134,0x234
+5,Teen Gohan,4,4,Unforgivable,151,151,Unforgivable,True,33,0x138,0x240
+5,Teen Gohan,5,5,Super Kamehameha,216,216,Super Kamehameha,True,0,0x13c,0x24c
+6,Teen Gohan / Super Saiyan,0,0,Super Masenko,223,223,Super Masenko,True,0,0x160,0x258
+6,Teen Gohan / Super Saiyan,1,1,Energy Blast Barrage,188,188,Energy Blast Barrage,True,7,0x164,0x264
+6,Teen Gohan / Super Saiyan,2,2,Explosive Wave,232,232,Explosive Wave,True,5,0x168,0x270
+6,Teen Gohan / Super Saiyan,3,3,Super Assault Combo,224,224,Super Assault Combo,True,14,0x16c,0x27c
+6,Teen Gohan / Super Saiyan,4,4,Unforgivable,151,151,Unforgivable,True,33,0x170,0x288
+6,Teen Gohan / Super Saiyan,5,5,Super Kamehameha,216,216,Super Kamehameha,True,0,0x174,0x294
+7,Teen Gohan / Super Saiyan 2,0,0,Super Masenko,223,223,Super Masenko,True,0,0x198,0x2a0
+7,Teen Gohan / Super Saiyan 2,1,1,Super Kamehameha,216,216,Super Kamehameha,True,0,0x19c,0x2ac
+7,Teen Gohan / Super Saiyan 2,2,2,Energy Blast Barrage,188,188,Energy Blast Barrage,True,7,0x1a0,0x2b8
+7,Teen Gohan / Super Saiyan 2,3,3,Explosive Wave,232,232,Explosive Wave,True,5,0x1a4,0x2c4
+7,Teen Gohan / Super Saiyan 2,4,4,Quiet Rage,209,209,Quiet Rage,True,10,0x1a8,0x2d0
+7,Teen Gohan / Super Saiyan 2,5,5,Explosive Demon Impact,236,236,Explosive Demon Impact,True,10,0x1ac,0x2dc
+7,Teen Gohan / Super Saiyan 2,6,6,Unforgivable,151,151,Unforgivable,True,33,0x1b0,0x2e8
+7,Teen Gohan / Super Saiyan 2,7,7,Father-Son Kamehameha,205,205,Father-Son Kamehameha,True,0,0x1b4,0x2f4
+8,Gohan,0,0,Explosive Cannon,233,233,Explosive Cannon,True,8,0x1d0,0x300
+8,Gohan,1,1,Full Power Energy Blast Volley,133,133,Full Power Energy Blast Volley,True,7,0x1d4,0x30c
+8,Gohan,2,2,Explosive Wave,232,232,Explosive Wave,True,5,0x1d8,0x318
+8,Gohan,3,3,[unassigned text ID],354,65535,[unassigned text ID],False,0,0x1dc,0x324
+8,Gohan,4,4,[unassigned text ID],354,65535,[unassigned text ID],False,10,0x1e0,0x330
+8,Gohan,5,5,Wild Sense,166,166,Wild Sense,True,16,0x1e4,0x33c
+8,Gohan,6,6,Super Kamehameha,216,216,Super Kamehameha,True,0,0x1e8,0x348
+9,Gohan / Super Saiyan,0,0,Explosive Cannon,233,233,Explosive Cannon,True,8,0x208,0x354
+9,Gohan / Super Saiyan,1,1,Full Power Energy Blast Volley,133,133,Full Power Energy Blast Volley,True,7,0x20c,0x360
+9,Gohan / Super Saiyan,2,2,Explosive Wave,232,232,Explosive Wave,True,5,0x210,0x36c
+9,Gohan / Super Saiyan,3,3,[unassigned text ID],354,65535,[unassigned text ID],False,0,0x214,0x378
+9,Gohan / Super Saiyan,4,4,Explosive Combination,231,231,Explosive Combination,True,10,0x218,0x384
+9,Gohan / Super Saiyan,5,5,Wild Sense,166,166,Wild Sense,True,16,0x21c,0x390
+9,Gohan / Super Saiyan,6,6,Super Kamehameha,216,216,Super Kamehameha,True,0,0x220,0x39c
+10,Gohan / Super Saiyan 2,0,0,Super Explosive Cannon,221,221,Super Explosive Cannon,True,8,0x240,0x3a8
+10,Gohan / Super Saiyan 2,1,1,Full Power Energy Barrage Wave,134,134,Full Power Energy Barrage Wave,True,7,0x244,0x3b4
+10,Gohan / Super Saiyan 2,2,2,Explosive Wave,232,232,Explosive Wave,True,5,0x248,0x3c0
+10,Gohan / Super Saiyan 2,3,3,[unassigned text ID],354,65535,[unassigned text ID],False,0,0x24c,0x3cc
+10,Gohan / Super Saiyan 2,4,4,Explosive Combination,231,231,Explosive Combination,True,10,0x250,0x3d8
+10,Gohan / Super Saiyan 2,5,5,Wild Sense,166,166,Wild Sense,True,16,0x254,0x3e4
+10,Gohan / Super Saiyan 2,6,6,Super Kamehameha,216,216,Super Kamehameha,True,0,0x258,0x3f0
+11,Piccolo,0,0,Explosive Demon Wave,234,234,Explosive Demon Wave,True,0,0x278,0x3fc
+11,Piccolo,1,1,Explosive Breath Cannon,235,235,Explosive Breath Cannon,True,14,0x27c,0x408
+11,Piccolo,2,2,Hellzone Grenade,246,246,Hellzone Grenade,True,7,0x280,0x414
+11,Piccolo,3,3,Special Beam Cannon,245,245,Special Beam Cannon,True,0,0x284,0x420
+11,Piccolo,4,4,Demon Rend,244,244,Demon Rend,True,10,0x288,0x42c
+11,Piccolo,5,5,Paralyze Beam,173,173,Paralyze Beam,True,28,0x28c,0x438
+11,Piccolo,6,6,All-Out,242,242,All-Out,True,34,0x290,0x444
+11,Piccolo,7,7,Light Grenade,187,187,Light Grenade,True,0,0x294,0x450
+12,Krillin,0,0,Kamehameha,26,26,Kamehameha,True,1,0x2b0,0x45c
+12,Krillin,1,1,Spread Energy Blast,177,177,Spread Energy Blast,True,3,0x2b4,0x468
+12,Krillin,2,2,Homing Energy Wave,226,226,Homing Energy Wave,True,2,0x2b8,0x474
+12,Krillin,3,3,[unassigned text ID],354,65535,[unassigned text ID],False,14,0x2bc,0x480
+12,Krillin,4,4,Afterimage Strike,211,211,Afterimage Strike,True,18,0x2c0,0x48c
+12,Krillin,5,5,Solar Flare,213,213,Solar Flare,True,27,0x2c4,0x498
+12,Krillin,6,6,Destructo-Disc,180,180,Destructo-Disc,True,7,0x2c8,0x4a4
+13,Yamcha,0,0,Kamehameha,26,26,Kamehameha,True,1,0x2e8,0x4b0
+13,Yamcha,1,1,[unassigned text ID],354,65535,[unassigned text ID],False,14,0x2ec,0x4bc
+13,Yamcha,2,2,Blinding Wolf Fang Fist,255,255,Blinding Wolf Fang Fist,True,14,0x2f0,0x4c8
+13,Yamcha,3,3,Spirit Ball,185,185,Spirit Ball,True,2,0x2f4,0x4d4
+13,Yamcha,4,4,Power Up to the Very Limit,35,35,Power Up to the Very Limit,True,25,0x2f8,0x4e0
+13,Yamcha,5,5,Afterimage,198,198,Afterimage,True,17,0x2fc,0x4ec
+13,Yamcha,6,6,Super Spirit Ball,217,217,Super Spirit Ball,True,2,0x300,0x4f8
+14,Tien,0,0,Dodon Ray,82,82,Dodon Ray,True,0,0x320,0x504
+14,Tien,1,1,Tri-Beam,181,181,Tri-Beam,True,58,0x324,0x510
+14,Tien,2,2,[unassigned text ID],354,65535,[unassigned text ID],False,14,0x328,0x51c
+14,Tien,3,3,Spirit Tri-Beam,196,196,Spirit Tri-Beam,True,58,0x32c,0x528
+14,Tien,4,4,Open Ball Fist,230,230,Open Ball Fist,True,10,0x330,0x534
+14,Tien,5,5,Solar Flare,213,213,Solar Flare,True,27,0x334,0x540
+14,Tien,6,6,Wild Sense,166,166,Wild Sense,True,16,0x338,0x54c
+14,Tien,7,7,Neo Tri-Beam,204,204,Neo Tri-Beam,True,60,0x33c,0x558
+15,Chiaotzu,0,0,Dodon Ray,82,82,Dodon Ray,True,0,0x358,0x564
+15,Chiaotzu,1,1,Psychic Rock Throw,50,50,Psychic Rock Throw,True,61,0x35c,0x570
+15,Chiaotzu,2,2,Psychic Spark,49,49,Psychic Spark,True,36,0x360,0x57c
+15,Chiaotzu,3,3,Afterimage,198,198,Afterimage,True,17,0x364,0x588
+15,Chiaotzu,4,4,Telekinesis,219,219,Telekinesis,True,35,0x368,0x594
+15,Chiaotzu,5,5,"Farewell, Mr. Tien",55,55,"Farewell, Mr. Tien",True,63,0x36c,0x5a0
+16,Vegeta (Scouter),0,0,Galick Gun,34,34,Galick Gun,True,1,0x390,0x5ac
+16,Vegeta (Scouter),1,1,Explosive Wave,232,232,Explosive Wave,True,5,0x394,0x5b8
+16,Vegeta (Scouter),2,2,Super Energy Wave Volley,225,225,Super Energy Wave Volley,True,7,0x398,0x5c4
+16,Vegeta (Scouter),3,3,Genocide Breaker,57,57,Genocide Breaker,True,14,0x39c,0x5d0
+16,Vegeta (Scouter),4,4,Dirty Fireworks,264,264,Dirty Fireworks,True,2,0x3a0,0x5dc
+16,Vegeta (Scouter),5,5,Saiyan Spirit,53,53,Saiyan Spirit,True,26,0x3a4,0x5e8
+16,Vegeta (Scouter),6,6,Final Burst Cannon,119,119,Final Burst Cannon,True,0,0x3a8,0x5f4
+17,Vegeta,0,0,Galick Gun,34,34,Galick Gun,True,1,0x3c8,0x600
+17,Vegeta,1,1,Super Energy Wave Volley,225,225,Super Energy Wave Volley,True,7,0x3cc,0x60c
+17,Vegeta,2,2,Super Explosive Wave,220,220,Super Explosive Wave,True,5,0x3d0,0x618
+17,Vegeta,3,3,Double Galick Cannon,72,72,Double Galick Cannon,True,8,0x3d4,0x624
+17,Vegeta,4,4,Afterimage,198,198,Afterimage,True,17,0x3d8,0x630
+17,Vegeta,5,5,Saiyan Spirit,53,53,Saiyan Spirit,True,26,0x3dc,0x63c
+17,Vegeta,6,6,Big Bang Attack,110,110,Big Bang Attack,True,2,0x3e0,0x648
+18,Vegeta / Super Saiyan,0,0,Galick Gun,34,34,Galick Gun,True,1,0x400,0x654
+18,Vegeta / Super Saiyan,1,1,Super Energy Wave Volley,225,225,Super Energy Wave Volley,True,7,0x404,0x660
+18,Vegeta / Super Saiyan,2,2,Super Explosive Wave,220,220,Super Explosive Wave,True,5,0x408,0x66c
+18,Vegeta / Super Saiyan,3,3,Amazing Impact,5,5,Amazing Impact,True,13,0x40c,0x678
+18,Vegeta / Super Saiyan,4,4,Maximum Flasher,143,143,Maximum Flasher,True,0,0x410,0x684
+18,Vegeta / Super Saiyan,5,5,Brave Punisher,136,136,Brave Punisher,True,10,0x414,0x690
+18,Vegeta / Super Saiyan,6,6,Saiyan Spirit,53,53,Saiyan Spirit,True,26,0x418,0x69c
+18,Vegeta / Super Saiyan,7,7,Big Bang Attack,110,110,Big Bang Attack,True,2,0x41c,0x6a8
+19,Super Vegeta,0,0,Maximum Flasher,143,143,Maximum Flasher,True,0,0x438,0x6b4
+19,Super Vegeta,1,1,Super Energy Wave Volley,225,225,Super Energy Wave Volley,True,7,0x43c,0x6c0
+19,Super Vegeta,2,2,Super Explosive Wave,220,220,Super Explosive Wave,True,5,0x440,0x6cc
+19,Super Vegeta,3,3,Spirit Breaking Cannon,66,66,Spirit Breaking Cannon,True,13,0x444,0x6d8
+19,Super Vegeta,4,4,Atomic Blast,3,3,Atomic Blast,True,10,0x448,0x6e4
+19,Super Vegeta,5,5,I'm Super Vegeta!,170,170,I'm Super Vegeta!,True,37,0x44c,0x6f0
+19,Super Vegeta,6,6,Final Flash,120,120,Final Flash,True,0,0x450,0x6fc
+20,Vegeta / Super Saiyan 2,0,0,Big Bang Attack,110,110,Big Bang Attack,True,2,0x470,0x708
+20,Vegeta / Super Saiyan 2,1,1,Super Energy Wave Volley,225,225,Super Energy Wave Volley,True,7,0x474,0x714
+20,Vegeta / Super Saiyan 2,2,2,Super Explosive Wave,220,220,Super Explosive Wave,True,5,0x478,0x720
+20,Vegeta / Super Saiyan 2,3,3,Infinite Break,11,11,Infinite Break,True,10,0x47c,0x72c
+20,Vegeta / Super Saiyan 2,4,4,Wild Sense,166,166,Wild Sense,True,16,0x480,0x738
+20,Vegeta / Super Saiyan 2,5,5,Saiyan Spirit,53,53,Saiyan Spirit,True,26,0x484,0x744
+20,Vegeta / Super Saiyan 2,6,6,Final Flash,120,120,Final Flash,True,0,0x488,0x750
+21,Vegeta / Majin,0,0,Big Bang Attack,110,110,Big Bang Attack,True,2,0x4a8,0x75c
+21,Vegeta / Majin,1,1,Super Energy Wave Volley,225,225,Super Energy Wave Volley,True,7,0x4ac,0x768
+21,Vegeta / Majin,2,2,Final Impact,115,115,Final Impact,True,0,0x4b0,0x774
+21,Vegeta / Majin,3,3,Explosive Wave,232,232,Explosive Wave,True,5,0x4b4,0x780
+21,Vegeta / Majin,4,4,Dark Impact,71,71,Dark Impact,True,13,0x4b8,0x78c
+21,Vegeta / Majin,5,5,Majin's Awakening,247,247,Majin's Awakening,True,38,0x4bc,0x798
+21,Vegeta / Majin,6,6,Final Explosion,116,116,Final Explosion,True,65,0x4c0,0x7a4
+22,Trunks (Sword),0,0,Finish Buster,123,123,Finish Buster,True,2,0x4e0,0x7b0
+22,Trunks (Sword),1,1,Burning Storm,91,91,Burning Storm,True,3,0x4e4,0x7bc
+22,Trunks (Sword),2,2,Explosive Wave,232,232,Explosive Wave,True,5,0x4e8,0x7c8
+22,Trunks (Sword),3,3,Masenko,248,248,Masenko,True,1,0x4ec,0x7d4
+22,Trunks (Sword),4,4,Wild Sense,166,166,Wild Sense,True,16,0x4f0,0x7e0
+22,Trunks (Sword),5,5,Power Up to the Very Limit,35,35,Power Up to the Very Limit,True,25,0x4f4,0x7ec
+22,Trunks (Sword),6,6,Lightning Sword Slash,156,156,Lightning Sword Slash,True,4,0x4f8,0x7f8
+23,Trunks (Sword) / Super Saiyan,0,0,Burning Attack,90,90,Burning Attack,True,2,0x518,0x804
+23,Trunks (Sword) / Super Saiyan,1,1,Burning Storm,91,91,Burning Storm,True,3,0x51c,0x810
+23,Trunks (Sword) / Super Saiyan,2,2,Explosive Wave,232,232,Explosive Wave,True,5,0x520,0x81c
+23,Trunks (Sword) / Super Saiyan,3,3,Masenko,248,248,Masenko,True,1,0x524,0x828
+23,Trunks (Sword) / Super Saiyan,4,4,Wild Sense,166,166,Wild Sense,True,16,0x528,0x834
+23,Trunks (Sword) / Super Saiyan,5,5,Burning Heart,92,92,Burning Heart,True,39,0x52c,0x840
+23,Trunks (Sword) / Super Saiyan,6,6,Shining Sword Attack,59,59,Shining Sword Attack,True,14,0x530,0x84c
+24,Trunks (Fighting Teen),0,0,Burning Attack,90,90,Burning Attack,True,2,0x550,0x858
+24,Trunks (Fighting Teen),1,1,Explosive Wave,232,232,Explosive Wave,True,5,0x554,0x864
+24,Trunks (Fighting Teen),2,2,Masenko,248,248,Masenko,True,1,0x558,0x870
+24,Trunks (Fighting Teen),3,3,Super Energy Wave Volley,225,225,Super Energy Wave Volley,True,7,0x55c,0x87c
+24,Trunks (Fighting Teen),4,4,[unassigned text ID],354,65535,[unassigned text ID],False,0,0x560,0x888
+24,Trunks (Fighting Teen),5,5,Wild Sense,166,166,Wild Sense,True,16,0x564,0x894
+24,Trunks (Fighting Teen),6,6,Burning Heart,92,92,Burning Heart,True,39,0x568,0x8a0
+24,Trunks (Fighting Teen),7,7,Finish Buster,123,123,Finish Buster,True,2,0x56c,0x8ac
+25,Trunks (Fighting Teen) / Super Saiyan,0,0,Burning Attack,90,90,Burning Attack,True,2,0x588,0x8b8
+25,Trunks (Fighting Teen) / Super Saiyan,1,1,Explosive Wave,232,232,Explosive Wave,True,5,0x58c,0x8c4
+25,Trunks (Fighting Teen) / Super Saiyan,2,2,Super Energy Wave Volley,225,225,Super Energy Wave Volley,True,7,0x590,0x8d0
+25,Trunks (Fighting Teen) / Super Saiyan,3,3,Masenko,248,248,Masenko,True,1,0x594,0x8dc
+25,Trunks (Fighting Teen) / Super Saiyan,4,4,Change the Future,73,73,Change the Future,True,8,0x598,0x8e8
+25,Trunks (Fighting Teen) / Super Saiyan,5,5,Another End,4,4,Another End,True,10,0x59c,0x8f4
+25,Trunks (Fighting Teen) / Super Saiyan,6,6,Wild Sense,166,166,Wild Sense,True,16,0x5a0,0x900
+25,Trunks (Fighting Teen) / Super Saiyan,7,7,Finish Sign,122,122,Finish Sign,True,22,0x5a4,0x90c
+25,Trunks (Fighting Teen) / Super Saiyan,8,8,Heat Dome Attack,106,106,Heat Dome Attack,True,14,0x5a8,0x918
+26,Super Trunks ,0,0,Finish Buster,123,123,Finish Buster,True,2,0x5c0,0x924
+26,Super Trunks ,1,1,Burning Attack,90,90,Burning Attack,True,2,0x5c4,0x930
+26,Super Trunks ,2,2,Explosive Wave,232,232,Explosive Wave,True,5,0x5c8,0x93c
+26,Super Trunks ,3,3,Super Energy Wave Volley,225,225,Super Energy Wave Volley,True,7,0x5cc,0x948
+26,Super Trunks ,4,4,Blazing Rush,135,135,Blazing Rush,True,10,0x5d0,0x954
+26,Super Trunks ,5,5,Inexperienced Power Up,249,249,Inexperienced Power Up,True,40,0x5d4,0x960
+26,Super Trunks ,6,6,Super Explosive Wave,220,220,Super Explosive Wave,True,5,0x5d8,0x96c
+27,Kid Trunks,0,0,Full Power Energy Wave,131,131,Full Power Energy Wave,True,0,0x5f8,0x978
+27,Kid Trunks,1,1,Full Power Energy Barrage Wave,134,134,Full Power Energy Barrage Wave,True,7,0x5fc,0x984
+27,Kid Trunks,2,2,Explosive Wave,232,232,Explosive Wave,True,5,0x600,0x990
+27,Kid Trunks,3,3,Vision Smash,13,13,Vision Smash,True,13,0x604,0x99c
+27,Kid Trunks,4,4,Afterimage,198,198,Afterimage,True,17,0x608,0x9a8
+27,Kid Trunks,5,5,Finish Buster,123,123,Finish Buster,True,2,0x60c,0x9b4
+28,Kid Trunks / Super Saiyan,0,0,Full Power Energy Wave,131,131,Full Power Energy Wave,True,0,0x630,0x9c0
+28,Kid Trunks / Super Saiyan,1,1,Full Power Energy Barrage Wave,134,134,Full Power Energy Barrage Wave,True,7,0x634,0x9cc
+28,Kid Trunks / Super Saiyan,2,2,Explosive Wave,232,232,Explosive Wave,True,5,0x638,0x9d8
+28,Kid Trunks / Super Saiyan,3,3,Vision Smash,13,13,Vision Smash,True,13,0x63c,0x9e4
+28,Kid Trunks / Super Saiyan,4,4,Afterimage,198,198,Afterimage,True,17,0x640,0x9f0
+28,Kid Trunks / Super Saiyan,5,5,Big Tree Cannon,108,108,Big Tree Cannon,True,0,0x644,0x9fc
+29,Goten,0,0,Full Power Energy Blast Volley,133,133,Full Power Energy Blast Volley,True,7,0x668,0xa08
+29,Goten,1,1,Charge!,229,229,Charge!,True,14,0x66c,0xa14
+29,Goten,2,2,Here We Go!,69,69,Here We Go!,True,59,0x670,0xa20
+29,Goten,3,3,Kamekameha,25,25,Kamekameha,True,1,0x674,0xa2c
+29,Goten,4,4,Afterimage,198,198,Afterimage,True,17,0x678,0xa38
+29,Goten,5,5,Super Kamekameha,215,215,Super Kamekameha,True,0,0x67c,0xa44
+30,Goten / Super Saiyan,0,0,Full Power Energy Blast Volley,133,133,Full Power Energy Blast Volley,True,7,0x6a0,0xa50
+30,Goten / Super Saiyan,1,1,Charge!,229,229,Charge!,True,14,0x6a4,0xa5c
+30,Goten / Super Saiyan,2,2,Here We Go!,69,69,Here We Go!,True,59,0x6a8,0xa68
+30,Goten / Super Saiyan,3,3,Kamekameha,25,25,Kamekameha,True,1,0x6ac,0xa74
+30,Goten / Super Saiyan,4,4,Afterimage,198,198,Afterimage,True,17,0x6b0,0xa80
+30,Goten / Super Saiyan,5,5,Super Kamekameha,215,215,Super Kamekameha,True,0,0x6b4,0xa8c
+31,Gotenks,0,0,Full Power Energy Wave,131,131,Full Power Energy Wave,True,0,0x6d8,0xa98
+31,Gotenks,1,1,I'll Make Short Work of You!,200,200,I'll Make Short Work of You!,True,10,0x6dc,0xaa4
+31,Gotenks,2,2,Ghost Attack,44,44,Ghost Attack,True,2,0x6e0,0xab0
+31,Gotenks,3,3,Afterimage,198,198,Afterimage,True,17,0x6e4,0xabc
+31,Gotenks,4,4,False Courage,154,154,False Courage,True,21,0x6e8,0xac8
+31,Gotenks,5,5,Big Tree Cannon,108,108,Big Tree Cannon,True,0,0x6ec,0xad4
+32,Gotenks / Super Saiyan,0,0,Big Tree Cannon,108,108,Big Tree Cannon,True,0,0x710,0xae0
+32,Gotenks / Super Saiyan,1,1,Galactic Donuts,33,33,Galactic Donuts,True,2,0x714,0xaec
+32,Gotenks / Super Saiyan,2,2,Ghost Attack,44,44,Ghost Attack,True,2,0x718,0xaf8
+32,Gotenks / Super Saiyan,3,3,False Courage,154,154,False Courage,True,21,0x71c,0xb04
+32,Gotenks / Super Saiyan,4,4,High-Tension,99,99,High-Tension,True,19,0x720,0xb10
+32,Gotenks / Super Saiyan,5,5,Super Ghost Kamikaze Attack,61,61,Super Ghost Kamikaze Attack,True,2,0x724,0xb1c
+33,Gotenks / Super Saiyan 3,0,0,Big Tree Cannon,108,108,Big Tree Cannon,True,0,0x748,0xb28
+33,Gotenks / Super Saiyan 3,1,1,DIE DIE Missile Barrage,254,254,DIE DIE Missile Barrage,True,7,0x74c,0xb34
+33,Gotenks / Super Saiyan 3,2,2,[unassigned text ID],354,65535,[unassigned text ID],False,14,0x750,0xb40
+33,Gotenks / Super Saiyan 3,3,3,Revenge Cannon,163,163,Revenge Cannon,True,0,0x754,0xb4c
+33,Gotenks / Super Saiyan 3,4,4,Vice Shout ,98,98,Vice Shout ,True,41,0x758,0xb58
+33,Gotenks / Super Saiyan 3,5,5,Finish Sign,122,122,Finish Sign,True,22,0x75c,0xb64
+33,Gotenks / Super Saiyan 3,6,6,Charging Ultra Buu Buu Volleyball,186,186,Charging Ultra Buu Buu Volleyball,True,2,0x760,0xb70
+34,Vegito,0,0,Big Bang Attack,110,110,Big Bang Attack,True,2,0x780,0xb7c
+34,Vegito,1,1,Spread Finger Beam,178,178,Spread Finger Beam,True,0,0x784,0xb88
+34,Vegito,2,2,Explosive Wave,232,232,Explosive Wave,True,5,0x788,0xb94
+34,Vegito,3,3,Complete Shot,47,47,Complete Shot,True,10,0x78c,0xba0
+34,Vegito,4,4,High-Tension,99,99,High-Tension,True,19,0x790,0xbac
+34,Vegito,5,5,Super Kamehameha,216,216,Super Kamehameha,True,2,0x794,0xbb8
+35,Super Vegito,0,0,Super Kamehameha,216,216,Super Kamehameha,True,2,0x7b8,0xbc4
+35,Super Vegito,1,1,Beam Sword Slash,107,107,Beam Sword Slash,True,14,0x7bc,0xbd0
+35,Super Vegito,2,2,Big Bang Attack,110,110,Big Bang Attack,True,2,0x7c0,0xbdc
+35,Super Vegito,3,3,Perfect Game,93,93,Perfect Game,True,13,0x7c4,0xbe8
+35,Super Vegito,4,4,Saiyan Shield,52,52,Saiyan Shield,True,42,0x7c8,0xbf4
+35,Super Vegito,5,5,Afterimage Strike,211,211,Afterimage Strike,True,18,0x7cc,0xc00
+35,Super Vegito,6,6,Finish Sign,122,122,Finish Sign,True,22,0x7d0,0xc0c
+35,Super Vegito,7,7,Final Kamehameha,117,117,Final Kamehameha,True,0,0x7d4,0xc18
+36,Videl,0,0,Desperate Rush,78,78,Desperate Rush,True,10,0x7f0,0xc24
+36,Videl,1,1,Head Scissors Rush,139,139,Head Scissors Rush,True,10,0x7f4,0xc30
+36,Videl,2,2,Kick-Slap,28,28,Kick-Slap,True,10,0x7f8,0xc3c
+36,Videl,3,3,First Strike,114,114,First Strike,True,11,0x7fc,0xc48
+36,Videl,4,4,Afterimage Strike,211,211,Afterimage Strike,True,18,0x800,0xc54
+36,Videl,5,5,Videl Rush,105,105,Videl Rush,True,14,0x804,0xc60
+37,Bardock,0,0,Full Power Energy Wave,131,131,Full Power Energy Wave,True,0,0x828,0xc6c
+37,Bardock,1,1,Final Revenger,121,121,Final Revenger,True,14,0x82c,0xc78
+37,Bardock,2,2,Flash Spirit,126,126,Flash Spirit,True,10,0x830,0xc84
+37,Bardock,3,3,I'll Never Forgive You!,169,169,I'll Never Forgive You!,True,12,0x834,0xc90
+37,Bardock,4,4,Wild Sense,166,166,Wild Sense,True,16,0x838,0xc9c
+37,Bardock,5,5,Saiyan Spirit,53,53,Saiyan Spirit,True,26,0x83c,0xca8
+37,Bardock,6,6,Final Spirit Cannon,118,118,Final Spirit Cannon,True,2,0x840,0xcb4
+38,Raditz,0,0,Here's a Present!,138,138,Here's a Present!,True,2,0x860,0xcc0
+38,Raditz,1,1,I'm A Top-class Warrior!,19,19,I'm A Top-class Warrior!,True,11,0x864,0xccc
+38,Raditz,2,2,Fools Must Die!,184,184,Fools Must Die!,True,0,0x868,0xcd8
+38,Raditz,3,3,Behind You!,192,192,Behind You!,True,13,0x86c,0xce4
+38,Raditz,4,4,Saiyan Spirit,53,53,Saiyan Spirit,True,26,0x870,0xcf0
+38,Raditz,5,5,Begone!,36,36,Begone!,True,0,0x874,0xcfc
+39,Nappa,0,0,Volcano Explosion,42,42,Volcano Explosion,True,6,0x898,0xd08
+39,Nappa,1,1,Blazing Storm,109,109,Blazing Storm,True,2,0x89c,0xd14
+39,Nappa,2,2,Arm Break,64,64,Arm Break,True,11,0x8a0,0xd20
+39,Nappa,3,3,Impact Bomb,23,23,Impact Bomb,True,2,0x8a4,0xd2c
+39,Nappa,4,4,Saiyan Spirit,53,53,Saiyan Spirit,True,26,0x8a8,0xd38
+39,Nappa,5,5,Nappa Cannon,24,24,Nappa Cannon,True,0,0x8ac,0xd44
+40,Zarbon,0,0,Shooting Star Arrow,60,60,Shooting Star Arrow,True,7,0x8d0,0xd50
+40,Zarbon,1,1,Bloody Dance,128,128,Bloody Dance,True,10,0x8d4,0xd5c
+40,Zarbon,2,2,Wild Sense,166,166,Wild Sense,True,16,0x8d8,0xd68
+40,Zarbon,3,3,False Courage,154,154,False Courage,True,21,0x8dc,0xd74
+40,Zarbon,4,4,High-Tension,99,99,High-Tension,True,19,0x8e0,0xd80
+40,Zarbon,5,5,Elegant Blaster,15,15,Elegant Blaster,True,0,0x8e4,0xd8c
+41,Zarbon / Post-Transformation,0,0,Elegant Blaster,15,15,Elegant Blaster,True,0,0x908,0xd98
+41,Zarbon / Post-Transformation,1,1,[unassigned text ID],354,65535,[unassigned text ID],False,11,0x90c,0xda4
+41,Zarbon / Post-Transformation,2,2,Monster Break,153,153,Monster Break,True,10,0x910,0xdb0
+41,Zarbon / Post-Transformation,3,3,Wild Sense,166,166,Wild Sense,True,16,0x914,0xdbc
+41,Zarbon / Post-Transformation,4,4,False Courage,154,154,False Courage,True,21,0x918,0xdc8
+41,Zarbon / Post-Transformation,5,5,High-Tension,99,99,High-Tension,True,19,0x91c,0xdd4
+41,Zarbon / Post-Transformation,6,6,Monster Crush,152,152,Monster Crush,True,15,0x920,0xde0
+42,Dodoria,0,0,Super Breath Cannon,222,222,Super Breath Cannon,True,0,0x940,0xdec
+42,Dodoria,1,1,Dodoria Head Breaker,81,81,Dodoria Head Breaker,True,12,0x944,0xdf8
+42,Dodoria,2,2,Dodoria's Blow,80,80,Dodoria's Blow,True,11,0x948,0xe04
+42,Dodoria,3,3,False Courage,154,154,False Courage,True,21,0x94c,0xe10
+42,Dodoria,4,4,Pump Up,104,104,Pump Up,True,20,0x950,0xe1c
+42,Dodoria,5,5,Maximum Buster,142,142,Maximum Buster,True,8,0x954,0xe28
+43,Captain Ginyu,0,0,Galaxy Dynamite,32,32,Galaxy Dynamite,True,7,0x978,0xe34
+43,Captain Ginyu,1,1,Full Power Energy Wave,131,131,Full Power Energy Wave,True,0,0x97c,0xe40
+43,Captain Ginyu,2,2,Got You!,189,189,Got You!,True,10,0x980,0xe4c
+43,Captain Ginyu,3,3,Ginyu Fighting Pose: Heart,29,29,Ginyu Fighting Pose: Heart,True,43,0x984,0xe58
+43,Captain Ginyu,4,4,Ginyu Fighting Pose: Technique,30,30,Ginyu Fighting Pose: Technique,True,44,0x988,0xe64
+43,Captain Ginyu,5,5,Ginyu Fighting Pose: Body,31,31,Ginyu Fighting Pose: Body,True,45,0x98c,0xe70
+43,Captain Ginyu,6,6,Body Change,141,141,Body Change,True,62,0x990,0xe7c
+44,Recoome,0,0,Recoome Renegade Bomber,159,159,Recoome Renegade Bomber,True,7,0x9b0,0xe88
+44,Recoome,1,1,Recoome Eraser Gun,157,157,Recoome Eraser Gun,True,0,0x9b4,0xe94
+44,Recoome,2,2,Recoome Hip Attack,160,160,Recoome Hip Attack,True,10,0x9b8,0xea0
+44,Recoome,3,3,Recoome Mach Punch,162,162,Recoome Mach Punch,True,11,0x9bc,0xeac
+44,Recoome,4,4,False Courage,154,154,False Courage,True,21,0x9c0,0xeb8
+44,Recoome,5,5,Recoome Pose,161,161,Recoome Pose,True,48,0x9c4,0xec4
+44,Recoome,6,6,Recoome Ultra Fighting Bomber,158,158,Recoome Ultra Fighting Bomber,True,5,0x9c8,0xed0
+45,Burter,0,0,Full Power Energy Ball,130,130,Full Power Energy Ball,True,2,0x9e8,0xedc
+45,Burter,1,1,[unassigned text ID],354,65535,[unassigned text ID],False,14,0x9ec,0xee8
+45,Burter,2,2,Blue Hurricane,208,208,Blue Hurricane,True,12,0x9f0,0xef4
+45,Burter,3,3,Afterimage,198,198,Afterimage,True,17,0x9f4,0xf00
+45,Burter,4,4,Burter Pose,89,89,Burter Pose,True,47,0x9f8,0xf0c
+45,Burter,5,5,Space Mach Attack,67,67,Space Mach Attack,True,14,0x9fc,0xf18
+46,Jeice,0,0,Full Power Energy Wave,131,131,Full Power Energy Wave,True,0,0xa20,0xf24
+46,Jeice,1,1,Explosive Wave,232,232,Explosive Wave,True,5,0xa24,0xf30
+46,Jeice,2,2,Red Magma,210,210,Red Magma,True,12,0xa28,0xf3c
+46,Jeice,3,3,You'll Never Match Me!,45,45,You'll Never Match Me!,True,7,0xa2c,0xf48
+46,Jeice,4,4,Jeice Pose,56,56,Jeice Pose,True,46,0xa30,0xf54
+46,Jeice,5,5,Crusher Ball,38,38,Crusher Ball,True,2,0xa34,0xf60
+47,Guldo,0,0,Psychic Rock Throw,50,50,Psychic Rock Throw,True,61,0xa58,0xf6c
+47,Guldo,1,1,[unassigned text ID],354,65535,[unassigned text ID],False,14,0xa5c,0xf78
+47,Guldo,2,2,Punishment of 100 Blows,239,239,Punishment of 100 Blows,True,10,0xa60,0xf84
+47,Guldo,3,3,Paralysis,182,182,Paralysis,True,50,0xa64,0xf90
+47,Guldo,4,4,Guldo Pose,40,40,Guldo Pose,True,49,0xa68,0xf9c
+47,Guldo,5,5,Guldo Special,39,39,Guldo Special,True,2,0xa6c,0xfa8
+48,Frieza / 1st Form,0,0,Death Beam,76,76,Death Beam,True,0,0xa90,0xfb4
+48,Frieza / 1st Form,1,1,Punishing Rush,103,103,Punishing Rush,True,10,0xa94,0xfc0
+48,Frieza / 1st Form,2,2,Psychokinesis,51,51,Psychokinesis,True,52,0xa98,0xfcc
+48,Frieza / 1st Form,3,3,Wild Sense,166,166,Wild Sense,True,16,0xa9c,0xfd8
+48,Frieza / 1st Form,4,4,Pump Up,104,104,Pump Up,True,20,0xaa0,0xfe4
+48,Frieza / 1st Form,5,5,Death Ball,79,79,Death Ball,True,2,0xaa4,0xff0
+49,Frieza / 2nd Form,0,0,Punishing Blaster,102,102,Punishing Blaster,True,0,0xac8,0xffc
+49,Frieza / 2nd Form,1,1,Explosive Wave,232,232,Explosive Wave,True,5,0xacc,0x1008
+49,Frieza / 2nd Form,2,2,Death Storm,100,100,Death Storm,True,6,0xad0,0x1014
+49,Frieza / 2nd Form,3,3,Death Beam,76,76,Death Beam,True,0,0xad4,0x1020
+49,Frieza / 2nd Form,4,4,It's Just Getting Exciting!,20,20,It's Just Getting Exciting!,True,10,0xad8,0x102c
+49,Frieza / 2nd Form,5,5,You Thought That Was It?,240,240,You Thought That Was It?,True,13,0xadc,0x1038
+49,Frieza / 2nd Form,6,6,Finish Sign,122,122,Finish Sign,True,22,0xae0,0x1044
+49,Frieza / 2nd Form,7,7,HAIL Frieza ,167,167,HAIL Frieza ,True,14,0xae4,0x1050
+50,Frieza / 3rd Form,0,0,Death Beam,76,76,Death Beam,True,0,0xb00,0x105c
+50,Frieza / 3rd Form,1,1,Explosive Wave,232,232,Explosive Wave,True,5,0xb04,0x1068
+50,Frieza / 3rd Form,2,2,Punishing Counter,101,101,Punishing Counter,True,13,0xb08,0x1074
+50,Frieza / 3rd Form,3,3,Finger Beam,124,124,Finger Beam,True,0,0xb0c,0x1080
+50,Frieza / 3rd Form,4,4,High-Tension,99,99,High-Tension,True,19,0xb10,0x108c
+50,Frieza / 3rd Form,5,5,Crazy Finger Beam,41,41,Crazy Finger Beam,True,0,0xb14,0x1098
+51,Frieza / Final Form,0,0,Barrage Death Beam,253,253,Barrage Death Beam,True,7,0xb38,0x10a4
+51,Frieza / Final Form,1,1,You Might Die This Time,195,195,You Might Die This Time,True,61,0xb3c,0x10b0
+51,Frieza / Final Form,2,2,Fissure Slash,214,214,Fissure Slash,True,4,0xb40,0x10bc
+51,Frieza / Final Form,3,3,[unassigned text ID],354,65535,[unassigned text ID],False,0,0xb44,0x10c8
+51,Frieza / Final Form,4,4,50% Power,1,1,50% Power,True,10,0xb48,0x10d4
+51,Frieza / Final Form,5,5,[unassigned text ID],354,65535,[unassigned text ID],False,0,0xb4c,0x10e0
+51,Frieza / Final Form,6,6,I Won't Let You Escape with Your Life!,207,207,I Won't Let You Escape with Your Life!,True,2,0xb50,0x10ec
+51,Frieza / Final Form,7,7,Psychokinesis,51,51,Psychokinesis,True,52,0xb54,0x10f8
+51,Frieza / Final Form,8,8,Death Beam,76,76,Death Beam,True,0,0xb58,0x1104
+51,Frieza / Final Form,9,9,Destroy The Planet!,46,46,Destroy The Planet!,True,2,0xb5c,0x1110
+52,Frieza / Full Power,0,0,Death Saucer,75,75,Death Saucer,True,2,0xb70,0x111c
+52,Frieza / Full Power,1,1,Nova Strike,88,88,Nova Strike,True,12,0xb74,0x1128
+52,Frieza / Full Power,2,2,Death Beam,76,76,Death Beam,True,0,0xb78,0x1134
+52,Frieza / Full Power,3,3,Death Break,77,77,Death Break,True,10,0xb7c,0x1140
+52,Frieza / Full Power,4,4,Psychokinesis,51,51,Psychokinesis,True,52,0xb80,0x114c
+52,Frieza / Full Power,5,5,Long Awaited-for 100%,16,16,Long Awaited-for 100%,True,55,0xb84,0x1158
+52,Frieza / Full Power,6,6,I'm the One Who'll Kill You!,168,168,I'm the One Who'll Kill You!,True,0,0xb88,0x1164
+53,Android #16,0,0,Hell Flash,140,140,Hell Flash,True,15,0xba8,0x1170
+53,Android #16,1,1,Eye Beam,2,2,Eye Beam,True,53,0xbac,0x117c
+53,Android #16,2,2,Machine Impact,144,144,Machine Impact,True,12,0xbb0,0x1188
+53,Android #16,3,3,Explosive Wave,232,232,Explosive Wave,True,5,0xbb4,0x1194
+53,Android #16,4,4,Pump Up,104,104,Pump Up,True,20,0xbb8,0x11a0
+53,Android #16,5,5,Self-Destruct Device,199,199,Self-Destruct Device,True,64,0xbbc,0x11ac
+54,Android #17,0,0,Full Power Energy Ball,130,130,Full Power Energy Ball,True,2,0xbe0,0x11b8
+54,Android #17,1,1,Endgame,43,43,Endgame,True,13,0xbe4,0x11c4
+54,Android #17,2,2,Now We're Playing for Keeps!,241,241,Now We're Playing for Keeps!,True,10,0xbe8,0x11d0
+54,Android #17,3,3,Android Barrier,7,7,Android Barrier,True,54,0xbec,0x11dc
+54,Android #17,4,4,Finish Sign,122,122,Finish Sign,True,22,0xbf0,0x11e8
+54,Android #17,5,5,Photon Flash,125,125,Photon Flash,True,0,0xbf4,0x11f4
+55,Android #18,0,0,Infinity Bullet,12,12,Infinity Bullet,True,7,0xc18,0x1200
+55,Android #18,1,1,Destructo-Disc,180,180,Destructo-Disc,True,7,0xc1c,0x120c
+55,Android #18,2,2,So That's How It Has to Be!,70,70,So That's How It Has to Be!,True,13,0xc20,0x1218
+55,Android #18,3,3,High-Pressure Energy Wave,193,193,High-Pressure Energy Wave,True,1,0xc24,0x1224
+55,Android #18,4,4,Android Barrier,7,7,Android Barrier,True,54,0xc28,0x1230
+55,Android #18,5,5,Sadistic 18,54,54,Sadistic 18,True,14,0xc2c,0x123c
+56,Android #19,0,0,Full Power Energy Wave,131,131,Full Power Energy Wave,True,0,0xc50,0x1248
+56,Android #19,1,1,Eye Beam,2,2,Eye Beam,True,53,0xc54,0x1254
+56,Android #19,2,2,Yahoo!,113,113,Yahoo!,True,10,0xc58,0x1260
+56,Android #19,3,3,[unassigned text ID],354,65535,[unassigned text ID],False,11,0xc5c,0x126c
+56,Android #19,4,4,False Courage,154,154,False Courage,True,21,0xc60,0x1278
+56,Android #19,5,5,Pump Up,104,104,Pump Up,True,20,0xc64,0x1284
+56,Android #19,6,6,Drain Life 19,84,84,Drain Life 19,True,15,0xc68,0x1290
+57,Dr. Gero,0,0,Full Power Energy Wave,131,131,Full Power Energy Wave,True,0,0xc88,0x129c
+57,Dr. Gero,1,1,Bionic Punisher,97,97,Bionic Punisher,True,8,0xc8c,0x12a8
+57,Dr. Gero,2,2,[unassigned text ID],354,65535,[unassigned text ID],False,15,0xc90,0x12b4
+57,Dr. Gero,3,3,Pesky Fly,14,14,Pesky Fly,True,10,0xc94,0x12c0
+57,Dr. Gero,4,4,False Courage,154,154,False Courage,True,21,0xc98,0x12cc
+57,Dr. Gero,5,5,Finish Sign,122,122,Finish Sign,True,22,0xc9c,0x12d8
+57,Dr. Gero,6,6,Drain Life 20,85,85,Drain Life 20,True,15,0xca0,0x12e4
+58,Cell / 1st Form,0,0,Kamehameha,26,26,Kamehameha,True,1,0xcc0,0x12f0
+58,Cell / 1st Form,1,1,Special Beam Cannon,245,245,Special Beam Cannon,True,0,0xcc4,0x12fc
+58,Cell / 1st Form,2,2,[unassigned text ID],354,65535,[unassigned text ID],False,3,0xcc8,0x1308
+58,Cell / 1st Form,3,3,Bio-Impact,96,96,Bio-Impact,True,12,0xccc,0x1314
+58,Cell / 1st Form,4,4,Drain Life Cell,86,86,Drain Life Cell,True,15,0xcd0,0x1320
+58,Cell / 1st Form,5,5,Prelude to Perfect Form,179,179,Prelude to Perfect Form,True,55,0xcd4,0x132c
+58,Cell / 1st Form,6,6,Solar Flare,213,213,Solar Flare,True,27,0xcd8,0x1338
+58,Cell / 1st Form,7,7,See Ya!,58,58,See Ya!,True,14,0xcdc,0x1344
+59,Cell / 2nd Form,0,0,Drain Life Cell,86,86,Drain Life Cell,True,15,0xcf8,0x1350
+59,Cell / 2nd Form,1,1,Big Bang Crash,112,112,Big Bang Crash,True,2,0xcfc,0x135c
+59,Cell / 2nd Form,2,2,Galick Gun,34,34,Galick Gun,True,1,0xd00,0x1368
+59,Cell / 2nd Form,3,3,Solar Flare,213,213,Solar Flare,True,27,0xd04,0x1374
+59,Cell / 2nd Form,4,4,Pump Up,104,104,Pump Up,True,20,0xd08,0x1380
+59,Cell / 2nd Form,5,5,Super Big Bang Crash,63,63,Super Big Bang Crash,True,2,0xd0c,0x138c
+60,Cell / Perfect Form,0,0,Super Kamehameha,216,216,Super Kamehameha,True,0,0xd30,0x1398
+60,Cell / Perfect Form,1,1,Barrage Death Beam,253,253,Barrage Death Beam,True,7,0xd34,0x13a4
+60,Cell / Perfect Form,2,2,Explosive Wave,232,232,Explosive Wave,True,5,0xd38,0x13b0
+60,Cell / Perfect Form,3,3,Special Beam Cannon,245,245,Special Beam Cannon,True,0,0xd3c,0x13bc
+60,Cell / Perfect Form,4,4,Death Saucer,75,75,Death Saucer,True,7,0xd40,0x13c8
+60,Cell / Perfect Form,5,5,Fear Me!,48,48,Fear Me!,True,10,0xd44,0x13d4
+60,Cell / Perfect Form,6,6,Afterimage,198,198,Afterimage,True,17,0xd48,0x13e0
+60,Cell / Perfect Form,7,7,Perfect Barrier,95,95,Perfect Barrier,True,5,0xd4c,0x13ec
+61,Cell / Perfect,0,0,Full Power Death Beam,132,132,Full Power Death Beam,True,0,0xd68,0x13f8
+61,Cell / Perfect,1,1,Perfect Combination,94,94,Perfect Combination,True,14,0xd6c,0x1404
+61,Cell / Perfect,2,2,[unassigned text ID],354,65535,[unassigned text ID],False,6,0xd70,0x1410
+61,Cell / Perfect,3,3,Explosive Wave,232,232,Explosive Wave,True,5,0xd74,0x141c
+61,Cell / Perfect,4,4,Afterimage,198,198,Afterimage,True,17,0xd78,0x1428
+61,Cell / Perfect,5,5,Instant Transmission,201,201,Instant Transmission,True,24,0xd7c,0x1434
+61,Cell / Perfect,6,6,Solar Kamehameha,212,212,Solar Kamehameha,True,0,0xd80,0x1440
+62,Majin Buu,0,0,Super Kamehameha,216,216,Super Kamehameha,True,0,0xda0,0x144c
+62,Majin Buu,1,1,Chocolate Beam,74,74,Chocolate Beam,True,8,0xda4,0x1458
+62,Majin Buu,2,2,Vaporize!,203,203,Vaporize!,True,8,0xda8,0x1464
+62,Majin Buu,3,3,Ha! Take This!,155,155,Ha! Take This!,True,12,0xdac,0x1470
+62,Majin Buu,4,4,[unassigned text ID],354,65535,[unassigned text ID],False,20,0xdb0,0x147c
+62,Majin Buu,5,5,Flame Shower Breath,137,137,Flame Shower Breath,True,8,0xdb4,0x1488
+62,Majin Buu,6,6,Paralyze Beam,173,173,Paralyze Beam,True,28,0xdb8,0x1494
+62,Majin Buu,7,7,Regeneration,197,197,Regeneration,True,56,0xdbc,0x14a0
+62,Majin Buu,8,8,Angry Explosion,6,6,Angry Explosion,True,5,0xdc0,0x14ac
+63,Super Buu,0,0,Genocide Blast ,206,206,Genocide Blast ,True,7,0xdd8,0x14b8
+63,Super Buu,1,1,Chocolate Beam,74,74,Chocolate Beam,True,8,0xddc,0x14c4
+63,Super Buu,2,2,Mystic Ball Attack,146,146,Mystic Ball Attack,True,14,0xde0,0x14d0
+63,Super Buu,3,3,Now It's My Turn!,194,194,Now It's My Turn!,True,10,0xde4,0x14dc
+63,Super Buu,4,4,Gack!,37,37,Gack!,True,0,0xde8,0x14e8
+63,Super Buu,5,5,Regeneration,197,197,Regeneration,True,56,0xdec,0x14f4
+63,Super Buu,6,6,Pump Up,104,104,Pump Up,True,20,0xdf0,0x1500
+63,Super Buu,7,7,Revenge Death Bomber,165,165,Revenge Death Bomber,True,65,0xdf4,0x150c
+64,Super Buu / Gotenks Absorbed,0,0,Special Beam Cannon,245,245,Special Beam Cannon,True,0,0xe10,0x1518
+64,Super Buu / Gotenks Absorbed,1,1,Galactic Donut Volley,252,252,Galactic Donut Volley,True,0,0xe14,0x1524
+64,Super Buu / Gotenks Absorbed,2,2,Explosive Wave,232,232,Explosive Wave,True,5,0xe18,0x1530
+64,Super Buu / Gotenks Absorbed,3,3,Mystic Ball Attack,146,146,Mystic Ball Attack,True,14,0xe1c,0x153c
+64,Super Buu / Gotenks Absorbed,4,4,Destroy Everything!,172,172,Destroy Everything!,True,2,0xe20,0x1548
+64,Super Buu / Gotenks Absorbed,5,5,Bring It!,250,250,Bring It!,True,13,0xe24,0x1554
+64,Super Buu / Gotenks Absorbed,6,6,Regeneration,197,197,Regeneration,True,56,0xe28,0x1560
+64,Super Buu / Gotenks Absorbed,7,7,Super Kamehameha,216,216,Super Kamehameha,True,0,0xe2c,0x156c
+65,Super Buu / Gohan Absorbed,0,0,Super Kamehameha,216,216,Super Kamehameha,True,0,0xe48,0x1578
+65,Super Buu / Gohan Absorbed,1,1,Chocolate Beam,74,74,Chocolate Beam,True,8,0xe4c,0x1584
+65,Super Buu / Gohan Absorbed,2,2,Destroy Everything!,172,172,Destroy Everything!,True,2,0xe50,0x1590
+65,Super Buu / Gohan Absorbed,3,3,Mystic Shooter,145,145,Mystic Shooter,True,3,0xe54,0x159c
+65,Super Buu / Gohan Absorbed,4,4,You'll Die a Painful Death!,183,183,You'll Die a Painful Death!,True,10,0xe58,0x15a8
+65,Super Buu / Gohan Absorbed,5,5,Afterimage,198,198,Afterimage,True,17,0xe5c,0x15b4
+65,Super Buu / Gohan Absorbed,6,6,Regeneration,197,197,Regeneration,True,56,0xe60,0x15c0
+65,Super Buu / Gohan Absorbed,7,7,Super Ghost Buu Attack,62,62,Super Ghost Buu Attack,True,2,0xe64,0x15cc
+66,Kid Buu,0,0,Super Kamehameha,216,216,Super Kamehameha,True,0,0xe80,0x15d8
+66,Kid Buu,1,1,Shocking Ball,227,227,Shocking Ball,True,2,0xe84,0x15e4
+66,Kid Buu,2,2,Mystic Ball Attack,146,146,Mystic Ball Attack,True,14,0xe88,0x15f0
+66,Kid Buu,3,3,[unassigned text ID],354,65535,[unassigned text ID],False,7,0xe8c,0x15fc
+66,Kid Buu,4,4,[unassigned text ID],354,65535,[unassigned text ID],False,10,0xe90,0x1608
+66,Kid Buu,5,5,Nightmare Impact,87,87,Nightmare Impact,True,10,0xe94,0x1614
+66,Kid Buu,6,6,Instant Transmission,201,201,Instant Transmission,True,24,0xe98,0x1620
+66,Kid Buu,7,7,Sleep,68,68,Sleep,True,29,0xe9c,0x162c
+66,Kid Buu,8,8,High-Tension,99,99,High-Tension,True,19,0xea0,0x1638
+66,Kid Buu,9,9,Planet Burst,129,129,Planet Burst,True,2,0xea4,0x1644
+67,Broly,0,0,Full Power Energy Wave,131,131,Full Power Energy Wave,True,0,0xeb8,0x1650
+67,Broly,1,1,Bloody Smash,127,127,Bloody Smash,True,10,0xebc,0x165c
+67,Broly,2,2,Eraser Shot Volley,251,251,Eraser Shot Volley,True,7,0xec0,0x1668
+67,Broly,3,3,Wild Sense,166,166,Wild Sense,True,16,0xec4,0x1674
+67,Broly,4,4,Kakarot,22,22,Kakarot,True,57,0xec8,0x1680
+67,Broly,5,5,Eraser Cannon,9,9,Eraser Cannon,True,2,0xecc,0x168c
+68,Broly / Super Saiyan,0,0,Eraser Cannon,9,9,Eraser Cannon,True,2,0xef0,0x1698
+68,Broly / Super Saiyan,1,1,Trap Shooter,83,83,Trap Shooter,True,3,0xef4,0x16a4
+68,Broly / Super Saiyan,2,2,Eraser Shot Volley,251,251,Eraser Shot Volley,True,7,0xef8,0x16b0
+68,Broly / Super Saiyan,3,3,Revenge Demon,164,164,Revenge Demon,True,10,0xefc,0x16bc
+68,Broly / Super Saiyan,4,4,Kakarot,22,22,Kakarot,True,57,0xf00,0x16c8
+68,Broly / Super Saiyan,5,5,Super Explosive Wave,220,220,Super Explosive Wave,True,5,0xf04,0x16d4
+69,Broly / Legendary Super Saiyan,0,0,Eraser Cannon,9,9,Eraser Cannon,True,2,0xf28,0x16e0
+69,Broly / Legendary Super Saiyan,1,1,Gigantic Hammer,27,27,Gigantic Hammer,True,15,0xf2c,0x16ec
+69,Broly / Legendary Super Saiyan,2,2,Explosive Wave,232,232,Explosive Wave,True,5,0xf30,0x16f8
+69,Broly / Legendary Super Saiyan,3,3,Eraser Shot Volley,251,251,Eraser Shot Volley,True,7,0xf34,0x1704
+69,Broly / Legendary Super Saiyan,4,4,Eraser Blow,10,10,Eraser Blow,True,11,0xf38,0x1710
+69,Broly / Legendary Super Saiyan,5,5,[unassigned text ID],354,263,Gigantic Buster,False,11,0xf3c,0x171c
+69,Broly / Legendary Super Saiyan,6,6,Kakarot,22,22,Kakarot,True,57,0xf40,0x1728
+69,Broly / Legendary Super Saiyan,7,7,Omega Blaster,17,17,Omega Blaster,True,2,0xf44,0x1734
+70,Super Gogeta,0,0,Big Bang Kamehameha,111,111,Big Bang Kamehameha,True,0,0xf60,0x1740
+70,Super Gogeta,1,1,Super Kamehameha,216,216,Super Kamehameha,True,0,0xf64,0x174c
+70,Super Gogeta,2,2,Final Flash,120,120,Final Flash,True,0,0xf68,0x1758
+70,Super Gogeta,3,3,Super Explosive Wave,220,220,Super Explosive Wave,True,5,0xf6c,0x1764
+70,Super Gogeta,4,4,[unassigned text ID],354,65535,[unassigned text ID],False,11,0xf70,0x1770
+70,Super Gogeta,5,5,Instant Transmission,201,201,Instant Transmission,True,24,0xf74,0x177c
+70,Super Gogeta,6,6,Finish Sign,122,122,Finish Sign,True,22,0xf78,0x1788
+70,Super Gogeta,7,7,Stardust Breaker,65,65,Stardust Breaker,True,14,0xf7c,0x1794
+71,Vegeta / Super Saiyan 3,0,0,Big Bang Attack,110,110,Big Bang Attack,True,0,0xf98,0x17a0
+71,Vegeta / Super Saiyan 3,1,1,Final Flash,120,120,Final Flash,True,0,0xf9c,0x17ac
+71,Vegeta / Super Saiyan 3,2,2,Galick Impact,261,261,Galick Impact,True,14,0xfa0,0x17b8
+71,Vegeta / Super Saiyan 3,3,3,Saiyan Spirit,53,53,Saiyan Spirit,True,26,0xfa4,0x17c4
+71,Vegeta / Super Saiyan 3,4,4,Galick Gun,34,34,Galick Gun,True,0,0xfa8,0x17d0
+72,Broly / Super Saiyan 3,0,0,Double Eraser Cannon,262,262,Double Eraser Cannon,True,7,0xfd0,0x17dc
+72,Broly / Super Saiyan 3,1,1,Gigantic Hammer,27,27,Gigantic Hammer,True,15,0xfd4,0x17e8
+72,Broly / Super Saiyan 3,2,2,Omega Blaster,17,17,Omega Blaster,True,2,0xfd8,0x17f4
+72,Broly / Super Saiyan 3,3,3,Kakarot,22,22,Kakarot,True,57,0xfdc,0x1800
+72,Broly / Super Saiyan 3,4,4,Gigantic Buster,263,263,Gigantic Buster,True,14,0xfe0,0x180c
+73,Ultimate Gohan,0,0,Power Up to the Very Limit,35,35,Power Up to the Very Limit,True,25,0x1008,0x1818
+73,Ultimate Gohan,1,1,Explosive Wave,232,232,Explosive Wave,True,5,0x100c,0x1824
+73,Ultimate Gohan,2,2,Super Kamehameha,216,216,Super Kamehameha,True,0,0x1010,0x1830
+73,Ultimate Gohan,3,3,Super Masenko,223,223,Super Masenko,True,0,0x1014,0x183c
+73,Ultimate Gohan,4,4,Wild Sense,166,166,Wild Sense,True,16,0x1018,0x1848
+73,Ultimate Gohan,5,5,Super Explosive Wave,220,220,Super Explosive Wave,True,5,0x101c,0x1854
+73,Ultimate Gohan,6,6,I'm here to kill you.,265,265,I'm here to kill you.,True,10,0x1020,0x1860
+73,Ultimate Gohan,7,7,Burst Rush,266,266,Burst Rush,True,14,0x1024,0x186c
+74,Saibamen,0,0,Acid,267,267,Acid,True,36,0x1040,0x1878
+74,Saibamen,1,1,Afterimage,198,198,Afterimage,True,17,0x1044,0x1884
+74,Saibamen,2,2,Full Power Energy Wave,131,131,Full Power Energy Wave,True,0,0x1048,0x1890
+74,Saibamen,3,3,Saiba Rush,268,268,Saiba Rush,True,14,0x104c,0x189c
+74,Saibamen,4,4,Saibaman Bomb,269,269,Saibaman Bomb,True,64,0x1050,0x18a8
+75,Mecha Frieza,0,0,Psychokinesis,51,51,Psychokinesis,True,52,0x1078,0x18b4
+75,Mecha Frieza,1,1,Long Awaited-for 100%,16,16,Long Awaited-for 100%,True,55,0x107c,0x18c0
+75,Mecha Frieza,2,2,Death Beam,76,76,Death Beam,True,0,0x1080,0x18cc
+75,Mecha Frieza,3,3,Death Ball,79,79,Death Ball,True,2,0x1084,0x18d8
+75,Mecha Frieza,4,4,Super Explosive Wave,220,220,Super Explosive Wave,True,5,0x1088,0x18e4
+75,Mecha Frieza,5,5,Fissure Slash,270,270,Fissure Slash,True,2,0x108c,0x18f0
+75,Mecha Frieza,6,6,Ruthless Blow,271,271,Ruthless Blow,True,11,0x1090,0x18fc
+75,Mecha Frieza,7,7,Death Blaster,272,272,Death Blaster,True,0,0x1094,0x1908
+75,Mecha Frieza,8,8,Supernova,273,273,Supernova,True,2,0x1098,0x1914
+76,Cell Jr.,0,0,Solar Flare,213,213,Solar Flare,True,27,0x10b0,0x1920
+76,Cell Jr.,1,1,High-Tension,99,99,High-Tension,True,19,0x10b4,0x192c
+76,Cell Jr.,2,2,Special Beam Cannon,245,245,Special Beam Cannon,True,0,0x10b8,0x1938
+76,Cell Jr.,3,3,Innocence Rush,274,274,Innocence Rush,True,14,0x10bc,0x1944
+76,Cell Jr.,4,4,Kamehameha,26,26,Kamehameha,True,1,0x10c0,0x1950
+76,Cell Jr.,5,5,Super Kamehameha,216,216,Super Kamehameha,True,0,0x10c4,0x195c
+77,Demon King Dabura,0,0,Explosive Wave,232,232,Explosive Wave,True,5,0x10e8,0x1968
+77,Demon King Dabura,1,1,Afterimage Strike,211,211,Afterimage Strike,True,18,0x10ec,0x1974
+77,Demon King Dabura,2,2,Evil Impulse,275,275,Evil Impulse,True,2,0x10f0,0x1980
+77,Demon King Dabura,3,3,Full Power Energy Blast Volley,133,133,Full Power Energy Blast Volley,True,7,0x10f4,0x198c
+77,Demon King Dabura,4,4,Mystic Breath,276,276,Mystic Breath,True,28,0x10f8,0x1998
+77,Demon King Dabura,5,5,Evil Flame,277,277,Evil Flame,True,8,0x10fc,0x19a4
+77,Demon King Dabura,6,6,Evil Spear,278,278,Evil Spear,True,2,0x1100,0x19b0
+77,Demon King Dabura,7,7,Darkness Sword Attack,279,279,Darkness Sword Attack,True,14,0x1104,0x19bc
+78,Turles,0,0,Explosive Wave,232,232,Explosive Wave,True,5,0x1120,0x19c8
+78,Turles,1,1,Fruit of the Tree of Might,280,280,Fruit of the Tree of Might,True,25,0x1124,0x19d4
+78,Turles,2,2,Kill Driver,281,281,Kill Driver,True,2,0x1128,0x19e0
+78,Turles,3,3,Full Power Energy Barrage Wave,134,134,Full Power Energy Barrage Wave,True,7,0x112c,0x19ec
+78,Turles,4,4,I'll Dig Your Grave!,282,282,I'll Dig Your Grave!,True,10,0x1130,0x19f8
+78,Turles,5,5,Calamity Blaster,283,283,Calamity Blaster,True,7,0x1134,0x1a04
+78,Turles,6,6,Meteor Burst,284,284,Meteor Burst,True,14,0x1138,0x1a10
+79,Cooler,0,0,Psychokinesis,51,51,Psychokinesis,True,52,0x1158,0x1a1c
+79,Cooler,1,1,Afterimage,198,198,Afterimage,True,17,0x115c,0x1a28
+79,Cooler,2,2,Death Flash,285,285,Death Flash,True,0,0x1160,0x1a34
+79,Cooler,3,3,Darkness Eye Beam,286,286,Darkness Eye Beam,True,0,0x1164,0x1a40
+79,Cooler,4,4,Death Ball,79,79,Death Ball,True,2,0x1168,0x1a4c
+79,Cooler,5,5,Chaotic Dead End,287,287,Chaotic Dead End,True,0,0x116c,0x1a58
+80,Cooler / Final Form,0,0,Psychokinesis,51,51,Psychokinesis,True,52,0x1190,0x1a64
+80,Cooler / Final Form,1,1,Psycho Barrier,288,288,Psycho Barrier,True,54,0x1194,0x1a70
+80,Cooler / Final Form,2,2,Death Flash,285,285,Death Flash,True,0,0x1198,0x1a7c
+80,Cooler / Final Form,3,3,Death Chaser,289,289,Death Chaser,True,14,0x119c,0x1a88
+80,Cooler / Final Form,4,4,Wild Sense,166,166,Wild Sense,True,16,0x11a0,0x1a94
+80,Cooler / Final Form,5,5,Fatal Combination,290,290,Fatal Combination,True,10,0x11a4,0x1aa0
+80,Cooler / Final Form,6,6,Supernova,273,273,Supernova,True,2,0x11a8,0x1aac
+81,Meta-Cooler,0,0,Instant Transmission,201,201,Instant Transmission,True,24,0x11c8,0x1ab8
+81,Meta-Cooler,1,1,Regeneration,197,197,Regeneration,True,56,0x11cc,0x1ac4
+81,Meta-Cooler,2,2,Lock-On Buster,291,291,Lock-On Buster,True,11,0x11d0,0x1ad0
+81,Meta-Cooler,3,3,Finger Blitz Barrage,292,292,Finger Blitz Barrage,True,7,0x11d4,0x1adc
+81,Meta-Cooler,4,4,Wild Sense,166,166,Wild Sense,True,16,0x11d8,0x1ae8
+81,Meta-Cooler,5,5,You Are Stronger than I Expected!,293,293,You Are Stronger than I Expected!,True,13,0x11dc,0x1af4
+81,Meta-Cooler,6,6,Full Metal Avalanche,294,294,Full Metal Avalanche,True,10,0x11e0,0x1b00
+81,Meta-Cooler,7,7,Supernova,273,273,Supernova,True,2,0x11e4,0x1b0c
+82,Android #13,0,0,Wild Sense,166,166,Wild Sense,True,16,0x1200,0x1b18
+82,Android #13,1,1,High-Tension,99,99,High-Tension,True,19,0x1204,0x1b24
+82,Android #13,2,2,Full Power Energy Wave,131,131,Full Power Energy Wave,True,0,0x1208,0x1b30
+82,Android #13,3,3,Silent Assassin 13,295,295,Silent Assassin 13,True,14,0x120c,0x1b3c
+82,Android #13,4,4,Deadly Assault,296,296,Deadly Assault,True,10,0x1210,0x1b48
+82,Android #13,5,5,S.S. Deadly Bomber,297,297,S.S. Deadly Bomber,True,2,0x1214,0x1b54
+83,Android #13 / Fusion,0,0,Android Barrier,7,7,Android Barrier,True,54,0x1238,0x1b60
+83,Android #13 / Fusion,1,1,Pump Up,104,104,Pump Up,True,20,0x123c,0x1b6c
+83,Android #13 / Fusion,2,2,S.S. Deadly Bomber,297,297,S.S. Deadly Bomber,True,2,0x1240,0x1b78
+83,Android #13 / Fusion,3,3,Super Explosive Wave,220,220,Super Explosive Wave,True,5,0x1244,0x1b84
+83,Android #13 / Fusion,4,4,Abyss Impact,298,298,Abyss Impact,True,13,0x1248,0x1b90
+83,Android #13 / Fusion,5,5,Full Power S.S. Deadly Bomber,299,299,Full Power S.S. Deadly Bomber,True,15,0x124c,0x1b9c
+84,Zangya,0,0,Wild Sense,166,166,Wild Sense,True,16,0x1270,0x1ba8
+84,Zangya,1,1,Shoot Blaster,300,300,Shoot Blaster,True,2,0x1274,0x1bb4
+84,Zangya,2,2,Trap Shooter,83,83,Trap Shooter,True,3,0x1278,0x1bc0
+84,Zangya,3,3,Psycho Thread,301,301,Psycho Thread,True,36,0x127c,0x1bcc
+84,Zangya,4,4,Vicious Drive,302,302,Vicious Drive,True,10,0x1280,0x1bd8
+84,Zangya,5,5,Quick Revenge,303,303,Quick Revenge,True,13,0x1284,0x1be4
+84,Zangya,6,6,Sky Zapper,304,304,Sky Zapper,True,14,0x1288,0x1bf0
+85,Bojack,0,0,Psycho Barrier,288,288,Psycho Barrier,True,54,0x12a8,0x1bfc
+85,Bojack,1,1,Full Power,305,305,Full Power,True,20,0x12ac,0x1c08
+85,Bojack,2,2,Full Power Energy Ball,130,130,Full Power Energy Ball,True,2,0x12b0,0x1c14
+85,Bojack,3,3,Trap Shooter,83,83,Trap Shooter,True,3,0x12b4,0x1c20
+85,Bojack,4,4,Chaotic Tyrant,306,306,Chaotic Tyrant,True,10,0x12b8,0x1c2c
+85,Bojack,5,5,Grand Smasher,307,307,Grand Smasher,True,2,0x12bc,0x1c38
+86,Bojack / Full Power,0,0,Pump Up,104,104,Pump Up,True,20,0x12e0,0x1c44
+86,Bojack / Full Power,1,1,Psycho Barrier,288,288,Psycho Barrier,True,54,0x12e4,0x1c50
+86,Bojack / Full Power,2,2,Full Power Energy Blast Volley,133,133,Full Power Energy Blast Volley,True,7,0x12e8,0x1c5c
+86,Bojack / Full Power,3,3,Grand Smasher,307,307,Grand Smasher,True,2,0x12ec,0x1c68
+86,Bojack / Full Power,4,4,Galactic Tyrant,308,308,Galactic Tyrant,True,14,0x12f0,0x1c74
+86,Bojack / Full Power,5,5,Dirty Criminal,309,309,Dirty Criminal,True,13,0x12f4,0x1c80
+86,Bojack / Full Power,6,6,Galactic Blow,310,310,Galactic Blow,True,11,0x12f8,0x1c8c
+86,Bojack / Full Power,7,7,Galactic Buster,311,311,Galactic Buster,True,2,0x12fc,0x1c98
+87,Super Janemba,0,0,Mystic Breath,276,276,Mystic Breath,True,28,0x1318,0x1ca4
+87,Super Janemba,1,1,Instant Transmission,201,201,Instant Transmission,True,24,0x131c,0x1cb0
+87,Super Janemba,2,2,Super Breath Cannon,222,222,Super Breath Cannon,True,0,0x1320,0x1cbc
+87,Super Janemba,3,3,Lightning Shower Rain,312,312,Lightning Shower Rain,True,3,0x1324,0x1cc8
+87,Super Janemba,4,4,Afterimage,198,198,Afterimage,True,17,0x1328,0x1cd4
+87,Super Janemba,5,5,Full Power,305,305,Full Power,True,20,0x132c,0x1ce0
+87,Super Janemba,6,6,Brutal Destruction,313,313,Brutal Destruction,True,10,0x1330,0x1cec
+87,Super Janemba,7,7,Cosmic Illusion,314,314,Cosmic Illusion,True,13,0x1334,0x1cf8
+87,Super Janemba,8,8,Dimension Sword Attack,315,315,Dimension Sword Attack,True,14,0x1338,0x1d04
+88,Future Gohan,0,0,Wild Sense,166,166,Wild Sense,True,16,0x1350,0x1d10
+88,Future Gohan,1,1,Full Power Charge,316,316,Full Power Charge,True,19,0x1354,0x1d1c
+88,Future Gohan,2,2,Masenko,248,248,Masenko,True,1,0x1358,0x1d28
+88,Future Gohan,3,3,Super Destructive Wave,317,317,Super Destructive Wave,True,5,0x135c,0x1d34
+88,Future Gohan,4,4,Intercept,318,318,Intercept,True,13,0x1360,0x1d40
+88,Future Gohan,5,5,Super Kamehameha,216,216,Super Kamehameha,True,0,0x1364,0x1d4c
+89,Future Gohan / Super Saiyan,0,0,Evil Barrier,319,319,Evil Barrier,True,54,0x1388,0x1d58
+89,Future Gohan / Super Saiyan,1,1,Power Up to the Very Limit,35,35,Power Up to the Very Limit,True,25,0x138c,0x1d64
+89,Future Gohan / Super Saiyan,2,2,Hyper Masenko,320,320,Hyper Masenko,True,0,0x1390,0x1d70
+89,Future Gohan / Super Saiyan,3,3,Special Beam Cannon,245,245,Special Beam Cannon,True,0,0x1394,0x1d7c
+89,Future Gohan / Super Saiyan,4,4,Intercept,318,318,Intercept,True,13,0x1398,0x1d88
+89,Future Gohan / Super Saiyan,5,5,Fierce Combination,321,321,Fierce Combination,True,14,0x139c,0x1d94
+90,Nail,0,0,Buying Time,322,322,Buying Time,True,21,0x13c0,0x1da0
+90,Nail,1,1,Full Power,305,305,Full Power,True,20,0x13c4,0x1dac
+90,Nail,2,2,Full Power Energy Wave,131,131,Full Power Energy Wave,True,0,0x13c8,0x1db8
+90,Nail,3,3,Super Destructive Wave,317,317,Super Destructive Wave,True,5,0x13cc,0x1dc4
+90,Nail,4,4,Please Leave...,323,323,Please Leave...,True,11,0x13d0,0x1dd0
+90,Nail,5,5,Mystic Crasher,324,324,Mystic Crasher,True,14,0x13d4,0x1ddc
+91,Cui,0,0,False Courage,154,154,False Courage,True,21,0x13f8,0x1de8
+91,Cui,1,1,Sleep,68,68,Sleep,True,29,0x13fc,0x1df4
+91,Cui,2,2,Full Power Energy Wave,131,131,Full Power Energy Wave,True,0,0x1400,0x1e00
+91,Cui,3,3,Full Power Energy Barrage Wave,134,134,Full Power Energy Barrage Wave,True,7,0x1404,0x1e0c
+91,Cui,4,4,Ah! Lord Frieza!,325,325,Ah! Lord Frieza!,True,14,0x1408,0x1e18
+92,Pikkon,0,0,Wild Sense,166,166,Wild Sense,True,16,0x1430,0x1e24
+92,Pikkon,1,1,High-Tension,99,99,High-Tension,True,19,0x1434,0x1e30
+92,Pikkon,2,2,Hyper Tornado,326,326,Hyper Tornado,True,12,0x1438,0x1e3c
+92,Pikkon,3,3,Burning Shoot,327,327,Burning Shoot,True,14,0x143c,0x1e48
+92,Pikkon,4,4,No Running,328,328,No Running,True,10,0x1440,0x1e54
+92,Pikkon,5,5,Blazing Zephyr,329,329,Blazing Zephyr,True,10,0x1444,0x1e60
+92,Pikkon,6,6,Thunder Flash,330,330,Thunder Flash,True,0,0x1448,0x1e6c
+93,Tarble,0,0,Explosive Wave,232,232,Explosive Wave,True,5,0x1468,0x1e78
+93,Tarble,1,1,Full Power Energy Wave,131,131,Full Power Energy Wave,True,0,0x146c,0x1e84
+93,Tarble,2,2,Energy Booster,331,331,Energy Booster,True,25,0x1470,0x1e90
+93,Tarble,3,3,Super Energy Wave Volley,225,225,Super Energy Wave Volley,True,7,0x1474,0x1e9c
+93,Tarble,4,4,Wild Sense,166,166,Wild Sense,True,16,0x1478,0x1ea8
+93,Tarble,5,5,Round UFO Attack,332,332,Round UFO Attack,True,14,0x147c,0x1eb4
+94,Android #14,0,0,Murder Ball,333,333,Murder Ball,True,2,0x14a0,0x1ec0
+94,Android #14,1,1,Energy Squall,334,334,Energy Squall,True,7,0x14a4,0x1ecc
+94,Android #14,2,2,Pump Up,104,104,Pump Up,True,20,0x14a8,0x1ed8
+94,Android #14,3,3,Wild Sense,166,166,Wild Sense,True,16,0x14ac,0x1ee4
+94,Android #14,4,4,Android Charge 14,335,335,Android Charge 14,True,14,0x14b0,0x1ef0
+95,Android #15,0,0,Murder Ball,333,333,Murder Ball,True,2,0x14d8,0x1efc
+95,Android #15,1,1,Energy Squall,334,334,Energy Squall,True,7,0x14dc,0x1f08
+95,Android #15,2,2,Android Barrier,7,7,Android Barrier,True,54,0x14e0,0x1f14
+95,Android #15,3,3,Pump Up,104,104,Pump Up,True,20,0x14e4,0x1f20
+95,Android #15,4,4,Android Strike 15,336,336,Android Strike 15,True,14,0x14e8,0x1f2c
+96,Salza,0,0,Explosive Wave,232,232,Explosive Wave,True,5,0x1510,0x1f38
+96,Salza,1,1,Finish Sign,122,122,Finish Sign,True,22,0x1514,0x1f44
+96,Salza,2,2,Full Power Energy Wave,131,131,Full Power Energy Wave,True,0,0x1518,0x1f50
+96,Salza,3,3,Spread Finger Beam,178,178,Spread Finger Beam,True,0,0x151c,0x1f5c
+96,Salza,4,4,Salza Fighting Pose,337,337,Salza Fighting Pose,True,66,0x1520,0x1f68
+96,Salza,5,5,Full Power Energy Barrage Wave,134,134,Full Power Energy Barrage Wave,True,7,0x1524,0x1f74
+96,Salza,6,6,Salza Blade Rush,338,338,Salza Blade Rush,True,14,0x1528,0x1f80
+97,Neizu,0,0,Pump Up,104,104,Pump Up,True,20,0x1548,0x1f8c
+97,Neizu,1,1,Neizu Fighting Pose,339,339,Neizu Fighting Pose,True,67,0x154c,0x1f98
+97,Neizu,2,2,Full Power Energy Wave,131,131,Full Power Energy Wave,True,0,0x1550,0x1fa4
+97,Neizu,3,3,Full Power Energy Barrage Wave,134,134,Full Power Energy Barrage Wave,True,7,0x1554,0x1fb0
+97,Neizu,4,4,Neizu Bind Wave,340,340,Neizu Bind Wave,True,0,0x1558,0x1fbc
+98,Dore,0,0,False Courage,154,154,False Courage,True,21,0x1580,0x1fc8
+98,Dore,1,1,Dore Fighting Pose,341,341,Dore Fighting Pose,True,68,0x1584,0x1fd4
+98,Dore,2,2,Thruster Kick,342,342,Thruster Kick,True,11,0x1588,0x1fe0
+98,Dore,3,3,Full Power Energy Barrage Wave,134,134,Full Power Energy Barrage Wave,True,7,0x158c,0x1fec
+98,Dore,4,4,Dore Terrible Flash,343,343,Dore Terrible Flash,True,14,0x1590,0x1ff8
+99,Hatchiyack,0,0,Full Power Energy Wave,131,131,Full Power Energy Wave,True,0,0x15b8,0x2004
+99,Hatchiyack,1,1,Energy Wave Combo,344,344,Energy Wave Combo,True,7,0x15bc,0x2010
+99,Hatchiyack,2,2,Revenger Charge,345,345,Revenger Charge,True,55,0x15c0,0x201c
+99,Hatchiyack,3,3,Explosive Wave,232,232,Explosive Wave,True,5,0x15c4,0x2028
+99,Hatchiyack,4,4,Ultimate Blow,346,346,Ultimate Blow,True,11,0x15c8,0x2034
+99,Hatchiyack,5,5,Rapid Charge Counter,347,347,Rapid Charge Counter,True,13,0x15cc,0x2040
+99,Hatchiyack,6,6,Revenger Cannon,348,348,Revenger Cannon,True,0,0x15d0,0x204c

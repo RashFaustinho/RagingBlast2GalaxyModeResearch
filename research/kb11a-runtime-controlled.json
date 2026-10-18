@@ -1,0 +1,70 @@
+{
+  "experiment": "KB11A",
+  "status": "CONTROLLED_INITIAL_SSJ3_ITEM15A_FORWARD_SLOT0_TO_BASE_VERIFIED",
+  "purpose": "Pair withKB11B no-item control; startsSSJ3 rather than coming fromSSJ2.",
+  "boot_sha256": "52f800e7df95ac2f0cb09c34b3848da1d805a837cb27e51f39f1fbcea73e631c",
+  "galaxy_sha256": "d75c0d8ac8d9e179f54a7477f020eef792572f7335666d4d459e2b5b26553742",
+  "EBOOT": "Original, no code/register edits",
+  "phase_validation": "PlayerHP40000->39116 and2hits damage884 before probe.",
+  "observations": [
+    {
+      "utc": "2026-10-14T18:40:58Z",
+      "native": 3,
+      "preset": 1059,
+      "previous_preset": 0,
+      "HP": 40000,
+      "gear": [
+        "15A"
+      ],
+      "property_flags": [
+        "178"
+      ],
+      "probe": "matched HP9000 aura50 data-only write"
+    },
+    {
+      "utc": "2026-10-14T18:41:29Z",
+      "PC": "0x3A7C0",
+      "r4_selector": 0,
+      "LR": "0x88174",
+      "native": 3,
+      "preset": 1059,
+      "HP": 9000,
+      "gear": [
+        "15A"
+      ]
+    },
+    {
+      "utc": "2026-10-14T18:42:50Z",
+      "PC": "0x3A87C",
+      "current_preset_record_address": "0x3694fca4"
+    },
+    {
+      "utc": "2026-10-14T18:43:53Z",
+      "PC": "0x3A8B4",
+      "packet_words": [
+        4,
+        1,
+        1060,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "cancel_flag8": false
+    },
+    {
+      "utc": "2026-10-14T18:44:13Z",
+      "native": 0,
+      "preset": 1060,
+      "previous_preset": 1059,
+      "HP": 9000,
+      "gear": [
+        "079"
+      ],
+      "active_enemy_slot": 0
+    }
+  ],
+  "limits": "One positive run compared with negative bounded90s no-item control. Item15A uses forward-linked preset slot0 in this path, not the manual3A5EC cancel packet retaining current preset withflag8. Exact HP-boundary equality and latency not measured.",
+  "evidence": "kb11a-rsp-evidence.jsonl"
+}

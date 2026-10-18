@@ -1,0 +1,30 @@
+{
+  "game": "/tmp/rb2-galaxy-transfer/game",
+  "profile": "/workspace/research-rb2/galaxy-transfer-20261016/runtime-profile",
+  "originalExecutableSHA256": "da28849b6dafc65c0de74d79f3bd1c54ff19f0368ffb728faa5d97ce77a03c30",
+  "originalExecutableUsed": true,
+  "saveBytes": 55000,
+  "fixtureSaveEdits": [
+    {
+      "offset": "0xbf30",
+      "before": 66,
+      "after": 2,
+      "reason": "Preselect transferred native Goku SSJ2"
+    },
+    {
+      "offset": "0xbdcc",
+      "before": 246,
+      "after": 238,
+      "reason": "Preselect original entry mission238 in reused icon53"
+    },
+    {
+      "offset": "0x1f0",
+      "before": 25296639,
+      "after": 25296639,
+      "reason": "Ensure destination is playable in this disposable test save"
+    }
+  ],
+  "progressEntry872Bytes": 321561,
+  "capacity": 321536,
+  "otherGameFiles": "Original read-only sources linked; EBOOT/SFO and progress archive are private copies"
+}

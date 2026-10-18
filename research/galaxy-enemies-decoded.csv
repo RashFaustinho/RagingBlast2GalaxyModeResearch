@@ -1,0 +1,893 @@
+node_index,node_root_hex,group_tag,participant_index,preset_index,native_character_id,appearance_index,strength_index,item_indices,item_labels,extra_descriptor_reference,status
+0,0x16f6c,0x0,0,728,51,51,395,0xe1;0xe0;0x122;0x14f;0x4b;0x27;0x53;0x53;0x55,Difesa giù L;Difesa giù S;Super Recupero Aura I;CPU molto più forte quando rimane 1 indicatore di salute;Colpo dell'aura alta velocità;Velocità colpo dell'aura Su;Durata svenimento giù M;Durata svenimento giù M;Durata paralisi giù M,0,decoded static configuration
+1,0x16fc8,0x0,0,957,79,79,720,0xe1;0xe0;0x3f;0x14f;0xf9;0xc7;0x81;0x3c;0x152;0x169,Difesa giù L;Difesa giù S;Inizio alta tensione;CPU molto più forte quando rimane 1 indicatore di salute;Super Guerriero;Miglior attacco;Scatto Spirito di combattimento;Potenza gigantesca;CPU super forte quando rimane 1 indicatore di salute;1° Trasformazione al cambio per KO,0,decoded static configuration
+2,0x17024,0x0,0,933,49,49,712,0xe0;0xe1;0x147;0x150,Difesa giù S;Difesa giù L;Animo Furioso quando rimane 1 indicatore di salute;CPU molto più forte quando rimangono 2 indicatori di salute,0,decoded static configuration
+3,0x17080,0x0,0,730,44,44,389,0x6d;0x6e;0x71;0xc;0x71;0x5c;0x15d;0x16a;0x169,Potenza attacco speciale su M;Potenza attacco speciale su L;Potenza attacco supremo su L;Attacco Animo furioso Su;Potenza attacco supremo su L;Capriola elegante;3°Trasformazione quando rimangono 3 indicatori di salute;2° Trasformazione al cambio per KO;1° Trasformazione al cambio per KO,50,decoded static configuration
+3,0x17080,0x0,1,733,47,47,361,0xe0;0xe1;0xda;0x6a;0x31;0x16a,Difesa giù S;Difesa giù L;Potere difensivo giù;Miraggio;Segreti dell'evanescente;2° Trasformazione al cambio per KO,51,decoded static configuration
+3,0x17080,0x0,2,729,43,43,272,0x6a;0x18;0xf9;0x123;0xa2,Miraggio;Sul serio!;Super Guerriero;Super Recupero Aura II;Aura al plasma,52,decoded static configuration
+3,0x17080,0x0,3,732,46,46,364,0xe0;0xe1;0xda;0x13;0x14;0x15;0x16;0xd;0x17;0x16a,Difesa giù S;Difesa giù L;Potere difensivo giù;Attacco Segugio 1 su S;Attacco Segugio 1 su L;Attacco Segugio 2 su S;Attacco Segugio 2 su L;Riduci tempo carica;Scatto estremo;2° Trasformazione al cambio per KO,53,decoded static configuration
+3,0x17080,0x0,4,731,45,45,380,0xd;0xe;0x1d;0x4b;0x27;0x53;0x53;0x55;0x31;0xe1;0xe0;0xda,Riduci tempo carica;Carica Rapida;Proiezione rapida;Colpo dell'aura alta velocità;Velocità colpo dell'aura Su;Durata svenimento giù M;Durata svenimento giù M;Durata paralisi giù M;Segreti dell'evanescente;Difesa giù L;Difesa giù S;Potere difensivo giù,54,decoded static configuration
+3,0x17080,0x0,5,735,97,97,367,0xe0;0xe1;0xda;0x19;0x33;0x74;0x17;0x16a,Difesa giù S;Difesa giù L;Potere difensivo giù;Contrattacco Dirompente;Segreti del contrattacco;Potenza schermaglia su M;Scatto estremo;2° Trasformazione al cambio per KO,55,decoded static configuration
+3,0x17080,0x0,6,734,96,96,275,0x6a;0x18;0xf9;0x123;0xa2,Miraggio;Sul serio!;Super Guerriero;Super Recupero Aura II;Aura al plasma,56,decoded static configuration
+3,0x17080,0x0,7,736,98,98,269,0xb;0x1d;0x11;0x10;0x3b;0x3c;0x53;0x49;0x5c;0xe1,Proiezione su L;Proiezione rapida;Danno Impatto Su;Tempo Extra Spinta al Muro L;Demolitore della mente;Potenza gigantesca;Durata svenimento giù M;Riduttore energetico;Capriola elegante;Difesa giù L,57,decoded static configuration
+4,0x170dc,0x0,0,892,1,1,692,0xe1;0xe0;0x3f;0x149,Difesa giù L;Difesa giù S;Inizio alta tensione;Animo Furioso quando rimangono 3 indicatori di salute,69,decoded static configuration
+4,0x170dc,0x0,1,893,18,18,692,0xe1;0xe0;0x3f;0x149,Difesa giù L;Difesa giù S;Inizio alta tensione;Animo Furioso quando rimangono 3 indicatori di salute,70,decoded static configuration
+4,0x170dc,0x0,2,894,81,81,691,0xe1;0xe0;0x3f;0x14f;0xf9;0xc7;0x81;0x3c,Difesa giù L;Difesa giù S;Inizio alta tensione;CPU molto più forte quando rimane 1 indicatore di salute;Super Guerriero;Miglior attacco;Scatto Spirito di combattimento;Potenza gigantesca,71,decoded static configuration
+5,0x17138,0x0,0,500,56,56,187,0xe0;0xe1;0xda,Difesa giù S;Difesa giù L;Potere difensivo giù,0,decoded static configuration
+6,0x17194,0x0,0,628,57,57,324,0xe1;0xe0,Difesa giù L;Difesa giù S,0,decoded static configuration
+7,0x171f0,0x0,0,877,4,4,187,0xe0;0xe1;0xda,Difesa giù S;Difesa giù L;Potere difensivo giù,0,decoded static configuration
+7,0x171f0,0x0,1,890,11,11,262,0x27;0x6e;0xe1;0xe0,Velocità colpo dell'aura Su;Potenza attacco speciale su L;Difesa giù L;Difesa giù S,0,decoded static configuration
+8,0x1724c,0x0,0,901,76,76,187,0xe0;0xe1;0xda,Difesa giù S;Difesa giù L;Potere difensivo giù,0,decoded static configuration
+8,0x1724c,0x0,1,666,60,60,298,0xe1;0xe0;0x11d;0x67,Difesa giù L;Difesa giù S;Super Recupero Salute II;Recupero Salute automatico,0,decoded static configuration
+9,0x172a8,0x0,0,621,53,53,195,0xe0;0xe1;0xda,Difesa giù S;Difesa giù L;Potere difensivo giù,0,decoded static configuration
+9,0x172a8,0x0,1,622,54,54,190,0xe0;0xe1;0xda,Difesa giù S;Difesa giù L;Potere difensivo giù,0,decoded static configuration
+9,0x172a8,0x0,2,536,55,55,263,0x1;0x14;0xe1;0xe0,Attacco con Scatto Su M;Attacco Segugio 1 su L;Difesa giù L;Difesa giù S,0,decoded static configuration
+10,0x17304,0x0,0,896,0,0,693,0xe0;0xe1;0xda;0x6a;0x31,Difesa giù S;Difesa giù L;Potere difensivo giù;Miraggio;Segreti dell'evanescente,0,decoded static configuration
+11,0x17360,0x0,0,899,23,23,366,0xe0;0xe1;0xda;0x19;0x33;0x74;0x17;0x16a,Difesa giù S;Difesa giù L;Potere difensivo giù;Contrattacco Dirompente;Segreti del contrattacco;Potenza schermaglia su M;Scatto estremo;2° Trasformazione al cambio per KO,0,decoded static configuration
+11,0x17360,0x0,1,860,18,18,682,0xe0;0xe1;0xda;0x13;0x14;0x15;0x16;0xd;0x17,Difesa giù S;Difesa giù L;Potere difensivo giù;Attacco Segugio 1 su S;Attacco Segugio 1 su L;Attacco Segugio 2 su S;Attacco Segugio 2 su L;Riduci tempo carica;Scatto estremo,0,decoded static configuration
+11,0x17360,0x0,2,900,1,1,693,0xe0;0xe1;0xda;0x6a;0x31,Difesa giù S;Difesa giù L;Potere difensivo giù;Miraggio;Segreti dell'evanescente,0,decoded static configuration
+12,0x173bc,0x0,0,897,94,94,694,0x27;0x2d;0x2f;0x29;0xda;0x5c;0x53;0x81;0xe1;0x11b,Velocità colpo dell'aura Su;Segreti dello slancio;Segreti del super slancio;Recupero aura automatico;Potere difensivo giù;Capriola elegante;Durata svenimento giù M;Scatto Spirito di combattimento;Difesa giù L;Sigillo 100% Evanescente II,0,decoded static configuration
+12,0x173bc,0x0,1,898,95,95,695,0x3c;0x29;0x3a;0x49;0x72;0x53;0x6a;0x6e;0xe1;0xe0;0x11b,Potenza gigantesca;Recupero aura automatico;Controllo dell'aura;Riduttore energetico;Inarrestabile!;Durata svenimento giù M;Miraggio;Potenza attacco speciale su L;Difesa giù L;Difesa giù S;Sigillo 100% Evanescente II,0,decoded static configuration
+13,0x17418,0x0,0,533,4,4,215,0xe0;0xe1,Difesa giù S;Difesa giù L,0,decoded static configuration
+13,0x17418,0x0,1,809,12,12,248,0x0;0xe1;0xe0,UNKNOWN;Difesa giù L;Difesa giù S,0,decoded static configuration
+14,0x17474,0x0,0,653,28,28,350,0xe1;0xe0;0x169,Difesa giù L;Difesa giù S;1° Trasformazione al cambio per KO,0,decoded static configuration
+14,0x17474,0x0,1,945,30,30,296,0xe1;0xe0;0x11d;0x67,Difesa giù L;Difesa giù S;Super Recupero Salute II;Recupero Salute automatico,0,decoded static configuration
+15,0x174d0,0x0,0,766,11,11,366,0xe0;0xe1;0xda;0x19;0x33;0x74;0x17;0x16a,Difesa giù S;Difesa giù L;Potere difensivo giù;Contrattacco Dirompente;Segreti del contrattacco;Potenza schermaglia su M;Scatto estremo;2° Trasformazione al cambio per KO,0,decoded static configuration
+15,0x174d0,0x0,1,779,95,95,256,0x27;0x6d;0xe1;0xe0,Velocità colpo dell'aura Su;Potenza attacco speciale su M;Difesa giù L;Difesa giù S,0,decoded static configuration
+15,0x174d0,0x0,2,781,82,82,263,0x1;0x14;0xe1;0xe0,Attacco con Scatto Su M;Attacco Segugio 1 su L;Difesa giù L;Difesa giù S,0,decoded static configuration
+16,0x1752c,0x0,0,946,56,56,387,0xe1;0xe0;0x122,Difesa giù L;Difesa giù S;Super Recupero Aura I,0,decoded static configuration
+16,0x1752c,0x0,1,947,57,57,387,0xe1;0xe0;0x122,Difesa giù L;Difesa giù S;Super Recupero Aura I,0,decoded static configuration
+17,0x17588,0x0,0,900,1,1,693,0xe0;0xe1;0xda;0x6a;0x31,Difesa giù S;Difesa giù L;Potere difensivo giù;Miraggio;Segreti dell'evanescente,0,decoded static configuration
+17,0x17588,0x0,1,860,18,18,682,0xe0;0xe1;0xda;0x13;0x14;0x15;0x16;0xd;0x17,Difesa giù S;Difesa giù L;Potere difensivo giù;Attacco Segugio 1 su S;Attacco Segugio 1 su L;Attacco Segugio 2 su S;Attacco Segugio 2 su L;Riduci tempo carica;Scatto estremo,0,decoded static configuration
+17,0x17588,0x0,2,899,23,23,366,0xe0;0xe1;0xda;0x19;0x33;0x74;0x17;0x16a,Difesa giù S;Difesa giù L;Potere difensivo giù;Contrattacco Dirompente;Segreti del contrattacco;Potenza schermaglia su M;Scatto estremo;2° Trasformazione al cambio per KO,0,decoded static configuration
+18,0x175e4,0x0,0,944,83,83,716,0x3c;0x29;0x3a;0x49;0x72;0x53;0x6a;0x6e;0xe1;0x3f,Potenza gigantesca;Recupero aura automatico;Controllo dell'aura;Riduttore energetico;Inarrestabile!;Durata svenimento giù M;Miraggio;Potenza attacco speciale su L;Difesa giù L;Inizio alta tensione,0,decoded static configuration
+19,0x17640,0x0,0,877,4,4,187,0xe0;0xe1;0xda,Difesa giù S;Difesa giù L;Potere difensivo giù,0,decoded static configuration
+19,0x17640,0x0,1,874,12,12,256,0x27;0x6d;0xe1;0xe0,Velocità colpo dell'aura Su;Potenza attacco speciale su M;Difesa giù L;Difesa giù S,0,decoded static configuration
+20,0x1769c,0x0,0,544,39,39,258,0x8;0x5;0xe1;0xe0,Attacco Dirompente su L;Attacco Caricato su L;Difesa giù L;Difesa giù S,0,decoded static configuration
+20,0x1769c,0x0,1,511,16,225,244,0x38;0xf2;0xf1;0x80;0x123;0x13d;0xe1,Aura abilità peculiare ½;Istinti di un campione!;Super inarrestabile!;Totale sicurezza di se;Super Recupero Aura II;1/10 danno Attacco Speciale II;Difesa giù L,0,decoded static configuration
+21,0x176f8,0x0,0,948,11,11,717,0xe1;0xe0;0xda;0x143,Difesa giù L;Difesa giù S;Potere difensivo giù;CPU più forte (Grande) con il passare del tempo,0,decoded static configuration
+21,0x176f8,0x0,1,763,94,94,663,0xe1;0xe0;0xda;0x143,Difesa giù L;Difesa giù S;Potere difensivo giù;CPU più forte (Grande) con il passare del tempo,0,decoded static configuration
+21,0x176f8,0x0,2,762,82,82,342,0xe1;0xe0;0x143,Difesa giù L;Difesa giù S;CPU più forte (Grande) con il passare del tempo,0,decoded static configuration
+22,0x17754,0x0,0,746,30,30,398,0xe0;0xe1;0x3f,Difesa giù S;Difesa giù L;Inizio alta tensione,0,decoded static configuration
+22,0x17754,0x0,1,950,28,28,390,0xe1;0xe0;0xda;0x11d;0x16a;0x67,Difesa giù L;Difesa giù S;Potere difensivo giù;Super Recupero Salute II;2° Trasformazione al cambio per KO;Recupero Salute automatico,0,decoded static configuration
+23,0x177b0,0x0,0,882,1,1,268,0xd;0xe;0x1d;0x4b;0x27;0x5c;0x53;0x55;0x10;0xe1,Riduci tempo carica;Carica Rapida;Proiezione rapida;Colpo dell'aura alta velocità;Velocità colpo dell'aura Su;Capriola elegante;Durata svenimento giù M;Durata paralisi giù M;Tempo Extra Spinta al Muro L;Difesa giù L,0,decoded static configuration
+23,0x177b0,0x0,1,555,23,23,225,0xe0;0xe1,Difesa giù S;Difesa giù L,0,decoded static configuration
+23,0x177b0,0x0,2,824,18,18,270,0x3c;0x29;0x3a;0x49;0x72;0x53;0x6a;0x6e;0xe1,Potenza gigantesca;Recupero aura automatico;Controllo dell'aura;Riduttore energetico;Inarrestabile!;Durata svenimento giù M;Miraggio;Potenza attacco speciale su L;Difesa giù L,0,decoded static configuration
+24,0x1780c,0x0,0,949,83,83,718,0x17;0x26;0x2d;0x16;0xeb;0xec;0x2;0xe1;0x11c,Scatto estremo;Recupero aura con scatto L;Segreti dello slancio;Attacco Segugio 2 su L;Potenza attacco Speciale Giù;Potenza Attacco Supremo Giù;Attacco con Scatto Su L;Difesa giù L;Super Recupero Salute I,0,decoded static configuration
+25,0x17868,0x0,0,758,95,95,215,0xe0;0xe1,Difesa giù S;Difesa giù L,0,decoded static configuration
+25,0x17868,0x0,1,759,94,94,215,0xe0;0xe1,Difesa giù S;Difesa giù L,0,decoded static configuration
+26,0x178c4,0x0,0,644,58,58,259,0x51;0xda;0xe0,Salute su L;Potere difensivo giù;Difesa giù S,0,decoded static configuration
+27,0x17920,0x0,0,760,83,83,252,0x7;0x4;0xe1;0xe0,Attacco Dirompente su M;Attacco Caricato su M;Difesa giù L;Difesa giù S,0,decoded static configuration
+28,0x1797c,0x0,0,564,77,77,217,0xe0;0xe1,Difesa giù S;Difesa giù L,0,decoded static configuration
+28,0x1797c,0x0,1,552,62,62,301,0xe1;0xe0;0x149,Difesa giù L;Difesa giù S;Animo Furioso quando rimangono 3 indicatori di salute,0,decoded static configuration
+29,0x179d8,0x0,0,567,0,0,312,0xe1;0xe0;0x7;0x4;0x80;0x81;0x13c;0x11d;0x67,Difesa giù L;Difesa giù S;Attacco Dirompente su M;Attacco Caricato su M;Totale sicurezza di se;Scatto Spirito di combattimento;1/10 danno Attacco Speciale I;Super Recupero Salute II;Recupero Salute automatico,0,decoded static configuration
+30,0x17a34,0x0,0,864,76,76,282,0xe1;0xe0;0xe4;0x16a,Difesa giù L;Difesa giù S;Salute giù M;2° Trasformazione al cambio per KO,0,decoded static configuration
+30,0x17a34,0x0,1,629,76,76,278,0xe1;0xe0;0xe4;0x16a;0x163,Difesa giù L;Difesa giù S;Salute giù M;2° Trasformazione al cambio per KO;Cambio quando rimangono 3 indicatori di salute,0,decoded static configuration
+30,0x17a34,0x0,2,629,76,76,278,0xe1;0xe0;0xe4;0x16a;0x163,Difesa giù L;Difesa giù S;Salute giù M;2° Trasformazione al cambio per KO;Cambio quando rimangono 3 indicatori di salute,0,decoded static configuration
+30,0x17a34,0x0,3,630,76,76,334,0xe1;0xe0;0xe3;0x16a;0x164,Difesa giù L;Difesa giù S;Salute giù S;2° Trasformazione al cambio per KO;Animo furioso al cambio per KO,0,decoded static configuration
+30,0x17a34,0x0,4,630,76,76,334,0xe1;0xe0;0xe3;0x16a;0x164,Difesa giù L;Difesa giù S;Salute giù S;2° Trasformazione al cambio per KO;Animo furioso al cambio per KO,0,decoded static configuration
+31,0x17a90,0x0,0,625,60,60,352,0xe1;0xe0;0x169;0xf9,Difesa giù L;Difesa giù S;1° Trasformazione al cambio per KO;Super Guerriero,0,decoded static configuration
+32,0x17aec,0x0,0,501,57,57,187,0xe0;0xe1;0xda,Difesa giù S;Difesa giù L;Potere difensivo giù,0,decoded static configuration
+33,0x17b48,0x0,0,761,53,53,662,0xe1;0xe0;0xda;0x13e,Difesa giù L;Difesa giù S;Potere difensivo giù;100% Evanescente I,0,decoded static configuration
+34,0x17ba4,0x0,0,763,94,94,663,0xe1;0xe0;0xda;0x143,Difesa giù L;Difesa giù S;Potere difensivo giù;CPU più forte (Grande) con il passare del tempo,0,decoded static configuration
+34,0x17ba4,0x0,1,764,95,95,663,0xe1;0xe0;0xda;0x143,Difesa giù L;Difesa giù S;Potere difensivo giù;CPU più forte (Grande) con il passare del tempo,0,decoded static configuration
+34,0x17ba4,0x0,2,762,82,82,342,0xe1;0xe0;0x143,Difesa giù L;Difesa giù S;CPU più forte (Grande) con il passare del tempo,0,decoded static configuration
+35,0x17c00,0x0,0,767,11,11,403,0xe0;0xe1;0x119,Difesa giù S;Difesa giù L;Sigillo 1/10 Att. Speciale II,0,decoded static configuration
+36,0x17c5c,0x0,0,555,23,23,225,0xe0;0xe1,Difesa giù S;Difesa giù L,0,decoded static configuration
+36,0x17c5c,0x0,1,765,14,14,190,0xe0;0xe1;0xda,Difesa giù S;Difesa giù L;Potere difensivo giù,0,decoded static configuration
+36,0x17c5c,0x0,2,766,11,11,366,0xe0;0xe1;0xda;0x19;0x33;0x74;0x17;0x16a,Difesa giù S;Difesa giù L;Potere difensivo giù;Contrattacco Dirompente;Segreti del contrattacco;Potenza schermaglia su M;Scatto estremo;2° Trasformazione al cambio per KO,0,decoded static configuration
+37,0x17cb8,0x0,0,768,58,58,664,0xe1;0xe0;0x11f;0x3c;0xf9,Difesa giù L;Difesa giù S;Super Recupero Salute IV;Potenza gigantesca;Super Guerriero,0,decoded static configuration
+38,0x17d14,0x0,0,770,12,12,217,0xe0;0xe1,Difesa giù S;Difesa giù L,0,decoded static configuration
+39,0x17d70,0x0,0,500,56,56,187,0xe0;0xe1;0xda,Difesa giù S;Difesa giù L;Potere difensivo giù,0,decoded static configuration
+39,0x17d70,0x0,1,563,57,57,220,0xe0;0xe1,Difesa giù S;Difesa giù L,0,decoded static configuration
+40,0x17dcc,0x0,0,771,18,18,667,0xe0;0xe1;0x120;0x129;0x20;0x4b;0x22;0x23,Difesa giù S;Difesa giù L;Super Recupero Salute V;Perdita automatica salute II;Colpi dell'aura su L;Colpo dell'aura alta velocità;Velocità colpo dell'aura su;Capacità colpo aura Mirata su,0,decoded static configuration
+41,0x17e28,0x0,0,696,29,29,321,0xe1;0xe0;0x148;0x151;0x169,Difesa giù L;Difesa giù S;Animo Furioso quando rimangono 2 indicatori di salute;CPU molto più forte quando rimangono 3 indicatori di salute;1° Trasformazione al cambio per KO,0,decoded static configuration
+41,0x17e28,0x0,1,652,27,27,321,0xe1;0xe0;0x148;0x151;0x169,Difesa giù L;Difesa giù S;Animo Furioso quando rimangono 2 indicatori di salute;CPU molto più forte quando rimangono 3 indicatori di salute;1° Trasformazione al cambio per KO,0,decoded static configuration
+42,0x17e84,0xffffffff,,3,,,,,,,opaque special group
+43,0x17ee0,0x0,0,557,69,69,308,0x2c;0x42;0x55;0xda;0x51;0x4e;0x53;0x1d;0xe1;0x13f,Recupero aura super guardia;Atteggiamento!;Durata paralisi giù M;Potere difensivo giù;Salute su L;Difesa su M;Durata svenimento giù M;Proiezione rapida;Difesa giù L;100% Evanescente II,0,decoded static configuration
+44,0x17f3c,0x0,0,672,59,59,371,0xd;0xe;0x1d;0x4b;0x27;0xf9;0x2d;0xe1;0xe0;0xda,Riduci tempo carica;Carica Rapida;Proiezione rapida;Colpo dell'aura alta velocità;Velocità colpo dell'aura Su;Super Guerriero;Segreti dello slancio;Difesa giù L;Difesa giù S;Potere difensivo giù,0,decoded static configuration
+45,0x17f98,0x0,0,496,12,12,215,0xe0;0xe1,Difesa giù S;Difesa giù L,0,decoded static configuration
+45,0x17f98,0x0,1,533,4,4,215,0xe0;0xe1,Difesa giù S;Difesa giù L,0,decoded static configuration
+45,0x17f98,0x0,2,708,0,0,263,0x1;0x14;0xe1;0xe0,Attacco con Scatto Su M;Attacco Segugio 1 su L;Difesa giù L;Difesa giù S,0,decoded static configuration
+45,0x17f98,0x0,3,585,16,16,261,0x20;0x24;0xe1;0xe0,Colpi dell'aura su L;Consumo colpo dell'aura giù;Difesa giù L;Difesa giù S,0,decoded static configuration
+46,0x17ff4,0x0,0,772,14,14,344,0xe1;0xe0;0x129,Difesa giù L;Difesa giù S;Perdita automatica salute II,0,decoded static configuration
+46,0x17ff4,0x0,1,773,13,13,344,0xe1;0xe0;0x129,Difesa giù L;Difesa giù S;Perdita automatica salute II,0,decoded static configuration
+47,0x18050,0x0,0,774,1,1,668,0xe0;0xe1;0x141;0x129,Difesa giù S;Difesa giù L;CPU più forte (Piccolo) con il passare del tempo;Perdita automatica salute II,0,decoded static configuration
+48,0x180ac,0x0,0,535,54,54,258,0x8;0x5;0xe1;0xe0,Attacco Dirompente su L;Attacco Caricato su L;Difesa giù L;Difesa giù S,0,decoded static configuration
+48,0x180ac,0x0,1,536,55,55,263,0x1;0x14;0xe1;0xe0,Attacco con Scatto Su M;Attacco Segugio 1 su L;Difesa giù L;Difesa giù S,0,decoded static configuration
+49,0x18108,0x0,0,775,18,18,244,0x38;0xf2;0xf1;0x80;0x123;0x13d;0xe1,Aura abilità peculiare ½;Istinti di un campione!;Super inarrestabile!;Totale sicurezza di se;Super Recupero Aura II;1/10 danno Attacco Speciale II;Difesa giù L,0,decoded static configuration
+50,0x18164,0x0,0,577,13,13,313,0xe1;0xe0;0xda;0x129,Difesa giù L;Difesa giù S;Potere difensivo giù;Perdita automatica salute II,0,decoded static configuration
+51,0x181c0,0x0,0,533,4,4,215,0xe0;0xe1,Difesa giù S;Difesa giù L,0,decoded static configuration
+51,0x181c0,0x0,1,570,14,14,220,0xe0;0xe1,Difesa giù S;Difesa giù L,0,decoded static configuration
+51,0x181c0,0x0,2,676,12,12,286,0xe1;0xe0;0x13d,Difesa giù L;Difesa giù S;1/10 danno Attacco Speciale II,0,decoded static configuration
+52,0x1821c,0x0,0,776,11,11,669,0xe0;0xe1;0x149;0x120,Difesa giù S;Difesa giù L;Animo Furioso quando rimangono 3 indicatori di salute;Super Recupero Salute V,0,decoded static configuration
+52,0x1821c,0x0,1,777,18,18,669,0xe0;0xe1;0x149;0x120,Difesa giù S;Difesa giù L;Animo Furioso quando rimangono 3 indicatori di salute;Super Recupero Salute V,0,decoded static configuration
+53,0x18278,0x0,0,666,60,60,298,0xe1;0xe0;0x11d;0x67,Difesa giù L;Difesa giù S;Super Recupero Salute II;Recupero Salute automatico,0,decoded static configuration
+54,0x182d4,0x0,0,779,95,95,256,0x27;0x6d;0xe1;0xe0,Velocità colpo dell'aura Su;Potenza attacco speciale su M;Difesa giù L;Difesa giù S,0,decoded static configuration
+54,0x182d4,0x0,1,780,94,94,252,0x7;0x4;0xe1;0xe0,Attacco Dirompente su M;Attacco Caricato su M;Difesa giù L;Difesa giù S,0,decoded static configuration
+54,0x182d4,0x0,2,781,82,82,263,0x1;0x14;0xe1;0xe0,Attacco con Scatto Su M;Attacco Segugio 1 su L;Difesa giù L;Difesa giù S,0,decoded static configuration
+55,0x18330,0x0,0,535,54,54,258,0x8;0x5;0xe1;0xe0,Attacco Dirompente su L;Attacco Caricato su L;Difesa giù L;Difesa giù S,0,decoded static configuration
+57,0x183e8,0x0,0,706,74,74,185,0xe0;0xe1;0xda,Difesa giù S;Difesa giù L;Potere difensivo giù,0,decoded static configuration
+57,0x183e8,0x0,1,636,91,91,217,0xe0;0xe1,Difesa giù S;Difesa giù L,0,decoded static configuration
+58,0x18444,0x0,0,560,38,38,220,0xe0;0xe1,Difesa giù S;Difesa giù L,0,decoded static configuration
+58,0x18444,0x0,1,561,39,39,220,0xe0;0xe1,Difesa giù S;Difesa giù L,0,decoded static configuration
+59,0x184a0,0x0,0,523,42,42,187,0xe0;0xe1;0xda,Difesa giù S;Difesa giù L;Potere difensivo giù,0,decoded static configuration
+60,0x184fc,0x0,0,607,93,93,261,0x20;0x24;0xe1;0xe0,Colpi dell'aura su L;Consumo colpo dell'aura giù;Difesa giù L;Difesa giù S,0,decoded static configuration
+60,0x184fc,0x0,1,585,16,16,261,0x20;0x24;0xe1;0xe0,Colpi dell'aura su L;Consumo colpo dell'aura giù;Difesa giù L;Difesa giù S,0,decoded static configuration
+61,0x18558,0x0,0,503,47,47,185,0xe0;0xe1;0xda,Difesa giù S;Difesa giù L;Potere difensivo giù,0,decoded static configuration
+61,0x18558,0x0,1,504,44,44,217,0xe0;0xe1,Difesa giù S;Difesa giù L,0,decoded static configuration
+61,0x18558,0x0,2,723,45,45,394,0xe1;0xe0;0x164;0x16a;0x29;0x3a;0x4c;0x18,Difesa giù L;Difesa giù S;Animo furioso al cambio per KO;2° Trasformazione al cambio per KO;Recupero aura automatico;Controllo dell'aura;Colpo dell'aura magnetico;Sul serio!,0,decoded static configuration
+61,0x18558,0x0,3,597,46,46,217,0xe0;0xe1,Difesa giù S;Difesa giù L,0,decoded static configuration
+61,0x18558,0x0,4,507,43,43,245,0x1;0x14;0xe1,Attacco con Scatto Su M;Attacco Segugio 1 su L;Difesa giù L,0,decoded static configuration
+62,0x185b4,0x0,0,567,0,0,312,0xe1;0xe0;0x7;0x4;0x80;0x81;0x13c;0x11d;0x67,Difesa giù L;Difesa giù S;Attacco Dirompente su M;Attacco Caricato su M;Totale sicurezza di se;Scatto Spirito di combattimento;1/10 danno Attacco Speciale I;Super Recupero Salute II;Recupero Salute automatico,0,decoded static configuration
+63,0x18610,0x0,0,707,48,48,391,0xe0;0xe1;0x120,Difesa giù S;Difesa giù L;Super Recupero Salute V,0,decoded static configuration
+64,0x1866c,0x0,0,904,74,74,286,0xe1;0xe0;0x13d,Difesa giù L;Difesa giù S;1/10 danno Attacco Speciale II,0,decoded static configuration
+64,0x1866c,0x0,1,904,74,74,286,0xe1;0xe0;0x13d,Difesa giù L;Difesa giù S;1/10 danno Attacco Speciale II,0,decoded static configuration
+64,0x1866c,0x0,2,904,74,74,286,0xe1;0xe0;0x13d,Difesa giù L;Difesa giù S;1/10 danno Attacco Speciale II,0,decoded static configuration
+65,0x186c8,0x0,0,663,84,84,217,0xe0;0xe1,Difesa giù S;Difesa giù L,0,decoded static configuration
+66,0x18724,0x0,0,633,25,25,190,0xe0;0xe1;0xda,Difesa giù S;Difesa giù L;Potere difensivo giù,0,decoded static configuration
+67,0x18780,0x0,0,643,89,89,352,0xe1;0xe0;0x169;0xf9,Difesa giù L;Difesa giù S;1° Trasformazione al cambio per KO;Super Guerriero,0,decoded static configuration
+68,0x187dc,0x0,0,907,43,43,386,0xe1;0xe0;0x121,Difesa giù L;Difesa giù S;Super Recupero Salute X,0,decoded static configuration
+68,0x187dc,0x0,1,908,51,51,386,0xe1;0xe0;0x121,Difesa giù L;Difesa giù S;Super Recupero Salute X,0,decoded static configuration
+69,0x18838,0x0,0,687,19,19,263,0x1;0x14;0xe1;0xe0,Attacco con Scatto Su M;Attacco Segugio 1 su L;Difesa giù L;Difesa giù S,0,decoded static configuration
+70,0x18894,0x0,0,609,0,0,272,0x6a;0x18;0xf9;0x123;0xa2,Miraggio;Sul serio!;Super Guerriero;Super Recupero Aura II;Aura al plasma,0,decoded static configuration
+71,0x188f0,0x0,0,905,6,6,696,0x87;0xf8;0xc8;0x42;0x14c;0x169;0x144;0xe1;0x155,Abiti strappati;Potere ereditario;Super serio!;Atteggiamento!;CPU più forte quando rimane 1 indicatore di salute;1° Trasformazione al cambio per KO;Cpu più debole (Piccolo) con il passare del tempo;Difesa giù L;1°Trasformazione quando rimane 1 indicatore di salute,0,decoded static configuration
+72,0x1894c,0x0,0,818,91,91,185,0xe0;0xe1;0xda,Difesa giù S;Difesa giù L;Potere difensivo giù,0,decoded static configuration
+72,0x1894c,0x0,1,496,12,12,215,0xe0;0xe1,Difesa giù S;Difesa giù L,0,decoded static configuration
+73,0x189a8,0x0,0,755,37,37,187,0xe0;0xe1;0xda,Difesa giù S;Difesa giù L;Potere difensivo giù,0,decoded static configuration
+74,0x18a04,0x0,0,819,78,78,242,0x7;0x4;0x1;0xe1,Attacco Dirompente su M;Attacco Caricato su M;Attacco con Scatto Su M;Difesa giù L,0,decoded static configuration
+75,0x18a60,0x0,0,676,12,12,286,0xe1;0xe0;0x13d,Difesa giù L;Difesa giù S;1/10 danno Attacco Speciale II,0,decoded static configuration
+76,0x18abc,0x0,0,867,36,36,363,0xe0;0xe1;0xda;0x13;0x14;0x15;0x16;0xd;0x17;0x16a,Difesa giù S;Difesa giù L;Potere difensivo giù;Attacco Segugio 1 su S;Attacco Segugio 1 su L;Attacco Segugio 2 su S;Attacco Segugio 2 su L;Riduci tempo carica;Scatto estremo;2° Trasformazione al cambio per KO,0,decoded static configuration
+77,0x18b18,0x0,0,825,99,99,678,0xe0;0xe1;0x13e;0x11d;0x67,Difesa giù S;Difesa giù L;100% Evanescente I;Super Recupero Salute II;Recupero Salute automatico,0,decoded static configuration
+78,0x18b74,0x0,0,617,1,1,349,0xe1;0xe0;0x169,Difesa giù L;Difesa giù S;1° Trasformazione al cambio per KO,0,decoded static configuration
+79,0x18bd0,0x0,0,821,28,28,675,0xe0;0xe1;0xda;0x27;0x147;0x146;0xd7,Difesa giù S;Difesa giù L;Potere difensivo giù;Velocità colpo dell'aura Su;Animo Furioso quando rimane 1 indicatore di salute;Cpu più debole (Grande) con il passare del tempo;Tempo extra super alta tensione,0,decoded static configuration
+79,0x18bd0,0x0,1,822,30,30,675,0xe0;0xe1;0xda;0x27;0x147;0x146;0xd7,Difesa giù S;Difesa giù L;Potere difensivo giù;Velocità colpo dell'aura Su;Animo Furioso quando rimane 1 indicatore di salute;Cpu più debole (Grande) con il passare del tempo;Tempo extra super alta tensione,0,decoded static configuration
+80,0x18c2c,0x0,0,823,10,10,377,0xe1;0xe0;0xda;0x13f;0x6a;0x31,Difesa giù L;Difesa giù S;Potere difensivo giù;100% Evanescente II;Miraggio;Segreti dell'evanescente,0,decoded static configuration
+81,0x18c88,0x0,0,633,25,25,190,0xe0;0xe1;0xda,Difesa giù S;Difesa giù L;Potere difensivo giù,0,decoded static configuration
+81,0x18c88,0x0,1,766,11,11,366,0xe0;0xe1;0xda;0x19;0x33;0x74;0x17;0x16a,Difesa giù S;Difesa giù L;Potere difensivo giù;Contrattacco Dirompente;Segreti del contrattacco;Potenza schermaglia su M;Scatto estremo;2° Trasformazione al cambio per KO,0,decoded static configuration
+81,0x18c88,0x0,2,510,6,6,346,0xe1;0x169;0xf9,Difesa giù L;1° Trasformazione al cambio per KO;Super Guerriero,0,decoded static configuration
+81,0x18c88,0x0,3,824,18,18,270,0x3c;0x29;0x3a;0x49;0x72;0x53;0x6a;0x6e;0xe1,Potenza gigantesca;Recupero aura automatico;Controllo dell'aura;Riduttore energetico;Inarrestabile!;Durata svenimento giù M;Miraggio;Potenza attacco speciale su L;Difesa giù L,0,decoded static configuration
+82,0x18ce4,0x0,0,837,38,38,185,0xe0;0xe1;0xda,Difesa giù S;Difesa giù L;Potere difensivo giù,0,decoded static configuration
+82,0x18ce4,0x0,1,838,39,39,185,0xe0;0xe1;0xda,Difesa giù S;Difesa giù L;Potere difensivo giù,0,decoded static configuration
+82,0x18ce4,0x0,2,839,93,93,257,0x1;0x13;0xe1;0xe0,Attacco con Scatto Su M;Attacco Segugio 1 su S;Difesa giù L;Difesa giù S,0,decoded static configuration
+83,0x18d40,0x0,0,840,71,71,681,0xe0;0xe1;0xda;0xc;0x145;0x144;0x143;0x13c;0x13d,Difesa giù S;Difesa giù L;Potere difensivo giù;Attacco Animo furioso Su;Cpu più debole (Medio) con il passare del tempo;Cpu più debole (Piccolo) con il passare del tempo;CPU più forte (Grande) con il passare del tempo;1/10 danno Attacco Speciale I;1/10 danno Attacco Speciale II,0,decoded static configuration
+84,0x18d9c,0xffffffff,,4,,,,,,,opaque special group
+85,0x18df8,0x0,0,710,3,3,235,0xe0;0xe1,Difesa giù S;Difesa giù L,0,decoded static configuration
+86,0x18e54,0x0,0,695,70,70,380,0xd;0xe;0x1d;0x4b;0x27;0x53;0x53;0x55;0x31;0xe1;0xe0;0xda,Riduci tempo carica;Carica Rapida;Proiezione rapida;Colpo dell'aura alta velocità;Velocità colpo dell'aura Su;Durata svenimento giù M;Durata svenimento giù M;Durata paralisi giù M;Segreti dell'evanescente;Difesa giù L;Difesa giù S;Potere difensivo giù,0,decoded static configuration
+86,0x18e54,0x0,1,694,35,35,378,0x17;0x26;0x2d;0x5c;0xeb;0xec;0x2;0xe1;0xe0;0xda,Scatto estremo;Recupero aura con scatto L;Segreti dello slancio;Capriola elegante;Potenza attacco Speciale Giù;Potenza Attacco Supremo Giù;Attacco con Scatto Su L;Difesa giù L;Difesa giù S;Potere difensivo giù,0,decoded static configuration
+87,0x18eb0,0x0,0,844,73,73,268,0xd;0xe;0x1d;0x4b;0x27;0x5c;0x53;0x55;0x10;0xe1,Riduci tempo carica;Carica Rapida;Proiezione rapida;Colpo dell'aura alta velocità;Velocità colpo dell'aura Su;Capriola elegante;Durata svenimento giù M;Durata paralisi giù M;Tempo Extra Spinta al Muro L;Difesa giù L,0,decoded static configuration
+87,0x18eb0,0x0,1,843,33,33,390,0xe1;0xe0;0xda;0x11d;0x16a;0x67,Difesa giù L;Difesa giù S;Potere difensivo giù;Super Recupero Salute II;2° Trasformazione al cambio per KO;Recupero Salute automatico,0,decoded static configuration
+88,0x18f0c,0x0,0,841,52,52,190,0xe0;0xe1;0xda,Difesa giù S;Difesa giù L;Potere difensivo giù,0,decoded static configuration
+88,0x18f0c,0x0,1,842,61,61,195,0xe0;0xe1;0xda,Difesa giù S;Difesa giù L;Potere difensivo giù,0,decoded static configuration
+88,0x18f0c,0x0,2,515,66,66,230,0xe0;0xe1,Difesa giù S;Difesa giù L,0,decoded static configuration
+88,0x18f0c,0x0,3,830,99,99,268,0xd;0xe;0x1d;0x4b;0x27;0x5c;0x53;0x55;0x10;0xe1,Riduci tempo carica;Carica Rapida;Proiezione rapida;Colpo dell'aura alta velocità;Velocità colpo dell'aura Su;Capriola elegante;Durata svenimento giù M;Durata paralisi giù M;Tempo Extra Spinta al Muro L;Difesa giù L,0,decoded static configuration
+89,0x18f68,0x0,0,597,46,46,217,0xe0;0xe1,Difesa giù S;Difesa giù L,0,decoded static configuration
+90,0x18fc4,0x0,0,570,14,14,220,0xe0;0xe1,Difesa giù S;Difesa giù L,0,decoded static configuration
+91,0x19020,0x0,0,740,54,54,397,0xe1;0xe0;0x120,Difesa giù L;Difesa giù S;Super Recupero Salute V,0,decoded static configuration
+91,0x19020,0x0,1,741,55,55,397,0xe1;0xe0;0x120,Difesa giù L;Difesa giù S;Super Recupero Salute V,0,decoded static configuration
+92,0x1907c,0x0,0,742,74,74,384,0xe1;0xe0;0x11f,Difesa giù L;Difesa giù S;Super Recupero Salute IV,0,decoded static configuration
+92,0x1907c,0x0,1,743,38,38,384,0xe1;0xe0;0x11f,Difesa giù L;Difesa giù S;Super Recupero Salute IV,0,decoded static configuration
+92,0x1907c,0x0,2,744,91,91,384,0xe1;0xe0;0x11f,Difesa giù L;Difesa giù S;Super Recupero Salute IV,0,decoded static configuration
+93,0x190d8,0x0,0,567,0,0,312,0xe1;0xe0;0x7;0x4;0x80;0x81;0x13c;0x11d;0x67,Difesa giù L;Difesa giù S;Attacco Dirompente su M;Attacco Caricato su M;Totale sicurezza di se;Scatto Spirito di combattimento;1/10 danno Attacco Speciale I;Super Recupero Salute II;Recupero Salute automatico,0,decoded static configuration
+94,0x19134,0x0,0,720,48,48,265,0x4b;0x22;0x23;0x24;0x27;0x4c;0x3a;0x74;0x6d;0x71;0xe1,Colpo dell'aura alta velocità;Velocità colpo dell'aura su;Capacità colpo aura Mirata su;Consumo colpo dell'aura giù;Velocità colpo dell'aura Su;Colpo dell'aura magnetico;Controllo dell'aura;Potenza schermaglia su M;Potenza attacco speciale su M;Potenza attacco supremo su L;Difesa giù L,0,decoded static configuration
+95,0x19190,0x0,0,551,77,77,187,0xe0;0xe1;0xda,Difesa giù S;Difesa giù L;Potere difensivo giù,0,decoded static configuration
+95,0x19190,0x0,1,613,10,10,242,0x7;0x4;0x1;0xe1,Attacco Dirompente su M;Attacco Caricato su M;Attacco con Scatto Su M;Difesa giù L,0,decoded static configuration
+96,0x191ec,0xffffffff,,3,,,,,,,opaque special group
+97,0x19248,0x0,0,612,30,30,187,0xe0;0xe1;0xda,Difesa giù S;Difesa giù L;Potere difensivo giù,0,decoded static configuration
+97,0x19248,0x0,1,645,28,28,217,0xe0;0xe1,Difesa giù S;Difesa giù L,0,decoded static configuration
+97,0x19248,0x0,2,792,21,21,47,0x27;0x6e,Velocità colpo dell'aura Su;Potenza attacco speciale su L,0,decoded static configuration
+98,0x192a4,0x0,0,793,3,3,674,0xe1;0xe0;0x140;0x169,Difesa giù L;Difesa giù S;Inizio Animo Furioso;1° Trasformazione al cambio per KO,0,decoded static configuration
+99,0x19300,0x0,0,795,31,31,385,0xe1;0xe0;0x120,Difesa giù L;Difesa giù S;Super Recupero Salute V,0,decoded static configuration
+100,0x1935c,0x0,0,688,93,93,375,0xe1;0xe0;0x138;0x11d;0x67,Difesa giù L;Difesa giù S;Punto di Morte I;Super Recupero Salute II;Recupero Salute automatico,0,decoded static configuration
+101,0x193b8,0x0,0,515,66,66,230,0xe0;0xe1,Difesa giù S;Difesa giù L,0,decoded static configuration
+102,0x19414,0x0,0,796,31,31,321,0xe1;0xe0;0x148;0x151;0x169,Difesa giù L;Difesa giù S;Animo Furioso quando rimangono 2 indicatori di salute;CPU molto più forte quando rimangono 3 indicatori di salute;1° Trasformazione al cambio per KO,0,decoded static configuration
+103,0x19470,0x0,0,508,11,11,217,0xe0;0xe1,Difesa giù S;Difesa giù L,0,decoded static configuration
+103,0x19470,0x0,1,798,33,33,258,0x8;0x5;0xe1;0xe0,Attacco Dirompente su L;Attacco Caricato su L;Difesa giù L;Difesa giù S,0,decoded static configuration
+104,0x194cc,0x0,0,804,14,14,296,0xe1;0xe0;0x11d;0x67,Difesa giù L;Difesa giù S;Super Recupero Salute II;Recupero Salute automatico,0,decoded static configuration
+105,0x19528,0x0,0,805,2,2,389,0x6d;0x6e;0x71;0xc;0x71;0x5c;0x15d;0x16a;0x169,Potenza attacco speciale su M;Potenza attacco speciale su L;Potenza attacco supremo su L;Attacco Animo furioso Su;Potenza attacco supremo su L;Capriola elegante;3°Trasformazione quando rimangono 3 indicatori di salute;2° Trasformazione al cambio per KO;1° Trasformazione al cambio per KO,0,decoded static configuration
+105,0x19528,0x0,1,806,20,20,390,0xe1;0xe0;0xda;0x11d;0x16a;0x67,Difesa giù L;Difesa giù S;Potere difensivo giù;Super Recupero Salute II;2° Trasformazione al cambio per KO;Recupero Salute automatico,0,decoded static configuration
+106,0x19584,0x0,0,801,13,13,324,0xe1;0xe0,Difesa giù L;Difesa giù S,0,decoded static configuration
+106,0x19584,0x0,1,802,12,12,324,0xe1;0xe0,Difesa giù L;Difesa giù S,0,decoded static configuration
+106,0x19584,0x0,2,803,55,55,324,0xe1;0xe0,Difesa giù L;Difesa giù S,0,decoded static configuration
+107,0x195e0,0x0,0,799,73,73,674,0xe1;0xe0;0x140;0x169,Difesa giù L;Difesa giù S;Inizio Animo Furioso;1° Trasformazione al cambio per KO,0,decoded static configuration
+108,0x1963c,0x0,0,939,70,70,715,0x17;0x26;0x2d;0x18;0xeb;0xec;0x2;0xe1;0x13f,Scatto estremo;Recupero aura con scatto L;Segreti dello slancio;Sul serio!;Potenza attacco Speciale Giù;Potenza Attacco Supremo Giù;Attacco con Scatto Su L;Difesa giù L;100% Evanescente II,0,decoded static configuration
+109,0x19698,0x0,0,800,35,35,271,0x3c;0x29;0x3a;0x4a;0x18;0x53;0x6a;0xc3;0xe1,Potenza gigantesca;Recupero aura automatico;Controllo dell'aura;Tempo extra animo furioso;Sul serio!;Durata svenimento giù M;Miraggio;Potenza mischia suprema su;Difesa giù L,0,decoded static configuration
+110,0x196f4,0x0,0,1026,13,13,340,0xe0;0xe1;0x13e,Difesa giù S;Difesa giù L;100% Evanescente I,0,decoded static configuration
+110,0x196f4,0x0,1,809,12,12,248,0x0;0xe1;0xe0,UNKNOWN;Difesa giù L;Difesa giù S,0,decoded static configuration
+110,0x196f4,0x0,2,808,92,92,185,0xe0;0xe1;0xda,Difesa giù S;Difesa giù L;Potere difensivo giù,0,decoded static configuration
+111,0x19750,0x0,0,663,84,84,217,0xe0;0xe1,Difesa giù S;Difesa giù L,0,decoded static configuration
+111,0x19750,0x0,1,810,85,85,254,0x1;0x7;0xe1;0xe0,Attacco con Scatto Su M;Attacco Dirompente su M;Difesa giù L;Difesa giù S,0,decoded static configuration
+112,0x197ac,0x0,0,763,94,94,663,0xe1;0xe0;0xda;0x143,Difesa giù L;Difesa giù S;Potere difensivo giù;CPU più forte (Grande) con il passare del tempo,0,decoded static configuration
+112,0x197ac,0x0,1,764,95,95,663,0xe1;0xe0;0xda;0x143,Difesa giù L;Difesa giù S;Potere difensivo giù;CPU più forte (Grande) con il passare del tempo,0,decoded static configuration
+112,0x197ac,0x0,2,762,82,82,342,0xe1;0xe0;0x143,Difesa giù L;Difesa giù S;CPU più forte (Grande) con il passare del tempo,0,decoded static configuration
+113,0x19808,0x0,0,811,96,96,256,0x27;0x6d;0xe1;0xe0,Velocità colpo dell'aura Su;Potenza attacco speciale su M;Difesa giù L;Difesa giù S,0,decoded static configuration
+113,0x19808,0x0,1,812,97,97,187,0xe0;0xe1;0xda,Difesa giù S;Difesa giù L;Potere difensivo giù,0,decoded static configuration
+113,0x19808,0x0,2,813,98,98,187,0xe0;0xe1;0xda,Difesa giù S;Difesa giù L;Potere difensivo giù,0,decoded static configuration
+113,0x19808,0x0,3,814,79,79,262,0x27;0x6e;0xe1;0xe0,Velocità colpo dell'aura Su;Potenza attacco speciale su L;Difesa giù L;Difesa giù S,0,decoded static configuration
+114,0x19864,0x0,0,541,27,27,217,0xe0;0xe1,Difesa giù S;Difesa giù L,0,decoded static configuration
+114,0x19864,0x0,1,540,29,29,217,0xe0;0xe1,Difesa giù S;Difesa giù L,0,decoded static configuration
+114,0x19864,0x0,2,766,11,11,366,0xe0;0xe1;0xda;0x19;0x33;0x74;0x17;0x16a,Difesa giù S;Difesa giù L;Potere difensivo giù;Contrattacco Dirompente;Segreti del contrattacco;Potenza schermaglia su M;Scatto estremo;2° Trasformazione al cambio per KO,0,decoded static configuration
+114,0x19864,0x0,3,689,73,73,262,0x27;0x6e;0xe1;0xe0,Velocità colpo dell'aura Su;Potenza attacco speciale su L;Difesa giù L;Difesa giù S,0,decoded static configuration
+115,0x198c0,0xffffffff,,4,,,,,,,opaque special group
+116,0x1991c,0x0,0,817,65,65,366,0xe0;0xe1;0xda;0x19;0x33;0x74;0x17;0x16a,Difesa giù S;Difesa giù L;Potere difensivo giù;Contrattacco Dirompente;Segreti del contrattacco;Potenza schermaglia su M;Scatto estremo;2° Trasformazione al cambio per KO,0,decoded static configuration
+117,0x19978,0x0,0,815,3,3,358,0xe0;0xe1;0xda;0x27;0x147;0x146;0xd7;0x16a,Difesa giù S;Difesa giù L;Potere difensivo giù;Velocità colpo dell'aura Su;Animo Furioso quando rimane 1 indicatore di salute;Cpu più debole (Grande) con il passare del tempo;Tempo extra super alta tensione;2° Trasformazione al cambio per KO,0,decoded static configuration
+117,0x19978,0x0,1,816,20,20,357,0xe0;0xe1;0xda;0x27;0x147;0x146;0xd7;0x16a,Difesa giù S;Difesa giù L;Potere difensivo giù;Velocità colpo dell'aura Su;Animo Furioso quando rimane 1 indicatore di salute;Cpu più debole (Grande) con il passare del tempo;Tempo extra super alta tensione;2° Trasformazione al cambio per KO,0,decoded static configuration
+118,0x199d4,0x0,0,508,11,11,217,0xe0;0xe1,Difesa giù S;Difesa giù L,0,decoded static configuration
+118,0x199d4,0x0,1,622,54,54,190,0xe0;0xe1;0xda,Difesa giù S;Difesa giù L;Potere difensivo giù,0,decoded static configuration
+118,0x199d4,0x0,2,782,53,53,256,0x27;0x6d;0xe1;0xe0,Velocità colpo dell'aura Su;Potenza attacco speciale su M;Difesa giù L;Difesa giù S,0,decoded static configuration
+119,0x19a30,0x0,0,783,14,14,671,0xe0;0xe1;0xda;0x27;0x3f;0x146;0xd7,Difesa giù S;Difesa giù L;Potere difensivo giù;Velocità colpo dell'aura Su;Inizio alta tensione;Cpu più debole (Grande) con il passare del tempo;Tempo extra super alta tensione,0,decoded static configuration
+119,0x19a30,0x0,1,621,53,53,195,0xe0;0xe1;0xda,Difesa giù S;Difesa giù L;Potere difensivo giù,0,decoded static configuration
+119,0x19a30,0x0,2,582,55,55,190,0xe0;0xe1;0xda,Difesa giù S;Difesa giù L;Potere difensivo giù,0,decoded static configuration
+120,0x19a8c,0x0,0,787,1,1,675,0xe0;0xe1;0xda;0x27;0x147;0x146;0xd7,Difesa giù S;Difesa giù L;Potere difensivo giù;Velocità colpo dell'aura Su;Animo Furioso quando rimane 1 indicatore di salute;Cpu più debole (Grande) con il passare del tempo;Tempo extra super alta tensione,0,decoded static configuration
+121,0x19ae8,0x0,0,784,19,19,672,0xe0;0xe1;0x140;0x16a;0x169,Difesa giù S;Difesa giù L;Inizio Animo Furioso;2° Trasformazione al cambio per KO;1° Trasformazione al cambio per KO,0,decoded static configuration
+121,0x19ae8,0x0,1,785,25,25,673,0xe0;0xe1;0x140;0x166;0x169,Difesa giù S;Difesa giù L;Inizio Animo Furioso;Evolizione CPU al Cambio per KO;1° Trasformazione al cambio per KO,0,decoded static configuration
+122,0x19b44,0x0,0,790,51,51,297,0xe1;0xe0;0x11d;0x67,Difesa giù L;Difesa giù S;Super Recupero Salute II;Recupero Salute automatico,0,decoded static configuration
+123,0x19ba0,0x0,0,791,92,92,271,0x3c;0x29;0x3a;0x4a;0x18;0x53;0x6a;0xc3;0xe1,Potenza gigantesca;Recupero aura automatico;Controllo dell'aura;Tempo extra animo furioso;Sul serio!;Durata svenimento giù M;Miraggio;Potenza mischia suprema su;Difesa giù L,0,decoded static configuration
+124,0x19bfc,0x0,0,698,73,73,355,0xe0;0xe1;0xda;0xc;0x145;0x144;0x143;0x13c;0x16a,Difesa giù S;Difesa giù L;Potere difensivo giù;Attacco Animo furioso Su;Cpu più debole (Medio) con il passare del tempo;Cpu più debole (Piccolo) con il passare del tempo;CPU più forte (Grande) con il passare del tempo;1/10 danno Attacco Speciale I;2° Trasformazione al cambio per KO,0,decoded static configuration
+124,0x19bfc,0x0,1,643,89,89,352,0xe1;0xe0;0x169;0xf9,Difesa giù L;Difesa giù S;1° Trasformazione al cambio per KO;Super Guerriero,0,decoded static configuration
+125,0x19c58,0x0,0,788,6,6,676,0x87;0xf8;0xc8;0x42;0x14c;0x169;0x146;0xe1;0x155,Abiti strappati;Potere ereditario;Super serio!;Atteggiamento!;CPU più forte quando rimane 1 indicatore di salute;1° Trasformazione al cambio per KO;Cpu più debole (Grande) con il passare del tempo;Difesa giù L;1°Trasformazione quando rimane 1 indicatore di salute,0,decoded static configuration
+126,0x19cb4,0x0,0,858,14,14,313,0xe1;0xe0;0xda;0x129,Difesa giù L;Difesa giù S;Potere difensivo giù;Perdita automatica salute II,0,decoded static configuration
+126,0x19cb4,0x0,1,577,13,13,313,0xe1;0xe0;0xda;0x129,Difesa giù L;Difesa giù S;Potere difensivo giù;Perdita automatica salute II,0,decoded static configuration
+126,0x19cb4,0x0,2,859,1,1,344,0xe1;0xe0;0x129,Difesa giù L;Difesa giù S;Perdita automatica salute II,0,decoded static configuration
+127,0x19d10,0x0,0,633,25,25,190,0xe0;0xe1;0xda,Difesa giù S;Difesa giù L;Potere difensivo giù,0,decoded static configuration
+127,0x19d10,0x0,1,860,18,18,682,0xe0;0xe1;0xda;0x13;0x14;0x15;0x16;0xd;0x17,Difesa giù S;Difesa giù L;Potere difensivo giù;Attacco Segugio 1 su S;Attacco Segugio 1 su L;Attacco Segugio 2 su S;Attacco Segugio 2 su L;Riduci tempo carica;Scatto estremo,0,decoded static configuration
+127,0x19d10,0x0,2,861,11,11,187,0xe0;0xe1;0xda,Difesa giù S;Difesa giù L;Potere difensivo giù,0,decoded static configuration
+127,0x19d10,0x0,3,862,12,12,185,0xe0;0xe1;0xda,Difesa giù S;Difesa giù L;Potere difensivo giù,0,decoded static configuration
+128,0x19d6c,0x0,0,863,76,76,279,0xe1;0xe0;0xe4;0x16a;0x162,Difesa giù L;Difesa giù S;Salute giù M;2° Trasformazione al cambio per KO;Cambio quando rimangono 2 indicatori di salute,0,decoded static configuration
+128,0x19d6c,0x0,1,864,76,76,282,0xe1;0xe0;0xe4;0x16a,Difesa giù L;Difesa giù S;Salute giù M;2° Trasformazione al cambio per KO,0,decoded static configuration
+128,0x19d6c,0x0,2,865,76,76,280,0xe1;0xe0;0xe3;0x16a;0x162,Difesa giù L;Difesa giù S;Salute giù S;2° Trasformazione al cambio per KO;Cambio quando rimangono 2 indicatori di salute,0,decoded static configuration
+128,0x19d6c,0x0,3,629,76,76,278,0xe1;0xe0;0xe4;0x16a;0x163,Difesa giù L;Difesa giù S;Salute giù M;2° Trasformazione al cambio per KO;Cambio quando rimangono 3 indicatori di salute,0,decoded static configuration
+128,0x19d6c,0x0,4,630,76,76,334,0xe1;0xe0;0xe3;0x16a;0x164,Difesa giù L;Difesa giù S;Salute giù S;2° Trasformazione al cambio per KO;Animo furioso al cambio per KO,0,decoded static configuration
+129,0x19dc8,0x0,0,757,61,61,309,0xe1;0xe0;0x11d;0x13e;0x67,Difesa giù L;Difesa giù S;Super Recupero Salute II;100% Evanescente I;Recupero Salute automatico,0,decoded static configuration
+130,0x19e24,0x0,0,788,6,6,676,0x87;0xf8;0xc8;0x42;0x14c;0x169;0x146;0xe1;0x155,Abiti strappati;Potere ereditario;Super serio!;Atteggiamento!;CPU più forte quando rimane 1 indicatore di salute;1° Trasformazione al cambio per KO;Cpu più debole (Grande) con il passare del tempo;Difesa giù L;1°Trasformazione quando rimane 1 indicatore di salute,0,decoded static configuration
+131,0x19e80,0x0,0,676,12,12,286,0xe1;0xe0;0x13d,Difesa giù L;Difesa giù S;1/10 danno Attacco Speciale II,0,decoded static configuration
+132,0x19edc,0x0,0,1055,74,74,770,0xe1;0xe0;0xe4;0xc;0x145;0x144;0x143;0x13c;0x16a,Difesa giù L;Difesa giù S;Salute giù M;Attacco Animo furioso Su;Cpu più debole (Medio) con il passare del tempo;Cpu più debole (Piccolo) con il passare del tempo;CPU più forte (Grande) con il passare del tempo;1/10 danno Attacco Speciale I;2° Trasformazione al cambio per KO,0,decoded static configuration
+132,0x19edc,0x0,1,1055,74,74,770,0xe1;0xe0;0xe4;0xc;0x145;0x144;0x143;0x13c;0x16a,Difesa giù L;Difesa giù S;Salute giù M;Attacco Animo furioso Su;Cpu più debole (Medio) con il passare del tempo;Cpu più debole (Piccolo) con il passare del tempo;CPU più forte (Grande) con il passare del tempo;1/10 danno Attacco Speciale I;2° Trasformazione al cambio per KO,0,decoded static configuration
+132,0x19edc,0x0,2,675,16,16,354,0xe0;0xe1;0xda;0xc;0x145;0x144;0x143;0x13c;0x16a,Difesa giù S;Difesa giù L;Potere difensivo giù;Attacco Animo furioso Su;Cpu più debole (Medio) con il passare del tempo;Cpu più debole (Piccolo) con il passare del tempo;CPU più forte (Grande) con il passare del tempo;1/10 danno Attacco Speciale I;2° Trasformazione al cambio per KO,0,decoded static configuration
+133,0x19f38,0x0,0,1053,47,47,771,0xe1;0xe0;0xda;0x84,Difesa giù L;Difesa giù S;Potere difensivo giù;abiti strappati,0,decoded static configuration
+134,0x19f94,0x0,0,679,56,56,374,0xe1;0xe0;0xda;0x13d;0x16a,Difesa giù L;Difesa giù S;Potere difensivo giù;1/10 danno Attacco Speciale II;2° Trasformazione al cambio per KO,0,decoded static configuration
+134,0x19f94,0x0,1,680,57,57,374,0xe1;0xe0;0xda;0x13d;0x16a,Difesa giù L;Difesa giù S;Potere difensivo giù;1/10 danno Attacco Speciale II;2° Trasformazione al cambio per KO,0,decoded static configuration
+134,0x19f94,0x0,2,681,76,76,374,0xe1;0xe0;0xda;0x13d;0x16a,Difesa giù L;Difesa giù S;Potere difensivo giù;1/10 danno Attacco Speciale II;2° Trasformazione al cambio per KO,0,decoded static configuration
+134,0x19f94,0x0,3,682,61,61,374,0xe1;0xe0;0xda;0x13d;0x16a,Difesa giù L;Difesa giù S;Potere difensivo giù;1/10 danno Attacco Speciale II;2° Trasformazione al cambio per KO,0,decoded static configuration
+135,0x19ff0,0x0,0,678,14,14,373,0xe1;0xe0;0x146;0x14c,Difesa giù L;Difesa giù S;Cpu più debole (Grande) con il passare del tempo;CPU più forte quando rimane 1 indicatore di salute,0,decoded static configuration
+136,0x1a04c,0x0,0,877,4,4,187,0xe0;0xe1;0xda,Difesa giù S;Difesa giù L;Potere difensivo giù,0,decoded static configuration
+137,0x1a0a8,0x0,0,878,47,47,687,0xe1;0xe0;0x11b,Difesa giù L;Difesa giù S;Sigillo 100% Evanescente II,0,decoded static configuration
+138,0x1a104,0x0,0,883,45,45,386,0xe1;0xe0;0x121,Difesa giù L;Difesa giù S;Super Recupero Salute X,0,decoded static configuration
+138,0x1a104,0x0,1,884,46,46,386,0xe1;0xe0;0x121,Difesa giù L;Difesa giù S;Super Recupero Salute X,0,decoded static configuration
+139,0x1a160,0x0,0,812,97,97,187,0xe0;0xe1;0xda,Difesa giù S;Difesa giù L;Potere difensivo giù,0,decoded static configuration
+139,0x1a160,0x0,1,813,98,98,187,0xe0;0xe1;0xda,Difesa giù S;Difesa giù L;Potere difensivo giù,0,decoded static configuration
+139,0x1a160,0x0,2,811,96,96,256,0x27;0x6d;0xe1;0xe0,Velocità colpo dell'aura Su;Potenza attacco speciale su M;Difesa giù L;Difesa giù S,0,decoded static configuration
+140,0x1a1bc,0x0,0,885,44,44,689,0xe1;0xe0;0xda;0x141,Difesa giù L;Difesa giù S;Potere difensivo giù;CPU più forte (Piccolo) con il passare del tempo,0,decoded static configuration
+140,0x1a1bc,0x0,1,886,43,43,690,0xe1;0xe0;0x11d;0x140;0x67,Difesa giù L;Difesa giù S;Super Recupero Salute II;Inizio Animo Furioso;Recupero Salute automatico,0,decoded static configuration
+141,0x1a218,0x0,0,948,11,11,717,0xe1;0xe0;0xda;0x143,Difesa giù L;Difesa giù S;Potere difensivo giù;CPU più forte (Grande) con il passare del tempo,0,decoded static configuration
+142,0x1a274,0x0,0,881,52,52,338,0xe0;0xe1;0x129,Difesa giù S;Difesa giù L;Perdita automatica salute II,0,decoded static configuration
+142,0x1a274,0x0,1,882,1,1,268,0xd;0xe;0x1d;0x4b;0x27;0x5c;0x53;0x55;0x10;0xe1,Riduci tempo carica;Carica Rapida;Proiezione rapida;Colpo dell'aura alta velocità;Velocità colpo dell'aura Su;Capriola elegante;Durata svenimento giù M;Durata paralisi giù M;Tempo Extra Spinta al Muro L;Difesa giù L,0,decoded static configuration
+143,0x1a2d0,0x0,0,880,0,0,271,0x3c;0x29;0x3a;0x4a;0x18;0x53;0x6a;0xc3;0xe1,Potenza gigantesca;Recupero aura automatico;Controllo dell'aura;Tempo extra animo furioso;Sul serio!;Durata svenimento giù M;Miraggio;Potenza mischia suprema su;Difesa giù L,0,decoded static configuration
+144,0x1a32c,0x0,0,503,47,47,185,0xe0;0xe1;0xda,Difesa giù S;Difesa giù L;Potere difensivo giù,0,decoded static configuration
+145,0x1a388,0x0,0,523,42,42,187,0xe0;0xe1;0xda,Difesa giù S;Difesa giù L;Potere difensivo giù,0,decoded static configuration
+145,0x1a388,0x0,1,594,40,40,321,0xe1;0xe0;0x148;0x151;0x169,Difesa giù L;Difesa giù S;Animo Furioso quando rimangono 2 indicatori di salute;CPU molto più forte quando rimangono 3 indicatori di salute;1° Trasformazione al cambio per KO,0,decoded static configuration
+146,0x1a3e4,0x0,0,1048,16,16,195,0xe0;0xe1;0xda,Difesa giù S;Difesa giù L;Potere difensivo giù,0,decoded static configuration
+147,0x1a440,0x0,0,886,43,43,690,0xe1;0xe0;0x11d;0x140;0x67,Difesa giù L;Difesa giù S;Super Recupero Salute II;Inizio Animo Furioso;Recupero Salute automatico,0,decoded static configuration
+148,0x1a49c,0x0,0,715,48,48,379,0x29;0x3a;0x52;0x18;0x6a;0x3c;0x71;0xe1;0xe0,Recupero aura automatico;Controllo dell'aura;Durata svenimento giù S;Sul serio!;Miraggio;Potenza gigantesca;Potenza attacco supremo su L;Difesa giù L;Difesa giù S,0,decoded static configuration
+149,0x1a4f8,0x0,0,934,71,71,713,0xe0;0xe1;0xf9;0x81;0x82;0x42;0x11a,Difesa giù S;Difesa giù L;Super Guerriero;Scatto Spirito di combattimento;Dignità dell'imperatore;Atteggiamento!;Sigillo 100% Evanescente I,0,decoded static configuration
+150,0x1a554,0x0,0,867,36,36,363,0xe0;0xe1;0xda;0x13;0x14;0x15;0x16;0xd;0x17;0x16a,Difesa giù S;Difesa giù L;Potere difensivo giù;Attacco Segugio 1 su S;Attacco Segugio 1 su L;Attacco Segugio 2 su S;Attacco Segugio 2 su L;Riduci tempo carica;Scatto estremo;2° Trasformazione al cambio per KO,0,decoded static configuration
+151,0x1a5b0,0x0,0,496,12,12,215,0xe0;0xe1,Difesa giù S;Difesa giù L,0,decoded static configuration
+151,0x1a5b0,0x0,1,766,11,11,366,0xe0;0xe1;0xda;0x19;0x33;0x74;0x17;0x16a,Difesa giù S;Difesa giù L;Potere difensivo giù;Contrattacco Dirompente;Segreti del contrattacco;Potenza schermaglia su M;Scatto estremo;2° Trasformazione al cambio per KO,0,decoded static configuration
+152,0x1a60c,0x0,0,871,73,73,299,0xe1;0xe0;0x11d;0x67,Difesa giù L;Difesa giù S;Super Recupero Salute II;Recupero Salute automatico,0,decoded static configuration
+153,0x1a668,0x0,0,652,27,27,321,0xe1;0xe0;0x148;0x151;0x169,Difesa giù L;Difesa giù S;Animo Furioso quando rimangono 2 indicatori di salute;CPU molto più forte quando rimangono 3 indicatori di salute;1° Trasformazione al cambio per KO,0,decoded static configuration
+153,0x1a668,0x0,1,696,29,29,321,0xe1;0xe0;0x148;0x151;0x169,Difesa giù L;Difesa giù S;Animo Furioso quando rimangono 2 indicatori di salute;CPU molto più forte quando rimangono 3 indicatori di salute;1° Trasformazione al cambio per KO,0,decoded static configuration
+154,0x1a6c4,0x0,0,868,21,21,682,0xe0;0xe1;0xda;0x13;0x14;0x15;0x16;0xd;0x17,Difesa giù S;Difesa giù L;Potere difensivo giù;Attacco Segugio 1 su S;Attacco Segugio 1 su L;Attacco Segugio 2 su S;Attacco Segugio 2 su L;Riduci tempo carica;Scatto estremo,0,decoded static configuration
+155,0x1a720,0x0,0,872,62,62,309,0xe1;0xe0;0x11d;0x13e;0x67,Difesa giù L;Difesa giù S;Super Recupero Salute II;100% Evanescente I;Recupero Salute automatico,0,decoded static configuration
+156,0x1a77c,0x0,0,869,9,9,772,0xe1;0xe0;0x144;0x149;0x155;0x169,Difesa giù L;Difesa giù S;Cpu più debole (Piccolo) con il passare del tempo;Animo Furioso quando rimangono 3 indicatori di salute;1°Trasformazione quando rimane 1 indicatore di salute;1° Trasformazione al cambio per KO,0,decoded static configuration
+157,0x1a7d8,0x0,0,496,12,12,215,0xe0;0xe1,Difesa giù S;Difesa giù L,0,decoded static configuration
+157,0x1a7d8,0x0,1,533,4,4,215,0xe0;0xe1,Difesa giù S;Difesa giù L,0,decoded static configuration
+158,0x1a834,0x0,0,756,90,90,190,0xe0;0xe1;0xda,Difesa giù S;Difesa giù L;Potere difensivo giù,0,decoded static configuration
+158,0x1a834,0x0,1,766,11,11,366,0xe0;0xe1;0xda;0x19;0x33;0x74;0x17;0x16a,Difesa giù S;Difesa giù L;Potere difensivo giù;Contrattacco Dirompente;Segreti del contrattacco;Potenza schermaglia su M;Scatto estremo;2° Trasformazione al cambio per KO,0,decoded static configuration
+159,0x1a890,0x0,0,629,76,76,278,0xe1;0xe0;0xe4;0x16a;0x163,Difesa giù L;Difesa giù S;Salute giù M;2° Trasformazione al cambio per KO;Cambio quando rimangono 3 indicatori di salute,0,decoded static configuration
+159,0x1a890,0x0,1,630,76,76,334,0xe1;0xe0;0xe3;0x16a;0x164,Difesa giù L;Difesa giù S;Salute giù S;2° Trasformazione al cambio per KO;Animo furioso al cambio per KO,0,decoded static configuration
+159,0x1a890,0x0,2,630,76,76,334,0xe1;0xe0;0xe3;0x16a;0x164,Difesa giù L;Difesa giù S;Salute giù S;2° Trasformazione al cambio per KO;Animo furioso al cambio per KO,0,decoded static configuration
+160,0x1a8ec,0x0,0,718,16,16,357,0xe0;0xe1;0xda;0x27;0x147;0x146;0xd7;0x16a,Difesa giù S;Difesa giù L;Potere difensivo giù;Velocità colpo dell'aura Su;Animo Furioso quando rimane 1 indicatore di salute;Cpu più debole (Grande) con il passare del tempo;Tempo extra super alta tensione;2° Trasformazione al cambio per KO,0,decoded static configuration
+160,0x1a8ec,0x0,1,719,0,0,357,0xe0;0xe1;0xda;0x27;0x147;0x146;0xd7;0x16a,Difesa giù S;Difesa giù L;Potere difensivo giù;Velocità colpo dell'aura Su;Animo Furioso quando rimane 1 indicatore di salute;Cpu più debole (Grande) con il passare del tempo;Tempo extra super alta tensione;2° Trasformazione al cambio per KO,0,decoded static configuration
+161,0x1a948,0x0,0,721,51,51,300,0xe1;0xe0;0x11d;0x67,Difesa giù L;Difesa giù S;Super Recupero Salute II;Recupero Salute automatico,0,decoded static configuration
+162,0x1a9a4,0x0,0,720,48,48,265,0x4b;0x22;0x23;0x24;0x27;0x4c;0x3a;0x74;0x6d;0x71;0xe1,Colpo dell'aura alta velocità;Velocità colpo dell'aura su;Capacità colpo aura Mirata su;Consumo colpo dell'aura giù;Velocità colpo dell'aura Su;Colpo dell'aura magnetico;Controllo dell'aura;Potenza schermaglia su M;Potenza attacco speciale su M;Potenza attacco supremo su L;Difesa giù L,0,decoded static configuration
+163,0x1aa00,0x0,0,533,4,4,215,0xe0;0xe1,Difesa giù S;Difesa giù L,0,decoded static configuration
+163,0x1aa00,0x0,1,770,12,12,217,0xe0;0xe1,Difesa giù S;Difesa giù L,0,decoded static configuration
+164,0x1aa5c,0x0,0,961,47,47,698,0xe1;0xe0;0x13e,Difesa giù L;Difesa giù S;100% Evanescente I,0,decoded static configuration
+165,0x1aab8,0x0,0,722,46,46,393,0xe1;0xe0;0xda;0x164;0x16a,Difesa giù L;Difesa giù S;Potere difensivo giù;Animo furioso al cambio per KO;2° Trasformazione al cambio per KO,0,decoded static configuration
+165,0x1aab8,0x0,1,723,45,45,394,0xe1;0xe0;0x164;0x16a;0x29;0x3a;0x4c;0x18,Difesa giù L;Difesa giù S;Animo furioso al cambio per KO;2° Trasformazione al cambio per KO;Recupero aura automatico;Controllo dell'aura;Colpo dell'aura magnetico;Sul serio!,0,decoded static configuration
+166,0x1ab14,0x0,0,965,11,11,309,0xe1;0xe0;0x11d;0x13e;0x67,Difesa giù L;Difesa giù S;Super Recupero Salute II;100% Evanescente I;Recupero Salute automatico,0,decoded static configuration
+167,0x1ab70,0x0,0,729,43,43,272,0x6a;0x18;0xf9;0x123;0xa2,Miraggio;Sul serio!;Super Guerriero;Super Recupero Aura II;Aura al plasma,0,decoded static configuration
+168,0x1abcc,0x0,0,964,44,44,298,0xe1;0xe0;0x11d;0x67,Difesa giù L;Difesa giù S;Super Recupero Salute II;Recupero Salute automatico,0,decoded static configuration
+169,0x1ac28,0x0,0,962,97,97,768,0xe0;0xe1;0x6a;0x31;0x11c,Difesa giù S;Difesa giù L;Miraggio;Segreti dell'evanescente;Super Recupero Salute I,0,decoded static configuration
+169,0x1ac28,0x0,1,963,96,96,767,0xe0;0xe1;0x14;0x16;0xd;0x17;0x11c,Difesa giù S;Difesa giù L;Attacco Segugio 1 su L;Attacco Segugio 2 su L;Riduci tempo carica;Scatto estremo;Super Recupero Salute I,0,decoded static configuration
+170,0x1ac84,0x0,0,755,37,37,187,0xe0;0xe1;0xda,Difesa giù S;Difesa giù L;Potere difensivo giù,0,decoded static configuration
+171,0x1ace0,0x0,0,756,90,90,190,0xe0;0xe1;0xda,Difesa giù S;Difesa giù L;Potere difensivo giù,0,decoded static configuration
+172,0x1ad3c,0x0,0,533,4,4,215,0xe0;0xe1,Difesa giù S;Difesa giù L,0,decoded static configuration
+172,0x1ad3c,0x0,1,496,12,12,215,0xe0;0xe1,Difesa giù S;Difesa giù L,0,decoded static configuration
+173,0x1ad98,0x0,0,665,8,8,340,0xe0;0xe1;0x13e,Difesa giù S;Difesa giù L;100% Evanescente I,0,decoded static configuration
+174,0x1adf4,0x0,0,1054,11,11,769,0xe0;0xc;0x145;0x144;0x143;0x13c;0x16a,Difesa giù S;Attacco Animo furioso Su;Cpu più debole (Medio) con il passare del tempo;Cpu più debole (Piccolo) con il passare del tempo;CPU più forte (Grande) con il passare del tempo;1/10 danno Attacco Speciale I;2° Trasformazione al cambio per KO,0,decoded static configuration
+174,0x1adf4,0x0,1,675,16,16,354,0xe0;0xe1;0xda;0xc;0x145;0x144;0x143;0x13c;0x16a,Difesa giù S;Difesa giù L;Potere difensivo giù;Attacco Animo furioso Su;Cpu più debole (Medio) con il passare del tempo;Cpu più debole (Piccolo) con il passare del tempo;CPU più forte (Grande) con il passare del tempo;1/10 danno Attacco Speciale I;2° Trasformazione al cambio per KO,0,decoded static configuration
+175,0x1ae50,0x0,0,757,61,61,309,0xe1;0xe0;0x11d;0x13e;0x67,Difesa giù L;Difesa giù S;Super Recupero Salute II;100% Evanescente I;Recupero Salute automatico,0,decoded static configuration
+176,0x1aeac,0x0,0,527,81,181,283,0xe1;0xe0;0xe4;0x16a,Difesa giù L;Difesa giù S;Salute giù M;2° Trasformazione al cambio per KO,0,decoded static configuration
+176,0x1aeac,0x0,1,528,81,181,284,0xe1;0xe0;0xe4;0x16a,Difesa giù L;Difesa giù S;Salute giù M;2° Trasformazione al cambio per KO,0,decoded static configuration
+176,0x1aeac,0x0,2,588,81,81,225,0xe0;0xe1,Difesa giù S;Difesa giù L,0,decoded static configuration
+177,0x1af08,0x0,0,616,0,0,328,0xe1;0xe0;0x144;0x14c;0x152;0x169,Difesa giù L;Difesa giù S;Cpu più debole (Piccolo) con il passare del tempo;CPU più forte quando rimane 1 indicatore di salute;CPU super forte quando rimane 1 indicatore di salute;1° Trasformazione al cambio per KO,0,decoded static configuration
+178,0x1af64,0x0,0,500,56,56,187,0xe0;0xe1;0xda,Difesa giù S;Difesa giù L;Potere difensivo giù,0,decoded static configuration
+179,0x1afc0,0x0,0,855,34,34,298,0xe1;0xe0;0x11d;0x67,Difesa giù L;Difesa giù S;Super Recupero Salute II;Recupero Salute automatico,0,decoded static configuration
+180,0x1b01c,0x0,0,853,2,2,366,0xe0;0xe1;0xda;0x19;0x33;0x74;0x17;0x16a,Difesa giù S;Difesa giù L;Potere difensivo giù;Contrattacco Dirompente;Segreti del contrattacco;Potenza schermaglia su M;Scatto estremo;2° Trasformazione al cambio per KO,0,decoded static configuration
+181,0x1b078,0x0,0,506,46,46,190,0xe0;0xe1;0xda,Difesa giù S;Difesa giù L;Potere difensivo giù,0,decoded static configuration
+181,0x1b078,0x0,1,852,43,43,254,0x1;0x7;0xe1;0xe0,Attacco con Scatto Su M;Attacco Dirompente su M;Difesa giù L;Difesa giù S,0,decoded static configuration
+182,0x1b0d4,0xffffffff,,3,,,,,,,opaque special group
+183,0x1b130,0x0,0,856,96,96,249,0x1e;0xe1;0xe0,Colpi dell'aura su S;Difesa giù L;Difesa giù S,0,decoded static configuration
+183,0x1b130,0x0,1,857,79,79,264,0x27;0x2d;0x2f;0x29;0xda;0x5c;0x53;0xe1,Velocità colpo dell'aura Su;Segreti dello slancio;Segreti del super slancio;Recupero aura automatico;Potere difensivo giù;Capriola elegante;Durata svenimento giù M;Difesa giù L,0,decoded static configuration
+184,0x1b18c,0x0,0,854,23,23,244,0x38;0xf2;0xf1;0x80;0x123;0x13d;0xe1,Aura abilità peculiare ½;Istinti di un campione!;Super inarrestabile!;Totale sicurezza di se;Super Recupero Aura II;1/10 danno Attacco Speciale II;Difesa giù L,0,decoded static configuration
+185,0x1b1e8,0x0,0,523,42,42,187,0xe0;0xe1;0xda,Difesa giù S;Difesa giù L;Potere difensivo giù,0,decoded static configuration
+185,0x1b1e8,0x0,1,524,40,40,187,0xe0;0xe1;0xda,Difesa giù S;Difesa giù L;Potere difensivo giù,0,decoded static configuration
+186,0x1b244,0x0,0,665,8,8,340,0xe0;0xe1;0x13e,Difesa giù S;Difesa giù L;100% Evanescente I,0,decoded static configuration
+187,0x1b2a0,0x0,0,722,46,46,393,0xe1;0xe0;0xda;0x164;0x16a,Difesa giù L;Difesa giù S;Potere difensivo giù;Animo furioso al cambio per KO;2° Trasformazione al cambio per KO,0,decoded static configuration
+187,0x1b2a0,0x0,1,723,45,45,394,0xe1;0xe0;0x164;0x16a;0x29;0x3a;0x4c;0x18,Difesa giù L;Difesa giù S;Animo furioso al cambio per KO;2° Trasformazione al cambio per KO;Recupero aura automatico;Controllo dell'aura;Colpo dell'aura magnetico;Sul serio!,0,decoded static configuration
+188,0x1b2fc,0x0,0,857,79,79,264,0x27;0x2d;0x2f;0x29;0xda;0x5c;0x53;0xe1,Velocità colpo dell'aura Su;Segreti dello slancio;Segreti del super slancio;Recupero aura automatico;Potere difensivo giù;Capriola elegante;Durata svenimento giù M;Difesa giù L,0,decoded static configuration
+189,0x1b358,0x0,0,725,4,4,195,0xe0;0xe1;0xda,Difesa giù S;Difesa giù L;Potere difensivo giù,0,decoded static configuration
+189,0x1b358,0x0,1,726,12,12,364,0xe0;0xe1;0xda;0x13;0x14;0x15;0x16;0xd;0x17;0x16a,Difesa giù S;Difesa giù L;Potere difensivo giù;Attacco Segugio 1 su S;Attacco Segugio 1 su L;Attacco Segugio 2 su S;Attacco Segugio 2 su L;Riduci tempo carica;Scatto estremo;2° Trasformazione al cambio per KO,0,decoded static configuration
+189,0x1b358,0x0,2,727,43,43,326,0x27;0x2d;0x2f;0x29;0xda;0x53;0x81;0xe1,Velocità colpo dell'aura Su;Segreti dello slancio;Segreti del super slancio;Recupero aura automatico;Potere difensivo giù;Durata svenimento giù M;Scatto Spirito di combattimento;Difesa giù L,0,decoded static configuration
+190,0x1b3b4,0x0,0,724,48,48,355,0xe0;0xe1;0xda;0xc;0x145;0x144;0x143;0x13c;0x16a,Difesa giù S;Difesa giù L;Potere difensivo giù;Attacco Animo furioso Su;Cpu più debole (Medio) con il passare del tempo;Cpu più debole (Piccolo) con il passare del tempo;CPU più forte (Grande) con il passare del tempo;1/10 danno Attacco Speciale I;2° Trasformazione al cambio per KO,0,decoded static configuration
+191,0x1b410,0x0,0,826,52,52,215,0xe0;0xe1,Difesa giù S;Difesa giù L,0,decoded static configuration
+191,0x1b410,0x0,1,831,60,60,215,0xe0;0xe1,Difesa giù S;Difesa giù L,0,decoded static configuration
+192,0x1b46c,0x0,0,827,69,69,340,0xe0;0xe1;0x13e,Difesa giù S;Difesa giù L;100% Evanescente I,0,decoded static configuration
+193,0x1b4c8,0x0,0,794,66,66,263,0x1;0x14;0xe1;0xe0,Attacco con Scatto Su M;Attacco Segugio 1 su L;Difesa giù L;Difesa giù S,0,decoded static configuration
+193,0x1b4c8,0x0,1,798,33,33,258,0x8;0x5;0xe1;0xe0,Attacco Dirompente su L;Attacco Caricato su L;Difesa giù L;Difesa giù S,0,decoded static configuration
+194,0x1b524,0xffffffff,,4,,,,,,,opaque special group
+195,0x1b580,0x0,0,832,35,35,300,0xe1;0xe0;0x11d;0x67,Difesa giù L;Difesa giù S;Super Recupero Salute II;Recupero Salute automatico,0,decoded static configuration
+196,0x1b5dc,0x0,0,830,99,99,268,0xd;0xe;0x1d;0x4b;0x27;0x5c;0x53;0x55;0x10;0xe1,Riduci tempo carica;Carica Rapida;Proiezione rapida;Colpo dell'aura alta velocità;Velocità colpo dell'aura Su;Capriola elegante;Durata svenimento giù M;Durata paralisi giù M;Tempo Extra Spinta al Muro L;Difesa giù L,0,decoded static configuration
+197,0x1b638,0x0,0,828,92,92,366,0xe0;0xe1;0xda;0x19;0x33;0x74;0x17;0x16a,Difesa giù S;Difesa giù L;Potere difensivo giù;Contrattacco Dirompente;Segreti del contrattacco;Potenza schermaglia su M;Scatto estremo;2° Trasformazione al cambio per KO,0,decoded static configuration
+198,0x1b694,0x0,0,829,87,87,336,0xe1;0xe0;0x1;0x14;0x81;0x17;0x3f,Difesa giù L;Difesa giù S;Attacco con Scatto Su M;Attacco Segugio 1 su L;Scatto Spirito di combattimento;Scatto estremo;Inizio alta tensione,0,decoded static configuration
+199,0x1b6f0,0x0,0,532,38,38,287,0xe1;0xe0;0x129,Difesa giù L;Difesa giù S;Perdita automatica salute II,0,decoded static configuration
+200,0x1b74c,0x0,0,520,29,29,215,0xe0;0xe1,Difesa giù S;Difesa giù L,0,decoded static configuration
+201,0x1b7a8,0x0,0,526,81,181,282,0xe1;0xe0;0xe4;0x16a,Difesa giù L;Difesa giù S;Salute giù M;2° Trasformazione al cambio per KO,0,decoded static configuration
+201,0x1b7a8,0x0,1,526,81,181,282,0xe1;0xe0;0xe4;0x16a,Difesa giù L;Difesa giù S;Salute giù M;2° Trasformazione al cambio per KO,0,decoded static configuration
+201,0x1b7a8,0x0,2,526,81,181,282,0xe1;0xe0;0xe4;0x16a,Difesa giù L;Difesa giù S;Salute giù M;2° Trasformazione al cambio per KO,0,decoded static configuration
+201,0x1b7a8,0x0,3,527,81,181,283,0xe1;0xe0;0xe4;0x16a,Difesa giù L;Difesa giù S;Salute giù M;2° Trasformazione al cambio per KO,0,decoded static configuration
+201,0x1b7a8,0x0,4,528,81,181,284,0xe1;0xe0;0xe4;0x16a,Difesa giù L;Difesa giù S;Salute giù M;2° Trasformazione al cambio per KO,0,decoded static configuration
+202,0x1b804,0x0,0,521,88,88,195,0xe0;0xe1;0xda,Difesa giù S;Difesa giù L;Potere difensivo giù,0,decoded static configuration
+202,0x1b804,0x0,1,522,73,73,195,0xe0;0xe1;0xda,Difesa giù S;Difesa giù L;Potere difensivo giù,0,decoded static configuration
+203,0x1b860,0x0,0,529,98,98,282,0xe1;0xe0;0xe4;0x16a,Difesa giù L;Difesa giù S;Salute giù M;2° Trasformazione al cambio per KO,0,decoded static configuration
+203,0x1b860,0x0,1,530,97,97,282,0xe1;0xe0;0xe4;0x16a,Difesa giù L;Difesa giù S;Salute giù M;2° Trasformazione al cambio per KO,0,decoded static configuration
+203,0x1b860,0x0,2,531,96,96,284,0xe1;0xe0;0xe4;0x16a,Difesa giù L;Difesa giù S;Salute giù M;2° Trasformazione al cambio per KO,0,decoded static configuration
+204,0x1b8bc,0x0,0,523,42,42,187,0xe0;0xe1;0xda,Difesa giù S;Difesa giù L;Potere difensivo giù,0,decoded static configuration
+204,0x1b8bc,0x0,1,524,40,40,187,0xe0;0xe1;0xda,Difesa giù S;Difesa giù L;Potere difensivo giù,0,decoded static configuration
+204,0x1b8bc,0x0,2,525,48,48,286,0xe1;0xe0;0x13d,Difesa giù L;Difesa giù S;1/10 danno Attacco Speciale II,0,decoded static configuration
+205,0x1b918,0x0,0,533,4,4,215,0xe0;0xe1,Difesa giù S;Difesa giù L,0,decoded static configuration
+206,0x1b974,0x0,0,534,77,77,288,0xe1;0xe0;0x11e,Difesa giù L;Difesa giù S;Super Recupero Salute III,0,decoded static configuration
+207,0x1b9d0,0x0,0,535,54,54,258,0x8;0x5;0xe1;0xe0,Attacco Dirompente su L;Attacco Caricato su L;Difesa giù L;Difesa giù S,0,decoded static configuration
+207,0x1b9d0,0x0,1,536,55,55,263,0x1;0x14;0xe1;0xe0,Attacco con Scatto Su M;Attacco Segugio 1 su L;Difesa giù L;Difesa giù S,0,decoded static configuration
+208,0x1ba2c,0x0,0,537,90,90,294,0xe1;0xe0;0xda;0xe3,Difesa giù L;Difesa giù S;Potere difensivo giù;Salute giù S,0,decoded static configuration
+208,0x1ba2c,0x0,1,538,11,11,294,0xe1;0xe0;0xda;0xe3,Difesa giù L;Difesa giù S;Potere difensivo giù;Salute giù S,0,decoded static configuration
+208,0x1ba2c,0x0,2,539,92,92,295,0xe1;0xe0;0xda;0xe3,Difesa giù L;Difesa giù S;Potere difensivo giù;Salute giù S,0,decoded static configuration
+209,0x1ba88,0x0,0,541,27,27,217,0xe0;0xe1,Difesa giù S;Difesa giù L,0,decoded static configuration
+209,0x1ba88,0x0,1,540,29,29,217,0xe0;0xe1,Difesa giù S;Difesa giù L,0,decoded static configuration
+210,0x1bae4,0x0,0,544,39,39,258,0x8;0x5;0xe1;0xe0,Attacco Dirompente su L;Attacco Caricato su L;Difesa giù L;Difesa giù S,0,decoded static configuration
+210,0x1bae4,0x0,1,545,42,42,262,0x27;0x6e;0xe1;0xe0,Velocità colpo dell'aura Su;Potenza attacco speciale su L;Difesa giù L;Difesa giù S,0,decoded static configuration
+210,0x1bae4,0x0,2,546,44,44,269,0xb;0x1d;0x11;0x10;0x3b;0x3c;0x53;0x49;0x5c;0xe1,Proiezione su L;Proiezione rapida;Danno Impatto Su;Tempo Extra Spinta al Muro L;Demolitore della mente;Potenza gigantesca;Durata svenimento giù M;Riduttore energetico;Capriola elegante;Difesa giù L,0,decoded static configuration
+210,0x1bae4,0x0,3,547,56,56,266,0x17;0x26;0x2d;0x27;0xeb;0xec;0xed;0x2;0xe1,Scatto estremo;Recupero aura con scatto L;Segreti dello slancio;Velocità colpo dell'aura Su;Potenza attacco Speciale Giù;Potenza Attacco Supremo Giù;Attacco Supremo/Speciale inutilizzabile;Attacco con Scatto Su L;Difesa giù L,0,decoded static configuration
+210,0x1bae4,0x0,4,548,62,62,274,0x6a;0x18;0xf9;0x123;0xa2,Miraggio;Sul serio!;Super Guerriero;Super Recupero Aura II;Aura al plasma,0,decoded static configuration
+211,0x1bb40,0xffffffff,,2,,,,,,,opaque special group
+212,0x1bb9c,0x0,0,550,98,98,297,0xe1;0xe0;0x11d;0x67,Difesa giù L;Difesa giù S;Super Recupero Salute II;Recupero Salute automatico,0,decoded static configuration
+213,0x1bbf8,0x0,0,549,8,8,217,0xe0;0xe1,Difesa giù S;Difesa giù L,0,decoded static configuration
+214,0x1bc54,0x0,0,542,84,84,292,0xe1;0xe0;0xda,Difesa giù L;Difesa giù S;Potere difensivo giù,0,decoded static configuration
+214,0x1bc54,0x0,1,543,86,86,293,0xe1;0xe0;0xda,Difesa giù L;Difesa giù S;Potere difensivo giù,0,decoded static configuration
+215,0x1bcb0,0x0,0,551,77,77,187,0xe0;0xe1;0xda,Difesa giù S;Difesa giù L;Potere difensivo giù,0,decoded static configuration
+215,0x1bcb0,0x0,1,552,62,62,301,0xe1;0xe0;0x149,Difesa giù L;Difesa giù S;Animo Furioso quando rimangono 3 indicatori di salute,0,decoded static configuration
+216,0x1bd0c,0x0,0,553,73,73,303,0xe1;0xe0;0x118,Difesa giù L;Difesa giù S;Sigillo 1/10 Att. Speciale I,0,decoded static configuration
+217,0x1bd68,0x0,0,554,51,51,187,0xe0;0xe1;0xda,Difesa giù S;Difesa giù L;Potere difensivo giù,0,decoded static configuration
+218,0x1bdc4,0x0,0,555,23,23,225,0xe0;0xe1,Difesa giù S;Difesa giù L,0,decoded static configuration
+218,0x1bdc4,0x0,1,556,89,89,225,0xe0;0xe1,Difesa giù S;Difesa giù L,0,decoded static configuration
+219,0x1be20,0x0,0,558,65,65,309,0xe1;0xe0;0x11d;0x13e;0x67,Difesa giù L;Difesa giù S;Super Recupero Salute II;100% Evanescente I;Recupero Salute automatico,0,decoded static configuration
+220,0x1be7c,0xffffffff,,1,,,,,,,opaque special group
+221,0x1bed8,0x0,0,557,69,69,308,0x2c;0x42;0x55;0xda;0x51;0x4e;0x53;0x1d;0xe1;0x13f,Recupero aura super guardia;Atteggiamento!;Durata paralisi giù M;Potere difensivo giù;Salute su L;Difesa su M;Durata svenimento giù M;Proiezione rapida;Difesa giù L;100% Evanescente II,0,decoded static configuration
+222,0x1bf34,0x0,0,846,49,49,187,0xe0;0xe1;0xda,Difesa giù S;Difesa giù L;Potere difensivo giù,0,decoded static configuration
+222,0x1bf34,0x0,1,845,98,98,185,0xe0;0xe1;0xda,Difesa giù S;Difesa giù L;Potere difensivo giù,0,decoded static configuration
+223,0x1bf90,0x0,0,508,11,11,217,0xe0;0xe1,Difesa giù S;Difesa giù L,0,decoded static configuration
+223,0x1bf90,0x0,1,798,33,33,258,0x8;0x5;0xe1;0xe0,Attacco Dirompente su L;Attacco Caricato su L;Difesa giù L;Difesa giù S,0,decoded static configuration
+224,0x1bfec,0x0,0,691,87,87,377,0xe1;0xe0;0xda;0x13f;0x6a;0x31,Difesa giù L;Difesa giù S;Potere difensivo giù;100% Evanescente II;Miraggio;Segreti dell'evanescente,0,decoded static configuration
+225,0x1c048,0x0,0,516,69,69,276,0xc8;0xf2;0xf1;0x11;0x10;0x2b;0x53;0xda;0x51,Super serio!;Istinti di un campione!;Super inarrestabile!;Danno Impatto Su;Tempo Extra Spinta al Muro L;Recupero aura distruzione;Durata svenimento giù M;Potere difensivo giù;Salute su L,0,decoded static configuration
+226,0x1c0a4,0x0,0,849,99,99,364,0xe0;0xe1;0xda;0x13;0x14;0x15;0x16;0xd;0x17;0x16a,Difesa giù S;Difesa giù L;Potere difensivo giù;Attacco Segugio 1 su S;Attacco Segugio 1 su L;Attacco Segugio 2 su S;Attacco Segugio 2 su L;Riduci tempo carica;Scatto estremo;2° Trasformazione al cambio per KO,0,decoded static configuration
+227,0x1c100,0x0,0,769,0,0,665,0xe1;0xe0;0x123;0x11d;0xf9;0xf0;0xc7;0xc3;0x79;0x67,Difesa giù L;Difesa giù S;Super Recupero Aura II;Super Recupero Salute II;Super Guerriero;Potenza Attacco Supremo MAX;Miglior attacco;Potenza mischia suprema su;Animo di Tutti;Recupero Salute automatico,0,decoded static configuration
+228,0x1c15c,0x0,0,848,71,71,298,0xe1;0xe0;0x11d;0x67,Difesa giù L;Difesa giù S;Super Recupero Salute II;Recupero Salute automatico,0,decoded static configuration
+229,0x1c1b8,0x0,0,847,64,64,245,0x1;0x14;0xe1,Attacco con Scatto Su M;Attacco Segugio 1 su L;Difesa giù L,0,decoded static configuration
+230,0x1c214,0x0,0,921,22,22,286,0xe1;0xe0;0x13d,Difesa giù L;Difesa giù S;1/10 danno Attacco Speciale II,0,decoded static configuration
+231,0x1c270,0x0,0,500,56,56,187,0xe0;0xe1;0xda,Difesa giù S;Difesa giù L;Potere difensivo giù,0,decoded static configuration
+231,0x1c270,0x0,1,563,57,57,220,0xe0;0xe1,Difesa giù S;Difesa giù L,0,decoded static configuration
+232,0x1c2cc,0x0,0,926,22,22,354,0xe0;0xe1;0xda;0xc;0x145;0x144;0x143;0x13c;0x16a,Difesa giù S;Difesa giù L;Potere difensivo giù;Attacco Animo furioso Su;Cpu più debole (Medio) con il passare del tempo;Cpu più debole (Piccolo) con il passare del tempo;CPU più forte (Grande) con il passare del tempo;1/10 danno Attacco Speciale I;2° Trasformazione al cambio per KO,0,decoded static configuration
+232,0x1c2cc,0x0,1,927,24,24,681,0xe0;0xe1;0xda;0xc;0x145;0x144;0x143;0x13c;0x13d,Difesa giù S;Difesa giù L;Potere difensivo giù;Attacco Animo furioso Su;Cpu più debole (Medio) con il passare del tempo;Cpu più debole (Piccolo) con il passare del tempo;CPU più forte (Grande) con il passare del tempo;1/10 danno Attacco Speciale I;1/10 danno Attacco Speciale II,0,decoded static configuration
+233,0x1c328,0x0,0,922,2,2,708,0xe0;0xe1;0x14;0x16;0xd;0x17;0x11b,Difesa giù S;Difesa giù L;Attacco Segugio 1 su L;Attacco Segugio 2 su L;Riduci tempo carica;Scatto estremo;Sigillo 100% Evanescente II,0,decoded static configuration
+234,0x1c384,0x0,0,914,11,11,702,0xe1;0xe0;0x139;0xf9;0x80,Difesa giù L;Difesa giù S;Punto di Morte II;Super Guerriero;Totale sicurezza di se,0,decoded static configuration
+234,0x1c384,0x0,1,925,8,8,707,0xe1;0xe0;0xda;0x11d;0x67,Difesa giù L;Difesa giù S;Potere difensivo giù;Super Recupero Salute II;Recupero Salute automatico,0,decoded static configuration
+235,0x1c3e0,0xffffffff,,2,,,,,,,opaque special group
+236,0x1c43c,0x0,0,844,73,73,268,0xd;0xe;0x1d;0x4b;0x27;0x5c;0x53;0x55;0x10;0xe1,Riduci tempo carica;Carica Rapida;Proiezione rapida;Colpo dell'aura alta velocità;Velocità colpo dell'aura Su;Capriola elegante;Durata svenimento giù M;Durata paralisi giù M;Tempo Extra Spinta al Muro L;Difesa giù L,0,decoded static configuration
+237,0x1c498,0x0,0,923,54,54,709,0xe0;0xe1;0x14;0x16;0xd;0x17;0x121,Difesa giù S;Difesa giù L;Attacco Segugio 1 su L;Attacco Segugio 2 su L;Riduci tempo carica;Scatto estremo;Super Recupero Salute X,0,decoded static configuration
+237,0x1c498,0x0,1,924,55,55,709,0xe0;0xe1;0x14;0x16;0xd;0x17;0x121,Difesa giù S;Difesa giù L;Attacco Segugio 1 su L;Attacco Segugio 2 su L;Riduci tempo carica;Scatto estremo;Super Recupero Salute X,0,decoded static configuration
+238,0x1c4f4,0x0,0,496,12,12,215,0xe0;0xe1,Difesa giù S;Difesa giù L,0,decoded static configuration
+239,0x1c550,0x0,0,497,13,13,241,0xe0;0xe1;0x140,Difesa giù S;Difesa giù L;Inizio Animo Furioso,0,decoded static configuration
+239,0x1c550,0x0,1,498,14,14,241,0xe0;0xe1;0x140,Difesa giù S;Difesa giù L;Inizio Animo Furioso,0,decoded static configuration
+240,0x1c5ac,0x0,0,499,78,78,185,0xe0;0xe1;0xda,Difesa giù S;Difesa giù L;Potere difensivo giù,0,decoded static configuration
+241,0x1c608,0x0,0,517,79,79,277,0xe1;0xe0;0x5c;0x152;0x169;0x13c;0x3b;0x3c;0x18,Difesa giù L;Difesa giù S;Capriola elegante;CPU super forte quando rimane 1 indicatore di salute;1° Trasformazione al cambio per KO;1/10 danno Attacco Speciale I;Demolitore della mente;Potenza gigantesca;Sul serio!,0,decoded static configuration
+242,0x1c664,0x0,0,500,56,56,187,0xe0;0xe1;0xda,Difesa giù S;Difesa giù L;Potere difensivo giù,0,decoded static configuration
+242,0x1c664,0x0,1,501,57,57,187,0xe0;0xe1;0xda,Difesa giù S;Difesa giù L;Potere difensivo giù,0,decoded static configuration
+242,0x1c664,0x0,2,502,82,82,242,0x7;0x4;0x1;0xe1,Attacco Dirompente su M;Attacco Caricato su M;Attacco con Scatto Su M;Difesa giù L,0,decoded static configuration
+243,0x1c6c0,0x0,0,508,11,11,217,0xe0;0xe1,Difesa giù S;Difesa giù L,0,decoded static configuration
+243,0x1c6c0,0x0,1,509,5,5,243,0x87;0xf8;0x18;0x42;0x148;0x151;0x169;0xe1,Abiti strappati;Potere ereditario;Sul serio!;Atteggiamento!;Animo Furioso quando rimangono 2 indicatori di salute;CPU molto più forte quando rimangono 3 indicatori di salute;1° Trasformazione al cambio per KO;Difesa giù L,0,decoded static configuration
+244,0x1c71c,0x0,0,503,47,47,185,0xe0;0xe1;0xda,Difesa giù S;Difesa giù L;Potere difensivo giù,0,decoded static configuration
+244,0x1c71c,0x0,1,504,44,44,217,0xe0;0xe1,Difesa giù S;Difesa giù L,0,decoded static configuration
+244,0x1c71c,0x0,2,505,45,45,187,0xe0;0xe1;0xda,Difesa giù S;Difesa giù L;Potere difensivo giù,0,decoded static configuration
+244,0x1c71c,0x0,3,506,46,46,190,0xe0;0xe1;0xda,Difesa giù S;Difesa giù L;Potere difensivo giù,0,decoded static configuration
+244,0x1c71c,0x0,4,507,43,43,245,0x1;0x14;0xe1,Attacco con Scatto Su M;Attacco Segugio 1 su L;Difesa giù L,0,decoded static configuration
+245,0x1c778,0x0,0,512,16,225,200,0xe0;0xe1;0xda,Difesa giù S;Difesa giù L;Potere difensivo giù,0,decoded static configuration
+245,0x1c778,0x0,1,513,51,51,200,0xe0;0xe1;0xda,Difesa giù S;Difesa giù L;Potere difensivo giù,0,decoded static configuration
+245,0x1c778,0x0,2,514,60,60,200,0xe0;0xe1;0xda,Difesa giù S;Difesa giù L;Potere difensivo giù,0,decoded static configuration
+245,0x1c778,0x0,3,515,66,66,230,0xe0;0xe1,Difesa giù S;Difesa giù L,0,decoded static configuration
+245,0x1c778,0x0,4,516,69,69,276,0xc8;0xf2;0xf1;0x11;0x10;0x2b;0x53;0xda;0x51,Super serio!;Istinti di un campione!;Super inarrestabile!;Danno Impatto Su;Tempo Extra Spinta al Muro L;Recupero aura distruzione;Durata svenimento giù M;Potere difensivo giù;Salute su L,0,decoded static configuration
+246,0x1c7d4,0x0,0,519,74,174,330,0xe1;0xe0;0xe3;0x16a;0x163,Difesa giù L;Difesa giù S;Salute giù S;2° Trasformazione al cambio per KO;Cambio quando rimangono 3 indicatori di salute,0,decoded static configuration
+246,0x1c7d4,0x0,1,519,74,174,330,0xe1;0xe0;0xe3;0x16a;0x163,Difesa giù L;Difesa giù S;Salute giù S;2° Trasformazione al cambio per KO;Cambio quando rimangono 3 indicatori di salute,0,decoded static configuration
+246,0x1c7d4,0x0,2,519,74,174,330,0xe1;0xe0;0xe3;0x16a;0x163,Difesa giù L;Difesa giù S;Salute giù S;2° Trasformazione al cambio per KO;Cambio quando rimangono 3 indicatori di salute,0,decoded static configuration
+246,0x1c7d4,0x0,3,519,74,174,330,0xe1;0xe0;0xe3;0x16a;0x163,Difesa giù L;Difesa giù S;Salute giù S;2° Trasformazione al cambio per KO;Cambio quando rimangono 3 indicatori di salute,0,decoded static configuration
+246,0x1c7d4,0x0,4,519,74,174,330,0xe1;0xe0;0xe3;0x16a;0x163,Difesa giù L;Difesa giù S;Salute giù S;2° Trasformazione al cambio per KO;Cambio quando rimangono 3 indicatori di salute,0,decoded static configuration
+247,0x1c830,0x0,0,511,16,225,244,0x38;0xf2;0xf1;0x80;0x123;0x13d;0xe1,Aura abilità peculiare ½;Istinti di un campione!;Super inarrestabile!;Totale sicurezza di se;Super Recupero Aura II;1/10 danno Attacco Speciale II;Difesa giù L,0,decoded static configuration
+248,0x1c88c,0x0,0,652,27,27,321,0xe1;0xe0;0x148;0x151;0x169,Difesa giù L;Difesa giù S;Animo Furioso quando rimangono 2 indicatori di salute;CPU molto più forte quando rimangono 3 indicatori di salute;1° Trasformazione al cambio per KO,0,decoded static configuration
+249,0x1c8e8,0x0,0,533,4,4,215,0xe0;0xe1,Difesa giù S;Difesa giù L,0,decoded static configuration
+249,0x1c8e8,0x0,1,654,11,11,242,0x7;0x4;0x1;0xe1,Attacco Dirompente su M;Attacco Caricato su M;Attacco con Scatto Su M;Difesa giù L,0,decoded static configuration
+250,0x1c944,0x0,0,657,62,62,324,0xe1;0xe0,Difesa giù L;Difesa giù S,0,decoded static configuration
+250,0x1c944,0x0,1,658,32,32,324,0xe1;0xe0,Difesa giù L;Difesa giù S,0,decoded static configuration
+251,0x1c9a0,0x0,0,656,0,0,343,0xe1;0xe0;0x71,Difesa giù L;Difesa giù S;Potenza attacco supremo su L,0,decoded static configuration
+252,0x1c9fc,0x0,0,655,8,8,342,0xe1;0xe0;0x143,Difesa giù L;Difesa giù S;CPU più forte (Grande) con il passare del tempo,0,decoded static configuration
+253,0x1ca58,0x0,0,496,12,12,215,0xe0;0xe1,Difesa giù S;Difesa giù L,0,decoded static configuration
+253,0x1ca58,0x0,1,654,11,11,242,0x7;0x4;0x1;0xe1,Attacco Dirompente su M;Attacco Caricato su M;Attacco con Scatto Su M;Difesa giù L,0,decoded static configuration
+254,0x1cab4,0x0,0,634,62,62,220,0xe0;0xe1,Difesa giù S;Difesa giù L,0,decoded static configuration
+255,0x1cb10,0x0,0,971,73,73,724,0xe0;0xe1;0x119;0x3c;0x53;0x6a,Difesa giù S;Difesa giù L;Sigillo 1/10 Att. Speciale II;Potenza gigantesca;Durata svenimento giù M;Miraggio,0,decoded static configuration
+256,0x1cb6c,0x0,0,691,87,87,377,0xe1;0xe0;0xda;0x13f;0x6a;0x31,Difesa giù L;Difesa giù S;Potere difensivo giù;100% Evanescente II;Miraggio;Segreti dell'evanescente,0,decoded static configuration
+257,0x1cbc8,0x0,0,692,3,3,326,0x27;0x2d;0x2f;0x29;0xda;0x53;0x81;0xe1,Velocità colpo dell'aura Su;Segreti dello slancio;Segreti del super slancio;Recupero aura automatico;Potere difensivo giù;Durata svenimento giù M;Scatto Spirito di combattimento;Difesa giù L,0,decoded static configuration
+257,0x1cbc8,0x0,1,693,71,71,381,0x27;0x22;0x23;0x24;0x27;0x4c;0x3a;0x74;0x6d;0x71;0xe1;0xda;0xe0,Velocità colpo dell'aura Su;Velocità colpo dell'aura su;Capacità colpo aura Mirata su;Consumo colpo dell'aura giù;Velocità colpo dell'aura Su;Colpo dell'aura magnetico;Controllo dell'aura;Potenza schermaglia su M;Potenza attacco speciale su M;Potenza attacco supremo su L;Difesa giù L;Potere difensivo giù;Difesa giù S,0,decoded static configuration
+258,0x1cc24,0x0,0,694,35,35,378,0x17;0x26;0x2d;0x5c;0xeb;0xec;0x2;0xe1;0xe0;0xda,Scatto estremo;Recupero aura con scatto L;Segreti dello slancio;Capriola elegante;Potenza attacco Speciale Giù;Potenza Attacco Supremo Giù;Attacco con Scatto Su L;Difesa giù L;Difesa giù S;Potere difensivo giù,0,decoded static configuration
+258,0x1cc24,0x0,1,695,70,70,380,0xd;0xe;0x1d;0x4b;0x27;0x53;0x53;0x55;0x31;0xe1;0xe0;0xda,Riduci tempo carica;Carica Rapida;Proiezione rapida;Colpo dell'aura alta velocità;Velocità colpo dell'aura Su;Durata svenimento giù M;Durata svenimento giù M;Durata paralisi giù M;Segreti dell'evanescente;Difesa giù L;Difesa giù S;Potere difensivo giù,0,decoded static configuration
+259,0x1cc80,0x0,0,690,63,63,376,0x27;0x2d;0x2f;0x29;0xda;0x51;0x53;0xc6;0xe1;0xe0;0x119,Velocità colpo dell'aura Su;Segreti dello slancio;Segreti del super slancio;Recupero aura automatico;Potere difensivo giù;Salute su L;Durata svenimento giù M;Danno schianto supremo su;Difesa giù L;Difesa giù S;Sigillo 1/10 Att. Speciale II,0,decoded static configuration
+260,0x1ccdc,0x0,0,750,15,15,402,0xe0;0xe1;0x141,Difesa giù S;Difesa giù L;CPU più forte (Piccolo) con il passare del tempo,0,decoded static configuration
+261,0x1cd38,0x0,0,533,4,4,215,0xe0;0xe1,Difesa giù S;Difesa giù L,0,decoded static configuration
+261,0x1cd38,0x0,1,676,12,12,286,0xe1;0xe0;0x13d,Difesa giù L;Difesa giù S;1/10 danno Attacco Speciale II,0,decoded static configuration
+262,0x1cd94,0x0,0,752,74,74,404,0xe1;0xe0;0xda;0x138,Difesa giù L;Difesa giù S;Potere difensivo giù;Punto di Morte I,0,decoded static configuration
+262,0x1cd94,0x0,1,753,11,11,405,0xe1;0xe0;0x138,Difesa giù L;Difesa giù S;Punto di Morte I,0,decoded static configuration
+262,0x1cd94,0x0,2,754,92,92,406,0xe1;0xe0;0x138,Difesa giù L;Difesa giù S;Punto di Morte I,0,decoded static configuration
+263,0x1cdf0,0x0,0,1049,16,16,298,0xe1;0xe0;0x11d;0x67,Difesa giù L;Difesa giù S;Super Recupero Salute II;Recupero Salute automatico,0,decoded static configuration
+264,0x1ce4c,0x0,0,751,48,48,403,0xe0;0xe1;0x119,Difesa giù S;Difesa giù L;Sigillo 1/10 Att. Speciale II,0,decoded static configuration
+265,0x1cea8,0x0,0,966,24,24,215,0xe0;0xe1,Difesa giù S;Difesa giù L,0,decoded static configuration
+266,0x1cf04,0x0,0,508,11,11,217,0xe0;0xe1,Difesa giù S;Difesa giù L,0,decoded static configuration
+267,0x1cf60,0x0,0,509,5,5,243,0x87;0xf8;0x18;0x42;0x148;0x151;0x169;0xe1,Abiti strappati;Potere ereditario;Sul serio!;Atteggiamento!;Animo Furioso quando rimangono 2 indicatori di salute;CPU molto più forte quando rimangono 3 indicatori di salute;1° Trasformazione al cambio per KO;Difesa giù L,0,decoded static configuration
+267,0x1cf60,0x0,1,662,88,88,220,0xe0;0xe1,Difesa giù S;Difesa giù L,0,decoded static configuration
+268,0x1cfbc,0x0,0,719,0,0,357,0xe0;0xe1;0xda;0x27;0x147;0x146;0xd7;0x16a,Difesa giù S;Difesa giù L;Potere difensivo giù;Velocità colpo dell'aura Su;Animo Furioso quando rimane 1 indicatore di salute;Cpu più debole (Grande) con il passare del tempo;Tempo extra super alta tensione;2° Trasformazione al cambio per KO,0,decoded static configuration
+269,0x1d018,0x0,0,695,70,70,380,0xd;0xe;0x1d;0x4b;0x27;0x53;0x53;0x55;0x31;0xe1;0xe0;0xda,Riduci tempo carica;Carica Rapida;Proiezione rapida;Colpo dell'aura alta velocità;Velocità colpo dell'aura Su;Durata svenimento giù M;Durata svenimento giù M;Durata paralisi giù M;Segreti dell'evanescente;Difesa giù L;Difesa giù S;Potere difensivo giù,0,decoded static configuration
+269,0x1d018,0x0,1,800,35,35,271,0x3c;0x29;0x3a;0x4a;0x18;0x53;0x6a;0xc3;0xe1,Potenza gigantesca;Recupero aura automatico;Controllo dell'aura;Tempo extra animo furioso;Sul serio!;Durata svenimento giù M;Miraggio;Potenza mischia suprema su;Difesa giù L,0,decoded static configuration
+270,0x1d074,0x0,0,674,17,17,301,0xe1;0xe0;0x149,Difesa giù L;Difesa giù S;Animo Furioso quando rimangono 3 indicatori di salute,0,decoded static configuration
+271,0x1d0d0,0x0,0,967,69,69,678,0xe0;0xe1;0x13e;0x11d;0x67,Difesa giù S;Difesa giù L;100% Evanescente I;Super Recupero Salute II;Recupero Salute automatico,0,decoded static configuration
+272,0x1d12c,0xffffffff,,4,,,,,,,opaque special group
+273,0x1d188,0x0,0,606,78,78,262,0x27;0x6e;0xe1;0xe0,Velocità colpo dell'aura Su;Potenza attacco speciale su L;Difesa giù L;Difesa giù S,0,decoded static configuration
+273,0x1d188,0x0,1,513,51,51,200,0xe0;0xe1;0xda,Difesa giù S;Difesa giù L;Potere difensivo giù,0,decoded static configuration
+273,0x1d188,0x0,2,857,79,79,264,0x27;0x2d;0x2f;0x29;0xda;0x5c;0x53;0xe1,Velocità colpo dell'aura Su;Segreti dello slancio;Segreti del super slancio;Recupero aura automatico;Potere difensivo giù;Capriola elegante;Durata svenimento giù M;Difesa giù L,0,decoded static configuration
+274,0x1d1e4,0x0,0,860,18,18,682,0xe0;0xe1;0xda;0x13;0x14;0x15;0x16;0xd;0x17,Difesa giù S;Difesa giù L;Potere difensivo giù;Attacco Segugio 1 su S;Attacco Segugio 1 su L;Attacco Segugio 2 su S;Attacco Segugio 2 su L;Riduci tempo carica;Scatto estremo,0,decoded static configuration
+274,0x1d1e4,0x0,1,766,11,11,366,0xe0;0xe1;0xda;0x19;0x33;0x74;0x17;0x16a,Difesa giù S;Difesa giù L;Potere difensivo giù;Contrattacco Dirompente;Segreti del contrattacco;Potenza schermaglia su M;Scatto estremo;2° Trasformazione al cambio per KO,0,decoded static configuration
+274,0x1d1e4,0x0,2,633,25,25,190,0xe0;0xe1;0xda,Difesa giù S;Difesa giù L;Potere difensivo giù,0,decoded static configuration
+274,0x1d1e4,0x0,3,510,6,6,346,0xe1;0x169;0xf9,Difesa giù L;1° Trasformazione al cambio per KO;Super Guerriero,0,decoded static configuration
+274,0x1d1e4,0x0,4,617,1,1,349,0xe1;0xe0;0x169,Difesa giù L;Difesa giù S;1° Trasformazione al cambio per KO,0,decoded static configuration
+275,0x1d240,0x0,0,551,77,77,187,0xe0;0xe1;0xda,Difesa giù S;Difesa giù L;Potere difensivo giù,0,decoded static configuration
+276,0x1d29c,0x0,0,917,73,73,705,0xe1;0xe4,Difesa giù L;Salute giù M,0,decoded static configuration
+276,0x1d29c,0x0,1,918,71,71,706,0xe1;0xe4;0xc5;0x3a;0x53,Difesa giù L;Salute giù M;Tempo extra muro super;Controllo dell'aura;Durata svenimento giù M,0,decoded static configuration
+276,0x1d29c,0x0,2,919,3,3,706,0xe1;0xe4;0xc5;0x3a;0x53,Difesa giù L;Salute giù M;Tempo extra muro super;Controllo dell'aura;Durata svenimento giù M,0,decoded static configuration
+276,0x1d29c,0x0,3,920,72,72,756,0xe1;0x3c;0xf9;0x14e;0x29;0x11d;0x67,Difesa giù L;Potenza gigantesca;Super Guerriero;CPU più forte quando rimangono 3 indicatori di salute;Recupero aura automatico;Super Recupero Salute II;Recupero Salute automatico,0,decoded static configuration
+277,0x1d2f8,0x0,0,916,70,70,704,0x2c;0x42;0x53;0xda;0x51;0xc8;0x13f;0x6a,Recupero aura super guardia;Atteggiamento!;Durata svenimento giù M;Potere difensivo giù;Salute su L;Super serio!;100% Evanescente II;Miraggio,0,decoded static configuration
+278,0x1d354,0x0,0,909,92,92,698,0xe1;0xe0;0x13e,Difesa giù L;Difesa giù S;100% Evanescente I,0,decoded static configuration
+279,0x1d3b0,0x0,0,911,13,13,699,0xe1;0xe0;0xda;0x139,Difesa giù L;Difesa giù S;Potere difensivo giù;Punto di Morte II,0,decoded static configuration
+279,0x1d3b0,0x0,1,912,14,14,700,0xe1;0xe0;0xda;0x139,Difesa giù L;Difesa giù S;Potere difensivo giù;Punto di Morte II,0,decoded static configuration
+279,0x1d3b0,0x0,2,913,12,12,701,0xe1;0xe0;0x139,Difesa giù L;Difesa giù S;Punto di Morte II,0,decoded static configuration
+279,0x1d3b0,0x0,3,914,11,11,702,0xe1;0xe0;0x139;0xf9;0x80,Difesa giù L;Difesa giù S;Punto di Morte II;Super Guerriero;Totale sicurezza di se,0,decoded static configuration
+280,0x1d40c,0x0,0,910,20,20,262,0x27;0x6e;0xe1;0xe0,Velocità colpo dell'aura Su;Potenza attacco speciale su L;Difesa giù L;Difesa giù S,0,decoded static configuration
+281,0x1d468,0xffffffff,,2,,,,,,,opaque special group
+282,0x1d4c4,0x0,0,915,3,3,703,0xe1;0xe0;0xda;0x13f,Difesa giù L;Difesa giù S;Potere difensivo giù;100% Evanescente II,0,decoded static configuration
+283,0x1d520,0x0,0,505,45,45,187,0xe0;0xe1;0xda,Difesa giù S;Difesa giù L;Potere difensivo giù,0,decoded static configuration
+284,0x1d57c,0x0,0,531,96,96,284,0xe1;0xe0;0xe4;0x16a,Difesa giù L;Difesa giù S;Salute giù M;2° Trasformazione al cambio per KO,0,decoded static configuration
+285,0x1d5d8,0x0,0,745,9,9,398,0xe0;0xe1;0x3f,Difesa giù S;Difesa giù L;Inizio alta tensione,0,decoded static configuration
+285,0x1d5d8,0x0,1,746,30,30,398,0xe0;0xe1;0x3f,Difesa giù S;Difesa giù L;Inizio alta tensione,0,decoded static configuration
+286,0x1d634,0x0,0,747,74,74,399,0xe1;0xe0;0xe4;0x138;0x16a,Difesa giù L;Difesa giù S;Salute giù M;Punto di Morte I;2° Trasformazione al cambio per KO,0,decoded static configuration
+286,0x1d634,0x0,1,747,74,74,399,0xe1;0xe0;0xe4;0x138;0x16a,Difesa giù L;Difesa giù S;Salute giù M;Punto di Morte I;2° Trasformazione al cambio per KO,0,decoded static configuration
+286,0x1d634,0x0,2,748,74,74,400,0xe1;0xe0;0xe3;0x138;0x16a,Difesa giù L;Difesa giù S;Salute giù S;Punto di Morte I;2° Trasformazione al cambio per KO,0,decoded static configuration
+286,0x1d634,0x0,3,748,74,74,400,0xe1;0xe0;0xe3;0x138;0x16a,Difesa giù L;Difesa giù S;Salute giù S;Punto di Morte I;2° Trasformazione al cambio per KO,0,decoded static configuration
+287,0x1d690,0x0,0,511,16,225,244,0x38;0xf2;0xf1;0x80;0x123;0x13d;0xe1,Aura abilità peculiare ½;Istinti di un campione!;Super inarrestabile!;Totale sicurezza di se;Super Recupero Aura II;1/10 danno Attacco Speciale II;Difesa giù L,0,decoded static configuration
+288,0x1d6ec,0x0,0,749,48,48,358,0xe0;0xe1;0xda;0x27;0x147;0x146;0xd7;0x16a,Difesa giù S;Difesa giù L;Potere difensivo giù;Velocità colpo dell'aura Su;Animo Furioso quando rimane 1 indicatore di salute;Cpu più debole (Grande) con il passare del tempo;Tempo extra super alta tensione;2° Trasformazione al cambio per KO,0,decoded static configuration
+289,0x1d748,0x0,0,576,15,15,313,0xe1;0xe0;0xda;0x129,Difesa giù L;Difesa giù S;Potere difensivo giù;Perdita automatica salute II,0,decoded static configuration
+289,0x1d748,0x0,1,577,13,13,313,0xe1;0xe0;0xda;0x129,Difesa giù L;Difesa giù S;Potere difensivo giù;Perdita automatica salute II,0,decoded static configuration
+289,0x1d748,0x0,2,578,14,14,314,0xe1;0xe0;0x129,Difesa giù L;Difesa giù S;Perdita automatica salute II,0,decoded static configuration
+290,0x1d7a4,0x0,0,579,4,4,315,0xe1;0xe0;0x123,Difesa giù L;Difesa giù S;Super Recupero Aura II,0,decoded static configuration
+291,0x1d800,0x0,0,580,49,49,316,0xe1;0xe0;0x71;0x3f,Difesa giù L;Difesa giù S;Potenza attacco supremo su L;Inizio alta tensione,0,decoded static configuration
+292,0x1d85c,0x0,0,581,84,84,190,0xe0;0xe1;0xda,Difesa giù S;Difesa giù L;Potere difensivo giù,0,decoded static configuration
+292,0x1d85c,0x0,1,582,55,55,190,0xe0;0xe1;0xda,Difesa giù S;Difesa giù L;Potere difensivo giù,0,decoded static configuration
+293,0x1d8b8,0xffffffff,,1,,,,,,,opaque special group
+294,0x1d914,0x0,0,585,16,16,261,0x20;0x24;0xe1;0xe0,Colpi dell'aura su L;Consumo colpo dell'aura giù;Difesa giù L;Difesa giù S,0,decoded static configuration
+295,0x1d970,0x0,0,583,59,59,317,0xe1;0xe0;0x14f;0x146;0x152;0x169,Difesa giù L;Difesa giù S;CPU molto più forte quando rimane 1 indicatore di salute;Cpu più debole (Grande) con il passare del tempo;CPU super forte quando rimane 1 indicatore di salute;1° Trasformazione al cambio per KO,0,decoded static configuration
+296,0x1d9cc,0x0,0,877,4,4,187,0xe0;0xe1;0xda,Difesa giù S;Difesa giù L;Potere difensivo giù,0,decoded static configuration
+296,0x1d9cc,0x0,1,874,12,12,256,0x27;0x6d;0xe1;0xe0,Velocità colpo dell'aura Su;Potenza attacco speciale su M;Difesa giù L;Difesa giù S,0,decoded static configuration
+297,0x1da28,0x0,0,888,92,92,402,0xe0;0xe1;0x141,Difesa giù S;Difesa giù L;CPU più forte (Piccolo) con il passare del tempo,0,decoded static configuration
+298,0x1da84,0x0,0,889,90,90,260,0x0;0x8;0xe1;0xe0,UNKNOWN;Attacco Dirompente su L;Difesa giù L;Difesa giù S,0,decoded static configuration
+298,0x1da84,0x0,1,709,11,11,259,0x51;0xda;0xe0,Salute su L;Potere difensivo giù;Difesa giù S,0,decoded static configuration
+299,0x1dae0,0x0,0,891,31,31,299,0xe1;0xe0;0x11d;0x67,Difesa giù L;Difesa giù S;Super Recupero Salute II;Recupero Salute automatico,0,decoded static configuration
+300,0x1db3c,0x0,0,504,44,44,217,0xe0;0xe1,Difesa giù S;Difesa giù L,0,decoded static configuration
+300,0x1db3c,0x0,1,503,47,47,185,0xe0;0xe1;0xda,Difesa giù S;Difesa giù L;Potere difensivo giù,0,decoded static configuration
+300,0x1db3c,0x0,2,507,43,43,245,0x1;0x14;0xe1,Attacco con Scatto Su M;Attacco Segugio 1 su L;Difesa giù L,0,decoded static configuration
+300,0x1db3c,0x0,3,506,46,46,190,0xe0;0xe1;0xda,Difesa giù S;Difesa giù L;Potere difensivo giù,0,decoded static configuration
+300,0x1db3c,0x0,4,505,45,45,187,0xe0;0xe1;0xda,Difesa giù S;Difesa giù L;Potere difensivo giù,0,decoded static configuration
+301,0x1db98,0x0,0,780,94,94,252,0x7;0x4;0xe1;0xe0,Attacco Dirompente su M;Attacco Caricato su M;Difesa giù L;Difesa giù S,0,decoded static configuration
+301,0x1db98,0x0,1,779,95,95,256,0x27;0x6d;0xe1;0xe0,Velocità colpo dell'aura Su;Potenza attacco speciale su M;Difesa giù L;Difesa giù S,0,decoded static configuration
+301,0x1db98,0x0,2,781,82,82,263,0x1;0x14;0xe1;0xe0,Attacco con Scatto Su M;Attacco Segugio 1 su L;Difesa giù L;Difesa giù S,0,decoded static configuration
+302,0x1dbf4,0x0,0,755,37,37,187,0xe0;0xe1;0xda,Difesa giù S;Difesa giù L;Potere difensivo giù,0,decoded static configuration
+302,0x1dbf4,0x0,1,573,78,78,195,0xe0;0xe1;0xda,Difesa giù S;Difesa giù L;Potere difensivo giù,0,decoded static configuration
+302,0x1dbf4,0x0,2,607,93,93,261,0x20;0x24;0xe1;0xe0,Colpi dell'aura su L;Consumo colpo dell'aura giù;Difesa giù L;Difesa giù S,0,decoded static configuration
+302,0x1dbf4,0x0,3,512,16,225,200,0xe0;0xe1;0xda,Difesa giù S;Difesa giù L;Potere difensivo giù,0,decoded static configuration
+302,0x1dbf4,0x0,4,575,69,69,200,0xe0;0xe1;0xda,Difesa giù S;Difesa giù L;Potere difensivo giù,0,decoded static configuration
+303,0x1dc50,0x0,0,525,48,48,286,0xe1;0xe0;0x13d,Difesa giù L;Difesa giù S;1/10 danno Attacco Speciale II,0,decoded static configuration
+304,0x1dcac,0xffffffff,,1,,,,,,,opaque special group
+305,0x1dd08,0x0,0,930,50,50,301,0xe1;0xe0;0x149,Difesa giù L;Difesa giù S;Animo Furioso quando rimangono 3 indicatori di salute,0,decoded static configuration
+306,0x1dd64,0x0,0,725,4,4,195,0xe0;0xe1;0xda,Difesa giù S;Difesa giù L;Potere difensivo giù,0,decoded static configuration
+306,0x1dd64,0x0,1,874,12,12,256,0x27;0x6d;0xe1;0xe0,Velocità colpo dell'aura Su;Potenza attacco speciale su M;Difesa giù L;Difesa giù S,0,decoded static configuration
+307,0x1ddc0,0x0,0,932,11,11,297,0xe1;0xe0;0x11d;0x67,Difesa giù L;Difesa giù S;Super Recupero Salute II;Recupero Salute automatico,0,decoded static configuration
+308,0x1de1c,0x0,0,894,81,81,691,0xe1;0xe0;0x3f;0x14f;0xf9;0xc7;0x81;0x3c,Difesa giù L;Difesa giù S;Inizio alta tensione;CPU molto più forte quando rimane 1 indicatore di salute;Super Guerriero;Miglior attacco;Scatto Spirito di combattimento;Potenza gigantesca,0,decoded static configuration
+309,0x1de78,0x0,0,931,52,52,262,0x27;0x6e;0xe1;0xe0,Velocità colpo dell'aura Su;Potenza attacco speciale su L;Difesa giù L;Difesa giù S,0,decoded static configuration
+309,0x1de78,0x0,1,587,75,75,225,0xe0;0xe1,Difesa giù S;Difesa giù L,0,decoded static configuration
+310,0x1ded4,0x0,0,568,15,15,185,0xe0;0xe1;0xda,Difesa giù S;Difesa giù L;Potere difensivo giù,0,decoded static configuration
+310,0x1ded4,0x0,1,685,14,14,185,0xe0;0xe1;0xda,Difesa giù S;Difesa giù L;Potere difensivo giù,0,decoded static configuration
+311,0x1df30,0x0,0,496,12,12,215,0xe0;0xe1,Difesa giù S;Difesa giù L,0,decoded static configuration
+311,0x1df30,0x0,1,533,4,4,215,0xe0;0xe1,Difesa giù S;Difesa giù L,0,decoded static configuration
+311,0x1df30,0x0,2,654,11,11,242,0x7;0x4;0x1;0xe1,Attacco Dirompente su M;Attacco Caricato su M;Attacco con Scatto Su M;Difesa giù L,0,decoded static configuration
+312,0x1df8c,0x0,0,986,0,0,737,0xe1;0xe0;0x119;0x3f,Difesa giù L;Difesa giù S;Sigillo 1/10 Att. Speciale II;Inizio alta tensione,0,decoded static configuration
+313,0x1dfe8,0x0,0,636,91,91,217,0xe0;0xe1,Difesa giù S;Difesa giù L,0,decoded static configuration
+313,0x1dfe8,0x0,1,545,42,42,262,0x27;0x6e;0xe1;0xe0,Velocità colpo dell'aura Su;Potenza attacco speciale su L;Difesa giù L;Difesa giù S,0,decoded static configuration
+313,0x1dfe8,0x0,2,594,40,40,321,0xe1;0xe0;0x148;0x151;0x169,Difesa giù L;Difesa giù S;Animo Furioso quando rimangono 2 indicatori di salute;CPU molto più forte quando rimangono 3 indicatori di salute;1° Trasformazione al cambio per KO,0,decoded static configuration
+313,0x1dfe8,0x0,3,715,48,48,379,0x29;0x3a;0x52;0x18;0x6a;0x3c;0x71;0xe1;0xe0,Recupero aura automatico;Controllo dell'aura;Durata svenimento giù S;Sul serio!;Miraggio;Potenza gigantesca;Potenza attacco supremo su L;Difesa giù L;Difesa giù S,0,decoded static configuration
+314,0x1e044,0x0,0,513,51,51,200,0xe0;0xe1;0xda,Difesa giù S;Difesa giù L;Potere difensivo giù,0,decoded static configuration
+314,0x1e044,0x0,1,574,79,79,195,0xe0;0xe1;0xda,Difesa giù S;Difesa giù L;Potere difensivo giù,0,decoded static configuration
+315,0x1e0a0,0x0,0,600,74,74,282,0xe1;0xe0;0xe4;0x16a,Difesa giù L;Difesa giù S;Salute giù M;2° Trasformazione al cambio per KO,0,decoded static configuration
+315,0x1e0a0,0x0,1,519,74,174,330,0xe1;0xe0;0xe3;0x16a;0x163,Difesa giù L;Difesa giù S;Salute giù S;2° Trasformazione al cambio per KO;Cambio quando rimangono 3 indicatori di salute,0,decoded static configuration
+315,0x1e0a0,0x0,2,519,74,174,330,0xe1;0xe0;0xe3;0x16a;0x163,Difesa giù L;Difesa giù S;Salute giù S;2° Trasformazione al cambio per KO;Cambio quando rimangono 3 indicatori di salute,0,decoded static configuration
+316,0x1e0fc,0x0,0,511,16,225,244,0x38;0xf2;0xf1;0x80;0x123;0x13d;0xe1,Aura abilità peculiare ½;Istinti di un campione!;Super inarrestabile!;Totale sicurezza di se;Super Recupero Aura II;1/10 danno Attacco Speciale II;Difesa giù L,0,decoded static configuration
+317,0x1e158,0x0,0,670,46,46,369,0xe0;0xe1;0x141;0x84,Difesa giù S;Difesa giù L;CPU più forte (Piccolo) con il passare del tempo;abiti strappati,0,decoded static configuration
+318,0x1e1b4,0x0,0,523,42,42,187,0xe0;0xe1;0xda,Difesa giù S;Difesa giù L;Potere difensivo giù,0,decoded static configuration
+318,0x1e1b4,0x0,1,594,40,40,321,0xe1;0xe0;0x148;0x151;0x169,Difesa giù L;Difesa giù S;Animo Furioso quando rimangono 2 indicatori di salute;CPU molto più forte quando rimangono 3 indicatori di salute;1° Trasformazione al cambio per KO,0,decoded static configuration
+319,0x1e210,0x0,0,715,48,48,379,0x29;0x3a;0x52;0x18;0x6a;0x3c;0x71;0xe1;0xe0,Recupero aura automatico;Controllo dell'aura;Durata svenimento giù S;Sul serio!;Miraggio;Potenza gigantesca;Potenza attacco supremo su L;Difesa giù L;Difesa giù S,0,decoded static configuration
+320,0x1e26c,0x0,0,890,11,11,262,0x27;0x6e;0xe1;0xe0,Velocità colpo dell'aura Su;Potenza attacco speciale su L;Difesa giù L;Difesa giù S,0,decoded static configuration
+320,0x1e26c,0x0,1,875,4,4,683,0xe0;0xe1;0xda;0x14b,Difesa giù S;Difesa giù L;Potere difensivo giù;Alta Tensione quando rimangono 3 indicatori di salute,0,decoded static configuration
+321,0x1e2c8,0x0,0,882,1,1,268,0xd;0xe;0x1d;0x4b;0x27;0x5c;0x53;0x55;0x10;0xe1,Riduci tempo carica;Carica Rapida;Proiezione rapida;Colpo dell'aura alta velocità;Velocità colpo dell'aura Su;Capriola elegante;Durata svenimento giù M;Durata paralisi giù M;Tempo Extra Spinta al Muro L;Difesa giù L,0,decoded static configuration
+321,0x1e2c8,0x0,1,960,92,92,390,0xe1;0xe0;0xda;0x11d;0x16a;0x67,Difesa giù L;Difesa giù S;Potere difensivo giù;Super Recupero Salute II;2° Trasformazione al cambio per KO;Recupero Salute automatico,0,decoded static configuration
+322,0x1e324,0x0,0,889,90,90,260,0x0;0x8;0xe1;0xe0,UNKNOWN;Attacco Dirompente su L;Difesa giù L;Difesa giù S,0,decoded static configuration
+322,0x1e324,0x0,1,874,12,12,256,0x27;0x6d;0xe1;0xe0,Velocità colpo dell'aura Su;Potenza attacco speciale su M;Difesa giù L;Difesa giù S,0,decoded static configuration
+323,0x1e380,0x0,0,736,98,98,269,0xb;0x1d;0x11;0x10;0x3b;0x3c;0x53;0x49;0x5c;0xe1,Proiezione su L;Proiezione rapida;Danno Impatto Su;Tempo Extra Spinta al Muro L;Demolitore della mente;Potenza gigantesca;Durata svenimento giù M;Riduttore energetico;Capriola elegante;Difesa giù L,0,decoded static configuration
+323,0x1e380,0x0,1,959,96,96,270,0x3c;0x29;0x3a;0x49;0x72;0x53;0x6a;0x6e;0xe1,Potenza gigantesca;Recupero aura automatico;Controllo dell'aura;Riduttore energetico;Inarrestabile!;Durata svenimento giù M;Miraggio;Potenza attacco speciale su L;Difesa giù L,0,decoded static configuration
+324,0x1e3dc,0x0,0,935,11,11,185,0xe0;0xe1;0xda,Difesa giù S;Difesa giù L;Potere difensivo giù,0,decoded static configuration
+324,0x1e3dc,0x0,1,936,32,32,357,0xe0;0xe1;0xda;0x27;0x147;0x146;0xd7;0x16a,Difesa giù S;Difesa giù L;Potere difensivo giù;Velocità colpo dell'aura Su;Animo Furioso quando rimane 1 indicatore di salute;Cpu più debole (Grande) con il passare del tempo;Tempo extra super alta tensione;2° Trasformazione al cambio per KO,0,decoded static configuration
+325,0x1e438,0x0,0,937,61,61,714,0xe0;0xe1;0xda;0x121;0x81;0x82,Difesa giù S;Difesa giù L;Potere difensivo giù;Super Recupero Salute X;Scatto Spirito di combattimento;Dignità dell'imperatore,0,decoded static configuration
+326,0x1e494,0x0,0,587,75,75,225,0xe0;0xe1,Difesa giù S;Difesa giù L,0,decoded static configuration
+327,0x1e4f0,0x0,0,575,69,69,200,0xe0;0xe1;0xda,Difesa giù S;Difesa giù L;Potere difensivo giù,0,decoded static configuration
+328,0x1e54c,0x0,0,938,2,2,702,0xe1;0xe0;0x139;0xf9;0x80,Difesa giù L;Difesa giù S;Punto di Morte II;Super Guerriero;Totale sicurezza di se,0,decoded static configuration
+328,0x1e54c,0x0,1,1056,20,20,773,0xe1;0xe0;0xda;0x11d;0x16a;0x67;0x139,Difesa giù L;Difesa giù S;Potere difensivo giù;Super Recupero Salute II;2° Trasformazione al cambio per KO;Recupero Salute automatico;Punto di Morte II,0,decoded static configuration
+329,0x1e5a8,0x0,0,939,70,70,715,0x17;0x26;0x2d;0x18;0xeb;0xec;0x2;0xe1;0x13f,Scatto estremo;Recupero aura con scatto L;Segreti dello slancio;Sul serio!;Potenza attacco Speciale Giù;Potenza Attacco Supremo Giù;Attacco con Scatto Su L;Difesa giù L;100% Evanescente II,0,decoded static configuration
+330,0x1e604,0x0,0,691,87,87,377,0xe1;0xe0;0xda;0x13f;0x6a;0x31,Difesa giù L;Difesa giù S;Potere difensivo giù;100% Evanescente II;Miraggio;Segreti dell'evanescente,0,decoded static configuration
+331,0x1e660,0x0,0,559,4,4,310,0xe1;0xe0;0x148,Difesa giù L;Difesa giù S;Animo Furioso quando rimangono 2 indicatori di salute,0,decoded static configuration
+332,0x1e6bc,0x0,0,560,38,38,220,0xe0;0xe1,Difesa giù S;Difesa giù L,0,decoded static configuration
+332,0x1e6bc,0x0,1,561,39,39,220,0xe0;0xe1,Difesa giù S;Difesa giù L,0,decoded static configuration
+333,0x1e718,0x0,0,562,58,58,311,0xe1;0xe0;0x13d;0x146,Difesa giù L;Difesa giù S;1/10 danno Attacco Speciale II;Cpu più debole (Grande) con il passare del tempo,0,decoded static configuration
+334,0x1e774,0x0,0,563,57,57,220,0xe0;0xe1,Difesa giù S;Difesa giù L,0,decoded static configuration
+335,0x1e7d0,0x0,0,572,74,74,296,0xe1;0xe0;0x11d;0x67,Difesa giù L;Difesa giù S;Super Recupero Salute II;Recupero Salute automatico,0,decoded static configuration
+336,0x1e82c,0x0,0,564,77,77,217,0xe0;0xe1,Difesa giù S;Difesa giù L,0,decoded static configuration
+336,0x1e82c,0x0,1,565,63,63,217,0xe0;0xe1,Difesa giù S;Difesa giù L,0,decoded static configuration
+337,0x1e888,0x0,0,568,15,15,185,0xe0;0xe1;0xda,Difesa giù S;Difesa giù L;Potere difensivo giù,0,decoded static configuration
+337,0x1e888,0x0,1,569,13,13,190,0xe0;0xe1;0xda,Difesa giù S;Difesa giù L;Potere difensivo giù,0,decoded static configuration
+337,0x1e888,0x0,2,570,14,14,220,0xe0;0xe1,Difesa giù S;Difesa giù L,0,decoded static configuration
+337,0x1e888,0x0,3,571,92,92,225,0xe0;0xe1,Difesa giù S;Difesa giù L,0,decoded static configuration
+338,0x1e8e4,0x0,0,573,78,78,195,0xe0;0xe1;0xda,Difesa giù S;Difesa giù L;Potere difensivo giù,0,decoded static configuration
+338,0x1e8e4,0x0,1,574,79,79,195,0xe0;0xe1;0xda,Difesa giù S;Difesa giù L;Potere difensivo giù,0,decoded static configuration
+338,0x1e8e4,0x0,2,575,69,69,200,0xe0;0xe1;0xda,Difesa giù S;Difesa giù L;Potere difensivo giù,0,decoded static configuration
+339,0x1e940,0x0,0,567,0,0,312,0xe1;0xe0;0x7;0x4;0x80;0x81;0x13c;0x11d;0x67,Difesa giù L;Difesa giù S;Attacco Dirompente su M;Attacco Caricato su M;Totale sicurezza di se;Scatto Spirito di combattimento;1/10 danno Attacco Speciale I;Super Recupero Salute II;Recupero Salute automatico,0,decoded static configuration
+340,0x1e99c,0x0,0,566,54,54,268,0xd;0xe;0x1d;0x4b;0x27;0x5c;0x53;0x55;0x10;0xe1,Riduci tempo carica;Carica Rapida;Proiezione rapida;Colpo dell'aura alta velocità;Velocità colpo dell'aura Su;Capriola elegante;Durata svenimento giù M;Durata paralisi giù M;Tempo Extra Spinta al Muro L;Difesa giù L,0,decoded static configuration
+341,0x1e9f8,0x0,0,620,85,85,217,0xe0;0xe1,Difesa giù S;Difesa giù L,0,decoded static configuration
+342,0x1ea54,0xffffffff,,1,,,,,,,opaque special group
+343,0x1eab0,0x0,0,710,3,3,235,0xe0;0xe1,Difesa giù S;Difesa giù L,0,decoded static configuration
+343,0x1eab0,0x0,1,711,71,71,265,0x4b;0x22;0x23;0x24;0x27;0x4c;0x3a;0x74;0x6d;0x71;0xe1,Colpo dell'aura alta velocità;Velocità colpo dell'aura su;Capacità colpo aura Mirata su;Consumo colpo dell'aura giù;Velocità colpo dell'aura Su;Colpo dell'aura magnetico;Controllo dell'aura;Potenza schermaglia su M;Potenza attacco speciale su M;Potenza attacco supremo su L;Difesa giù L,0,decoded static configuration
+343,0x1eab0,0x0,2,712,33,33,200,0xe0;0xe1;0xda,Difesa giù S;Difesa giù L;Potere difensivo giù,0,decoded static configuration
+343,0x1eab0,0x0,3,713,72,72,276,0xc8;0xf2;0xf1;0x11;0x10;0x2b;0x53;0xda;0x51,Super serio!;Istinti di un campione!;Super inarrestabile!;Danno Impatto Su;Tempo Extra Spinta al Muro L;Recupero aura distruzione;Durata svenimento giù M;Potere difensivo giù;Salute su L,0,decoded static configuration
+344,0x1eb0c,0x0,0,972,12,12,309,0xe1;0xe0;0x11d;0x13e;0x67,Difesa giù L;Difesa giù S;Super Recupero Salute II;100% Evanescente I;Recupero Salute automatico,0,decoded static configuration
+345,0x1eb68,0x0,0,573,78,78,195,0xe0;0xe1;0xda,Difesa giù S;Difesa giù L;Potere difensivo giù,0,decoded static configuration
+345,0x1eb68,0x0,1,607,93,93,261,0x20;0x24;0xe1;0xe0,Colpi dell'aura su L;Consumo colpo dell'aura giù;Difesa giù L;Difesa giù S,0,decoded static configuration
+345,0x1eb68,0x0,2,614,67,67,327,0xe1;0xe0;0x144;0x149;0x152;0x169,Difesa giù L;Difesa giù S;Cpu più debole (Piccolo) con il passare del tempo;Animo Furioso quando rimangono 3 indicatori di salute;CPU super forte quando rimane 1 indicatore di salute;1° Trasformazione al cambio per KO,0,decoded static configuration
+346,0x1ebc4,0x0,0,561,39,39,220,0xe0;0xe1,Difesa giù S;Difesa giù L,0,decoded static configuration
+346,0x1ebc4,0x0,1,585,16,16,261,0x20;0x24;0xe1;0xe0,Colpi dell'aura su L;Consumo colpo dell'aura giù;Difesa giù L;Difesa giù S,0,decoded static configuration
+347,0x1ec20,0x0,0,559,4,4,310,0xe1;0xe0;0x148,Difesa giù L;Difesa giù S;Animo Furioso quando rimangono 2 indicatori di salute,0,decoded static configuration
+347,0x1ec20,0x0,1,708,0,0,263,0x1;0x14;0xe1;0xe0,Attacco con Scatto Su M;Attacco Segugio 1 su L;Difesa giù L;Difesa giù S,0,decoded static configuration
+347,0x1ec20,0x0,2,709,11,11,259,0x51;0xda;0xe0,Salute su L;Potere difensivo giù;Difesa giù S,0,decoded static configuration
+348,0x1ec7c,0x0,0,737,90,90,286,0xe1;0xe0;0x13d,Difesa giù L;Difesa giù S;1/10 danno Attacco Speciale II,0,decoded static configuration
+348,0x1ec7c,0x0,1,738,11,11,286,0xe1;0xe0;0x13d,Difesa giù L;Difesa giù S;1/10 danno Attacco Speciale II,0,decoded static configuration
+349,0x1ecd8,0x0,0,675,16,16,354,0xe0;0xe1;0xda;0xc;0x145;0x144;0x143;0x13c;0x16a,Difesa giù S;Difesa giù L;Potere difensivo giù;Attacco Animo furioso Su;Cpu più debole (Medio) con il passare del tempo;Cpu più debole (Piccolo) con il passare del tempo;CPU più forte (Grande) con il passare del tempo;1/10 danno Attacco Speciale I;2° Trasformazione al cambio per KO,0,decoded static configuration
+349,0x1ecd8,0x0,1,496,12,12,215,0xe0;0xe1,Difesa giù S;Difesa giù L,0,decoded static configuration
+349,0x1ecd8,0x0,2,533,4,4,215,0xe0;0xe1,Difesa giù S;Difesa giù L,0,decoded static configuration
+350,0x1ed34,0x0,0,669,13,13,254,0x1;0x7;0xe1;0xe0,Attacco con Scatto Su M;Attacco Dirompente su M;Difesa giù L;Difesa giù S,0,decoded static configuration
+351,0x1ed90,0x0,0,739,0,0,396,0xe1;0xe0;0x71;0x142,Difesa giù L;Difesa giù S;Potenza attacco supremo su L;CPU più forte (Medio) con il passare del tempo,0,decoded static configuration
+352,0x1edec,0xffffffff,,1,,,,,,,opaque special group
+353,0x1ee48,0x0,0,717,48,48,268,0xd;0xe;0x1d;0x4b;0x27;0x5c;0x53;0x55;0x10;0xe1,Riduci tempo carica;Carica Rapida;Proiezione rapida;Colpo dell'aura alta velocità;Velocità colpo dell'aura Su;Capriola elegante;Durata svenimento giù M;Durata paralisi giù M;Tempo Extra Spinta al Muro L;Difesa giù L,0,decoded static configuration
+354,0x1eea4,0x0,0,568,15,15,185,0xe0;0xe1;0xda,Difesa giù S;Difesa giù L;Potere difensivo giù,0,decoded static configuration
+355,0x1ef00,0x0,0,850,14,14,404,0xe1;0xe0;0xda;0x138,Difesa giù L;Difesa giù S;Potere difensivo giù;Punto di Morte I,0,decoded static configuration
+355,0x1ef00,0x0,1,753,11,11,405,0xe1;0xe0;0x138,Difesa giù L;Difesa giù S;Punto di Morte I,0,decoded static configuration
+356,0x1ef5c,0x0,0,851,39,39,662,0xe1;0xe0;0xda;0x13e,Difesa giù L;Difesa giù S;Potere difensivo giù;100% Evanescente I,0,decoded static configuration
+356,0x1ef5c,0x0,1,585,16,16,261,0x20;0x24;0xe1;0xe0,Colpi dell'aura su L;Consumo colpo dell'aura giù;Difesa giù L;Difesa giù S,0,decoded static configuration
+357,0x1efb8,0x0,0,801,13,13,324,0xe1;0xe0,Difesa giù L;Difesa giù S,0,decoded static configuration
+358,0x1f014,0x0,0,726,12,12,364,0xe0;0xe1;0xda;0x13;0x14;0x15;0x16;0xd;0x17;0x16a,Difesa giù S;Difesa giù L;Potere difensivo giù;Attacco Segugio 1 su S;Attacco Segugio 1 su L;Attacco Segugio 2 su S;Attacco Segugio 2 su L;Riduci tempo carica;Scatto estremo;2° Trasformazione al cambio per KO,0,decoded static configuration
+359,0x1f070,0x0,0,660,47,47,344,0xe1;0xe0;0x129,Difesa giù L;Difesa giù S;Perdita automatica salute II,0,decoded static configuration
+359,0x1f070,0x0,1,951,44,44,344,0xe1;0xe0;0x129,Difesa giù L;Difesa giù S;Perdita automatica salute II,0,decoded static configuration
+360,0x1f0cc,0x0,0,722,46,46,393,0xe1;0xe0;0xda;0x164;0x16a,Difesa giù L;Difesa giù S;Potere difensivo giù;Animo furioso al cambio per KO;2° Trasformazione al cambio per KO,0,decoded static configuration
+360,0x1f0cc,0x0,1,723,45,45,394,0xe1;0xe0;0x164;0x16a;0x29;0x3a;0x4c;0x18,Difesa giù L;Difesa giù S;Animo furioso al cambio per KO;2° Trasformazione al cambio per KO;Recupero aura automatico;Controllo dell'aura;Colpo dell'aura magnetico;Sul serio!,0,decoded static configuration
+360,0x1f0cc,0x0,2,952,43,43,260,0x0;0x8;0xe1;0xe0,UNKNOWN;Attacco Dirompente su L;Difesa giù L;Difesa giù S,0,decoded static configuration
+361,0x1f128,0x0,0,956,75,75,297,0xe1;0xe0;0x11d;0x67,Difesa giù L;Difesa giù S;Super Recupero Salute II;Recupero Salute automatico,0,decoded static configuration
+362,0x1f184,0x0,0,954,11,11,298,0xe1;0xe0;0x11d;0x67,Difesa giù L;Difesa giù S;Super Recupero Salute II;Recupero Salute automatico,0,decoded static configuration
+363,0x1f1e0,0x0,0,726,12,12,364,0xe0;0xe1;0xda;0x13;0x14;0x15;0x16;0xd;0x17;0x16a,Difesa giù S;Difesa giù L;Potere difensivo giù;Attacco Segugio 1 su S;Attacco Segugio 1 su L;Attacco Segugio 2 su S;Attacco Segugio 2 su L;Riduci tempo carica;Scatto estremo;2° Trasformazione al cambio per KO,0,decoded static configuration
+363,0x1f1e0,0x0,1,955,0,0,719,0xe1;0xe0;0x140,Difesa giù L;Difesa giù S;Inizio Animo Furioso,0,decoded static configuration
+364,0x1f23c,0x0,0,953,81,81,309,0xe1;0xe0;0x11d;0x13e;0x67,Difesa giù L;Difesa giù S;Super Recupero Salute II;100% Evanescente I;Recupero Salute automatico,0,decoded static configuration
+365,0x1f298,0x0,0,735,97,97,367,0xe0;0xe1;0xda;0x19;0x33;0x74;0x17;0x16a,Difesa giù S;Difesa giù L;Potere difensivo giù;Contrattacco Dirompente;Segreti del contrattacco;Potenza schermaglia su M;Scatto estremo;2° Trasformazione al cambio per KO,0,decoded static configuration
+365,0x1f298,0x0,1,736,98,98,269,0xb;0x1d;0x11;0x10;0x3b;0x3c;0x53;0x49;0x5c;0xe1,Proiezione su L;Proiezione rapida;Danno Impatto Su;Tempo Extra Spinta al Muro L;Demolitore della mente;Potenza gigantesca;Durata svenimento giù M;Riduttore energetico;Capriola elegante;Difesa giù L,0,decoded static configuration
+366,0x1f2f4,0x0,0,940,0,0,215,0xe0;0xe1,Difesa giù S;Difesa giù L,0,decoded static configuration
+367,0x1f350,0x0,0,942,51,51,387,0xe1;0xe0;0x122,Difesa giù L;Difesa giù S;Super Recupero Aura I,0,decoded static configuration
+367,0x1f350,0x0,1,943,79,79,387,0xe1;0xe0;0x122,Difesa giù L;Difesa giù S;Super Recupero Aura I,0,decoded static configuration
+368,0x1f3ac,0x0,0,520,29,29,215,0xe0;0xe1,Difesa giù S;Difesa giù L,0,decoded static configuration
+368,0x1f3ac,0x0,1,541,27,27,217,0xe0;0xe1,Difesa giù S;Difesa giù L,0,decoded static configuration
+369,0x1f408,0x0,0,1050,31,31,298,0xe1;0xe0;0x11d;0x67,Difesa giù L;Difesa giù S;Super Recupero Salute II;Recupero Salute automatico,0,decoded static configuration
+370,0x1f464,0x0,0,874,12,12,256,0x27;0x6d;0xe1;0xe0,Velocità colpo dell'aura Su;Potenza attacco speciale su M;Difesa giù L;Difesa giù S,0,decoded static configuration
+370,0x1f464,0x0,1,1026,13,13,340,0xe0;0xe1;0x13e,Difesa giù S;Difesa giù L;100% Evanescente I,0,decoded static configuration
+371,0x1f4c0,0x0,0,820,36,36,363,0xe0;0xe1;0xda;0x13;0x14;0x15;0x16;0xd;0x17;0x16a,Difesa giù S;Difesa giù L;Potere difensivo giù;Attacco Segugio 1 su S;Attacco Segugio 1 su L;Attacco Segugio 2 su S;Attacco Segugio 2 su L;Riduci tempo carica;Scatto estremo;2° Trasformazione al cambio per KO,0,decoded static configuration
+371,0x1f4c0,0x0,1,869,9,9,772,0xe1;0xe0;0x144;0x149;0x155;0x169,Difesa giù L;Difesa giù S;Cpu più debole (Piccolo) con il passare del tempo;Animo Furioso quando rimangono 3 indicatori di salute;1°Trasformazione quando rimane 1 indicatore di salute;1° Trasformazione al cambio per KO,0,decoded static configuration
+372,0x1f51c,0x0,0,941,17,17,261,0x20;0x24;0xe1;0xe0,Colpi dell'aura su L;Consumo colpo dell'aura giù;Difesa giù L;Difesa giù S,0,decoded static configuration
+373,0x1f578,0x0,0,915,3,3,703,0xe1;0xe0;0xda;0x13f,Difesa giù L;Difesa giù S;Potere difensivo giù;100% Evanescente II,0,decoded static configuration
+374,0x1f5d4,0x0,0,712,33,33,200,0xe0;0xe1;0xda,Difesa giù S;Difesa giù L;Potere difensivo giù,0,decoded static configuration
+374,0x1f5d4,0x0,1,916,70,70,704,0x2c;0x42;0x53;0xda;0x51;0xc8;0x13f;0x6a,Recupero aura super guardia;Atteggiamento!;Durata svenimento giù M;Potere difensivo giù;Salute su L;Super serio!;100% Evanescente II;Miraggio,0,decoded static configuration
+375,0x1f630,0x0,0,711,71,71,265,0x4b;0x22;0x23;0x24;0x27;0x4c;0x3a;0x74;0x6d;0x71;0xe1,Colpo dell'aura alta velocità;Velocità colpo dell'aura su;Capacità colpo aura Mirata su;Consumo colpo dell'aura giù;Velocità colpo dell'aura Su;Colpo dell'aura magnetico;Controllo dell'aura;Potenza schermaglia su M;Potenza attacco speciale su M;Potenza attacco supremo su L;Difesa giù L,0,decoded static configuration
+376,0x1f68c,0x0,0,661,15,15,344,0xe1;0xe0;0x129,Difesa giù L;Difesa giù S;Perdita automatica salute II,0,decoded static configuration
+377,0x1f6e8,0x0,0,654,11,11,242,0x7;0x4;0x1;0xe1,Attacco Dirompente su M;Attacco Caricato su M;Attacco con Scatto Su M;Difesa giù L,0,decoded static configuration
+377,0x1f6e8,0x0,1,674,17,17,301,0xe1;0xe0;0x149,Difesa giù L;Difesa giù S;Animo Furioso quando rimangono 3 indicatori di salute,0,decoded static configuration
+378,0x1f744,0x0,0,496,12,12,215,0xe0;0xe1,Difesa giù S;Difesa giù L,0,decoded static configuration
+378,0x1f744,0x0,1,669,13,13,254,0x1;0x7;0xe1;0xe0,Attacco con Scatto Su M;Attacco Dirompente su M;Difesa giù L;Difesa giù S,0,decoded static configuration
+379,0x1f7a0,0xffffffff,,1,,,,,,,opaque special group
+380,0x1f7fc,0x0,0,670,46,46,369,0xe0;0xe1;0x141;0x84,Difesa giù S;Difesa giù L;CPU più forte (Piccolo) con il passare del tempo;abiti strappati,0,decoded static configuration
+380,0x1f7fc,0x0,1,671,45,45,370,0xe0;0xe1;0x141;0x84,Difesa giù S;Difesa giù L;CPU più forte (Piccolo) con il passare del tempo;abiti strappati,0,decoded static configuration
+381,0x1f858,0x0,0,673,0,0,372,0xe0;0xe1;0xda;0x19;0x33;0x74;0x17;0x120,Difesa giù S;Difesa giù L;Potere difensivo giù;Contrattacco Dirompente;Segreti del contrattacco;Potenza schermaglia su M;Scatto estremo;Super Recupero Salute V,0,decoded static configuration
+382,0x1f8b4,0x0,0,1057,59,59,774,0xd;0xe;0x1d;0x4b;0x27;0xf9;0x2d;0xe1;0xe0;0x118;0x123,Riduci tempo carica;Carica Rapida;Proiezione rapida;Colpo dell'aura alta velocità;Velocità colpo dell'aura Su;Super Guerriero;Segreti dello slancio;Difesa giù L;Difesa giù S;Sigillo 1/10 Att. Speciale I;Super Recupero Aura II,0,decoded static configuration
+383,0x1f910,0x0,0,636,91,91,217,0xe0;0xe1,Difesa giù S;Difesa giù L,0,decoded static configuration
+383,0x1f910,0x0,1,637,75,75,217,0xe0;0xe1,Difesa giù S;Difesa giù L,0,decoded static configuration
+384,0x1f96c,0x0,0,638,0,204,337,0xe0;0xe1;0xda;0x153;0x169,Difesa giù S;Difesa giù L;Potere difensivo giù;CPU super forte quando rimangono 2 indicatori di salute;1° Trasformazione al cambio per KO,0,decoded static configuration
+385,0x1f9c8,0x0,0,645,28,28,217,0xe0;0xe1,Difesa giù S;Difesa giù L,0,decoded static configuration
+385,0x1f9c8,0x0,1,647,25,25,220,0xe0;0xe1,Difesa giù S;Difesa giù L,0,decoded static configuration
+386,0x1fa24,0x0,0,528,81,181,284,0xe1;0xe0;0xe4;0x16a,Difesa giù L;Difesa giù S;Salute giù M;2° Trasformazione al cambio per KO,0,decoded static configuration
+386,0x1fa24,0x0,1,528,81,181,284,0xe1;0xe0;0xe4;0x16a,Difesa giù L;Difesa giù S;Salute giù M;2° Trasformazione al cambio per KO,0,decoded static configuration
+386,0x1fa24,0x0,2,528,81,181,284,0xe1;0xe0;0xe4;0x16a,Difesa giù L;Difesa giù S;Salute giù M;2° Trasformazione al cambio per KO,0,decoded static configuration
+387,0x1fa80,0x0,0,640,17,17,338,0xe0;0xe1;0x129,Difesa giù S;Difesa giù L;Perdita automatica salute II,0,decoded static configuration
+388,0x1fadc,0x0,0,644,58,58,259,0x51;0xda;0xe0,Salute su L;Potere difensivo giù;Difesa giù S,0,decoded static configuration
+389,0x1fb38,0x0,0,641,8,8,301,0xe1;0xe0;0x149,Difesa giù L;Difesa giù S;Animo Furioso quando rimangono 3 indicatori di salute,0,decoded static configuration
+389,0x1fb38,0x0,1,642,88,88,329,0xe1;0xe0;0x149;0x152;0xc8;0xf2;0xf1;0x169,Difesa giù L;Difesa giù S;Animo Furioso quando rimangono 3 indicatori di salute;CPU super forte quando rimane 1 indicatore di salute;Super serio!;Istinti di un campione!;Super inarrestabile!;1° Trasformazione al cambio per KO,0,decoded static configuration
+390,0x1fb94,0x0,0,684,76,76,215,0xe0;0xe1,Difesa giù S;Difesa giù L,0,decoded static configuration
+391,0x1fbf0,0x0,0,685,14,14,185,0xe0;0xe1;0xda,Difesa giù S;Difesa giù L;Potere difensivo giù,0,decoded static configuration
+391,0x1fbf0,0x0,1,581,84,84,190,0xe0;0xe1;0xda,Difesa giù S;Difesa giù L;Potere difensivo giù,0,decoded static configuration
+391,0x1fbf0,0x0,2,686,86,86,357,0xe0;0xe1;0xda;0x27;0x147;0x146;0xd7;0x16a,Difesa giù S;Difesa giù L;Potere difensivo giù;Velocità colpo dell'aura Su;Animo Furioso quando rimane 1 indicatore di salute;Cpu più debole (Grande) con il passare del tempo;Tempo extra super alta tensione;2° Trasformazione al cambio per KO,0,decoded static configuration
+392,0x1fc4c,0x0,0,687,19,19,263,0x1;0x14;0xe1;0xe0,Attacco con Scatto Su M;Attacco Segugio 1 su L;Difesa giù L;Difesa giù S,0,decoded static configuration
+393,0x1fca8,0x0,0,688,93,93,375,0xe1;0xe0;0x138;0x11d;0x67,Difesa giù L;Difesa giù S;Punto di Morte I;Super Recupero Salute II;Recupero Salute automatico,0,decoded static configuration
+394,0x1fd04,0x0,0,535,54,54,258,0x8;0x5;0xe1;0xe0,Attacco Dirompente su L;Attacco Caricato su L;Difesa giù L;Difesa giù S,0,decoded static configuration
+394,0x1fd04,0x0,1,536,55,55,263,0x1;0x14;0xe1;0xe0,Attacco con Scatto Su M;Attacco Segugio 1 su L;Difesa giù L;Difesa giù S,0,decoded static configuration
+395,0x1fd60,0x0,0,562,58,58,311,0xe1;0xe0;0x13d;0x146,Difesa giù L;Difesa giù S;1/10 danno Attacco Speciale II;Cpu più debole (Grande) con il passare del tempo,0,decoded static configuration
+396,0x1fdbc,0x0,0,683,60,60,361,0xe0;0xe1;0xda;0x6a;0x31;0x16a,Difesa giù S;Difesa giù L;Potere difensivo giù;Miraggio;Segreti dell'evanescente;2° Trasformazione al cambio per KO,0,decoded static configuration
+397,0x1fe18,0x0,0,520,29,29,215,0xe0;0xe1,Difesa giù S;Difesa giù L,0,decoded static configuration
+398,0x1fe74,0x0,0,646,23,23,220,0xe0;0xe1,Difesa giù S;Difesa giù L,0,decoded static configuration
+398,0x1fe74,0x0,1,647,25,25,220,0xe0;0xe1,Difesa giù S;Difesa giù L,0,decoded static configuration
+399,0x1fed0,0x0,0,648,62,62,339,0xe0;0xe1;0x119,Difesa giù S;Difesa giù L;Sigillo 1/10 Att. Speciale II,0,decoded static configuration
+400,0x1ff2c,0x0,0,650,32,32,341,0xe1;0xe0;0x14f;0x155;0x169,Difesa giù L;Difesa giù S;CPU molto più forte quando rimane 1 indicatore di salute;1°Trasformazione quando rimane 1 indicatore di salute;1° Trasformazione al cambio per KO,0,decoded static configuration
+401,0x1ff88,0x0,0,649,17,17,340,0xe0;0xe1;0x13e,Difesa giù S;Difesa giù L;100% Evanescente I,0,decoded static configuration
+402,0x1ffe4,0x0,0,661,15,15,344,0xe1;0xe0;0x129,Difesa giù L;Difesa giù S;Perdita automatica salute II,0,decoded static configuration
+403,0x20040,0x0,0,928,75,75,711,0x27;0x2d;0x2f;0x29;0xda;0x5c;0x53;0x81;0xe1;0x122,Velocità colpo dell'aura Su;Segreti dello slancio;Segreti del super slancio;Recupero aura automatico;Potere difensivo giù;Capriola elegante;Durata svenimento giù M;Scatto Spirito di combattimento;Difesa giù L;Super Recupero Aura I,0,decoded static configuration
+403,0x20040,0x0,1,929,81,81,710,0xb;0x1d;0x11;0x10;0x3b;0x3c;0x53;0x49;0x5c;0xe1;0x122,Proiezione su L;Proiezione rapida;Danno Impatto Su;Tempo Extra Spinta al Muro L;Demolitore della mente;Potenza gigantesca;Durata svenimento giù M;Riduttore energetico;Capriola elegante;Difesa giù L;Super Recupero Aura I,0,decoded static configuration
+404,0x2009c,0x0,0,873,14,14,662,0xe1;0xe0;0xda;0x13e,Difesa giù L;Difesa giù S;Potere difensivo giù;100% Evanescente I,0,decoded static configuration
+405,0x200f8,0x0,0,721,51,51,300,0xe1;0xe0;0x11d;0x67,Difesa giù L;Difesa giù S;Super Recupero Salute II;Recupero Salute automatico,0,decoded static configuration
+406,0x20154,0x0,0,669,13,13,254,0x1;0x7;0xe1;0xe0,Attacco con Scatto Su M;Attacco Dirompente su M;Difesa giù L;Difesa giù S,0,decoded static configuration
+406,0x20154,0x0,1,874,12,12,256,0x27;0x6d;0xe1;0xe0,Velocità colpo dell'aura Su;Potenza attacco speciale su M;Difesa giù L;Difesa giù S,0,decoded static configuration
+407,0x201b0,0x0,0,517,79,79,277,0xe1;0xe0;0x5c;0x152;0x169;0x13c;0x3b;0x3c;0x18,Difesa giù L;Difesa giù S;Capriola elegante;CPU super forte quando rimane 1 indicatore di salute;1° Trasformazione al cambio per KO;1/10 danno Attacco Speciale I;Demolitore della mente;Potenza gigantesca;Sul serio!,0,decoded static configuration
+408,0x2020c,0x0,0,875,4,4,683,0xe0;0xe1;0xda;0x14b,Difesa giù S;Difesa giù L;Potere difensivo giù;Alta Tensione quando rimangono 3 indicatori di salute,0,decoded static configuration
+409,0x20268,0x0,0,876,0,0,684,0xe1;0xe0;0x71;0x3f,Difesa giù L;Difesa giù S;Potenza attacco supremo su L;Inizio alta tensione,0,decoded static configuration
+410,0x202c4,0x0,0,593,42,42,185,0xe0;0xe1;0xda,Difesa giù S;Difesa giù L;Potere difensivo giù,0,decoded static configuration
+410,0x202c4,0x0,1,594,40,40,321,0xe1;0xe0;0x148;0x151;0x169,Difesa giù L;Difesa giù S;Animo Furioso quando rimangono 2 indicatori di salute;CPU molto più forte quando rimangono 3 indicatori di salute;1° Trasformazione al cambio per KO,0,decoded static configuration
+411,0x20320,0x0,0,596,44,44,322,0xe1;0xe0;0x146,Difesa giù L;Difesa giù S;Cpu più debole (Grande) con il passare del tempo,0,decoded static configuration
+412,0x2037c,0x0,0,600,74,74,282,0xe1;0xe0;0xe4;0x16a,Difesa giù L;Difesa giù S;Salute giù M;2° Trasformazione al cambio per KO,0,decoded static configuration
+412,0x2037c,0x0,1,600,74,74,282,0xe1;0xe0;0xe4;0x16a,Difesa giù L;Difesa giù S;Salute giù M;2° Trasformazione al cambio per KO,0,decoded static configuration
+412,0x2037c,0x0,2,600,74,74,282,0xe1;0xe0;0xe4;0x16a,Difesa giù L;Difesa giù S;Salute giù M;2° Trasformazione al cambio per KO,0,decoded static configuration
+412,0x2037c,0x0,3,600,74,74,282,0xe1;0xe0;0xe4;0x16a,Difesa giù L;Difesa giù S;Salute giù M;2° Trasformazione al cambio per KO,0,decoded static configuration
+412,0x2037c,0x0,4,600,74,74,282,0xe1;0xe0;0xe4;0x16a,Difesa giù L;Difesa giù S;Salute giù M;2° Trasformazione al cambio per KO,0,decoded static configuration
+413,0x203d8,0x0,0,605,37,37,263,0x1;0x14;0xe1;0xe0,Attacco con Scatto Su M;Attacco Segugio 1 su L;Difesa giù L;Difesa giù S,0,decoded static configuration
+413,0x203d8,0x0,1,606,78,78,262,0x27;0x6e;0xe1;0xe0,Velocità colpo dell'aura Su;Potenza attacco speciale su L;Difesa giù L;Difesa giù S,0,decoded static configuration
+413,0x203d8,0x0,2,607,93,93,261,0x20;0x24;0xe1;0xe0,Colpi dell'aura su L;Consumo colpo dell'aura giù;Difesa giù L;Difesa giù S,0,decoded static configuration
+413,0x203d8,0x0,3,608,67,67,326,0x27;0x2d;0x2f;0x29;0xda;0x53;0x81;0xe1,Velocità colpo dell'aura Su;Segreti dello slancio;Segreti del super slancio;Recupero aura automatico;Potere difensivo giù;Durata svenimento giù M;Scatto Spirito di combattimento;Difesa giù L,0,decoded static configuration
+413,0x203d8,0x0,4,609,0,0,272,0x6a;0x18;0xf9;0x123;0xa2,Miraggio;Sul serio!;Super Guerriero;Super Recupero Aura II;Aura al plasma,0,decoded static configuration
+414,0x20434,0x0,0,597,46,46,217,0xe0;0xe1,Difesa giù S;Difesa giù L,0,decoded static configuration
+414,0x20434,0x0,1,598,43,43,323,0xe1;0xe0;0x41,Difesa giù L;Difesa giù S;Acqua ultra divina,0,decoded static configuration
+415,0x20490,0x0,0,601,91,91,324,0xe1;0xe0,Difesa giù L;Difesa giù S,0,decoded static configuration
+415,0x20490,0x0,1,602,47,47,324,0xe1;0xe0,Difesa giù L;Difesa giù S,0,decoded static configuration
+416,0x204ec,0x0,0,603,50,50,325,0x4b;0x22;0x23;0x24;0x27;0x4c;0x3a;0x74;0x6d;0x71;0xe1;0xe0;0xda;0x14d;0x153;0x169,Colpo dell'aura alta velocità;Velocità colpo dell'aura su;Capacità colpo aura Mirata su;Consumo colpo dell'aura giù;Velocità colpo dell'aura Su;Colpo dell'aura magnetico;Controllo dell'aura;Potenza schermaglia su M;Potenza attacco speciale su M;Potenza attacco supremo su L;Difesa giù L;Difesa giù S;Potere difensivo giù;CPU più forte quando rimangono 2 indicatori di salute;CPU super forte quando rimangono 2 indicatori di salute;1° Trasformazione al cambio per KO,0,decoded static configuration
+417,0x20548,0x0,0,599,48,48,262,0x27;0x6e;0xe1;0xe0,Velocità colpo dell'aura Su;Potenza attacco speciale su L;Difesa giù L;Difesa giù S,0,decoded static configuration
+418,0x205a4,0x0,0,610,21,21,215,0xe0;0xe1,Difesa giù S;Difesa giù L,0,decoded static configuration
+419,0x20600,0x0,0,611,28,28,187,0xe0;0xe1;0xda,Difesa giù S;Difesa giù L;Potere difensivo giù,0,decoded static configuration
+419,0x20600,0x0,1,612,30,30,187,0xe0;0xe1;0xda,Difesa giù S;Difesa giù L;Potere difensivo giù,0,decoded static configuration
+419,0x20600,0x0,2,613,10,10,242,0x7;0x4;0x1;0xe1,Attacco Dirompente su M;Attacco Caricato su M;Attacco con Scatto Su M;Difesa giù L,0,decoded static configuration
+420,0x2065c,0x0,0,614,67,67,327,0xe1;0xe0;0x144;0x149;0x152;0x169,Difesa giù L;Difesa giù S;Cpu più debole (Piccolo) con il passare del tempo;Animo Furioso quando rimangono 3 indicatori di salute;CPU super forte quando rimane 1 indicatore di salute;1° Trasformazione al cambio per KO,0,decoded static configuration
+420,0x2065c,0x0,1,616,0,0,328,0xe1;0xe0;0x144;0x14c;0x152;0x169,Difesa giù L;Difesa giù S;Cpu più debole (Piccolo) con il passare del tempo;CPU più forte quando rimane 1 indicatore di salute;CPU super forte quando rimane 1 indicatore di salute;1° Trasformazione al cambio per KO,0,decoded static configuration
+421,0x206b8,0x0,0,626,93,93,225,0xe0;0xe1,Difesa giù S;Difesa giù L,0,decoded static configuration
+422,0x20714,0x0,0,619,82,82,217,0xe0;0xe1,Difesa giù S;Difesa giù L,0,decoded static configuration
+422,0x20714,0x0,1,620,85,85,217,0xe0;0xe1,Difesa giù S;Difesa giù L,0,decoded static configuration
+423,0x20770,0x0,0,621,53,53,195,0xe0;0xe1;0xda,Difesa giù S;Difesa giù L;Potere difensivo giù,0,decoded static configuration
+423,0x20770,0x0,1,622,54,54,190,0xe0;0xe1;0xda,Difesa giù S;Difesa giù L;Potere difensivo giù,0,decoded static configuration
+423,0x20770,0x0,2,623,55,55,225,0xe0;0xe1,Difesa giù S;Difesa giù L,0,decoded static configuration
+424,0x207cc,0x0,0,618,66,66,220,0xe0;0xe1,Difesa giù S;Difesa giù L,0,decoded static configuration
+425,0x20828,0x0,0,627,56,56,324,0xe1;0xe0,Difesa giù L;Difesa giù S,0,decoded static configuration
+425,0x20828,0x0,1,628,57,57,324,0xe1;0xe0,Difesa giù L;Difesa giù S,0,decoded static configuration
+426,0x20884,0x0,0,629,76,76,278,0xe1;0xe0;0xe4;0x16a;0x163,Difesa giù L;Difesa giù S;Salute giù M;2° Trasformazione al cambio per KO;Cambio quando rimangono 3 indicatori di salute,0,decoded static configuration
+426,0x20884,0x0,1,629,76,76,278,0xe1;0xe0;0xe4;0x16a;0x163,Difesa giù L;Difesa giù S;Salute giù M;2° Trasformazione al cambio per KO;Cambio quando rimangono 3 indicatori di salute,0,decoded static configuration
+426,0x20884,0x0,2,630,76,76,334,0xe1;0xe0;0xe3;0x16a;0x164,Difesa giù L;Difesa giù S;Salute giù S;2° Trasformazione al cambio per KO;Animo furioso al cambio per KO,0,decoded static configuration
+427,0x208e0,0x0,0,624,59,59,329,0xe1;0xe0;0x149;0x152;0xc8;0xf2;0xf1;0x169,Difesa giù L;Difesa giù S;Animo Furioso quando rimangono 3 indicatori di salute;CPU super forte quando rimane 1 indicatore di salute;Super serio!;Istinti di un campione!;Super inarrestabile!;1° Trasformazione al cambio per KO,0,decoded static configuration
+428,0x2093c,0x0,0,631,92,92,217,0xe0;0xe1,Difesa giù S;Difesa giù L,0,decoded static configuration
+428,0x2093c,0x0,1,632,87,87,217,0xe0;0xe1,Difesa giù S;Difesa giù L,0,decoded static configuration
+429,0x20998,0x0,0,633,25,25,190,0xe0;0xe1;0xda,Difesa giù S;Difesa giù L;Potere difensivo giù,0,decoded static configuration
+430,0x209f4,0x0,0,634,62,62,220,0xe0;0xe1,Difesa giù S;Difesa giù L,0,decoded static configuration
+431,0x20a50,0x0,0,564,77,77,217,0xe0;0xe1,Difesa giù S;Difesa giù L,0,decoded static configuration
+431,0x20a50,0x0,1,613,10,10,242,0x7;0x4;0x1;0xe1,Attacco Dirompente su M;Attacco Caricato su M;Attacco con Scatto Su M;Difesa giù L,0,decoded static configuration
+432,0x20aac,0xffffffff,,4,,,,,,,opaque special group
+433,0x20b08,0x0,0,526,81,181,282,0xe1;0xe0;0xe4;0x16a,Difesa giù L;Difesa giù S;Salute giù M;2° Trasformazione al cambio per KO,0,decoded static configuration
+433,0x20b08,0x0,1,526,81,181,282,0xe1;0xe0;0xe4;0x16a,Difesa giù L;Difesa giù S;Salute giù M;2° Trasformazione al cambio per KO,0,decoded static configuration
+433,0x20b08,0x0,2,526,81,181,282,0xe1;0xe0;0xe4;0x16a,Difesa giù L;Difesa giù S;Salute giù M;2° Trasformazione al cambio per KO,0,decoded static configuration
+433,0x20b08,0x0,3,527,81,181,283,0xe1;0xe0;0xe4;0x16a,Difesa giù L;Difesa giù S;Salute giù M;2° Trasformazione al cambio per KO,0,decoded static configuration
+433,0x20b08,0x0,4,528,81,181,284,0xe1;0xe0;0xe4;0x16a,Difesa giù L;Difesa giù S;Salute giù M;2° Trasformazione al cambio per KO,0,decoded static configuration
+434,0x20b64,0x0,0,635,2,2,775,0xe1;0xe0;0x1;0x14;0x81;0x17;0x3f;0x118,Difesa giù L;Difesa giù S;Attacco con Scatto Su M;Attacco Segugio 1 su L;Scatto Spirito di combattimento;Scatto estremo;Inizio alta tensione;Sigillo 1/10 Att. Speciale I,0,decoded static configuration
+435,0x20bc0,0x0,0,833,51,51,185,0xe0;0xe1;0xda,Difesa giù S;Difesa giù L;Potere difensivo giù,0,decoded static configuration
+435,0x20bc0,0x0,1,834,61,61,187,0xe0;0xe1;0xda,Difesa giù S;Difesa giù L;Potere difensivo giù,0,decoded static configuration
+436,0x20c1c,0x0,0,647,25,25,220,0xe0;0xe1,Difesa giù S;Difesa giù L,0,decoded static configuration
+437,0x20c78,0x0,0,601,91,91,324,0xe1;0xe0,Difesa giù L;Difesa giù S,0,decoded static configuration
+438,0x20cd4,0x0,0,713,72,72,276,0xc8;0xf2;0xf1;0x11;0x10;0x2b;0x53;0xda;0x51,Super serio!;Istinti di un campione!;Super inarrestabile!;Danno Impatto Su;Tempo Extra Spinta al Muro L;Recupero aura distruzione;Durata svenimento giù M;Potere difensivo giù;Salute su L,0,decoded static configuration
+439,0x20d30,0x0,0,836,93,93,680,0xe1;0xe0;0x139;0x11d;0x67,Difesa giù L;Difesa giù S;Punto di Morte II;Super Recupero Salute II;Recupero Salute automatico,0,decoded static configuration
+440,0x20d8c,0x0,0,560,38,38,220,0xe0;0xe1,Difesa giù S;Difesa giù L,0,decoded static configuration
+440,0x20d8c,0x0,1,561,39,39,220,0xe0;0xe1,Difesa giù S;Difesa giù L,0,decoded static configuration
+441,0x20de8,0x0,0,835,3,3,679,0xe0;0xe1;0x14e;0x122,Difesa giù S;Difesa giù L;CPU più forte quando rimangono 3 indicatori di salute;Super Recupero Aura I,0,decoded static configuration
+442,0x20e44,0x0,0,631,92,92,217,0xe0;0xe1,Difesa giù S;Difesa giù L,0,decoded static configuration
+443,0x20ea0,0x0,0,702,16,16,688,0xe1;0xe0;0xda;0xe4,Difesa giù L;Difesa giù S;Potere difensivo giù;Salute giù M,0,decoded static configuration
+443,0x20ea0,0x0,1,703,93,93,688,0xe1;0xe0;0xda;0xe4,Difesa giù L;Difesa giù S;Potere difensivo giù;Salute giù M,0,decoded static configuration
+444,0x20efc,0x0,0,700,52,52,385,0xe1;0xe0;0x120,Difesa giù L;Difesa giù S;Super Recupero Salute V,0,decoded static configuration
+444,0x20efc,0x0,1,701,86,86,385,0xe1;0xe0;0x120,Difesa giù L;Difesa giù S;Super Recupero Salute V,0,decoded static configuration
+445,0x20f58,0x0,0,527,81,181,283,0xe1;0xe0;0xe4;0x16a,Difesa giù L;Difesa giù S;Salute giù M;2° Trasformazione al cambio per KO,0,decoded static configuration
+445,0x20f58,0x0,1,527,81,181,283,0xe1;0xe0;0xe4;0x16a,Difesa giù L;Difesa giù S;Salute giù M;2° Trasformazione al cambio per KO,0,decoded static configuration
+445,0x20f58,0x0,2,528,81,181,284,0xe1;0xe0;0xe4;0x16a,Difesa giù L;Difesa giù S;Salute giù M;2° Trasformazione al cambio per KO,0,decoded static configuration
+445,0x20f58,0x0,3,528,81,181,284,0xe1;0xe0;0xe4;0x16a,Difesa giù L;Difesa giù S;Salute giù M;2° Trasformazione al cambio per KO,0,decoded static configuration
+445,0x20f58,0x0,4,528,81,181,284,0xe1;0xe0;0xe4;0x16a,Difesa giù L;Difesa giù S;Salute giù M;2° Trasformazione al cambio per KO,0,decoded static configuration
+446,0x20fb4,0x0,0,508,11,11,217,0xe0;0xe1,Difesa giù S;Difesa giù L,0,decoded static configuration
+446,0x20fb4,0x0,1,696,29,29,321,0xe1;0xe0;0x148;0x151;0x169,Difesa giù L;Difesa giù S;Animo Furioso quando rimangono 2 indicatori di salute;CPU molto più forte quando rimangono 3 indicatori di salute;1° Trasformazione al cambio per KO,0,decoded static configuration
+446,0x20fb4,0x0,2,652,27,27,321,0xe1;0xe0;0x148;0x151;0x169,Difesa giù L;Difesa giù S;Animo Furioso quando rimangono 2 indicatori di salute;CPU molto più forte quando rimangono 3 indicatori di salute;1° Trasformazione al cambio per KO,0,decoded static configuration
+447,0x21010,0x0,0,698,73,73,355,0xe0;0xe1;0xda;0xc;0x145;0x144;0x143;0x13c;0x16a,Difesa giù S;Difesa giù L;Potere difensivo giù;Attacco Animo furioso Su;Cpu più debole (Medio) con il passare del tempo;Cpu più debole (Piccolo) con il passare del tempo;CPU più forte (Grande) con il passare del tempo;1/10 danno Attacco Speciale I;2° Trasformazione al cambio per KO,0,decoded static configuration
+448,0x2106c,0x0,0,704,33,33,389,0x6d;0x6e;0x71;0xc;0x71;0x5c;0x15d;0x16a;0x169,Potenza attacco speciale su M;Potenza attacco speciale su L;Potenza attacco supremo su L;Attacco Animo furioso Su;Potenza attacco supremo su L;Capriola elegante;3°Trasformazione quando rimangono 3 indicatori di salute;2° Trasformazione al cambio per KO;1° Trasformazione al cambio per KO,0,decoded static configuration
+448,0x2106c,0x0,1,1051,70,70,756,0xe1;0x3c;0xf9;0x14e;0x29;0x11d;0x67,Difesa giù L;Potenza gigantesca;Super Guerriero;CPU più forte quando rimangono 3 indicatori di salute;Recupero aura automatico;Super Recupero Salute II;Recupero Salute automatico,0,decoded static configuration
+449,0x210c8,0x0,0,699,65,65,674,0xe1;0xe0;0x140;0x169,Difesa giù L;Difesa giù S;Inizio Animo Furioso;1° Trasformazione al cambio per KO,0,decoded static configuration
+450,0x21124,0x0,0,659,74,74,287,0xe1;0xe0;0x129,Difesa giù L;Difesa giù S;Perdita automatica salute II,0,decoded static configuration
+450,0x21124,0x0,1,660,47,47,344,0xe1;0xe0;0x129,Difesa giù L;Difesa giù S;Perdita automatica salute II,0,decoded static configuration
+450,0x21124,0x0,2,661,15,15,344,0xe1;0xe0;0x129,Difesa giù L;Difesa giù S;Perdita automatica salute II,0,decoded static configuration
+451,0x21180,0x0,0,666,60,60,298,0xe1;0xe0;0x11d;0x67,Difesa giù L;Difesa giù S;Super Recupero Salute II;Recupero Salute automatico,0,decoded static configuration
+452,0x211dc,0x0,0,533,4,4,215,0xe0;0xe1,Difesa giù S;Difesa giù L,0,decoded static configuration
+452,0x211dc,0x0,1,662,88,88,220,0xe0;0xe1,Difesa giù S;Difesa giù L,0,decoded static configuration
+453,0x21238,0x0,0,663,84,84,217,0xe0;0xe1,Difesa giù S;Difesa giù L,0,decoded static configuration
+453,0x21238,0x0,1,664,55,55,310,0xe1;0xe0;0x148,Difesa giù L;Difesa giù S;Animo Furioso quando rimangono 2 indicatori di salute,0,decoded static configuration
+454,0x21294,0x0,0,667,68,68,345,0xe1;0xe0;0x14f;0x144;0x152;0x169,Difesa giù L;Difesa giù S;CPU molto più forte quando rimane 1 indicatore di salute;Cpu più debole (Piccolo) con il passare del tempo;CPU super forte quando rimane 1 indicatore di salute;1° Trasformazione al cambio per KO,0,decoded static configuration
+455,0x212f0,0x0,0,665,8,8,340,0xe0;0xe1;0x13e,Difesa giù S;Difesa giù L;100% Evanescente I,0,decoded static configuration
+456,0x2134c,0x0,0,568,15,15,185,0xe0;0xe1;0xda,Difesa giù S;Difesa giù L;Potere difensivo giù,0,decoded static configuration
+456,0x2134c,0x0,1,496,12,12,215,0xe0;0xe1,Difesa giù S;Difesa giù L,0,decoded static configuration
+456,0x2134c,0x0,2,570,14,14,220,0xe0;0xe1,Difesa giù S;Difesa giù L,0,decoded static configuration
+457,0x213a8,0x0,0,1052,44,44,771,0xe1;0xe0;0xda;0x84,Difesa giù L;Difesa giù S;Potere difensivo giù;abiti strappati,0,decoded static configuration
+458,0x21404,0x0,0,592,84,84,298,0xe1;0xe0;0x11d;0x67,Difesa giù L;Difesa giù S;Super Recupero Salute II;Recupero Salute automatico,0,decoded static configuration
+459,0x21460,0x0,0,587,75,75,225,0xe0;0xe1,Difesa giù S;Difesa giù L,0,decoded static configuration
+459,0x21460,0x0,1,588,81,81,225,0xe0;0xe1,Difesa giù S;Difesa giù L,0,decoded static configuration
+460,0x214bc,0x0,0,590,76,76,320,0xe1;0xe0;0x71,Difesa giù L;Difesa giù S;Potenza attacco supremo su L,0,decoded static configuration
+460,0x214bc,0x0,1,591,57,57,320,0xe1;0xe0;0x71,Difesa giù L;Difesa giù S;Potenza attacco supremo su L,0,decoded static configuration
+461,0x21518,0xffffffff,,1,,,,,,,opaque special group
+462,0x21574,0x0,0,589,74,74,319,0xe1;0xe0;0x71;0x41,Difesa giù L;Difesa giù S;Potenza attacco supremo su L;Acqua ultra divina,0,decoded static configuration
+463,0x215d0,0x0,0,1026,13,13,340,0xe0;0xe1;0x13e,Difesa giù S;Difesa giù L;100% Evanescente I,0,decoded static configuration
+463,0x215d0,0x0,1,685,14,14,185,0xe0;0xe1;0xda,Difesa giù S;Difesa giù L;Potere difensivo giù,0,decoded static configuration
+464,0x2162c,0x0,0,874,12,12,256,0x27;0x6d;0xe1;0xe0,Velocità colpo dell'aura Su;Potenza attacco speciale su M;Difesa giù L;Difesa giù S,0,decoded static configuration
+465,0x21688,0x0,0,902,6,6,245,0x1;0x14;0xe1,Attacco con Scatto Su M;Attacco Segugio 1 su L;Difesa giù L,0,decoded static configuration
+465,0x21688,0x0,1,766,11,11,366,0xe0;0xe1;0xda;0x19;0x33;0x74;0x17;0x16a,Difesa giù S;Difesa giù L;Potere difensivo giù;Contrattacco Dirompente;Segreti del contrattacco;Potenza schermaglia su M;Scatto estremo;2° Trasformazione al cambio per KO,0,decoded static configuration
+466,0x216e4,0x0,0,647,25,25,220,0xe0;0xe1,Difesa giù S;Difesa giù L,0,decoded static configuration
+466,0x216e4,0x0,1,775,18,18,244,0x38;0xf2;0xf1;0x80;0x123;0x13d;0xe1,Aura abilità peculiare ½;Istinti di un campione!;Super inarrestabile!;Totale sicurezza di se;Super Recupero Aura II;1/10 danno Attacco Speciale II;Difesa giù L,0,decoded static configuration
+467,0x21740,0x0,0,726,12,12,364,0xe0;0xe1;0xda;0x13;0x14;0x15;0x16;0xd;0x17;0x16a,Difesa giù S;Difesa giù L;Potere difensivo giù;Attacco Segugio 1 su S;Attacco Segugio 1 su L;Attacco Segugio 2 su S;Attacco Segugio 2 su L;Riduci tempo carica;Scatto estremo;2° Trasformazione al cambio per KO,0,decoded static configuration
+467,0x21740,0x0,1,788,6,6,676,0x87;0xf8;0xc8;0x42;0x14c;0x169;0x146;0xe1;0x155,Abiti strappati;Potere ereditario;Super serio!;Atteggiamento!;CPU più forte quando rimane 1 indicatore di salute;1° Trasformazione al cambio per KO;Cpu più debole (Grande) con il passare del tempo;Difesa giù L;1°Trasformazione quando rimane 1 indicatore di salute,0,decoded static configuration
+468,0x2179c,0x0,0,903,86,86,336,0xe1;0xe0;0x1;0x14;0x81;0x17;0x3f,Difesa giù L;Difesa giù S;Attacco con Scatto Su M;Attacco Segugio 1 su L;Scatto Spirito di combattimento;Scatto estremo;Inizio alta tensione,0,decoded static configuration
+469,0x217f8,0x0,0,716,16,16,185,0xe0;0xe1;0xda,Difesa giù S;Difesa giù L;Potere difensivo giù,0,decoded static configuration
+470,0x21854,0x0,0,636,91,91,217,0xe0;0xe1,Difesa giù S;Difesa giù L,0,decoded static configuration
+470,0x21854,0x0,1,545,42,42,262,0x27;0x6e;0xe1;0xe0,Velocità colpo dell'aura Su;Potenza attacco speciale su L;Difesa giù L;Difesa giù S,0,decoded static configuration
+471,0x218b0,0xffffffff,,3,,,,,,,opaque special group
+472,0x2190c,0x0,0,505,45,45,187,0xe0;0xe1;0xda,Difesa giù S;Difesa giù L;Potere difensivo giù,0,decoded static configuration
+472,0x2190c,0x0,1,597,46,46,217,0xe0;0xe1,Difesa giù S;Difesa giù L,0,decoded static configuration
+472,0x2190c,0x0,2,677,47,47,693,0xe0;0xe1;0xda;0x6a;0x31,Difesa giù S;Difesa giù L;Potere difensivo giù;Miraggio;Segreti dell'evanescente,0,decoded static configuration
+472,0x2190c,0x0,3,546,44,44,269,0xb;0x1d;0x11;0x10;0x3b;0x3c;0x53;0x49;0x5c;0xe1,Proiezione su L;Proiezione rapida;Danno Impatto Su;Tempo Extra Spinta al Muro L;Demolitore della mente;Potenza gigantesca;Durata svenimento giù M;Riduttore energetico;Capriola elegante;Difesa giù L,0,decoded static configuration
+472,0x2190c,0x0,4,507,43,43,245,0x1;0x14;0xe1,Attacco con Scatto Su M;Attacco Segugio 1 su L;Difesa giù L,0,decoded static configuration
+473,0x21968,0x0,0,604,51,51,351,0x4b;0x22;0x23;0x24;0x27;0x4c;0x3a;0x74;0x6d;0x71;0xe1;0xe0;0xda;0x169,Colpo dell'aura alta velocità;Velocità colpo dell'aura su;Capacità colpo aura Mirata su;Consumo colpo dell'aura giù;Velocità colpo dell'aura Su;Colpo dell'aura magnetico;Controllo dell'aura;Potenza schermaglia su M;Potenza attacco speciale su M;Potenza attacco supremo su L;Difesa giù L;Difesa giù S;Potere difensivo giù;1° Trasformazione al cambio per KO,0,decoded static configuration
+474,0x219c4,0x0,0,717,48,48,268,0xd;0xe;0x1d;0x4b;0x27;0x5c;0x53;0x55;0x10;0xe1,Riduci tempo carica;Carica Rapida;Proiezione rapida;Colpo dell'aura alta velocità;Velocità colpo dell'aura Su;Capriola elegante;Durata svenimento giù M;Durata paralisi giù M;Tempo Extra Spinta al Muro L;Difesa giù L,0,decoded static configuration
+475,0x21a20,0x0,0,975,22,22,731,0xe0;0xe1;0x147;0x150;0x49;0x5c;0x4b;0xf9;0x169,Difesa giù S;Difesa giù L;Animo Furioso quando rimane 1 indicatore di salute;CPU molto più forte quando rimangono 2 indicatori di salute;Riduttore energetico;Capriola elegante;Colpo dell'aura alta velocità;Super Guerriero;1° Trasformazione al cambio per KO,0,decoded static configuration
+475,0x21a20,0x0,1,974,17,17,731,0xe0;0xe1;0x147;0x150;0x49;0x5c;0x4b;0xf9;0x169,Difesa giù S;Difesa giù L;Animo Furioso quando rimane 1 indicatore di salute;CPU molto più forte quando rimangono 2 indicatori di salute;Riduttore energetico;Capriola elegante;Colpo dell'aura alta velocità;Super Guerriero;1° Trasformazione al cambio per KO,0,decoded static configuration
+475,0x21a20,0x0,2,973,0,0,730,0xe0;0xe1;0x147;0x150;0xf9;0xc7;0x81;0x3c;0x169,Difesa giù S;Difesa giù L;Animo Furioso quando rimane 1 indicatore di salute;CPU molto più forte quando rimangono 2 indicatori di salute;Super Guerriero;Miglior attacco;Scatto Spirito di combattimento;Potenza gigantesca;1° Trasformazione al cambio per KO,0,decoded static configuration
+476,0x21a7c,0x0,0,979,12,12,734,0xe0;0xe1;0xda;0x121;0xf9;0x4c,Difesa giù S;Difesa giù L;Potere difensivo giù;Super Recupero Salute X;Super Guerriero;Colpo dell'aura magnetico,0,decoded static configuration
+476,0x21a7c,0x0,1,980,11,11,734,0xe0;0xe1;0xda;0x121;0xf9;0x4c,Difesa giù S;Difesa giù L;Potere difensivo giù;Super Recupero Salute X;Super Guerriero;Colpo dell'aura magnetico,0,decoded static configuration
+476,0x21a7c,0x0,2,981,25,25,714,0xe0;0xe1;0xda;0x121;0x81;0x82,Difesa giù S;Difesa giù L;Potere difensivo giù;Super Recupero Salute X;Scatto Spirito di combattimento;Dignità dell'imperatore,0,decoded static configuration
+476,0x21a7c,0x0,3,982,18,18,714,0xe0;0xe1;0xda;0x121;0x81;0x82,Difesa giù S;Difesa giù L;Potere difensivo giù;Super Recupero Salute X;Scatto Spirito di combattimento;Dignità dell'imperatore,0,decoded static configuration
+476,0x21a7c,0x0,4,983,7,7,735,0xe0;0xe1;0xf2;0x121;0xf9;0x3c;0xc8;0x53;0x72,Difesa giù S;Difesa giù L;Istinti di un campione!;Super Recupero Salute X;Super Guerriero;Potenza gigantesca;Super serio!;Durata svenimento giù M;Inarrestabile!,0,decoded static configuration
+477,0x21ad8,0x0,0,984,16,16,736,0x17;0x26;0xc5;0x67;0x11d;0xe1;0x13f,Scatto estremo;Recupero aura con scatto L;Tempo extra muro super;Recupero Salute automatico;Super Recupero Salute II;Difesa giù L;100% Evanescente II,3185,decoded static configuration
+477,0x21ad8,0x0,1,985,91,91,736,0x17;0x26;0xc5;0x67;0x11d;0xe1;0x13f,Scatto estremo;Recupero aura con scatto L;Tempo extra muro super;Recupero Salute automatico;Super Recupero Salute II;Difesa giù L;100% Evanescente II,3186,decoded static configuration
+478,0x21b34,0x0,0,820,36,36,363,0xe0;0xe1;0xda;0x13;0x14;0x15;0x16;0xd;0x17;0x16a,Difesa giù S;Difesa giù L;Potere difensivo giù;Attacco Segugio 1 su S;Attacco Segugio 1 su L;Attacco Segugio 2 su S;Attacco Segugio 2 su L;Riduci tempo carica;Scatto estremo;2° Trasformazione al cambio per KO,3199,decoded static configuration
+478,0x21b34,0x0,1,989,30,30,263,0x1;0x14;0xe1;0xe0,Attacco con Scatto Su M;Attacco Segugio 1 su L;Difesa giù L;Difesa giù S,3200,decoded static configuration
+478,0x21b34,0x0,2,990,28,28,262,0x27;0x6e;0xe1;0xe0,Velocità colpo dell'aura Su;Potenza attacco speciale su L;Difesa giù L;Difesa giù S,3201,decoded static configuration
+478,0x21b34,0x0,3,987,10,10,738,0xe1;0xe0;0xda;0x13e;0x67;0x16a;0x11d,Difesa giù L;Difesa giù S;Potere difensivo giù;100% Evanescente I;Recupero Salute automatico;2° Trasformazione al cambio per KO;Super Recupero Salute II,3202,decoded static configuration
+478,0x21b34,0x0,4,967,69,69,678,0xe0;0xe1;0x13e;0x11d;0x67,Difesa giù S;Difesa giù L;100% Evanescente I;Super Recupero Salute II;Recupero Salute automatico,3203,decoded static configuration
+479,0x21b90,0x0,0,991,39,39,740,0xe1;0x3c;0xf9;0xc7;0x81;0x1d;0x5c;0x29;0x11d;0x67,Difesa giù L;Potenza gigantesca;Super Guerriero;Miglior attacco;Scatto Spirito di combattimento;Proiezione rapida;Capriola elegante;Recupero aura automatico;Super Recupero Salute II;Recupero Salute automatico,3214,decoded static configuration
+479,0x21b90,0x0,1,992,15,15,286,0xe1;0xe0;0x13d,Difesa giù L;Difesa giù S;1/10 danno Attacco Speciale II,3215,decoded static configuration
+479,0x21b90,0x0,2,993,14,14,298,0xe1;0xe0;0x11d;0x67,Difesa giù L;Difesa giù S;Super Recupero Salute II;Recupero Salute automatico,3216,decoded static configuration
+480,0x21bec,0x0,0,994,87,87,741,0xe0;0x140;0x11c;0xf9;0xc7;0x3c;0x17;0x42,Difesa giù S;Inizio Animo Furioso;Super Recupero Salute I;Super Guerriero;Miglior attacco;Potenza gigantesca;Scatto estremo;Atteggiamento!,3227,decoded static configuration
+480,0x21bec,0x0,1,995,92,92,742,0xe0;0x140;0x11c;0x16a,Difesa giù S;Inizio Animo Furioso;Super Recupero Salute I;2° Trasformazione al cambio per KO,3228,decoded static configuration
+480,0x21bec,0x0,2,996,70,70,743,0xe0;0x140;0x11c;0x42;0x16a,Difesa giù S;Inizio Animo Furioso;Super Recupero Salute I;Atteggiamento!;2° Trasformazione al cambio per KO,3229,decoded static configuration
+481,0x21c48,0x0,0,999,89,89,745,0xe1;0xe0;0x164;0x29;0x3a;0x18;0x17,Difesa giù L;Difesa giù S;Animo furioso al cambio per KO;Recupero aura automatico;Controllo dell'aura;Sul serio!;Scatto estremo,3242,decoded static configuration
+481,0x21c48,0x0,1,997,22,22,746,0xe1;0xe0;0x165;0x53;0x1d;0x169,Difesa giù L;Difesa giù S;Alta tensione al cambio per KO;Durata svenimento giù M;Proiezione rapida;1° Trasformazione al cambio per KO,3243,decoded static configuration
+481,0x21c48,0x0,2,1001,55,55,744,0xe1;0xe0;0x164;0x3a;0x18;0x72,Difesa giù L;Difesa giù S;Animo furioso al cambio per KO;Controllo dell'aura;Sul serio!;Inarrestabile!,3244,decoded static configuration
+481,0x21c48,0x0,3,1000,54,54,744,0xe1;0xe0;0x164;0x3a;0x18;0x72,Difesa giù L;Difesa giù S;Animo furioso al cambio per KO;Controllo dell'aura;Sul serio!;Inarrestabile!,3245,decoded static configuration
+482,0x21ca4,0x0,0,1002,12,12,363,0xe0;0xe1;0xda;0x13;0x14;0x15;0x16;0xd;0x17;0x16a,Difesa giù S;Difesa giù L;Potere difensivo giù;Attacco Segugio 1 su S;Attacco Segugio 1 su L;Attacco Segugio 2 su S;Attacco Segugio 2 su L;Riduci tempo carica;Scatto estremo;2° Trasformazione al cambio per KO,3257,decoded static configuration
+482,0x21ca4,0x0,1,1004,55,55,736,0x17;0x26;0xc5;0x67;0x11d;0xe1;0x13f,Scatto estremo;Recupero aura con scatto L;Tempo extra muro super;Recupero Salute automatico;Super Recupero Salute II;Difesa giù L;100% Evanescente II,3258,decoded static configuration
+482,0x21ca4,0x0,2,1003,54,54,678,0xe0;0xe1;0x13e;0x11d;0x67,Difesa giù S;Difesa giù L;100% Evanescente I;Super Recupero Salute II;Recupero Salute automatico,3259,decoded static configuration
+483,0x21d00,0x0,0,1005,74,74,387,0xe1;0xe0;0x122,Difesa giù L;Difesa giù S;Super Recupero Aura I,0,decoded static configuration
+483,0x21d00,0x0,1,1006,91,91,748,0xe1;0xe0;0x122;0x18;0x72,Difesa giù L;Difesa giù S;Super Recupero Aura I;Sul serio!;Inarrestabile!,0,decoded static configuration
+483,0x21d00,0x0,2,1007,76,76,748,0xe1;0xe0;0x122;0x18;0x72,Difesa giù L;Difesa giù S;Super Recupero Aura I;Sul serio!;Inarrestabile!,0,decoded static configuration
+484,0x21d5c,0x0,0,1008,78,78,751,0xe1;0xe0;0x14b;0xc8;0xf1,Difesa giù L;Difesa giù S;Alta Tensione quando rimangono 3 indicatori di salute;Super serio!;Super inarrestabile!,3286,decoded static configuration
+484,0x21d5c,0x0,1,1009,37,37,752,0xe1;0xe0;0x14e;0xc8;0xf1;0x26;0x29,Difesa giù L;Difesa giù S;CPU più forte quando rimangono 3 indicatori di salute;Super serio!;Super inarrestabile!;Recupero aura con scatto L;Recupero aura automatico,3287,decoded static configuration
+484,0x21d5c,0x0,2,1011,42,42,749,0xe1;0xe0;0x148,Difesa giù L;Difesa giù S;Animo Furioso quando rimangono 2 indicatori di salute,3288,decoded static configuration
+484,0x21d5c,0x0,3,1010,40,40,750,0xe1;0xe0;0x14b;0x18;0x72,Difesa giù L;Difesa giù S;Alta Tensione quando rimangono 3 indicatori di salute;Sul serio!;Inarrestabile!,3289,decoded static configuration
+484,0x21d5c,0x0,4,1012,48,48,751,0xe1;0xe0;0x14b;0xc8;0xf1,Difesa giù L;Difesa giù S;Alta Tensione quando rimangono 3 indicatori di salute;Super serio!;Super inarrestabile!,3290,decoded static configuration
+485,0x21db8,0x0,0,1013,9,9,753,0xd;0xe;0x1d;0x4b;0x27;0x53;0x1d;0x55;0x31;0xe1;0xe0,Riduci tempo carica;Carica Rapida;Proiezione rapida;Colpo dell'aura alta velocità;Velocità colpo dell'aura Su;Durata svenimento giù M;Proiezione rapida;Durata paralisi giù M;Segreti dell'evanescente;Difesa giù L;Difesa giù S,0,decoded static configuration
+485,0x21db8,0x0,1,1014,30,30,360,0xe0;0xe1;0xda;0x6a;0x31;0x16a,Difesa giù S;Difesa giù L;Potere difensivo giù;Miraggio;Segreti dell'evanescente;2° Trasformazione al cambio per KO,0,decoded static configuration
+485,0x21db8,0x0,2,1015,28,28,363,0xe0;0xe1;0xda;0x13;0x14;0x15;0x16;0xd;0x17;0x16a,Difesa giù S;Difesa giù L;Potere difensivo giù;Attacco Segugio 1 su S;Attacco Segugio 1 su L;Attacco Segugio 2 su S;Attacco Segugio 2 su L;Riduci tempo carica;Scatto estremo;2° Trasformazione al cambio per KO,0,decoded static configuration
+485,0x21db8,0x0,3,1016,18,18,754,0x3c;0x29;0x3a;0x49;0x72;0x53;0x6a;0x6e;0xe1,Potenza gigantesca;Recupero aura automatico;Controllo dell'aura;Riduttore energetico;Inarrestabile!;Durata svenimento giù M;Miraggio;Potenza attacco speciale su L;Difesa giù L,0,decoded static configuration
+485,0x21db8,0x0,4,1017,1,1,755,0x3c;0x29;0x3a;0x18;0x53;0x6a;0xc3;0xe1,Potenza gigantesca;Recupero aura automatico;Controllo dell'aura;Sul serio!;Durata svenimento giù M;Miraggio;Potenza mischia suprema su;Difesa giù L,0,decoded static configuration
+486,0x21e14,0x0,0,1018,33,33,686,0xe1;0xe0;0x140;0xf9;0x42,Difesa giù L;Difesa giù S;Inizio Animo Furioso;Super Guerriero;Atteggiamento!,3313,decoded static configuration
+486,0x21e14,0x0,1,1019,73,73,756,0xe1;0x3c;0xf9;0x14e;0x29;0x11d;0x67,Difesa giù L;Potenza gigantesca;Super Guerriero;CPU più forte quando rimangono 3 indicatori di salute;Recupero aura automatico;Super Recupero Salute II;Recupero Salute automatico,3314,decoded static configuration
+486,0x21e14,0x0,2,1020,63,63,757,0xe1;0x3c;0xf9;0xc7;0x81;0x1d;0x5c;0x29;0x11d;0x141;0x67,Difesa giù L;Potenza gigantesca;Super Guerriero;Miglior attacco;Scatto Spirito di combattimento;Proiezione rapida;Capriola elegante;Recupero aura automatico;Super Recupero Salute II;CPU più forte (Piccolo) con il passare del tempo;Recupero Salute automatico,3315,decoded static configuration
+487,0x21e70,0xffffffff,,4,,,,,,,opaque special group
+488,0x21ecc,0x0,0,1022,77,77,723,0xe0;0xe1;0xda;0x6a;0x31;0x11c;0xe4,Difesa giù S;Difesa giù L;Potere difensivo giù;Miraggio;Segreti dell'evanescente;Super Recupero Salute I;Salute giù M,3335,decoded static configuration
+488,0x21ecc,0x0,1,1021,21,21,722,0xe0;0xe1;0x14;0x16;0xd;0x17;0x11c;0xe4;0xda,Difesa giù S;Difesa giù L;Attacco Segugio 1 su L;Attacco Segugio 2 su L;Riduci tempo carica;Scatto estremo;Super Recupero Salute I;Salute giù M;Potere difensivo giù,3336,decoded static configuration
+488,0x21ecc,0x0,2,1023,62,62,758,0xe0;0x11c;0xf9;0x4c;0x3c;0x17;0x42,Difesa giù S;Super Recupero Salute I;Super Guerriero;Colpo dell'aura magnetico;Potenza gigantesca;Scatto estremo;Atteggiamento!,3337,decoded static configuration
+489,0x21f28,0x0,0,1026,13,13,340,0xe0;0xe1;0x13e,Difesa giù S;Difesa giù L;100% Evanescente I,3349,decoded static configuration
+489,0x21f28,0x0,1,1025,12,12,299,0xe1;0xe0;0x11d;0x67,Difesa giù L;Difesa giù S;Super Recupero Salute II;Recupero Salute automatico,3350,decoded static configuration
+489,0x21f28,0x0,2,1024,66,66,740,0xe1;0x3c;0xf9;0xc7;0x81;0x1d;0x5c;0x29;0x11d;0x67,Difesa giù L;Potenza gigantesca;Super Guerriero;Miglior attacco;Scatto Spirito di combattimento;Proiezione rapida;Capriola elegante;Recupero aura automatico;Super Recupero Salute II;Recupero Salute automatico,3351,decoded static configuration
+490,0x21f84,0x0,0,1028,74,74,711,0x27;0x2d;0x2f;0x29;0xda;0x5c;0x53;0x81;0xe1;0x122,Velocità colpo dell'aura Su;Segreti dello slancio;Segreti del super slancio;Recupero aura automatico;Potere difensivo giù;Capriola elegante;Durata svenimento giù M;Scatto Spirito di combattimento;Difesa giù L;Super Recupero Aura I,3364,decoded static configuration
+490,0x21f84,0x0,1,1027,13,13,710,0xb;0x1d;0x11;0x10;0x3b;0x3c;0x53;0x49;0x5c;0xe1;0x122,Proiezione su L;Proiezione rapida;Danno Impatto Su;Tempo Extra Spinta al Muro L;Demolitore della mente;Potenza gigantesca;Durata svenimento giù M;Riduttore energetico;Capriola elegante;Difesa giù L;Super Recupero Aura I,3365,decoded static configuration
+490,0x21f84,0x0,2,1030,56,56,711,0x27;0x2d;0x2f;0x29;0xda;0x5c;0x53;0x81;0xe1;0x122,Velocità colpo dell'aura Su;Segreti dello slancio;Segreti del super slancio;Recupero aura automatico;Potere difensivo giù;Capriola elegante;Durata svenimento giù M;Scatto Spirito di combattimento;Difesa giù L;Super Recupero Aura I,3366,decoded static configuration
+490,0x21f84,0x0,3,1029,57,57,710,0xb;0x1d;0x11;0x10;0x3b;0x3c;0x53;0x49;0x5c;0xe1;0x122,Proiezione su L;Proiezione rapida;Danno Impatto Su;Tempo Extra Spinta al Muro L;Demolitore della mente;Potenza gigantesca;Durata svenimento giù M;Riduttore energetico;Capriola elegante;Difesa giù L;Super Recupero Aura I,3367,decoded static configuration
+491,0x21fe0,0x0,0,1031,99,99,759,0xe1;0x1d;0x29;0x3a;0x49;0x3c;0xf9,Difesa giù L;Proiezione rapida;Recupero aura automatico;Controllo dell'aura;Riduttore energetico;Potenza gigantesca;Super Guerriero,3382,decoded static configuration
+491,0x21fe0,0x0,1,1032,18,18,389,0x6d;0x6e;0x71;0xc;0x71;0x5c;0x15d;0x16a;0x169,Potenza attacco speciale su M;Potenza attacco speciale su L;Potenza attacco supremo su L;Attacco Animo furioso Su;Potenza attacco supremo su L;Capriola elegante;3°Trasformazione quando rimangono 3 indicatori di salute;2° Trasformazione al cambio per KO;1° Trasformazione al cambio per KO,3383,decoded static configuration
+491,0x21fe0,0x0,2,1033,11,11,363,0xe0;0xe1;0xda;0x13;0x14;0x15;0x16;0xd;0x17;0x16a,Difesa giù S;Difesa giù L;Potere difensivo giù;Attacco Segugio 1 su S;Attacco Segugio 1 su L;Attacco Segugio 2 su S;Attacco Segugio 2 su L;Riduci tempo carica;Scatto estremo;2° Trasformazione al cambio per KO,3384,decoded static configuration
+491,0x21fe0,0x0,3,1034,6,6,693,0xe0;0xe1;0xda;0x6a;0x31,Difesa giù S;Difesa giù L;Potere difensivo giù;Miraggio;Segreti dell'evanescente,3385,decoded static configuration
+491,0x21fe0,0x0,4,1035,25,25,363,0xe0;0xe1;0xda;0x13;0x14;0x15;0x16;0xd;0x17;0x16a,Difesa giù S;Difesa giù L;Potere difensivo giù;Attacco Segugio 1 su S;Attacco Segugio 1 su L;Attacco Segugio 2 su S;Attacco Segugio 2 su L;Riduci tempo carica;Scatto estremo;2° Trasformazione al cambio per KO,3386,decoded static configuration
+491,0x21fe0,0x0,5,1036,1,1,379,0x29;0x3a;0x52;0x18;0x6a;0x3c;0x71;0xe1;0xe0,Recupero aura automatico;Controllo dell'aura;Durata svenimento giù S;Sul serio!;Miraggio;Potenza gigantesca;Potenza attacco supremo su L;Difesa giù L;Difesa giù S,3387,decoded static configuration
+492,0x2203c,0x0,0,1040,60,60,763,0xe1;0x150;0xf9;0xc7;0x81;0x3c;0x29;0x6a;0x153;0x169,Difesa giù L;CPU molto più forte quando rimangono 2 indicatori di salute;Super Guerriero;Miglior attacco;Scatto Spirito di combattimento;Potenza gigantesca;Recupero aura automatico;Miraggio;CPU super forte quando rimangono 2 indicatori di salute;1° Trasformazione al cambio per KO,3398,decoded static configuration
+492,0x2203c,0x0,1,1039,53,53,762,0xe1;0xd9;0x71;0x70,Difesa giù L;Super atteggiamento!;Potenza attacco supremo su L;Potenza attacco supremo su M,3399,decoded static configuration
+492,0x2203c,0x0,2,1037,6,6,760,0xe1;0x150;0xf9;0xc7;0x81;0x3c;0x156;0x169,Difesa giù L;CPU molto più forte quando rimangono 2 indicatori di salute;Super Guerriero;Miglior attacco;Scatto Spirito di combattimento;Potenza gigantesca;1°Trasformazione quando rimangono 2 indicatori di salute;1° Trasformazione al cambio per KO,3400,decoded static configuration
+493,0x22098,0x0,0,830,99,99,268,0xd;0xe;0x1d;0x4b;0x27;0x5c;0x53;0x55;0x10;0xe1,Riduci tempo carica;Carica Rapida;Proiezione rapida;Colpo dell'aura alta velocità;Velocità colpo dell'aura Su;Capriola elegante;Durata svenimento giù M;Durata paralisi giù M;Tempo Extra Spinta al Muro L;Difesa giù L,0,decoded static configuration
+494,0x220f4,0x0,0,1042,13,13,748,0xe1;0xe0;0x122;0x18;0x72,Difesa giù L;Difesa giù S;Super Recupero Aura I;Sul serio!;Inarrestabile!,0,decoded static configuration
+494,0x220f4,0x0,1,1043,16,16,765,0xe1;0xe0;0xda;0x122;0xc8;0xf1,Difesa giù L;Difesa giù S;Potere difensivo giù;Super Recupero Aura I;Super serio!;Super inarrestabile!,0,decoded static configuration
+494,0x220f4,0x0,2,1044,61,61,766,0xe1;0xe0;0xda;0x122;0x11d;0x67;0xc8;0xf1,Difesa giù L;Difesa giù S;Potere difensivo giù;Super Recupero Aura I;Super Recupero Salute II;Recupero Salute automatico;Super serio!;Super inarrestabile!,0,decoded static configuration
+495,0x22150,0x0,0,1046,77,77,363,0xe0;0xe1;0xda;0x13;0x14;0x15;0x16;0xd;0x17;0x16a,Difesa giù S;Difesa giù L;Potere difensivo giù;Attacco Segugio 1 su S;Attacco Segugio 1 su L;Attacco Segugio 2 su S;Attacco Segugio 2 su L;Riduci tempo carica;Scatto estremo;2° Trasformazione al cambio per KO,0,decoded static configuration
+495,0x22150,0x0,1,1045,62,62,271,0x3c;0x29;0x3a;0x4a;0x18;0x53;0x6a;0xc3;0xe1,Potenza gigantesca;Recupero aura automatico;Controllo dell'aura;Tempo extra animo furioso;Sul serio!;Durata svenimento giù M;Miraggio;Potenza mischia suprema su;Difesa giù L,0,decoded static configuration
+496,0x221ac,0x0,0,800,35,35,271,0x3c;0x29;0x3a;0x4a;0x18;0x53;0x6a;0xc3;0xe1,Potenza gigantesca;Recupero aura automatico;Controllo dell'aura;Tempo extra animo furioso;Sul serio!;Durata svenimento giù M;Miraggio;Potenza mischia suprema su;Difesa giù L,3447,decoded static configuration
+496,0x221ac,0x0,1,1047,70,70,697,0xe1;0x169;0xf9;0xc7;0x80;0x16;0x23;0x14;0x4a,Difesa giù L;1° Trasformazione al cambio per KO;Super Guerriero;Miglior attacco;Totale sicurezza di se;Attacco Segugio 2 su L;Capacità colpo aura Mirata su;Attacco Segugio 1 su L;Tempo extra animo furioso,3448,decoded static configuration
+496,0x221ac,0x0,2,711,71,71,265,0x4b;0x22;0x23;0x24;0x27;0x4c;0x3a;0x74;0x6d;0x71;0xe1,Colpo dell'aura alta velocità;Velocità colpo dell'aura su;Capacità colpo aura Mirata su;Consumo colpo dell'aura giù;Velocità colpo dell'aura Su;Colpo dell'aura magnetico;Controllo dell'aura;Potenza schermaglia su M;Potenza attacco speciale su M;Potenza attacco supremo su L;Difesa giù L,3449,decoded static configuration
+496,0x221ac,0x0,3,713,72,72,276,0xc8;0xf2;0xf1;0x11;0x10;0x2b;0x53;0xda;0x51,Super serio!;Istinti di un campione!;Super inarrestabile!;Danno Impatto Su;Tempo Extra Spinta al Muro L;Recupero aura distruzione;Durata svenimento giù M;Potere difensivo giù;Salute su L,3450,decoded static configuration
+497,0x22208,0x0,0,769,0,0,665,0xe1;0xe0;0x123;0x11d;0xf9;0xf0;0xc7;0xc3;0x79;0x67,Difesa giù L;Difesa giù S;Super Recupero Aura II;Super Recupero Salute II;Super Guerriero;Potenza Attacco Supremo MAX;Miglior attacco;Potenza mischia suprema su;Animo di Tutti;Recupero Salute automatico,0,decoded static configuration

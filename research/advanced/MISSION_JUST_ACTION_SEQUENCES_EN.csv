@@ -1,0 +1,241 @@
+file,node,root_offset_hex,category,action_list_descriptor,step,native_action_id,action_label_if_below108,direct_parameter,parameter_expression_descriptor,parameter_expression,record_offset_hex
+galaxy.mmd,41,0x17e28,2,314,0,24,Hit with Smash Attack: 4,-1,0,,0x91a0
+galaxy.mmd,41,0x17e28,2,314,1,96,Do a Combo of <DIG=●> damage or more,-1,311,2000,0x91ac
+galaxy.mmd,41,0x17e28,2,314,2,99,Defeat the enemy with a Super Attack,-1,0,,0x91b8
+galaxy.mmd,41,0x17e28,2,314,3,46,Hit with Charge Ki Blast: Max,-1,0,,0x91c4
+galaxy.mmd,41,0x17e28,2,314,4,96,Do a Combo of <DIG=●> damage or more,-1,312,10000,0x91d0
+galaxy.mmd,41,0x17e28,2,314,5,96,Do a Combo of <DIG=●> damage or more,-1,313,12000,0x91dc
+galaxy.mmd,41,0x17e28,2,314,6,79,Reduce enemy's Health to 0,-1,0,,0x91e8
+galaxy.mmd,59,0x184a0,2,422,0,24,Hit with Smash Attack: 4,-1,0,,0x97c0
+galaxy.mmd,59,0x184a0,2,422,1,96,Do a Combo of <DIG=●> damage or more,-1,418,3000,0x97cc
+galaxy.mmd,59,0x184a0,2,422,2,96,Do a Combo of <DIG=●> damage or more,-1,419,6000,0x97d8
+galaxy.mmd,59,0x184a0,2,422,3,96,Do a Combo of <DIG=●> damage or more,-1,420,9000,0x97e4
+galaxy.mmd,59,0x184a0,2,422,4,96,Do a Combo of <DIG=●> damage or more,-1,421,12000,0x97f0
+galaxy.mmd,59,0x184a0,2,422,5,104,Place an Angel Halo.,-1,0,,0x97fc
+galaxy.mmd,69,0x18838,2,490,0,60,Perform Transformation,-1,0,,0x9c28
+galaxy.mmd,69,0x18838,2,490,1,96,Do a Combo of <DIG=●> damage or more,-1,486,2000,0x9c34
+galaxy.mmd,69,0x18838,2,490,2,96,Do a Combo of <DIG=●> damage or more,-1,487,4000,0x9c40
+galaxy.mmd,69,0x18838,2,490,3,24,Hit with Smash Attack: 4,-1,0,,0x9c4c
+galaxy.mmd,69,0x18838,2,490,4,71,Hit with Charge Attack: Snap,-1,0,,0x9c58
+galaxy.mmd,69,0x18838,2,490,5,96,Do a Combo of <DIG=●> damage or more,-1,488,5000,0x9c64
+galaxy.mmd,69,0x18838,2,490,6,96,Do a Combo of <DIG=●> damage or more,-1,489,10000,0x9c70
+galaxy.mmd,69,0x18838,2,490,7,50,Become High-Tension,-1,0,,0x9c7c
+galaxy.mmd,69,0x18838,2,490,8,110,[native ID; do not use controller-glyph text],8607,0,,0x9c88
+galaxy.mmd,97,0x19248,2,666,0,22,Hit with Smash Attack: 2,-1,0,,0xa6a8
+galaxy.mmd,97,0x19248,2,666,1,96,Do a Combo of <DIG=●> damage or more,-1,663,3000,0xa6b4
+galaxy.mmd,97,0x19248,2,666,2,96,Do a Combo of <DIG=●> damage or more,-1,664,7000,0xa6c0
+galaxy.mmd,97,0x19248,2,666,3,96,Do a Combo of <DIG=●> damage or more,-1,665,15000,0xa6cc
+galaxy.mmd,97,0x19248,2,666,4,86,Hit with signature skill,-1,0,,0xa6d8
+galaxy.mmd,97,0x19248,2,666,5,89,Win with Ultimate Attack,-1,0,,0xa6e4
+galaxy.mmd,121,0x19ae8,2,824,0,60,Perform Transformation,-1,0,,0xb254
+galaxy.mmd,121,0x19ae8,2,824,1,24,Hit with Smash Attack: 4,-1,0,,0xb260
+galaxy.mmd,121,0x19ae8,2,824,2,95,Do a Combo of <DIG=●> HITS or more,-1,820,5,0xb26c
+galaxy.mmd,121,0x19ae8,2,824,3,95,Do a Combo of <DIG=●> HITS or more,-1,821,10,0xb278
+galaxy.mmd,121,0x19ae8,2,824,4,95,Do a Combo of <DIG=●> HITS or more,-1,822,15,0xb284
+galaxy.mmd,121,0x19ae8,2,824,5,95,Do a Combo of <DIG=●> HITS or more,-1,823,20,0xb290
+galaxy.mmd,121,0x19ae8,2,824,6,89,Win with Ultimate Attack,-1,0,,0xb29c
+galaxy.mmd,139,0x1a160,2,946,0,60,Perform Transformation,-1,0,,0xba88
+galaxy.mmd,139,0x1a160,2,946,1,18,Land a Charge Attack during movement,-1,0,,0xba94
+galaxy.mmd,139,0x1a160,2,946,2,95,Do a Combo of <DIG=●> HITS or more,-1,942,5,0xbaa0
+galaxy.mmd,139,0x1a160,2,946,3,95,Do a Combo of <DIG=●> HITS or more,-1,943,10,0xbaac
+galaxy.mmd,139,0x1a160,2,946,4,50,Become High-Tension,-1,0,,0xbab8
+galaxy.mmd,139,0x1a160,2,946,5,96,Do a Combo of <DIG=●> damage or more,-1,944,8000,0xbac4
+galaxy.mmd,139,0x1a160,2,946,6,96,Do a Combo of <DIG=●> damage or more,-1,945,12000,0xbad0
+galaxy.mmd,139,0x1a160,2,946,7,111,[native ID; do not use controller-glyph text],-1,0,,0xbadc
+galaxy.mmd,139,0x1a160,2,946,8,110,[native ID; do not use controller-glyph text],8006,0,,0xbae8
+galaxy.mmd,174,0x1adf4,2,1173,0,60,Perform Transformation,-1,0,,0xc904
+galaxy.mmd,174,0x1adf4,2,1173,1,96,Do a Combo of <DIG=●> damage or more,-1,1169,2000,0xc910
+galaxy.mmd,174,0x1adf4,2,1173,2,22,Hit with Smash Attack: 2,-1,0,,0xc91c
+galaxy.mmd,174,0x1adf4,2,1173,3,82,Hit with Super Attack,5003,0,,0xc928
+galaxy.mmd,174,0x1adf4,2,1173,4,95,Do a Combo of <DIG=●> HITS or more,-1,1170,10,0xc934
+galaxy.mmd,174,0x1adf4,2,1173,5,95,Do a Combo of <DIG=●> HITS or more,-1,1171,15,0xc940
+galaxy.mmd,174,0x1adf4,2,1173,6,95,Do a Combo of <DIG=●> HITS or more,-1,1172,20,0xc94c
+galaxy.mmd,174,0x1adf4,2,1173,7,87,Win with Super Attack,-1,0,,0xc958
+galaxy.mmd,199,0x1b6f0,2,1327,0,19,Land a Charge Attack while jumping,-1,0,,0xd2dc
+galaxy.mmd,199,0x1b6f0,2,1327,1,96,Do a Combo of <DIG=●> damage or more,-1,1323,2000,0xd2e8
+galaxy.mmd,199,0x1b6f0,2,1327,2,96,Do a Combo of <DIG=●> damage or more,-1,1324,5000,0xd2f4
+galaxy.mmd,199,0x1b6f0,2,1327,3,24,Hit with Smash Attack: 4,-1,0,,0xd300
+galaxy.mmd,199,0x1b6f0,2,1327,4,95,Do a Combo of <DIG=●> HITS or more,-1,1325,10,0xd30c
+galaxy.mmd,199,0x1b6f0,2,1327,5,95,Do a Combo of <DIG=●> HITS or more,-1,1326,15,0xd318
+galaxy.mmd,199,0x1b6f0,2,1327,6,88,Win with Super Attack <DIG=■>,402,0,,0xd324
+galaxy.mmd,223,0x1bf90,2,1488,0,23,Hit with Smash Attack: 3,-1,0,,0xde84
+galaxy.mmd,223,0x1bf90,2,1488,1,96,Do a Combo of <DIG=●> damage or more,-1,1483,2000,0xde90
+galaxy.mmd,223,0x1bf90,2,1488,2,96,Do a Combo of <DIG=●> damage or more,-1,1484,4000,0xde9c
+galaxy.mmd,223,0x1bf90,2,1488,3,24,Hit with Smash Attack: 4,-1,0,,0xdea8
+galaxy.mmd,223,0x1bf90,2,1488,4,95,Do a Combo of <DIG=●> HITS or more,-1,1485,10,0xdeb4
+galaxy.mmd,223,0x1bf90,2,1488,5,95,Do a Combo of <DIG=●> HITS or more,-1,1486,15,0xdec0
+galaxy.mmd,223,0x1bf90,2,1488,6,95,Do a Combo of <DIG=●> HITS or more,-1,1487,20,0xdecc
+galaxy.mmd,223,0x1bf90,2,1488,7,79,Reduce enemy's Health to 0,-1,0,,0xded8
+galaxy.mmd,233,0x1c328,2,1554,0,60,Perform Transformation,-1,0,,0xe1ec
+galaxy.mmd,233,0x1c328,2,1554,1,96,Do a Combo of <DIG=●> damage or more,-1,1548,1000,0xe1f8
+galaxy.mmd,233,0x1c328,2,1554,2,96,Do a Combo of <DIG=●> damage or more,-1,1549,3000,0xe204
+galaxy.mmd,233,0x1c328,2,1554,3,96,Do a Combo of <DIG=●> damage or more,-1,1550,5000,0xe210
+galaxy.mmd,233,0x1c328,2,1554,4,96,Do a Combo of <DIG=●> damage or more,-1,1551,8000,0xe21c
+galaxy.mmd,233,0x1c328,2,1554,5,86,Hit with signature skill,-1,0,,0xe228
+galaxy.mmd,233,0x1c328,2,1554,6,95,Do a Combo of <DIG=●> HITS or more,-1,1552,10,0xe234
+galaxy.mmd,233,0x1c328,2,1554,7,95,Do a Combo of <DIG=●> HITS or more,-1,1553,15,0xe240
+galaxy.mmd,233,0x1c328,2,1554,8,87,Win with Super Attack,-1,0,,0xe24c
+galaxy.mmd,239,0x1c550,2,1597,0,45,Hit with Rush Blast,-1,0,,0xe4ec
+galaxy.mmd,239,0x1c550,2,1597,1,96,Do a Combo of <DIG=●> damage or more,-1,1591,1000,0xe4f8
+galaxy.mmd,239,0x1c550,2,1597,2,96,Do a Combo of <DIG=●> damage or more,-1,1592,2000,0xe504
+galaxy.mmd,239,0x1c550,2,1597,3,96,Do a Combo of <DIG=●> damage or more,-1,1593,3000,0xe510
+galaxy.mmd,239,0x1c550,2,1597,4,24,Hit with Smash Attack: 4,-1,0,,0xe51c
+galaxy.mmd,239,0x1c550,2,1597,5,96,Do a Combo of <DIG=●> damage or more,-1,1594,4000,0xe528
+galaxy.mmd,239,0x1c550,2,1597,6,96,Do a Combo of <DIG=●> damage or more,-1,1595,6000,0xe534
+galaxy.mmd,239,0x1c550,2,1597,7,96,Do a Combo of <DIG=●> damage or more,-1,1596,8000,0xe540
+galaxy.mmd,239,0x1c550,2,1597,8,79,Reduce enemy's Health to 0,-1,0,,0xe54c
+galaxy.mmd,270,0x1d074,2,1803,0,18,Land a Charge Attack during movement,-1,0,,0xf338
+galaxy.mmd,270,0x1d074,2,1803,1,23,Hit with Smash Attack: 3,-1,0,,0xf344
+galaxy.mmd,270,0x1d074,2,1803,2,95,Do a Combo of <DIG=●> HITS or more,-1,1799,5,0xf350
+galaxy.mmd,270,0x1d074,2,1803,3,86,Hit with signature skill,-1,0,,0xf35c
+galaxy.mmd,270,0x1d074,2,1803,4,95,Do a Combo of <DIG=●> HITS or more,-1,1800,10,0xf368
+galaxy.mmd,270,0x1d074,2,1803,5,95,Do a Combo of <DIG=●> HITS or more,-1,1801,15,0xf374
+galaxy.mmd,270,0x1d074,2,1803,6,95,Do a Combo of <DIG=●> HITS or more,-1,1802,20,0xf380
+galaxy.mmd,270,0x1d074,2,1803,7,89,Win with Ultimate Attack,-1,0,,0xf38c
+galaxy.mmd,300,0x1db3c,2,1997,0,50,Become High-Tension,-1,0,,0xfec0
+galaxy.mmd,300,0x1db3c,2,1997,1,96,Do a Combo of <DIG=●> damage or more,-1,1994,2000,0xfecc
+galaxy.mmd,300,0x1db3c,2,1997,2,96,Do a Combo of <DIG=●> damage or more,-1,1995,5000,0xfed8
+galaxy.mmd,300,0x1db3c,2,1997,3,111,[native ID; do not use controller-glyph text],-1,0,,0xfee4
+galaxy.mmd,300,0x1db3c,2,1997,4,82,Hit with Super Attack,8106,0,,0xfef0
+galaxy.mmd,300,0x1db3c,2,1997,5,27,Hit with Smash Attack: Low,-1,0,,0xfefc
+galaxy.mmd,300,0x1db3c,2,1997,6,28,Hit with Assault Chase,-1,0,,0xff08
+galaxy.mmd,300,0x1db3c,2,1997,7,96,Do a Combo of <DIG=●> damage or more,-1,1996,15000,0xff14
+galaxy.mmd,300,0x1db3c,2,1997,8,101,Defeat the enemy with an Ultimate Attack,-1,0,,0xff20
+galaxy.mmd,306,0x1dd64,2,2041,0,44,Fill Ki Gauge to max with Ki Charging,-1,0,,0x10200
+galaxy.mmd,306,0x1dd64,2,2041,1,96,Do a Combo of <DIG=●> damage or more,-1,2035,2000,0x1020c
+galaxy.mmd,306,0x1dd64,2,2041,2,96,Do a Combo of <DIG=●> damage or more,-1,2036,4000,0x10218
+galaxy.mmd,306,0x1dd64,2,2041,3,86,Hit with signature skill,-1,0,,0x10224
+galaxy.mmd,306,0x1dd64,2,2041,4,96,Do a Combo of <DIG=●> damage or more,-1,2037,7000,0x10230
+galaxy.mmd,306,0x1dd64,2,2041,5,96,Do a Combo of <DIG=●> damage or more,-1,2038,9000,0x1023c
+galaxy.mmd,306,0x1dd64,2,2041,6,96,Do a Combo of <DIG=●> damage or more,-1,2039,11000,0x10248
+galaxy.mmd,306,0x1dd64,2,2041,7,96,Do a Combo of <DIG=●> damage or more,-1,2040,13000,0x10254
+galaxy.mmd,306,0x1dd64,2,2041,8,87,Win with Super Attack,-1,0,,0x10260
+galaxy.mmd,320,0x1e26c,2,2138,0,24,Hit with Smash Attack: 4,-1,0,,0x10768
+galaxy.mmd,320,0x1e26c,2,2138,1,96,Do a Combo of <DIG=●> damage or more,-1,2132,1500,0x10774
+galaxy.mmd,320,0x1e26c,2,2138,2,96,Do a Combo of <DIG=●> damage or more,-1,2133,3000,0x10780
+galaxy.mmd,320,0x1e26c,2,2138,3,96,Do a Combo of <DIG=●> damage or more,-1,2134,6000,0x1078c
+galaxy.mmd,320,0x1e26c,2,2138,4,51,Activate Raging Soul,-1,0,,0x10798
+galaxy.mmd,320,0x1e26c,2,2138,5,96,Do a Combo of <DIG=●> damage or more,-1,2135,9000,0x107a4
+galaxy.mmd,320,0x1e26c,2,2138,6,96,Do a Combo of <DIG=●> damage or more,-1,2136,11000,0x107b0
+galaxy.mmd,320,0x1e26c,2,2138,7,96,Do a Combo of <DIG=●> damage or more,-1,2137,13000,0x107bc
+galaxy.mmd,320,0x1e26c,2,2138,8,104,Place an Angel Halo.,-1,0,,0x107c8
+galaxy.mmd,336,0x1e82c,2,2249,0,21,Hit with Smash Attack: 1,-1,0,,0x10edc
+galaxy.mmd,336,0x1e82c,2,2249,1,86,Hit with signature skill,-1,0,,0x10ee8
+galaxy.mmd,336,0x1e82c,2,2249,2,96,Do a Combo of <DIG=●> damage or more,-1,2245,2000,0x10ef4
+galaxy.mmd,336,0x1e82c,2,2249,3,96,Do a Combo of <DIG=●> damage or more,-1,2246,4000,0x10f00
+galaxy.mmd,336,0x1e82c,2,2249,4,96,Do a Combo of <DIG=●> damage or more,-1,2247,7000,0x10f0c
+galaxy.mmd,336,0x1e82c,2,2249,5,96,Do a Combo of <DIG=●> damage or more,-1,2248,10000,0x10f18
+galaxy.mmd,336,0x1e82c,2,2249,6,32,Hit with all the Pursuit Attack: 2,-1,0,,0x10f24
+galaxy.mmd,336,0x1e82c,2,2249,7,79,Reduce enemy's Health to 0,-1,0,,0x10f30
+galaxy.mmd,373,0x1f578,2,2489,0,22,Hit with Smash Attack: 2,-1,0,,0x11d78
+galaxy.mmd,373,0x1f578,2,2489,1,96,Do a Combo of <DIG=●> damage or more,-1,2486,3000,0x11d84
+galaxy.mmd,373,0x1f578,2,2489,2,96,Do a Combo of <DIG=●> damage or more,-1,2487,6000,0x11d90
+galaxy.mmd,373,0x1f578,2,2489,3,16,Perform Charge Attack,-1,0,,0x11d9c
+galaxy.mmd,373,0x1f578,2,2489,4,96,Do a Combo of <DIG=●> damage or more,-1,2488,12000,0x11da8
+galaxy.mmd,373,0x1f578,2,2489,5,104,Place an Angel Halo.,-1,0,,0x11db4
+galaxy.mmd,391,0x1fbf0,2,2607,0,28,Hit with Assault Chase,-1,0,,0x124d8
+galaxy.mmd,391,0x1fbf0,2,2607,1,95,Do a Combo of <DIG=●> HITS or more,-1,2601,5,0x124e4
+galaxy.mmd,391,0x1fbf0,2,2607,2,95,Do a Combo of <DIG=●> HITS or more,-1,2602,10,0x124f0
+galaxy.mmd,391,0x1fbf0,2,2607,3,60,Perform Transformation,-1,0,,0x124fc
+galaxy.mmd,391,0x1fbf0,2,2607,4,96,Do a Combo of <DIG=●> damage or more,-1,2603,3000,0x12508
+galaxy.mmd,391,0x1fbf0,2,2607,5,96,Do a Combo of <DIG=●> damage or more,-1,2604,6000,0x12514
+galaxy.mmd,391,0x1fbf0,2,2607,6,96,Do a Combo of <DIG=●> damage or more,-1,2605,9000,0x12520
+galaxy.mmd,391,0x1fbf0,2,2607,7,96,Do a Combo of <DIG=●> damage or more,-1,2606,12000,0x1252c
+galaxy.mmd,391,0x1fbf0,2,2607,8,87,Win with Super Attack,-1,0,,0x12538
+galaxy.mmd,423,0x20770,2,2826,0,60,Perform Transformation,-1,0,,0x1332c
+galaxy.mmd,423,0x20770,2,2826,1,95,Do a Combo of <DIG=●> HITS or more,-1,2820,5,0x13338
+galaxy.mmd,423,0x20770,2,2826,2,95,Do a Combo of <DIG=●> HITS or more,-1,2821,10,0x13344
+galaxy.mmd,423,0x20770,2,2826,3,82,Hit with Super Attack,1805,0,,0x13350
+galaxy.mmd,423,0x20770,2,2826,4,96,Do a Combo of <DIG=●> damage or more,-1,2822,4000,0x1335c
+galaxy.mmd,423,0x20770,2,2826,5,96,Do a Combo of <DIG=●> damage or more,-1,2823,7000,0x13368
+galaxy.mmd,423,0x20770,2,2826,6,96,Do a Combo of <DIG=●> damage or more,-1,2824,10000,0x13374
+galaxy.mmd,423,0x20770,2,2826,7,96,Do a Combo of <DIG=●> damage or more,-1,2825,16000,0x13380
+galaxy.mmd,423,0x20770,2,2826,8,89,Win with Ultimate Attack,-1,0,,0x1338c
+galaxy.mmd,446,0x20fb4,2,2980,0,60,Perform Transformation,-1,0,,0x13c54
+galaxy.mmd,446,0x20fb4,2,2980,1,96,Do a Combo of <DIG=●> damage or more,-1,2975,2000,0x13c60
+galaxy.mmd,446,0x20fb4,2,2980,2,96,Do a Combo of <DIG=●> damage or more,-1,2976,4000,0x13c6c
+galaxy.mmd,446,0x20fb4,2,2980,3,28,Hit with Assault Chase,-1,0,,0x13c78
+galaxy.mmd,446,0x20fb4,2,2980,4,107,Hit all pursuit attacks in High-Tension,-1,0,,0x13c84
+galaxy.mmd,446,0x20fb4,2,2980,5,96,Do a Combo of <DIG=●> damage or more,-1,2977,10000,0x13c90
+galaxy.mmd,446,0x20fb4,2,2980,6,96,Do a Combo of <DIG=●> damage or more,-1,2978,13000,0x13c9c
+galaxy.mmd,446,0x20fb4,2,2980,7,96,Do a Combo of <DIG=●> damage or more,-1,2979,16000,0x13ca8
+galaxy.mmd,446,0x20fb4,2,2980,8,101,Defeat the enemy with an Ultimate Attack,-1,0,,0x13cb4
+tutorial.mmd,0,0x798,8,4,0,0,Perform Normal Movement,-1,0,,0x250
+tutorial.mmd,0,0x798,8,4,1,1,Perform Ascend,-1,0,,0x25c
+tutorial.mmd,0,0x798,8,4,2,2,Land on the ground with Descend,-1,0,,0x268
+tutorial.mmd,0,0x798,8,4,3,3,Perform a Quick Ascend,-1,0,,0x274
+tutorial.mmd,0,0x798,8,4,4,4,Land on the ground with Quick Descend,-1,0,,0x280
+tutorial.mmd,0,0x798,8,4,5,5,Perform a Jump from the Ground,-1,0,,0x28c
+tutorial.mmd,0,0x798,8,4,6,6,Perform Steps,-1,0,,0x298
+tutorial.mmd,0,0x798,8,4,7,7,Perform Dash,-1,0,,0x2a4
+tutorial.mmd,0,0x798,8,4,8,8,Perform Homing Dash,-1,0,,0x2b0
+tutorial.mmd,0,0x798,8,4,9,9,Homing Dash's Sudden Stop,-1,0,,0x2bc
+tutorial.mmd,0,0x798,8,4,10,10,Perform Super Dash,-1,0,,0x2c8
+tutorial.mmd,0,0x798,8,4,11,11,Super Dash's Sudden Stop,-1,0,,0x2d4
+tutorial.mmd,0,0x798,8,4,12,12,Perform Super Rising,-1,0,,0x2e0
+tutorial.mmd,0,0x798,8,4,13,13,Super Rising's Sudden Stop,-1,0,,0x2ec
+tutorial.mmd,0,0x798,8,4,14,14,Perform Super Dash from Super Rising,-1,0,,0x2f8
+tutorial.mmd,1,0x7f4,8,10,0,15,Hit with all the Rush Attacks,-1,0,,0x32c
+tutorial.mmd,1,0x7f4,8,10,1,16,Perform Charge Attack,-1,0,,0x338
+tutorial.mmd,1,0x7f4,8,10,2,17,Hit with Charge Attack: Max,-1,0,,0x344
+tutorial.mmd,1,0x7f4,8,10,3,18,Land a Charge Attack during movement,-1,0,,0x350
+tutorial.mmd,1,0x7f4,8,10,4,19,Land a Charge Attack while jumping,-1,0,,0x35c
+tutorial.mmd,1,0x7f4,8,10,5,20,Land a Charge Attack during Dash,-1,0,,0x368
+tutorial.mmd,1,0x7f4,8,10,6,21,Hit with Smash Attack: 1,-1,0,,0x374
+tutorial.mmd,1,0x7f4,8,10,7,22,Hit with Smash Attack: 2,-1,0,,0x380
+tutorial.mmd,1,0x7f4,8,10,8,23,Hit with Smash Attack: 3,-1,0,,0x38c
+tutorial.mmd,1,0x7f4,8,10,9,24,Hit with Smash Attack: 4,-1,0,,0x398
+tutorial.mmd,1,0x7f4,8,10,10,25,Hit with Smash Attack: High,-1,0,,0x3a4
+tutorial.mmd,1,0x7f4,8,10,11,27,Hit with Smash Attack: Low,-1,0,,0x3b0
+tutorial.mmd,1,0x7f4,8,10,12,28,Hit with Assault Chase,-1,0,,0x3bc
+tutorial.mmd,1,0x7f4,8,10,13,29,Hit with Knockdown Attack,-1,0,,0x3c8
+tutorial.mmd,1,0x7f4,8,10,14,30,Hit with Pursuit Attack: 1,-1,0,,0x3d4
+tutorial.mmd,1,0x7f4,8,10,15,31,Hit with Pursuit Attack: 2,-1,0,,0x3e0
+tutorial.mmd,1,0x7f4,8,10,16,32,Hit with all the Pursuit Attack: 2,-1,0,,0x3ec
+tutorial.mmd,1,0x7f4,8,10,17,33,Throw opponent,-1,0,,0x3f8
+tutorial.mmd,2,0x850,8,16,0,34,Defend attack with Defense,-1,0,,0x42c
+tutorial.mmd,2,0x850,8,16,1,35,Dodge attack with Sway,-1,0,,0x438
+tutorial.mmd,2,0x850,8,16,2,36,Counterattack with Counter,-1,0,,0x444
+tutorial.mmd,2,0x850,8,16,3,37,Perform Vanishing,-1,0,,0x450
+tutorial.mmd,2,0x850,8,16,4,39,Perform Roll,-1,0,,0x45c
+tutorial.mmd,2,0x850,8,16,5,40,Perform a Sudden Dash from Roll,-1,0,,0x468
+tutorial.mmd,2,0x850,8,16,6,41,Perform Recovery from Faint,-1,0,,0x474
+tutorial.mmd,2,0x850,8,16,7,42,Deflect 5 Ki blasts,-1,0,,0x480
+tutorial.mmd,2,0x850,8,16,8,43,Perform Throw Evasion,-1,0,,0x48c
+tutorial.mmd,3,0x8ac,8,22,0,44,Fill Ki Gauge to max with Ki Charging,-1,0,,0x4c0
+tutorial.mmd,3,0x8ac,8,22,1,45,Hit with Rush Blast,-1,0,,0x4cc
+tutorial.mmd,3,0x8ac,8,22,2,46,Hit with Charge Ki Blast: Max,-1,0,,0x4d8
+tutorial.mmd,3,0x8ac,8,22,3,47,Hit Rush Blast while jumping,-1,0,,0x4e4
+tutorial.mmd,3,0x8ac,8,22,4,48,Hit Charge Ki Blast while jumping,-1,0,,0x4f0
+tutorial.mmd,3,0x8ac,8,22,5,44,Fill Ki Gauge to max with Ki Charging,-1,0,,0x4fc
+tutorial.mmd,3,0x8ac,8,22,6,50,Become High-Tension,-1,0,,0x508
+tutorial.mmd,3,0x8ac,8,22,7,51,Activate Raging Soul,-1,0,,0x514
+tutorial.mmd,3,0x8ac,8,22,8,52,Perform Vanishing Move,-1,0,,0x520
+tutorial.mmd,4,0x908,8,30,0,53,Use Super Attack↑,-1,0,,0x564
+tutorial.mmd,4,0x908,8,30,1,54,Use Super Attack→,-1,0,,0x570
+tutorial.mmd,4,0x908,8,30,2,55,Use Super Attack↓,-1,0,,0x57c
+tutorial.mmd,4,0x908,8,30,3,56,Use Super Attack←,-1,0,,0x588
+tutorial.mmd,4,0x908,8,30,4,50,Become High-Tension,-1,0,,0x594
+tutorial.mmd,4,0x908,8,30,5,57,Use Ultimate Attack,-1,0,,0x5a0
+tutorial.mmd,4,0x908,8,30,6,58,Use signature skill,-1,0,,0x5ac
+tutorial.mmd,4,0x908,8,30,7,59,Pull off Super Attack BOOST,-1,0,,0x5b8
+tutorial.mmd,5,0x964,8,38,0,65,Perform Fusion,-1,0,,0x628
+tutorial.mmd,5,0x964,8,38,1,62,Perform Switching,-1,0,,0x634
+tutorial.mmd,5,0x964,8,38,2,63,Perform Switching with another character,-1,0,,0x640
+tutorial.mmd,5,0x964,8,38,3,64,Perform Quick Change (Switching),-1,0,,0x64c
+tutorial.mmd,5,0x964,8,38,4,60,Perform Transformation,-1,0,,0x658
+tutorial.mmd,5,0x964,8,38,5,61,Perform Quick Change (Transformation),-1,0,,0x664
+tutorial.mmd,5,0x964,8,38,6,66,Win High-Speed Blow Exchange,-1,0,,0x670
+tutorial.mmd,5,0x964,8,38,7,67,Win Blow Exchange,-1,0,,0x67c
+tutorial.mmd,5,0x964,8,38,8,68,Win Shot Exchange,-1,0,,0x688
+tutorial.mmd,6,0x9c0,8,44,0,69,Pull off Rush Vanishing,-1,0,,0x6b8
+tutorial.mmd,6,0x9c0,8,44,1,70,Hit Max-Charge Attack while Dash,-1,0,,0x6c4
+tutorial.mmd,6,0x9c0,8,44,2,71,Hit with Charge Attack: Snap,-1,0,,0x6d0
+tutorial.mmd,6,0x9c0,8,44,3,72,Hit with Charge Ki Blast: Snap,-1,0,,0x6dc
+tutorial.mmd,6,0x9c0,8,44,4,73,Hit with Smash Attacks: Snap,-1,0,,0x6e8
+tutorial.mmd,6,0x9c0,8,44,5,74,Perform Snap-Vanishing,-1,0,,0x6f4
+tutorial.mmd,6,0x9c0,8,44,6,75,Perform Super Attack Deflect,-1,0,,0x700
+tutorial.mmd,6,0x9c0,8,44,7,77,Perform Cancel Attack,-1,0,,0x70c
+tutorial.mmd,6,0x9c0,8,44,8,111,[native ID; do not use controller-glyph text],-1,0,,0x718
+tutorial.mmd,7,0xa1c,4,51,0,79,Reduce enemy's Health to 0,-1,0,,0x754
+tutorial.mmd,8,0xa78,8,57,0,79,Reduce enemy's Health to 0,-1,0,,0x784

@@ -1,0 +1,210 @@
+[
+  {
+    "name": "zone_green_square.mmd",
+    "original_count": 4,
+    "count": 5,
+    "boundary_root": 4,
+    "boundary_cell": 21,
+    "first_root_preserved_kind": 0,
+    "flow": [
+      0,
+      4,
+      1
+    ]
+  },
+  {
+    "name": "zone_red_triangle.mmd",
+    "original_count": 6,
+    "count": 7,
+    "boundary_root": 6,
+    "boundary_cell": 21,
+    "first_root_preserved_kind": 0,
+    "flow": [
+      0,
+      6,
+      1
+    ]
+  },
+  {
+    "name": "zone_blue_lozenge.mmd",
+    "original_count": 6,
+    "count": 7,
+    "boundary_root": 6,
+    "boundary_cell": 21,
+    "first_root_preserved_kind": 0,
+    "flow": [
+      0,
+      6,
+      1
+    ]
+  },
+  {
+    "name": "zone_yellow_spiral.mmd",
+    "original_count": 8,
+    "count": 9,
+    "boundary_root": 8,
+    "boundary_cell": 21,
+    "first_root_preserved_kind": 0,
+    "flow": [
+      0,
+      8,
+      1
+    ]
+  },
+  {
+    "name": "zone_violet_circle.mmd",
+    "original_count": 10,
+    "count": 11,
+    "boundary_root": 10,
+    "boundary_cell": 21,
+    "first_root_preserved_kind": 0,
+    "flow": [
+      0,
+      10,
+      1
+    ]
+  },
+  {
+    "name": "zone_aquamarine_sphere.mmd",
+    "original_count": 9,
+    "count": 10,
+    "boundary_root": 9,
+    "boundary_cell": 21,
+    "first_root_preserved_kind": 0,
+    "flow": [
+      0,
+      9,
+      1
+    ]
+  },
+  {
+    "name": "zone_crimson_liner.mmd",
+    "original_count": 9,
+    "count": 10,
+    "boundary_root": 9,
+    "boundary_cell": 21,
+    "first_root_preserved_kind": 0,
+    "flow": [
+      0,
+      9,
+      1
+    ]
+  },
+  {
+    "name": "zone_final.mmd",
+    "original_count": 7,
+    "count": 8,
+    "boundary_root": 7,
+    "boundary_cell": 21,
+    "first_root_preserved_kind": 0,
+    "flow": [
+      0,
+      7,
+      1
+    ]
+  },
+  {
+    "name": "zone_ultimate_square.mmd",
+    "original_count": 5,
+    "count": 6,
+    "boundary_root": 5,
+    "boundary_cell": 21,
+    "first_root_preserved_kind": 0,
+    "flow": [
+      0,
+      5,
+      1
+    ]
+  },
+  {
+    "name": "zone_ultimate_triangle.mmd",
+    "original_count": 5,
+    "count": 6,
+    "boundary_root": 5,
+    "boundary_cell": 21,
+    "first_root_preserved_kind": 0,
+    "flow": [
+      0,
+      5,
+      1
+    ]
+  },
+  {
+    "name": "zone_ultimate_lozenge.mmd",
+    "original_count": 7,
+    "count": 8,
+    "boundary_root": 7,
+    "boundary_cell": 21,
+    "first_root_preserved_kind": 0,
+    "flow": [
+      0,
+      7,
+      1
+    ]
+  },
+  {
+    "name": "zone_ultimate_spiral.mmd",
+    "original_count": 8,
+    "count": 9,
+    "boundary_root": 8,
+    "boundary_cell": 21,
+    "first_root_preserved_kind": 0,
+    "flow": [
+      0,
+      8,
+      1
+    ]
+  },
+  {
+    "name": "zone_ultimate_circle.mmd",
+    "original_count": 11,
+    "count": 12,
+    "boundary_root": 11,
+    "boundary_cell": 21,
+    "first_root_preserved_kind": 0,
+    "flow": [
+      0,
+      11,
+      1
+    ]
+  },
+  {
+    "name": "zone_ultimate_sphere.mmd",
+    "original_count": 11,
+    "count": 12,
+    "boundary_root": 11,
+    "boundary_cell": 21,
+    "first_root_preserved_kind": 0,
+    "flow": [
+      0,
+      11,
+      1
+    ]
+  },
+  {
+    "name": "zone_ultimate_liner.mmd",
+    "original_count": 11,
+    "count": 12,
+    "boundary_root": 11,
+    "boundary_cell": 21,
+    "first_root_preserved_kind": 0,
+    "flow": [
+      0,
+      11,
+      1
+    ]
+  },
+  {
+    "name": "zone_final_ultimate.mmd",
+    "original_count": 11,
+    "count": 12,
+    "boundary_root": 11,
+    "boundary_cell": 21,
+    "first_root_preserved_kind": 0,
+    "flow": [
+      0,
+      11,
+      1
+    ]
+  }
+]

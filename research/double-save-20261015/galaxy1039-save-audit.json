@@ -1,0 +1,100 @@
+{
+  "before_sha256": "60d514c005b8e91293ac032b1d9bac3fbc30d45376b56281f55450d364b4c04e",
+  "after_sha256": "cd4b024673f037a42121a02db1c709c0e32203ca3ab13af68997740b7b388cc6",
+  "size": 110000,
+  "checksum_valid": true,
+  "changed_old_offsets": [
+    2,
+    3,
+    7,
+    19,
+    27,
+    23419,
+    52513,
+    52514,
+    52515,
+    52517,
+    52519,
+    52522,
+    52523
+  ],
+  "stale_original_banks_unchanged": true,
+  "banks": {
+    "galaxy": {
+      "changed_ranges_relative": [
+        [
+          29094,
+          29096
+        ],
+        [
+          29099,
+          29100
+        ],
+        [
+          29101,
+          29104
+        ],
+        [
+          29709,
+          29712
+        ]
+      ],
+      "changed_rows": {
+        "1039": {
+          "before": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "after": [
+            4097,
+            1,
+            338793,
+            0,
+            0,
+            0,
+            0
+          ]
+        }
+      }
+    },
+    "tutorial": {
+      "changed_ranges_relative": [],
+      "changed_rows": {}
+    },
+    "battle_zone": {
+      "changed_ranges_relative": []
+    }
+  },
+  "guard_ranges": [
+    {
+      "start": 55000,
+      "end": 55040,
+      "unchanged": true,
+      "all_A5": true
+    },
+    {
+      "start": 86160,
+      "end": 86192,
+      "unchanged": true,
+      "all_A5": true
+    },
+    {
+      "start": 88052,
+      "end": 88096,
+      "unchanged": true,
+      "all_A5": true
+    },
+    {
+      "start": 109768,
+      "end": 109936,
+      "unchanged": true,
+      "all_A5": true
+    }
+  ],
+  "format_marker_unchanged": true
+}

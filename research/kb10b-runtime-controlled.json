@@ -1,0 +1,91 @@
+{
+  "experiment": "KB10B",
+  "baseline": "KB10A with first two roster slots exchanged",
+  "status": "CONTROLLED_VEGETA_NO_CANCEL_AT19000_OR9000_IN_WINDOWS",
+  "boot_sha256": "52f800e7df95ac2f0cb09c34b3848da1d805a837cb27e51f39f1fbcea73e631c",
+  "galaxy_sha256": "15751e341ba5e9c7197d8c8112f7aab1a003ddad7f862e422f21823ec377a146",
+  "EBOOT": "Original, unchanged",
+  "phase_validation": "PlayerHP40000->39452 and combat hits4 damage458 before HP/aura probe.",
+  "observations": [
+    {
+      "utc": "2026-10-14T18:00:35Z",
+      "native": 20,
+      "costume_index": 1,
+      "preset": 1061,
+      "HP": 40000,
+      "gear": [
+        "15B"
+      ],
+      "property_flags": [
+        "179"
+      ]
+    },
+    {
+      "utc": "2026-10-14T18:00:36Z",
+      "probe": "HP19000 aura50, matched actor identity, data-only writes"
+    },
+    {
+      "utc": "2026-10-14T18:00:56Z",
+      "native": 20,
+      "preset": 1061,
+      "HP": 19000,
+      "gear": [
+        "15B"
+      ]
+    },
+    {
+      "utc": "2026-10-14T18:02:04Z",
+      "native": 20,
+      "preset": 1061,
+      "HP": 19000,
+      "active_slot": 0,
+      "aura": 91.4
+    },
+    {
+      "utc": "2026-10-14T18:03:19Z",
+      "native": 20,
+      "preset": 1061,
+      "HP": 19000,
+      "active_slot": 0
+    },
+    {
+      "utc": "2026-10-14T18:04:09Z",
+      "CPU_health_blackboard": 19000,
+      "CPU_aura_blackboard": 80
+    },
+    {
+      "utc": "2026-10-14T18:05:23Z",
+      "native": 20,
+      "preset": 1061,
+      "HP": 19000,
+      "active_slot": 0
+    },
+    {
+      "utc": "2026-10-14T18:07:40Z",
+      "probe": "Same Vegeta, HP9000 aura50, data-only matched actor write"
+    },
+    {
+      "utc": "2026-10-14T18:08:11Z",
+      "native": 20,
+      "preset": 1061,
+      "HP": 9000,
+      "active_slot": 0,
+      "gear": [
+        "15B"
+      ]
+    },
+    {
+      "utc": "2026-10-14T18:10:21Z",
+      "native": 20,
+      "preset": 1061,
+      "HP": 9000,
+      "active_slot": 0,
+      "gear": [
+        "15B"
+      ]
+    }
+  ],
+  "timing": "Four execution windows20+30+30+30 host seconds, plus short health-sensor breakpoint. Not game seconds. At9000HP, two further30s host windows.",
+  "limits": "No cancellation or3A7C0/3A5EC/3A8B4/3A79C request in these bounded windows. Not proof that15B is inert; exact CPU gates and available-target setup not yet traced. Base preset1062 and its15E swap were not reached. User reports general VS tests of hidden items, without confirmation of this item on Vegeta.",
+  "evidence": "kb10b-rsp-evidence.jsonl"
+}

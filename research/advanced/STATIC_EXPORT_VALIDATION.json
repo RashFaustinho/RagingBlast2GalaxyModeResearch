@@ -1,0 +1,79 @@
+{
+  "local_move_count": 690,
+  "native_names": 100,
+  "ally_candidate_rows": 315,
+  "all_original_owned_normal_rosters_fit_5_active_slots": true,
+  "Hatchiyack_node491_for_Goku": [
+    {
+      "node": 491,
+      "galaxy_native": 0,
+      "galaxy_character": "Goku",
+      "candidate_slot": 0,
+      "preset": 18,
+      "native": 18,
+      "character": "Vegeta / Super Saiyan",
+      "eligible": true,
+      "condition_descriptor": 3375,
+      "condition": "(query(type=5, argument=11) OR (query(type=5, argument=5) OR (query(type=5, argument=24) OR query(type=5, argument=0))))",
+      "roster_descriptor": 3380,
+      "group_descriptor": 3381
+    },
+    {
+      "node": 491,
+      "galaxy_native": 0,
+      "galaxy_character": "Goku",
+      "candidate_slot": 1,
+      "preset": 11,
+      "native": 11,
+      "character": "Piccolo",
+      "eligible": true,
+      "condition_descriptor": 3376,
+      "condition": "(query(type=5, argument=17) OR (query(type=5, argument=5) OR (query(type=5, argument=24) OR query(type=5, argument=0))))",
+      "roster_descriptor": 3380,
+      "group_descriptor": 3381
+    },
+    {
+      "node": 491,
+      "galaxy_native": 0,
+      "galaxy_character": "Goku",
+      "candidate_slot": 2,
+      "preset": 6,
+      "native": 6,
+      "character": "Teen Gohan / Super Saiyan",
+      "eligible": true,
+      "condition_descriptor": 3377,
+      "condition": "(query(type=5, argument=11) OR (query(type=5, argument=17) OR (query(type=5, argument=24) OR query(type=5, argument=0))))",
+      "roster_descriptor": 3380,
+      "group_descriptor": 3381
+    },
+    {
+      "node": 491,
+      "galaxy_native": 0,
+      "galaxy_character": "Goku",
+      "candidate_slot": 3,
+      "preset": 25,
+      "native": 25,
+      "character": "Trunks (Fighting Teen) / Super Saiyan",
+      "eligible": true,
+      "condition_descriptor": 3378,
+      "condition": "(query(type=5, argument=11) OR (query(type=5, argument=17) OR (query(type=5, argument=5) OR query(type=5, argument=0))))",
+      "roster_descriptor": 3380,
+      "group_descriptor": 3381
+    },
+    {
+      "node": 491,
+      "galaxy_native": 0,
+      "galaxy_character": "Goku",
+      "candidate_slot": 4,
+      "preset": 1,
+      "native": 1,
+      "character": "Goku / Super Saiyan",
+      "eligible": false,
+      "condition_descriptor": 3379,
+      "condition": "(query(type=5, argument=11) OR (query(type=5, argument=17) OR (query(type=5, argument=5) OR query(type=5, argument=24))))",
+      "roster_descriptor": 3380,
+      "group_descriptor": 3381
+    }
+  ],
+  "schema_note": "Native name IDs bound through cs_main.dat. Move IDs are local and bound through both HUD and pause-menu tables. Text IDs are not asserted to cover every native Just Action detector ID."
+}

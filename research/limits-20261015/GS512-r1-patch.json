@@ -1,0 +1,585 @@
+{
+  "status": "PROTOTYPE_UNTESTED",
+  "original_sha256": "8e2b454ca5959476a5869d0ab9e652123a019d72791f61ab37f7dd9936b2b892",
+  "patched_sha256": "8cd1684c35aa5b08669e1c923a47da6bfc6099cc6cf97b32a728037af5ea3843",
+  "patches": [
+    {
+      "address": 999364,
+      "old": "39298148",
+      "new": "3929d6d8",
+      "reason": "Relocate Galaxy table / shift aggregate and global fields"
+    },
+    {
+      "address": 1001408,
+      "old": "39298148",
+      "new": "3929d6d8",
+      "reason": "Relocate Galaxy table / shift aggregate and global fields"
+    },
+    {
+      "address": 1011132,
+      "old": "39298148",
+      "new": "3929d6d8",
+      "reason": "Relocate Galaxy table / shift aggregate and global fields"
+    },
+    {
+      "address": 1016264,
+      "old": "3bc98148",
+      "new": "3bc9d6d8",
+      "reason": "Relocate Galaxy table / shift aggregate and global fields"
+    },
+    {
+      "address": 1016368,
+      "old": "392936b0",
+      "new": "39293800",
+      "reason": "Relocate Galaxy table / shift aggregate and global fields"
+    },
+    {
+      "address": 1016568,
+      "old": "39298148",
+      "new": "3929d6d8",
+      "reason": "Relocate Galaxy table / shift aggregate and global fields"
+    },
+    {
+      "address": 1016664,
+      "old": "392936b0",
+      "new": "39293800",
+      "reason": "Relocate Galaxy table / shift aggregate and global fields"
+    },
+    {
+      "address": 1016700,
+      "old": "392936b0",
+      "new": "39293800",
+      "reason": "Relocate Galaxy table / shift aggregate and global fields"
+    },
+    {
+      "address": 1892212,
+      "old": "39298148",
+      "new": "3929d6d8",
+      "reason": "Relocate Galaxy table / shift aggregate and global fields"
+    },
+    {
+      "address": 1892380,
+      "old": "392936b0",
+      "new": "39293800",
+      "reason": "Relocate Galaxy table / shift aggregate and global fields"
+    },
+    {
+      "address": 1892440,
+      "old": "81243de8",
+      "new": "81243f38",
+      "reason": "Relocate Galaxy table / shift aggregate and global fields"
+    },
+    {
+      "address": 1892448,
+      "old": "81243dec",
+      "new": "81243f3c",
+      "reason": "Relocate Galaxy table / shift aggregate and global fields"
+    },
+    {
+      "address": 1892744,
+      "old": "81243dec",
+      "new": "81243f3c",
+      "reason": "Relocate Galaxy table / shift aggregate and global fields"
+    },
+    {
+      "address": 1892784,
+      "old": "81243de8",
+      "new": "81243f38",
+      "reason": "Relocate Galaxy table / shift aggregate and global fields"
+    },
+    {
+      "address": 1892792,
+      "old": "81243dec",
+      "new": "81243f3c",
+      "reason": "Relocate Galaxy table / shift aggregate and global fields"
+    },
+    {
+      "address": 1905276,
+      "old": "8009bf30",
+      "new": "80091610",
+      "reason": "Relocate Galaxy table / shift aggregate and global fields"
+    },
+    {
+      "address": 1909844,
+      "old": "3be98148",
+      "new": "3be9d6d8",
+      "reason": "Relocate Galaxy table / shift aggregate and global fields"
+    },
+    {
+      "address": 1910204,
+      "old": "392936b0",
+      "new": "39293800",
+      "reason": "Relocate Galaxy table / shift aggregate and global fields"
+    },
+    {
+      "address": 1912832,
+      "old": "39298148",
+      "new": "3929d6d8",
+      "reason": "Relocate Galaxy table / shift aggregate and global fields"
+    },
+    {
+      "address": 1919776,
+      "old": "3929b7f8",
+      "new": "39290ed8",
+      "reason": "Relocate Galaxy table / shift aggregate and global fields"
+    },
+    {
+      "address": 1928956,
+      "old": "3bcab7fc",
+      "new": "3bca0edc",
+      "reason": "Relocate Galaxy table / shift aggregate and global fields"
+    },
+    {
+      "address": 1990032,
+      "old": "39298148",
+      "new": "3929d6d8",
+      "reason": "Relocate Galaxy table / shift aggregate and global fields"
+    },
+    {
+      "address": 1990040,
+      "old": "801a3dec",
+      "new": "801a3f3c",
+      "reason": "Relocate Galaxy table / shift aggregate and global fields"
+    },
+    {
+      "address": 1990428,
+      "old": "39298148",
+      "new": "3929d6d8",
+      "reason": "Relocate Galaxy table / shift aggregate and global fields"
+    },
+    {
+      "address": 1990436,
+      "old": "801a3dec",
+      "new": "801a3f3c",
+      "reason": "Relocate Galaxy table / shift aggregate and global fields"
+    },
+    {
+      "address": 1998348,
+      "old": "3bc98148",
+      "new": "3bc9d6d8",
+      "reason": "Relocate Galaxy table / shift aggregate and global fields"
+    },
+    {
+      "address": 1998788,
+      "old": "390b8148",
+      "new": "390bd6d8",
+      "reason": "Relocate Galaxy table / shift aggregate and global fields"
+    },
+    {
+      "address": 1999220,
+      "old": "3b898148",
+      "new": "3b89d6d8",
+      "reason": "Relocate Galaxy table / shift aggregate and global fields"
+    },
+    {
+      "address": 1999944,
+      "old": "3b098148",
+      "new": "3b09d6d8",
+      "reason": "Relocate Galaxy table / shift aggregate and global fields"
+    },
+    {
+      "address": 2000264,
+      "old": "392936b0",
+      "new": "39293800",
+      "reason": "Relocate Galaxy table / shift aggregate and global fields"
+    },
+    {
+      "address": 2000912,
+      "old": "901e3de8",
+      "new": "901e3f38",
+      "reason": "Relocate Galaxy table / shift aggregate and global fields"
+    },
+    {
+      "address": 2000952,
+      "old": "392936b0",
+      "new": "39293800",
+      "reason": "Relocate Galaxy table / shift aggregate and global fields"
+    },
+    {
+      "address": 2001620,
+      "old": "3b698148",
+      "new": "3b69d6d8",
+      "reason": "Relocate Galaxy table / shift aggregate and global fields"
+    },
+    {
+      "address": 2001728,
+      "old": "392936b0",
+      "new": "39293800",
+      "reason": "Relocate Galaxy table / shift aggregate and global fields"
+    },
+    {
+      "address": 2001832,
+      "old": "392936b0",
+      "new": "39293800",
+      "reason": "Relocate Galaxy table / shift aggregate and global fields"
+    },
+    {
+      "address": 2002108,
+      "old": "901e3de8",
+      "new": "901e3f38",
+      "reason": "Relocate Galaxy table / shift aggregate and global fields"
+    },
+    {
+      "address": 2002144,
+      "old": "392936b0",
+      "new": "39293800",
+      "reason": "Relocate Galaxy table / shift aggregate and global fields"
+    },
+    {
+      "address": 2002496,
+      "old": "392936b0",
+      "new": "39293800",
+      "reason": "Relocate Galaxy table / shift aggregate and global fields"
+    },
+    {
+      "address": 2007700,
+      "old": "3ac98148",
+      "new": "3ac9d6d8",
+      "reason": "Relocate Galaxy table / shift aggregate and global fields"
+    },
+    {
+      "address": 2009120,
+      "old": "8009bf34",
+      "new": "80091614",
+      "reason": "Relocate Galaxy table / shift aggregate and global fields"
+    },
+    {
+      "address": 2010716,
+      "old": "3b498148",
+      "new": "3b49d6d8",
+      "reason": "Relocate Galaxy table / shift aggregate and global fields"
+    },
+    {
+      "address": 2011200,
+      "old": "800a3dec",
+      "new": "800a3f3c",
+      "reason": "Relocate Galaxy table / shift aggregate and global fields"
+    },
+    {
+      "address": 2011212,
+      "old": "900a3dec",
+      "new": "900a3f3c",
+      "reason": "Relocate Galaxy table / shift aggregate and global fields"
+    },
+    {
+      "address": 2011260,
+      "old": "800a3dec",
+      "new": "800a3f3c",
+      "reason": "Relocate Galaxy table / shift aggregate and global fields"
+    },
+    {
+      "address": 2011272,
+      "old": "900a3dec",
+      "new": "900a3f3c",
+      "reason": "Relocate Galaxy table / shift aggregate and global fields"
+    },
+    {
+      "address": 2012464,
+      "old": "392936b0",
+      "new": "39293800",
+      "reason": "Relocate Galaxy table / shift aggregate and global fields"
+    },
+    {
+      "address": 2022920,
+      "old": "3b9c8148",
+      "new": "3b9cd6d8",
+      "reason": "Relocate Galaxy table / shift aggregate and global fields"
+    },
+    {
+      "address": 2022928,
+      "old": "901c3de8",
+      "new": "901c3f38",
+      "reason": "Relocate Galaxy table / shift aggregate and global fields"
+    },
+    {
+      "address": 2022964,
+      "old": "392936b0",
+      "new": "39293800",
+      "reason": "Relocate Galaxy table / shift aggregate and global fields"
+    },
+    {
+      "address": 2025244,
+      "old": "801dbf34",
+      "new": "801d1614",
+      "reason": "Relocate Galaxy table / shift aggregate and global fields"
+    },
+    {
+      "address": 2026800,
+      "old": "3ac98148",
+      "new": "3ac9d6d8",
+      "reason": "Relocate Galaxy table / shift aggregate and global fields"
+    },
+    {
+      "address": 2496056,
+      "old": "3b498148",
+      "new": "3b49d6d8",
+      "reason": "Relocate Galaxy table / shift aggregate and global fields"
+    },
+    {
+      "address": 2496736,
+      "old": "800936b0",
+      "new": "80093800",
+      "reason": "Relocate Galaxy table / shift aggregate and global fields"
+    },
+    {
+      "address": 3153140,
+      "old": "3929b7f8",
+      "new": "39290ed8",
+      "reason": "Relocate Galaxy table / shift aggregate and global fields"
+    },
+    {
+      "address": 3157736,
+      "old": "3929b7f8",
+      "new": "39290ed8",
+      "reason": "Relocate Galaxy table / shift aggregate and global fields"
+    },
+    {
+      "address": 3157960,
+      "old": "3929b7f8",
+      "new": "39290ed8",
+      "reason": "Relocate Galaxy table / shift aggregate and global fields"
+    },
+    {
+      "address": 3158152,
+      "old": "3929b7f8",
+      "new": "39290ed8",
+      "reason": "Relocate Galaxy table / shift aggregate and global fields"
+    },
+    {
+      "address": 3158292,
+      "old": "3929b7f8",
+      "new": "39290ed8",
+      "reason": "Relocate Galaxy table / shift aggregate and global fields"
+    },
+    {
+      "address": 3158504,
+      "old": "3929b7f8",
+      "new": "39290ed8",
+      "reason": "Relocate Galaxy table / shift aggregate and global fields"
+    },
+    {
+      "address": 3158728,
+      "old": "3929b7f8",
+      "new": "39290ed8",
+      "reason": "Relocate Galaxy table / shift aggregate and global fields"
+    },
+    {
+      "address": 3176476,
+      "old": "3bbd8150",
+      "new": "3bbdd6e0",
+      "reason": "Relocate Galaxy table / shift aggregate and global fields"
+    },
+    {
+      "address": 3184088,
+      "old": "3969b7fc",
+      "new": "39690edc",
+      "reason": "Relocate Galaxy table / shift aggregate and global fields"
+    },
+    {
+      "address": 3184308,
+      "old": "3969b7fc",
+      "new": "39690edc",
+      "reason": "Relocate Galaxy table / shift aggregate and global fields"
+    },
+    {
+      "address": 3184524,
+      "old": "3969b7fc",
+      "new": "39690edc",
+      "reason": "Relocate Galaxy table / shift aggregate and global fields"
+    },
+    {
+      "address": 3184740,
+      "old": "3969b7fc",
+      "new": "39690edc",
+      "reason": "Relocate Galaxy table / shift aggregate and global fields"
+    },
+    {
+      "address": 3184956,
+      "old": "3969b7fc",
+      "new": "39690edc",
+      "reason": "Relocate Galaxy table / shift aggregate and global fields"
+    },
+    {
+      "address": 3185172,
+      "old": "3969b7fc",
+      "new": "39690edc",
+      "reason": "Relocate Galaxy table / shift aggregate and global fields"
+    },
+    {
+      "address": 3185384,
+      "old": "3969b7fc",
+      "new": "39690edc",
+      "reason": "Relocate Galaxy table / shift aggregate and global fields"
+    },
+    {
+      "address": 3185600,
+      "old": "39698148",
+      "new": "3969d6d8",
+      "reason": "Relocate Galaxy table / shift aggregate and global fields"
+    },
+    {
+      "address": 3248416,
+      "old": "900936b8",
+      "new": "90093808",
+      "reason": "Relocate Galaxy table / shift aggregate and global fields"
+    },
+    {
+      "address": 3248428,
+      "old": "901e3de8",
+      "new": "901e3f38",
+      "reason": "Relocate Galaxy table / shift aggregate and global fields"
+    },
+    {
+      "address": 3250064,
+      "old": "397c36b0",
+      "new": "397c3800",
+      "reason": "Relocate Galaxy table / shift aggregate and global fields"
+    },
+    {
+      "address": 3250104,
+      "old": "392936b0",
+      "new": "39293800",
+      "reason": "Relocate Galaxy table / shift aggregate and global fields"
+    },
+    {
+      "address": 3250156,
+      "old": "90193de8",
+      "new": "90193f38",
+      "reason": "Relocate Galaxy table / shift aggregate and global fields"
+    },
+    {
+      "address": 3250200,
+      "old": "80193dec",
+      "new": "80193f3c",
+      "reason": "Relocate Galaxy table / shift aggregate and global fields"
+    },
+    {
+      "address": 3250208,
+      "old": "90193dec",
+      "new": "90193f3c",
+      "reason": "Relocate Galaxy table / shift aggregate and global fields"
+    },
+    {
+      "address": 3255644,
+      "old": "38638148",
+      "new": "3863d6d8",
+      "reason": "Relocate Galaxy table / shift aggregate and global fields"
+    },
+    {
+      "address": 3256184,
+      "old": "38638148",
+      "new": "3863d6d8",
+      "reason": "Relocate Galaxy table / shift aggregate and global fields"
+    },
+    {
+      "address": 4340436,
+      "old": "39498148",
+      "new": "3949d6d8",
+      "reason": "Relocate Galaxy table / shift aggregate and global fields"
+    },
+    {
+      "address": 4340476,
+      "old": "800936b0",
+      "new": "80093800",
+      "reason": "Relocate Galaxy table / shift aggregate and global fields"
+    },
+    {
+      "address": 1912796,
+      "old": "380001f4",
+      "new": "38000200",
+      "reason": "Mission record loop:500\u2192512"
+    },
+    {
+      "address": 3185580,
+      "old": "380001f4",
+      "new": "38000200",
+      "reason": "Mission record loop:500\u2192512"
+    },
+    {
+      "address": 3250040,
+      "old": "2fbd01f4",
+      "new": "2fbd0200",
+      "reason": "Mission record loop:500\u2192512"
+    },
+    {
+      "address": 3250140,
+      "old": "380001f4",
+      "new": "38000200",
+      "reason": "Mission record loop:500\u2192512"
+    },
+    {
+      "address": 3248368,
+      "old": "38a03e80",
+      "new": "38a03fd0",
+      "reason": "Galaxy block clear includes12 extra mission records"
+    },
+    {
+      "address": 3250360,
+      "old": "38800000",
+      "new": "3c800001",
+      "reason": "New allocation/serialized SYS-DATA size highword1"
+    },
+    {
+      "address": 3250372,
+      "old": "6084d6d8",
+      "new": "608416a8",
+      "reason": "New SYS-DATA size0x116A8"
+    },
+    {
+      "address": 3250400,
+      "old": "38a00000",
+      "new": "3ca00001",
+      "reason": "New allocation/serialized SYS-DATA size highword1"
+    },
+    {
+      "address": 3250412,
+      "old": "60a5d6d8",
+      "new": "60a516a8",
+      "reason": "New SYS-DATA size0x116A8"
+    },
+    {
+      "address": 3264640,
+      "old": "38e00000",
+      "new": "3ce00001",
+      "reason": "New allocation/serialized SYS-DATA size highword1"
+    },
+    {
+      "address": 3264656,
+      "old": "60e7d6d8",
+      "new": "60e716a8",
+      "reason": "New SYS-DATA size0x116A8"
+    },
+    {
+      "address": 3267376,
+      "old": "38e00000",
+      "new": "3ce00001",
+      "reason": "New allocation/serialized SYS-DATA size highword1"
+    },
+    {
+      "address": 3267396,
+      "old": "60e7d6d8",
+      "new": "60e716a8",
+      "reason": "New SYS-DATA size0x116A8"
+    },
+    {
+      "address": 3246524,
+      "old": "6000d6d0",
+      "new": "600016a0",
+      "reason": "Checksum payload size0x116A0"
+    },
+    {
+      "address": 3246516,
+      "old": "38000000",
+      "new": "3c000001",
+      "reason": "Checksum payload size highword1"
+    }
+  ],
+  "old_size": 55000,
+  "new_size": 71336,
+  "old_base": 33096,
+  "new_base": 55000,
+  "missions": 512,
+  "aggregate_relative": 14336,
+  "global_relative": 16184,
+  "mission_bitmap_unchanged_512": true
+}

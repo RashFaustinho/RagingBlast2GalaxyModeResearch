@@ -1,0 +1,135 @@
+{
+  "supportedSources": [
+    0,
+    4,
+    11,
+    15,
+    17,
+    22,
+    24,
+    27,
+    29,
+    31,
+    34,
+    36,
+    37,
+    39,
+    42,
+    43,
+    45,
+    46,
+    47,
+    48,
+    53,
+    54,
+    56,
+    57,
+    58,
+    63,
+    67,
+    71,
+    73,
+    74,
+    76,
+    77,
+    78,
+    79,
+    81,
+    82,
+    84,
+    85,
+    91,
+    92,
+    94,
+    95,
+    96,
+    97,
+    98
+  ],
+  "blockedSources": [
+    {
+      "source": 5,
+      "reason": "Mission 211 has a special enemies group that cannot yet be safely transferred."
+    },
+    {
+      "source": 8,
+      "reason": "Mission 220 has a special enemies group that cannot yet be safely transferred."
+    },
+    {
+      "source": 12,
+      "reason": "Mission 293 has a special enemies group that cannot yet be safely transferred."
+    },
+    {
+      "source": 13,
+      "reason": "Mission 461 has a special enemies group that cannot yet be safely transferred."
+    },
+    {
+      "source": 14,
+      "reason": "Mission 379 has a special enemies group that cannot yet be safely transferred."
+    },
+    {
+      "source": 16,
+      "reason": "Mission 487 has a special enemies group that cannot yet be safely transferred."
+    },
+    {
+      "source": 21,
+      "reason": "Mission 432 has a special enemies group that cannot yet be safely transferred."
+    },
+    {
+      "source": 38,
+      "reason": "Mission 342 has a special enemies group that cannot yet be safely transferred."
+    },
+    {
+      "source": 40,
+      "reason": "Mission 471 has a special enemies group that cannot yet be safely transferred."
+    },
+    {
+      "source": 44,
+      "reason": "Mission 352 has a special enemies group that cannot yet be safely transferred."
+    },
+    {
+      "source": 55,
+      "reason": "Mission 42 has a special enemies group that cannot yet be safely transferred."
+    },
+    {
+      "source": 62,
+      "reason": "Mission 96 has a special enemies group that cannot yet be safely transferred."
+    },
+    {
+      "source": 66,
+      "reason": "Mission 115 has a special enemies group that cannot yet be safely transferred."
+    },
+    {
+      "source": 70,
+      "reason": "Mission 194 has a special enemies group that cannot yet be safely transferred."
+    },
+    {
+      "source": 72,
+      "reason": "Mission 84 has a special enemies group that cannot yet be safely transferred."
+    },
+    {
+      "source": 75,
+      "reason": "Mission 182 has a special enemies group that cannot yet be safely transferred."
+    },
+    {
+      "source": 87,
+      "reason": "Mission 281 has a special enemies group that cannot yet be safely transferred."
+    },
+    {
+      "source": 88,
+      "reason": "Mission 235 has a special enemies group that cannot yet be safely transferred."
+    },
+    {
+      "source": 90,
+      "reason": "Mission 304 has a special enemies group that cannot yet be safely transferred."
+    },
+    {
+      "source": 93,
+      "reason": "Mission 487 has a special enemies group that cannot yet be safely transferred."
+    },
+    {
+      "source": 99,
+      "reason": "Mission 272 has a special enemies group that cannot yet be safely transferred."
+    }
+  ]
+}

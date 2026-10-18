@@ -1,0 +1,36 @@
+{
+  "size": 71336,
+  "sha256": "09baccfab454f398c1eeef268750377a14b3128dd830e662c2149735f1afabeb",
+  "checksum_valid": true,
+  "changed_mission_records": [
+    511
+  ],
+  "changed_aggregates": [
+    21
+  ],
+  "row511": [
+    4097,
+    0,
+    360643,
+    0,
+    0,
+    0,
+    0
+  ],
+  "row502": [
+    4097,
+    1,
+    339187,
+    0,
+    0,
+    0,
+    0
+  ],
+  "other_original_byte_offsets": [
+    "0x17",
+    "0x1b"
+  ],
+  "oldGalaxy_unchanged": true,
+  "Tutorial_unchanged": true,
+  "BattleZone_unchanged": true
+}

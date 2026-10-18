@@ -1,0 +1,48 @@
+{
+  "before_sha256": "52f74932b9fe4a9ea397181d7c8600dded561c4c6ab9c09725a4572862e7da34",
+  "after_sha256": "52f74932b9fe4a9ea397181d7c8600dded561c4c6ab9c09725a4572862e7da34",
+  "size": 110000,
+  "checksum_valid": true,
+  "changed_old_offsets": [],
+  "stale_original_banks_unchanged": true,
+  "banks": {
+    "galaxy": {
+      "changed_ranges_relative": [],
+      "changed_rows": {}
+    },
+    "tutorial": {
+      "changed_ranges_relative": [],
+      "changed_rows": {}
+    },
+    "battle_zone": {
+      "changed_ranges_relative": []
+    }
+  },
+  "guard_ranges": [
+    {
+      "start": 55000,
+      "end": 55040,
+      "unchanged": true,
+      "all_A5": true
+    },
+    {
+      "start": 86160,
+      "end": 86192,
+      "unchanged": true,
+      "all_A5": true
+    },
+    {
+      "start": 88052,
+      "end": 88096,
+      "unchanged": true,
+      "all_A5": true
+    },
+    {
+      "start": 109768,
+      "end": 109936,
+      "unchanged": true,
+      "all_A5": true
+    }
+  ],
+  "format_marker_unchanged": true
+}

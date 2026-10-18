@@ -1,0 +1,50 @@
+{
+  "before_sha256": "ebfa9de1489904714025c5b45d7d10ef06d490f20651d6257c3b8b3ed6985f15",
+  "after_sha256": "5ca7a901dff37e67834985f2bf9e8761e5ac58b81ac9ce042addb2c107ea603a",
+  "changed_members": [
+    "galaxy.mmd"
+  ],
+  "member_count": 118,
+  "decompressed_sha256": "15b0c69c5037494f36d42d03ac7df679967ad7116f0731c51459099136cd978d",
+  "verification": "Byte-for-byte decompression and unchanged other members; no game execution",
+  "experiment": "KB03X",
+  "status": "DATA_VERIFIED_GAMEPLAY_UNTESTED",
+  "edits": [
+    {
+      "node": 117,
+      "roster_descriptor": 788,
+      "offset": "0x26c5c",
+      "before_preset": 1058,
+      "after_preset": 788
+    },
+    {
+      "node": 125,
+      "roster_descriptor": 847,
+      "offset": "0xb44c",
+      "before_preset": 788,
+      "after_preset": 1058
+    }
+  ],
+  "mmd_difference": {
+    "before_sha256": "46923ba3c35ad18843feef6cd5b4e649874f55d3b11ae891c80a41691ea3e3e2",
+    "after_sha256": "f75df31b41c97b9862d5988371d53a2667ee24a4323c712fd00bd25713a87034",
+    "before_size": 158836,
+    "after_size": 158836,
+    "changed_spans": [
+      {
+        "offset": 46156,
+        "length": 2,
+        "before": "03 14",
+        "after": "04 22"
+      },
+      {
+        "offset": 158812,
+        "length": 2,
+        "before": "04 22",
+        "after": "03 14"
+      }
+    ]
+  },
+  "boot": "Exact KB02B boot, unchanged",
+  "purpose": "Cross the original Cell-boss Gohan preset and modified Goku between mission contexts"
+}

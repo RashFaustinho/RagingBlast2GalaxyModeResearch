@@ -1,0 +1,1371 @@
+{
+  "correction": "Original on-disk X=0,1,2, not-1,0,1. Native cell formula includes x+1. Cell0 is physical but requires nonstandard coordinates; (2,0) overflows to21.",
+  "routes": [
+    {
+      "file": "zone_aquamarine_sphere.mmd",
+      "sha256": "33658d085837bdc8df5f9788fc6c1ec1b646ab486492550c78a6cd2c07326b52",
+      "roots": 9,
+      "coordinates": [
+        {
+          "node": 0,
+          "x": 1.0,
+          "y": 0.0,
+          "saved_cell": 20
+        },
+        {
+          "node": 1,
+          "x": 1.0,
+          "y": 1.0,
+          "saved_cell": 17
+        },
+        {
+          "node": 2,
+          "x": 1.0,
+          "y": 2.0,
+          "saved_cell": 14
+        },
+        {
+          "node": 3,
+          "x": 0.0,
+          "y": 3.0,
+          "saved_cell": 10
+        },
+        {
+          "node": 4,
+          "x": 1.0,
+          "y": 3.0,
+          "saved_cell": 11
+        },
+        {
+          "node": 5,
+          "x": 2.0,
+          "y": 3.0,
+          "saved_cell": 12
+        },
+        {
+          "node": 6,
+          "x": 0.0,
+          "y": 4.0,
+          "saved_cell": 7
+        },
+        {
+          "node": 7,
+          "x": 1.0,
+          "y": 4.0,
+          "saved_cell": 8
+        },
+        {
+          "node": 8,
+          "x": 2.0,
+          "y": 4.0,
+          "saved_cell": 9
+        }
+      ],
+      "unique_saved_cells": 9,
+      "unused_physical_cells": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        13,
+        15,
+        16,
+        18,
+        19
+      ],
+      "unused_standard_coordinate_cells": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        13,
+        15,
+        16,
+        18,
+        19
+      ]
+    },
+    {
+      "file": "zone_blue_lozenge.mmd",
+      "sha256": "23a9f311984e22bdfb90fc86e2977ad343477ad978c42aae068b9eadd7bd7f04",
+      "roots": 6,
+      "coordinates": [
+        {
+          "node": 0,
+          "x": 1.0,
+          "y": 0.0,
+          "saved_cell": 20
+        },
+        {
+          "node": 1,
+          "x": 1.0,
+          "y": 1.0,
+          "saved_cell": 17
+        },
+        {
+          "node": 2,
+          "x": 0.0,
+          "y": 2.0,
+          "saved_cell": 13
+        },
+        {
+          "node": 3,
+          "x": 2.0,
+          "y": 2.0,
+          "saved_cell": 15
+        },
+        {
+          "node": 4,
+          "x": 0.0,
+          "y": 3.0,
+          "saved_cell": 10
+        },
+        {
+          "node": 5,
+          "x": 2.0,
+          "y": 3.0,
+          "saved_cell": 12
+        }
+      ],
+      "unique_saved_cells": 6,
+      "unused_physical_cells": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        11,
+        14,
+        16,
+        18,
+        19
+      ],
+      "unused_standard_coordinate_cells": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        11,
+        14,
+        16,
+        18,
+        19
+      ]
+    },
+    {
+      "file": "zone_crimson_liner.mmd",
+      "sha256": "2458c10990ba35d99fed06c49e8e40e9ae9c34a1c89bd98f910c04a6b133ad07",
+      "roots": 9,
+      "coordinates": [
+        {
+          "node": 0,
+          "x": 1.0,
+          "y": 0.0,
+          "saved_cell": 20
+        },
+        {
+          "node": 1,
+          "x": 1.0,
+          "y": 1.0,
+          "saved_cell": 17
+        },
+        {
+          "node": 2,
+          "x": 1.0,
+          "y": 2.0,
+          "saved_cell": 14
+        },
+        {
+          "node": 3,
+          "x": 2.0,
+          "y": 2.0,
+          "saved_cell": 15
+        },
+        {
+          "node": 4,
+          "x": 0.0,
+          "y": 3.0,
+          "saved_cell": 10
+        },
+        {
+          "node": 5,
+          "x": 2.0,
+          "y": 3.0,
+          "saved_cell": 12
+        },
+        {
+          "node": 6,
+          "x": 0.0,
+          "y": 4.0,
+          "saved_cell": 7
+        },
+        {
+          "node": 7,
+          "x": 1.0,
+          "y": 4.0,
+          "saved_cell": 8
+        },
+        {
+          "node": 8,
+          "x": 2.0,
+          "y": 4.0,
+          "saved_cell": 9
+        }
+      ],
+      "unique_saved_cells": 9,
+      "unused_physical_cells": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        11,
+        13,
+        16,
+        18,
+        19
+      ],
+      "unused_standard_coordinate_cells": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        11,
+        13,
+        16,
+        18,
+        19
+      ]
+    },
+    {
+      "file": "zone_final.mmd",
+      "sha256": "f6fec4babbdec09a3107da024137d2325191718c6fbffa4834ab25fcb51a545b",
+      "roots": 7,
+      "coordinates": [
+        {
+          "node": 0,
+          "x": 0.0,
+          "y": 0.0,
+          "saved_cell": 19
+        },
+        {
+          "node": 1,
+          "x": 0.0,
+          "y": 1.0,
+          "saved_cell": 16
+        },
+        {
+          "node": 2,
+          "x": 0.0,
+          "y": 2.0,
+          "saved_cell": 13
+        },
+        {
+          "node": 3,
+          "x": 0.0,
+          "y": 3.0,
+          "saved_cell": 10
+        },
+        {
+          "node": 4,
+          "x": 0.0,
+          "y": 4.0,
+          "saved_cell": 7
+        },
+        {
+          "node": 5,
+          "x": 0.0,
+          "y": 5.0,
+          "saved_cell": 4
+        },
+        {
+          "node": 6,
+          "x": 0.0,
+          "y": 6.0,
+          "saved_cell": 1
+        }
+      ],
+      "unique_saved_cells": 7,
+      "unused_physical_cells": [
+        0,
+        2,
+        3,
+        5,
+        6,
+        8,
+        9,
+        11,
+        12,
+        14,
+        15,
+        17,
+        18,
+        20
+      ],
+      "unused_standard_coordinate_cells": [
+        2,
+        3,
+        5,
+        6,
+        8,
+        9,
+        11,
+        12,
+        14,
+        15,
+        17,
+        18,
+        20
+      ]
+    },
+    {
+      "file": "zone_final_ultimate.mmd",
+      "sha256": "84c3d38a4fd0eb086aeb7099ca12b46c4af24afab2a602020e1110ee35046620",
+      "roots": 11,
+      "coordinates": [
+        {
+          "node": 0,
+          "x": 1.0,
+          "y": 0.0,
+          "saved_cell": 20
+        },
+        {
+          "node": 1,
+          "x": 0.0,
+          "y": 1.0,
+          "saved_cell": 16
+        },
+        {
+          "node": 2,
+          "x": 1.0,
+          "y": 2.0,
+          "saved_cell": 14
+        },
+        {
+          "node": 3,
+          "x": 0.0,
+          "y": 3.0,
+          "saved_cell": 10
+        },
+        {
+          "node": 4,
+          "x": 2.0,
+          "y": 3.0,
+          "saved_cell": 12
+        },
+        {
+          "node": 5,
+          "x": 1.0,
+          "y": 4.0,
+          "saved_cell": 8
+        },
+        {
+          "node": 6,
+          "x": 2.0,
+          "y": 4.0,
+          "saved_cell": 9
+        },
+        {
+          "node": 7,
+          "x": 0.0,
+          "y": 5.0,
+          "saved_cell": 4
+        },
+        {
+          "node": 8,
+          "x": 2.0,
+          "y": 5.0,
+          "saved_cell": 6
+        },
+        {
+          "node": 9,
+          "x": 1.0,
+          "y": 6.0,
+          "saved_cell": 2
+        },
+        {
+          "node": 10,
+          "x": 2.0,
+          "y": 6.0,
+          "saved_cell": 3
+        }
+      ],
+      "unique_saved_cells": 11,
+      "unused_physical_cells": [
+        0,
+        1,
+        5,
+        7,
+        11,
+        13,
+        15,
+        17,
+        18,
+        19
+      ],
+      "unused_standard_coordinate_cells": [
+        1,
+        5,
+        7,
+        11,
+        13,
+        15,
+        17,
+        18,
+        19
+      ]
+    },
+    {
+      "file": "zone_green_square.mmd",
+      "sha256": "37fbfc3e0529f4eda842c952d2c2727130b386680053a478201610227e153b99",
+      "roots": 4,
+      "coordinates": [
+        {
+          "node": 0,
+          "x": 0.0,
+          "y": 0.0,
+          "saved_cell": 19
+        },
+        {
+          "node": 1,
+          "x": 0.0,
+          "y": 1.0,
+          "saved_cell": 16
+        },
+        {
+          "node": 2,
+          "x": 0.0,
+          "y": 2.0,
+          "saved_cell": 13
+        },
+        {
+          "node": 3,
+          "x": 0.0,
+          "y": 3.0,
+          "saved_cell": 10
+        }
+      ],
+      "unique_saved_cells": 4,
+      "unused_physical_cells": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        11,
+        12,
+        14,
+        15,
+        17,
+        18,
+        20
+      ],
+      "unused_standard_coordinate_cells": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        11,
+        12,
+        14,
+        15,
+        17,
+        18,
+        20
+      ]
+    },
+    {
+      "file": "zone_red_triangle.mmd",
+      "sha256": "cd697806fbbf921f7166fe043f17e6e0e6dae73735edcc2882ea8123060d7bdf",
+      "roots": 6,
+      "coordinates": [
+        {
+          "node": 0,
+          "x": 1.0,
+          "y": 0.0,
+          "saved_cell": 20
+        },
+        {
+          "node": 1,
+          "x": 1.0,
+          "y": 1.0,
+          "saved_cell": 17
+        },
+        {
+          "node": 2,
+          "x": 0.0,
+          "y": 2.0,
+          "saved_cell": 13
+        },
+        {
+          "node": 3,
+          "x": 2.0,
+          "y": 2.0,
+          "saved_cell": 15
+        },
+        {
+          "node": 4,
+          "x": 0.0,
+          "y": 3.0,
+          "saved_cell": 10
+        },
+        {
+          "node": 5,
+          "x": 2.0,
+          "y": 3.0,
+          "saved_cell": 12
+        }
+      ],
+      "unique_saved_cells": 6,
+      "unused_physical_cells": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        11,
+        14,
+        16,
+        18,
+        19
+      ],
+      "unused_standard_coordinate_cells": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        11,
+        14,
+        16,
+        18,
+        19
+      ]
+    },
+    {
+      "file": "zone_ultimate_circle.mmd",
+      "sha256": "eb974ee61e8e62f80bb10edfa11b24d87a4e10d3f574f27ff4c9ec9146cfb825",
+      "roots": 11,
+      "coordinates": [
+        {
+          "node": 0,
+          "x": 1.0,
+          "y": 0.0,
+          "saved_cell": 20
+        },
+        {
+          "node": 1,
+          "x": 1.0,
+          "y": 1.0,
+          "saved_cell": 17
+        },
+        {
+          "node": 2,
+          "x": 2.0,
+          "y": 1.0,
+          "saved_cell": 18
+        },
+        {
+          "node": 3,
+          "x": 0.0,
+          "y": 2.0,
+          "saved_cell": 13
+        },
+        {
+          "node": 4,
+          "x": 2.0,
+          "y": 2.0,
+          "saved_cell": 15
+        },
+        {
+          "node": 5,
+          "x": 0.0,
+          "y": 3.0,
+          "saved_cell": 10
+        },
+        {
+          "node": 6,
+          "x": 1.0,
+          "y": 3.0,
+          "saved_cell": 11
+        },
+        {
+          "node": 7,
+          "x": 2.0,
+          "y": 3.0,
+          "saved_cell": 12
+        },
+        {
+          "node": 8,
+          "x": 0.0,
+          "y": 4.0,
+          "saved_cell": 7
+        },
+        {
+          "node": 9,
+          "x": 1.0,
+          "y": 4.0,
+          "saved_cell": 8
+        },
+        {
+          "node": 10,
+          "x": 2.0,
+          "y": 4.0,
+          "saved_cell": 9
+        }
+      ],
+      "unique_saved_cells": 11,
+      "unused_physical_cells": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        14,
+        16,
+        19
+      ],
+      "unused_standard_coordinate_cells": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        14,
+        16,
+        19
+      ]
+    },
+    {
+      "file": "zone_ultimate_liner.mmd",
+      "sha256": "ba6872f533e3fcbe7e2e58721727f73d2894f385eda4655b9bd9e1950921e7d3",
+      "roots": 11,
+      "coordinates": [
+        {
+          "node": 0,
+          "x": 1.0,
+          "y": 0.0,
+          "saved_cell": 20
+        },
+        {
+          "node": 1,
+          "x": 1.0,
+          "y": 1.0,
+          "saved_cell": 17
+        },
+        {
+          "node": 2,
+          "x": 2.0,
+          "y": 1.0,
+          "saved_cell": 18
+        },
+        {
+          "node": 3,
+          "x": 0.0,
+          "y": 2.0,
+          "saved_cell": 13
+        },
+        {
+          "node": 4,
+          "x": 2.0,
+          "y": 2.0,
+          "saved_cell": 15
+        },
+        {
+          "node": 5,
+          "x": 0.0,
+          "y": 3.0,
+          "saved_cell": 10
+        },
+        {
+          "node": 6,
+          "x": 1.0,
+          "y": 3.0,
+          "saved_cell": 11
+        },
+        {
+          "node": 7,
+          "x": 2.0,
+          "y": 3.0,
+          "saved_cell": 12
+        },
+        {
+          "node": 8,
+          "x": 0.0,
+          "y": 4.0,
+          "saved_cell": 7
+        },
+        {
+          "node": 9,
+          "x": 1.0,
+          "y": 4.0,
+          "saved_cell": 8
+        },
+        {
+          "node": 10,
+          "x": 2.0,
+          "y": 4.0,
+          "saved_cell": 9
+        }
+      ],
+      "unique_saved_cells": 11,
+      "unused_physical_cells": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        14,
+        16,
+        19
+      ],
+      "unused_standard_coordinate_cells": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        14,
+        16,
+        19
+      ]
+    },
+    {
+      "file": "zone_ultimate_lozenge.mmd",
+      "sha256": "17cb713e22b41c58694adb7e0768f873e539b1690128fbc75e4f8d61afcc4df4",
+      "roots": 7,
+      "coordinates": [
+        {
+          "node": 0,
+          "x": 1.0,
+          "y": 0.0,
+          "saved_cell": 20
+        },
+        {
+          "node": 1,
+          "x": 0.0,
+          "y": 1.0,
+          "saved_cell": 16
+        },
+        {
+          "node": 2,
+          "x": 2.0,
+          "y": 1.0,
+          "saved_cell": 18
+        },
+        {
+          "node": 3,
+          "x": 0.0,
+          "y": 2.0,
+          "saved_cell": 13
+        },
+        {
+          "node": 4,
+          "x": 2.0,
+          "y": 2.0,
+          "saved_cell": 15
+        },
+        {
+          "node": 5,
+          "x": 0.0,
+          "y": 3.0,
+          "saved_cell": 10
+        },
+        {
+          "node": 6,
+          "x": 2.0,
+          "y": 3.0,
+          "saved_cell": 12
+        }
+      ],
+      "unique_saved_cells": 7,
+      "unused_physical_cells": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        11,
+        14,
+        17,
+        19
+      ],
+      "unused_standard_coordinate_cells": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        11,
+        14,
+        17,
+        19
+      ]
+    },
+    {
+      "file": "zone_ultimate_sphere.mmd",
+      "sha256": "7b830cb084b7724d3d4ad1ddaf4ff8bce49fba4f07eee5856eefde618ebdebbc",
+      "roots": 11,
+      "coordinates": [
+        {
+          "node": 0,
+          "x": 1.0,
+          "y": 0.0,
+          "saved_cell": 20
+        },
+        {
+          "node": 1,
+          "x": 1.0,
+          "y": 1.0,
+          "saved_cell": 17
+        },
+        {
+          "node": 2,
+          "x": 0.0,
+          "y": 2.0,
+          "saved_cell": 13
+        },
+        {
+          "node": 3,
+          "x": 1.0,
+          "y": 2.0,
+          "saved_cell": 14
+        },
+        {
+          "node": 4,
+          "x": 2.0,
+          "y": 2.0,
+          "saved_cell": 15
+        },
+        {
+          "node": 5,
+          "x": 0.0,
+          "y": 3.0,
+          "saved_cell": 10
+        },
+        {
+          "node": 6,
+          "x": 1.0,
+          "y": 3.0,
+          "saved_cell": 11
+        },
+        {
+          "node": 7,
+          "x": 2.0,
+          "y": 3.0,
+          "saved_cell": 12
+        },
+        {
+          "node": 8,
+          "x": 0.0,
+          "y": 4.0,
+          "saved_cell": 7
+        },
+        {
+          "node": 9,
+          "x": 1.0,
+          "y": 4.0,
+          "saved_cell": 8
+        },
+        {
+          "node": 10,
+          "x": 2.0,
+          "y": 4.0,
+          "saved_cell": 9
+        }
+      ],
+      "unique_saved_cells": 11,
+      "unused_physical_cells": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        16,
+        18,
+        19
+      ],
+      "unused_standard_coordinate_cells": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        16,
+        18,
+        19
+      ]
+    },
+    {
+      "file": "zone_ultimate_spiral.mmd",
+      "sha256": "61dfbaf2315461b523c7f114d9638b87f4552104d9ef64b3f4dbdf4aa2cdffc2",
+      "roots": 8,
+      "coordinates": [
+        {
+          "node": 0,
+          "x": 0.0,
+          "y": 0.0,
+          "saved_cell": 19
+        },
+        {
+          "node": 1,
+          "x": 0.0,
+          "y": 1.0,
+          "saved_cell": 16
+        },
+        {
+          "node": 2,
+          "x": 1.0,
+          "y": 1.0,
+          "saved_cell": 17
+        },
+        {
+          "node": 3,
+          "x": 0.0,
+          "y": 2.0,
+          "saved_cell": 13
+        },
+        {
+          "node": 4,
+          "x": 2.0,
+          "y": 2.0,
+          "saved_cell": 15
+        },
+        {
+          "node": 5,
+          "x": 0.0,
+          "y": 3.0,
+          "saved_cell": 10
+        },
+        {
+          "node": 6,
+          "x": 1.0,
+          "y": 3.0,
+          "saved_cell": 11
+        },
+        {
+          "node": 7,
+          "x": 2.0,
+          "y": 3.0,
+          "saved_cell": 12
+        }
+      ],
+      "unique_saved_cells": 8,
+      "unused_physical_cells": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        14,
+        18,
+        20
+      ],
+      "unused_standard_coordinate_cells": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        14,
+        18,
+        20
+      ]
+    },
+    {
+      "file": "zone_ultimate_square.mmd",
+      "sha256": "4eada963c60d6733b76dc9007159880b4be2e5d54af81725c4ad428071dffe0f",
+      "roots": 5,
+      "coordinates": [
+        {
+          "node": 0,
+          "x": 0.0,
+          "y": 0.0,
+          "saved_cell": 19
+        },
+        {
+          "node": 1,
+          "x": 1.0,
+          "y": 1.0,
+          "saved_cell": 17
+        },
+        {
+          "node": 2,
+          "x": 0.0,
+          "y": 2.0,
+          "saved_cell": 13
+        },
+        {
+          "node": 3,
+          "x": 0.0,
+          "y": 3.0,
+          "saved_cell": 10
+        },
+        {
+          "node": 4,
+          "x": 1.0,
+          "y": 3.0,
+          "saved_cell": 11
+        }
+      ],
+      "unique_saved_cells": 5,
+      "unused_physical_cells": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        12,
+        14,
+        15,
+        16,
+        18,
+        20
+      ],
+      "unused_standard_coordinate_cells": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        12,
+        14,
+        15,
+        16,
+        18,
+        20
+      ]
+    },
+    {
+      "file": "zone_ultimate_triangle.mmd",
+      "sha256": "bf7b53615af9befcf87da8e672c854e1f0d8e8d5c594c79a64f09e985ba5e9dc",
+      "roots": 5,
+      "coordinates": [
+        {
+          "node": 0,
+          "x": 1.0,
+          "y": 0.0,
+          "saved_cell": 20
+        },
+        {
+          "node": 1,
+          "x": 2.0,
+          "y": 1.0,
+          "saved_cell": 18
+        },
+        {
+          "node": 2,
+          "x": 1.0,
+          "y": 2.0,
+          "saved_cell": 14
+        },
+        {
+          "node": 3,
+          "x": 0.0,
+          "y": 3.0,
+          "saved_cell": 10
+        },
+        {
+          "node": 4,
+          "x": 1.0,
+          "y": 3.0,
+          "saved_cell": 11
+        }
+      ],
+      "unique_saved_cells": 5,
+      "unused_physical_cells": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        12,
+        13,
+        15,
+        16,
+        17,
+        19
+      ],
+      "unused_standard_coordinate_cells": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        12,
+        13,
+        15,
+        16,
+        17,
+        19
+      ]
+    },
+    {
+      "file": "zone_violet_circle.mmd",
+      "sha256": "1b4ea736c37c1e26e2bc3f7ed1714efc4aea8943c308983bd8293fef4e7b9ac5",
+      "roots": 10,
+      "coordinates": [
+        {
+          "node": 0,
+          "x": 1.0,
+          "y": 0.0,
+          "saved_cell": 20
+        },
+        {
+          "node": 1,
+          "x": 1.0,
+          "y": 1.0,
+          "saved_cell": 17
+        },
+        {
+          "node": 2,
+          "x": 0.0,
+          "y": 2.0,
+          "saved_cell": 13
+        },
+        {
+          "node": 3,
+          "x": 2.0,
+          "y": 2.0,
+          "saved_cell": 15
+        },
+        {
+          "node": 4,
+          "x": 0.0,
+          "y": 3.0,
+          "saved_cell": 10
+        },
+        {
+          "node": 5,
+          "x": 1.0,
+          "y": 3.0,
+          "saved_cell": 11
+        },
+        {
+          "node": 6,
+          "x": 2.0,
+          "y": 3.0,
+          "saved_cell": 12
+        },
+        {
+          "node": 7,
+          "x": 0.0,
+          "y": 4.0,
+          "saved_cell": 7
+        },
+        {
+          "node": 8,
+          "x": 1.0,
+          "y": 4.0,
+          "saved_cell": 8
+        },
+        {
+          "node": 9,
+          "x": 2.0,
+          "y": 4.0,
+          "saved_cell": 9
+        }
+      ],
+      "unique_saved_cells": 10,
+      "unused_physical_cells": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        14,
+        16,
+        18,
+        19
+      ],
+      "unused_standard_coordinate_cells": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        14,
+        16,
+        18,
+        19
+      ]
+    },
+    {
+      "file": "zone_yellow_spiral.mmd",
+      "sha256": "1b5e9cedf432818fdba555d72207b0e1d1f46793b4721fc3dc41782b1d8ee913",
+      "roots": 8,
+      "coordinates": [
+        {
+          "node": 0,
+          "x": 0.0,
+          "y": 0.0,
+          "saved_cell": 19
+        },
+        {
+          "node": 1,
+          "x": 0.0,
+          "y": 1.0,
+          "saved_cell": 16
+        },
+        {
+          "node": 2,
+          "x": 1.0,
+          "y": 1.0,
+          "saved_cell": 17
+        },
+        {
+          "node": 3,
+          "x": 0.0,
+          "y": 2.0,
+          "saved_cell": 13
+        },
+        {
+          "node": 4,
+          "x": 2.0,
+          "y": 2.0,
+          "saved_cell": 15
+        },
+        {
+          "node": 5,
+          "x": 0.0,
+          "y": 3.0,
+          "saved_cell": 10
+        },
+        {
+          "node": 6,
+          "x": 1.0,
+          "y": 3.0,
+          "saved_cell": 11
+        },
+        {
+          "node": 7,
+          "x": 2.0,
+          "y": 3.0,
+          "saved_cell": 12
+        }
+      ],
+      "unique_saved_cells": 8,
+      "unused_physical_cells": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        14,
+        18,
+        20
+      ],
+      "unused_standard_coordinate_cells": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        14,
+        18,
+        20
+      ]
+    }
+  ],
+  "total_original_missions": 128,
+  "physical_capacity": 336,
+  "unused_physical_cells": 208,
+  "standard_coordinate_capacity": 320,
+  "unused_standard_coordinate_cells": 192,
+  "status": "Static inventory; every original input roundtrips/checks, not all candidate added branches played."
+}

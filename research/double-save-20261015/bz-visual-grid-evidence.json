@@ -1,0 +1,39 @@
+{
+  "visual_coordinate_helper": "0x26ce88",
+  "visual_x": "intX + 2",
+  "visual_y": "12 - 2*intY",
+  "grid_row_stride": 13,
+  "record_size": 16,
+  "grid_base_in_scene": "0x90",
+  "direct_grid_read": "0x26de38..0x26de50",
+  "direct_grid_write": "0x26e400..0x26e420",
+  "boundary53": {
+    "x": 1,
+    "y": -11,
+    "visual_x": 3,
+    "visual_y": 34,
+    "flat_index": 73
+  },
+  "normal_visual_y_min": 0,
+  "normal_visual_y_max": 12,
+  "save_formula_is_separate": "0x318be4",
+  "warning": "An out-of-range visual row can alias another column or leave grid storage; extra serialized records do not make those scene accesses valid.",
+  "grid_columns": 5,
+  "grid_rows": 13,
+  "grid_records": 65,
+  "grid_end_in_scene": "0x4a0",
+  "object_creation_loops": [
+    "0x276cdc: last row12",
+    "0x276cfc: last column4"
+  ],
+  "position_loops": [
+    "0x2759e4: row0..12",
+    "0x2759ec: column0..4"
+  ],
+  "boundary53_outside_grid": true,
+  "following_scene_fields_overwritten_by_bad_grid_flags": [
+    "0x524",
+    "0x528",
+    "0x52c"
+  ]
+}

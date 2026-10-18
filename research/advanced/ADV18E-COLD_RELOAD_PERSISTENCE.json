@@ -1,0 +1,12 @@
+{
+  "cold_process_restart": true,
+  "save_loaded_dialog_observed": true,
+  "selected_node": 498,
+  "persistent_score_observed": 336650,
+  "persistent_rank_observed": "A++",
+  "Kid_Buu_completion_percent": 100,
+  "node_flags_hex": "0x2e",
+  "live_MAIN_matches_ADV18E": true,
+  "MAIN_sha256": "02b385cfacbbd698cbcb2ab81429391125d0d9b959a348c31b621195b78a759d",
+  "no_savestate_loaded": true
+}

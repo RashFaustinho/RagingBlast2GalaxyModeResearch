@@ -1,0 +1,33 @@
+{
+  "scene": "0x3aa89e40",
+  "out_of_grid_cell": {
+    "visual": [
+      3,
+      34
+    ],
+    "flat_index": 73,
+    "address": "0x3aa8a360",
+    "words": [
+      0,
+      1,
+      0,
+      816116352
+    ]
+  },
+  "original_root0": {
+    "visual": [
+      2,
+      12
+    ],
+    "flat_index": 38,
+    "address": "0x3aa8a130",
+    "words": [
+      985264112,
+      1,
+      0,
+      816116128
+    ]
+  },
+  "fault_pc": "0x270f80",
+  "dereferenced_member": "grid_record_pointer + 0x14"
+}

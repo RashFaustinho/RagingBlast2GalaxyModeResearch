@@ -1,0 +1,2077 @@
+{
+  "status": "BUILT_NOT_RUNTIME_TESTED",
+  "original_sha256": "8e2b454ca5959476a5869d0ab9e652123a019d72791f61ab37f7dd9936b2b892",
+  "patched_sha256": "9f24ca8d05758e112d0a649a09da7519df45a06de947e2855bdfa615bf59d028",
+  "old_size": 55000,
+  "new_size": 110000,
+  "patches": [
+    {
+      "address": 999364,
+      "old": "39298148",
+      "new": "3929d700",
+      "reason": "D2 Galaxy bank/metadata"
+    },
+    {
+      "address": 1001408,
+      "old": "39298148",
+      "new": "3929d700",
+      "reason": "D2 Galaxy bank/metadata"
+    },
+    {
+      "address": 1011132,
+      "old": "39298148",
+      "new": "3929d700",
+      "reason": "D2 Galaxy bank/metadata"
+    },
+    {
+      "address": 1016264,
+      "old": "3bc98148",
+      "new": "3bc9d700",
+      "reason": "D2 Galaxy bank/metadata"
+    },
+    {
+      "address": 1016368,
+      "old": "392936b0",
+      "new": "392971c0",
+      "reason": "D2 Galaxy bank/metadata"
+    },
+    {
+      "address": 1016568,
+      "old": "39298148",
+      "new": "3929d700",
+      "reason": "D2 Galaxy bank/metadata"
+    },
+    {
+      "address": 1016664,
+      "old": "392936b0",
+      "new": "392971c0",
+      "reason": "D2 Galaxy bank/metadata"
+    },
+    {
+      "address": 1016700,
+      "old": "392936b0",
+      "new": "392971c0",
+      "reason": "D2 Galaxy bank/metadata"
+    },
+    {
+      "address": 1892212,
+      "old": "39298148",
+      "new": "3929d700",
+      "reason": "D2 Galaxy bank/metadata"
+    },
+    {
+      "address": 1892380,
+      "old": "392936b0",
+      "new": "392971c0",
+      "reason": "D2 Galaxy bank/metadata"
+    },
+    {
+      "address": 1892440,
+      "old": "81243de8",
+      "new": "812478f8",
+      "reason": "D2 Galaxy bank/metadata"
+    },
+    {
+      "address": 1892448,
+      "old": "81243dec",
+      "new": "812478fc",
+      "reason": "D2 Galaxy bank/metadata"
+    },
+    {
+      "address": 1892744,
+      "old": "81243dec",
+      "new": "812478fc",
+      "reason": "D2 Galaxy bank/metadata"
+    },
+    {
+      "address": 1892784,
+      "old": "81243de8",
+      "new": "812478f8",
+      "reason": "D2 Galaxy bank/metadata"
+    },
+    {
+      "address": 1892792,
+      "old": "81243dec",
+      "new": "812478fc",
+      "reason": "D2 Galaxy bank/metadata"
+    },
+    {
+      "address": 1905276,
+      "old": "8009bf30",
+      "new": "80094ff8",
+      "reason": "D2 Galaxy bank/metadata"
+    },
+    {
+      "address": 1909844,
+      "old": "3be98148",
+      "new": "3be9d700",
+      "reason": "D2 Galaxy bank/metadata"
+    },
+    {
+      "address": 1910204,
+      "old": "392936b0",
+      "new": "392971c0",
+      "reason": "D2 Galaxy bank/metadata"
+    },
+    {
+      "address": 1912832,
+      "old": "39298148",
+      "new": "3929d700",
+      "reason": "D2 Galaxy bank/metadata"
+    },
+    {
+      "address": 1919776,
+      "old": "3929b7f8",
+      "new": "392948c0",
+      "reason": "D2 Galaxy bank/metadata"
+    },
+    {
+      "address": 1928956,
+      "old": "3bcab7fc",
+      "new": "3bca48c4",
+      "reason": "D2 Galaxy bank/metadata"
+    },
+    {
+      "address": 1990032,
+      "old": "39298148",
+      "new": "3929d700",
+      "reason": "D2 Galaxy bank/metadata"
+    },
+    {
+      "address": 1990040,
+      "old": "801a3dec",
+      "new": "801a78fc",
+      "reason": "D2 Galaxy bank/metadata"
+    },
+    {
+      "address": 1990428,
+      "old": "39298148",
+      "new": "3929d700",
+      "reason": "D2 Galaxy bank/metadata"
+    },
+    {
+      "address": 1990436,
+      "old": "801a3dec",
+      "new": "801a78fc",
+      "reason": "D2 Galaxy bank/metadata"
+    },
+    {
+      "address": 1998348,
+      "old": "3bc98148",
+      "new": "3bc9d700",
+      "reason": "D2 Galaxy bank/metadata"
+    },
+    {
+      "address": 1998788,
+      "old": "390b8148",
+      "new": "390bd700",
+      "reason": "D2 Galaxy bank/metadata"
+    },
+    {
+      "address": 1999220,
+      "old": "3b898148",
+      "new": "3b89d700",
+      "reason": "D2 Galaxy bank/metadata"
+    },
+    {
+      "address": 1999944,
+      "old": "3b098148",
+      "new": "3b09d700",
+      "reason": "D2 Galaxy bank/metadata"
+    },
+    {
+      "address": 2000264,
+      "old": "392936b0",
+      "new": "392971c0",
+      "reason": "D2 Galaxy bank/metadata"
+    },
+    {
+      "address": 2000912,
+      "old": "901e3de8",
+      "new": "901e78f8",
+      "reason": "D2 Galaxy bank/metadata"
+    },
+    {
+      "address": 2000952,
+      "old": "392936b0",
+      "new": "392971c0",
+      "reason": "D2 Galaxy bank/metadata"
+    },
+    {
+      "address": 2001620,
+      "old": "3b698148",
+      "new": "3b69d700",
+      "reason": "D2 Galaxy bank/metadata"
+    },
+    {
+      "address": 2001728,
+      "old": "392936b0",
+      "new": "392971c0",
+      "reason": "D2 Galaxy bank/metadata"
+    },
+    {
+      "address": 2001832,
+      "old": "392936b0",
+      "new": "392971c0",
+      "reason": "D2 Galaxy bank/metadata"
+    },
+    {
+      "address": 2002108,
+      "old": "901e3de8",
+      "new": "901e78f8",
+      "reason": "D2 Galaxy bank/metadata"
+    },
+    {
+      "address": 2002144,
+      "old": "392936b0",
+      "new": "392971c0",
+      "reason": "D2 Galaxy bank/metadata"
+    },
+    {
+      "address": 2002496,
+      "old": "392936b0",
+      "new": "392971c0",
+      "reason": "D2 Galaxy bank/metadata"
+    },
+    {
+      "address": 2007700,
+      "old": "3ac98148",
+      "new": "3ac9d700",
+      "reason": "D2 Galaxy bank/metadata"
+    },
+    {
+      "address": 2009120,
+      "old": "8009bf34",
+      "new": "80094ffc",
+      "reason": "D2 Galaxy bank/metadata"
+    },
+    {
+      "address": 2010716,
+      "old": "3b498148",
+      "new": "3b49d700",
+      "reason": "D2 Galaxy bank/metadata"
+    },
+    {
+      "address": 2011200,
+      "old": "800a3dec",
+      "new": "800a78fc",
+      "reason": "D2 Galaxy bank/metadata"
+    },
+    {
+      "address": 2011212,
+      "old": "900a3dec",
+      "new": "900a78fc",
+      "reason": "D2 Galaxy bank/metadata"
+    },
+    {
+      "address": 2011260,
+      "old": "800a3dec",
+      "new": "800a78fc",
+      "reason": "D2 Galaxy bank/metadata"
+    },
+    {
+      "address": 2011272,
+      "old": "900a3dec",
+      "new": "900a78fc",
+      "reason": "D2 Galaxy bank/metadata"
+    },
+    {
+      "address": 2012464,
+      "old": "392936b0",
+      "new": "392971c0",
+      "reason": "D2 Galaxy bank/metadata"
+    },
+    {
+      "address": 2022920,
+      "old": "3b9c8148",
+      "new": "3b9cd700",
+      "reason": "D2 Galaxy bank/metadata"
+    },
+    {
+      "address": 2022928,
+      "old": "901c3de8",
+      "new": "901c78f8",
+      "reason": "D2 Galaxy bank/metadata"
+    },
+    {
+      "address": 2022964,
+      "old": "392936b0",
+      "new": "392971c0",
+      "reason": "D2 Galaxy bank/metadata"
+    },
+    {
+      "address": 2025244,
+      "old": "801dbf34",
+      "new": "801d4ffc",
+      "reason": "D2 Galaxy bank/metadata"
+    },
+    {
+      "address": 2026800,
+      "old": "3ac98148",
+      "new": "3ac9d700",
+      "reason": "D2 Galaxy bank/metadata"
+    },
+    {
+      "address": 2496056,
+      "old": "3b498148",
+      "new": "3b49d700",
+      "reason": "D2 Galaxy bank/metadata"
+    },
+    {
+      "address": 2496736,
+      "old": "800936b0",
+      "new": "800971c0",
+      "reason": "D2 Galaxy bank/metadata"
+    },
+    {
+      "address": 3153140,
+      "old": "3929b7f8",
+      "new": "392948c0",
+      "reason": "D2 Galaxy bank/metadata"
+    },
+    {
+      "address": 3157736,
+      "old": "3929b7f8",
+      "new": "392948c0",
+      "reason": "D2 Galaxy bank/metadata"
+    },
+    {
+      "address": 3157960,
+      "old": "3929b7f8",
+      "new": "392948c0",
+      "reason": "D2 Galaxy bank/metadata"
+    },
+    {
+      "address": 3158152,
+      "old": "3929b7f8",
+      "new": "392948c0",
+      "reason": "D2 Galaxy bank/metadata"
+    },
+    {
+      "address": 3158292,
+      "old": "3929b7f8",
+      "new": "392948c0",
+      "reason": "D2 Galaxy bank/metadata"
+    },
+    {
+      "address": 3158504,
+      "old": "3929b7f8",
+      "new": "392948c0",
+      "reason": "D2 Galaxy bank/metadata"
+    },
+    {
+      "address": 3158728,
+      "old": "3929b7f8",
+      "new": "392948c0",
+      "reason": "D2 Galaxy bank/metadata"
+    },
+    {
+      "address": 3176476,
+      "old": "3bbd8150",
+      "new": "3bbdd708",
+      "reason": "D2 Galaxy bank/metadata"
+    },
+    {
+      "address": 3184088,
+      "old": "3969b7fc",
+      "new": "396948c4",
+      "reason": "D2 Galaxy bank/metadata"
+    },
+    {
+      "address": 3184308,
+      "old": "3969b7fc",
+      "new": "396948c4",
+      "reason": "D2 Galaxy bank/metadata"
+    },
+    {
+      "address": 3184524,
+      "old": "3969b7fc",
+      "new": "396948c4",
+      "reason": "D2 Galaxy bank/metadata"
+    },
+    {
+      "address": 3184740,
+      "old": "3969b7fc",
+      "new": "396948c4",
+      "reason": "D2 Galaxy bank/metadata"
+    },
+    {
+      "address": 3184956,
+      "old": "3969b7fc",
+      "new": "396948c4",
+      "reason": "D2 Galaxy bank/metadata"
+    },
+    {
+      "address": 3185172,
+      "old": "3969b7fc",
+      "new": "396948c4",
+      "reason": "D2 Galaxy bank/metadata"
+    },
+    {
+      "address": 3185384,
+      "old": "3969b7fc",
+      "new": "396948c4",
+      "reason": "D2 Galaxy bank/metadata"
+    },
+    {
+      "address": 3185600,
+      "old": "39698148",
+      "new": "3969d700",
+      "reason": "D2 Galaxy bank/metadata"
+    },
+    {
+      "address": 3248416,
+      "old": "900936b8",
+      "new": "900971c8",
+      "reason": "D2 Galaxy bank/metadata"
+    },
+    {
+      "address": 3248428,
+      "old": "901e3de8",
+      "new": "901e78f8",
+      "reason": "D2 Galaxy bank/metadata"
+    },
+    {
+      "address": 3250064,
+      "old": "397c36b0",
+      "new": "397c71c0",
+      "reason": "D2 Galaxy bank/metadata"
+    },
+    {
+      "address": 3250104,
+      "old": "392936b0",
+      "new": "392971c0",
+      "reason": "D2 Galaxy bank/metadata"
+    },
+    {
+      "address": 3250156,
+      "old": "90193de8",
+      "new": "901978f8",
+      "reason": "D2 Galaxy bank/metadata"
+    },
+    {
+      "address": 3250200,
+      "old": "80193dec",
+      "new": "801978fc",
+      "reason": "D2 Galaxy bank/metadata"
+    },
+    {
+      "address": 3250208,
+      "old": "90193dec",
+      "new": "901978fc",
+      "reason": "D2 Galaxy bank/metadata"
+    },
+    {
+      "address": 3255644,
+      "old": "38638148",
+      "new": "3863d700",
+      "reason": "D2 Galaxy bank/metadata"
+    },
+    {
+      "address": 3256184,
+      "old": "38638148",
+      "new": "3863d700",
+      "reason": "D2 Galaxy bank/metadata"
+    },
+    {
+      "address": 4340436,
+      "old": "39498148",
+      "new": "3949d700",
+      "reason": "D2 Galaxy bank/metadata"
+    },
+    {
+      "address": 4340476,
+      "old": "800936b0",
+      "new": "800971c0",
+      "reason": "D2 Galaxy bank/metadata"
+    },
+    {
+      "address": 1910328,
+      "old": "3929b7f0",
+      "new": "392948b8",
+      "reason": "D2 aggregate-minus8 reader"
+    },
+    {
+      "address": 1017712,
+      "old": "3929b7f0",
+      "new": "392948b8",
+      "reason": "D2 aggregate-minus8 reader"
+    },
+    {
+      "address": 1017320,
+      "old": "39298140",
+      "new": "3929d6f8",
+      "reason": "D2 mission-minus8 reader omitted by old GS512"
+    },
+    {
+      "address": 1897472,
+      "old": "39298140",
+      "new": "3929d6f8",
+      "reason": "D2 mission-minus8 reader omitted by old GS512"
+    },
+    {
+      "address": 2035412,
+      "old": "39298140",
+      "new": "3929d6f8",
+      "reason": "D2 mission-minus8 reader omitted by old GS512"
+    },
+    {
+      "address": 1912796,
+      "old": "380001f4",
+      "new": "38000410",
+      "reason": "D2 Galaxy row count"
+    },
+    {
+      "address": 3185580,
+      "old": "380001f4",
+      "new": "38000410",
+      "reason": "D2 Galaxy row count"
+    },
+    {
+      "address": 3250040,
+      "old": "2fbd01f4",
+      "new": "2fbd0410",
+      "reason": "D2 Galaxy row count"
+    },
+    {
+      "address": 3250140,
+      "old": "380001f4",
+      "new": "38000410",
+      "reason": "D2 Galaxy row count"
+    },
+    {
+      "address": 3248368,
+      "old": "38a03e80",
+      "new": "38a07990",
+      "reason": "D2 Galaxy initializer length"
+    },
+    {
+      "address": 1893188,
+      "old": "38600a80",
+      "new": "38600b30",
+      "reason": "D2 enlarged launch-config allocation/clear"
+    },
+    {
+      "address": 1891952,
+      "old": "38a00a80",
+      "new": "38a00b30",
+      "reason": "D2 enlarged launch-config allocation/clear"
+    },
+    {
+      "address": 1892012,
+      "old": "38a00a80",
+      "new": "38a00b30",
+      "reason": "D2 enlarged launch-config allocation/clear"
+    },
+    {
+      "address": 1893292,
+      "old": "38a00a80",
+      "new": "38a00b30",
+      "reason": "D2 enlarged launch-config allocation/clear"
+    },
+    {
+      "address": 1890848,
+      "old": "39200010",
+      "new": "39200021",
+      "reason": "D2 bitmap33words=1056bits"
+    },
+    {
+      "address": 1890876,
+      "old": "9009000c",
+      "new": "90090a80",
+      "reason": "D2 relocated launch bitmap beyond original config"
+    },
+    {
+      "address": 1890924,
+      "old": "8003000c",
+      "new": "80030a80",
+      "reason": "D2 relocated launch bitmap beyond original config"
+    },
+    {
+      "address": 1890932,
+      "old": "9003000c",
+      "new": "90030a80",
+      "reason": "D2 relocated launch bitmap beyond original config"
+    },
+    {
+      "address": 1890968,
+      "old": "8063000c",
+      "new": "80630a80",
+      "reason": "D2 relocated launch bitmap beyond original config"
+    },
+    {
+      "address": 2019380,
+      "old": "38600140",
+      "new": "38600240",
+      "reason": "D2 map object enlarged for64-node pointer array"
+    },
+    {
+      "address": 2164652,
+      "old": "38600140",
+      "new": "38600240",
+      "reason": "D2 map object enlarged for64-node pointer array"
+    },
+    {
+      "address": 2032068,
+      "old": "38a00110",
+      "new": "38a00210",
+      "reason": "D2 map object clear extends through relocated pointer array"
+    },
+    {
+      "address": 2026092,
+      "old": "3be30030",
+      "new": "3be30140",
+      "reason": "D2 map node pointer-array destructor base"
+    },
+    {
+      "address": 2026156,
+      "old": "2f9e001f",
+      "new": "2f9e003f",
+      "reason": "D2 map node destructor count64"
+    },
+    {
+      "address": 2028896,
+      "old": "937d0030",
+      "new": "937d0140",
+      "reason": "D2 map node pointer-array creation base"
+    },
+    {
+      "address": 2028908,
+      "old": "807d0030",
+      "new": "807d0140",
+      "reason": "D2 map node pointer-array creation base"
+    },
+    {
+      "address": 2028924,
+      "old": "2f9f007c",
+      "new": "2f9f00fc",
+      "reason": "D2 map pool64 objects rather than32"
+    },
+    {
+      "address": 2030060,
+      "old": "80690030",
+      "new": "80690140",
+      "reason": "D2 relocated map pointer-array reader"
+    },
+    {
+      "address": 2030172,
+      "old": "80690030",
+      "new": "80690140",
+      "reason": "D2 relocated map pointer-array reader"
+    },
+    {
+      "address": 2030272,
+      "old": "80690030",
+      "new": "80690140",
+      "reason": "D2 relocated map pointer-array reader"
+    },
+    {
+      "address": 2030372,
+      "old": "80690030",
+      "new": "80690140",
+      "reason": "D2 relocated map pointer-array reader"
+    },
+    {
+      "address": 2030468,
+      "old": "80690030",
+      "new": "80690140",
+      "reason": "D2 relocated map pointer-array reader"
+    },
+    {
+      "address": 2030764,
+      "old": "80690030",
+      "new": "80690140",
+      "reason": "D2 relocated map pointer-array reader"
+    },
+    {
+      "address": 2031536,
+      "old": "80690030",
+      "new": "80690140",
+      "reason": "D2 relocated map pointer-array reader"
+    },
+    {
+      "address": 2030072,
+      "old": "2f9f007c",
+      "new": "2f9f00fc",
+      "reason": "D2 all map object iteration loops64"
+    },
+    {
+      "address": 2030184,
+      "old": "2f9f007c",
+      "new": "2f9f00fc",
+      "reason": "D2 all map object iteration loops64"
+    },
+    {
+      "address": 2030284,
+      "old": "2f9f007c",
+      "new": "2f9f00fc",
+      "reason": "D2 all map object iteration loops64"
+    },
+    {
+      "address": 2030384,
+      "old": "2f9f007c",
+      "new": "2f9f00fc",
+      "reason": "D2 all map object iteration loops64"
+    },
+    {
+      "address": 2030480,
+      "old": "2f9f007c",
+      "new": "2f9f00fc",
+      "reason": "D2 all map object iteration loops64"
+    },
+    {
+      "address": 2030776,
+      "old": "2f9e007c",
+      "new": "2f9e00fc",
+      "reason": "D2 all map object iteration loops64"
+    },
+    {
+      "address": 2031548,
+      "old": "2f9b007c",
+      "new": "2f9b00fc",
+      "reason": "D2 all map object iteration loops64"
+    },
+    {
+      "address": 2034612,
+      "old": "38a00110",
+      "new": "38a00210",
+      "reason": "D2 alternate map constructor clear"
+    },
+    {
+      "address": 1033464,
+      "old": "3929bfc8",
+      "new": "392950b0",
+      "reason": "D2 Tutorial bank"
+    },
+    {
+      "address": 1034452,
+      "old": "3929bfc8",
+      "new": "392950b0",
+      "reason": "D2 Tutorial bank"
+    },
+    {
+      "address": 1035596,
+      "old": "3929bfc8",
+      "new": "392950b0",
+      "reason": "D2 Tutorial bank"
+    },
+    {
+      "address": 1040448,
+      "old": "3929bfc8",
+      "new": "392950b0",
+      "reason": "D2 Tutorial bank"
+    },
+    {
+      "address": 1892548,
+      "old": "3929bfc8",
+      "new": "392950b0",
+      "reason": "D2 Tutorial bank"
+    },
+    {
+      "address": 1897052,
+      "old": "3949bfc8",
+      "new": "394950b0",
+      "reason": "D2 Tutorial bank"
+    },
+    {
+      "address": 2026836,
+      "old": "3ae9bfc8",
+      "new": "3ae950b0",
+      "reason": "D2 Tutorial bank"
+    },
+    {
+      "address": 2152176,
+      "old": "3bc9bfc8",
+      "new": "3bc950b0",
+      "reason": "D2 Tutorial bank"
+    },
+    {
+      "address": 2152616,
+      "old": "390bbfc8",
+      "new": "390b50b0",
+      "reason": "D2 Tutorial bank"
+    },
+    {
+      "address": 2153048,
+      "old": "3b89bfc8",
+      "new": "3b8950b0",
+      "reason": "D2 Tutorial bank"
+    },
+    {
+      "address": 2153768,
+      "old": "3b29bfc8",
+      "new": "3b2950b0",
+      "reason": "D2 Tutorial bank"
+    },
+    {
+      "address": 2155328,
+      "old": "3b9cbfc8",
+      "new": "3b9c50b0",
+      "reason": "D2 Tutorial bank"
+    },
+    {
+      "address": 3151152,
+      "old": "3929bfc8",
+      "new": "392950b0",
+      "reason": "D2 Tutorial bank"
+    },
+    {
+      "address": 3185824,
+      "old": "3969bfc8",
+      "new": "396950b0",
+      "reason": "D2 Tutorial bank"
+    },
+    {
+      "address": 3255664,
+      "old": "3863bfc8",
+      "new": "386350b0",
+      "reason": "D2 Tutorial bank"
+    },
+    {
+      "address": 3256204,
+      "old": "3863bfc8",
+      "new": "386350b0",
+      "reason": "D2 Tutorial bank"
+    },
+    {
+      "address": 1039608,
+      "old": "3929bfc0",
+      "new": "392950a8",
+      "reason": "D2 Tutorial minus8 reader"
+    },
+    {
+      "address": 1040580,
+      "old": "3929bfc0",
+      "new": "392950a8",
+      "reason": "D2 Tutorial minus8 reader"
+    },
+    {
+      "address": 2035776,
+      "old": "3929bfc0",
+      "new": "392950a8",
+      "reason": "D2 Tutorial minus8 reader"
+    },
+    {
+      "address": 3176672,
+      "old": "3be9bfd0",
+      "new": "3be950b8",
+      "reason": "D2 Tutorial score reader"
+    },
+    {
+      "address": 1897036,
+      "old": "38000009",
+      "new": "38000040",
+      "reason": "D2 Tutorial row count"
+    },
+    {
+      "address": 3185804,
+      "old": "38000009",
+      "new": "38000040",
+      "reason": "D2 Tutorial row count"
+    },
+    {
+      "address": 3249792,
+      "old": "2fbd0009",
+      "new": "2fbd0040",
+      "reason": "D2 Tutorial row count"
+    },
+    {
+      "address": 3151180,
+      "old": "2fbf0008",
+      "new": "2fbf003f",
+      "reason": "D2 Tutorial completion-all-but-last loop"
+    },
+    {
+      "address": 3248304,
+      "old": "38a00140",
+      "new": "38a00744",
+      "reason": "D2 Tutorial initializer length"
+    },
+    {
+      "address": 1030396,
+      "old": "38635e20",
+      "new": "48f04704",
+      "reason": "D2 Battle Zone bank (matched branch trampoline)",
+      "helper_address": 16777216,
+      "effective_offset": 88096
+    },
+    {
+      "address": 1030612,
+      "old": "39295e20",
+      "new": "48f04638",
+      "reason": "D2 Battle Zone bank (matched branch trampoline)",
+      "helper_address": 16777228,
+      "effective_offset": 88096
+    },
+    {
+      "address": 1030840,
+      "old": "39495e20",
+      "new": "48f04560",
+      "reason": "D2 Battle Zone bank (matched branch trampoline)",
+      "helper_address": 16777240,
+      "effective_offset": 88096
+    },
+    {
+      "address": 1031288,
+      "old": "3b095e28",
+      "new": "48f043ac",
+      "reason": "D2 Battle Zone bank (matched branch trampoline)",
+      "helper_address": 16777252,
+      "effective_offset": 88104
+    },
+    {
+      "address": 1450788,
+      "old": "80095e20",
+      "new": "48e9dd0c",
+      "reason": "D2 Battle Zone bank (matched branch trampoline)",
+      "helper_address": 16777264,
+      "effective_offset": 88096
+    },
+    {
+      "address": 3176056,
+      "old": "39695e24",
+      "new": "48cf89d4",
+      "reason": "D2 Battle Zone bank (matched branch trampoline)",
+      "helper_address": 16777292,
+      "effective_offset": 88100
+    },
+    {
+      "address": 3183408,
+      "old": "3be95e28",
+      "new": "48cf6d28",
+      "reason": "D2 Battle Zone bank (matched branch trampoline)",
+      "helper_address": 16777304,
+      "effective_offset": 88104
+    },
+    {
+      "address": 3183668,
+      "old": "38635e20",
+      "new": "48cf6c30",
+      "reason": "D2 Battle Zone bank (matched branch trampoline)",
+      "helper_address": 16777316,
+      "effective_offset": 88096
+    },
+    {
+      "address": 3183860,
+      "old": "39695e24",
+      "new": "48cf6b7c",
+      "reason": "D2 Battle Zone bank (matched branch trampoline)",
+      "helper_address": 16777328,
+      "effective_offset": 88100
+    },
+    {
+      "address": 4342176,
+      "old": "39295e20",
+      "new": "48bdbedc",
+      "reason": "D2 Battle Zone bank (matched branch trampoline)",
+      "helper_address": 16777340,
+      "effective_offset": 88096
+    },
+    {
+      "address": 4344600,
+      "old": "3bc95e20",
+      "new": "48bdb570",
+      "reason": "D2 Battle Zone bank (matched branch trampoline)",
+      "helper_address": 16777352,
+      "effective_offset": 88096
+    },
+    {
+      "address": 2496668,
+      "old": "387b5e20",
+      "new": "48d9e7f8",
+      "reason": "D2 Battle Zone bank (matched branch trampoline)",
+      "helper_address": 16777364,
+      "effective_offset": 88096
+    },
+    {
+      "address": 2510428,
+      "old": "80695e20",
+      "new": "48d9b244",
+      "reason": "D2 Battle Zone bank (matched branch trampoline)",
+      "helper_address": 16777376,
+      "effective_offset": 88096
+    },
+    {
+      "address": 2510476,
+      "old": "80695e20",
+      "new": "48d9b220",
+      "reason": "D2 Battle Zone bank (matched branch trampoline)",
+      "helper_address": 16777388,
+      "effective_offset": 88096
+    },
+    {
+      "address": 2510580,
+      "old": "38095e24",
+      "new": "48d9b1c4",
+      "reason": "D2 Battle Zone bank (matched branch trampoline)",
+      "helper_address": 16777400,
+      "effective_offset": 88100
+    },
+    {
+      "address": 2511472,
+      "old": "39495e24",
+      "new": "48d9ae64",
+      "reason": "D2 Battle Zone bank (matched branch trampoline)",
+      "helper_address": 16777428,
+      "effective_offset": 88100
+    },
+    {
+      "address": 2513996,
+      "old": "38635e20",
+      "new": "48d9a494",
+      "reason": "D2 Battle Zone bank (matched branch trampoline)",
+      "helper_address": 16777440,
+      "effective_offset": 88096
+    },
+    {
+      "address": 2516012,
+      "old": "39295e20",
+      "new": "48d99cc0",
+      "reason": "D2 Battle Zone bank (matched branch trampoline)",
+      "helper_address": 16777452,
+      "effective_offset": 88096
+    },
+    {
+      "address": 2519564,
+      "old": "39295e20",
+      "new": "48d98eec",
+      "reason": "D2 Battle Zone bank (matched branch trampoline)",
+      "helper_address": 16777464,
+      "effective_offset": 88096
+    },
+    {
+      "address": 2535640,
+      "old": "3b9c5e20",
+      "new": "48d9502c",
+      "reason": "D2 Battle Zone bank (matched branch trampoline)",
+      "helper_address": 16777476,
+      "effective_offset": 88096
+    },
+    {
+      "address": 2544800,
+      "old": "39295e20",
+      "new": "48d92c70",
+      "reason": "D2 Battle Zone bank (matched branch trampoline)",
+      "helper_address": 16777488,
+      "effective_offset": 88096
+    },
+    {
+      "address": 2546560,
+      "old": "3bbd5e20",
+      "new": "48d9259c",
+      "reason": "D2 Battle Zone bank (matched branch trampoline)",
+      "helper_address": 16777500,
+      "effective_offset": 88096
+    },
+    {
+      "address": 2554824,
+      "old": "39295e28",
+      "new": "48d90560",
+      "reason": "D2 Battle Zone bank (matched branch trampoline)",
+      "helper_address": 16777512,
+      "effective_offset": 88104
+    },
+    {
+      "address": 2555004,
+      "old": "39295e20",
+      "new": "48d904b8",
+      "reason": "D2 Battle Zone bank (matched branch trampoline)",
+      "helper_address": 16777524,
+      "effective_offset": 88096
+    },
+    {
+      "address": 2563312,
+      "old": "39295e20",
+      "new": "48d8e450",
+      "reason": "D2 Battle Zone bank (matched branch trampoline)",
+      "helper_address": 16777536,
+      "effective_offset": 88096
+    },
+    {
+      "address": 2565136,
+      "old": "39295e24",
+      "new": "48d8dd3c",
+      "reason": "D2 Battle Zone bank (matched branch trampoline)",
+      "helper_address": 16777548,
+      "effective_offset": 88100
+    },
+    {
+      "address": 2565332,
+      "old": "39495e20",
+      "new": "48d8dc84",
+      "reason": "D2 Battle Zone bank (matched branch trampoline)",
+      "helper_address": 16777560,
+      "effective_offset": 88096
+    },
+    {
+      "address": 2566584,
+      "old": "3b095e20",
+      "new": "48d8d7ac",
+      "reason": "D2 Battle Zone bank (matched branch trampoline)",
+      "helper_address": 16777572,
+      "effective_offset": 88096
+    },
+    {
+      "address": 2578144,
+      "old": "38635e20",
+      "new": "48d8aa90",
+      "reason": "D2 Battle Zone bank (matched branch trampoline)",
+      "helper_address": 16777584,
+      "effective_offset": 88096
+    },
+    {
+      "address": 2583960,
+      "old": "38635e20",
+      "new": "48d893e4",
+      "reason": "D2 Battle Zone bank (matched branch trampoline)",
+      "helper_address": 16777596,
+      "effective_offset": 88096
+    },
+    {
+      "address": 3255544,
+      "old": "38635e20",
+      "new": "48ce5490",
+      "reason": "D2 Battle Zone bank (matched branch trampoline)",
+      "helper_address": 16777608,
+      "effective_offset": 88096
+    },
+    {
+      "address": 3256104,
+      "old": "38635e20",
+      "new": "48ce526c",
+      "reason": "D2 Battle Zone bank (matched branch trampoline)",
+      "helper_address": 16777620,
+      "effective_offset": 88096
+    },
+    {
+      "address": 1449260,
+      "old": "39297ee4",
+      "new": "48e9e474",
+      "reason": "D2 folded absolute BZ address (matched branch trampoline)",
+      "helper_address": 16777632,
+      "effective_offset": 109156
+    },
+    {
+      "address": 2584412,
+      "old": "3bbc7ee4",
+      "new": "48d89250",
+      "reason": "D2 folded absolute BZ address (matched branch trampoline)",
+      "helper_address": 16777644,
+      "effective_offset": 109156
+    },
+    {
+      "address": 2584416,
+      "old": "3b9c7f00",
+      "new": "48d89258",
+      "reason": "D2 folded absolute BZ address (matched branch trampoline)",
+      "helper_address": 16777656,
+      "effective_offset": 109184
+    },
+    {
+      "address": 3152940,
+      "old": "3be97090",
+      "new": "48cfe598",
+      "reason": "D2 folded absolute BZ address (matched branch trampoline)",
+      "helper_address": 16777668,
+      "effective_offset": 99944
+    },
+    {
+      "address": 3153868,
+      "old": "3be96030",
+      "new": "48cfe204",
+      "reason": "D2 folded absolute BZ address (matched branch trampoline)",
+      "helper_address": 16777680,
+      "effective_offset": 89416
+    },
+    {
+      "address": 3182932,
+      "old": "39696e84",
+      "new": "48cf7088",
+      "reason": "D2 folded absolute BZ address (matched branch trampoline)",
+      "helper_address": 16777692,
+      "effective_offset": 98628
+    },
+    {
+      "address": 3183148,
+      "old": "39696e84",
+      "new": "48cf6fbc",
+      "reason": "D2 folded absolute BZ address (matched branch trampoline)",
+      "helper_address": 16777704,
+      "effective_offset": 98628
+    },
+    {
+      "address": 2569960,
+      "old": "393820c4",
+      "new": "39385244",
+      "reason": "D2 relative BZ footer/mode field"
+    },
+    {
+      "address": 2576824,
+      "old": "3bb820c4",
+      "new": "3bb85244",
+      "reason": "D2 relative BZ footer/mode field"
+    },
+    {
+      "address": 2576868,
+      "old": "393820e0",
+      "new": "39385260",
+      "reason": "D2 relative BZ footer/mode field"
+    },
+    {
+      "address": 2575380,
+      "old": "39781064",
+      "new": "39782924",
+      "reason": "D2 relative BZ footer/mode field"
+    },
+    {
+      "address": 1030596,
+      "old": "1d6b020c",
+      "new": "1d6b0524",
+      "reason": "D2 BZ zone/mode stride"
+    },
+    {
+      "address": 1030880,
+      "old": "1c0b020c",
+      "new": "1c0b0524",
+      "reason": "D2 BZ zone/mode stride"
+    },
+    {
+      "address": 1031272,
+      "old": "1d4a020c",
+      "new": "1d4a0524",
+      "reason": "D2 BZ zone/mode stride"
+    },
+    {
+      "address": 2510564,
+      "old": "1d3f020c",
+      "new": "1d3f0524",
+      "reason": "D2 BZ zone/mode stride"
+    },
+    {
+      "address": 2511480,
+      "old": "394a020c",
+      "new": "394a0524",
+      "reason": "D2 BZ zone/mode stride"
+    },
+    {
+      "address": 2516004,
+      "old": "1d3f020c",
+      "new": "1d3f0524",
+      "reason": "D2 BZ zone/mode stride"
+    },
+    {
+      "address": 2519416,
+      "old": "1f7b020c",
+      "new": "1f7b0524",
+      "reason": "D2 BZ zone/mode stride"
+    },
+    {
+      "address": 2536292,
+      "old": "1d3d020c",
+      "new": "1d3d0524",
+      "reason": "D2 BZ zone/mode stride"
+    },
+    {
+      "address": 2544972,
+      "old": "3a94020c",
+      "new": "3a940524",
+      "reason": "D2 BZ zone/mode stride"
+    },
+    {
+      "address": 2554808,
+      "old": "1fbd020c",
+      "new": "1fbd0524",
+      "reason": "D2 BZ zone/mode stride"
+    },
+    {
+      "address": 2554980,
+      "old": "1fbd020c",
+      "new": "1fbd0524",
+      "reason": "D2 BZ zone/mode stride"
+    },
+    {
+      "address": 2563280,
+      "old": "1f7b020c",
+      "new": "1f7b0524",
+      "reason": "D2 BZ zone/mode stride"
+    },
+    {
+      "address": 2565116,
+      "old": "1d37020c",
+      "new": "1d370524",
+      "reason": "D2 BZ zone/mode stride"
+    },
+    {
+      "address": 2565376,
+      "old": "1d27020c",
+      "new": "1d270524",
+      "reason": "D2 BZ zone/mode stride"
+    },
+    {
+      "address": 2567264,
+      "old": "1d35020c",
+      "new": "1d350524",
+      "reason": "D2 BZ zone/mode stride"
+    },
+    {
+      "address": 2575420,
+      "old": "394a020c",
+      "new": "394a0524",
+      "reason": "D2 BZ zone/mode stride"
+    },
+    {
+      "address": 3152952,
+      "old": "3bff020c",
+      "new": "3bff0524",
+      "reason": "D2 BZ zone/mode stride"
+    },
+    {
+      "address": 3153880,
+      "old": "3bff020c",
+      "new": "3bff0524",
+      "reason": "D2 BZ zone/mode stride"
+    },
+    {
+      "address": 3176064,
+      "old": "396b020c",
+      "new": "396b0524",
+      "reason": "D2 BZ zone/mode stride"
+    },
+    {
+      "address": 3182948,
+      "old": "396b020c",
+      "new": "396b0524",
+      "reason": "D2 BZ zone/mode stride"
+    },
+    {
+      "address": 3183160,
+      "old": "396b020c",
+      "new": "396b0524",
+      "reason": "D2 BZ zone/mode stride"
+    },
+    {
+      "address": 3183396,
+      "old": "1d3c020c",
+      "new": "1d3c0524",
+      "reason": "D2 BZ zone/mode stride"
+    },
+    {
+      "address": 3183876,
+      "old": "396b020c",
+      "new": "396b0524",
+      "reason": "D2 BZ zone/mode stride"
+    },
+    {
+      "address": 3247156,
+      "old": "1c7f020c",
+      "new": "1c7f0524",
+      "reason": "D2 BZ zone/mode stride"
+    },
+    {
+      "address": 3250520,
+      "old": "396b020c",
+      "new": "396b0524",
+      "reason": "D2 BZ zone/mode stride"
+    },
+    {
+      "address": 3250632,
+      "old": "1c7f020c",
+      "new": "1c7f0524",
+      "reason": "D2 BZ zone/mode stride"
+    },
+    {
+      "address": 3255820,
+      "old": "3bff020c",
+      "new": "3bff0524",
+      "reason": "D2 BZ zone/mode stride"
+    },
+    {
+      "address": 1030584,
+      "old": "1d4a1060",
+      "new": "1d4a2920",
+      "reason": "D2 BZ zone/mode stride"
+    },
+    {
+      "address": 1030884,
+      "old": "1d271060",
+      "new": "1d272920",
+      "reason": "D2 BZ zone/mode stride"
+    },
+    {
+      "address": 1031216,
+      "old": "1d081060",
+      "new": "1d082920",
+      "reason": "D2 BZ zone/mode stride"
+    },
+    {
+      "address": 2510568,
+      "old": "1c001060",
+      "new": "1c002920",
+      "reason": "D2 BZ zone/mode stride"
+    },
+    {
+      "address": 2511464,
+      "old": "1d291060",
+      "new": "1d292920",
+      "reason": "D2 BZ zone/mode stride"
+    },
+    {
+      "address": 2515784,
+      "old": "1f281060",
+      "new": "1f282920",
+      "reason": "D2 BZ zone/mode stride"
+    },
+    {
+      "address": 2519428,
+      "old": "1f1a1060",
+      "new": "1f1a2920",
+      "reason": "D2 BZ zone/mode stride"
+    },
+    {
+      "address": 2536296,
+      "old": "1c1a1060",
+      "new": "1c1a2920",
+      "reason": "D2 BZ zone/mode stride"
+    },
+    {
+      "address": 2544704,
+      "old": "1de01060",
+      "new": "1de02920",
+      "reason": "D2 BZ zone/mode stride"
+    },
+    {
+      "address": 2554784,
+      "old": "1f9c1060",
+      "new": "1f9c2920",
+      "reason": "D2 BZ zone/mode stride"
+    },
+    {
+      "address": 2554960,
+      "old": "1f5a1060",
+      "new": "1f5a2920",
+      "reason": "D2 BZ zone/mode stride"
+    },
+    {
+      "address": 2563224,
+      "old": "1f5a1060",
+      "new": "1f5a2920",
+      "reason": "D2 BZ zone/mode stride"
+    },
+    {
+      "address": 2565124,
+      "old": "1c181060",
+      "new": "1c182920",
+      "reason": "D2 BZ zone/mode stride"
+    },
+    {
+      "address": 2565364,
+      "old": "1c061060",
+      "new": "1c062920",
+      "reason": "D2 BZ zone/mode stride"
+    },
+    {
+      "address": 2567276,
+      "old": "1c191060",
+      "new": "1c192920",
+      "reason": "D2 BZ zone/mode stride"
+    },
+    {
+      "address": 3176044,
+      "old": "1d2a1060",
+      "new": "1d2a2920",
+      "reason": "D2 BZ zone/mode stride"
+    },
+    {
+      "address": 3183388,
+      "old": "1f791060",
+      "new": "1f792920",
+      "reason": "D2 BZ zone/mode stride"
+    },
+    {
+      "address": 3247152,
+      "old": "1fbb1060",
+      "new": "1fbb2920",
+      "reason": "D2 BZ zone/mode stride"
+    },
+    {
+      "address": 3250500,
+      "old": "1d2a1060",
+      "new": "1d2a2920",
+      "reason": "D2 BZ zone/mode stride"
+    },
+    {
+      "address": 3250628,
+      "old": "1fbb1060",
+      "new": "1fbb2920",
+      "reason": "D2 BZ zone/mode stride"
+    },
+    {
+      "address": 3255980,
+      "old": "3b7b1060",
+      "new": "3b7b2920",
+      "reason": "D2 BZ zone/mode stride"
+    },
+    {
+      "address": 3255220,
+      "old": "38a02328",
+      "new": "38a054a8",
+      "reason": "D2 BZ initializer length"
+    },
+    {
+      "address": 3246928,
+      "old": "38000015",
+      "new": "38000036",
+      "reason": "D2 BZ cell aggregation count"
+    },
+    {
+      "address": 3247028,
+      "old": "2f9e0014",
+      "new": "2f9e0035",
+      "reason": "D2 BZ last aggregation cell"
+    },
+    {
+      "address": 2008972,
+      "old": "f821fec1",
+      "new": "f821fe41",
+      "reason": "D2 64-entry map pointer-array stack frame"
+    },
+    {
+      "address": 2008980,
+      "old": "fbc10130",
+      "new": "fbc101b0",
+      "reason": "D2 preserve saved registers/LR beyond64-entry stack array"
+    },
+    {
+      "address": 2008984,
+      "old": "f8010150",
+      "new": "f80101d0",
+      "reason": "D2 preserve saved registers/LR beyond64-entry stack array"
+    },
+    {
+      "address": 2009004,
+      "old": "fb810120",
+      "new": "fb8101a0",
+      "reason": "D2 preserve saved registers/LR beyond64-entry stack array"
+    },
+    {
+      "address": 2009016,
+      "old": "fb010100",
+      "new": "fb010180",
+      "reason": "D2 preserve saved registers/LR beyond64-entry stack array"
+    },
+    {
+      "address": 2009020,
+      "old": "fb210108",
+      "new": "fb210188",
+      "reason": "D2 preserve saved registers/LR beyond64-entry stack array"
+    },
+    {
+      "address": 2009024,
+      "old": "fb410110",
+      "new": "fb410190",
+      "reason": "D2 preserve saved registers/LR beyond64-entry stack array"
+    },
+    {
+      "address": 2009028,
+      "old": "fb610118",
+      "new": "fb610198",
+      "reason": "D2 preserve saved registers/LR beyond64-entry stack array"
+    },
+    {
+      "address": 2009032,
+      "old": "fba10128",
+      "new": "fba101a8",
+      "reason": "D2 preserve saved registers/LR beyond64-entry stack array"
+    },
+    {
+      "address": 2009036,
+      "old": "fbe10138",
+      "new": "fbe101b8",
+      "reason": "D2 preserve saved registers/LR beyond64-entry stack array"
+    },
+    {
+      "address": 2009148,
+      "old": "e8010150",
+      "new": "e80101d0",
+      "reason": "D2 preserve saved registers/LR beyond64-entry stack array"
+    },
+    {
+      "address": 2009156,
+      "old": "eb010100",
+      "new": "eb010180",
+      "reason": "D2 preserve saved registers/LR beyond64-entry stack array"
+    },
+    {
+      "address": 2009160,
+      "old": "eb210108",
+      "new": "eb210188",
+      "reason": "D2 preserve saved registers/LR beyond64-entry stack array"
+    },
+    {
+      "address": 2009168,
+      "old": "eb410110",
+      "new": "eb410190",
+      "reason": "D2 preserve saved registers/LR beyond64-entry stack array"
+    },
+    {
+      "address": 2009172,
+      "old": "eb610118",
+      "new": "eb610198",
+      "reason": "D2 preserve saved registers/LR beyond64-entry stack array"
+    },
+    {
+      "address": 2009176,
+      "old": "eb810120",
+      "new": "eb8101a0",
+      "reason": "D2 preserve saved registers/LR beyond64-entry stack array"
+    },
+    {
+      "address": 2009180,
+      "old": "eba10128",
+      "new": "eba101a8",
+      "reason": "D2 preserve saved registers/LR beyond64-entry stack array"
+    },
+    {
+      "address": 2009184,
+      "old": "ebc10130",
+      "new": "ebc101b0",
+      "reason": "D2 preserve saved registers/LR beyond64-entry stack array"
+    },
+    {
+      "address": 2009188,
+      "old": "ebe10138",
+      "new": "ebe101b8",
+      "reason": "D2 preserve saved registers/LR beyond64-entry stack array"
+    },
+    {
+      "address": 2009192,
+      "old": "38210140",
+      "new": "382101c0",
+      "reason": "D2 restore enlarged caller stack on every return path"
+    },
+    {
+      "address": 2009276,
+      "old": "e8010150",
+      "new": "e80101d0",
+      "reason": "D2 preserve saved registers/LR beyond64-entry stack array"
+    },
+    {
+      "address": 2009292,
+      "old": "eb010100",
+      "new": "eb010180",
+      "reason": "D2 preserve saved registers/LR beyond64-entry stack array"
+    },
+    {
+      "address": 2009296,
+      "old": "eb210108",
+      "new": "eb210188",
+      "reason": "D2 preserve saved registers/LR beyond64-entry stack array"
+    },
+    {
+      "address": 2009304,
+      "old": "eb410110",
+      "new": "eb410190",
+      "reason": "D2 preserve saved registers/LR beyond64-entry stack array"
+    },
+    {
+      "address": 2009308,
+      "old": "eb610118",
+      "new": "eb610198",
+      "reason": "D2 preserve saved registers/LR beyond64-entry stack array"
+    },
+    {
+      "address": 2009312,
+      "old": "eb810120",
+      "new": "eb8101a0",
+      "reason": "D2 preserve saved registers/LR beyond64-entry stack array"
+    },
+    {
+      "address": 2009316,
+      "old": "eba10128",
+      "new": "eba101a8",
+      "reason": "D2 preserve saved registers/LR beyond64-entry stack array"
+    },
+    {
+      "address": 2009320,
+      "old": "ebc10130",
+      "new": "ebc101b0",
+      "reason": "D2 preserve saved registers/LR beyond64-entry stack array"
+    },
+    {
+      "address": 2009324,
+      "old": "ebe10138",
+      "new": "ebe101b8",
+      "reason": "D2 preserve saved registers/LR beyond64-entry stack array"
+    },
+    {
+      "address": 2009328,
+      "old": "38210140",
+      "new": "382101c0",
+      "reason": "D2 restore enlarged caller stack on every return path"
+    },
+    {
+      "address": 2009340,
+      "old": "eb010100",
+      "new": "eb010180",
+      "reason": "D2 preserve saved registers/LR beyond64-entry stack array"
+    },
+    {
+      "address": 2009348,
+      "old": "eb210108",
+      "new": "eb210188",
+      "reason": "D2 preserve saved registers/LR beyond64-entry stack array"
+    },
+    {
+      "address": 2009356,
+      "old": "e8010150",
+      "new": "e80101d0",
+      "reason": "D2 preserve saved registers/LR beyond64-entry stack array"
+    },
+    {
+      "address": 2009364,
+      "old": "eb410110",
+      "new": "eb410190",
+      "reason": "D2 preserve saved registers/LR beyond64-entry stack array"
+    },
+    {
+      "address": 2009368,
+      "old": "eb610118",
+      "new": "eb610198",
+      "reason": "D2 preserve saved registers/LR beyond64-entry stack array"
+    },
+    {
+      "address": 2009376,
+      "old": "eb810120",
+      "new": "eb8101a0",
+      "reason": "D2 preserve saved registers/LR beyond64-entry stack array"
+    },
+    {
+      "address": 2009380,
+      "old": "eba10128",
+      "new": "eba101a8",
+      "reason": "D2 preserve saved registers/LR beyond64-entry stack array"
+    },
+    {
+      "address": 2009384,
+      "old": "ebc10130",
+      "new": "ebc101b0",
+      "reason": "D2 preserve saved registers/LR beyond64-entry stack array"
+    },
+    {
+      "address": 2009388,
+      "old": "ebe10138",
+      "new": "ebe101b8",
+      "reason": "D2 preserve saved registers/LR beyond64-entry stack array"
+    },
+    {
+      "address": 2009392,
+      "old": "38210140",
+      "new": "382101c0",
+      "reason": "D2 restore enlarged caller stack on every return path"
+    },
+    {
+      "address": 2009400,
+      "old": "e8010150",
+      "new": "e80101d0",
+      "reason": "D2 preserve saved registers/LR beyond64-entry stack array"
+    },
+    {
+      "address": 2009408,
+      "old": "eb010100",
+      "new": "eb010180",
+      "reason": "D2 preserve saved registers/LR beyond64-entry stack array"
+    },
+    {
+      "address": 2009416,
+      "old": "eb210108",
+      "new": "eb210188",
+      "reason": "D2 preserve saved registers/LR beyond64-entry stack array"
+    },
+    {
+      "address": 2009420,
+      "old": "eb410110",
+      "new": "eb410190",
+      "reason": "D2 preserve saved registers/LR beyond64-entry stack array"
+    },
+    {
+      "address": 2009428,
+      "old": "eb610118",
+      "new": "eb610198",
+      "reason": "D2 preserve saved registers/LR beyond64-entry stack array"
+    },
+    {
+      "address": 2009432,
+      "old": "eb810120",
+      "new": "eb8101a0",
+      "reason": "D2 preserve saved registers/LR beyond64-entry stack array"
+    },
+    {
+      "address": 2009436,
+      "old": "eba10128",
+      "new": "eba101a8",
+      "reason": "D2 preserve saved registers/LR beyond64-entry stack array"
+    },
+    {
+      "address": 2009440,
+      "old": "ebc10130",
+      "new": "ebc101b0",
+      "reason": "D2 preserve saved registers/LR beyond64-entry stack array"
+    },
+    {
+      "address": 2009444,
+      "old": "ebe10138",
+      "new": "ebe101b8",
+      "reason": "D2 preserve saved registers/LR beyond64-entry stack array"
+    },
+    {
+      "address": 2009448,
+      "old": "38210140",
+      "new": "382101c0",
+      "reason": "D2 restore enlarged caller stack on every return path"
+    },
+    {
+      "address": 2143692,
+      "old": "f821fed1",
+      "new": "f821fe51",
+      "reason": "D2 64-entry map pointer-array stack frame"
+    },
+    {
+      "address": 2143704,
+      "old": "f8010140",
+      "new": "f80101c0",
+      "reason": "D2 preserve saved registers/LR beyond64-entry stack array"
+    },
+    {
+      "address": 2143716,
+      "old": "fbc10120",
+      "new": "fbc101a0",
+      "reason": "D2 preserve saved registers/LR beyond64-entry stack array"
+    },
+    {
+      "address": 2143740,
+      "old": "fb410100",
+      "new": "fb410180",
+      "reason": "D2 preserve saved registers/LR beyond64-entry stack array"
+    },
+    {
+      "address": 2143744,
+      "old": "fb2100f8",
+      "new": "fb210178",
+      "reason": "D2 preserve saved registers/LR beyond64-entry stack array"
+    },
+    {
+      "address": 2143756,
+      "old": "fb610108",
+      "new": "fb610188",
+      "reason": "D2 preserve saved registers/LR beyond64-entry stack array"
+    },
+    {
+      "address": 2143768,
+      "old": "fb810110",
+      "new": "fb810190",
+      "reason": "D2 preserve saved registers/LR beyond64-entry stack array"
+    },
+    {
+      "address": 2143772,
+      "old": "fba10118",
+      "new": "fba10198",
+      "reason": "D2 preserve saved registers/LR beyond64-entry stack array"
+    },
+    {
+      "address": 2143784,
+      "old": "fbe10128",
+      "new": "fbe101a8",
+      "reason": "D2 preserve saved registers/LR beyond64-entry stack array"
+    },
+    {
+      "address": 2143872,
+      "old": "eb410100",
+      "new": "eb410180",
+      "reason": "D2 preserve saved registers/LR beyond64-entry stack array"
+    },
+    {
+      "address": 2143880,
+      "old": "eb610108",
+      "new": "eb610188",
+      "reason": "D2 preserve saved registers/LR beyond64-entry stack array"
+    },
+    {
+      "address": 2143888,
+      "old": "e8010140",
+      "new": "e80101c0",
+      "reason": "D2 preserve saved registers/LR beyond64-entry stack array"
+    },
+    {
+      "address": 2143896,
+      "old": "eb2100f8",
+      "new": "eb210178",
+      "reason": "D2 preserve saved registers/LR beyond64-entry stack array"
+    },
+    {
+      "address": 2143900,
+      "old": "eb810110",
+      "new": "eb810190",
+      "reason": "D2 preserve saved registers/LR beyond64-entry stack array"
+    },
+    {
+      "address": 2143908,
+      "old": "eba10118",
+      "new": "eba10198",
+      "reason": "D2 preserve saved registers/LR beyond64-entry stack array"
+    },
+    {
+      "address": 2143912,
+      "old": "ebc10120",
+      "new": "ebc101a0",
+      "reason": "D2 preserve saved registers/LR beyond64-entry stack array"
+    },
+    {
+      "address": 2143916,
+      "old": "ebe10128",
+      "new": "ebe101a8",
+      "reason": "D2 preserve saved registers/LR beyond64-entry stack array"
+    },
+    {
+      "address": 2143920,
+      "old": "38210130",
+      "new": "382101b0",
+      "reason": "D2 restore enlarged caller stack on every return path"
+    },
+    {
+      "address": 2143932,
+      "old": "e8010140",
+      "new": "e80101c0",
+      "reason": "D2 preserve saved registers/LR beyond64-entry stack array"
+    },
+    {
+      "address": 2143940,
+      "old": "eb2100f8",
+      "new": "eb210178",
+      "reason": "D2 preserve saved registers/LR beyond64-entry stack array"
+    },
+    {
+      "address": 2143944,
+      "old": "eb410100",
+      "new": "eb410180",
+      "reason": "D2 preserve saved registers/LR beyond64-entry stack array"
+    },
+    {
+      "address": 2143952,
+      "old": "eb610108",
+      "new": "eb610188",
+      "reason": "D2 preserve saved registers/LR beyond64-entry stack array"
+    },
+    {
+      "address": 2143956,
+      "old": "eb810110",
+      "new": "eb810190",
+      "reason": "D2 preserve saved registers/LR beyond64-entry stack array"
+    },
+    {
+      "address": 2143960,
+      "old": "eba10118",
+      "new": "eba10198",
+      "reason": "D2 preserve saved registers/LR beyond64-entry stack array"
+    },
+    {
+      "address": 2143964,
+      "old": "ebc10120",
+      "new": "ebc101a0",
+      "reason": "D2 preserve saved registers/LR beyond64-entry stack array"
+    },
+    {
+      "address": 2143968,
+      "old": "ebe10128",
+      "new": "ebe101a8",
+      "reason": "D2 preserve saved registers/LR beyond64-entry stack array"
+    },
+    {
+      "address": 2143972,
+      "old": "38210130",
+      "new": "382101b0",
+      "reason": "D2 restore enlarged caller stack on every return path"
+    },
+    {
+      "address": 2009000,
+      "old": "38a00080",
+      "new": "38a00100",
+      "reason": "D2 initialize64-entry Galaxy temporary pointer list"
+    },
+    {
+      "address": 3250360,
+      "old": "38800000",
+      "new": "3c800001",
+      "reason": "D2 serialized size highword"
+    },
+    {
+      "address": 3250372,
+      "old": "6084d6d8",
+      "new": "6084adb0",
+      "reason": "D2 serialized size lowword"
+    },
+    {
+      "address": 3250400,
+      "old": "38a00000",
+      "new": "3ca00001",
+      "reason": "D2 serialized size highword"
+    },
+    {
+      "address": 3250412,
+      "old": "60a5d6d8",
+      "new": "60a5adb0",
+      "reason": "D2 serialized size lowword"
+    },
+    {
+      "address": 3264640,
+      "old": "38e00000",
+      "new": "3ce00001",
+      "reason": "D2 serialized size highword"
+    },
+    {
+      "address": 3264656,
+      "old": "60e7d6d8",
+      "new": "60e7adb0",
+      "reason": "D2 serialized size lowword"
+    },
+    {
+      "address": 3267376,
+      "old": "38e00000",
+      "new": "3ce00001",
+      "reason": "D2 serialized size highword"
+    },
+    {
+      "address": 3267396,
+      "old": "60e7d6d8",
+      "new": "60e7adb0",
+      "reason": "D2 serialized size lowword"
+    },
+    {
+      "address": 3246516,
+      "old": "38000000",
+      "new": "3c000001",
+      "reason": "D2 serialized size highword"
+    },
+    {
+      "address": 3246524,
+      "old": "6000d6d0",
+      "new": "6000ada8",
+      "reason": "D2 serialized size lowword"
+    }
+  ],
+  "helper_segment": {
+    "header_offset": 176,
+    "old_header": "00000001000000040000000000723ff800000000000000000000000000000000000000000000000000000000000000000000000000010000",
+    "new_header": "0000000100400005000000000073000000000000010000000000000001000000000000000000100000000000000010000000000000010000",
+    "address": 16777216,
+    "file_offset": 7536640,
+    "code_size": 500,
+    "mapped_size": 4096,
+    "payload_hex": "3c630001386358204b0fb8f83d290001392958204b0fb9c43d490001394a58204b0fba9c3f0900013b1858284b0fbc50f821fe01f98100703d890001800c5820e9810070382102004b1622e03d690001396b58244b3076283fe900013bff58284b3092d43c630001386358204b3093cc3d690001396b58244b3094803d290001392958204b4241203fc900013bde58204b424a8c3c7b0001386358204b2618043c690001806358204b264db83c690001806358204b264ddcf821fe01f98100703d890001380c5824e9810070382102004b264e283d490001394a58244b2651983c630001386358204b265b683d290001392958204b26633c3d290001392958204b2671103f9c00013b9c58204b26afd03d290001392958204b26d38c3fbd00013bbd58204b26da603d290001392958284b26fa9c3d290001392958204b26fb443d290001392958204b271bac3d290001392958244b2722c03d490001394a58204b2723783f0900013b1858204b2728503c630001386358204b27556c3c630001386358204b276c183c630001386358204b31ab6c3c630001386358204b31ad903d2900023929aa644b161b883fbc00023bbdaa644b276dac3f9c00023b9caa804b276da43fe900023bff86684b301a643fe900013bff5d484b301df83d690002396b81444b308f743d690002396b81444b3090400000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+    "sha256": "c7a64ce1fe8d610b29412e676df2544d0181d802734c422dd68079a7cf393102"
+  },
+  "capacities": {
+    "galaxy": 1040,
+    "tutorial": 64,
+    "bz_cells": 54
+  }
+}

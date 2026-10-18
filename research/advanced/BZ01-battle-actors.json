@@ -1,0 +1,38 @@
+[
+  {
+    "side": 0,
+    "address": "0x3aa88b64",
+    "native": 0,
+    "preset": 4294967295,
+    "level": 2,
+    "maxHP": 40000,
+    "HP": 40000,
+    "moves": [
+      0,
+      2,
+      5,
+      7,
+      10
+    ],
+    "items": [],
+    "flags": 1
+  },
+  {
+    "side": 1,
+    "address": "0x3aa943c0",
+    "native": 74,
+    "preset": 0,
+    "level": 7,
+    "maxHP": 40000,
+    "HP": 40000,
+    "moves": [
+      2,
+      3,
+      0,
+      1,
+      4
+    ],
+    "items": [],
+    "flags": 65
+  }
+]

@@ -1,0 +1,10 @@
+{
+  "result": "PASS",
+  "version": "0.8",
+  "zipSHA256": "9d1c63e9e51479fe09324b560951856f5144b7c171028cb52d728d358896fa81",
+  "loadedFromExtractedRelease": true,
+  "pathContainsSpaces": true,
+  "transport": "loopback HTTP",
+  "errors": [],
+  "note": "Linux Chromium; not a native Windows launch test."
+}

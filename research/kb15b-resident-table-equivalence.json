@@ -1,0 +1,27 @@
+{
+  "method": "Read-only RSP copies, all bytes of three tables compared with final KB15B archive",
+  "runtime_source": "KB15A cold boot followed by one guarded resident preset1058.slot0 F->1059, then Retire/reenter mission",
+  "tables": [
+    {
+      "name": "preset_appearance_table.dat",
+      "guest_address": "0x3693daa0",
+      "size": 11952,
+      "sha256": "c857c2a24ee7f8fd03245b1ffd113432ff1f8538c3976e1d61e46384ef935527",
+      "matches_final_KB15B_archive": true
+    },
+    {
+      "name": "preset_character_galaxy.dat",
+      "guest_address": "0x36944690",
+      "size": 46832,
+      "sha256": "1ba53077bc28fc6afe2abd2d41a4dccd46baa66edf4dcf39a50e95f8952161f8",
+      "matches_final_KB15B_archive": true
+    },
+    {
+      "name": "preset_strength_table.dat",
+      "guest_address": "0x369501e0",
+      "size": 68920,
+      "sha256": "5f8b847bea9917f247ebfd32451cd5b6c054ce8dc459d856611b0019721a7d4a",
+      "matches_final_KB15B_archive": true
+    }
+  ]
+}

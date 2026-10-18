@@ -1,0 +1,21 @@
+✔ shared491 resolves both sides from all six native Galaxy perspectives (32.016692ms)
+✔ unavailable runtime context remains unknown; known boolean operands can prove a result (0.180893ms)
+✔ readable names preserve query flags and Battle Zone context uncertainty (0.425682ms)
+✔ simple Galaxy filters encode native postfix order and evaluate inclusion/exclusion (1.420103ms)
+✔ malformed custom condition is not treated as excluded (4.629105ms)
+✔ all sixteen original Zone files pass coordinate/save checks, including native X=2 (2.230605ms)
+✔ Battle Zone storage check catches cell21 and distinguishes fractional aliasing (0.515688ms)
+✔ simple expression builder uses native query order, comparisons and one required End (0.641128ms)
+✔ health-percent reward and secret combo expressions are readable without guessing results (0.365672ms)
+✔ Battle Zone route explanation keeps destinations, secret metadata and native slot requirement separate (0.942752ms)
+✔ advanced readable builder recognizes every multi-Galaxy condition in shared mission 491 (17.37601ms)
+✔ multi-character Only and Except drafts retain all selections and reject malformed native IDs (0.633707ms)
+✔ MAIN clear-history and availability queries have distinct human names and remain unknown offline (0.186762ms)
+ℹ tests 13
+ℹ suites 0
+ℹ pass 13
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 126.221645

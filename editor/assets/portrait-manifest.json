@@ -1,0 +1,817 @@
+{
+  "game": "Dragon Ball Raging Blast 2 / BLES00978 (European PS3)",
+  "archive": "st_pack_progress_pt_ps3.afs",
+  "metadata": {
+    "afsEntry": 872,
+    "name": "chara_chip_tex.spr",
+    "sha256": "f7e14dc946604e3a8d631b4f5002c0f1492a9524049d40eac1cf5e0f1f56a84c"
+  },
+  "textures": {
+    "afsEntry": 873,
+    "name": "chara_chip_tex.vram",
+    "sha256": "a02473353ec918019754199c115313994c356db1a882aff30e82e27607c54f18"
+  },
+  "conversion": "Original 128x128 DXT5/BC3 pixels decoded to RGBA PNG; no enlargement, redraw, crop or synthetic artwork.",
+  "portraits": [
+    {
+      "id": 0,
+      "sourceName": "sc_chara_000.png",
+      "vramOffset": 0,
+      "textureSha256": "9f3491911079be28bd3abc3ee8e3a6abc66b2f61d958f4dde5c65e82db1ac702",
+      "file": "000.png",
+      "pngSha256": "69205d62c7bf047c53846e27e43addf408b25dff44a19c588842ac8c30f3289c"
+    },
+    {
+      "id": 1,
+      "sourceName": "sc_chara_001.png",
+      "vramOffset": 16384,
+      "textureSha256": "45fca8a312390cc0742acc2d3f713a66620ab8f737302ce6c7d464ce0f4d1ef4",
+      "file": "001.png",
+      "pngSha256": "8837a62d6a24633e21d5ee72aae2f367ae0b32f87fdd062796ec98d968347448"
+    },
+    {
+      "id": 2,
+      "sourceName": "sc_chara_002.png",
+      "vramOffset": 32768,
+      "textureSha256": "9b91a914c2e671b280c6ac0ef2500fc56985ece70ea3ed39046034fa105b5542",
+      "file": "002.png",
+      "pngSha256": "dd3f94424e378c86226c30e6491120ad4c7be1d5adbb20967e95d5728133a295"
+    },
+    {
+      "id": 3,
+      "sourceName": "sc_chara_003.png",
+      "vramOffset": 49152,
+      "textureSha256": "b767bd0ddf8cc1ea7c68e2e94f0db5c568d7c93ba2a6ed7fd7f15fd4b9486d2c",
+      "file": "003.png",
+      "pngSha256": "0c780614054dc32bbd28617c930dce2ffb86a9de9d8c109c410c3c90e942fce2"
+    },
+    {
+      "id": 4,
+      "sourceName": "sc_chara_004.png",
+      "vramOffset": 65536,
+      "textureSha256": "5e5b7ae5ce8b57eb80fbd0077ca4798a56251c31dad68141f55e0def0084604b",
+      "file": "004.png",
+      "pngSha256": "95373b9ead1b85d28017a810d55658a555d81174989cab4ea96acbc2ea38b0a5"
+    },
+    {
+      "id": 5,
+      "sourceName": "sc_chara_005.png",
+      "vramOffset": 81920,
+      "textureSha256": "e8cf7aee3fbeec953e97900e64aeb44f7dc4f4536bbdc27e7a6030961538953c",
+      "file": "005.png",
+      "pngSha256": "dac0fcb2ad35aa25ede682f736490c044f0d1b293e96814bc4f4d2e5825978de"
+    },
+    {
+      "id": 6,
+      "sourceName": "sc_chara_006.png",
+      "vramOffset": 98304,
+      "textureSha256": "ebae7417a42826d199428a55b505d0f117e7d2b0446b9567f920bade4ebf095b",
+      "file": "006.png",
+      "pngSha256": "71a73eb2fa77097a1f3472a01ae351e10e3e301e0870cd95d91ed3455f977edb"
+    },
+    {
+      "id": 7,
+      "sourceName": "sc_chara_007.png",
+      "vramOffset": 114688,
+      "textureSha256": "7e96409c6a88ed30315445f8f0226d4c23b817dc8f50bf431826c2909632c7e9",
+      "file": "007.png",
+      "pngSha256": "efe276367168833dc70ce90bbef9e68139b3e2b028cddd8f24f1fc9baf2b1935"
+    },
+    {
+      "id": 8,
+      "sourceName": "sc_chara_008.png",
+      "vramOffset": 131072,
+      "textureSha256": "8337d318022d2bd5314309ba239d2d64ee59056e9f4b329a08b7e84744d55882",
+      "file": "008.png",
+      "pngSha256": "5e9c35371bfcc2bfabd6910a076a44ba5af50a1862cd134a64c1833118db48cb"
+    },
+    {
+      "id": 9,
+      "sourceName": "sc_chara_009.png",
+      "vramOffset": 147456,
+      "textureSha256": "10cbd76fa580980bb5690435f7acdbcc998d00b7a6cdad7098c08ca387c9fc6d",
+      "file": "009.png",
+      "pngSha256": "ad10d86fbf778752876502c7023f47ac24d8d0b898522e67589404901d7fdb66"
+    },
+    {
+      "id": 10,
+      "sourceName": "sc_chara_010.png",
+      "vramOffset": 163840,
+      "textureSha256": "97d02744d0b3ba6c4fea7eafc9fb0643c6959685838300a09de9a5e9cb7c4005",
+      "file": "010.png",
+      "pngSha256": "53843293521e007efe2cfafbabbbc1767fd580306b7cfcc56c9e27fee8e0c635"
+    },
+    {
+      "id": 11,
+      "sourceName": "sc_chara_011.png",
+      "vramOffset": 180224,
+      "textureSha256": "79aa934b5fd3109c48e8906631fde8a104139cc613ca2e0e8ad13cda2cf26db9",
+      "file": "011.png",
+      "pngSha256": "c0b92b2fa5b8f57ca403f4ae7287507560762bea7e0f2a1c7b83bbd8a66d0e26"
+    },
+    {
+      "id": 12,
+      "sourceName": "sc_chara_012.png",
+      "vramOffset": 196608,
+      "textureSha256": "916a25b554abf3098b259937e6761c565c9a58f9e2f2cb3d246ab3cf289a0a56",
+      "file": "012.png",
+      "pngSha256": "150bcc5ab139d23ddc1124959f9fd827af2d504ae381056a42f0c2940df6fcff"
+    },
+    {
+      "id": 13,
+      "sourceName": "sc_chara_013.png",
+      "vramOffset": 212992,
+      "textureSha256": "d22a16f8b44d8433393449a25f53a063d2d6a079dd9fded0400020eb3618fd7f",
+      "file": "013.png",
+      "pngSha256": "8a5dfdc4589b89c36275f611c5790a23b8f016b4bc86c9eea4914611b4e044b3"
+    },
+    {
+      "id": 14,
+      "sourceName": "sc_chara_014.png",
+      "vramOffset": 229376,
+      "textureSha256": "eb1598396ea59353d25601d42f6ac12b0bfbb72fea3d1023f9aa1d396b87772e",
+      "file": "014.png",
+      "pngSha256": "bf7b21421e93367e93db3c7da59ff09c33dedee1fe3eed51ea259803014b9d3e"
+    },
+    {
+      "id": 15,
+      "sourceName": "sc_chara_015.png",
+      "vramOffset": 245760,
+      "textureSha256": "bd0fdb76f2d678f6e26a3b97d1a02de6a712d5c82fb69cc38d961ae07b70793d",
+      "file": "015.png",
+      "pngSha256": "4e0802855cfe44fac7ed37fdac069afe749de39da3a5f45180a88a96c2b1aa73"
+    },
+    {
+      "id": 16,
+      "sourceName": "sc_chara_016.png",
+      "vramOffset": 262144,
+      "textureSha256": "3ddf62337fc5c961cabb198f21f30bf2b8ac82fe581d560bbb5a7629be7d410f",
+      "file": "016.png",
+      "pngSha256": "b6591e7b8d05003cce25b006244f3ee9811b52b344ca1adaaab013ef686c43d2"
+    },
+    {
+      "id": 17,
+      "sourceName": "sc_chara_017.png",
+      "vramOffset": 278528,
+      "textureSha256": "a0f3399d5b0a3d41b35dcf332ea8348b7407802271240938c1e0850e33793638",
+      "file": "017.png",
+      "pngSha256": "7fe7116db99679a0c6ef7aaaf1e356392dfa4334d2fec4e9c3c85d479df2c31a"
+    },
+    {
+      "id": 18,
+      "sourceName": "sc_chara_018.png",
+      "vramOffset": 294912,
+      "textureSha256": "22e619b730aee60208a60c9ae12c1e09a990148591542cd10f147778a311959e",
+      "file": "018.png",
+      "pngSha256": "82dbd13abd8daf900ec0065c24cd86dfcaa37eae106ab477305bc4eb60c5c6ea"
+    },
+    {
+      "id": 19,
+      "sourceName": "sc_chara_019.png",
+      "vramOffset": 311296,
+      "textureSha256": "71ffe4144c760ea53ae09632bef65e86bb538a10ed1fa5e9a74c00b2c90a8d6b",
+      "file": "019.png",
+      "pngSha256": "bd03a34fa1e913ab5cfb2564c6bb7026505232db9c2b3eb6003566d40d217178"
+    },
+    {
+      "id": 20,
+      "sourceName": "sc_chara_020.png",
+      "vramOffset": 327680,
+      "textureSha256": "8f17e0bb867a3f3245faa8566f591f0bd3d844df703c2f05bae032e42b12ebed",
+      "file": "020.png",
+      "pngSha256": "994b4309bf585e911991221d585125692b29d684a50c4471360b2386ca86aeec"
+    },
+    {
+      "id": 21,
+      "sourceName": "sc_chara_021.png",
+      "vramOffset": 344064,
+      "textureSha256": "43aefb7481db39e7a32d3c7537bb86a6f3c4164fb796dca5e908f782325b7612",
+      "file": "021.png",
+      "pngSha256": "f826fb7312eee49e023087604da59b79284681522859dc332b56fbf3eff1e615"
+    },
+    {
+      "id": 22,
+      "sourceName": "sc_chara_022.png",
+      "vramOffset": 360448,
+      "textureSha256": "30b392a6a9ed39058464360c1fb218fe303afe7be8af994b376ffc49b9754458",
+      "file": "022.png",
+      "pngSha256": "a2c05b1436d884990f7b97aba90b214b2417874f10a541ff4d17dc81abc9cd5b"
+    },
+    {
+      "id": 23,
+      "sourceName": "sc_chara_023.png",
+      "vramOffset": 376832,
+      "textureSha256": "d1d41c81a792f62bbf939461bc7c716970deed726a5dd3c351853c49288bb50a",
+      "file": "023.png",
+      "pngSha256": "b58577896334568c7a3601b65eb85e9cbe2fed498290235d15e951edd888bb32"
+    },
+    {
+      "id": 24,
+      "sourceName": "sc_chara_024.png",
+      "vramOffset": 393216,
+      "textureSha256": "033f6def71df70cf98d05b8d76951966b2a3df00f4fcc310cba4cc24f2c18285",
+      "file": "024.png",
+      "pngSha256": "01a78035cc296642063f421471958b3d5a55754811959bf6f725526e3633d111"
+    },
+    {
+      "id": 25,
+      "sourceName": "sc_chara_025.png",
+      "vramOffset": 409600,
+      "textureSha256": "24b2d8b8308b8557c5718b7d4bd952c6f5693c1422d3700474b7c8e7fd650d17",
+      "file": "025.png",
+      "pngSha256": "a418a705b33e9c8339f24fccfef184221331a2de19953fc776f44999dc71b1ac"
+    },
+    {
+      "id": 26,
+      "sourceName": "sc_chara_026.png",
+      "vramOffset": 425984,
+      "textureSha256": "82ec93e25d0925e2c4d12ab4be6fd7cdebc07b0fa20b562c3c39cf02a3e16bde",
+      "file": "026.png",
+      "pngSha256": "a70ffe63925a944d0575f1d2fdb33a828b1f6dbc5c8cb94b54a8fdc167f9040c"
+    },
+    {
+      "id": 27,
+      "sourceName": "sc_chara_027.png",
+      "vramOffset": 442368,
+      "textureSha256": "0bb448bff936d9f6015c79e0b476ca62c3881aeda13fff171c05a914611f1be9",
+      "file": "027.png",
+      "pngSha256": "36f89c26a929a2fed7a470506c90bbd5137d185bafd8158741dccf56a819337e"
+    },
+    {
+      "id": 28,
+      "sourceName": "sc_chara_028.png",
+      "vramOffset": 458752,
+      "textureSha256": "4ca2978ec243537d68effc090c70cf44971e949fa253fa412916c44f74ae5a24",
+      "file": "028.png",
+      "pngSha256": "b010fab85b53980aaa56438c21f719c962deec83a65f81b358c55e48f488dc09"
+    },
+    {
+      "id": 29,
+      "sourceName": "sc_chara_029.png",
+      "vramOffset": 475136,
+      "textureSha256": "b31c42a2365bff52666bcea6c33c2731181b5b6f431ae109fa35700ab524b603",
+      "file": "029.png",
+      "pngSha256": "6c8b1ece8bcc8c2e43f9cc5588017de8392c190c610032e9db5630ae0ec4598b"
+    },
+    {
+      "id": 30,
+      "sourceName": "sc_chara_030.png",
+      "vramOffset": 491520,
+      "textureSha256": "9ced3bd2d805cc84dae589cdf0a0737bfa4d5e07f0b470e9b12ce76cdcb7ade1",
+      "file": "030.png",
+      "pngSha256": "c78a37b5f58cb0a863a61041229dbcfb641ff82dcd53d994eccc470c31ecaafe"
+    },
+    {
+      "id": 31,
+      "sourceName": "sc_chara_031.png",
+      "vramOffset": 507904,
+      "textureSha256": "17dc1c3465e1b203e267c8ba04dfcd52676baa378b505cfd03995dd81c943c86",
+      "file": "031.png",
+      "pngSha256": "3d129e0976e256c37340b2846dd79f3997c7a15e8fe6cd776102a3c2c8831a49"
+    },
+    {
+      "id": 32,
+      "sourceName": "sc_chara_032.png",
+      "vramOffset": 524288,
+      "textureSha256": "1a5c0f290985ec76bed3d45c66a708131896f9dbb44245bf8f7dc5a4cda8d41d",
+      "file": "032.png",
+      "pngSha256": "813cbafb04f786b032d3f4e55b49a99130939f033f495904328e5f59617abb41"
+    },
+    {
+      "id": 33,
+      "sourceName": "sc_chara_033.png",
+      "vramOffset": 540672,
+      "textureSha256": "44082a6ab890d3952c0f09e9fdfb03b4da1c94e60fcdfa1ee5bb9433b2f5a2c4",
+      "file": "033.png",
+      "pngSha256": "0c4796c1c271f70a3a17b7274f743de76ee0542f2f9fa192da08d35f858c9628"
+    },
+    {
+      "id": 34,
+      "sourceName": "sc_chara_034.png",
+      "vramOffset": 557056,
+      "textureSha256": "342f30bb6454feb030dd84bf64313b56cfb7981c083ddf864cee1532eee08d6e",
+      "file": "034.png",
+      "pngSha256": "5715530ab483368034b797ceb512fe9b9d71c1e80ab31bd37264884aebb8900e"
+    },
+    {
+      "id": 35,
+      "sourceName": "sc_chara_035.png",
+      "vramOffset": 573440,
+      "textureSha256": "7ee0d9b3de60e1e890a42c7ac0754730275cb7b9bc685d1d783fbc896d306caf",
+      "file": "035.png",
+      "pngSha256": "d0650334a92632fc8813e07dcfe467d59aa2a42b69b75c43c4286e2c3d47e8b4"
+    },
+    {
+      "id": 36,
+      "sourceName": "sc_chara_036.png",
+      "vramOffset": 589824,
+      "textureSha256": "37de860ea96753a9ff5012678695206b48192701d4a11a6f05abff28170c1232",
+      "file": "036.png",
+      "pngSha256": "fd3d767fb1a49b29ca0f5cdacaceaf322c74e6ab6e642cd0a93f08feef160dab"
+    },
+    {
+      "id": 37,
+      "sourceName": "sc_chara_037.png",
+      "vramOffset": 606208,
+      "textureSha256": "91adaaf27b607b4286f5b2ab6ea8266d9f98a6a3da091ee5af356bc3941ad588",
+      "file": "037.png",
+      "pngSha256": "fbb3a5391d09d7a4816ebaa448df8fcd1478f8fa50acb114b182447447d27abd"
+    },
+    {
+      "id": 38,
+      "sourceName": "sc_chara_038.png",
+      "vramOffset": 622592,
+      "textureSha256": "6faacb36ba88bcf4acf024ba20929d8c3168b21fbb67f05f231944c691a587ea",
+      "file": "038.png",
+      "pngSha256": "e8518fb04426e2b9e2236bf79ad5aed8cabf5c4d60512930bfde90dd447362b6"
+    },
+    {
+      "id": 39,
+      "sourceName": "sc_chara_039.png",
+      "vramOffset": 638976,
+      "textureSha256": "7ba39f6cf2cd2b672961fb4483e2ab37c5428989873d44defadd8288046abd0b",
+      "file": "039.png",
+      "pngSha256": "3c5b29215fb7e15afda8dece18bf7faa59c29369ffdba30bf9272f1c2383bc1f"
+    },
+    {
+      "id": 40,
+      "sourceName": "sc_chara_040.png",
+      "vramOffset": 655360,
+      "textureSha256": "acf316bb3e1e97e8bfc6ba299bc8422f20b32179872ecfeee7e6aad26571d379",
+      "file": "040.png",
+      "pngSha256": "26ffd4dd31c49f73e0e8bcef3e9bc6b9f143c1b25fc78d3254ab0cd30db0f3bd"
+    },
+    {
+      "id": 41,
+      "sourceName": "sc_chara_041.png",
+      "vramOffset": 671744,
+      "textureSha256": "78061b7fab7037b456af83cc7e8dc55e7a0ecd34f28f3c32a59c9e6f8ac7c413",
+      "file": "041.png",
+      "pngSha256": "b49c2bdd76855064b597b03146e89d508395fce6699dbc91176f90d8bdadccb2"
+    },
+    {
+      "id": 42,
+      "sourceName": "sc_chara_042.png",
+      "vramOffset": 688128,
+      "textureSha256": "091222dab116941cc29370cb18339cab1276ee73ec41b018454e80d6555604aa",
+      "file": "042.png",
+      "pngSha256": "afda37c1dacac51cf5a9b6d3d19752f94f97b047684c4bbc062819b46c671589"
+    },
+    {
+      "id": 43,
+      "sourceName": "sc_chara_043.png",
+      "vramOffset": 704512,
+      "textureSha256": "2a5e3d328c41edd3da9a53d56dc2871862c19d11f5bf7459e3422e6c627b52ee",
+      "file": "043.png",
+      "pngSha256": "a9613d876a6edf4a1e34952b083581dc25f2efb61a3046997f9ebd34be2364f7"
+    },
+    {
+      "id": 44,
+      "sourceName": "sc_chara_044.png",
+      "vramOffset": 720896,
+      "textureSha256": "b97b734f803aef40db32bbe6867c44bb363152528bbdfc81da7d5b2b3062f143",
+      "file": "044.png",
+      "pngSha256": "538ad2a5fae842edffc136cfffa6305ca9efbde647fdd2d895472bb74b60ae3b"
+    },
+    {
+      "id": 45,
+      "sourceName": "sc_chara_045.png",
+      "vramOffset": 737280,
+      "textureSha256": "a042a2005f5f28ffa065c390fac839aaeba0d43d4cec74e65ce7c73e3b2d4af0",
+      "file": "045.png",
+      "pngSha256": "b6a6eb868c6fb9ba788af991d1957706dab25f3da6a43e0e282931ae13e6b685"
+    },
+    {
+      "id": 46,
+      "sourceName": "sc_chara_046.png",
+      "vramOffset": 753664,
+      "textureSha256": "e7a832ce54ca5c71224410c2adfab86feaedc630d2121ad1762cd465c767a1b8",
+      "file": "046.png",
+      "pngSha256": "a10706048fb0f80380c036668e1556897ab718ac8d7596560cae296dbbad6312"
+    },
+    {
+      "id": 47,
+      "sourceName": "sc_chara_047.png",
+      "vramOffset": 770048,
+      "textureSha256": "3d3642532147e7d53a3cd7c5d3191e10dde161befadfdfa054d7481071977604",
+      "file": "047.png",
+      "pngSha256": "adb39260c1d3b93f1656ba02427de9fab01592f5332644c6473760d4760b80ea"
+    },
+    {
+      "id": 48,
+      "sourceName": "sc_chara_048.png",
+      "vramOffset": 786432,
+      "textureSha256": "7039dd257f46808bdca1ed755d9e90ba6e2d4333027f248575a40eddbd193a59",
+      "file": "048.png",
+      "pngSha256": "41f78664d5d49389a0798717c40a20356c213394f9978b0d0f2b8742211b3375"
+    },
+    {
+      "id": 49,
+      "sourceName": "sc_chara_049.png",
+      "vramOffset": 802816,
+      "textureSha256": "dfffda60f53e3bf4a719665b60a9371d07386dc47451784bc365d573a9f330ad",
+      "file": "049.png",
+      "pngSha256": "7b78e35212688413f281b306318f474e3ccd8a14760988a4dae79df3a82080f0"
+    },
+    {
+      "id": 50,
+      "sourceName": "sc_chara_050.png",
+      "vramOffset": 819200,
+      "textureSha256": "5f8ef648f9b7cc10ef779f05d14d354ddd9906e26084c81e42b3f6fb52bf940d",
+      "file": "050.png",
+      "pngSha256": "7e8c951915705023d0e74a17e365603824d42e6254528188282959ae64f0b872"
+    },
+    {
+      "id": 51,
+      "sourceName": "sc_chara_051.png",
+      "vramOffset": 835584,
+      "textureSha256": "5d56d25e67c8d92a3f44b059b2b311eb7718011d765521d3b99e3ff86cdac1ff",
+      "file": "051.png",
+      "pngSha256": "77c2310f910db53e87f1538bebe2da6c462c4d631b88d5d2a3b9a0bc0ef1b044"
+    },
+    {
+      "id": 52,
+      "sourceName": "sc_chara_052.png",
+      "vramOffset": 851968,
+      "textureSha256": "3c8b1044ac47a44dad2b77886b8d1a0b884e50659153f2046fab74a8a4832742",
+      "file": "052.png",
+      "pngSha256": "2e89c9f409da8893c44d2b2819637b37224abf6836f6f809a8cc6614809a4623"
+    },
+    {
+      "id": 53,
+      "sourceName": "sc_chara_053.png",
+      "vramOffset": 868352,
+      "textureSha256": "6de70f744fbb1d698c1f0145049f337c85432ebd17d6fc1323b10e68138f158a",
+      "file": "053.png",
+      "pngSha256": "68678eba36bb64b6d6bd9a34d35ebdd631fe0e6f3502b71557caf10bd30b1683"
+    },
+    {
+      "id": 54,
+      "sourceName": "sc_chara_054.png",
+      "vramOffset": 884736,
+      "textureSha256": "4187f9ac3878986b0f12296ae902c82700657e6bd67873bf5cdc87e7339154d2",
+      "file": "054.png",
+      "pngSha256": "fc160860ff7cd95012b843e206cd3cda6090c6746c88211536fc70ef33ed8f87"
+    },
+    {
+      "id": 55,
+      "sourceName": "sc_chara_055.png",
+      "vramOffset": 901120,
+      "textureSha256": "4573bf038b30d3dc25f4c2efd5ee9c14755839e027a93d1fb53cdd1df89bf3b9",
+      "file": "055.png",
+      "pngSha256": "1076ea7d7e9d446a61b323018977f5c4fff6b1329d37048135fa298bc6f34008"
+    },
+    {
+      "id": 56,
+      "sourceName": "sc_chara_056.png",
+      "vramOffset": 917504,
+      "textureSha256": "cbf1c00a10136d09f4209ddf5e9205a516f0317d610bb0e3691c469bf9aaa058",
+      "file": "056.png",
+      "pngSha256": "878e88ba320b96e719a41e3dace27297269d7e4edd54af48d0516e2b3f2bf13b"
+    },
+    {
+      "id": 57,
+      "sourceName": "sc_chara_057.png",
+      "vramOffset": 933888,
+      "textureSha256": "f218a7273e23f668bbf9fbaf9977fc397488274ceaa6856e36e19b3d9830d6fa",
+      "file": "057.png",
+      "pngSha256": "13585d0ae1a4168f14666deb620f44b1be660d923233f522f3615fec9b3e27f6"
+    },
+    {
+      "id": 58,
+      "sourceName": "sc_chara_058.png",
+      "vramOffset": 950272,
+      "textureSha256": "a72f517ab2e7342f911176dbf98bb53a088931241edcc0a9966a91c49ad0f140",
+      "file": "058.png",
+      "pngSha256": "d33d0fa1a6134f248d49d979a6947279c7c7d661fa4bbb58fec7087787fa6517"
+    },
+    {
+      "id": 59,
+      "sourceName": "sc_chara_059.png",
+      "vramOffset": 966656,
+      "textureSha256": "45b5812c82d90a62c9de603fe0c0374190ef8e8e557c0a804d81106ba6b07382",
+      "file": "059.png",
+      "pngSha256": "437bd0692180287374afa29fc1f04bebf40308bb724eff607a8db799f953a1f7"
+    },
+    {
+      "id": 60,
+      "sourceName": "sc_chara_060.png",
+      "vramOffset": 983040,
+      "textureSha256": "4906b93922fb2cf236c23cbf5f97515b4f0df2ec5c9f3db96442758e59c890c2",
+      "file": "060.png",
+      "pngSha256": "44e19917f382387b48490d31c7430cafc255d9784cbc0442e074556cabf1e3ca"
+    },
+    {
+      "id": 61,
+      "sourceName": "sc_chara_061.png",
+      "vramOffset": 999424,
+      "textureSha256": "3c3ad3613728e7b0b7dd1946e280c188963d08e9154e39fb94bb6a6e814be79e",
+      "file": "061.png",
+      "pngSha256": "6047d013a77d30b614ef0a297565d328aefc5851012588e1d28e96e51fb750ea"
+    },
+    {
+      "id": 62,
+      "sourceName": "sc_chara_062.png",
+      "vramOffset": 1015808,
+      "textureSha256": "4a69e78a58e89344f7cc9224a6e8c04fa6840d06fdb252cbbc02f68b22c9e195",
+      "file": "062.png",
+      "pngSha256": "bfabc55b938195ecce68bf55a9b7c0331fdf9165edfdacbc7c7da02f9deb3112"
+    },
+    {
+      "id": 63,
+      "sourceName": "sc_chara_063.png",
+      "vramOffset": 1032192,
+      "textureSha256": "842c982dd39cf3968538ff86d0ccc951b2197d8a1984fafe3bd345892de1df71",
+      "file": "063.png",
+      "pngSha256": "c31144cd634ef6c59d58deec31ab932430cad15af294e34adde49f18b48553e5"
+    },
+    {
+      "id": 64,
+      "sourceName": "sc_chara_064.png",
+      "vramOffset": 1048576,
+      "textureSha256": "9ef3c16f526c4292bd34ba694bf96b45f225680cd0b29f99bf1092cf773645f8",
+      "file": "064.png",
+      "pngSha256": "1c606538be861955bfe60d878be1ba275f4a9af0d9e2a3cef0f17afe598aad59"
+    },
+    {
+      "id": 65,
+      "sourceName": "sc_chara_065.png",
+      "vramOffset": 1064960,
+      "textureSha256": "8857e92ee76deb896aec539285fa22411e1e3032231c888e51af29bf7b4e1276",
+      "file": "065.png",
+      "pngSha256": "c4021a1e555856d4aa51d18a4fba9a7d11d6735050e43dc2f97b760926b9a617"
+    },
+    {
+      "id": 66,
+      "sourceName": "sc_chara_066.png",
+      "vramOffset": 1081344,
+      "textureSha256": "77bf81265dadfc07b1dfe607b98e9e3d63db0be852bf49dca66b7914aca078e8",
+      "file": "066.png",
+      "pngSha256": "b4c978e272b6045e905d7ad2167fb4de5dcfb11f76b7e941e81987a18d64f872"
+    },
+    {
+      "id": 67,
+      "sourceName": "sc_chara_067.png",
+      "vramOffset": 1097728,
+      "textureSha256": "0560e3b7a2d29e5dbcdd82566506acc02450d1db7da5a150fe1914d3f26cedbe",
+      "file": "067.png",
+      "pngSha256": "b730be7017602453ef14cbb6c2b696ee24ca5ea11c3602e4a70fce44db217f87"
+    },
+    {
+      "id": 68,
+      "sourceName": "sc_chara_068.png",
+      "vramOffset": 1114112,
+      "textureSha256": "28b712860d7a3fbef85a0c1c20a8be2256d370e7a872148c062c18e4b66676cd",
+      "file": "068.png",
+      "pngSha256": "0695843c88e551ab3e91349093c8a24359901462511a91befce73e364c686524"
+    },
+    {
+      "id": 69,
+      "sourceName": "sc_chara_069.png",
+      "vramOffset": 1130496,
+      "textureSha256": "c6bb3d4add9c6ffbe0901d9752a8fe4748e927b7653f11511258aa2a01233ba6",
+      "file": "069.png",
+      "pngSha256": "6f1fa5d99f5e2f1d3f5d3a22dbcd74af3f99f621f2b12b5131e5ce055e391e4d"
+    },
+    {
+      "id": 70,
+      "sourceName": "sc_chara_070.png",
+      "vramOffset": 1146880,
+      "textureSha256": "3e0d2617ad63b6aac067fd793edc574f7f4f340123e28c19312be17ea4b4a848",
+      "file": "070.png",
+      "pngSha256": "3fbc0016a6735ab49c6eebb5733eef8ad222d87b2132452f2cfc3744fa38fc0a"
+    },
+    {
+      "id": 71,
+      "sourceName": "sc_chara_071.png",
+      "vramOffset": 1163264,
+      "textureSha256": "5d5adf4b5928210809399e01d217736198eb909eadf5ae4c570be61ee3d7b1b4",
+      "file": "071.png",
+      "pngSha256": "136d2de80661056fec49df37bc49ec6075f7b9126db33a710a482f67fecf0552"
+    },
+    {
+      "id": 72,
+      "sourceName": "sc_chara_072.png",
+      "vramOffset": 1179648,
+      "textureSha256": "cf7a5514e7ce1b35c6854a6f46ff034e75b0a8e76a6fe2297382581683f3d21b",
+      "file": "072.png",
+      "pngSha256": "384e8aa12faba9e343cff3e14a915c2834e52fd096fd4072aed0ef91b831871f"
+    },
+    {
+      "id": 73,
+      "sourceName": "sc_chara_073.png",
+      "vramOffset": 1196032,
+      "textureSha256": "8f6febf15d1dc05e493cc07c797145b144278bc8f539d08ac7fd3b226f231449",
+      "file": "073.png",
+      "pngSha256": "62f7a3ef0a7d58b029a22c89e42dadefef621f7c6e98c12c3967808d525b85e4"
+    },
+    {
+      "id": 74,
+      "sourceName": "sc_chara_074.png",
+      "vramOffset": 1212416,
+      "textureSha256": "453e66f39a8d698024a646e8a73eac30f9f9d9002e89d1eb0a9392119f439252",
+      "file": "074.png",
+      "pngSha256": "368291c922ef2ff97b6f96ef6b2797107b769d31a16d209816058250e2dfc3cc"
+    },
+    {
+      "id": 75,
+      "sourceName": "sc_chara_075.png",
+      "vramOffset": 1228800,
+      "textureSha256": "33c156f37c242aa7e2b7030c37096222acd40c01f33546775aaae27ea459cc3b",
+      "file": "075.png",
+      "pngSha256": "5f3f13f63f48f0820815af57a20e78f0a7bb929e80bf39ba20f86298e15a74bb"
+    },
+    {
+      "id": 76,
+      "sourceName": "sc_chara_076.png",
+      "vramOffset": 1245184,
+      "textureSha256": "65ce18f52429db4fb1a64c1ca983951befad5d4cd8fca00bdf89bfdc95454fb3",
+      "file": "076.png",
+      "pngSha256": "dad1c968508025f1559fa784d35a6ccf761483f089fe0676fe2238072ec107f0"
+    },
+    {
+      "id": 77,
+      "sourceName": "sc_chara_077.png",
+      "vramOffset": 1261568,
+      "textureSha256": "b7d48bd37a62b8af86a131c5a4377d5f97d347d2419c6e14d8160f3eb4bdea49",
+      "file": "077.png",
+      "pngSha256": "2b9f39e3d5a783842791846058174c22ce6343cd2340c3344e2cbd96f24ca2ae"
+    },
+    {
+      "id": 78,
+      "sourceName": "sc_chara_078.png",
+      "vramOffset": 1277952,
+      "textureSha256": "4d27079eb624367e766f8aef8186b53c7720b0cbc95c074f6edfa96e61cab663",
+      "file": "078.png",
+      "pngSha256": "a5a04743aecf313b097db2e8f6c41eafd331a35cdad92a915d061545818682d9"
+    },
+    {
+      "id": 79,
+      "sourceName": "sc_chara_079.png",
+      "vramOffset": 1294336,
+      "textureSha256": "aea06630f10aa34ded686fdd9a400fcae5795d72d3aeec746bd2ebb2d6c31fd3",
+      "file": "079.png",
+      "pngSha256": "86814c92bc40d596d629d8c54647cb7338f4b9ac9ae55deac0d50bdd56d1d177"
+    },
+    {
+      "id": 80,
+      "sourceName": "sc_chara_080.png",
+      "vramOffset": 1310720,
+      "textureSha256": "2533fff22316038334e323e126210fb1c46139f2a4dac3c0e7bb092f3f849026",
+      "file": "080.png",
+      "pngSha256": "c026692389336f3a09f714a1e7dd2a3562676aa54becdc8116db22badbf81e06"
+    },
+    {
+      "id": 81,
+      "sourceName": "sc_chara_081.png",
+      "vramOffset": 1327104,
+      "textureSha256": "6417ab0a5953d514ecae73166b088c03da680adcea4b17aecff0bd1647a658ce",
+      "file": "081.png",
+      "pngSha256": "31518b9d9c1cbefd1eff6e174615ae8424612043a3a65d35c9ed604a06e26c8d"
+    },
+    {
+      "id": 82,
+      "sourceName": "sc_chara_082.png",
+      "vramOffset": 1343488,
+      "textureSha256": "d6cc437090980b8251112faa359630da5ae01e44feeab44a3bd2a1c7f6ecbbec",
+      "file": "082.png",
+      "pngSha256": "0e1f5d89f770bfcdb414f01712e3e731bf13b150854e535b8f908398ffc792e2"
+    },
+    {
+      "id": 83,
+      "sourceName": "sc_chara_083.png",
+      "vramOffset": 1359872,
+      "textureSha256": "142a9a8a3e448a60297f6d3b15f9077a05bb7542eec73fd2618b140bbabe53ec",
+      "file": "083.png",
+      "pngSha256": "73a6fc4aa8d59991ac0c281994b86b66e472e46a5820fcfc053c342a38176df6"
+    },
+    {
+      "id": 84,
+      "sourceName": "sc_chara_084.png",
+      "vramOffset": 1376256,
+      "textureSha256": "805ea0d7e5029c5791043b8ed050f25cf58eafaa2f24c28661d3bfb94226166c",
+      "file": "084.png",
+      "pngSha256": "aa4707b94ec8eb3acfa7b682a67ea48d70a67252b7586b1d7a2ef4065bfc93b2"
+    },
+    {
+      "id": 85,
+      "sourceName": "sc_chara_085.png",
+      "vramOffset": 1392640,
+      "textureSha256": "8413b80f64ca6e51ac4abbc3d942734d84453e17171bed2295c0df4ba8d722f6",
+      "file": "085.png",
+      "pngSha256": "958e57465dd2cea56449965d2f64133232be09b302f4dfe43a97d319901e8238"
+    },
+    {
+      "id": 86,
+      "sourceName": "sc_chara_086.png",
+      "vramOffset": 1409024,
+      "textureSha256": "2849f0e8f157524ba59e66ff160800a857a712579e6daaae6b6f18ec9de97816",
+      "file": "086.png",
+      "pngSha256": "9f1149edf87dfdb0a4b6dc7a60b27162d4b2f64c7a76a5c3d5487c1b7ab159a6"
+    },
+    {
+      "id": 87,
+      "sourceName": "sc_chara_087.png",
+      "vramOffset": 1425408,
+      "textureSha256": "28ba876d7c4e12e0ae93fbeff5fe594eec4b16e37c3db11bda38de15d70a03ba",
+      "file": "087.png",
+      "pngSha256": "604f732cbe3a0490f320774c6c66347daf96ddb5781dac18b44089ad148f7b6a"
+    },
+    {
+      "id": 88,
+      "sourceName": "sc_chara_088.png",
+      "vramOffset": 1441792,
+      "textureSha256": "613a2d6667e63ae4720c172342de986a9e6b5fc3d17ff8ed62ec3ff3d762a6f2",
+      "file": "088.png",
+      "pngSha256": "9bc1b3294546553791c41269acc4c49f872a8b9d90b80266347d39b3f6e90400"
+    },
+    {
+      "id": 89,
+      "sourceName": "sc_chara_089.png",
+      "vramOffset": 1458176,
+      "textureSha256": "44cd4d60238b581099a5bf191e4bf53d3572ff2a1c5ac9e6f09a656d70d53bfd",
+      "file": "089.png",
+      "pngSha256": "463eff125df9b181c1d07f3ae5f97990306c30948d96e21f2f70508209ee29d4"
+    },
+    {
+      "id": 90,
+      "sourceName": "sc_chara_090.png",
+      "vramOffset": 1474560,
+      "textureSha256": "ef9105bf8331b6000195214cbfd7e4a412e40edd535369e43b234ab3ff501393",
+      "file": "090.png",
+      "pngSha256": "209bc6498bf879144b811e21dc4fe21610c047f1f68ec9b13191affa0f92af26"
+    },
+    {
+      "id": 91,
+      "sourceName": "sc_chara_091.png",
+      "vramOffset": 1490944,
+      "textureSha256": "f16fddfa7cc9eb1cd1e0dd591ea9610aa2b129c46d0cb100c9dddcda7cedf699",
+      "file": "091.png",
+      "pngSha256": "b49cbd735f69bf3b14eb18dcecc59950bc2efd52349f33374fa28b2bbc132069"
+    },
+    {
+      "id": 92,
+      "sourceName": "sc_chara_092.png",
+      "vramOffset": 1507328,
+      "textureSha256": "2b7ac6f120f079cd2e17f9e47a4765d8f72dc804477621c39a40ec04971fde9d",
+      "file": "092.png",
+      "pngSha256": "81357711a6f9c7cf0f73ba12b6c44d6a6df310b8e15c29c482356b644d1a8268"
+    },
+    {
+      "id": 93,
+      "sourceName": "sc_chara_093.png",
+      "vramOffset": 1523712,
+      "textureSha256": "48afd8fbc92f369c8c5d01029758d95819b8697ae8764d9241a6047c760b428f",
+      "file": "093.png",
+      "pngSha256": "464d0bb87310120995d2f4f0c6af6415268fa00346effaef9c68c67292c6c340"
+    },
+    {
+      "id": 94,
+      "sourceName": "sc_chara_094.png",
+      "vramOffset": 1540096,
+      "textureSha256": "4c9701947aeecdeaf95136405b6182501147eafa731987bdac83707718503722",
+      "file": "094.png",
+      "pngSha256": "3828b0f324007d4ea5d3e5fc118744712797df3f1de35f49933ee359cf43e7de"
+    },
+    {
+      "id": 95,
+      "sourceName": "sc_chara_095.png",
+      "vramOffset": 1556480,
+      "textureSha256": "df85051d972cf0749f316fad4eaa6dc561649927e62cbcc1274569e7fa080856",
+      "file": "095.png",
+      "pngSha256": "aa43f86d3193abe7bf160be61aaf43181a108f3ce4f36b316bd617380c96ae3e"
+    },
+    {
+      "id": 96,
+      "sourceName": "sc_chara_096.png",
+      "vramOffset": 1572864,
+      "textureSha256": "1dd9353b41af0179cecc53f4c206e5332c24886d014c150b7111a152c203699d",
+      "file": "096.png",
+      "pngSha256": "136f3f34bc8d9248b9e66f419ea6f80c08e0fcdb2b0ea83ad537a0af21ae49ad"
+    },
+    {
+      "id": 97,
+      "sourceName": "sc_chara_097.png",
+      "vramOffset": 1589248,
+      "textureSha256": "8dbfe34899e19f55206e3e17c2d273bce71562585fe9099273cf1ec2bb436574",
+      "file": "097.png",
+      "pngSha256": "03cc3109e110a997492ab11f4ff06490f1a7ce0807787b85177ae1f364c979e9"
+    },
+    {
+      "id": 98,
+      "sourceName": "sc_chara_098.png",
+      "vramOffset": 1605632,
+      "textureSha256": "45e3973c96beedb08a9667fa9b1f2088826d32ebac48df992a9a3dead041cdc3",
+      "file": "098.png",
+      "pngSha256": "8b1894277b47966e3072fc5002453fe5eae4b960a79ae29fb6553a4f0b5e89f5"
+    },
+    {
+      "id": 99,
+      "sourceName": "sc_chara_099.png",
+      "vramOffset": 1622016,
+      "textureSha256": "c3901ace7b0034b5229ecdbdff1d0766f383bf99ca31cb365fea7cb65c5688cf",
+      "file": "099.png",
+      "pngSha256": "9ebe5ef5aa5ddb1d0d11c4bfafbe9d91047754a520529d93a23eece9f51120d4"
+    }
+  ]
+}

@@ -1,0 +1,63 @@
+raw_text_id,root_rule_selector,text
+0,1,Player: Ki constantly recovers
+1,2,Opponent: Ki constantly recovers
+2,3,Both: Ki constantly recovers
+3,4,Player: Health constantly recovers
+4,5,Opponent: Health constantly recovers
+5,6,Both: Health constantly recovers
+6,7,Player: Health and Ki constantly recover
+7,8,Opponent: Health and Ki constantly recover
+8,9,Both: Health and Ki constantly recover
+9,10,Player: Health constantly decreases
+10,11,Opponent: Health constantly decreases
+11,12,Both: Health constantly decreases
+12,13,Both: Ki constantly decreases
+13,14,Opponent: Ki constantly decreases
+14,15,Both: Ki constantly decreases
+15,16,Player: Start at Near Death
+16,17,Opponent: Start at Near Death
+17,18,Both: Start at Near Death
+18,19,Player: Start from Raging Soul
+19,20,Opponent: Start from Raging Soul
+20,21,Both: Start from Raging Soul
+21,22,Player: Start from High-Tension
+22,23,Opponent: Start from High-Tension
+23,24,Both: Start from High-Tension
+24,25,Player: Defeat in one blow when Super Attack hits
+25,26,Opponent: Defeat in one blow when Super Attack hits
+26,27,Both: Defeat in one blow when Super Attack hits
+27,28,Player: Damage from Super Attack reduced to 1/10th
+28,29,Opponent: Damage from Super Attack reduced to 1/10th
+29,30,Both: Damage from Super Attack reduced to 1/10th
+30,31,Player: Vanish when Vanishing is possible
+31,32,Opponent: Vanish when Vanishing is possible
+32,33,Both: Vanish when Vanishing is possible
+33,34,Player: Become Raging Soul when remaining health is <DIG=●> bar(s)
+34,35,Opponent: Become Raging Soul when remaining health is <DIG=●> bar(s)
+35,36,Both: Become Raging Soul when remaining health is <DIG=●> bar(s)
+36,37,Player: Become High-Tension when remaining health is <DIG=●> bar(s)
+37,38,Opponent: Become High-Tension when remaining health is <DIG=●> bar(s)
+38,39,Both: Become High-Tension when remaining health is <DIG=●> bar(s)
+39,40,Player: Raging Soul can be used any number of times
+40,41,Opponent: Raging Soul can be used any number of times
+41,42,Both: Raging Soul can be used any number of times
+42,43,Player: Become Raging Soul at KO Switching
+43,44,Opponent: Become Raging Soul at KO Switching
+44,45,Both: Become Raging Soul at KO Switching
+45,46,Player: Become High Tension at KO Switching
+46,47,Opponent: Become High Tension at KO Switching
+47,48,Both: Become High Tension at KO Switching
+48,49,Score achieved at battle reduced to 1/10th
+49,50,Opponent: Difficulty slightly increases with time
+50,51,Opponent: Difficulty increases with time
+51,52,Opponent: Difficulty greatly increases with time
+52,53,Opponent: Difficulty slightly decreases with time
+53,54,Opponent: Difficulty decreases with time
+54,55,Opponent: Difficulty greatly decreases with time
+55,56,Opponent: Get stronger when remaining health is <DIG=●> bar(s)
+56,57,Opponent: Get considerably stronger when remaining health is <DIG=●> bar(s)
+57,58,Opponent: Get ultimately stronger when remaining health is <DIG=●> bar(s)
+58,59,Opponent: Difficulty slightly increases after KO Switching
+59,60,Opponent: Difficulty increases after KO Switching
+60,61,Opponent: Difficulty greatly increases after KO Switching
+61,62,No Special Conditions

@@ -1,0 +1,40 @@
+{
+  "result": "PASS",
+  "scope": "Unreleased source; Linux Chromium using local HTTP. No gameplay or executable edits.",
+  "steps": [
+    "Overview copy/removed cards verified; actual progress+boot AFS produce all 100 native forms and 137 English name texts with no missing names; preview leaves catalogs untouched until explicit Apply, and applying opens no editable documents",
+    "Mission491 advanced builder recognizes the original multi-character OR; searching retains selected hidden rows; editing remains a draft until Apply; Only and Except retain the complete group, append End0, and two Undos restore the original MMD byte for byte",
+    "Progression queries are named Cleared versus Unlocked with their actual 8/2 return masks; mission modifiers explicitly target the player team and point enemy bonuses to preset Strength",
+    "Route summary names the native Super-win trigger and opens editable links; root+30 is collapsed advanced research; all tutorial arena controls/preview name selector14; the independent eight diamond slots retain accessible labels without portrait number overlays"
+  ],
+  "errors": [],
+  "external_requests": [],
+  "source_sha256": {
+    "index.html": "9f40201192efe1dfdd5af2c98056c93172965d5a63b6e5ebe0a9d9c5c85d3715",
+    "styles.css": "5b7245aadcd53244a939804a929d03636777ae624244fecbd2f30f35e54eca51",
+    "js/app.js": "379b1a6aab12d090f6937b1a6ef7d6b685ebd986fea98f0f1cce4be63a24d65a",
+    "js/archive-ui.js": "98faad7e72a1c901c4bc49aac509ef4ded8553e2f003ba5f8f867da69b8976d5",
+    "js/archives.js": "3673e07e7fbed953b9fa94c42c49f3cc6f1d585add0986433e034dbb60c30088",
+    "js/authoring.js": "eb69307de8a7ed0f22cdc86ea58869b7c76e782bfcda871225b86427362f6cb7",
+    "js/conditions.js": "17882fab9818848f9bf8fe926f0ca9259c6e067a0355a340058b4e5ec0976b0c",
+    "js/data.js": "2f3890662cb0eee61526bc779690ef7d005bedc8a6b624a03fc39eab6abf2f72",
+    "js/galaxy-transfer.js": "8be66cda5a76903b03feba8e40da26efa3179e0fd5cbc08a1f433b546333c07d",
+    "js/game-preview.js": "979bc5aa76acd0f361da1d15b8dc6b6dc87d0730e0c17ae7ff60a3612159d40e",
+    "js/game-roster.js": "78c4b8b623c2a2bc4d5703f9173600a3026d0cee7d8cd51718e54373e6705db8",
+    "js/guided.js": "bd793b2b59b52d5300f49aa616247466759aef11086500e5dd6d56b2cadd252e",
+    "js/help-languages.js": "4659850fc556ab5c2612ad0079b28e4c00be77f910f6a3f861b88348b4d25d66",
+    "js/help-tables.js": "5c60ce5d378ee5fe25d55ef4434992b2b28edad36cdde2964e0d5d52e6ba5b89",
+    "js/localized-text.js": "fca8fa669a55ab7c367b2f8934198d2154c8664ffc565ae9686ab0d82ebb7f36",
+    "js/mmd-ui.js": "25595c758e2575f865eaddbd9f30349091dd373422b1a8832d6c8adc7d0c363f",
+    "js/mmd.js": "98720f3eaa578fc1ff2279544019493c80c0c63bc0d11a79fe65e068c338a213",
+    "js/mod-support-ui.js": "b4c0454fd4b92926e9f44abe186785e787d5e5fd9a5198450820072636ae1b90",
+    "js/mod-support.js": "e15dae32f803849e444d0012b48c92d88969c981ab05a2f123af8a6a235cc589",
+    "js/music.js": "34bd0275908a3d90db8d8b059b9a8856c1005819eeacf2248d013a765c83f6f9",
+    "js/presets.js": "88a3470476e7f29a3c343a348c01493a6d67003a909c092d128bd384452d5633",
+    "js/progression-data.js": "499417b3086f70d6a3865ddf32b84fdbd2b51bf88cc0630f4d12b3cb643194e5",
+    "js/progression-ui.js": "04fec64aa0260c4106e3c4bb075d3d0d936e30ef5d9bfbe13ab993b80d8b6edd",
+    "js/session-log.js": "9df8a7b2e692ebba43b9449a4c4f2b0057d3fc375da468d692c2efc5e4fe9f32",
+    "js/ui.js": "ed5c51ed5f66e88c1d1f0fdc7bfb0cd6ae94cbedb0ab0cf2cb57bb81b43fb0db"
+  },
+  "input_files_unchanged": true
+}

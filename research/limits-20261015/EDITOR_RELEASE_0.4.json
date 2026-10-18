@@ -1,0 +1,20 @@
+{
+  "version": "0.4",
+  "archive": "/workspace/research-rb2/deliverables/RB2-Galaxy-Studio-0.4-Windows-Portable.zip",
+  "sha256": "dfc4c5317f3458d0926d4c617e066c566800710a4e60bb2ca1a7c48f0ba9ae44",
+  "bytes": 4474723,
+  "zip_entries": 164,
+  "crc_and_file_hashes": "PASS",
+  "node_tests": 79,
+  "node_skips": 0,
+  "browser_groups": {
+    "baseline": 11,
+    "guided": 10,
+    "mods": 6,
+    "help": 4,
+    "conditions": 5
+  },
+  "native_windows_tested": false,
+  "original_game_fixtures_in_zip": false,
+  "previous_releases_preserved": true
+}

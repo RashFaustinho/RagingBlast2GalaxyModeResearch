@@ -1,0 +1,101 @@
+{
+  "experiment": "KB16A",
+  "baseline": "KB15B",
+  "status": "ARCHIVE_READBACK_VERIFIED_GAMEPLAY_UNTESTED",
+  "node": 117,
+  "roster_before": [
+    1058,
+    1061,
+    1063
+  ],
+  "roster_after": [
+    1058,
+    1063,
+    1061
+  ],
+  "roster_names": [
+    "Goku SSJ2",
+    "Fat Buu",
+    "Vegeta SSJ2"
+  ],
+  "roster_offset_hex": "0x26c5c",
+  "added_item": {
+    "item_index_hex": "16A",
+    "item_index_decimal": "362",
+    "name_text_id": "625",
+    "description_text_id": "739",
+    "game_name_it": "Nessun Cambio",
+    "game_description_it": "I Cambi non sono consentiti. Tuttavia, \u00e8 possibile effettuare cambi\ntramite gli effetti degli oggetti.",
+    "property_flag_indices_hex": "177"
+  },
+  "strength_edits": [
+    {
+      "preset": 1058,
+      "strength": 777,
+      "item_slot": 4,
+      "offset_hex": "0x10b40",
+      "item_hex": "16A"
+    },
+    {
+      "preset": 1059,
+      "strength": 778,
+      "item_slot": 5,
+      "offset_hex": "0x10b9c",
+      "item_hex": "16A"
+    },
+    {
+      "preset": 1060,
+      "strength": 779,
+      "item_slot": 9,
+      "offset_hex": "0x10c04",
+      "item_hex": "16A"
+    },
+    {
+      "preset": 1061,
+      "strength": 780,
+      "item_slot": 6,
+      "offset_hex": "0x10c50",
+      "item_hex": "16A"
+    },
+    {
+      "preset": 1062,
+      "strength": 781,
+      "item_slot": 3,
+      "offset_hex": "0x10c9c",
+      "item_hex": "16A"
+    },
+    {
+      "preset": 1063,
+      "strength": 782,
+      "item_slot": 3,
+      "offset_hex": "0x10cf4",
+      "item_hex": "16A"
+    }
+  ],
+  "executable_modified": false,
+  "boot_sha256": "c75518d280783028a0df8c55d435db87907db6a60595d394aaa989ce6484e1bb",
+  "galaxy_sha256": "8c63840c044d5d69f0104da9aa54b7791461e08ec42a469241c23f572589e42f",
+  "galaxy_mmd_sha256": "295594bb4ba2e305afb8ade25e95933cb794d31b400f8647f3e93272fa47b3e9",
+  "afs": {
+    "before_sha256": "4134cd60bea322fb47620af1fded901f12f98d6188e122dbeb0bacfbfe873d65",
+    "after_sha256": "c75518d280783028a0df8c55d435db87907db6a60595d394aaa989ce6484e1bb",
+    "member_index": 22,
+    "old_size": 937248,
+    "new_size": 937251,
+    "slot_capacity": 937984,
+    "status": "Other members identical; experimental copy, gameplay unrun",
+    "placement": "original_slot",
+    "verification": "Other 40 members and their offsets unchanged"
+  },
+  "galaxy": {
+    "before_sha256": "f7057b124e730e6345565405d1d2f93234d65b8818791c0cc11522c23e598c54",
+    "after_sha256": "8c63840c044d5d69f0104da9aa54b7791461e08ec42a469241c23f572589e42f",
+    "changed_members": [
+      "galaxy.mmd"
+    ],
+    "member_count": 118,
+    "decompressed_sha256": "4cc66e61b720b67541cad37dd87083df240ada90fbf67a52351dccb98e7bef42",
+    "verification": "Byte-for-byte decompression and unchanged other members; no game execution"
+  },
+  "limits": "No gameplay test. No Switch Outs blocks ordinary switches; original game description explicitly permits item-effect switches. Roster-order rationale is the user's tested result; the last-button explanation remains a hypothesis."
+}

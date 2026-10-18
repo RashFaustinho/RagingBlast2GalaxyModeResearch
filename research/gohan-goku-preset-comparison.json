@@ -1,0 +1,560 @@
+{
+  "status": "Binary comparison; cause not isolated",
+  "baseline": "Exact KB02B tables used by KB03X",
+  "rows": [
+    {
+      "preset_index": 788,
+      "raw_preset_words": [
+        6,
+        676,
+        99,
+        789,
+        789,
+        4294967295,
+        4294967295,
+        4294967295,
+        4294967295,
+        4294967295,
+        4294967295
+      ],
+      "appearance_index": 6,
+      "raw_appearance_words": [
+        6,
+        0,
+        0,
+        0,
+        1,
+        4,
+        2,
+        5
+      ],
+      "strength_index": 676,
+      "raw_strength_words": [
+        15,
+        8,
+        135,
+        248,
+        200,
+        66,
+        332,
+        361,
+        326,
+        225,
+        341,
+        4294967295,
+        4294967295,
+        4294967295,
+        4294967295,
+        4294967295,
+        4294967295,
+        4294967295,
+        4294967295,
+        4294967295,
+        4294967295,
+        4294967295
+      ],
+      "items": [
+        {
+          "index": "0x87",
+          "italian_community_name": "Abiti strappati"
+        },
+        {
+          "index": "0xf8",
+          "italian_community_name": "Potere ereditario"
+        },
+        {
+          "index": "0xc8",
+          "italian_community_name": "Super serio!"
+        },
+        {
+          "index": "0x42",
+          "italian_community_name": "Atteggiamento!"
+        },
+        {
+          "index": "0x14c",
+          "italian_community_name": "CPU pi\u00f9 forte quando rimane 1 indicatore di salute"
+        },
+        {
+          "index": "0x169",
+          "italian_community_name": "1\u00b0 Trasformazione al cambio per KO"
+        },
+        {
+          "index": "0x146",
+          "italian_community_name": "Cpu pi\u00f9 debole (Grande) con il passare del tempo"
+        },
+        {
+          "index": "0xe1",
+          "italian_community_name": "Difesa gi\u00f9 L"
+        },
+        {
+          "index": "0x155",
+          "italian_community_name": "1\u00b0Trasformazione quando rimane 1 indicatore di salute"
+        }
+      ]
+    },
+    {
+      "preset_index": 789,
+      "raw_preset_words": [
+        7,
+        677,
+        99,
+        4294967295,
+        4294967295,
+        4294967295,
+        4294967295,
+        4294967295,
+        4294967295,
+        4294967295,
+        4294967295
+      ],
+      "appearance_index": 7,
+      "raw_appearance_words": [
+        7,
+        0,
+        0,
+        1,
+        2,
+        6,
+        3,
+        7
+      ],
+      "strength_index": 677,
+      "raw_strength_words": [
+        25,
+        8,
+        225,
+        361,
+        249,
+        199,
+        129,
+        60,
+        23,
+        4294967295,
+        4294967295,
+        4294967295,
+        4294967295,
+        4294967295,
+        4294967295,
+        4294967295,
+        4294967295,
+        4294967295,
+        4294967295,
+        4294967295,
+        4294967295,
+        4294967295
+      ],
+      "items": [
+        {
+          "index": "0xe1",
+          "italian_community_name": "Difesa gi\u00f9 L"
+        },
+        {
+          "index": "0x169",
+          "italian_community_name": "1\u00b0 Trasformazione al cambio per KO"
+        },
+        {
+          "index": "0xf9",
+          "italian_community_name": "Super Guerriero"
+        },
+        {
+          "index": "0xc7",
+          "italian_community_name": "Miglior attacco"
+        },
+        {
+          "index": "0x81",
+          "italian_community_name": "Scatto Spirito di combattimento"
+        },
+        {
+          "index": "0x3c",
+          "italian_community_name": "Potenza gigantesca"
+        },
+        {
+          "index": "0x17",
+          "italian_community_name": "Scatto estremo"
+        }
+      ]
+    },
+    {
+      "preset_index": 1058,
+      "raw_preset_words": [
+        367,
+        777,
+        99,
+        1059,
+        1059,
+        4294967295,
+        4294967295,
+        4294967295,
+        4294967295,
+        4294967295,
+        4294967295
+      ],
+      "appearance_index": 367,
+      "raw_appearance_words": [
+        2,
+        0,
+        0,
+        0,
+        1,
+        6,
+        5,
+        7
+      ],
+      "strength_index": 777,
+      "raw_strength_words": [
+        20,
+        4294967295,
+        173,
+        79,
+        78,
+        343,
+        4294967295,
+        4294967295,
+        4294967295,
+        4294967295,
+        4294967295,
+        4294967295,
+        4294967295,
+        4294967295,
+        4294967295,
+        4294967295,
+        4294967295,
+        4294967295,
+        4294967295,
+        4294967295,
+        4294967295,
+        4294967295
+      ],
+      "items": [
+        {
+          "index": "0xad",
+          "italian_community_name": "CPU MAX"
+        },
+        {
+          "index": "0x4f",
+          "italian_community_name": "Difesa su L"
+        },
+        {
+          "index": "0x4e",
+          "italian_community_name": "Difesa su M"
+        },
+        {
+          "index": "0x157",
+          "italian_community_name": "1\u00b0Trasformazione quando rimangono 3 indicatori di salute"
+        }
+      ]
+    },
+    {
+      "preset_index": 1059,
+      "raw_preset_words": [
+        368,
+        778,
+        99,
+        1060,
+        4294967295,
+        4294967295,
+        4294967295,
+        4294967295,
+        4294967295,
+        4294967295,
+        4294967295
+      ],
+      "appearance_index": 368,
+      "raw_appearance_words": [
+        3,
+        0,
+        0,
+        0,
+        4,
+        6,
+        5,
+        7
+      ],
+      "strength_index": 778,
+      "raw_strength_words": [
+        20,
+        4294967295,
+        173,
+        79,
+        78,
+        77,
+        353,
+        350,
+        4294967295,
+        4294967295,
+        4294967295,
+        4294967295,
+        4294967295,
+        4294967295,
+        4294967295,
+        4294967295,
+        4294967295,
+        4294967295,
+        4294967295,
+        4294967295,
+        4294967295,
+        4294967295
+      ],
+      "items": [
+        {
+          "index": "0xad",
+          "italian_community_name": "CPU MAX"
+        },
+        {
+          "index": "0x4f",
+          "italian_community_name": "Difesa su L"
+        },
+        {
+          "index": "0x4e",
+          "italian_community_name": "Difesa su M"
+        },
+        {
+          "index": "0x4d",
+          "italian_community_name": "Difesa su S"
+        },
+        {
+          "index": "0x161",
+          "italian_community_name": "Cambio quando rimane 1 indicatore di salute"
+        },
+        {
+          "index": "0x15e",
+          "italian_community_name": "Annulla Trasformazione quando rimane 1 indicatore di salute"
+        }
+      ]
+    },
+    {
+      "preset_index": 1060,
+      "raw_preset_words": [
+        369,
+        779,
+        99,
+        4294967295,
+        4294967295,
+        4294967295,
+        4294967295,
+        4294967295,
+        4294967295,
+        4294967295,
+        4294967295
+      ],
+      "appearance_index": 369,
+      "raw_appearance_words": [
+        0,
+        0,
+        0,
+        0,
+        2,
+        5,
+        7,
+        10
+      ],
+      "strength_index": 779,
+      "raw_strength_words": [
+        20,
+        4294967295,
+        173,
+        79,
+        353,
+        357,
+        113,
+        121,
+        240,
+        62,
+        180,
+        4294967295,
+        4294967295,
+        4294967295,
+        4294967295,
+        4294967295,
+        4294967295,
+        4294967295,
+        4294967295,
+        4294967295,
+        4294967295,
+        4294967295
+      ],
+      "items": [
+        {
+          "index": "0xad",
+          "italian_community_name": "CPU MAX"
+        },
+        {
+          "index": "0x4f",
+          "italian_community_name": "Difesa su L"
+        },
+        {
+          "index": "0x161",
+          "italian_community_name": "Cambio quando rimane 1 indicatore di salute"
+        },
+        {
+          "index": "0x165",
+          "italian_community_name": "Alta tensione al cambio per KO"
+        },
+        {
+          "index": "0x71",
+          "italian_community_name": "Potenza attacco supremo su L"
+        },
+        {
+          "index": "0x79",
+          "italian_community_name": "Animo di Tutti"
+        },
+        {
+          "index": "0xf0",
+          "italian_community_name": "Potenza Attacco Supremo MAX"
+        },
+        {
+          "index": "0x3e",
+          "italian_community_name": "Tempo extra alta tensione L"
+        },
+        {
+          "index": "0xb4",
+          "italian_community_name": "Tipo Tenshinan"
+        }
+      ]
+    },
+    {
+      "preset_index": 1061,
+      "raw_preset_words": [
+        370,
+        780,
+        99,
+        1062,
+        4294967295,
+        4294967295,
+        4294967295,
+        4294967295,
+        4294967295,
+        4294967295,
+        4294967295
+      ],
+      "appearance_index": 370,
+      "raw_appearance_words": [
+        20,
+        1,
+        0,
+        0,
+        1,
+        5,
+        4,
+        6
+      ],
+      "strength_index": 780,
+      "raw_strength_words": [
+        10,
+        4294967295,
+        173,
+        79,
+        78,
+        77,
+        351,
+        4294967295,
+        4294967295,
+        4294967295,
+        4294967295,
+        4294967295,
+        4294967295,
+        4294967295,
+        4294967295,
+        4294967295,
+        4294967295,
+        4294967295,
+        4294967295,
+        4294967295,
+        4294967295,
+        4294967295
+      ],
+      "items": [
+        {
+          "index": "0xad",
+          "italian_community_name": "CPU MAX"
+        },
+        {
+          "index": "0x4f",
+          "italian_community_name": "Difesa su L"
+        },
+        {
+          "index": "0x4e",
+          "italian_community_name": "Difesa su M"
+        },
+        {
+          "index": "0x4d",
+          "italian_community_name": "Difesa su S"
+        },
+        {
+          "index": "0x15f",
+          "italian_community_name": "Annulla Trasformazione quando rimangono 2 indicatori di salute"
+        }
+      ]
+    },
+    {
+      "preset_index": 1062,
+      "raw_preset_words": [
+        371,
+        781,
+        99,
+        4294967295,
+        4294967295,
+        4294967295,
+        4294967295,
+        4294967295,
+        4294967295,
+        4294967295,
+        4294967295
+      ],
+      "appearance_index": 371,
+      "raw_appearance_words": [
+        17,
+        1,
+        0,
+        0,
+        1,
+        5,
+        4,
+        6
+      ],
+      "strength_index": 781,
+      "raw_strength_words": [
+        10,
+        4294967295,
+        173,
+        79,
+        356,
+        354,
+        4294967295,
+        4294967295,
+        4294967295,
+        4294967295,
+        4294967295,
+        4294967295,
+        4294967295,
+        4294967295,
+        4294967295,
+        4294967295,
+        4294967295,
+        4294967295,
+        4294967295,
+        4294967295,
+        4294967295,
+        4294967295
+      ],
+      "items": [
+        {
+          "index": "0xad",
+          "italian_community_name": "CPU MAX"
+        },
+        {
+          "index": "0x4f",
+          "italian_community_name": "Difesa su L"
+        },
+        {
+          "index": "0x164",
+          "italian_community_name": "Animo furioso al cambio per KO"
+        },
+        {
+          "index": "0x162",
+          "italian_community_name": "Cambio quando rimangono 2 indicatori di salute"
+        }
+      ]
+    }
+  ]
+}

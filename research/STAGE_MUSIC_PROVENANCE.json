@@ -1,0 +1,18 @@
+{
+  "region": "BLES00978",
+  "localized_names_source": "original st_pack_progress_pt_ps3.afs member1903",
+  "localization_pak_hashes": {
+    "O_Map_US.pak": "e9b1128629080cb6f64009f7bdeaa9c473ffcd97e5ce0777008b5c92ea180e44",
+    "O_BGM_US.pak": "f0eea8346276ceda0e65d7f9396060977a189340f5ebc405646027fa900fc168"
+  },
+  "bgm_table_sha256": "9e038349e6bfe8cb289ced72c7ce539739d8c0c1ce1224fe4699dc49a8771fab",
+  "music_binding": "Native selector -> special name dispatch at1C07AC (30->text58,31->text59,56->text54;32..55->text30..53). Resident 8-byte records store stream index + bank + opaque halfword, NOT a localization-name ID.",
+  "stage_binding": "NAS_000_US..NAS_013_US list the fourteen stages; non-stage menu strings excluded;8/9 runtime corroborated",
+  "ELF_field_evidence": {
+    "stage": "1ED7B8..1ED7D4 reads root+08;1CD6E0 stores battle config+34",
+    "music": "1ED7DC..1ED7F8 reads root+0C;1CD6F0 stores battle config+38;0038 maps to0006"
+  },
+  "limits": "Localization/static catalog, not a gameplay run of every stage and song",
+  "correction_20261018": "Previous30/31 Select Randomly/??? labels came from confusing audio stream indices54/55 with text IDs. Correct labels are Battle of Omega (Solo Guitar)/(Full).56 is the random sentinel; its effective behavior depends on mode.",
+  "music_native_evidence": "MUSIC_SELECTOR_NATIVE_EVIDENCE.json"
+}

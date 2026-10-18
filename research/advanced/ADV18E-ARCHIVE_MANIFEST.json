@@ -1,0 +1,69 @@
+{
+  "experiment": "ADV18E",
+  "status": "BUILT_GRAPH_AND_ARCHIVE_VERIFIED",
+  "boot_sha256": "e2be23c227872fd05ecfbade6f187253dc732564268791a5b86c22e537e4b3b1",
+  "galaxy_sha256": "7b47624cb98072f8379e7462e83d2e3993f3657b1e7fb209a0edd44992d5cdf2",
+  "mmd_sha256": "02b385cfacbbd698cbcb2ab81429391125d0d9b959a348c31b621195b78a759d",
+  "new_preset": 1064,
+  "new_appearance": 373,
+  "new_strength": 783,
+  "native": 0,
+  "move_slots": [
+    3,
+    4,
+    6,
+    8,
+    11
+  ],
+  "expected_names": [
+    "x20 Kaioken Kamehameha",
+    "Meteor Combination",
+    "Instant Transmission",
+    "Give Me Energy!",
+    "Large Spirit Bomb"
+  ],
+  "ally_roster_descriptor": 3667,
+  "ally_group_descriptor": 3668,
+  "modified_node": 117,
+  "added_node": 498,
+  "mission_count": 499,
+  "galaxy66_node_count": 10,
+  "added_edge": [
+    117,
+    498
+  ],
+  "new_node_xy": [
+    64.0,
+    18.5
+  ],
+  "new_node_category": 2,
+  "old_node_category": 4,
+  "executable_modified": false,
+  "new_node_action_id": 1,
+  "new_node_action": "Perform Ascend",
+  "added_edge_strategy": "Split original edge489-117 into489-498-117; preserve original boss degree4",
+  "action_descriptor": 3670,
+  "boot_reused_from": "ADV18B",
+  "graph_validation": {
+    "node_count": 499,
+    "edge_count": 516,
+    "root_descriptor": 3465,
+    "edge_descriptor": 3466,
+    "consistent": true,
+    "problems": []
+  },
+  "new_node_incident_edges": [
+    493,
+    515
+  ],
+  "node489_incident_edges": [
+    515,
+    20,
+    464
+  ],
+  "boot_file": "st_pack_boot_pt_ps3.afs",
+  "new_node_objective_type": 29,
+  "new_node_objective": "Successfully pull off all Perfect Actions",
+  "root_10_is_also_gameplay_objective_type": true,
+  "runtime_evidence": "See RUNTIME_VALIDATION.json; loaded node498 objective29 completed with Perfect Action bonus and enemy alive"
+}

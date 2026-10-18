@@ -1,0 +1,33 @@
+{
+  "config": "0x3a829420",
+  "owner": 2,
+  "node": 238,
+  "objective": 29,
+  "taskCount": 1,
+  "firstTask": [
+    1,
+    0
+  ],
+  "actors": [
+    {
+      "side": 0,
+      "address": "0x3aa88b64",
+      "native": 2,
+      "preset": 2,
+      "maxHP": 40000,
+      "HP": 40000,
+      "flags": 1
+    },
+    {
+      "side": 1,
+      "address": "0x3aa943c0",
+      "native": 12,
+      "preset": 496,
+      "maxHP": 40000,
+      "HP": 40000,
+      "flags": 65
+    }
+  ],
+  "saveBase": "0x30000020",
+  "globalNativeFlags": "0000000200000003"
+}

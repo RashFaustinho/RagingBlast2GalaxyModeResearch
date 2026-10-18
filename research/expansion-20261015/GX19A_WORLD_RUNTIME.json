@@ -1,0 +1,12 @@
+{
+  "controller": "0x3ab38730",
+  "manager": "0x3ab38d10",
+  "new_icon": "0x3ab4a290",
+  "new_index": 66,
+  "new_row_pointer": "0x30a51dbc",
+  "new_row": "c0800000bfc0000040b5b08000030001000100000000000000000e58",
+  "new_native": 3,
+  "original_world_objects": 66,
+  "new_object_is_additional": true,
+  "field_correction": "object root pointer+8/index+0x14; generic getters receive object+4"
+}

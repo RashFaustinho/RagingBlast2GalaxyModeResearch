@@ -1,0 +1,20 @@
+[
+  {
+    "route": 0,
+    "name": "zone_green_square.mmd",
+    "offset": 1232,
+    "old_x": 0.0,
+    "new_x": 2.0,
+    "y": 0.0,
+    "save_cell": 21
+  },
+  {
+    "route": 15,
+    "name": "zone_final_ultimate.mmd",
+    "offset": 22256,
+    "old_x": 1.0,
+    "new_x": 2.0,
+    "y": 0.0,
+    "save_cell": 21
+  }
+]

@@ -1,0 +1,16 @@
+{
+  "version": "0.3",
+  "zip": "/workspace/research-rb2/deliverables/RB2-Galaxy-Studio-0.3-Windows-Portable.zip",
+  "bytes": 4459535,
+  "sha256": "e77d9d49bbbc25251eb480ab48f14534c29067a777f8ef53feb045a0d61a2c61",
+  "node_tests_passed": 72,
+  "node_tests_skipped": 0,
+  "browser_groups": [
+    11,
+    4,
+    10,
+    6
+  ],
+  "original_inputs_unchanged": true,
+  "windows_native_tested": false
+}

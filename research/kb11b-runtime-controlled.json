@@ -1,0 +1,58 @@
+{
+  "experiment": "KB11B",
+  "status": "CONTROLLED_GOKU_SSJ3_EMPTY_GEAR_NO_REVERT_IN_WINDOWS",
+  "purpose": "No-item cancellation control; starts SSJ3 instead of reaching it through a previous transformation.",
+  "boot_sha256": "538fe0b61b1f0dd863654ecfb13af52fa0555826bd360795aa3a200c9a0e6dda",
+  "galaxy_sha256": "d75c0d8ac8d9e179f54a7477f020eef792572f7335666d4d459e2b5b26553742",
+  "EBOOT": "Original",
+  "phase_validation": "Before probe, playerHP40000->38762 and3hits damage1238.",
+  "observations": [
+    {
+      "utc": "2026-10-14T18:25:53Z",
+      "native": 3,
+      "preset": 1059,
+      "HP": 40000,
+      "gear": [],
+      "property_flags": [],
+      "probe": "HP40000 aura50, data only matched actor write"
+    },
+    {
+      "utc": "2026-10-14T18:26:23Z",
+      "native": 3,
+      "preset": 1059,
+      "HP": 40000,
+      "gear": [],
+      "active_slot": 0
+    },
+    {
+      "utc": "2026-10-14T18:29:14Z",
+      "probe": "HP9000 aura50, data-only matched actor write"
+    },
+    {
+      "utc": "2026-10-14T18:29:44Z",
+      "native": 3,
+      "preset": 1059,
+      "HP": 9000,
+      "gear": []
+    },
+    {
+      "utc": "2026-10-14T18:31:18Z",
+      "native": 3,
+      "preset": 1059,
+      "HP": 9000,
+      "gear": []
+    },
+    {
+      "utc": "2026-10-14T18:33:25Z",
+      "native": 3,
+      "preset": 1059,
+      "HP": 9000,
+      "gear": [],
+      "active_slot": 0,
+      "available_first_target_native": 0
+    }
+  ],
+  "timing": "30host seconds at40000HP; three30host windows at9000HP.",
+  "limits": "No request at3A7C0/3A5EC/3A8B4/3A79C in these bounded windows; not proof that ordinary CPU never reverts. PairKB11A pending.",
+  "evidence": "kb11b-rsp-evidence.jsonl"
+}

@@ -1,0 +1,39 @@
+{
+  "game_source": "Original BLES00978 resources supplied by the user; read-only extraction",
+  "archive": "st_pack_battle_others_pt_ps3.afs",
+  "generator": "tools/build_help_languages.py",
+  "catalog": "js/help-languages.js",
+  "catalogSHA256": "4659850fc556ab5c2612ad0079b28e4c00be77f910f6a3f861b88348b4d25d66",
+  "sources": [
+    {
+      "file": "G_Tutorial_US.pak",
+      "sha256": "38e58f27c7924bdf5d1df4baea608296180d2ade26bef2d8ba516b887c77e62f",
+      "count": 85
+    },
+    {
+      "file": "G_Tutorial_IT.pak",
+      "sha256": "951ec0dae953ee057bd728b481bebe22ca0ba5ce7ac0cb6067acb1da57550d28",
+      "count": 85
+    },
+    {
+      "file": "G_Tutorial_FR.pak",
+      "sha256": "b66ea92f05f4f0703d1281c7b32b816b26482092ade2d677ecea34d1af503d80",
+      "count": 85
+    },
+    {
+      "file": "G_Tutorial_DE.pak",
+      "sha256": "6bc6d12881cb63247ad92d91c7843d8de7d63655138108ee42e20b9a8c4799dd",
+      "count": 85
+    },
+    {
+      "file": "G_Tutorial_SP.pak",
+      "sha256": "9156458287103c1ad92cf9e127a972246ab3935d3790566f1e2fbbdc5e85717f",
+      "count": 85
+    },
+    {
+      "file": "G_Tutorial_JP.pak",
+      "sha256": "8815c969cec0f64106c93c5f4a2678cb7785f6962df3e4d00228c90e2c03a07a",
+      "count": 85
+    }
+  ]
+}

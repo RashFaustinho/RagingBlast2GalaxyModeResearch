@@ -1,0 +1,209 @@
+Native evidence supplement (BLES00978 unmodified ELF)
+
+Source range: galaxy-time-conversion.txt
+001EDEB0 addi       r1, r1, 0x430
+001EDEB4 blr        
+001EDEB8 cmpwi      cr7, r0, 0x3c
+001EDEBC li         r4, 2
+001EDEC0 beq        cr7, 0x1ed848
+001EDEC4 cmplwi     cr7, r0, 0x3c
+001EDEC8 ble        cr7, 0x1ee09c
+001EDECC cmpwi      cr7, r0, 0x5a
+001EDED0 li         r4, 3
+001EDED4 beq        cr7, 0x1ed848
+001EDED8 cmpwi      cr7, r0, 0x78
+001EDEDC bne        cr7, 0x1ed844
+001EDEE0 li         r4, 4
+001EDEE4 b          0x1ed848
+
+001EE080 add        r9, r17, r9
+001EE084 stw        r25, 0x160(r9)
+001EE088 b          0x1edff0
+001EE08C cmpwi      cr7, r0, 0xf0
+001EE090 bne        cr7, 0x1ed844
+001EE094 li         r4, 6
+001EE098 b          0x1ed848
+001EE09C cmpwi      cr7, r0, 0x1e
+001EE0A0 bne        cr7, 0x1ed844
+001EE0A4 li         r4, 1
+001EE0A8 b          0x1ed848
+001EE0AC stdu       r1, -0xc0(r1)
+001EE0B0 mflr       r0
+001EE0B4 std        r30, 0xb0(r1)
+001EE0B8 mr         r30, r3
+001EE0BC std        r0, 0xd0(r1)
+001EE0C0 std        r27, 0x98(r1)
+001EE0C4 std        r28, 0xa0(r1)
+001EE0C8 std        r29, 0xa8(r1)
+001EE0CC std        r31, 0xb8(r1)
+001EE0D0 bl         0x1cdda0
+001EE0D4 nop        
+001EE0D8 lwz        r27, 0x158(r30)
+001EE0DC mr         r28, r3
+001EE0E0 clrldi     r31, r3, 0x20
+001EE0E4 bl         0x232d90
+001EE0E8 nop        
+001EE0EC lwz        r0, 0x154(r30)
+001EE0F0 clrldi     r29, r3, 0x20
+001EE0F4 cmpwi      cr7, r0, 0
+001EE0F8 mr         r9, r3
+001EE0FC li         r4, 2
+
+
+Source range: query2-callback.txt
+002F41F0 lwz        r0, 4(r3)
+002F41F4 add        r4, r4, r0
+002F41F8 clrldi     r4, r4, 0x20
+002F41FC lbz        r3, 0(r4)
+002F4200 rlwinm     r3, r3, 0, 0x1c, 0x1c
+002F4204 extsw      r3, r3
+002F4208 blr        
+002F420C cmpwi      cr7, r5, 0
+002F4210 blelr      cr7
+002F4214 clrldi     r5, r5, 0x20
+002F4218 mtctr      r5
+002F421C clrldi     r9, r4, 0x20
+002F4220 lwz        r11, 8(r3)
+002F4224 addi       r4, r4, 4
+002F4228 lwz        r0, 0(r9)
+002F422C slwi       r10, r0, 3
+002F4230 add        r0, r0, r11
+002F4234 clrldi     r6, r0, 0x20
+002F4238 lbz        r8, 0(r6)
+002F423C rlwinm     r0, r8, 0, 0x1d, 0x1d
+002F4240 cmpwi      cr7, r0, 0
+002F4244 bne        cr7, 0x2f429c
+002F4248 lwz        r9, 0(r3)
+002F424C lwz        r7, 4(r3)
+002F4250 lwz        r0, 0x10(r9)
+002F4254 add        r0, r10, r0
+002F4258 clrldi     r11, r0, 0x20
+002F425C lhz        r9, 0(r11)
+002F4260 add        r9, r7, r9
+002F4264 clrldi     r9, r9, 0x20
+002F4268 lbz        r0, 0(r9)
+002F426C rlwinm     r0, r0, 0, 0x1e, 0x1e
+002F4270 cmpwi      cr7, r0, 0
+002F4274 beq        cr7, 0x2f429c
+002F4278 lhz        r9, 4(r11)
+002F427C ori        r11, r8, 0x14
+002F4280 add        r9, r7, r9
+002F4284 clrldi     r9, r9, 0x20
+002F4288 lbz        r0, 0(r9)
+002F428C rlwinm     r0, r0, 0, 0x1e, 0x1e
+002F4290 cmpwi      cr7, r0, 0
+002F4294 beq        cr7, 0x2f429c
+002F4298 stb        r11, 0(r6)
+002F429C bdnz       0x2f421c
+002F42A0 blr        
+
+Source range: query3-callback.txt
+002F4AFC lwz        r0, 4(r3)
+002F4B00 add        r4, r4, r0
+002F4B04 clrldi     r4, r4, 0x20
+002F4B08 lbz        r3, 0(r4)
+002F4B0C rlwinm     r3, r3, 0, 0x1e, 0x1e
+002F4B10 extsw      r3, r3
+002F4B14 blr        
+002F4B18 stdu       r1, -0x70(r1)
+002F4B1C mflr       r0
+002F4B20 li         r7, 1
+002F4B24 std        r0, 0x80(r1)
+002F4B28 lwz        r0, 0x14(r4)
+002F4B2C lwz        r9, 0(r3)
+002F4B30 cmpwi      cr7, r0, 0
+002F4B34 slwi       r8, r0, 3
+002F4B38 clrldi     r11, r9, 0x20
+002F4B3C beq        cr7, 0x2f4b84
+002F4B40 lwz        r9, 4(r11)
+002F4B44 addi       r3, r3, 0x20
+002F4B48 lwz        r11, 8(r11)
+002F4B4C add        r9, r8, r9
+002F4B50 clrldi     r3, r3, 0x20
+002F4B54 clrldi     r9, r9, 0x20
+002F4B58 lwz        r0, 4(r9)
+002F4B5C add        r0, r11, r0
+002F4B60 cmpwi      cr7, r0, 0
+002F4B64 clrldi     r4, r0, 0x20
+002F4B68 beq        cr7, 0x2f4b84
+002F4B6C bl         0x2f5848
+002F4B70 nop        
+002F4B74 srawi      r9, r3, 0x1f
+002F4B78 xor        r0, r9, r3
+002F4B7C subf       r0, r0, r9
+002F4B80 srwi       r7, r0, 0x1f
+002F4B84 ld         r0, 0x80(r1)
+002F4B88 extsw      r3, r7
+002F4B8C addi       r1, r1, 0x70
+002F4B90 mtlr       r0
+002F4B94 blr        
+002F4B98 stdu       r1, -0x70(r1)
+002F4B9C mflr       r0
+002F4BA0 li         r7, 1
+002F4BA4 std        r0, 0x80(r1)
+002F4BA8 lwz        r0, 4(r4)
+002F4BAC lwz        r9, 0(r3)
+
+Source range: aux-unlock-query-list.txt
+002F3820 li         r9, 1
+002F3824 stw        r9, 0x10(r7)
+002F3828 b          0x2f3810
+002F382C li         r8, 1
+002F3830 b          0x2f37d8
+002F3834 li         r0, 1
+002F3838 b          0x2f37a4
+002F383C li         r0, 1
+002F3840 b          0x2f3758
+002F3844 li         r4, -1
+002F3848 li         r3, 1
+002F384C clrldi     r4, r4, 0x30
+002F3850 b          0x2f365c
+002F3854 mr         r3, r4
+002F3858 mflr       r0
+002F385C mr         r4, r5
+002F3860 stdu       r1, -0x70(r1)
+002F3864 std        r0, 0x80(r1)
+002F3868 bl         0x2f3c28
+002F386C nop        
+002F3870 ld         r0, 0x80(r1)
+002F3874 extsw      r3, r3
+002F3878 mtlr       r0
+002F387C addi       r1, r1, 0x70
+002F3880 blr        
+002F3884 stdu       r1, -0x80(r1)
+002F3888 mflr       r0
+002F388C std        r31, 0x78(r1)
+002F3890 std        r0, 0x90(r1)
+002F3894 lhz        r0, 0(r4)
+002F3898 mr         r31, r4
+002F389C std        r30, 0x70(r1)
+002F38A0 cmpwi      cr7, r0, 0
+002F38A4 beq        cr7, 0x2f38f0
+002F38A8 clrldi     r30, r3, 0x20
+002F38AC extsw      r4, r0
+002F38B0 lhz        r5, 2(r31)
+002F38B4 mr         r3, r30
+002F38B8 bl         0x2f3854
+002F38BC cmpwi      cr7, r3, 0
+002F38C0 bne        cr7, 0x2f38f0
+002F38C4 lhzu       r0, 4(r31)
+002F38C8 clrlwi     r0, r0, 0x10
+002F38CC cmpwi      cr7, r0, 0
+002F38D0 bne        cr7, 0x2f38ac
+002F38D4 ld         r0, 0x90(r1)
+002F38D8 extsw      r3, r3
+002F38DC ld         r30, 0x70(r1)
+002F38E0 ld         r31, 0x78(r1)
+002F38E4 mtlr       r0
+002F38E8 addi       r1, r1, 0x80
+002F38EC blr        
+002F38F0 ld         r0, 0x90(r1)
+002F38F4 li         r3, 1
+002F38F8 ld         r30, 0x70(r1)
+002F38FC extsw      r3, r3
+002F3900 ld         r31, 0x78(r1)
+002F3904 mtlr       r0
+002F3908 addi       r1, r1, 0x80
+002F390C blr        
+
+

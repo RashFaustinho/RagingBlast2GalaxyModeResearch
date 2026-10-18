@@ -1,0 +1,332 @@
+{
+  "title": "Additional Battle Zone entries: original-executable static constraints",
+  "original_elf_sha256": "8e2b454ca5959476a5869d0ab9e652123a019d72791f61ab37f7dd9936b2b892",
+  "conclusion": "A standalone 17th ZONE can be packaged without overwriting any original member; original menu/loader/save indexing provides no data-only path to select it.",
+  "strength": "Static evidence only in this report; runtime experiment is managed by root separately.",
+  "original_members": 17,
+  "original_zone_files": 16,
+  "zones_per_mode": 8,
+  "normal_menu_index8": "special mode-switch action, not free Zone slot",
+  "loader_formula": "memberIndex = mode * 8 + selectedZone; STPK descriptor stride 48 bytes",
+  "save_formula": "save + 0x5E20 + mode*0x1060 + selectedZone*0x20C + ((int(x)+1)+3*(6-int(y)))*0x18",
+  "save_cell_flags_relative": 8,
+  "save_cells_per_zone": 21,
+  "normal_ninth_slot_alias": "0*0x1060+8*0x20C == 1*0x1060+0*0x20C",
+  "coordinate_safe_existing_grid": {
+    "x": [
+      -1,
+      0,
+      1
+    ],
+    "y": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6
+    ]
+  },
+  "mmd_root_0x10_note": "This is the displayed LV number:271CB8 loadsroot+10,26CD88 stores scene+4C4,2775FC obtains textID40=LV<DIG>,27760C reads+4C4,27761C formats it. Actual CPU strength comes from preset. Previous name persistent-progress-ID was incorrect.",
+  "prototype": {
+    "description": "Additive standalone route prototype; stock menu discovery not supported by static evidence",
+    "mmd": {
+      "name": "zone_research_additive.mmd",
+      "size": 524,
+      "sha256": "66f57b45e63197e6f57f670ca77fdbfc3b356966c27ab278271196b55658dc07",
+      "nodes": 2,
+      "normal_presets": [
+        5,
+        0
+      ],
+      "characters": [
+        "Krillin",
+        "Saibamen"
+      ],
+      "displayed_levels": [
+        39,
+        40
+      ],
+      "level_note": "Root+0x10 feeds the LV label; actual strength preset is independent. Primary save identity is mode+zone+coordinate and new standalone slot unvalidated",
+      "coordinates": [
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          1
+        ]
+      ],
+      "edges": [
+        [
+          0,
+          1
+        ]
+      ]
+    },
+    "pak": {
+      "size": 26368,
+      "sha256": "857ce891257c4271f916acdca6b8604f7f9fe50f96474030fc472b9c7bc11e5d",
+      "old_count": 17,
+      "new_count": 18,
+      "new_member_index": 17,
+      "preserved_original_members": [
+        {
+          "index": 0,
+          "name": "zone_green_square.mmd",
+          "offset": 832,
+          "size": 624,
+          "sha256": "37fbfc3e0529f4eda842c952d2c2727130b386680053a478201610227e153b99"
+        },
+        {
+          "index": 1,
+          "name": "zone_red_triangle.mmd",
+          "offset": 1456,
+          "size": 1040,
+          "sha256": "cd697806fbbf921f7166fe043f17e6e0e6dae73735edcc2882ea8123060d7bdf"
+        },
+        {
+          "index": 2,
+          "name": "zone_blue_lozenge.mmd",
+          "offset": 2496,
+          "size": 960,
+          "sha256": "23a9f311984e22bdfb90fc86e2977ad343477ad978c42aae068b9eadd7bd7f04"
+        },
+        {
+          "index": 3,
+          "name": "zone_yellow_spiral.mmd",
+          "offset": 3456,
+          "size": 1352,
+          "sha256": "1b5e9cedf432818fdba555d72207b0e1d1f46793b4721fc3dc41782b1d8ee913"
+        },
+        {
+          "index": 4,
+          "name": "zone_violet_circle.mmd",
+          "offset": 4816,
+          "size": 1768,
+          "sha256": "1b4ea736c37c1e26e2bc3f7ed1714efc4aea8943c308983bd8293fef4e7b9ac5"
+        },
+        {
+          "index": 5,
+          "name": "zone_aquamarine_sphere.mmd",
+          "offset": 6592,
+          "size": 1480,
+          "sha256": "33658d085837bdc8df5f9788fc6c1ec1b646ab486492550c78a6cd2c07326b52"
+        },
+        {
+          "index": 6,
+          "name": "zone_crimson_liner.mmd",
+          "offset": 8080,
+          "size": 1536,
+          "sha256": "2458c10990ba35d99fed06c49e8e40e9ae9c34a1c89bd98f910c04a6b133ad07"
+        },
+        {
+          "index": 7,
+          "name": "zone_final.mmd",
+          "offset": 9616,
+          "size": 1232,
+          "sha256": "f6fec4babbdec09a3107da024137d2325191718c6fbffa4834ab25fcb51a545b"
+        },
+        {
+          "index": 8,
+          "name": "zone_ultimate_square.mmd",
+          "offset": 10848,
+          "size": 856,
+          "sha256": "4eada963c60d6733b76dc9007159880b4be2e5d54af81725c4ad428071dffe0f"
+        },
+        {
+          "index": 9,
+          "name": "zone_ultimate_triangle.mmd",
+          "offset": 11712,
+          "size": 872,
+          "sha256": "bf7b53615af9befcf87da8e672c854e1f0d8e8d5c594c79a64f09e985ba5e9dc"
+        },
+        {
+          "index": 10,
+          "name": "zone_ultimate_lozenge.mmd",
+          "offset": 12592,
+          "size": 1152,
+          "sha256": "17cb713e22b41c58694adb7e0768f873e539b1690128fbc75e4f8d61afcc4df4"
+        },
+        {
+          "index": 11,
+          "name": "zone_ultimate_spiral.mmd",
+          "offset": 13744,
+          "size": 1352,
+          "sha256": "61dfbaf2315461b523c7f114d9638b87f4552104d9ef64b3f4dbdf4aa2cdffc2"
+        },
+        {
+          "index": 12,
+          "name": "zone_ultimate_circle.mmd",
+          "offset": 15104,
+          "size": 1976,
+          "sha256": "eb974ee61e8e62f80bb10edfa11b24d87a4e10d3f574f27ff4c9ec9146cfb825"
+        },
+        {
+          "index": 13,
+          "name": "zone_ultimate_sphere.mmd",
+          "offset": 17088,
+          "size": 1816,
+          "sha256": "7b830cb084b7724d3d4ad1ddaf4ff8bce49fba4f07eee5856eefde618ebdebbc"
+        },
+        {
+          "index": 14,
+          "name": "zone_ultimate_liner.mmd",
+          "offset": 18912,
+          "size": 1896,
+          "sha256": "ba6872f533e3fcbe7e2e58721727f73d2894f385eda4655b9bd9e1950921e7d3"
+        },
+        {
+          "index": 15,
+          "name": "zone_final_ultimate.mmd",
+          "offset": 20816,
+          "size": 2056,
+          "sha256": "84c3d38a4fd0eb086aeb7099ca12b46c4af24afab2a602020e1110ee35046620"
+        },
+        {
+          "index": 16,
+          "name": "zone_item_open.dat",
+          "offset": 22880,
+          "size": 1600,
+          "sha256": "0022bf85a53118a74727b938024b5fb54e1982b53a9c0e9381af77296d7457cd"
+        }
+      ],
+      "added_member": {
+        "index": 17,
+        "name": "zone_research_additive.mmd",
+        "offset": 25840,
+        "size": 524,
+        "sha256": "66f57b45e63197e6f57f670ca77fdbfc3b356966c27ab278271196b55658dc07"
+      }
+    },
+    "stock_menu_expected": "Extra member is packaged but not enumerated; never replace index8 or16 because Ultimate Square and zone_item_open.dat already occupy them"
+  },
+  "evidence": [
+    {
+      "id": "display_level_assignment",
+      "start": "0x271cb4",
+      "end_exclusive": "0x271cdc",
+      "sha256": "dce732ae30c901522fd4cf360e45d757a3cb21303d26be2a5618095913bcefbd",
+      "hex": "8121008480bf00107ee3bb7880df00147ca507b47cc607b4808900001f7b020c7c8407b44bffb0b1",
+      "assembly": "00271CB4 lwz        r9, 0x84(r1)\n00271CB8 lwz        r5, 0x10(r31)\n00271CBC mr         r3, r23\n00271CC0 lwz        r6, 0x14(r31)\n00271CC4 extsw      r5, r5\n00271CC8 extsw      r6, r6\n00271CCC lwz        r4, 0(r9)\n00271CD0 mulli      r27, r27, 0x20c\n00271CD4 extsw      r4, r4\n00271CD8 bl         0x26cd88\n"
+    },
+    {
+      "id": "display_level_store",
+      "start": "0x26cd88",
+      "end_exclusive": "0x26cd98",
+      "sha256": "5798b6bbbfe76b63c090a8e0e43bd6074dbf25e64af0dc80eceb276684cd87eb",
+      "hex": "90c304c8908304bc90a304c44e800020",
+      "assembly": "0026CD88 stw        r6, 0x4c8(r3)\n0026CD8C stw        r4, 0x4bc(r3)\n0026CD90 stw        r5, 0x4c4(r3)\n0026CD94 blr        \n"
+    },
+    {
+      "id": "display_level_label",
+      "start": "0x2775fc",
+      "end_exclusive": "0x277620",
+      "sha256": "c17b2dd2c9f169b26c58920ce7255954076614b1eed7d3c4cf5d15d9e815d956",
+      "hex": "3880002883ba06247f03c3784bff8acd80ba04c4786400207ca507b47ba300204809c54d",
+      "assembly": "002775FC li         r4, 0x28\n00277600 lwz        r29, 0x624(r26)\n00277604 mr         r3, r24\n00277608 bl         0x2700d4\n0027760C lwz        r5, 0x4c4(r26)\n00277610 clrldi     r4, r3, 0x20\n00277614 extsw      r5, r5\n00277618 clrldi     r3, r29, 0x20\n0027761C bl         0x313b68\n"
+    },
+    {
+      "id": "menu_count",
+      "start": "0x265050",
+      "end_exclusive": "0x2651e4",
+      "sha256": "b36632b0788b67ff67b0e4442c9bd885302d9047adbd1e78e6b40f54e93c2cc7",
+      "hex": "7d800026f821ff31faa10078fac100807c952378fae10088fb010090fb210098fb4100a0fb6100a8fb8100b0fba100b8fbc100c0fbe100c87cbd2b787cdb33787cfc3b787c761b782d9d00002d1c00002e1b00003b3500013bf5ffff3ae00001918100d87c0802a6f80100e04800773960000000800300047c0bfe707d6902787d29585055380ffe231800097d38aa147d78a8503b49ffff3bcb0001480000482f9f000041dc00e07c1d07b43af700017ac3002038a000013b5affff3b3900017fa4eb783bde00013bffffff4192005c4bfffd797f18b8002f830000409e00504099009c7fe0fb78408effb87f98c8007f20cb78419dffb4418a00947fc0f3783af700017c1d07b47ac3002038a000013b5affff3b3900017fa4eb783bde00013bffffff4092ffac7c1d07b4818100d87fa3eb78e80100e0eaa100787d920120eac100807c0803a6eae100887d910120eb0100907d908120eb210098eb4100a0eb6100a8eb8100b0eba100b8ebc100c0ebe100c8382100d04e8000207ebd07b44bffffac7f40d378408aff203ba0ffff4bffff9c",
+      "assembly": "00265050 mfcr       r12\n00265054 stdu       r1, -0xd0(r1)\n00265058 std        r21, 0x78(r1)\n0026505C std        r22, 0x80(r1)\n00265060 mr         r21, r4\n00265064 std        r23, 0x88(r1)\n00265068 std        r24, 0x90(r1)\n0026506C std        r25, 0x98(r1)\n00265070 std        r26, 0xa0(r1)\n00265074 std        r27, 0xa8(r1)\n00265078 std        r28, 0xb0(r1)\n0026507C std        r29, 0xb8(r1)\n00265080 std        r30, 0xc0(r1)\n00265084 std        r31, 0xc8(r1)\n00265088 mr         r29, r5\n0026508C mr         r27, r6\n00265090 mr         r28, r7\n00265094 mr         r22, r3\n00265098 cmpwi      cr3, r29, 0\n0026509C cmpwi      cr2, r28, 0\n002650A0 cmpwi      cr4, r27, 0\n002650A4 addi       r25, r21, 1\n002650A8 addi       r31, r21, -1\n002650AC li         r23, 1\n002650B0 stw        r12, 0xd8(r1)\n002650B4 mflr       r0\n002650B8 std        r0, 0xe0(r1)\n002650BC bl         0x26c7f4\n002650C0 nop        \n002650C4 lwz        r0, 4(r3)\n002650C8 srawi      r11, r0, 0x1f\n002650CC xor        r9, r11, r0\n002650D0 subf       r9, r9, r11\n002650D4 srwi       r24, r9, 0x1f\n002650D8 subfic     r24, r24, 9\n002650DC add        r9, r24, r21\n002650E0 subf       r11, r24, r21\n002650E4 addi       r26, r9, -1\n002650E8 addi       r30, r11, 1\n002650EC b          0x265134\n002650F0 cmpwi      cr7, r31, 0\n002650F4 blt-       cr7, 0x2651d4\n002650F8 extsw      r29, r0\n002650FC addi       r23, r23, 1\n00265100 clrldi     r3, r22, 0x20\n00265104 li         r5, 1\n00265108 addi       r26, r26, -1\n0026510C addi       r25, r25, 1\n00265110 mr         r4, r29\n00265114 addi       r30, r30, 1\n00265118 addi       r31, r31, -1\n0026511C beq        cr4, 0x265178\n00265120 bl         0x264e98\n00265124 cmpw       cr6, r24, r23\n00265128 cmpwi      cr7, r3, 0\n0026512C bne        cr7, 0x26517c\n00265130 ble        cr6, 0x2651cc\n00265134 mr         r0, r31\n00265138 bne        cr3, 0x2650f0\n0026513C cmpw       cr7, r24, r25\n00265140 mr         r0, r25\n00265144 bgt        cr7, 0x2650f8\n00265148 beq        cr2, 0x2651dc\n0026514C mr         r0, r30\n00265150 addi       r23, r23, 1\n00265154 extsw      r29, r0\n00265158 clrldi     r3, r22, 0x20\n0026515C li         r5, 1\n00265160 addi       r26, r26, -1\n00265164 addi       r25, r25, 1\n00265168 mr         r4, r29\n0026516C addi       r30, r30, 1\n00265170 addi       r31, r31, -1\n00265174 bne        cr4, 0x265120\n00265178 extsw      r29, r0\n0026517C lwz        r12, 0xd8(r1)\n00265180 mr         r3, r29\n00265184 ld         r0, 0xe0(r1)\n00265188 ld         r21, 0x78(r1)\n0026518C mtocrf     0x20, r12\n00265190 ld         r22, 0x80(r1)\n00265194 mtlr       r0\n00265198 ld         r23, 0x88(r1)\n0026519C mtocrf     0x10, r12\n002651A0 ld         r24, 0x90(r1)\n002651A4 mtocrf     8, r12\n002651A8 ld         r25, 0x98(r1)\n002651AC ld         r26, 0xa0(r1)\n002651B0 ld         r27, 0xa8(r1)\n002651B4 ld         r28, 0xb0(r1)\n002651B8 ld         r29, 0xb8(r1)\n002651BC ld         r30, 0xc0(r1)\n002651C0 ld         r31, 0xc8(r1)\n002651C4 addi       r1, r1, 0xd0\n002651C8 blr        \n002651CC extsw      r29, r21\n002651D0 b          0x26517c\n002651D4 mr         r0, r26\n002651D8 bne        cr2, 0x2650f8\n002651DC li         r29, -1\n002651E0 b          0x26517c\n"
+    },
+    {
+      "id": "menu_index8_special",
+      "start": "0x26a7ac",
+      "end_exclusive": "0x26a7e0",
+      "sha256": "29225510a8a493b7c26bbe7fef31ac2572d6015768ea7c77ca9d939224b10279",
+      "hex": "801f05547bfe00202f800008419e0c944800203960000000801f0554900300804800202960000000801f05543ba0000090030008",
+      "assembly": "0026A7AC lwz        r0, 0x554(r31)\n0026A7B0 clrldi     r30, r31, 0x20\n0026A7B4 cmpwi      cr7, r0, 8\n0026A7B8 beq        cr7, 0x26b44c\n0026A7BC bl         0x26c7f4\n0026A7C0 nop        \n0026A7C4 lwz        r0, 0x554(r31)\n0026A7C8 stw        r0, 0x80(r3)\n0026A7CC bl         0x26c7f4\n0026A7D0 nop        \n0026A7D4 lwz        r0, 0x554(r31)\n0026A7D8 li         r29, 0\n0026A7DC stw        r0, 8(r3)\n"
+    },
+    {
+      "id": "mode_switch_action",
+      "start": "0x26b44c",
+      "end_exclusive": "0x26b4dc",
+      "sha256": "4155f973cfd961bab6b546463c016d12b2a66bbf97c8895a1e5e6d9b737b394c",
+      "hex": "480013a9600000003800ffff900300804800139960000000800300042f800000419e004c2f800001419e01007fc3f3783880000238a0002c4bef1a01600000004bfff40c7fa3eb7838800005481b7d61600000004bfffa882e1a0000380000017bfe0020901f05f84bfff3f04800133d6000000038000001388000089003007438a000017fc3f3784bef1c0d60000000",
+      "assembly": "0026B44C bl         0x26c7f4\n0026B450 nop        \n0026B454 li         r0, -1\n0026B458 stw        r0, 0x80(r3)\n0026B45C bl         0x26c7f4\n0026B460 nop        \n0026B464 lwz        r0, 4(r3)\n0026B468 cmpwi      cr7, r0, 0\n0026B46C beq        cr7, 0x26b4b8\n0026B470 cmpwi      cr7, r0, 1\n0026B474 beq        cr7, 0x26b574\n0026B478 mr         r3, r30\n0026B47C li         r4, 2\n0026B480 li         r5, 0x2c\n0026B484 bl         0x15ce84\n0026B488 nop        \n0026B48C b          0x26a898\n0026B490 mr         r3, r29\n0026B494 li         r4, 5\n0026B498 bl         0x4231f8\n0026B49C nop        \n0026B4A0 b          0x26af28\n0026B4A4 cmpwi      cr4, r26, 0\n0026B4A8 li         r0, 1\n0026B4AC clrldi     r30, r31, 0x20\n0026B4B0 stw        r0, 0x5f8(r31)\n0026B4B4 b          0x26a8a4\n0026B4B8 bl         0x26c7f4\n0026B4BC nop        \n0026B4C0 li         r0, 1\n0026B4C4 li         r4, 8\n0026B4C8 stw        r0, 0x74(r3)\n0026B4CC li         r5, 1\n0026B4D0 mr         r3, r30\n0026B4D4 bl         0x15d0e0\n0026B4D8 nop        \n"
+    },
+    {
+      "id": "pak_member_lookup",
+      "start": "0x26cfc4",
+      "end_exclusive": "0x26d078",
+      "sha256": "4af975d829d415b55db8a3795fdeaf82a0dfec84f86402ee2526cbba8f5d7db4",
+      "hex": "f821ff617c0802a6fba10088787d0020fb6100787c7b1b787fa3eb78f80100b0fb8100804bffff257c6707b43880000038a0000038c000017fa3eb783b7b06384bef0185600000007c7c1b784bfff7e56000000083a300044bfff7d9600000008003000857bd18387b6300207fbd021457a9303257bd20367d3d48507d29e21479290020800900107f9c02147b8400204808646160000000e80100b0eb610078eb8100807c0803a6eba10088382100a04e800020",
+      "assembly": "0026CFC4 stdu       r1, -0xa0(r1)\n0026CFC8 mflr       r0\n0026CFCC std        r29, 0x88(r1)\n0026CFD0 clrldi     r29, r3, 0x20\n0026CFD4 std        r27, 0x78(r1)\n0026CFD8 mr         r27, r3\n0026CFDC mr         r3, r29\n0026CFE0 std        r0, 0xb0(r1)\n0026CFE4 std        r28, 0x80(r1)\n0026CFE8 bl         0x26cf0c\n0026CFEC extsw      r7, r3\n0026CFF0 li         r4, 0\n0026CFF4 li         r5, 0\n0026CFF8 li         r6, 1\n0026CFFC mr         r3, r29\n0026D000 addi       r27, r27, 0x638\n0026D004 bl         0x15d188\n0026D008 nop        \n0026D00C mr         r28, r3\n0026D010 bl         0x26c7f4\n0026D014 nop        \n0026D018 lwz        r29, 4(r3)\n0026D01C bl         0x26c7f4\n0026D020 nop        \n0026D024 lwz        r0, 8(r3)\n0026D028 slwi       r29, r29, 3\n0026D02C clrldi     r3, r27, 0x20\n0026D030 add        r29, r29, r0\n0026D034 slwi       r9, r29, 6\n0026D038 slwi       r29, r29, 4\n0026D03C subf       r9, r29, r9\n0026D040 add        r9, r9, r28\n0026D044 clrldi     r9, r9, 0x20\n0026D048 lwz        r0, 0x10(r9)\n0026D04C add        r28, r28, r0\n0026D050 clrldi     r4, r28, 0x20\n0026D054 bl         0x2f34b4\n0026D058 nop        \n0026D05C ld         r0, 0xb0(r1)\n0026D060 ld         r27, 0x78(r1)\n0026D064 ld         r28, 0x80(r1)\n0026D068 mtlr       r0\n0026D06C ld         r29, 0x88(r1)\n0026D070 addi       r1, r1, 0xa0\n0026D074 blr        \n"
+    },
+    {
+      "id": "completion_fixed_zone_loop",
+      "start": "0x26d548",
+      "end_exclusive": "0x26d56c",
+      "sha256": "a2dfc61d1c7bbbae576b40707665e4a2b9d5d6f271a5a64d91a1d570e265d1bd",
+      "hex": "2f9300073a94020c3ab500303a730001409efeec39ce00013a5201802fae0002409efeb8",
+      "assembly": "0026D548 cmpwi      cr7, r19, 7\n0026D54C addi       r20, r20, 0x20c\n0026D550 addi       r21, r21, 0x30\n0026D554 addi       r19, r19, 1\n0026D558 bne        cr7, 0x26d444\n0026D55C addi       r14, r14, 1\n0026D560 addi       r18, r18, 0x180\n0026D564 cmpdi      cr7, r14, 2\n0026D568 bne        cr7, 0x26d420\n"
+    },
+    {
+      "id": "coordinate_save_index",
+      "start": "0x318be4",
+      "end_exclusive": "0x318c00",
+      "sha256": "c82f80bfc69429df53338aabf61921de4786ca546da326595daba03233274740",
+      "hex": "20840006386300015480083c7c0022147c6302147c6307b44e800020",
+      "assembly": "00318BE4 subfic     r4, r4, 6\n00318BE8 addi       r3, r3, 1\n00318BEC slwi       r0, r4, 1\n00318BF0 add        r0, r0, r4\n00318BF4 add        r3, r3, r0\n00318BF8 extsw      r3, r3\n00318BFC blr        \n"
+    },
+    {
+      "id": "save_record_read_write",
+      "start": "0x26faf8",
+      "end_exclusive": "0x26fca8",
+      "sha256": "52a930c41dba6a772d16ec430ca91db7ddc9548ece4c6fa2c039e1368a4a04af",
+      "hex": "f821ff617c0802a6fba10088f80100b07c7d1b784bffd56d7c691b78e80100b07fa3eb78eba100887c0803a6c0090000fda0001ec0090004fc00001e392100707da04fae808100707c004fae80a100707c8407b4382100a07ca507b44bffff74f821ff617c0802a6fb410070f80100b0fb610078fb810080fba100887c7b1b78480a7e4960000000834300004bffcc7160000000838300044bffcc656000000083a300087b6300201f9c10604bffff555460183854692834386000037d2048501fbd020c7d29ea147d29e2147d29d21439295e287929002080090000600000209009000048093d3560000000e80100b0eb410070eb6100787c0803a6eb810080eba10088382100a04e800020f821ff517c0802a6fb210078f80100c07c791b78fb410080fb610088fb810090fba10098480a7d9960000000836300004bffcbc160000000834300044bffcbb56000000083a300087b2300201f5a10604bfffea554692834eb810090546318381fbd020c7d2348507d29ea14eba100987d29d214eb41008039295e207d2907b47f7b4a14801b000ceb610088901904ace80100c0eb210078382100b07c0803a64e800020",
+      "assembly": "0026FAF8 stdu       r1, -0xa0(r1)\n0026FAFC mflr       r0\n0026FB00 std        r29, 0x88(r1)\n0026FB04 std        r0, 0xb0(r1)\n0026FB08 mr         r29, r3\n0026FB0C bl         0x26d078\n0026FB10 mr         r9, r3\n0026FB14 ld         r0, 0xb0(r1)\n0026FB18 mr         r3, r29\n0026FB1C ld         r29, 0x88(r1)\n0026FB20 mtlr       r0\n0026FB24 lfs        f0, 0(r9)\n0026FB28 fctiwz     f13, f0\n0026FB2C lfs        f0, 4(r9)\n0026FB30 fctiwz     f0, f0\n0026FB34 addi       r9, r1, 0x70\n0026FB38 stfiwx     f13, 0, r9\n0026FB3C lwz        r4, 0x70(r1)\n0026FB40 stfiwx     f0, 0, r9\n0026FB44 lwz        r5, 0x70(r1)\n0026FB48 extsw      r4, r4\n0026FB4C addi       r1, r1, 0xa0\n0026FB50 extsw      r5, r5\n0026FB54 b          0x26fac8\n0026FB58 stdu       r1, -0xa0(r1)\n0026FB5C mflr       r0\n0026FB60 std        r26, 0x70(r1)\n0026FB64 std        r0, 0xb0(r1)\n0026FB68 std        r27, 0x78(r1)\n0026FB6C std        r28, 0x80(r1)\n0026FB70 std        r29, 0x88(r1)\n0026FB74 mr         r27, r3\n0026FB78 bl         0x3179c0\n0026FB7C nop        \n0026FB80 lwz        r26, 0(r3)\n0026FB84 bl         0x26c7f4\n0026FB88 nop        \n0026FB8C lwz        r28, 4(r3)\n0026FB90 bl         0x26c7f4\n0026FB94 nop        \n0026FB98 lwz        r29, 8(r3)\n0026FB9C clrldi     r3, r27, 0x20\n0026FBA0 mulli      r28, r28, 0x1060\n0026FBA4 bl         0x26faf8\n0026FBA8 slwi       r0, r3, 3\n0026FBAC slwi       r9, r3, 5\n0026FBB0 li         r3, 3\n0026FBB4 subf       r9, r0, r9\n0026FBB8 mulli      r29, r29, 0x20c\n0026FBBC add        r9, r9, r29\n0026FBC0 add        r9, r9, r28\n0026FBC4 add        r9, r9, r26\n0026FBC8 addi       r9, r9, 0x5e28\n0026FBCC clrldi     r9, r9, 0x20\n0026FBD0 lwz        r0, 0(r9)\n0026FBD4 ori        r0, r0, 0x20\n0026FBD8 stw        r0, 0(r9)\n0026FBDC bl         0x303910\n0026FBE0 nop        \n0026FBE4 ld         r0, 0xb0(r1)\n0026FBE8 ld         r26, 0x70(r1)\n0026FBEC ld         r27, 0x78(r1)\n0026FBF0 mtlr       r0\n0026FBF4 ld         r28, 0x80(r1)\n0026FBF8 ld         r29, 0x88(r1)\n0026FBFC addi       r1, r1, 0xa0\n0026FC00 blr        \n0026FC04 stdu       r1, -0xb0(r1)\n0026FC08 mflr       r0\n0026FC0C std        r25, 0x78(r1)\n0026FC10 std        r0, 0xc0(r1)\n0026FC14 mr         r25, r3\n0026FC18 std        r26, 0x80(r1)\n0026FC1C std        r27, 0x88(r1)\n0026FC20 std        r28, 0x90(r1)\n0026FC24 std        r29, 0x98(r1)\n0026FC28 bl         0x3179c0\n0026FC2C nop        \n0026FC30 lwz        r27, 0(r3)\n0026FC34 bl         0x26c7f4\n0026FC38 nop        \n0026FC3C lwz        r26, 4(r3)\n0026FC40 bl         0x26c7f4\n0026FC44 nop        \n0026FC48 lwz        r29, 8(r3)\n0026FC4C clrldi     r3, r25, 0x20\n0026FC50 mulli      r26, r26, 0x1060\n0026FC54 bl         0x26faf8\n0026FC58 slwi       r9, r3, 5\n0026FC5C ld         r28, 0x90(r1)\n0026FC60 slwi       r3, r3, 3\n0026FC64 mulli      r29, r29, 0x20c\n0026FC68 subf       r9, r3, r9\n0026FC6C add        r9, r9, r29\n0026FC70 ld         r29, 0x98(r1)\n0026FC74 add        r9, r9, r26\n0026FC78 ld         r26, 0x80(r1)\n0026FC7C addi       r9, r9, 0x5e20\n0026FC80 extsw      r9, r9\n0026FC84 add        r27, r27, r9\n0026FC88 lwz        r0, 0xc(r27)\n0026FC8C ld         r27, 0x88(r1)\n0026FC90 stw        r0, 0x4ac(r25)\n0026FC94 ld         r0, 0xc0(r1)\n0026FC98 ld         r25, 0x78(r1)\n0026FC9C addi       r1, r1, 0xb0\n0026FCA0 mtlr       r0\n0026FCA4 blr        \n"
+    },
+    {
+      "id": "all_zone_aggregate",
+      "start": "0x318c00",
+      "end_exclusive": "0x318c8c",
+      "sha256": "b64bb5b92019f15b291a506aed627ea1dc13240a5f44053b48ac3b70a9a954c8",
+      "hex": "f821ff617c0802a6fb610078fb810080fbc100907c7c1b783bc000003b600000fba10088fbe10098f80100b03be000001fbb10601c7f020c7c63ea147c7c1a1438630004786300204bffff092f9f00077fde1a143bff0001409effdc2f9b00013b7b0001409effc8e80100b07fc307b4eb610078eb8100807c0803a6eba10088ebc10090ebe10098382100a0",
+      "assembly": "00318C00 stdu       r1, -0xa0(r1)\n00318C04 mflr       r0\n00318C08 std        r27, 0x78(r1)\n00318C0C std        r28, 0x80(r1)\n00318C10 std        r30, 0x90(r1)\n00318C14 mr         r28, r3\n00318C18 li         r30, 0\n00318C1C li         r27, 0\n00318C20 std        r29, 0x88(r1)\n00318C24 std        r31, 0x98(r1)\n00318C28 std        r0, 0xb0(r1)\n00318C2C li         r31, 0\n00318C30 mulli      r29, r27, 0x1060\n00318C34 mulli      r3, r31, 0x20c\n00318C38 add        r3, r3, r29\n00318C3C add        r3, r28, r3\n00318C40 addi       r3, r3, 4\n00318C44 clrldi     r3, r3, 0x20\n00318C48 bl         0x318b50\n00318C4C cmpwi      cr7, r31, 7\n00318C50 add        r30, r30, r3\n00318C54 addi       r31, r31, 1\n00318C58 bne        cr7, 0x318c34\n00318C5C cmpwi      cr7, r27, 1\n00318C60 addi       r27, r27, 1\n00318C64 bne        cr7, 0x318c2c\n00318C68 ld         r0, 0xb0(r1)\n00318C6C extsw      r3, r30\n00318C70 ld         r27, 0x78(r1)\n00318C74 ld         r28, 0x80(r1)\n00318C78 mtlr       r0\n00318C7C ld         r29, 0x88(r1)\n00318C80 ld         r30, 0x90(r1)\n00318C84 ld         r31, 0x98(r1)\n00318C88 addi       r1, r1, 0xa0\n"
+    },
+    {
+      "id": "cell_aggregate",
+      "start": "0x318b50",
+      "end_exclusive": "0x318b84",
+      "sha256": "7fa079ad09d088207cd336b00ad20e6be5196b3366b1e1722b889efa893863fe",
+      "hex": "380000157c6a1b78396000007c0903a6386000007d2a5a14396b001879290020800900087c6302144200ffec7c6307b44e800020",
+      "assembly": "00318B50 li         r0, 0x15\n00318B54 mr         r10, r3\n00318B58 li         r11, 0\n00318B5C mtctr      r0\n00318B60 li         r3, 0\n00318B64 add        r9, r10, r11\n00318B68 addi       r11, r11, 0x18\n00318B6C clrldi     r9, r9, 0x20\n00318B70 lwz        r0, 8(r9)\n00318B74 add        r3, r3, r0\n00318B78 bdnz       0x318b64\n00318B7C extsw      r3, r3\n00318B80 blr        \n"
+    },
+    {
+      "id": "menu_positions",
+      "start": "0x264c88",
+      "end_exclusive": "0x264db8",
+      "sha256": "47b9c3cd7253efe22189dce019be39d866547f0e1d5c182414e36996e45e017b",
+      "hex": "5484103a8122fc387c8407b47c69202e7c6307b44e8000202f8500087c0802a6f821ff41dbc100b0fba10098fbc100a0fbe100a8dbe100b87c9f2378f80100d0c3c2fc487ca407b47cdd33787cfe3b78419e00a4c3e2fc4478630020d3c10070d3e100744bffff9d7fc007b4546318388122fc38f8010080c80100807c6307b4fc00069cd3df00087c634a147fa907b4f9210080c1a30028edadf828fd600018c8010080fc00069cedad5824fd800018c0030024ec005824ec00f33aed8cfb7ad01f0000d0010078d19f0004e80100d0d181007ceba100987c0803a6ebc100a0ebe100a8cbc100b0cbe100b8382100c04e80002038000000c1a2fc40c002fc3c901f0008d01f0000d1bf0004e80100d0eba10098ebc100a07c0803a6ebe100a8cbc100b0cbe100b8382100c04e800020",
+      "assembly": "00264C88 slwi       r4, r4, 2\n00264C8C lwz        r9, -0x3c8(r2)\n00264C90 extsw      r4, r4\n00264C94 lwzx       r3, r9, r4\n00264C98 extsw      r3, r3\n00264C9C blr        \n00264CA0 cmpwi      cr7, r5, 8\n00264CA4 mflr       r0\n00264CA8 stdu       r1, -0xc0(r1)\n00264CAC stfd       f30, 0xb0(r1)\n00264CB0 std        r29, 0x98(r1)\n00264CB4 std        r30, 0xa0(r1)\n00264CB8 std        r31, 0xa8(r1)\n00264CBC stfd       f31, 0xb8(r1)\n00264CC0 mr         r31, r4\n00264CC4 std        r0, 0xd0(r1)\n00264CC8 lfs        f30, -0x3b8(r2)\n00264CCC extsw      r4, r5\n00264CD0 mr         r29, r6\n00264CD4 mr         r30, r7\n00264CD8 beq        cr7, 0x264d7c\n00264CDC lfs        f31, -0x3bc(r2)\n00264CE0 clrldi     r3, r3, 0x20\n00264CE4 stfs       f30, 0x70(r1)\n00264CE8 stfs       f31, 0x74(r1)\n00264CEC bl         0x264c88\n00264CF0 extsw      r0, r30\n00264CF4 slwi       r3, r3, 3\n00264CF8 lwz        r9, -0x3c8(r2)\n00264CFC std        r0, 0x80(r1)\n00264D00 lfd        f0, 0x80(r1)\n00264D04 extsw      r3, r3\n00264D08 fcfid      f0, f0\n00264D0C stfs       f30, 8(r31)\n00264D10 add        r3, r3, r9\n00264D14 extsw      r9, r29\n00264D18 std        r9, 0x80(r1)\n00264D1C lfs        f13, 0x28(r3)\n00264D20 fsubs      f13, f13, f31\n00264D24 frsp       f11, f0\n00264D28 lfd        f0, 0x80(r1)\n00264D2C fcfid      f0, f0\n00264D30 fdivs      f13, f13, f11\n00264D34 frsp       f12, f0\n00264D38 lfs        f0, 0x24(r3)\n00264D3C fdivs      f0, f0, f11\n00264D40 fmadds     f0, f0, f12, f30\n00264D44 fmadds     f12, f12, f13, f31\n00264D48 stfs       f0, 0(r31)\n00264D4C stfs       f0, 0x78(r1)\n00264D50 stfs       f12, 4(r31)\n00264D54 ld         r0, 0xd0(r1)\n00264D58 stfs       f12, 0x7c(r1)\n00264D5C ld         r29, 0x98(r1)\n00264D60 mtlr       r0\n00264D64 ld         r30, 0xa0(r1)\n00264D68 ld         r31, 0xa8(r1)\n00264D6C lfd        f30, 0xb0(r1)\n00264D70 lfd        f31, 0xb8(r1)\n00264D74 addi       r1, r1, 0xc0\n00264D78 blr        \n00264D7C li         r0, 0\n00264D80 lfs        f13, -0x3c0(r2)\n00264D84 lfs        f0, -0x3c4(r2)\n00264D88 stw        r0, 8(r31)\n00264D8C stfs       f0, 0(r31)\n00264D90 stfs       f13, 4(r31)\n00264D94 ld         r0, 0xd0(r1)\n00264D98 ld         r29, 0x98(r1)\n00264D9C ld         r30, 0xa0(r1)\n00264DA0 mtlr       r0\n00264DA4 ld         r31, 0xa8(r1)\n00264DA8 lfd        f30, 0xb0(r1)\n00264DAC lfd        f31, 0xb8(r1)\n00264DB0 addi       r1, r1, 0xc0\n00264DB4 blr        \n"
+    }
+  ],
+  "runtime_suggested": {
+    "breakpoint": "0x26D054 before ZONE parse",
+    "registers": {
+      "r4": "selected raw ZONE pointer",
+      "r28": "same selected raw ZONE",
+      "r3": "parser context"
+    },
+    "global_pointer": "*(u32*)0x007561AC",
+    "selection_context": "+4 mode, +8 selectedZone, +C selectedFight",
+    "checks": [
+      "Verify expanded STPK member count18 and new member17 resident in loaded copy.",
+      "Navigate normal and Ultimate selectors and log selections, confirming no new route.",
+      "Hit 0x26D054 on original Green Square and compare raw bytes against original member0; this proves valid control but not new route reachability."
+    ],
+    "do_not": [
+      "Do not insert before index8: that reassigns all Ultimate file indices.",
+      "Do not replace index16: it is zone_item_open.dat.",
+      "Do not simply raise selection bound: save slot8 aliases another mode."
+    ]
+  }
+}

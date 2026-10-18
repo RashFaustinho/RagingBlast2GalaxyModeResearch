@@ -1,0 +1,32 @@
+[
+  {
+    "write_expected": {
+      "address": "0x3a7dbf84",
+      "before": "0000001d",
+      "after": "00000000",
+      "rationale": "Capacity-boundary control only: use ordinary KO objective instead of action input to isolate native511 result/save write; no instruction/score/save edits.",
+      "verified": true
+    },
+    "utc": "2026-10-15T13:05:17.378258+00:00"
+  },
+  {
+    "write_expected": {
+      "address": "0x3aa943ec",
+      "before": "00009c40",
+      "after": "00000000",
+      "rationale": "Capacity-boundary control only: trigger enemy KO for native result handling on root511, without directly modifying a score or saved row.",
+      "verified": true
+    },
+    "utc": "2026-10-15T13:05:17.642274+00:00"
+  },
+  {
+    "write_expected": {
+      "address": "0x3aa943fd",
+      "before": "41",
+      "after": "43",
+      "rationale": "Capacity-boundary control only: set native enemy terminal bit to accompany HP zero for a normal result/save event on root511.",
+      "verified": true
+    },
+    "utc": "2026-10-15T13:05:17.910252+00:00"
+  }
+]

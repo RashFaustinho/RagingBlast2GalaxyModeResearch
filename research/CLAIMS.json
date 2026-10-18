@@ -1,0 +1,409 @@
+{
+  "schema_version": 1,
+  "audited_on": "2026-10-18",
+  "authority": "FINDINGS.md and topic guides supersede earlier interpretations; original observations retain their scope.",
+  "claims": [
+    {
+      "id": "FORMAT-001",
+      "topic": "formats",
+      "statement": "MMD descriptors use payload-relative byte offsets, not GSC word offsets.",
+      "evidence_levels": [
+        "file",
+        "code",
+        "editor-test"
+      ],
+      "evidence": [
+        "FILE_FORMATS.md",
+        "../editor/js/mmd.js",
+        "elf-evidence.txt"
+      ],
+      "limits": "Unknown header and payload fields are preserved."
+    },
+    {
+      "id": "PRESET-001",
+      "topic": "presets",
+      "statement": "Participants reference mode-specific presets that bind Appearance, Strength and form links.",
+      "evidence_levels": [
+        "file",
+        "code",
+        "controlled-runtime"
+      ],
+      "evidence": [
+        "PRESETS_ITEMS_AND_TRANSFORMATIONS.md",
+        "galaxy-presets-decoded.csv",
+        "tutorial-presets-decoded.csv"
+      ],
+      "limits": "A preset number is not a native character ID."
+    },
+    {
+      "id": "ITEM-001",
+      "topic": "items",
+      "statement": "Equipment slots store item_parameter row indices; name-text IDs and property bits are different namespaces.",
+      "evidence_levels": [
+        "file",
+        "code"
+      ],
+      "evidence": [
+        "item-catalog-BLES00978-EN.csv",
+        "item-localization-provenance-EN.json"
+      ],
+      "limits": "Original community special-item labels were wrong; descriptions alone do not verify all gameplay effects."
+    },
+    {
+      "id": "FORM-001",
+      "topic": "transformations",
+      "statement": "Goku SSJ2 native slot0 is cancellation and slot1 is SSJ3; preset destinations do not determine the animation.",
+      "evidence_levels": [
+        "file",
+        "code",
+        "user-observation",
+        "controlled-runtime"
+      ],
+      "evidence": [
+        "NATIVE_FORM_SLOTS_BLES00978.csv",
+        "KB15_NATIVE_SLOTS_AND_TAG_ORDER.md",
+        "kb15b-g2-slot1-request.json"
+      ],
+      "limits": "Corrected session included disclosed resident-link/HP/aura controls, not an untouched cold archive boot."
+    },
+    {
+      "id": "FORM-002",
+      "topic": "transformations",
+      "statement": "Cancellation can load the linked base preset and its own equipment.",
+      "evidence_levels": [
+        "controlled-runtime"
+      ],
+      "evidence": [
+        "kb15b-g3-cancel-request.json",
+        "kb15b-g0-confirmed.json"
+      ],
+      "limits": "Not a guarantee for arbitrary native links or every fusion."
+    },
+    {
+      "id": "TAG-001",
+      "topic": "switching",
+      "statement": "Switch timing and selected teammate are separate; a live intermediate teammate can be skipped.",
+      "evidence_levels": [
+        "code",
+        "controlled-runtime",
+        "user-observation"
+      ],
+      "evidence": [
+        "KB15_NATIVE_SLOTS_AND_TAG_ORDER.md",
+        "kb15b-g0-switch-check.json"
+      ],
+      "limits": "No verified arbitrary MMD partner-order selector; last-button theory unproven."
+    },
+    {
+      "id": "MOVE-001",
+      "topic": "moves",
+      "statement": "Appearance holds five native-local Super/Ultimate selectors; custom selectors reached a live ally.",
+      "evidence_levels": [
+        "file",
+        "code",
+        "controlled-runtime"
+      ],
+      "evidence": [
+        "advanced/GALAXY_ADVANCED_RESEARCH_EN.md",
+        "advanced/LOCAL_MOVE_IDS_EN.csv",
+        "advanced/ADV18C-battle-actors.json"
+      ],
+      "limits": "690 bindings, 666 consistent names, 24 unresolved; not every move was cast."
+    },
+    {
+      "id": "TEAM-001",
+      "topic": "teams",
+      "statement": "Shared mission491 uses conditional candidates for the selected Galaxy perspective.",
+      "evidence_levels": [
+        "file",
+        "code",
+        "editor-test"
+      ],
+      "evidence": [
+        "TEAMS_CONDITIONS_AND_ACTIONS.md",
+        "../editor/tests/conditions.test.cjs"
+      ],
+      "limits": "Offline runtime/save state stays unknown; special spawned groups are not fully decoded."
+    },
+    {
+      "id": "MAIN-FLAGS-001",
+      "topic": "progression",
+      "statement": "MAIN query2 returns cleared mask8; query3 available mask2; they are not normalized true=1.",
+      "evidence_levels": [
+        "code",
+        "reproduced-static"
+      ],
+      "evidence": [
+        "MAIN_PROGRESSION_FLAGS_NATIVE_EVIDENCE.json",
+        "../tools/main_progression_flags_research.py"
+      ],
+      "limits": "These meanings are not assumed for Battle Zone callbacks."
+    },
+    {
+      "id": "MODIFIER-001",
+      "topic": "items",
+      "statement": "MAIN mission modifier bitmap applies to the player team including allies; enemy equipment uses preset Strength.",
+      "evidence_levels": [
+        "code",
+        "controlled-runtime"
+      ],
+      "evidence": [
+        "limits-20261015/MODIFIER_TARGET_RUNTIME_EN.md",
+        "../editor/docs/PROGRESSION_AND_MODIFIERS_EN.md"
+      ],
+      "limits": "Every Seal and exotic effect interaction was not played individually."
+    },
+    {
+      "id": "ACTION-001",
+      "topic": "actions",
+      "statement": "Prompt lists and victory objectives are separate; objective29 wins on sequence completion while 0/1 keep defeat-enemy goals.",
+      "evidence_levels": [
+        "file",
+        "code",
+        "natural-runtime",
+        "persistence"
+      ],
+      "evidence": [
+        "advanced/OPTIONAL_ACTION_PROMPTS_EN.md",
+        "advanced/ADV18E-COLD_RELOAD_PERSISTENCE.json"
+      ],
+      "limits": "20 native detectors maximum; arbitrary QTE scripting and Zone prompt UI not established."
+    },
+    {
+      "id": "GALAXY-ADD-001",
+      "topic": "galaxy",
+      "statement": "Added root498 completed and persisted with the original executable.",
+      "evidence_levels": [
+        "natural-runtime",
+        "persistence"
+      ],
+      "evidence": [
+        "advanced/RUNTIME_VALIDATION.json",
+        "advanced/ADV18E-COLD_RELOAD_PERSISTENCE.json"
+      ],
+      "limits": "Diagnostic fixture also edited original117; not all-original-fights-preserved expansion."
+    },
+    {
+      "id": "GALAXY-TRANSFER-001",
+      "topic": "galaxy",
+      "statement": "An existing world icon/owner can be transferred without EBOOT edits; original-EBOOT Goku-to-SSJ2 persisted.",
+      "evidence_levels": [
+        "code",
+        "editor-test",
+        "natural-runtime",
+        "persistence"
+      ],
+      "evidence": [
+        "galaxy-transfer-20261016/TRANSFER_EN.md",
+        "galaxy-transfer-20261016/cold-save-probe.json",
+        "../editor/js/galaxy-transfer.js"
+      ],
+      "limits": "45/66 original donors pass supported-layout audit; not every pair replayed and no independent 67th aggregate created."
+    },
+    {
+      "id": "GALAXY-ICON-001",
+      "topic": "capacity",
+      "statement": "A 67th independent Galaxy aggregate aliases saved globals; successful menu/combat alone was unsafe.",
+      "evidence_levels": [
+        "code",
+        "controlled-runtime"
+      ],
+      "evidence": [
+        "expansion-20261015/GX19A-save-collision-runtime.json",
+        "SAVE_RAM_AND_EXPANSION.md"
+      ],
+      "limits": "D2 does not establish safe extra independent icons."
+    },
+    {
+      "id": "CIRCLE-001",
+      "topic": "capacity",
+      "statement": "Category-specific circle pools are separate from the 32-node map pool, including one Boss circle.",
+      "evidence_levels": [
+        "code",
+        "user-observation"
+      ],
+      "evidence": [
+        "double-save-20261015/circle-pool-static-evidence.json",
+        "../editor/docs/MISSION_MENU_LIMITS_EN.md"
+      ],
+      "limits": "Warnings count candidates; simultaneous visibility and D-pad ranking require separate analysis."
+    },
+    {
+      "id": "BZ-ROUTE-001",
+      "topic": "battle-zone",
+      "statement": "Directed ordinary/secret destination links are editable; native secret achievement is mode/slot-wide with a latch.",
+      "evidence_levels": [
+        "code",
+        "file",
+        "editor-test",
+        "reproduced-static"
+      ],
+      "evidence": [
+        "BATTLE_ZONE.md",
+        "BATTLE_ZONE_CONDITION_NATIVE_EVIDENCE.json",
+        "../editor/js/conditions.js"
+      ],
+      "limits": "Secret-only malformed graphs have a fallback; filename mapping assumes original slot."
+    },
+    {
+      "id": "BZ-FLAGS-001",
+      "topic": "battle-zone",
+      "statement": "Result queries11/12/13 mean Super victory, Ultimate victory and Raging Soul victory.",
+      "evidence_levels": [
+        "code",
+        "reproduced-static"
+      ],
+      "evidence": [
+        "BATTLE_ZONE_OUTCOME_FLAGS_NATIVE_EVIDENCE.json",
+        "../tools/zone_outcome_flags_research.py"
+      ],
+      "limits": "Not a new playthrough of every secret route."
+    },
+    {
+      "id": "BZ-META-001",
+      "topic": "battle-zone",
+      "statement": "Stored root+30 is copied, but the traced secret-route path does not evaluate it.",
+      "evidence_levels": [
+        "code",
+        "reproduced-static"
+      ],
+      "evidence": [
+        "BATTLE_ZONE_CONDITION_NATIVE_EVIDENCE.json",
+        "BATTLE_ZONE_OUTCOME_FLAGS_NATIVE_EVIDENCE.json"
+      ],
+      "limits": "Not proven globally unused or a verified override; preserve it."
+    },
+    {
+      "id": "BZ-ARENA-001",
+      "topic": "battle-zone",
+      "statement": "Original arenas vary; native setup reads root+1C.",
+      "evidence_levels": [
+        "file",
+        "code",
+        "reproduced-static"
+      ],
+      "evidence": [
+        "advanced/BATTLE_ZONE_MISSIONS_ORIGINAL.csv",
+        "BATTLE_ZONE_CONDITION_NATIVE_EVIDENCE.json",
+        "BATTLE_ZONE_ARENA_RUNTIME_ATTEMPT.json"
+      ],
+      "limits": "Arena-only gameplay attempt did not reach combat."
+    },
+    {
+      "id": "MUSIC-001",
+      "topic": "music",
+      "statement": "Selectors30/31 are Battle of Omega Solo Guitar/Full;56 has different Galaxy/Tutorial/Zone behavior.",
+      "evidence_levels": [
+        "file",
+        "code",
+        "reproduced-static",
+        "editor-test"
+      ],
+      "evidence": [
+        "MUSIC_SELECTOR_NATIVE_EVIDENCE.json",
+        "MUSIC_IDS_BLES00978_EN.csv",
+        "../editor/docs/MUSIC_SELECTORS_EN.md"
+      ],
+      "limits": "Not a listening test of every song; regional stream tables differ."
+    },
+    {
+      "id": "TUTORIAL-STAGE-001",
+      "topic": "tutorial",
+      "statement": "All nine original Tutorial roots use selector14, descriptively identified as Tutorial/Practice.",
+      "evidence_levels": [
+        "file",
+        "user-observation",
+        "editor-test"
+      ],
+      "evidence": [
+        "STAGE_IDS_BLES00978_EN.csv",
+        "../editor/tests/game-preview.test.cjs"
+      ],
+      "limits": "Not an extracted native localized name or verified ordinary Zone stage."
+    },
+    {
+      "id": "SAVE-STOCK-001",
+      "topic": "capacity",
+      "statement": "Original Galaxy result storage has500 rows despite498 roots; launch bitmap independently has512 bits.",
+      "evidence_levels": [
+        "file",
+        "code"
+      ],
+      "evidence": [
+        "limits-20261015/SAVE_AND_RAM_LIMITS_EN.md",
+        "SAVE_RAM_AND_EXPANSION.md"
+      ],
+      "limits": "Descriptor growth does not change either array; Tutorial/Zone have independent storage."
+    },
+    {
+      "id": "D2-GALAXY-001",
+      "topic": "capacity",
+      "statement": "D2 root1039 naturally scored338793, saved and cold-loaded.",
+      "evidence_levels": [
+        "natural-runtime",
+        "persistence"
+      ],
+      "evidence": [
+        "double-save-20261015/galaxy1039-save-audit.json",
+        "double-save-20261015/tutorial63-cold-success.json"
+      ],
+      "limits": "1040 allocated slots is not evidence that all1040 fights/unlock states work."
+    },
+    {
+      "id": "D2-TUTORIAL-001",
+      "topic": "capacity",
+      "statement": "Sparse Tutorial63 naturally scored398737 and persisted, with ten visible nodes.",
+      "evidence_levels": [
+        "natural-runtime",
+        "persistence"
+      ],
+      "evidence": [
+        "double-save-20261015/tutorial63-persist-audit.json",
+        "double-save-20261015/tutorial63-cold-success.json"
+      ],
+      "limits": "Full64-visible fixture failed circles; earlier251 revision corrupted a caller stack."
+    },
+    {
+      "id": "D2-BZ-001",
+      "topic": "capacity",
+      "statement": "No added D2 Zone boundary result/save/cold-reload succeeded; final minimal cell21 control failed.",
+      "evidence_levels": [
+        "controlled-runtime",
+        "negative-result"
+      ],
+      "evidence": [
+        "double-save-20261015/bz-inplace21.json",
+        "double-save-20261015/STATUS_CORRECTIONS.json",
+        "SAVE_RAM_AND_EXPANSION.md"
+      ],
+      "limits": "Old matrix pending is stale; cell53 additionally exceeds the native visual grid."
+    },
+    {
+      "id": "D2-PATCH-001",
+      "topic": "capacity",
+      "statement": "Exact329-instruction delta plus authored helper segment reproduces the recorded patched ELF hash.",
+      "evidence_levels": [
+        "reproduced-static"
+      ],
+      "evidence": [
+        "double-save-20261015/D2-patch.json",
+        "double-save-20261015/PATCH_REPRODUCTION.json",
+        "../tools/apply_double_save_elf.py"
+      ],
+      "limits": "Prototype only, no game binary distributed and no complete gameplay/new-game/physical-PS3 coverage."
+    },
+    {
+      "id": "REGION-001",
+      "topic": "compatibility",
+      "statement": "The user confirmed PAL/NTSC-U/NTSC-J includingv2.00 editor import/export.",
+      "evidence_levels": [
+        "user-observation"
+      ],
+      "evidence": [
+        "FINDINGS.md",
+        "../editor/docs/RELEASE_PREPARATION_EN.md"
+      ],
+      "limits": "Does not establish cross-region ELF offsets or expansion-patch compatibility."
+    }
+  ]
+}

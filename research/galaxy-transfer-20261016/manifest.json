@@ -1,0 +1,274 @@
+{
+  "source": 0,
+  "target": 2,
+  "iconIndex": 53,
+  "iconCount": 66,
+  "missions": [
+    243,
+    241,
+    246,
+    491,
+    239,
+    245,
+    240,
+    247,
+    238,
+    244,
+    4,
+    242
+  ],
+  "entry": 238,
+  "changes": [
+    {
+      "node": 491,
+      "field": "Allies 1",
+      "oldRef": 3375,
+      "newRef": 3667,
+      "queries": 1
+    },
+    {
+      "node": 491,
+      "field": "Allies 2",
+      "oldRef": 3376,
+      "newRef": 3668,
+      "queries": 1
+    },
+    {
+      "node": 491,
+      "field": "Allies 3",
+      "oldRef": 3377,
+      "newRef": 3669,
+      "queries": 1
+    },
+    {
+      "node": 491,
+      "field": "Allies 4",
+      "oldRef": 3378,
+      "newRef": 3670,
+      "queries": 1
+    },
+    {
+      "node": 491,
+      "field": "Enemies 1",
+      "oldRef": 3382,
+      "newRef": 3673,
+      "queries": 1
+    },
+    {
+      "node": 4,
+      "field": "Allies 2",
+      "oldRef": 66,
+      "newRef": 3676,
+      "queries": 1
+    },
+    {
+      "node": 4,
+      "field": "Enemies 3",
+      "oldRef": 71,
+      "newRef": 3679,
+      "queries": 1
+    }
+  ],
+  "updatedQueryPrograms": 7,
+  "missionCount": 498,
+  "originalMissionCount": 498,
+  "graph": [],
+  "sourceOwner": {
+    "auxRef": 0,
+    "listRef": 0,
+    "start": 65535,
+    "opaque": 0,
+    "nodes": []
+  },
+  "targetOwner": {
+    "auxRef": 3467,
+    "listRef": 3682,
+    "start": 238,
+    "opaque": 0,
+    "nodes": [
+      {
+        "node": 243,
+        "opaque": 0
+      },
+      {
+        "node": 241,
+        "opaque": 0
+      },
+      {
+        "node": 246,
+        "opaque": 0
+      },
+      {
+        "node": 491,
+        "opaque": 0
+      },
+      {
+        "node": 239,
+        "opaque": 0
+      },
+      {
+        "node": 245,
+        "opaque": 0
+      },
+      {
+        "node": 240,
+        "opaque": 0
+      },
+      {
+        "node": 247,
+        "opaque": 0
+      },
+      {
+        "node": 238,
+        "opaque": 0
+      },
+      {
+        "node": 244,
+        "opaque": 0
+      },
+      {
+        "node": 4,
+        "opaque": 0
+      },
+      {
+        "node": 242,
+        "opaque": 0
+      }
+    ]
+  },
+  "shared491": [
+    {
+      "owner": 2,
+      "allies": [
+        18,
+        11,
+        6,
+        25
+      ],
+      "enemies": [
+        1031
+      ],
+      "baselineAllies": [
+        18,
+        11,
+        6,
+        25
+      ],
+      "baselineEnemies": [
+        1031
+      ]
+    },
+    {
+      "owner": 5,
+      "allies": [
+        18,
+        11,
+        25,
+        1
+      ],
+      "enemies": [
+        1031
+      ],
+      "baselineAllies": [
+        18,
+        11,
+        25,
+        1
+      ],
+      "baselineEnemies": [
+        1031
+      ]
+    },
+    {
+      "owner": 11,
+      "allies": [
+        18,
+        6,
+        25,
+        1
+      ],
+      "enemies": [
+        1031
+      ],
+      "baselineAllies": [
+        18,
+        6,
+        25,
+        1
+      ],
+      "baselineEnemies": [
+        1031
+      ]
+    },
+    {
+      "owner": 17,
+      "allies": [
+        11,
+        6,
+        25,
+        1
+      ],
+      "enemies": [
+        1031
+      ],
+      "baselineAllies": [
+        11,
+        6,
+        25,
+        1
+      ],
+      "baselineEnemies": [
+        1031
+      ]
+    },
+    {
+      "owner": 24,
+      "allies": [
+        18,
+        11,
+        6,
+        1
+      ],
+      "enemies": [
+        1031
+      ],
+      "baselineAllies": [
+        18,
+        11,
+        6,
+        1
+      ],
+      "baselineEnemies": [
+        1031
+      ]
+    },
+    {
+      "owner": 99,
+      "allies": [],
+      "enemies": [
+        1032,
+        1033,
+        1034,
+        1035,
+        1036
+      ],
+      "baselineAllies": [],
+      "baselineEnemies": [
+        1032,
+        1033,
+        1034,
+        1035,
+        1036
+      ]
+    }
+  ],
+  "runtimeFixture": {
+    "mission": 238,
+    "objective": 29,
+    "action": 1,
+    "stage": 8,
+    "source": 0,
+    "target": 2,
+    "sha256": "a6abfc138e0d30e3c3f262c43837a6ac2824b691215e04e0560b1748fb4bdef2"
+  }
+}

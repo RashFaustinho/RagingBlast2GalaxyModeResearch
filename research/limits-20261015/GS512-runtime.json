@@ -1,0 +1,60 @@
+{
+  "status": "RUNTIME_CAPACITY_PROTOTYPE_VALIDATED_WITH_LIMITS",
+  "original_save_size": 55000,
+  "expanded_save_size": 71336,
+  "loaded_elf_sha256": "8cd1684c35aa5b08669e1c923a47da6bfc6099cc6cf97b32a728037af5ea3843",
+  "instruction_delta": 95,
+  "cold_load_migrated_save": true,
+  "migrated_mission499_score": 283155,
+  "runtime_mmd_roots": 512,
+  "completed_new_mission": 502,
+  "owner": 66,
+  "objective": 29,
+  "action": 1,
+  "completion": "Natural Ascend via L1 keyboard q, no RAM changes in this test",
+  "score_ram": 339187,
+  "score_disk_pending": false,
+  "cold_reload_pending": false,
+  "bitmap_lastword": "0xffffffff",
+  "selected_native_unchanged": 66,
+  "does_not_extend": [
+    "Galaxy icons",
+    "Native owner IDs",
+    "Tutorial",
+    "Battle Zone"
+  ],
+  "r2_loaded_elf_sha256": "728b4824d98524a72a4483d5e876ced3b0fd4613beaad9cb7bda16277c6bd9d3",
+  "r2_instruction_delta": 97,
+  "cold_reload502_score": 339187,
+  "highest_root511_pending": false,
+  "full_original_payload_diff": "Only timestamp minute field0x1B changes; oldGalaxy,Tutorial,BZ identical.",
+  "other_mission_records_preserved": true,
+  "highest_root511_launched": true,
+  "highest_root511_completed_pending": false,
+  "runtime_modifier296_target": "Player team0 only; enemy own preset items224/225",
+  "r2_preselection511_works": true,
+  "proof_files": [
+    "M500-save-result.json",
+    "M512-502-save-audit.json",
+    "GS512-r2-coldload-502.json",
+    "M512-511-intro.json",
+    "M512-511-controlled-finish.json",
+    "M512-511-save-audit.json"
+  ],
+  "highest_root511_engine_score_ram": 360643,
+  "highest_root511_completion": "Controlled live KO: active objective29\u21920, enemyHP40000\u21920, terminalflag41\u219243. Native score/save path; no score/save/code/register writes.",
+  "highest_root511_saved_pending": false,
+  "highest_root511_cold_reload_tested": false,
+  "highest_root511_score_disk": 360643,
+  "highest_root511_original_regions_unchanged": true,
+  "highest_root511_changed_mission_records": [
+    511
+  ],
+  "highest_root511_changed_aggregates": [
+    21
+  ],
+  "highest_root511_timestamp_only_other_original_changes": true,
+  "all14_added_roots_played": false,
+  "ultimate_engine_maximum_established": false,
+  "normal_512_save_support_in_editor": false
+}

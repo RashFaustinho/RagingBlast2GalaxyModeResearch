@@ -1,0 +1,282 @@
+{
+  "audit": "Independent readback of originals and prototypes; no builder manifest used",
+  "all_file_checks_passed": true,
+  "check_count": 44,
+  "checks": [
+    {
+      "check": "original_executable_identity",
+      "passed": true
+    },
+    {
+      "check": "original_code_mission_save_count500",
+      "passed": true,
+      "address": "0x1d2fdc",
+      "instruction_hex": "380001f4"
+    },
+    {
+      "check": "original_code_icon_save_count66",
+      "passed": true,
+      "address": "0x319104",
+      "instruction_hex": "39200042"
+    },
+    {
+      "check": "original_code_battle_bitmap16_words",
+      "passed": true,
+      "address": "0x1cda20",
+      "instruction_hex": "39200010"
+    },
+    {
+      "check": "original_code_owner_compare99",
+      "passed": true,
+      "address": "0x1f0ab8",
+      "instruction_hex": "2b840063"
+    },
+    {
+      "check": "original_galaxy_identity",
+      "passed": true,
+      "sha256": "c0a12c58b22cb4b2884bcfe8c550a1f5a25f60c192986c6f1fd9bd3eccb155a7"
+    },
+    {
+      "check": "galaxy_roots_counts",
+      "passed": true,
+      "original": 498,
+      "modified": 500
+    },
+    {
+      "check": "original_roots_preserved",
+      "passed": true,
+      "records": 498
+    },
+    {
+      "check": "galaxy_edges_counts",
+      "passed": true,
+      "original": 515,
+      "modified": 516
+    },
+    {
+      "check": "original_edges_preserved",
+      "passed": true,
+      "records": 515
+    },
+    {
+      "check": "galaxy_icons_counts",
+      "passed": true,
+      "original": 66,
+      "modified": 67
+    },
+    {
+      "check": "original_icons_preserved",
+      "passed": true,
+      "records": 66
+    },
+    {
+      "check": "galaxy_owners_counts",
+      "passed": true,
+      "original": 100,
+      "modified": 100
+    },
+    {
+      "check": "exactly_owner3_changed",
+      "passed": true,
+      "changed_owner_indices": [
+        3
+      ],
+      "preserved_rows": 99
+    },
+    {
+      "check": "original_owner3_empty",
+      "passed": true
+    },
+    {
+      "check": "new_owner_two_nodes",
+      "passed": true,
+      "nodes": [
+        498,
+        499
+      ],
+      "start": 498
+    },
+    {
+      "check": "new_edge_connects_new_nodes",
+      "passed": true
+    },
+    {
+      "check": "all_other_original_descriptor_bodies_preserved",
+      "passed": true,
+      "descriptor_bodies": 3663
+    },
+    {
+      "check": "galaxy_container_matches_mmd",
+      "passed": true
+    },
+    {
+      "check": "tutorial_member_preserved",
+      "passed": true
+    },
+    {
+      "check": "node498_objective29",
+      "passed": true
+    },
+    {
+      "check": "node499_objective29",
+      "passed": true
+    },
+    {
+      "check": "new_mission_actions",
+      "passed": true,
+      "action_ids": [
+        1,
+        2
+      ]
+    },
+    {
+      "check": "original_zone_identity",
+      "passed": true,
+      "sha256": "aed2649abc60ab6cb271cca9c0313551c81c16c4821262954c013a183c2286fa"
+    },
+    {
+      "check": "zone_archive_counts",
+      "passed": true,
+      "original": 17,
+      "standalone": 18,
+      "combined": 18
+    },
+    {
+      "check": "standalone_preserves_all_original_members",
+      "passed": true,
+      "preserved_members": 17
+    },
+    {
+      "check": "combined_preserves_other_original_members",
+      "passed": true,
+      "preserved_members": 16
+    },
+    {
+      "check": "standalone_candidate_matches_file",
+      "passed": true
+    },
+    {
+      "check": "combined_keeps_standalone_candidate",
+      "passed": true
+    },
+    {
+      "check": "standalone_has_two_new_battles",
+      "passed": true
+    },
+    {
+      "check": "combined_branch_matches_mmd",
+      "passed": true
+    },
+    {
+      "check": "branch_root_counts",
+      "passed": true,
+      "original": 4,
+      "modified": 6
+    },
+    {
+      "check": "branch_original_roots1_to3_preserved",
+      "passed": true
+    },
+    {
+      "check": "branch_root0_only_next_reference_changed",
+      "passed": true
+    },
+    {
+      "check": "branch_routes",
+      "passed": true,
+      "new_route": [
+        0,
+        4,
+        5,
+        3
+      ]
+    },
+    {
+      "check": "branch_node0_grid_coordinate",
+      "passed": true,
+      "x": 0.0,
+      "y": 0.0,
+      "cell": 19
+    },
+    {
+      "check": "branch_node1_grid_coordinate",
+      "passed": true,
+      "x": 0.0,
+      "y": 1.0,
+      "cell": 16
+    },
+    {
+      "check": "branch_node2_grid_coordinate",
+      "passed": true,
+      "x": 0.0,
+      "y": 2.0,
+      "cell": 13
+    },
+    {
+      "check": "branch_node3_grid_coordinate",
+      "passed": true,
+      "x": 0.0,
+      "y": 3.0,
+      "cell": 10
+    },
+    {
+      "check": "branch_node4_grid_coordinate",
+      "passed": true,
+      "x": -1.0,
+      "y": 1.0,
+      "cell": 15
+    },
+    {
+      "check": "branch_node5_grid_coordinate",
+      "passed": true,
+      "x": -1.0,
+      "y": 2.0,
+      "cell": 12
+    },
+    {
+      "check": "branch_save_cells_distinct",
+      "passed": true,
+      "cells": [
+        19,
+        16,
+        13,
+        10,
+        15,
+        12
+      ]
+    },
+    {
+      "check": "known_save_alias_arithmetic",
+      "passed": true
+    },
+    {
+      "check": "new_missions_fit_fixed_storage",
+      "passed": true
+    }
+  ],
+  "known_bounds_and_unsupported_features": {
+    "galaxy_mission_count": 500,
+    "galaxy_mission_limit": 500,
+    "all_new_mission_indices_fit_savedata": true,
+    "original_executable_launch_bitmap_fits": true,
+    "icon_count": 67,
+    "independent_icon_save_records": 66,
+    "new_icon_independent_save_storage": false,
+    "new_icon66_alias_save_offset": "0xBF30",
+    "new_icon66_aliases": "Global last-selected native and following flags, not an independent Galaxy aggregate record",
+    "owner_ids_fit_lookup": true,
+    "standalone_zone_added_to_archive": true,
+    "standalone_zone_menu_discovery_supported": false,
+    "normal_zone8_aliases_ultimate_zone0": true,
+    "zone_branch_uses_existing_mode_zone_and_distinct_grid_cells": true,
+    "runtime_result_not_inferred_from_file_audit": true
+  },
+  "inputs": {
+    "original_afs": "/workspace/research-rb2/rpcs3-cloud/uploaded/Dragon Ball Raging Blast 2 EUR/PS3_GAME/USRDIR/data/PS3/st_pack_progress_pt_ps3.afs",
+    "probe_root": "/workspace/research-rb2/expansion-20261015",
+    "gx19a_mmd_sha256": "0dca6931ca35a0e0e8229ea715e2faca44a582236ee4ec194d4b6601fe4e8f3e",
+    "standalone_zone_pak_sha256": "857ce891257c4271f916acdca6b8604f7f9fe50f96474030fc472b9c7bc11e5d",
+    "combined_zone_pak_sha256": "d24db32793ca444187bc3ed966e683f1a65541aac2f9628f2a3f4e13824bb88c"
+  },
+  "important": "Passing this structural/preservation audit does not make icon66 save-safe or the appended standalone Zone selectable. Runtime evidence is separate."
+}

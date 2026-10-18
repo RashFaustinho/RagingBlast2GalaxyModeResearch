@@ -1,0 +1,174 @@
+{
+  "zip_sha256": "305070de5eff9db9bb62d14517fddc25d3a92c88c34912815670b7b854349b8d",
+  "memory_sha256": "ed578681d3033862ef05d454b6f68a7ef332bf71c05be052dfa672157d6b3a3a",
+  "title_id": "BLES00978",
+  "created_utc": "2026-10-14T10:13:39.562Z",
+  "file_offset_equals_guest_address": true,
+  "exact_matches": {
+    "galaxy.mmd": {
+      "size": 158812,
+      "guest_addresses": [
+        815968368
+      ]
+    },
+    "tutorial.mmd": {
+      "size": 4072,
+      "guest_addresses": [
+        816968384
+      ]
+    },
+    "preset_character_galaxy.dat": {
+      "size": 46568,
+      "guest_addresses": [
+        915687840
+      ]
+    },
+    "preset_character_tutorial.dat": {
+      "size": 1116,
+      "guest_addresses": [
+        915734416
+      ]
+    },
+    "preset_strength_table.dat": {
+      "size": 68392,
+      "guest_addresses": [
+        915735536
+      ]
+    },
+    "preset_appearance_table.dat": {
+      "size": 11760,
+      "guest_addresses": [
+        915660400
+      ]
+    },
+    "item_parameter.dat": {
+      "size": 32004,
+      "guest_addresses": [
+        915807248
+      ]
+    }
+  },
+  "parser_objects": [
+    {
+      "address": 984130560,
+      "source": 815968368,
+      "words": [
+        815968368,
+        815968404,
+        815997740,
+        816062428,
+        816108244,
+        816125332,
+        816122260,
+        498,
+        515,
+        66,
+        100,
+        76
+      ]
+    }
+  ],
+  "selected_code": [
+    {
+      "label": "main_loader",
+      "address": 3092240,
+      "bytes": 592,
+      "identical": true
+    },
+    {
+      "label": "participant_pointer",
+      "address": 3092004,
+      "bytes": 120,
+      "identical": true
+    },
+    {
+      "label": "participant_count",
+      "address": 3092124,
+      "bytes": 116,
+      "identical": true
+    },
+    {
+      "label": "galaxy_preset_selection",
+      "address": 1993752,
+      "bytes": 140,
+      "identical": true
+    },
+    {
+      "label": "tutorial_preset_selection",
+      "address": 2146584,
+      "bytes": 140,
+      "identical": true
+    },
+    {
+      "label": "preset_record_address",
+      "address": 1228640,
+      "bytes": 20,
+      "identical": true
+    },
+    {
+      "label": "preset_expansion",
+      "address": 1233892,
+      "bytes": 660,
+      "identical": true
+    },
+    {
+      "label": "base_parameters",
+      "address": 1231308,
+      "bytes": 116,
+      "identical": true
+    },
+    {
+      "label": "custom_parameters",
+      "address": 1231424,
+      "bytes": 116,
+      "identical": true
+    },
+    {
+      "label": "item_effect_expansion",
+      "address": 1231772,
+      "bytes": 556,
+      "identical": true
+    },
+    {
+      "label": "stpk_member_address",
+      "address": 4678152,
+      "bytes": 36,
+      "identical": true
+    },
+    {
+      "label": "boot_container_load",
+      "address": 4037976,
+      "bytes": 56,
+      "identical": true
+    }
+  ],
+  "resource_manager_singleton": 980665712,
+  "resource_pointer_chain": {
+    "nodes": [
+      {
+        "address": 980674624,
+        "id": 0
+      },
+      {
+        "address": 980674784,
+        "id": 1
+      }
+    ],
+    "manager_id1": 980674784,
+    "boot_object": 980674960,
+    "pak_base": 914850208,
+    "directory": 914850208,
+    "nested_parameters_pak": 915648560,
+    "resolved_tables": {
+      "appearance": 915660400,
+      "galaxy_preset": 915687840,
+      "tutorial_preset": 915734416,
+      "strength": 915735536,
+      "item": 915807248
+    },
+    "preset519_address": 915710692,
+    "strength330_address": 915764592,
+    "transform_slot3_address": 915764612,
+    "transform_slot3_value": 362
+  }
+}

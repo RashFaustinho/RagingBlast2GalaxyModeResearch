@@ -1,0 +1,25 @@
+{
+  "result": "PASS",
+  "independent_decoder": "tools/zpak_research.py (Python)",
+  "checks": [
+    {
+      "archive": "st_pack_progress_pt_ps3.afs",
+      "target": "zone_green_square.mmd",
+      "copies_checked": 18,
+      "unchanged_leaf_members_checked": 468
+    },
+    {
+      "archive": "st_pack_boot_pt_ps3.afs",
+      "target": "preset_strength_table.dat",
+      "copies_checked": 1,
+      "unchanged_leaf_members_checked": 32
+    },
+    {
+      "archive": "st_pack_battle_others_pt_ps3.afs",
+      "target": "tutorial_message_table_01.dat",
+      "copies_checked": 1,
+      "unchanged_leaf_members_checked": 461
+    }
+  ],
+  "archives_js_sha256": "a7e4093c2851634ce709eb170ceda2f7efd48b07182343320c242fe8b1d45d5d"
+}

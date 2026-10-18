@@ -1,0 +1,4 @@
+# Developer tools only; the portable app has no Python runtime dependency.
+capstone==5.0.7
+Pillow==12.3.0
+playwright==1.62.0

@@ -1,0 +1,316 @@
+node,galaxy_native,galaxy_character,candidate_slot,preset,native,character,eligible,condition_descriptor,condition,roster_descriptor,group_descriptor
+0,43,Captain Ginyu,0,43,43,Captain Ginyu,False,2,"(query(type=5, argument=46) OR (query(type=5, argument=45) OR (query(type=5, argument=44) OR query(type=5, argument=47))))",7,8
+0,43,Captain Ginyu,1,46,46,Jeice,True,3,"(query(type=5, argument=43) OR (query(type=5, argument=45) OR (query(type=5, argument=44) OR query(type=5, argument=47))))",7,8
+0,43,Captain Ginyu,2,45,45,Burter,True,4,"(query(type=5, argument=43) OR (query(type=5, argument=46) OR (query(type=5, argument=44) OR query(type=5, argument=47))))",7,8
+0,43,Captain Ginyu,3,44,44,Recoome,True,5,"(query(type=5, argument=43) OR (query(type=5, argument=46) OR (query(type=5, argument=45) OR query(type=5, argument=47))))",7,8
+0,43,Captain Ginyu,4,47,47,Guldo,True,6,"(query(type=5, argument=43) OR (query(type=5, argument=46) OR (query(type=5, argument=45) OR query(type=5, argument=44))))",7,8
+0,44,Recoome,0,43,43,Captain Ginyu,True,2,"(query(type=5, argument=46) OR (query(type=5, argument=45) OR (query(type=5, argument=44) OR query(type=5, argument=47))))",7,8
+0,44,Recoome,1,46,46,Jeice,True,3,"(query(type=5, argument=43) OR (query(type=5, argument=45) OR (query(type=5, argument=44) OR query(type=5, argument=47))))",7,8
+0,44,Recoome,2,45,45,Burter,True,4,"(query(type=5, argument=43) OR (query(type=5, argument=46) OR (query(type=5, argument=44) OR query(type=5, argument=47))))",7,8
+0,44,Recoome,3,44,44,Recoome,False,5,"(query(type=5, argument=43) OR (query(type=5, argument=46) OR (query(type=5, argument=45) OR query(type=5, argument=47))))",7,8
+0,44,Recoome,4,47,47,Guldo,True,6,"(query(type=5, argument=43) OR (query(type=5, argument=46) OR (query(type=5, argument=45) OR query(type=5, argument=44))))",7,8
+0,45,Burter,0,43,43,Captain Ginyu,True,2,"(query(type=5, argument=46) OR (query(type=5, argument=45) OR (query(type=5, argument=44) OR query(type=5, argument=47))))",7,8
+0,45,Burter,1,46,46,Jeice,True,3,"(query(type=5, argument=43) OR (query(type=5, argument=45) OR (query(type=5, argument=44) OR query(type=5, argument=47))))",7,8
+0,45,Burter,2,45,45,Burter,False,4,"(query(type=5, argument=43) OR (query(type=5, argument=46) OR (query(type=5, argument=44) OR query(type=5, argument=47))))",7,8
+0,45,Burter,3,44,44,Recoome,True,5,"(query(type=5, argument=43) OR (query(type=5, argument=46) OR (query(type=5, argument=45) OR query(type=5, argument=47))))",7,8
+0,45,Burter,4,47,47,Guldo,True,6,"(query(type=5, argument=43) OR (query(type=5, argument=46) OR (query(type=5, argument=45) OR query(type=5, argument=44))))",7,8
+0,46,Jeice,0,43,43,Captain Ginyu,True,2,"(query(type=5, argument=46) OR (query(type=5, argument=45) OR (query(type=5, argument=44) OR query(type=5, argument=47))))",7,8
+0,46,Jeice,1,46,46,Jeice,False,3,"(query(type=5, argument=43) OR (query(type=5, argument=45) OR (query(type=5, argument=44) OR query(type=5, argument=47))))",7,8
+0,46,Jeice,2,45,45,Burter,True,4,"(query(type=5, argument=43) OR (query(type=5, argument=46) OR (query(type=5, argument=44) OR query(type=5, argument=47))))",7,8
+0,46,Jeice,3,44,44,Recoome,True,5,"(query(type=5, argument=43) OR (query(type=5, argument=46) OR (query(type=5, argument=45) OR query(type=5, argument=47))))",7,8
+0,46,Jeice,4,47,47,Guldo,True,6,"(query(type=5, argument=43) OR (query(type=5, argument=46) OR (query(type=5, argument=45) OR query(type=5, argument=44))))",7,8
+0,47,Guldo,0,43,43,Captain Ginyu,True,2,"(query(type=5, argument=46) OR (query(type=5, argument=45) OR (query(type=5, argument=44) OR query(type=5, argument=47))))",7,8
+0,47,Guldo,1,46,46,Jeice,True,3,"(query(type=5, argument=43) OR (query(type=5, argument=45) OR (query(type=5, argument=44) OR query(type=5, argument=47))))",7,8
+0,47,Guldo,2,45,45,Burter,True,4,"(query(type=5, argument=43) OR (query(type=5, argument=46) OR (query(type=5, argument=44) OR query(type=5, argument=47))))",7,8
+0,47,Guldo,3,44,44,Recoome,True,5,"(query(type=5, argument=43) OR (query(type=5, argument=46) OR (query(type=5, argument=45) OR query(type=5, argument=47))))",7,8
+0,47,Guldo,4,47,47,Guldo,False,6,"(query(type=5, argument=43) OR (query(type=5, argument=46) OR (query(type=5, argument=45) OR query(type=5, argument=44))))",7,8
+1,96,Salza,0,96,96,Salza,False,16,"(query(type=5, argument=97) OR query(type=5, argument=98))",19,20
+1,96,Salza,1,97,97,Neizu,True,17,"(query(type=5, argument=96) OR query(type=5, argument=98))",19,20
+1,96,Salza,2,98,98,Dore,True,18,"(query(type=5, argument=96) OR query(type=5, argument=97))",19,20
+1,97,Neizu,0,96,96,Salza,True,16,"(query(type=5, argument=97) OR query(type=5, argument=98))",19,20
+1,97,Neizu,1,97,97,Neizu,False,17,"(query(type=5, argument=96) OR query(type=5, argument=98))",19,20
+1,97,Neizu,2,98,98,Dore,True,18,"(query(type=5, argument=96) OR query(type=5, argument=97))",19,20
+1,98,Dore,0,96,96,Salza,True,16,"(query(type=5, argument=97) OR query(type=5, argument=98))",19,20
+1,98,Dore,1,97,97,Neizu,True,17,"(query(type=5, argument=96) OR query(type=5, argument=98))",19,20
+1,98,Dore,2,98,98,Dore,False,18,"(query(type=5, argument=96) OR query(type=5, argument=97))",19,20
+2,4,Kid Gohan,0,11,11,Piccolo,True,28,"(query(type=5, argument=4) OR query(type=5, argument=90))",31,32
+2,4,Kid Gohan,1,4,4,Kid Gohan,False,29,"(query(type=5, argument=11) OR query(type=5, argument=90))",31,32
+2,4,Kid Gohan,2,90,90,Nail,True,30,"(query(type=5, argument=11) OR query(type=5, argument=4))",31,32
+2,11,Piccolo,0,11,11,Piccolo,False,28,"(query(type=5, argument=4) OR query(type=5, argument=90))",31,32
+2,11,Piccolo,1,4,4,Kid Gohan,True,29,"(query(type=5, argument=11) OR query(type=5, argument=90))",31,32
+2,11,Piccolo,2,90,90,Nail,True,30,"(query(type=5, argument=11) OR query(type=5, argument=4))",31,32
+2,90,Nail,0,11,11,Piccolo,True,28,"(query(type=5, argument=4) OR query(type=5, argument=90))",31,32
+2,90,Nail,1,4,4,Kid Gohan,True,29,"(query(type=5, argument=11) OR query(type=5, argument=90))",31,32
+2,90,Nail,2,90,90,Nail,False,30,"(query(type=5, argument=11) OR query(type=5, argument=4))",31,32
+3,43,Captain Ginyu,0,44,44,Recoome,True,40,"(query(type=5, argument=43) OR (query(type=5, argument=46) OR (query(type=5, argument=45) OR query(type=5, argument=47))))",48,49
+3,43,Captain Ginyu,1,47,47,Guldo,True,41,"(query(type=5, argument=43) OR (query(type=5, argument=46) OR (query(type=5, argument=45) OR query(type=5, argument=44))))",48,49
+3,43,Captain Ginyu,2,43,43,Captain Ginyu,False,42,"(query(type=5, argument=46) OR (query(type=5, argument=45) OR (query(type=5, argument=44) OR query(type=5, argument=47))))",48,49
+3,43,Captain Ginyu,3,46,46,Jeice,True,43,"(query(type=5, argument=43) OR (query(type=5, argument=45) OR (query(type=5, argument=44) OR query(type=5, argument=47))))",48,49
+3,43,Captain Ginyu,4,45,45,Burter,True,44,"(query(type=5, argument=43) OR (query(type=5, argument=46) OR (query(type=5, argument=44) OR query(type=5, argument=47))))",48,49
+3,43,Captain Ginyu,5,97,97,Neizu,False,45,"(query(type=5, argument=96) OR query(type=5, argument=98))",48,49
+3,43,Captain Ginyu,6,96,96,Salza,False,46,"(query(type=5, argument=97) OR query(type=5, argument=98))",48,49
+3,43,Captain Ginyu,7,98,98,Dore,False,47,"(query(type=5, argument=97) OR query(type=5, argument=96))",48,49
+3,44,Recoome,0,44,44,Recoome,False,40,"(query(type=5, argument=43) OR (query(type=5, argument=46) OR (query(type=5, argument=45) OR query(type=5, argument=47))))",48,49
+3,44,Recoome,1,47,47,Guldo,True,41,"(query(type=5, argument=43) OR (query(type=5, argument=46) OR (query(type=5, argument=45) OR query(type=5, argument=44))))",48,49
+3,44,Recoome,2,43,43,Captain Ginyu,True,42,"(query(type=5, argument=46) OR (query(type=5, argument=45) OR (query(type=5, argument=44) OR query(type=5, argument=47))))",48,49
+3,44,Recoome,3,46,46,Jeice,True,43,"(query(type=5, argument=43) OR (query(type=5, argument=45) OR (query(type=5, argument=44) OR query(type=5, argument=47))))",48,49
+3,44,Recoome,4,45,45,Burter,True,44,"(query(type=5, argument=43) OR (query(type=5, argument=46) OR (query(type=5, argument=44) OR query(type=5, argument=47))))",48,49
+3,44,Recoome,5,97,97,Neizu,False,45,"(query(type=5, argument=96) OR query(type=5, argument=98))",48,49
+3,44,Recoome,6,96,96,Salza,False,46,"(query(type=5, argument=97) OR query(type=5, argument=98))",48,49
+3,44,Recoome,7,98,98,Dore,False,47,"(query(type=5, argument=97) OR query(type=5, argument=96))",48,49
+3,45,Burter,0,44,44,Recoome,True,40,"(query(type=5, argument=43) OR (query(type=5, argument=46) OR (query(type=5, argument=45) OR query(type=5, argument=47))))",48,49
+3,45,Burter,1,47,47,Guldo,True,41,"(query(type=5, argument=43) OR (query(type=5, argument=46) OR (query(type=5, argument=45) OR query(type=5, argument=44))))",48,49
+3,45,Burter,2,43,43,Captain Ginyu,True,42,"(query(type=5, argument=46) OR (query(type=5, argument=45) OR (query(type=5, argument=44) OR query(type=5, argument=47))))",48,49
+3,45,Burter,3,46,46,Jeice,True,43,"(query(type=5, argument=43) OR (query(type=5, argument=45) OR (query(type=5, argument=44) OR query(type=5, argument=47))))",48,49
+3,45,Burter,4,45,45,Burter,False,44,"(query(type=5, argument=43) OR (query(type=5, argument=46) OR (query(type=5, argument=44) OR query(type=5, argument=47))))",48,49
+3,45,Burter,5,97,97,Neizu,False,45,"(query(type=5, argument=96) OR query(type=5, argument=98))",48,49
+3,45,Burter,6,96,96,Salza,False,46,"(query(type=5, argument=97) OR query(type=5, argument=98))",48,49
+3,45,Burter,7,98,98,Dore,False,47,"(query(type=5, argument=97) OR query(type=5, argument=96))",48,49
+3,46,Jeice,0,44,44,Recoome,True,40,"(query(type=5, argument=43) OR (query(type=5, argument=46) OR (query(type=5, argument=45) OR query(type=5, argument=47))))",48,49
+3,46,Jeice,1,47,47,Guldo,True,41,"(query(type=5, argument=43) OR (query(type=5, argument=46) OR (query(type=5, argument=45) OR query(type=5, argument=44))))",48,49
+3,46,Jeice,2,43,43,Captain Ginyu,True,42,"(query(type=5, argument=46) OR (query(type=5, argument=45) OR (query(type=5, argument=44) OR query(type=5, argument=47))))",48,49
+3,46,Jeice,3,46,46,Jeice,False,43,"(query(type=5, argument=43) OR (query(type=5, argument=45) OR (query(type=5, argument=44) OR query(type=5, argument=47))))",48,49
+3,46,Jeice,4,45,45,Burter,True,44,"(query(type=5, argument=43) OR (query(type=5, argument=46) OR (query(type=5, argument=44) OR query(type=5, argument=47))))",48,49
+3,46,Jeice,5,97,97,Neizu,False,45,"(query(type=5, argument=96) OR query(type=5, argument=98))",48,49
+3,46,Jeice,6,96,96,Salza,False,46,"(query(type=5, argument=97) OR query(type=5, argument=98))",48,49
+3,46,Jeice,7,98,98,Dore,False,47,"(query(type=5, argument=97) OR query(type=5, argument=96))",48,49
+3,47,Guldo,0,44,44,Recoome,True,40,"(query(type=5, argument=43) OR (query(type=5, argument=46) OR (query(type=5, argument=45) OR query(type=5, argument=47))))",48,49
+3,47,Guldo,1,47,47,Guldo,False,41,"(query(type=5, argument=43) OR (query(type=5, argument=46) OR (query(type=5, argument=45) OR query(type=5, argument=44))))",48,49
+3,47,Guldo,2,43,43,Captain Ginyu,True,42,"(query(type=5, argument=46) OR (query(type=5, argument=45) OR (query(type=5, argument=44) OR query(type=5, argument=47))))",48,49
+3,47,Guldo,3,46,46,Jeice,True,43,"(query(type=5, argument=43) OR (query(type=5, argument=45) OR (query(type=5, argument=44) OR query(type=5, argument=47))))",48,49
+3,47,Guldo,4,45,45,Burter,True,44,"(query(type=5, argument=43) OR (query(type=5, argument=46) OR (query(type=5, argument=44) OR query(type=5, argument=47))))",48,49
+3,47,Guldo,5,97,97,Neizu,False,45,"(query(type=5, argument=96) OR query(type=5, argument=98))",48,49
+3,47,Guldo,6,96,96,Salza,False,46,"(query(type=5, argument=97) OR query(type=5, argument=98))",48,49
+3,47,Guldo,7,98,98,Dore,False,47,"(query(type=5, argument=97) OR query(type=5, argument=96))",48,49
+3,96,Salza,0,44,44,Recoome,False,40,"(query(type=5, argument=43) OR (query(type=5, argument=46) OR (query(type=5, argument=45) OR query(type=5, argument=47))))",48,49
+3,96,Salza,1,47,47,Guldo,False,41,"(query(type=5, argument=43) OR (query(type=5, argument=46) OR (query(type=5, argument=45) OR query(type=5, argument=44))))",48,49
+3,96,Salza,2,43,43,Captain Ginyu,False,42,"(query(type=5, argument=46) OR (query(type=5, argument=45) OR (query(type=5, argument=44) OR query(type=5, argument=47))))",48,49
+3,96,Salza,3,46,46,Jeice,False,43,"(query(type=5, argument=43) OR (query(type=5, argument=45) OR (query(type=5, argument=44) OR query(type=5, argument=47))))",48,49
+3,96,Salza,4,45,45,Burter,False,44,"(query(type=5, argument=43) OR (query(type=5, argument=46) OR (query(type=5, argument=44) OR query(type=5, argument=47))))",48,49
+3,96,Salza,5,97,97,Neizu,True,45,"(query(type=5, argument=96) OR query(type=5, argument=98))",48,49
+3,96,Salza,6,96,96,Salza,False,46,"(query(type=5, argument=97) OR query(type=5, argument=98))",48,49
+3,96,Salza,7,98,98,Dore,True,47,"(query(type=5, argument=97) OR query(type=5, argument=96))",48,49
+3,97,Neizu,0,44,44,Recoome,False,40,"(query(type=5, argument=43) OR (query(type=5, argument=46) OR (query(type=5, argument=45) OR query(type=5, argument=47))))",48,49
+3,97,Neizu,1,47,47,Guldo,False,41,"(query(type=5, argument=43) OR (query(type=5, argument=46) OR (query(type=5, argument=45) OR query(type=5, argument=44))))",48,49
+3,97,Neizu,2,43,43,Captain Ginyu,False,42,"(query(type=5, argument=46) OR (query(type=5, argument=45) OR (query(type=5, argument=44) OR query(type=5, argument=47))))",48,49
+3,97,Neizu,3,46,46,Jeice,False,43,"(query(type=5, argument=43) OR (query(type=5, argument=45) OR (query(type=5, argument=44) OR query(type=5, argument=47))))",48,49
+3,97,Neizu,4,45,45,Burter,False,44,"(query(type=5, argument=43) OR (query(type=5, argument=46) OR (query(type=5, argument=44) OR query(type=5, argument=47))))",48,49
+3,97,Neizu,5,97,97,Neizu,False,45,"(query(type=5, argument=96) OR query(type=5, argument=98))",48,49
+3,97,Neizu,6,96,96,Salza,True,46,"(query(type=5, argument=97) OR query(type=5, argument=98))",48,49
+3,97,Neizu,7,98,98,Dore,True,47,"(query(type=5, argument=97) OR query(type=5, argument=96))",48,49
+3,98,Dore,0,44,44,Recoome,False,40,"(query(type=5, argument=43) OR (query(type=5, argument=46) OR (query(type=5, argument=45) OR query(type=5, argument=47))))",48,49
+3,98,Dore,1,47,47,Guldo,False,41,"(query(type=5, argument=43) OR (query(type=5, argument=46) OR (query(type=5, argument=45) OR query(type=5, argument=44))))",48,49
+3,98,Dore,2,43,43,Captain Ginyu,False,42,"(query(type=5, argument=46) OR (query(type=5, argument=45) OR (query(type=5, argument=44) OR query(type=5, argument=47))))",48,49
+3,98,Dore,3,46,46,Jeice,False,43,"(query(type=5, argument=43) OR (query(type=5, argument=45) OR (query(type=5, argument=44) OR query(type=5, argument=47))))",48,49
+3,98,Dore,4,45,45,Burter,False,44,"(query(type=5, argument=43) OR (query(type=5, argument=46) OR (query(type=5, argument=44) OR query(type=5, argument=47))))",48,49
+3,98,Dore,5,97,97,Neizu,True,45,"(query(type=5, argument=96) OR query(type=5, argument=98))",48,49
+3,98,Dore,6,96,96,Salza,True,46,"(query(type=5, argument=97) OR query(type=5, argument=98))",48,49
+3,98,Dore,7,98,98,Dore,False,47,"(query(type=5, argument=97) OR query(type=5, argument=96))",48,49
+4,0,Goku,0,1,1,Goku / Super Saiyan,False,65,"query(type=5, argument=17)",67,68
+4,0,Goku,1,18,18,Vegeta / Super Saiyan,True,66,"query(type=5, argument=0)",67,68
+4,17,Vegeta,0,1,1,Goku / Super Saiyan,True,65,"query(type=5, argument=17)",67,68
+4,17,Vegeta,1,18,18,Vegeta / Super Saiyan,False,66,"query(type=5, argument=0)",67,68
+4,81,Meta-Cooler,0,1,1,Goku / Super Saiyan,False,65,"query(type=5, argument=17)",67,68
+4,81,Meta-Cooler,1,18,18,Vegeta / Super Saiyan,False,66,"query(type=5, argument=0)",67,68
+475,82,Android #13,0,82,82,Android #13,False,3162,"(query(type=5, argument=94) OR query(type=5, argument=95))",3165,3166
+475,82,Android #13,1,94,94,Android #14,True,3163,"(query(type=5, argument=82) OR query(type=5, argument=95))",3165,3166
+475,82,Android #13,2,95,95,Android #15,True,3164,"(query(type=5, argument=82) OR query(type=5, argument=94))",3165,3166
+475,94,Android #14,0,82,82,Android #13,True,3162,"(query(type=5, argument=94) OR query(type=5, argument=95))",3165,3166
+475,94,Android #14,1,94,94,Android #14,False,3163,"(query(type=5, argument=82) OR query(type=5, argument=95))",3165,3166
+475,94,Android #14,2,95,95,Android #15,True,3164,"(query(type=5, argument=82) OR query(type=5, argument=94))",3165,3166
+475,95,Android #15,0,82,82,Android #13,True,3162,"(query(type=5, argument=94) OR query(type=5, argument=95))",3165,3166
+475,95,Android #15,1,94,94,Android #14,True,3163,"(query(type=5, argument=82) OR query(type=5, argument=95))",3165,3166
+475,95,Android #15,2,95,95,Android #15,False,3164,"(query(type=5, argument=82) OR query(type=5, argument=94))",3165,3166
+476,84,Zangya,0,85,85,Bojack,True,3174,"query(type=5, argument=84)",3176,3177
+476,84,Zangya,1,84,84,Zangya,False,3175,"query(type=5, argument=85)",3176,3177
+476,85,Bojack,0,85,85,Bojack,False,3174,"query(type=5, argument=84)",3176,3177
+476,85,Bojack,1,84,84,Zangya,True,3175,"query(type=5, argument=85)",3176,3177
+478,8,Gohan,0,10,10,Gohan / Super Saiyan 2,False,3193,"(query(type=5, argument=27) OR (query(type=5, argument=29) OR query(type=5, argument=36)))",3197,3198
+478,8,Gohan,1,28,28,Kid Trunks / Super Saiyan,True,3194,"(query(type=5, argument=8) OR (query(type=5, argument=29) OR query(type=5, argument=36)))",3197,3198
+478,8,Gohan,2,30,30,Goten / Super Saiyan,True,3195,"(query(type=5, argument=8) OR (query(type=5, argument=27) OR query(type=5, argument=36)))",3197,3198
+478,8,Gohan,3,36,36,Videl,True,3196,"(query(type=5, argument=8) OR (query(type=5, argument=27) OR query(type=5, argument=29)))",3197,3198
+478,27,Kid Trunks,0,10,10,Gohan / Super Saiyan 2,True,3193,"(query(type=5, argument=27) OR (query(type=5, argument=29) OR query(type=5, argument=36)))",3197,3198
+478,27,Kid Trunks,1,28,28,Kid Trunks / Super Saiyan,False,3194,"(query(type=5, argument=8) OR (query(type=5, argument=29) OR query(type=5, argument=36)))",3197,3198
+478,27,Kid Trunks,2,30,30,Goten / Super Saiyan,True,3195,"(query(type=5, argument=8) OR (query(type=5, argument=27) OR query(type=5, argument=36)))",3197,3198
+478,27,Kid Trunks,3,36,36,Videl,True,3196,"(query(type=5, argument=8) OR (query(type=5, argument=27) OR query(type=5, argument=29)))",3197,3198
+478,29,Goten,0,10,10,Gohan / Super Saiyan 2,True,3193,"(query(type=5, argument=27) OR (query(type=5, argument=29) OR query(type=5, argument=36)))",3197,3198
+478,29,Goten,1,28,28,Kid Trunks / Super Saiyan,True,3194,"(query(type=5, argument=8) OR (query(type=5, argument=29) OR query(type=5, argument=36)))",3197,3198
+478,29,Goten,2,30,30,Goten / Super Saiyan,False,3195,"(query(type=5, argument=8) OR (query(type=5, argument=27) OR query(type=5, argument=36)))",3197,3198
+478,29,Goten,3,36,36,Videl,True,3196,"(query(type=5, argument=8) OR (query(type=5, argument=27) OR query(type=5, argument=29)))",3197,3198
+478,36,Videl,0,10,10,Gohan / Super Saiyan 2,True,3193,"(query(type=5, argument=27) OR (query(type=5, argument=29) OR query(type=5, argument=36)))",3197,3198
+478,36,Videl,1,28,28,Kid Trunks / Super Saiyan,True,3194,"(query(type=5, argument=8) OR (query(type=5, argument=29) OR query(type=5, argument=36)))",3197,3198
+478,36,Videl,2,30,30,Goten / Super Saiyan,True,3195,"(query(type=5, argument=8) OR (query(type=5, argument=27) OR query(type=5, argument=36)))",3197,3198
+478,36,Videl,3,36,36,Videl,False,3196,"(query(type=5, argument=8) OR (query(type=5, argument=27) OR query(type=5, argument=29)))",3197,3198
+478,67,Broly,0,10,10,Gohan / Super Saiyan 2,False,3193,"(query(type=5, argument=27) OR (query(type=5, argument=29) OR query(type=5, argument=36)))",3197,3198
+478,67,Broly,1,28,28,Kid Trunks / Super Saiyan,False,3194,"(query(type=5, argument=8) OR (query(type=5, argument=29) OR query(type=5, argument=36)))",3197,3198
+478,67,Broly,2,30,30,Goten / Super Saiyan,False,3195,"(query(type=5, argument=8) OR (query(type=5, argument=27) OR query(type=5, argument=36)))",3197,3198
+478,67,Broly,3,36,36,Videl,False,3196,"(query(type=5, argument=8) OR (query(type=5, argument=27) OR query(type=5, argument=29)))",3197,3198
+479,14,Tien,0,14,14,Tien,False,3210,"query(type=5, argument=15)",3212,3213
+479,14,Tien,1,15,15,Chiaotzu,True,3211,"query(type=5, argument=14)",3212,3213
+479,15,Chiaotzu,0,14,14,Tien,True,3210,"query(type=5, argument=15)",3212,3213
+479,15,Chiaotzu,1,15,15,Chiaotzu,False,3211,"query(type=5, argument=14)",3212,3213
+479,39,Nappa,0,14,14,Tien,False,3210,"query(type=5, argument=15)",3212,3213
+479,39,Nappa,1,15,15,Chiaotzu,False,3211,"query(type=5, argument=14)",3212,3213
+480,70,Super Gogeta,0,70,70,Super Gogeta,False,3223,"query(type=5, argument=92)",3225,3226
+480,70,Super Gogeta,1,92,92,Pikkon,True,3224,"query(type=5, argument=70)",3225,3226
+480,87,Super Janemba,0,70,70,Super Gogeta,False,3223,"query(type=5, argument=92)",3225,3226
+480,87,Super Janemba,1,92,92,Pikkon,False,3224,"query(type=5, argument=70)",3225,3226
+480,92,Pikkon,0,70,70,Super Gogeta,True,3223,"query(type=5, argument=92)",3225,3226
+480,92,Pikkon,1,92,92,Pikkon,False,3224,"query(type=5, argument=70)",3225,3226
+481,22,Trunks (Sword),0,22,22,Trunks (Sword),False,3236,"query(type=5, argument=88)",3240,3241
+481,22,Trunks (Sword),1,89,89,Future Gohan / Super Saiyan,True,3237,"query(type=5, argument=22)",3240,3241
+481,22,Trunks (Sword),2,55,55,Android #18,False,3238,"query(type=5, argument=54)",3240,3241
+481,22,Trunks (Sword),3,54,54,Android #17,False,3239,"query(type=5, argument=55)",3240,3241
+481,54,Android #17,0,22,22,Trunks (Sword),False,3236,"query(type=5, argument=88)",3240,3241
+481,54,Android #17,1,89,89,Future Gohan / Super Saiyan,False,3237,"query(type=5, argument=22)",3240,3241
+481,54,Android #17,2,55,55,Android #18,True,3238,"query(type=5, argument=54)",3240,3241
+481,54,Android #17,3,54,54,Android #17,False,3239,"query(type=5, argument=55)",3240,3241
+481,55,Android #18,0,22,22,Trunks (Sword),False,3236,"query(type=5, argument=88)",3240,3241
+481,55,Android #18,1,89,89,Future Gohan / Super Saiyan,False,3237,"query(type=5, argument=22)",3240,3241
+481,55,Android #18,2,55,55,Android #18,False,3238,"query(type=5, argument=54)",3240,3241
+481,55,Android #18,3,54,54,Android #17,True,3239,"query(type=5, argument=55)",3240,3241
+481,88,Future Gohan,0,22,22,Trunks (Sword),True,3236,"query(type=5, argument=88)",3240,3241
+481,88,Future Gohan,1,89,89,Future Gohan / Super Saiyan,False,3237,"query(type=5, argument=22)",3240,3241
+481,88,Future Gohan,2,55,55,Android #18,False,3238,"query(type=5, argument=54)",3240,3241
+481,88,Future Gohan,3,54,54,Android #17,False,3239,"query(type=5, argument=55)",3240,3241
+482,12,Krillin,0,55,55,Android #18,True,3253,"query(type=5, argument=12)",3255,3256
+482,12,Krillin,1,12,12,Krillin,False,3254,"query(type=5, argument=55)",3255,3256
+482,54,Android #17,0,55,55,Android #18,False,3253,"query(type=5, argument=12)",3255,3256
+482,54,Android #17,1,12,12,Krillin,False,3254,"query(type=5, argument=55)",3255,3256
+482,55,Android #18,0,55,55,Android #18,False,3253,"query(type=5, argument=12)",3255,3256
+482,55,Android #18,1,12,12,Krillin,True,3254,"query(type=5, argument=55)",3255,3256
+483,38,Raditz,0,39,39,Nappa,True,3267,"query(type=5, argument=38)",3269,3270
+483,38,Raditz,1,38,38,Raditz,False,3268,"query(type=5, argument=39)",3269,3270
+483,39,Nappa,0,39,39,Nappa,False,3267,"query(type=5, argument=38)",3269,3270
+483,39,Nappa,1,38,38,Raditz,True,3268,"query(type=5, argument=39)",3269,3270
+484,37,Bardock,0,37,37,Bardock,False,3279,"query(type=5, argument=78)",3284,3285
+484,37,Bardock,1,78,78,Turles,True,3280,"query(type=5, argument=37)",3284,3285
+484,37,Bardock,2,42,42,Dodoria,False,3281,"(query(type=5, argument=40) OR query(type=5, argument=48))",3284,3285
+484,37,Bardock,3,40,40,Zarbon,False,3282,"(query(type=5, argument=42) OR query(type=5, argument=48))",3284,3285
+484,37,Bardock,4,48,48,Frieza / 1st Form,False,3283,"(query(type=5, argument=40) OR query(type=5, argument=42))",3284,3285
+484,40,Zarbon,0,37,37,Bardock,False,3279,"query(type=5, argument=78)",3284,3285
+484,40,Zarbon,1,78,78,Turles,False,3280,"query(type=5, argument=37)",3284,3285
+484,40,Zarbon,2,42,42,Dodoria,True,3281,"(query(type=5, argument=40) OR query(type=5, argument=48))",3284,3285
+484,40,Zarbon,3,40,40,Zarbon,False,3282,"(query(type=5, argument=42) OR query(type=5, argument=48))",3284,3285
+484,40,Zarbon,4,48,48,Frieza / 1st Form,True,3283,"(query(type=5, argument=40) OR query(type=5, argument=42))",3284,3285
+484,42,Dodoria,0,37,37,Bardock,False,3279,"query(type=5, argument=78)",3284,3285
+484,42,Dodoria,1,78,78,Turles,False,3280,"query(type=5, argument=37)",3284,3285
+484,42,Dodoria,2,42,42,Dodoria,False,3281,"(query(type=5, argument=40) OR query(type=5, argument=48))",3284,3285
+484,42,Dodoria,3,40,40,Zarbon,True,3282,"(query(type=5, argument=42) OR query(type=5, argument=48))",3284,3285
+484,42,Dodoria,4,48,48,Frieza / 1st Form,True,3283,"(query(type=5, argument=40) OR query(type=5, argument=42))",3284,3285
+484,48,Frieza / 1st Form,0,37,37,Bardock,False,3279,"query(type=5, argument=78)",3284,3285
+484,48,Frieza / 1st Form,1,78,78,Turles,False,3280,"query(type=5, argument=37)",3284,3285
+484,48,Frieza / 1st Form,2,42,42,Dodoria,True,3281,"(query(type=5, argument=40) OR query(type=5, argument=48))",3284,3285
+484,48,Frieza / 1st Form,3,40,40,Zarbon,True,3282,"(query(type=5, argument=42) OR query(type=5, argument=48))",3284,3285
+484,48,Frieza / 1st Form,4,48,48,Frieza / 1st Form,False,3283,"(query(type=5, argument=40) OR query(type=5, argument=42))",3284,3285
+484,78,Turles,0,37,37,Bardock,True,3279,"query(type=5, argument=78)",3284,3285
+484,78,Turles,1,78,78,Turles,False,3280,"query(type=5, argument=37)",3284,3285
+484,78,Turles,2,42,42,Dodoria,False,3281,"(query(type=5, argument=40) OR query(type=5, argument=48))",3284,3285
+484,78,Turles,3,40,40,Zarbon,False,3282,"(query(type=5, argument=42) OR query(type=5, argument=48))",3284,3285
+484,78,Turles,4,48,48,Frieza / 1st Form,False,3283,"(query(type=5, argument=40) OR query(type=5, argument=42))",3284,3285
+485,48,Frieza / 1st Form,0,51,51,Frieza / Final Form,False,3298,"query(type=5, argument=79)",3300,3301
+485,48,Frieza / 1st Form,1,79,79,Cooler,True,3299,"query(type=5, argument=48)",3300,3301
+485,79,Cooler,0,51,51,Frieza / Final Form,True,3298,"query(type=5, argument=79)",3300,3301
+485,79,Cooler,1,79,79,Cooler,False,3299,"query(type=5, argument=48)",3300,3301
+486,31,Gotenks,0,33,33,Gotenks / Super Saiyan 3,False,3309,"query(type=5, argument=73)",3311,3312
+486,31,Gotenks,1,73,73,Ultimate Gohan,True,3310,"query(type=5, argument=31)",3311,3312
+486,63,Super Buu,0,33,33,Gotenks / Super Saiyan 3,False,3309,"query(type=5, argument=73)",3311,3312
+486,63,Super Buu,1,73,73,Ultimate Gohan,False,3310,"query(type=5, argument=31)",3311,3312
+486,73,Ultimate Gohan,0,33,33,Gotenks / Super Saiyan 3,True,3309,"query(type=5, argument=73)",3311,3312
+486,73,Ultimate Gohan,1,73,73,Ultimate Gohan,False,3310,"query(type=5, argument=31)",3311,3312
+487,16,Vegeta (Scouter),0,16,16,Vegeta (Scouter),False,3322,"query(type=5, argument=93)",3324,3325
+487,16,Vegeta (Scouter),1,93,93,Tarble,True,3323,"query(type=5, argument=16)",3324,3325
+487,93,Tarble,0,16,16,Vegeta (Scouter),True,3322,"query(type=5, argument=93)",3324,3325
+487,93,Tarble,1,93,93,Tarble,False,3323,"query(type=5, argument=16)",3324,3325
+488,21,Vegeta / Majin,0,21,21,Vegeta / Majin,False,3331,"query(type=5, argument=77)",3333,3334
+488,21,Vegeta / Majin,1,77,77,Demon King Dabura,True,3332,"query(type=5, argument=21)",3333,3334
+488,62,Majin Buu,0,21,21,Vegeta / Majin,False,3331,"query(type=5, argument=77)",3333,3334
+488,62,Majin Buu,1,77,77,Demon King Dabura,False,3332,"query(type=5, argument=21)",3333,3334
+488,77,Demon King Dabura,0,21,21,Vegeta / Majin,True,3331,"query(type=5, argument=77)",3333,3334
+488,77,Demon King Dabura,1,77,77,Demon King Dabura,False,3332,"query(type=5, argument=21)",3333,3334
+489,12,Krillin,0,13,13,Yamcha,True,3345,"query(type=5, argument=12)",3347,3348
+489,12,Krillin,1,12,12,Krillin,False,3346,"query(type=5, argument=13)",3347,3348
+489,13,Yamcha,0,13,13,Yamcha,False,3345,"query(type=5, argument=12)",3347,3348
+489,13,Yamcha,1,12,12,Krillin,True,3346,"query(type=5, argument=13)",3347,3348
+489,66,Kid Buu,0,13,13,Yamcha,False,3345,"query(type=5, argument=12)",3347,3348
+489,66,Kid Buu,1,12,12,Krillin,False,3346,"query(type=5, argument=13)",3347,3348
+490,13,Yamcha,0,13,13,Yamcha,False,3358,"query(type=5, argument=74)",3362,3363
+490,13,Yamcha,1,74,74,Saibamen,True,3359,"query(type=5, argument=13)",3362,3363
+490,13,Yamcha,2,56,56,Android #19,False,3360,"query(type=5, argument=57)",3362,3363
+490,13,Yamcha,3,57,57,Dr. Gero,False,3361,"query(type=5, argument=56)",3362,3363
+490,56,Android #19,0,13,13,Yamcha,False,3358,"query(type=5, argument=74)",3362,3363
+490,56,Android #19,1,74,74,Saibamen,False,3359,"query(type=5, argument=13)",3362,3363
+490,56,Android #19,2,56,56,Android #19,False,3360,"query(type=5, argument=57)",3362,3363
+490,56,Android #19,3,57,57,Dr. Gero,True,3361,"query(type=5, argument=56)",3362,3363
+490,57,Dr. Gero,0,13,13,Yamcha,False,3358,"query(type=5, argument=74)",3362,3363
+490,57,Dr. Gero,1,74,74,Saibamen,False,3359,"query(type=5, argument=13)",3362,3363
+490,57,Dr. Gero,2,56,56,Android #19,True,3360,"query(type=5, argument=57)",3362,3363
+490,57,Dr. Gero,3,57,57,Dr. Gero,False,3361,"query(type=5, argument=56)",3362,3363
+490,74,Saibamen,0,13,13,Yamcha,True,3358,"query(type=5, argument=74)",3362,3363
+490,74,Saibamen,1,74,74,Saibamen,False,3359,"query(type=5, argument=13)",3362,3363
+490,74,Saibamen,2,56,56,Android #19,False,3360,"query(type=5, argument=57)",3362,3363
+490,74,Saibamen,3,57,57,Dr. Gero,False,3361,"query(type=5, argument=56)",3362,3363
+491,0,Goku,0,18,18,Vegeta / Super Saiyan,True,3375,"(query(type=5, argument=11) OR (query(type=5, argument=5) OR (query(type=5, argument=24) OR query(type=5, argument=0))))",3380,3381
+491,0,Goku,1,11,11,Piccolo,True,3376,"(query(type=5, argument=17) OR (query(type=5, argument=5) OR (query(type=5, argument=24) OR query(type=5, argument=0))))",3380,3381
+491,0,Goku,2,6,6,Teen Gohan / Super Saiyan,True,3377,"(query(type=5, argument=11) OR (query(type=5, argument=17) OR (query(type=5, argument=24) OR query(type=5, argument=0))))",3380,3381
+491,0,Goku,3,25,25,Trunks (Fighting Teen) / Super Saiyan,True,3378,"(query(type=5, argument=11) OR (query(type=5, argument=17) OR (query(type=5, argument=5) OR query(type=5, argument=0))))",3380,3381
+491,0,Goku,4,1,1,Goku / Super Saiyan,False,3379,"(query(type=5, argument=11) OR (query(type=5, argument=17) OR (query(type=5, argument=5) OR query(type=5, argument=24))))",3380,3381
+491,5,Teen Gohan,0,18,18,Vegeta / Super Saiyan,True,3375,"(query(type=5, argument=11) OR (query(type=5, argument=5) OR (query(type=5, argument=24) OR query(type=5, argument=0))))",3380,3381
+491,5,Teen Gohan,1,11,11,Piccolo,True,3376,"(query(type=5, argument=17) OR (query(type=5, argument=5) OR (query(type=5, argument=24) OR query(type=5, argument=0))))",3380,3381
+491,5,Teen Gohan,2,6,6,Teen Gohan / Super Saiyan,False,3377,"(query(type=5, argument=11) OR (query(type=5, argument=17) OR (query(type=5, argument=24) OR query(type=5, argument=0))))",3380,3381
+491,5,Teen Gohan,3,25,25,Trunks (Fighting Teen) / Super Saiyan,True,3378,"(query(type=5, argument=11) OR (query(type=5, argument=17) OR (query(type=5, argument=5) OR query(type=5, argument=0))))",3380,3381
+491,5,Teen Gohan,4,1,1,Goku / Super Saiyan,True,3379,"(query(type=5, argument=11) OR (query(type=5, argument=17) OR (query(type=5, argument=5) OR query(type=5, argument=24))))",3380,3381
+491,11,Piccolo,0,18,18,Vegeta / Super Saiyan,True,3375,"(query(type=5, argument=11) OR (query(type=5, argument=5) OR (query(type=5, argument=24) OR query(type=5, argument=0))))",3380,3381
+491,11,Piccolo,1,11,11,Piccolo,False,3376,"(query(type=5, argument=17) OR (query(type=5, argument=5) OR (query(type=5, argument=24) OR query(type=5, argument=0))))",3380,3381
+491,11,Piccolo,2,6,6,Teen Gohan / Super Saiyan,True,3377,"(query(type=5, argument=11) OR (query(type=5, argument=17) OR (query(type=5, argument=24) OR query(type=5, argument=0))))",3380,3381
+491,11,Piccolo,3,25,25,Trunks (Fighting Teen) / Super Saiyan,True,3378,"(query(type=5, argument=11) OR (query(type=5, argument=17) OR (query(type=5, argument=5) OR query(type=5, argument=0))))",3380,3381
+491,11,Piccolo,4,1,1,Goku / Super Saiyan,True,3379,"(query(type=5, argument=11) OR (query(type=5, argument=17) OR (query(type=5, argument=5) OR query(type=5, argument=24))))",3380,3381
+491,17,Vegeta,0,18,18,Vegeta / Super Saiyan,False,3375,"(query(type=5, argument=11) OR (query(type=5, argument=5) OR (query(type=5, argument=24) OR query(type=5, argument=0))))",3380,3381
+491,17,Vegeta,1,11,11,Piccolo,True,3376,"(query(type=5, argument=17) OR (query(type=5, argument=5) OR (query(type=5, argument=24) OR query(type=5, argument=0))))",3380,3381
+491,17,Vegeta,2,6,6,Teen Gohan / Super Saiyan,True,3377,"(query(type=5, argument=11) OR (query(type=5, argument=17) OR (query(type=5, argument=24) OR query(type=5, argument=0))))",3380,3381
+491,17,Vegeta,3,25,25,Trunks (Fighting Teen) / Super Saiyan,True,3378,"(query(type=5, argument=11) OR (query(type=5, argument=17) OR (query(type=5, argument=5) OR query(type=5, argument=0))))",3380,3381
+491,17,Vegeta,4,1,1,Goku / Super Saiyan,True,3379,"(query(type=5, argument=11) OR (query(type=5, argument=17) OR (query(type=5, argument=5) OR query(type=5, argument=24))))",3380,3381
+491,24,Trunks (Fighting Teen),0,18,18,Vegeta / Super Saiyan,True,3375,"(query(type=5, argument=11) OR (query(type=5, argument=5) OR (query(type=5, argument=24) OR query(type=5, argument=0))))",3380,3381
+491,24,Trunks (Fighting Teen),1,11,11,Piccolo,True,3376,"(query(type=5, argument=17) OR (query(type=5, argument=5) OR (query(type=5, argument=24) OR query(type=5, argument=0))))",3380,3381
+491,24,Trunks (Fighting Teen),2,6,6,Teen Gohan / Super Saiyan,True,3377,"(query(type=5, argument=11) OR (query(type=5, argument=17) OR (query(type=5, argument=24) OR query(type=5, argument=0))))",3380,3381
+491,24,Trunks (Fighting Teen),3,25,25,Trunks (Fighting Teen) / Super Saiyan,False,3378,"(query(type=5, argument=11) OR (query(type=5, argument=17) OR (query(type=5, argument=5) OR query(type=5, argument=0))))",3380,3381
+491,24,Trunks (Fighting Teen),4,1,1,Goku / Super Saiyan,True,3379,"(query(type=5, argument=11) OR (query(type=5, argument=17) OR (query(type=5, argument=5) OR query(type=5, argument=24))))",3380,3381
+491,99,Hatchiyack,0,18,18,Vegeta / Super Saiyan,False,3375,"(query(type=5, argument=11) OR (query(type=5, argument=5) OR (query(type=5, argument=24) OR query(type=5, argument=0))))",3380,3381
+491,99,Hatchiyack,1,11,11,Piccolo,False,3376,"(query(type=5, argument=17) OR (query(type=5, argument=5) OR (query(type=5, argument=24) OR query(type=5, argument=0))))",3380,3381
+491,99,Hatchiyack,2,6,6,Teen Gohan / Super Saiyan,False,3377,"(query(type=5, argument=11) OR (query(type=5, argument=17) OR (query(type=5, argument=24) OR query(type=5, argument=0))))",3380,3381
+491,99,Hatchiyack,3,25,25,Trunks (Fighting Teen) / Super Saiyan,False,3378,"(query(type=5, argument=11) OR (query(type=5, argument=17) OR (query(type=5, argument=5) OR query(type=5, argument=0))))",3380,3381
+491,99,Hatchiyack,4,1,1,Goku / Super Saiyan,False,3379,"(query(type=5, argument=11) OR (query(type=5, argument=17) OR (query(type=5, argument=5) OR query(type=5, argument=24))))",3380,3381
+492,5,Teen Gohan,0,6,6,Teen Gohan / Super Saiyan,False,3394,"query(type=5, argument=53)",3396,3397
+492,5,Teen Gohan,1,53,53,Android #16,True,3395,"query(type=5, argument=5)",3396,3397
+492,53,Android #16,0,6,6,Teen Gohan / Super Saiyan,True,3394,"query(type=5, argument=53)",3396,3397
+492,53,Android #16,1,53,53,Android #16,False,3395,"query(type=5, argument=5)",3396,3397
+492,58,Cell / 1st Form,0,6,6,Teen Gohan / Super Saiyan,False,3394,"query(type=5, argument=53)",3396,3397
+492,58,Cell / 1st Form,1,53,53,Android #16,False,3395,"query(type=5, argument=5)",3396,3397
+493,75,Mecha Frieza,0,75,75,Mecha Frieza,False,3409,"query(type=5, argument=81)",3411,3412
+493,75,Mecha Frieza,1,81,81,Meta-Cooler,True,3410,"query(type=5, argument=75)",3411,3412
+493,81,Meta-Cooler,0,75,75,Mecha Frieza,True,3409,"query(type=5, argument=81)",3411,3412
+493,81,Meta-Cooler,1,81,81,Meta-Cooler,False,3410,"query(type=5, argument=75)",3411,3412
+494,74,Saibamen,0,74,74,Saibamen,False,3419,"query(type=5, argument=76)",3421,3422
+494,74,Saibamen,1,76,76,Cell Jr.,True,3420,"query(type=5, argument=74)",3421,3422
+494,76,Cell Jr.,0,74,74,Saibamen,True,3419,"query(type=5, argument=76)",3421,3422
+494,76,Cell Jr.,1,76,76,Cell Jr.,False,3420,"query(type=5, argument=74)",3421,3422
+495,24,Trunks (Fighting Teen),0,25,25,Trunks (Fighting Teen) / Super Saiyan,False,3431,"query(type=5, argument=53)",3433,3434
+495,24,Trunks (Fighting Teen),1,53,53,Android #16,True,3432,"query(type=5, argument=24)",3433,3434
+495,53,Android #16,0,25,25,Trunks (Fighting Teen) / Super Saiyan,True,3431,"query(type=5, argument=53)",3433,3434
+495,53,Android #16,1,53,53,Android #16,False,3432,"query(type=5, argument=24)",3433,3434
+496,34,Vegito,0,70,70,Super Gogeta,True,3441,"query(type=5, argument=34)",3445,3446
+496,34,Vegito,1,35,35,Super Vegito,False,3442,"query(type=5, argument=70)",3445,3446
+496,34,Vegito,2,71,71,Vegeta / Super Saiyan 3,False,3443,"query(type=5, argument=72)",3445,3446
+496,34,Vegito,3,72,72,Broly / Super Saiyan 3,False,3444,"query(type=5, argument=71)",3445,3446
+496,70,Super Gogeta,0,70,70,Super Gogeta,False,3441,"query(type=5, argument=34)",3445,3446
+496,70,Super Gogeta,1,35,35,Super Vegito,True,3442,"query(type=5, argument=70)",3445,3446
+496,70,Super Gogeta,2,71,71,Vegeta / Super Saiyan 3,False,3443,"query(type=5, argument=72)",3445,3446
+496,70,Super Gogeta,3,72,72,Broly / Super Saiyan 3,False,3444,"query(type=5, argument=71)",3445,3446
+496,71,Vegeta / Super Saiyan 3,0,70,70,Super Gogeta,False,3441,"query(type=5, argument=34)",3445,3446
+496,71,Vegeta / Super Saiyan 3,1,35,35,Super Vegito,False,3442,"query(type=5, argument=70)",3445,3446
+496,71,Vegeta / Super Saiyan 3,2,71,71,Vegeta / Super Saiyan 3,False,3443,"query(type=5, argument=72)",3445,3446
+496,71,Vegeta / Super Saiyan 3,3,72,72,Broly / Super Saiyan 3,True,3444,"query(type=5, argument=71)",3445,3446
+496,72,Broly / Super Saiyan 3,0,70,70,Super Gogeta,False,3441,"query(type=5, argument=34)",3445,3446
+496,72,Broly / Super Saiyan 3,1,35,35,Super Vegito,False,3442,"query(type=5, argument=70)",3445,3446
+496,72,Broly / Super Saiyan 3,2,71,71,Vegeta / Super Saiyan 3,True,3443,"query(type=5, argument=72)",3445,3446
+496,72,Broly / Super Saiyan 3,3,72,72,Broly / Super Saiyan 3,False,3444,"query(type=5, argument=71)",3445,3446

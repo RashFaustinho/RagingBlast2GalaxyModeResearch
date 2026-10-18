@@ -1,0 +1,46 @@
+{
+  "experiment": "KB09A",
+  "baseline": "KB07A boot +initial enemy1059",
+  "status": "CONTROLLED_ACTIVE_BATTLE_START_SSJ3_SWITCH_TO_FAT_BUU",
+  "observations": [
+    {
+      "utc": "2026-10-14T17:03:57Z",
+      "native": 3,
+      "preset": 1059,
+      "HP": 40000,
+      "aura": 1.949999,
+      "gear": [
+        "15E"
+      ],
+      "phase": "after intro, CPU starts attacking"
+    },
+    {
+      "utc": "2026-10-14T17:04:35Z",
+      "probe": "HP19000 aura50 written after identity check"
+    },
+    {
+      "utc": "2026-10-14T17:05:05Z",
+      "event": "After30wall seconds",
+      "PC": "0x46503c",
+      "Goku_native": 3,
+      "Goku_preset": 1059,
+      "Goku_HP": 19000,
+      "Goku_aura": 50,
+      "gear": [
+        "15E"
+      ],
+      "observed_screen": "Fat Buu is active"
+    },
+    {
+      "utc": "2026-10-14T17:09:18Z",
+      "event": "Confirmed active slot2; Fat Buu native62 preset1063"
+    }
+  ],
+  "breakpoints": [
+    "3a5ec",
+    "3a79c",
+    "3a7c0"
+  ],
+  "limits": "No cancel request observed in this window; team switch competes with continued observations of Goku. Does not prove item15E causes the switch or that cancellation is impossible. Original EBOOT unchanged.",
+  "item_label_correction": "See OGGETTI_CORRETTI_E_KB10A.md: 155=second transform at two bars; 15E=swap at two bars. Earlier cancellation interpretation superseded."
+}

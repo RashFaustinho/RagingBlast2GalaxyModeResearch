@@ -1,0 +1,68 @@
+{
+  "experiment": "G12A",
+  "original_galaxy_sha256": "d1fe4aa4a2d482bbe5becef8a53b23ad2d701eb78404caa935797c5cdaebd1aa",
+  "galaxy_sha256": "e01bc591b6abb9816321f75b42e85c863fab62233b11b4b4029c07d055950005",
+  "physical_node": 238,
+  "root_offset": "0x1C4F4",
+  "roster_descriptor": 1580,
+  "roster_offset": "0xe370",
+  "change": "Single u16 preset496->1061; original arena/rules/rosters elsewhere untouched",
+  "enemy": "Vegeta SSJ2 preset1061, item15B, forward base1062",
+  "boot_archives": "KB11A unchanged; resident Goku-strength hotpatches irrelevant to single Vegeta roster",
+  "status": "SIMPLE_GOKU_MISSION_VEGETA_CANCEL_TO_CUSTOM_BASE_OBSERVED",
+  "boot_sha256": "52f800e7df95ac2f0cb09c34b3848da1d805a837cb27e51f39f1fbcea73e631c",
+  "EBOOT": "Original, unchanged",
+  "ui_navigation": "Matched data-only selected-node/root-pointer writes246->238; battle root and actual roster verified; cold-loaded G12A archive. Earlier RAM attempt interrupted before combat excluded.",
+  "phase_validation": "Actual combat pause menu; CPU aura/behavior advances. PlayerHP did not decrease during windows, so no damage-based phase corroboration.",
+  "observations": [
+    {
+      "utc": "2026-10-14T19:39:17Z",
+      "phase": "Before enemy CPU initializer",
+      "native": 20,
+      "preset": 1061,
+      "costume_index": 1,
+      "gear": [
+        "15B"
+      ],
+      "property_flags": [
+        "179"
+      ]
+    },
+    {
+      "utc": "2026-10-14T19:44:29Z",
+      "native": 20,
+      "preset": 1061,
+      "HP": 40000,
+      "controlled_HP": 19000,
+      "controlled_aura": 50
+    },
+    {
+      "utc": "2026-10-14T19:47:22Z",
+      "native": 20,
+      "preset": 1061,
+      "HP": 19000,
+      "aura": 195.58360290527344,
+      "forward_native_targets": [
+        17,
+        -1,
+        -1,
+        -1
+      ],
+      "controlled_HP": 9000,
+      "controlled_aura": 50
+    },
+    {
+      "utc": "2026-10-14T19:47:52Z",
+      "native": 17,
+      "preset": 1062,
+      "previous_preset": 1061,
+      "costume_index": 1,
+      "HP": 9000,
+      "gear": [
+        "15E"
+      ]
+    }
+  ],
+  "limits": "60host seconds at19000 without cancel; first30host seconds after9000 show base. Exact transition time/request route not captured. Threshold-versus-latency and single-versus-three-opponent confounds remain. Does not prove a particular mission flag caused KB10B negative.",
+  "evidence": "g12a-rsp-evidence.jsonl"
+}

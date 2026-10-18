@@ -1,0 +1,24 @@
+{
+  "save_base": "0x30000020",
+  "loaded502": [
+    4097,
+    1,
+    339187,
+    0,
+    0,
+    0,
+    0
+  ],
+  "loaded499": [
+    4097,
+    0,
+    283155,
+    0,
+    0,
+    0,
+    0
+  ],
+  "aggregate_last": 511,
+  "r2_selection_instruction": "39290ed0",
+  "status": "71336-byte persisted save loaded after new RPCS3 process; not savestate."
+}

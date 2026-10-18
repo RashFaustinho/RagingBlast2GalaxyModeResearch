@@ -1,0 +1,100 @@
+0012C83C stdu       r1, -0xe0(r1)
+0012C840 mflr       r0
+0012C844 std        r25, 0xa8(r1)
+0012C848 std        r0, 0xf0(r1)
+0012C84C lwz        r11, 0xc(r3)
+0012C850 mr         r9, r3
+0012C854 std        r26, 0xb0(r1)
+0012C858 cmpwi      cr7, r11, 4
+0012C85C std        r27, 0xb8(r1)
+0012C860 std        r28, 0xc0(r1)
+0012C864 std        r29, 0xc8(r1)
+0012C868 std        r30, 0xd0(r1)
+0012C86C std        r31, 0xd8(r1)
+0012C870 beq        cr7, 0x12c8c0
+0012C874 ble        cr7, 0x12c8ac
+0012C878 cmpwi      cr7, r11, 5
+0012C87C beq        cr7, 0x12c9c4
+0012C880 ld         r0, 0xf0(r1)
+0012C884 ld         r25, 0xa8(r1)
+0012C888 ld         r26, 0xb0(r1)
+0012C88C mtlr       r0
+0012C890 ld         r27, 0xb8(r1)
+0012C894 ld         r28, 0xc0(r1)
+0012C898 ld         r29, 0xc8(r1)
+0012C89C ld         r30, 0xd0(r1)
+0012C8A0 ld         r31, 0xd8(r1)
+0012C8A4 addi       r1, r1, 0xe0
+0012C8A8 blr        
+0012C8AC addi       r0, r11, -1
+0012C8B0 cmplwi     cr7, r0, 1
+0012C8B4 bgt        cr7, 0x12c880
+0012C8B8 addi       r30, r3, 0xe0
+0012C8BC b          0x12c8c4
+0012C8C0 addi       r30, r3, 0x4c
+0012C8C4 cmpwi      cr7, r30, 0
+0012C8C8 beq        cr7, 0x12c880
+0012C8CC addi       r25, r9, 0x2a8
+0012C8D0 lwz        r0, 0x2fc(r25)
+0012C8D4 cmpwi      cr7, r0, 0
+0012C8D8 beq        cr7, 0x12c880
+0012C8DC addi       r31, r9, 0x2ac
+0012C8E0 li         r26, 0
+0012C8E4 addi       r27, r1, 0x70
+0012C8E8 li         r28, 0
+0012C8EC li         r0, 0xc
+0012C8F0 li         r7, 0
+0012C8F4 mtctr      r0
+0012C8F8 stw        r28, 0x70(r1)
+0012C8FC stw        r28, 0x74(r1)
+0012C900 stw        r28, 0x78(r1)
+0012C904 stw        r28, 0x7c(r1)
+0012C908 stw        r28, 0x80(r1)
+0012C90C stw        r28, 0x84(r1)
+0012C910 stw        r28, 0x88(r1)
+0012C914 stw        r28, 0x8c(r1)
+0012C918 stw        r28, 0x90(r1)
+0012C91C stw        r28, 0x94(r1)
+0012C920 stw        r28, 0x98(r1)
+0012C924 stw        r28, 0x9c(r1)
+0012C928 add        r10, r31, r7
+0012C92C add        r8, r7, r30
+0012C930 clrldi     r10, r10, 0x20
+0012C934 clrldi     r8, r8, 0x20
+0012C938 add        r11, r7, r27
+0012C93C addi       r7, r7, 4
+0012C940 clrldi     r11, r11, 0x20
+0012C944 lwz        r0, 0x64(r10)
+0012C948 lwz        r9, 0(r8)
+0012C94C or         r0, r0, r9
+0012C950 stw        r0, 0(r11)
+0012C954 bdnz       0x12c928
+0012C958 addi       r29, r31, 0x30
+0012C95C clrldi     r4, r27, 0x20
+0012C960 clrldi     r29, r29, 0x20
+0012C964 addi       r26, r26, 1
+0012C968 mr         r3, r29
+0012C96C bl         0x12c61c
+0012C970 clrldi     r9, r31, 0x20
+0012C974 mr         r4, r29
+0012C978 mr         r3, r9
+0012C97C addi       r31, r31, 0x98
+0012C980 lwz        r5, 4(r9)
+0012C984 extsw      r5, r5
+0012C988 bl         0x12bf74
+0012C98C lwz        r0, 0x2fc(r25)
+0012C990 cmplw      cr7, r0, r26
+0012C994 bgt        cr7, 0x12c8ec
+0012C998 ld         r0, 0xf0(r1)
+0012C99C ld         r25, 0xa8(r1)
+0012C9A0 ld         r26, 0xb0(r1)
+0012C9A4 mtlr       r0
+0012C9A8 ld         r27, 0xb8(r1)
+0012C9AC ld         r28, 0xc0(r1)
+0012C9B0 ld         r29, 0xc8(r1)
+0012C9B4 ld         r30, 0xd0(r1)
+0012C9B8 ld         r31, 0xd8(r1)
+0012C9BC addi       r1, r1, 0xe0
+0012C9C0 blr        
+0012C9C4 addi       r30, r3, 0xd8
+0012C9C8 b          0x12c8c4

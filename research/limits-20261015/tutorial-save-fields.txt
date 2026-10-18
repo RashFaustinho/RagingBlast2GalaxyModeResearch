@@ -1,0 +1,103 @@
+00319040 li         r5, 0x320
+00319044 std        r0, 0xa0(r1)
+00319048 bl         0x5d8dc4
+0031904C ld         r2, 0x28(r1)
+00319050 li         r9, 0
+00319054 lwz        r0, 0x204(r29)
+00319058 li         r11, -1
+0031905C ori        r0, r0, 3
+00319060 li         r10, 1
+00319064 stw        r0, 0x204(r29)
+00319068 stw        r10, 0x14(r29)
+0031906C stw        r9, 0x1c(r29)
+00319070 stw        r11, 0x200(r29)
+00319074 stw        r9, 0(r29)
+00319078 stw        r10, 4(r29)
+0031907C stw        r9, 8(r29)
+00319080 stw        r9, 0xc(r29)
+00319084 stw        r9, 0x10(r29)
+00319088 stw        r9, 0x18(r29)
+0031908C stw        r11, 0x2c(r29)
+00319090 stw        r11, 0xf4(r29)
+00319094 ld         r0, 0xa0(r1)
+00319098 ld         r29, 0x78(r1)
+0031909C addi       r1, r1, 0x90
+003190A0 mtlr       r0
+003190A4 blr        
+003190A8 li         r4, 0
+003190AC mflr       r0
+003190B0 li         r5, 0x140
+003190B4 stdu       r1, -0x70(r1)
+003190B8 std        r0, 0x80(r1)
+003190BC bl         0x5d8dc4
+003190C0 ld         r2, 0x28(r1)
+003190C4 ld         r0, 0x80(r1)
+003190C8 addi       r1, r1, 0x70
+003190CC mtlr       r0
+003190D0 blr        
+
+0020C0D0 subf       r9, r9, r11
+0020C0D4 srawi      r9, r9, 0x1f
+0020C0D8 and        r30, r30, r9
+0020C0DC bl         0x200ed8
+0020C0E0 nop        
+0020C0E4 ld         r29, 0x78(r1)
+0020C0E8 srawi      r9, r3, 0x1f
+0020C0EC ld         r31, 0x88(r1)
+0020C0F0 xor        r0, r9, r3
+0020C0F4 subf       r0, r0, r9
+0020C0F8 srawi      r0, r0, 0x1f
+0020C0FC and        r30, r30, r0
+0020C100 ld         r0, 0xa0(r1)
+0020C104 extsw      r3, r30
+0020C108 mtlr       r0
+0020C10C ld         r30, 0x80(r1)
+0020C110 addi       r1, r1, 0x90
+0020C114 blr        
+0020C118 stdu       r1, -0x80(r1)
+0020C11C mflr       r0
+0020C120 std        r30, 0x70(r1)
+0020C124 std        r31, 0x78(r1)
+0020C128 std        r0, 0x90(r1)
+0020C12C mr         r31, r4
+0020C130 mr         r30, r5
+0020C134 bl         0x3d4f08
+0020C138 nop        
+0020C13C lwz        r0, 0x68(r3)
+0020C140 li         r4, 7
+0020C144 cmpwi      cr7, r0, 0
+0020C148 clrldi     r11, r0, 0x20
+0020C14C li         r0, 0
+0020C150 beq        cr7, 0x20c174
+0020C154 lwz        r9, 0x44(r11)
+0020C158 lwz        r3, 0x30(r11)
+0020C15C lwz        r0, 0x70(r9)
+0020C160 add        r3, r3, r0
+0020C164 clrldi     r3, r3, 0x20
+0020C168 bl         0x5d8ea4
+0020C16C ld         r2, 0x28(r1)
+0020C170 mr         r0, r3
+0020C174 clrldi     r3, r31, 0x20
+0020C178 clrldi     r4, r0, 0x20
+0020C17C extsw      r5, r30
+0020C180 li         r6, 4
+0020C184 bl         0x12d3e4
+0020C188 nop        
+0020C18C ld         r0, 0x90(r1)
+0020C190 ld         r30, 0x70(r1)
+0020C194 ld         r31, 0x78(r1)
+0020C198 mtlr       r0
+0020C19C addi       r1, r1, 0x80
+0020C1A0 blr        
+0020C1A4 stdu       r1, -0xd0(r1)
+0020C1A8 mflr       r0
+0020C1AC std        r31, 0xc8(r1)
+0020C1B0 std        r0, 0xe0(r1)
+0020C1B4 lwz        r0, 0x3e4(r3)
+0020C1B8 mr         r31, r3
+0020C1BC std        r21, 0x78(r1)
+0020C1C0 cmpwi      cr7, r0, 0
+0020C1C4 std        r22, 0x80(r1)
+0020C1C8 std        r23, 0x88(r1)
+0020C1CC std        r24, 0x90(r1)
+

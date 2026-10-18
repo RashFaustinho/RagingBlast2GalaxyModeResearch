@@ -1,0 +1,1656 @@
+{
+  "schema_version": 1,
+  "authority": "FINDINGS.md, CLAIMS.json and current topic guides; historical labels are not silently upgraded",
+  "files": [
+    {
+      "path": "AI_HANDOFF.md",
+      "bytes": 4295,
+      "sha256": "a500e8eb15ab1380792e784cc39651d9d0a6627aba3910897437fdb1d42c906d",
+      "role": "English topic guide or reference manual; see FINDINGS.md for current authority"
+    },
+    {
+      "path": "ARCHIVES_AND_REPRODUCTION.md",
+      "bytes": 5873,
+      "sha256": "77f2b44d54d270a16e92068982af940136e5885b7fed92e9319351919429ac18",
+      "role": "English topic guide or reference manual; see FINDINGS.md for current authority"
+    },
+    {
+      "path": "BATTLE_ZONE.md",
+      "bytes": 5820,
+      "sha256": "7dad281b00c5fcd2da83f84fa0d01c7ec4525ed113d192f3a7121d753a672e9a",
+      "role": "English topic guide or reference manual; see FINDINGS.md for current authority"
+    },
+    {
+      "path": "BATTLE_ZONE_ARENA_RUNTIME_ATTEMPT.json",
+      "bytes": 997,
+      "sha256": "9b231c37704a99947babcfd15589eec4399b384ab93253dbe1baa0a2f28fe0d1",
+      "role": "Structured/static or historical evidence; pending/derived labels may be superseded"
+    },
+    {
+      "path": "BATTLE_ZONE_CONDITION_NATIVE_EVIDENCE.json",
+      "bytes": 51935,
+      "sha256": "92fd9a598a60e144eb522f9c922c38f75c361958a8260a11f65bacb7bf770386",
+      "role": "Structured/static or historical evidence; pending/derived labels may be superseded"
+    },
+    {
+      "path": "BATTLE_ZONE_OUTCOME_FLAGS_NATIVE_EVIDENCE.json",
+      "bytes": 7405,
+      "sha256": "adc530aa06e0dc6a1f7a489ccca591d1168fa619148a725472244325bf559814",
+      "role": "Structured/static or historical evidence; pending/derived labels may be superseded"
+    },
+    {
+      "path": "CLAIMS.json",
+      "bytes": 13880,
+      "sha256": "a1138627023f908b6719c4c8041c6b72d5a79d4a12492a6c0fdf6809902a83bf",
+      "role": "Structured/static or historical evidence; pending/derived labels may be superseded"
+    },
+    {
+      "path": "EXPERIMENT_HISTORY.md",
+      "bytes": 7935,
+      "sha256": "b31908e870796c21ee9bdfdb727494fdb2745d913724ea4ad4b54f0ea32a5e7d",
+      "role": "English topic guide or reference manual; see FINDINGS.md for current authority"
+    },
+    {
+      "path": "FILE_FORMATS.md",
+      "bytes": 6239,
+      "sha256": "b54ca27c07adee1039d3d4ce20c61551e42a12fe49a1d5fbd50d501f3c6fe8bf",
+      "role": "English topic guide or reference manual; see FINDINGS.md for current authority"
+    },
+    {
+      "path": "FINDINGS.md",
+      "bytes": 6772,
+      "sha256": "8712378b9a55cb6c7f9b3e301194e210da5385007ae1b9261b69186cc9a7b697",
+      "role": "English topic guide or reference manual; see FINDINGS.md for current authority"
+    },
+    {
+      "path": "GALAXY_GRAPH_AND_PROGRESSION.md",
+      "bytes": 4389,
+      "sha256": "a8adf811506e654ecf42ae79c8acf89332c07d98ddbcce2688dcbcd5fb44e46e",
+      "role": "English topic guide or reference manual; see FINDINGS.md for current authority"
+    },
+    {
+      "path": "GALAXY_MISSION_INDEX_ORIGINAL.csv",
+      "bytes": 38229,
+      "sha256": "7b4d8d58a1e1ba83c20cca324b3a40594061c1b209af56f0ef99bd13ee399656",
+      "role": "Decoded original-file catalog; IDs and observations retain their stated namespaces"
+    },
+    {
+      "path": "GALAXY_MODDING_BEGINNER_GUIDE_EN_V2.md",
+      "bytes": 42348,
+      "sha256": "33fd9a8fffcc640a7f3bcc3e3eab8a2cf35c0148dfeba6d8a5febdca4927e53a",
+      "role": "English topic guide or reference manual; see FINDINGS.md for current authority"
+    },
+    {
+      "path": "ITEM_LIST_EN.md",
+      "bytes": 45506,
+      "sha256": "81af0432572a22fbf7abcbc6abce6e1bb217e047f7e4e9dcd8682c13c130cd99",
+      "role": "English topic guide or reference manual; see FINDINGS.md for current authority"
+    },
+    {
+      "path": "KB03X-manifest.json",
+      "bytes": 1471,
+      "sha256": "1da10020ca73e80a54a92e5f440f640eda8f871f5a2d8a5562c422cdf35a5081",
+      "role": "Structured/static or historical evidence; pending/derived labels may be superseded"
+    },
+    {
+      "path": "KB04A-manifest.json",
+      "bytes": 2664,
+      "sha256": "67ec84271077b981190ba704aaf865a6898a190e2d79895753d67372b1f9f99e",
+      "role": "Structured/static or historical evidence; pending/derived labels may be superseded"
+    },
+    {
+      "path": "KB05A-manifest.json",
+      "bytes": 3561,
+      "sha256": "1079c82e2870eeed2704322e927cfd0d9aed355d2f781aef1a8216ed951b2494",
+      "role": "Structured/static or historical evidence; pending/derived labels may be superseded"
+    },
+    {
+      "path": "KB06-manifest.json",
+      "bytes": 8827,
+      "sha256": "82cf50447e90e16bf3968d8ca3ca3f4ca49c7b5b261ad49eb3077bae2447454c",
+      "role": "Structured/static or historical evidence; pending/derived labels may be superseded"
+    },
+    {
+      "path": "KB07A-manifest.json",
+      "bytes": 2797,
+      "sha256": "7cf82aca12fa998121c51dc462921d3cca56689c24c2fb8a41b019790b41746e",
+      "role": "Structured/static or historical evidence; pending/derived labels may be superseded"
+    },
+    {
+      "path": "KB07B-manifest.json",
+      "bytes": 2817,
+      "sha256": "c809bf89e0d44824d6697bf9d1843a644ad6e29c7e512d644497935a743c9623",
+      "role": "Structured/static or historical evidence; pending/derived labels may be superseded"
+    },
+    {
+      "path": "KB14A-manifest.json",
+      "bytes": 14583,
+      "sha256": "318c8285f34086f11a31670f654f64cfe626a9d25d5c3fea3492860e521c382f",
+      "role": "Structured/static or historical evidence; pending/derived labels may be superseded"
+    },
+    {
+      "path": "KB15B-manifest.json",
+      "bytes": 16003,
+      "sha256": "f46b6ec1ef09ffc2cda0cbf43cc131bba76abd13514cb38646e379984f4eb36e",
+      "role": "Structured/static or historical evidence; pending/derived labels may be superseded"
+    },
+    {
+      "path": "KB15B-validation-updated.json",
+      "bytes": 15986,
+      "sha256": "3b5c2591a776a8391e8b22cb330851705e2db299f5399078ca904cf5fa844a2b",
+      "role": "Structured/static or historical evidence; pending/derived labels may be superseded"
+    },
+    {
+      "path": "KB15_NATIVE_SLOTS_AND_TAG_ORDER.md",
+      "bytes": 3455,
+      "sha256": "15bb3a3a558da5b8d447110b6983ddad0402cf9fbc67e0d32bbf4ced6159d82e",
+      "role": "English topic guide or reference manual; see FINDINGS.md for current authority"
+    },
+    {
+      "path": "KB16A-manifest.json",
+      "bytes": 3013,
+      "sha256": "25b46133766b5fe3c4d27b0443d4926f53220757df2af34f8e62702ce8ddb9e0",
+      "role": "Structured/static or historical evidence; pending/derived labels may be superseded"
+    },
+    {
+      "path": "KB17A-manifest.json",
+      "bytes": 1074,
+      "sha256": "58b9eee61dd756453e4f0ba9a723076b7985f3796d0566b5a72779e204ca14fa",
+      "role": "Structured/static or historical evidence; pending/derived labels may be superseded"
+    },
+    {
+      "path": "MAIN_PROGRESSION_FLAGS_NATIVE_EVIDENCE.json",
+      "bytes": 5451,
+      "sha256": "84070d8ee3bd9a4c1d9a17c9cd8cf1ad8bc2078c2b62585a9c9a19c4e7e445ab",
+      "role": "Structured/static or historical evidence; pending/derived labels may be superseded"
+    },
+    {
+      "path": "MUSIC_IDS_BLES00978_EN.csv",
+      "bytes": 7628,
+      "sha256": "64f279b933ac49065d490c23bf9f912f07aa8d79af29bbd3a5818969c28c1d75",
+      "role": "Decoded original-file catalog; IDs and observations retain their stated namespaces"
+    },
+    {
+      "path": "MUSIC_SELECTOR_NATIVE_EVIDENCE.json",
+      "bytes": 33113,
+      "sha256": "b26f514115c8956d4b718feefc2eaeb841388fa1ac8c89a79b9a112f238acbef",
+      "role": "Structured/static or historical evidence; pending/derived labels may be superseded"
+    },
+    {
+      "path": "NATIVE_FORM_SLOTS_BLES00978.csv",
+      "bytes": 10000,
+      "sha256": "15a2a8f14fef490b883509f8f709ca166568886022ad3074482cd230a499e316",
+      "role": "Decoded original-file catalog; IDs and observations retain their stated namespaces"
+    },
+    {
+      "path": "OPEN_QUESTIONS.md",
+      "bytes": 3213,
+      "sha256": "ff337d1b26906c878c1105f54635d92f4e1c2a1219c66882e8b3b861d9c6ba3f",
+      "role": "English topic guide or reference manual; see FINDINGS.md for current authority"
+    },
+    {
+      "path": "PRESETS_ITEMS_AND_TRANSFORMATIONS.md",
+      "bytes": 7300,
+      "sha256": "e355d406c43c14272d4a84753ce377f63a5e98f5da5ef4df9da19ea8073464df",
+      "role": "English topic guide or reference manual; see FINDINGS.md for current authority"
+    },
+    {
+      "path": "PUBLICATION_AUDIT.json",
+      "bytes": 2348,
+      "sha256": "f0258cd6841c17e0af4daba193633feb3b484db13bcc73c44f537a4e537f81e9",
+      "role": "Structured/static or historical evidence; pending/derived labels may be superseded"
+    },
+    {
+      "path": "README.md",
+      "bytes": 7138,
+      "sha256": "ce83f834e7e129a8be6a3968899fa9a64dea0034e61af0f08e4983339fdf9826",
+      "role": "English topic guide or reference manual; see FINDINGS.md for current authority"
+    },
+    {
+      "path": "SAVE_RAM_AND_EXPANSION.md",
+      "bytes": 8737,
+      "sha256": "c2d44d12a9072e7f901613d4a91daba39c8a72672982247204c8aec232372d67",
+      "role": "English topic guide or reference manual; see FINDINGS.md for current authority"
+    },
+    {
+      "path": "SOURCE_NOTE_AUDIT.json",
+      "bytes": 110961,
+      "sha256": "ddfc31b4161ccb5cf423d3c9d84be9a4191936180700f831d2b885dcfc543f20",
+      "role": "Structured/static or historical evidence; pending/derived labels may be superseded"
+    },
+    {
+      "path": "STAGE_IDS_BLES00978_EN.csv",
+      "bytes": 1290,
+      "sha256": "938431b3c195a7540139e068a4ab7df1dbab0aeaea31a4ea6406c5aa503735fe",
+      "role": "Decoded original-file catalog; IDs and observations retain their stated namespaces"
+    },
+    {
+      "path": "STAGE_MUSIC_PROVENANCE.json",
+      "bytes": 1365,
+      "sha256": "743a30b2fdec844bb758c7aebada25f1d999162b61ecf786caa576d39992ac7e",
+      "role": "Structured/static or historical evidence; pending/derived labels may be superseded"
+    },
+    {
+      "path": "STUDIO_0_8_PACKAGED_SMOKE.json",
+      "bytes": 305,
+      "sha256": "18b2fb1f9878457c4d226f0c38fe47628b90f4fee6708fad2d59b9e1fa2e025b",
+      "role": "Structured/static or historical evidence; pending/derived labels may be superseded"
+    },
+    {
+      "path": "STUDIO_0_8_RELEASE.json",
+      "bytes": 247,
+      "sha256": "8c25fa5366bfd8bdfb52445018ef3f9cfef152a42c96faea33aa8a0e115bfa37",
+      "role": "Structured/static or historical evidence; pending/derived labels may be superseded"
+    },
+    {
+      "path": "TEAMS_CONDITIONS_AND_ACTIONS.md",
+      "bytes": 5177,
+      "sha256": "e99920a5d3cc7c35b6d59306c73d34fbe96183c2e1521894171a4eba076f9e99",
+      "role": "English topic guide or reference manual; see FINDINGS.md for current authority"
+    },
+    {
+      "path": "advanced/ADDITIONAL_NATIVE_EVIDENCE.txt",
+      "bytes": 6171,
+      "sha256": "cd8e72f5a906d11178da14a7a38aee5f7f472e03646f7cebd2bc5daa32a2432e",
+      "role": "Structured/static or historical evidence; pending/derived labels may be superseded"
+    },
+    {
+      "path": "advanced/ADV18B-galaxy-90-percent.png",
+      "bytes": 763207,
+      "sha256": "768b831382e85b6702069d2c06231edd1fe30d29ceb5a69cf9c75684a9e85df8",
+      "role": "Recorded screenshot; not independent evidence of a complete save/cold-load path"
+    },
+    {
+      "path": "advanced/ADV18B-old-boss-with-ally.png",
+      "bytes": 515528,
+      "sha256": "c6462b0116bfb6d7f8ca00584d8d49142d3e2b5f20acb8a8b482b224bfbf7f60",
+      "role": "Recorded screenshot; not independent evidence of a complete save/cold-load path"
+    },
+    {
+      "path": "advanced/ADV18C-battle-actors.json",
+      "bytes": 755,
+      "sha256": "d96890ba980e89065331ab1bbd1cc7dcc62162f53ba8d4384a5a5fadc3bc5353",
+      "role": "Structured/static or historical evidence; pending/derived labels may be superseded"
+    },
+    {
+      "path": "advanced/ADV18C-battle-config.json",
+      "bytes": 716,
+      "sha256": "87ccd303da753e75e624618230e4a1a6784b12c532131e036c237b6e42e7f47c",
+      "role": "Structured/static or historical evidence; pending/derived labels may be superseded"
+    },
+    {
+      "path": "advanced/ADV18C-new-mission-selected.png",
+      "bytes": 561417,
+      "sha256": "80cf9ee33e3ff589835ddeb9ae8023ffb973db6808dbcd233d2747feeb5011a0",
+      "role": "Recorded screenshot; not independent evidence of a complete save/cold-load path"
+    },
+    {
+      "path": "advanced/ADV18C-new-mission-started.png",
+      "bytes": 776195,
+      "sha256": "2b8f3afede639fe8e8f67b31e38328ea56c562a31202d86cf74cd5291801cf73",
+      "role": "Recorded screenshot; not independent evidence of a complete save/cold-load path"
+    },
+    {
+      "path": "advanced/ADV18E-ARCHIVE_MANIFEST.json",
+      "bytes": 1813,
+      "sha256": "10acb64ac5c9fcadf2a1e33a8d4c759469fb66045e5ed6c5c4bd87cb842502ec",
+      "role": "Structured/static or historical evidence; pending/derived labels may be superseded"
+    },
+    {
+      "path": "advanced/ADV18E-COLD_RELOAD_PERSISTENCE.json",
+      "bytes": 391,
+      "sha256": "b961a1077817da9186e87b196cb4975c00cf89438dba7aaf4905494fe9136435",
+      "role": "Structured/static or historical evidence; pending/derived labels may be superseded"
+    },
+    {
+      "path": "advanced/ADV18E-action-victory-result.png",
+      "bytes": 574365,
+      "sha256": "cf755558a06339a2662b7fd79c0b61ab440324be4a6b5c3570324f7330862078",
+      "role": "Recorded screenshot; not independent evidence of a complete save/cold-load path"
+    },
+    {
+      "path": "advanced/ADV18E-after-action-victory-actors.json",
+      "bytes": 228,
+      "sha256": "6314357020843c00806389ffaf7ad4c7dec1f3c8cbe93d3492568ed8ca53dc19",
+      "role": "Structured/static or historical evidence; pending/derived labels may be superseded"
+    },
+    {
+      "path": "advanced/ADV18E-battle-config-and-actors.json",
+      "bytes": 990,
+      "sha256": "789413ab9cd824e1c21a120c5b87d08dc210ed01a004c2f8d1428f7e3859dd9a",
+      "role": "Structured/static or historical evidence; pending/derived labels may be superseded"
+    },
+    {
+      "path": "advanced/ADV18E-cold-reload-100-percent.png",
+      "bytes": 782479,
+      "sha256": "3f1e258c41492d3aaf05ce537269fb83b618296ce05f6b3d11312c7c47fb99c9",
+      "role": "Recorded screenshot; not independent evidence of a complete save/cold-load path"
+    },
+    {
+      "path": "advanced/ADV18E-cold-reload-record-persisted.png",
+      "bytes": 552814,
+      "sha256": "b12a12cd11d53f4892334781a80eb1e53e7c506c25b9f0a0a61dc5220d8120c9",
+      "role": "Recorded screenshot; not independent evidence of a complete save/cold-load path"
+    },
+    {
+      "path": "advanced/ADV18E-cold-reload-save-loaded.png",
+      "bytes": 245528,
+      "sha256": "e3ad01e1a67b5c5f3897a23b5d7ea6d6288152fabb0fc6803aa3d059df3e2b33",
+      "role": "Recorded screenshot; not independent evidence of a complete save/cold-load path"
+    },
+    {
+      "path": "advanced/ADV18E-live-file-identity.json",
+      "bytes": 309,
+      "sha256": "4364dca9e28c64699d43ed67f10872d96caa51d5c1291004b84f983744650633",
+      "role": "Structured/static or historical evidence; pending/derived labels may be superseded"
+    },
+    {
+      "path": "advanced/ADV18E-new-action-mission-selected.png",
+      "bytes": 568513,
+      "sha256": "b21690976584cd4ddb7040650fda1e034f77858f171786c6dc6c92619fdfd3ce",
+      "role": "Recorded screenshot; not independent evidence of a complete save/cold-load path"
+    },
+    {
+      "path": "advanced/ADV18E-new-node-completed-on-map.png",
+      "bytes": 583677,
+      "sha256": "a8a7f30730db932208421f228486d2c6c51fa078e1853d7d74640a16a0f61478",
+      "role": "Recorded screenshot; not independent evidence of a complete save/cold-load path"
+    },
+    {
+      "path": "advanced/ADV18E-node-progress-flags.json",
+      "bytes": 262,
+      "sha256": "ad1caefc499c91b0b12e22b7317175bb4e32e69f86d82dbbfd8a6883592b18ca",
+      "role": "Structured/static or historical evidence; pending/derived labels may be superseded"
+    },
+    {
+      "path": "advanced/ADV18E-save-file-check.json",
+      "bytes": 260,
+      "sha256": "dac730b6f49d2134d44344a9e970d029f2e907670471319782d21c5f43c4f4f5",
+      "role": "Structured/static or historical evidence; pending/derived labels may be superseded"
+    },
+    {
+      "path": "advanced/BATTLE_ZONE_CHALLENGE_STAMP_CRITERIA_EN.csv",
+      "bytes": 553,
+      "sha256": "98e03636cca7010e2d9d42ec22119b9d3d2f129ea5e14eb44da9ec110ffaa92f",
+      "role": "Decoded original-file catalog; IDs and observations retain their stated namespaces"
+    },
+    {
+      "path": "advanced/BATTLE_ZONE_HANDICAP_CODES_EN.csv",
+      "bytes": 499,
+      "sha256": "b6eda0eb34cd828419ee880edcfee67d5c4b5e777b8d77a36ada87de9d25c087",
+      "role": "Decoded original-file catalog; IDs and observations retain their stated namespaces"
+    },
+    {
+      "path": "advanced/BATTLE_ZONE_MISSIONS_ORIGINAL.csv",
+      "bytes": 10963,
+      "sha256": "d0f809954e4f3e95040806b6e02c94cd497feb0450f729fb8071ff021605fb52",
+      "role": "Decoded original-file catalog; IDs and observations retain their stated namespaces"
+    },
+    {
+      "path": "advanced/BATTLE_ZONE_PRESETS_NORMAL.csv",
+      "bytes": 10429,
+      "sha256": "419baa6a42e12c08cbf4e37815fb592adccb81a9cf701522b07d6046ee23761b",
+      "role": "Decoded original-file catalog; IDs and observations retain their stated namespaces"
+    },
+    {
+      "path": "advanced/BATTLE_ZONE_PRESETS_ULTIMATE.csv",
+      "bytes": 15606,
+      "sha256": "0b94e58c6158962ce649df8a7d350f0601028a0c9bb0521e1b960a3e4cb268ee",
+      "role": "Decoded original-file catalog; IDs and observations retain their stated namespaces"
+    },
+    {
+      "path": "advanced/BATTLE_ZONE_REWARD_RECORDS.csv",
+      "bytes": 8495,
+      "sha256": "2b4fc708da2c8488c9375d683ef88aacbc26df8cb5a7a6559776fbbc80f62ac7",
+      "role": "Decoded original-file catalog; IDs and observations retain their stated namespaces"
+    },
+    {
+      "path": "advanced/BZ01-battle-actors.json",
+      "bytes": 491,
+      "sha256": "2105bcfac68f56f91a231815577cb29564a44506f998b1e7e2c6c605493e035a",
+      "role": "Structured/static or historical evidence; pending/derived labels may be superseded"
+    },
+    {
+      "path": "advanced/BZ01-first-fight-intro.png",
+      "bytes": 409106,
+      "sha256": "0b0cbe98746a311bacb03aa97c817581f6e66f17524ff794fef473cf498ffbda",
+      "role": "Recorded screenshot; not independent evidence of a complete save/cold-load path"
+    },
+    {
+      "path": "advanced/BZ01-live-preset-table-selection.json",
+      "bytes": 644,
+      "sha256": "1605fad836ee1e9996eeddafa86d3c50e45673addee61391d4357704107dfba8",
+      "role": "Structured/static or historical evidence; pending/derived labels may be superseded"
+    },
+    {
+      "path": "advanced/CSV_ROW_COUNTS.json",
+      "bytes": 756,
+      "sha256": "54ba61ff7620c35e53713851ce17b349720f18d84472298a7e9217c70b14fd23",
+      "role": "Structured/static or historical evidence; pending/derived labels may be superseded"
+    },
+    {
+      "path": "advanced/ELF_EVIDENCE_ADVANCED.json",
+      "bytes": 162792,
+      "sha256": "884ce8d4d34d356513461577a8cf6981392271d7c34ac300e3e7ccb85ec35ced",
+      "role": "Structured/static or historical evidence; pending/derived labels may be superseded"
+    },
+    {
+      "path": "advanced/EXECUTABLE_UNCHANGED.json",
+      "bytes": 216,
+      "sha256": "0a993d5c549a51430b85b4181be643c7655f938fdc68f6aeaa375b748041773b",
+      "role": "Structured/static or historical evidence; pending/derived labels may be superseded"
+    },
+    {
+      "path": "advanced/EXTRA_STATIC_VALIDATION.json",
+      "bytes": 4856,
+      "sha256": "00861d1d397ce3aeb5a7fa2dfdf1347a74c4bb2ca44b6ee2a90ba32a0b0f339f",
+      "role": "Structured/static or historical evidence; pending/derived labels may be superseded"
+    },
+    {
+      "path": "advanced/GALAXY_ADVANCED_RESEARCH_EN.md",
+      "bytes": 37084,
+      "sha256": "6f52ded1aa3ecb15d771c124ec3de1296011a094411c54cdc29de94d0e024567",
+      "role": "Structured/static or historical evidence; pending/derived labels may be superseded"
+    },
+    {
+      "path": "advanced/GALAXY_ALLY_CANDIDATES_EN.csv",
+      "bytes": 39137,
+      "sha256": "4eb28bbd43f8d11f4f5c9ac2b3652fec5a5af6e539ecfe8cfe7d1389bcfe4cf8",
+      "role": "Decoded original-file catalog; IDs and observations retain their stated namespaces"
+    },
+    {
+      "path": "advanced/GALAXY_OBJECTIVE_TYPES_EN.csv",
+      "bytes": 4541,
+      "sha256": "eb4a546d4bd7417c53c18439284d522aae35967037350c77a72a927e8a67b472",
+      "role": "Decoded original-file catalog; IDs and observations retain their stated namespaces"
+    },
+    {
+      "path": "advanced/GALAXY_PROGRESSION_EXPRESSIONS.csv",
+      "bytes": 3103,
+      "sha256": "a1ac28271c162dba875af62cea004134cfb868d719f601ba8f3ec691de088654",
+      "role": "Decoded original-file catalog; IDs and observations retain their stated namespaces"
+    },
+    {
+      "path": "advanced/GALAXY_RULE_DESCRIPTION_TEXTS_EN.csv",
+      "bytes": 3242,
+      "sha256": "afb55c2813694eb127f849e4c0918ca3cfceb07387878fe5df7945e8dabd238c",
+      "role": "Decoded original-file catalog; IDs and observations retain their stated namespaces"
+    },
+    {
+      "path": "advanced/GALAXY_RULE_FIELDS_ORIGINAL.csv",
+      "bytes": 12537,
+      "sha256": "0eabcb96b7b7e5844fc82bd7309796c57613783baa140e9df5f55074ff45d210",
+      "role": "Decoded original-file catalog; IDs and observations retain their stated namespaces"
+    },
+    {
+      "path": "advanced/GALAXY_UNLOCK_OR_QUERY_LISTS.csv",
+      "bytes": 20928,
+      "sha256": "7190f35140f4aadb3214e63e9fce644a5c78b840e5279f28cd9cbb26f478c4ce",
+      "role": "Decoded original-file catalog; IDs and observations retain their stated namespaces"
+    },
+    {
+      "path": "advanced/JUST_ACTION_TEXT_IDS_EN.csv",
+      "bytes": 5112,
+      "sha256": "ad6f0d82a2d78dac7c60b7f9665221a07c57311d8a0b4691bf27ce938dac1fcc",
+      "role": "Decoded original-file catalog; IDs and observations retain their stated namespaces"
+    },
+    {
+      "path": "advanced/LOCAL_MOVE_IDS_EN.csv",
+      "bytes": 57344,
+      "sha256": "f86c6a35e9497311782e064be7ef7fc9a5bc033d1b7b7b6411834a9277171702",
+      "role": "Decoded original-file catalog; IDs and observations retain their stated namespaces"
+    },
+    {
+      "path": "advanced/MISSION_JUST_ACTION_SEQUENCES_EN.csv",
+      "bytes": 19553,
+      "sha256": "d5fb45427afe0d61532deedf8cf9479f2bd9f4d4d3d59cc12a659538ef9f64e1",
+      "role": "Decoded original-file catalog; IDs and observations retain their stated namespaces"
+    },
+    {
+      "path": "advanced/NATIVE_CHARACTER_IDS_EN.csv",
+      "bytes": 2979,
+      "sha256": "4c9a3dfa60f8fa3b4f4f65200b7f8c6e5ef88c3d636a4971528dc13bc1ec5c6b",
+      "role": "Decoded original-file catalog; IDs and observations retain their stated namespaces"
+    },
+    {
+      "path": "advanced/OFFLINE_TEST_RESULTS.txt",
+      "bytes": 129,
+      "sha256": "57c642ced145c8c53cdd3d407dc1299ade504e87445af67c5d217c3445703d29",
+      "role": "Structured/static or historical evidence; pending/derived labels may be superseded"
+    },
+    {
+      "path": "advanced/OPTIONAL_ACTION_PROMPTS_EN.json",
+      "bytes": 76147,
+      "sha256": "a56150bd92f04b654afc547171be32b607dba5a301675a12677cc1335771bfc0",
+      "role": "Structured/static or historical evidence; pending/derived labels may be superseded"
+    },
+    {
+      "path": "advanced/OPTIONAL_ACTION_PROMPTS_EN.md",
+      "bytes": 9378,
+      "sha256": "ca770a60bc9fa9c54e2d7de9a49c181107444a7318e3a30169ac441f475ba805",
+      "role": "Structured/static or historical evidence; pending/derived labels may be superseded"
+    },
+    {
+      "path": "advanced/PREVIOUS_DELIVERABLES_UNCHANGED.json",
+      "bytes": 312,
+      "sha256": "767a372bfc979701484e7fe8cf3b44173f83b60b34fb8e2115d24b94df606634",
+      "role": "Structured/static or historical evidence; pending/derived labels may be superseded"
+    },
+    {
+      "path": "advanced/PROFILE_SAVE_RESTORED.json",
+      "bytes": 912,
+      "sha256": "2a52928e03e7023c5e40d5e69c3fdcd479eb0aa320ff2589cc42e5e457c26170",
+      "role": "Structured/static or historical evidence; pending/derived labels may be superseded"
+    },
+    {
+      "path": "advanced/PROGRESS_AFS_PRESERVATION_CHECK.json",
+      "bytes": 342,
+      "sha256": "750f6bfaf5e6b86c158dd0270e99a920c0a39fe003a37de7489c580726183f76",
+      "role": "Structured/static or historical evidence; pending/derived labels may be superseded"
+    },
+    {
+      "path": "advanced/RUNTIME_VALIDATION.json",
+      "bytes": 4298,
+      "sha256": "3e7dff678d2852543e0af6d0cbc5b0f451c9e5489e8e0fbef65d81eb2b996b52",
+      "role": "Structured/static or historical evidence; pending/derived labels may be superseded"
+    },
+    {
+      "path": "advanced/STATIC_EXPORT_VALIDATION.json",
+      "bytes": 2744,
+      "sha256": "dfe1081308ab83390eff8902bb1f0415dd57eb5ca3d9241129652bd9ecfb85d9",
+      "role": "Structured/static or historical evidence; pending/derived labels may be superseded"
+    },
+    {
+      "path": "advanced/TUTORIAL_ALLY_CANDIDATES_EN.csv",
+      "bytes": 247,
+      "sha256": "a7fe19efa48f5cc4674bb7497257670d3a88eddb769040d78e1ce18a701e788b",
+      "role": "Decoded original-file catalog; IDs and observations retain their stated namespaces"
+    },
+    {
+      "path": "advanced/TUTORIAL_HELP_TEXT_IDS_EN.csv",
+      "bytes": 11120,
+      "sha256": "025c5582599499c6187cf87d08fb963162b3e0caeafc5aa460b647ca450f8656",
+      "role": "Decoded original-file catalog; IDs and observations retain their stated namespaces"
+    },
+    {
+      "path": "annullamento-code-check.json",
+      "bytes": 952,
+      "sha256": "c32db0590551858fdd3c529a0b34ff14d8173f56b6a4f750fcadce32d1483f9f",
+      "role": "Structured/static or historical evidence; pending/derived labels may be superseded"
+    },
+    {
+      "path": "arena-names-from-ram.csv",
+      "bytes": 714,
+      "sha256": "15b3a601b55077d019be4ff5b39f4ac9c144d01ef3af62926c73df8a5226932b",
+      "role": "Decoded original-file catalog; IDs and observations retain their stated namespaces"
+    },
+    {
+      "path": "battle-114443-findings.json",
+      "bytes": 8518,
+      "sha256": "dc1a7dc8ba60e2f363a3dfd330000960ae10b565945d6ad79e4858a7c89473fc",
+      "role": "Structured/static or historical evidence; pending/derived labels may be superseded"
+    },
+    {
+      "path": "battle-121742-findings.json",
+      "bytes": 8510,
+      "sha256": "265f9a53cb526c19fcb55aeefb1ffb3fe37205c7ec6507071fae6da1dc952c1e",
+      "role": "Structured/static or historical evidence; pending/derived labels may be superseded"
+    },
+    {
+      "path": "battle-132126-findings.json",
+      "bytes": 6909,
+      "sha256": "113cc632ef0a092df1db7cb8850657472ab80fe362b3f6542b776f503d01874f",
+      "role": "Structured/static or historical evidence; pending/derived labels may be superseded"
+    },
+    {
+      "path": "battle-134024-findings.json",
+      "bytes": 8545,
+      "sha256": "b0823e56483954d0a675761ac979700125501b2b3bcb95474bbdee828cb5e3f6",
+      "role": "Structured/static or historical evidence; pending/derived labels may be superseded"
+    },
+    {
+      "path": "boot-afl-mapping.csv",
+      "bytes": 1662,
+      "sha256": "a449138087097f5f33b06fd7a655759696356ff085862eaae6505153852bedd3",
+      "role": "Decoded original-file catalog; IDs and observations retain their stated namespaces"
+    },
+    {
+      "path": "boot-afs-manifest.json",
+      "bytes": 9501,
+      "sha256": "d9d8d1f2b7f2cf8a424f09388809af6ce58a89d416f09c4d713c611b010cbeaf",
+      "role": "Structured/static or historical evidence; pending/derived labels may be superseded"
+    },
+    {
+      "path": "boot-resident22-manifest.json",
+      "bytes": 4690,
+      "sha256": "a5f3c57e41e19f54afdb828d82170aed1a656330478cfdcbc01edb06cdfe4698",
+      "role": "Structured/static or historical evidence; pending/derived labels may be superseded"
+    },
+    {
+      "path": "double-save-20261015/AI_RESUME_NOTES.md",
+      "bytes": 875,
+      "sha256": "61b30734323f603aca33742a17b26aad97a6ad5d964dd9d33aaadc2248642db6",
+      "role": "Structured/static or historical evidence; pending/derived labels may be superseded"
+    },
+    {
+      "path": "double-save-20261015/D2-patch.json",
+      "bytes": 58925,
+      "sha256": "8d3e288892d2ae0f8c8324592458c8aa1f79f6d9f291c0fc1f34a54e4d36d7bf",
+      "role": "Historical exact-input experimental delta; not a supported Studio installation"
+    },
+    {
+      "path": "double-save-20261015/LAYOUT.json",
+      "bytes": 1079,
+      "sha256": "5ca4ef47157638d20e34f6fdcd7f53661b2aad26f55148501a9973b5632ef5f3",
+      "role": "Structured/static or historical evidence; pending/derived labels may be superseded"
+    },
+    {
+      "path": "double-save-20261015/PATCH_REPRODUCTION.json",
+      "bytes": 224,
+      "sha256": "eeac9dfe02fdadeb9e4fc24cb0572a384d464842f29781ef02346503e463adba",
+      "role": "Historical exact-input experimental delta; not a supported Studio installation"
+    },
+    {
+      "path": "double-save-20261015/RESEARCH_EN.md",
+      "bytes": 19502,
+      "sha256": "2dd2f97fcb0d255ec55e5f94ad3dd80ed368dbacb47c0c1183d26ee5b51967e7",
+      "role": "Structured/static or historical evidence; pending/derived labels may be superseded"
+    },
+    {
+      "path": "double-save-20261015/STACK_ARRAY_AUDIT.json",
+      "bytes": 574,
+      "sha256": "8c7fad9af784bc410dc4cd72c5b196d1dda6f03e19890a6eb2178a3e3590cddf",
+      "role": "Structured/static or historical evidence; pending/derived labels may be superseded"
+    },
+    {
+      "path": "double-save-20261015/STATUS_CORRECTIONS.json",
+      "bytes": 633,
+      "sha256": "24bec984bc442bd7dcb8c2ec0cf8fd3ec03f20d6888b1c55f94074c1f54a3cf1",
+      "role": "Structured/static or historical evidence; pending/derived labels may be superseded"
+    },
+    {
+      "path": "double-save-20261015/VALIDATION_MATRIX.json",
+      "bytes": 1074,
+      "sha256": "63f3603aba0539fc951f82ea1717ad417653bf30d7a113c600b70527ae4e731e",
+      "role": "Structured/static or historical evidence; pending/derived labels may be superseded"
+    },
+    {
+      "path": "double-save-20261015/bz-append-main271cf4-registers.json",
+      "bytes": 2279,
+      "sha256": "4b38993edca86677a30d7a75865ae1c8ab1df9a97b65d10eec93fbe506621368",
+      "role": "Structured/static or historical evidence; pending/derived labels may be superseded"
+    },
+    {
+      "path": "double-save-20261015/bz-canonical21-fixture.json",
+      "bytes": 3538,
+      "sha256": "d00515c6d4616aa0e6e7b195f5b1ebc418491d22b557d399444262aea5cf6bae",
+      "role": "Structured/static or historical evidence; pending/derived labels may be superseded"
+    },
+    {
+      "path": "double-save-20261015/bz-first-crash-ram-audit.json",
+      "bytes": 1008,
+      "sha256": "9ff41b70f793e888c27fbd14000b20f83e0bf9835cdc319ab27fbe519044fe8b",
+      "role": "Structured/static or historical evidence; pending/derived labels may be superseded"
+    },
+    {
+      "path": "double-save-20261015/bz-inplace21.json",
+      "bytes": 310,
+      "sha256": "78ea57b7da199f9db57a38027eb968b9096efe59ba8bdfa943cc7ca84fc7f862",
+      "role": "Structured/static or historical evidence; pending/derived labels may be superseded"
+    },
+    {
+      "path": "double-save-20261015/bz-original-link-directions.json",
+      "bytes": 1840,
+      "sha256": "5247e22ff45e604d3e41569ab0fcc879ad4aee1d4acf8eca097f33c8bbc42887",
+      "role": "Structured/static or historical evidence; pending/derived labels may be superseded"
+    },
+    {
+      "path": "double-save-20261015/bz-sparse53-crash-registers.json",
+      "bytes": 1852,
+      "sha256": "80f87ce401e342063697a6afa688b7b46f8acbdecfcfa9a329ae7beba2828d13",
+      "role": "Structured/static or historical evidence; pending/derived labels may be superseded"
+    },
+    {
+      "path": "double-save-20261015/bz-sparse53-exact-grid-fault.json",
+      "bytes": 484,
+      "sha256": "85766b8a422ac90da1740f2fed776367eac74266174d3cb46ec215e6ce5e3b2f",
+      "role": "Structured/static or historical evidence; pending/derived labels may be superseded"
+    },
+    {
+      "path": "double-save-20261015/bz-video-crash-registers.json",
+      "bytes": 2049,
+      "sha256": "8fe01eb9679597288050e82b6e66c807979ca31b8896eff5ffe89571d40d8b00",
+      "role": "Structured/static or historical evidence; pending/derived labels may be superseded"
+    },
+    {
+      "path": "double-save-20261015/bz-visual-grid-evidence.json",
+      "bytes": 1033,
+      "sha256": "741974106c27d214292c9e93f6c538a01c4b6e06b2559ac63f5ccbb445bd4aef",
+      "role": "Structured/static or historical evidence; pending/derived labels may be superseded"
+    },
+    {
+      "path": "double-save-20261015/circle-pool-static-evidence.json",
+      "bytes": 794,
+      "sha256": "69e4e899e7e8512dbb02c23dc817e1a4df1d7204d3e0e30fb7ce06dc23c4c331",
+      "role": "Structured/static or historical evidence; pending/derived labels may be superseded"
+    },
+    {
+      "path": "double-save-20261015/galaxy-circle-balanced-audit.json",
+      "bytes": 15178,
+      "sha256": "2e3fed00350445e0b123dfd72f20fd8ff6c4ad35e7292b4b7f35cc466b35fa73",
+      "role": "Structured/static or historical evidence; pending/derived labels may be superseded"
+    },
+    {
+      "path": "double-save-20261015/galaxy-circle2-capacity-audit.json",
+      "bytes": 4764,
+      "sha256": "64e976a2c2056a79cc66d840cad8637066a67cfadc669b0b75d8936c3d948b3d",
+      "role": "Structured/static or historical evidence; pending/derived labels may be superseded"
+    },
+    {
+      "path": "double-save-20261015/galaxy1039-active.json",
+      "bytes": 1584,
+      "sha256": "217ce3b77b0da606d4ae6c395ca569b5cbec6d7f03209e3ed43f35954ecb9041",
+      "role": "Structured/static or historical evidence; pending/derived labels may be superseded"
+    },
+    {
+      "path": "double-save-20261015/galaxy1039-result.json",
+      "bytes": 1584,
+      "sha256": "ac2030c4b514ca1b47f8a98c5e40a0a937aa7afe5c96b19134dcd671b2b92475",
+      "role": "Structured/static or historical evidence; pending/derived labels may be superseded"
+    },
+    {
+      "path": "double-save-20261015/galaxy1039-save-audit.json",
+      "bytes": 1676,
+      "sha256": "ceb16658c9b6d5a59d7c41e4aa0752a312083fa63c5b6779d708076e7ce24fe9",
+      "role": "Structured/static or historical evidence; pending/derived labels may be superseded"
+    },
+    {
+      "path": "double-save-20261015/old-field-normal-writes.json",
+      "bytes": 830,
+      "sha256": "c847970b927d04048bba4e1bdb18a31739117e11fa6f592dbcc17900ea47220b",
+      "role": "Structured/static or historical evidence; pending/derived labels may be superseded"
+    },
+    {
+      "path": "double-save-20261015/original-stamp-ref-audit.json",
+      "bytes": 117,
+      "sha256": "d42b18ab619a72667bfc008b67aae499f0270bc39641b17367ffb8c7360cbf1a",
+      "role": "Structured/static or historical evidence; pending/derived labels may be superseded"
+    },
+    {
+      "path": "double-save-20261015/patch-rejection-check.json",
+      "bytes": 84,
+      "sha256": "111ad1679a94b83325286378c2b0b7e8636edb427f4ddbc8392e002041847091",
+      "role": "Historical exact-input experimental delta; not a supported Studio installation"
+    },
+    {
+      "path": "double-save-20261015/tutorial-sparse-boundary.json",
+      "bytes": 258,
+      "sha256": "4d1c90b25a20d2bc38db3b08f25b30680311677fa627d67cd3b9ad044ff7b119",
+      "role": "Structured/static or historical evidence; pending/derived labels may be superseded"
+    },
+    {
+      "path": "double-save-20261015/tutorial329-failed-exit-audit.json",
+      "bytes": 238,
+      "sha256": "25f680d1a9a02efc940dfa5dc1b1163e9728ff31c064798c7b4125c7c4ac030c",
+      "role": "Structured/static or historical evidence; pending/derived labels may be superseded"
+    },
+    {
+      "path": "double-save-20261015/tutorial63-cold-success.json",
+      "bytes": 376,
+      "sha256": "33c2792042616c8c6c4ec392114e6b051746d0a69626e2c813989a094e4687fc",
+      "role": "Structured/static or historical evidence; pending/derived labels may be superseded"
+    },
+    {
+      "path": "double-save-20261015/tutorial63-persist-audit.json",
+      "bytes": 1526,
+      "sha256": "0d8a9db97eccb2dcacc8131610b238d7cb85e52bfdba2dc58da497b6236bb37d",
+      "role": "Structured/static or historical evidence; pending/derived labels may be superseded"
+    },
+    {
+      "path": "double-save-20261015/tutorial63-v329-result.json",
+      "bytes": 1283,
+      "sha256": "838da64b5ff7514e4d6e6605be571dfac0a775162472869593a7a194da76fb63",
+      "role": "Structured/static or historical evidence; pending/derived labels may be superseded"
+    },
+    {
+      "path": "elf-evidence.txt",
+      "bytes": 40010,
+      "sha256": "33d0bce661ca7bde5b59193ca248e6a23ee2f22bcb51b74d08ac552ad3241392",
+      "role": "Structured/static or historical evidence; pending/derived labels may be superseded"
+    },
+    {
+      "path": "expansion-20261015/BATTLE_ZONE_STATIC.json",
+      "bytes": 29131,
+      "sha256": "5bc7e0ff9303055cbbab48718bb6194348a7da0e3dd5ebdc5fbe88475a477a41",
+      "role": "Structured/static or historical evidence; pending/derived labels may be superseded"
+    },
+    {
+      "path": "expansion-20261015/BATTLE_ZONE_STATIC.md",
+      "bytes": 7284,
+      "sha256": "ca3c9a59c77461135d6401703fa111e29ade99e171515321b1cac88d4a8e406b",
+      "role": "Structured/static or historical evidence; pending/derived labels may be superseded"
+    },
+    {
+      "path": "expansion-20261015/EDITOR_FOLLOWUP.md",
+      "bytes": 9441,
+      "sha256": "29f7014f68c05162f54b6612f69fb9d7024d0247dee099e63c572e5bcf5e237b",
+      "role": "Structured/static or historical evidence; pending/derived labels may be superseded"
+    },
+    {
+      "path": "expansion-20261015/EDITOR_FOLLOWUP_SOURCE_HASHES.json",
+      "bytes": 522,
+      "sha256": "cce9328b6b2b2bf3fc37727989d05b8c4aa161602344caf1ff7cc77a6c1903e7",
+      "role": "Structured/static or historical evidence; pending/derived labels may be superseded"
+    },
+    {
+      "path": "expansion-20261015/GALAXY_OWNER_SLOTS.csv",
+      "bytes": 6884,
+      "sha256": "faf461cca61acb53ec32e0c3799c0859a4b5b3f17c05f277dd5d4e58b4048fd7",
+      "role": "Decoded original-file catalog; IDs and observations retain their stated namespaces"
+    },
+    {
+      "path": "expansion-20261015/GALAXY_STATIC.json",
+      "bytes": 65304,
+      "sha256": "9045392ea788243a5d3cf1afd3051b3d94aa131eb7500f2285113e30c238f231",
+      "role": "Structured/static or historical evidence; pending/derived labels may be superseded"
+    },
+    {
+      "path": "expansion-20261015/GALAXY_STATIC.md",
+      "bytes": 6810,
+      "sha256": "f56004ef3c0d57fb8c549d2628d90e0bbcf3a5b74e9d26a1fe9e8c71d8575711",
+      "role": "Structured/static or historical evidence; pending/derived labels may be superseded"
+    },
+    {
+      "path": "expansion-20261015/GALAXY_STATIC_DISASSEMBLY.txt",
+      "bytes": 18901,
+      "sha256": "ebdbb3a32d83d5c191d0410a013d0637689f81b7be83fc89bd39bc7d6ffb4060",
+      "role": "Structured/static or historical evidence; pending/derived labels may be superseded"
+    },
+    {
+      "path": "expansion-20261015/GALAXY_WORLD_MAP_ICONS.csv",
+      "bytes": 6593,
+      "sha256": "65004990236132e80e7b8aa398fb1871d5398fe1479e6048ca8d455db8dc9e31",
+      "role": "Decoded original-file catalog; IDs and observations retain their stated namespaces"
+    },
+    {
+      "path": "expansion-20261015/GX19A-498-action-completed.json",
+      "bytes": 541,
+      "sha256": "af9132a40bcdf52cc8fb4f6e5e6fc813c9beb70a135abec91e28e3da8a55eee7",
+      "role": "Structured/static or historical evidence; pending/derived labels may be superseded"
+    },
+    {
+      "path": "expansion-20261015/GX19A-498-after-ascend.json",
+      "bytes": 541,
+      "sha256": "af9132a40bcdf52cc8fb4f6e5e6fc813c9beb70a135abec91e28e3da8a55eee7",
+      "role": "Structured/static or historical evidence; pending/derived labels may be superseded"
+    },
+    {
+      "path": "expansion-20261015/GX19A-498-completed-map.png",
+      "bytes": 481165,
+      "sha256": "f5e37240312d2d1c1b53d1fcf43d4dc0430363cfa88063c9d2431a882d6c7bc0",
+      "role": "Recorded screenshot; not independent evidence of a complete save/cold-load path"
+    },
+    {
+      "path": "expansion-20261015/GX19A-498-intro.json",
+      "bytes": 541,
+      "sha256": "af9132a40bcdf52cc8fb4f6e5e6fc813c9beb70a135abec91e28e3da8a55eee7",
+      "role": "Structured/static or historical evidence; pending/derived labels may be superseded"
+    },
+    {
+      "path": "expansion-20261015/GX19A-498-victory.png",
+      "bytes": 538707,
+      "sha256": "8dbc730803f9d640dcc72c593a870be2bc453bbd6893e37ee3407fec90f618fd",
+      "role": "Recorded screenshot; not independent evidence of a complete save/cold-load path"
+    },
+    {
+      "path": "expansion-20261015/GX19A-new-galaxy-selected.png",
+      "bytes": 795655,
+      "sha256": "1bef65a538196d36b53ceac878370aaa9bca6474c6b69f078792b935e5759b4b",
+      "role": "Recorded screenshot; not independent evidence of a complete save/cold-load path"
+    },
+    {
+      "path": "expansion-20261015/GX19A-new-mission-map.png",
+      "bytes": 451430,
+      "sha256": "837f8da4f3e7e9c3fbf3f4a0d0c063198969732672a8eaaead7c722e006738ac",
+      "role": "Recorded screenshot; not independent evidence of a complete save/cold-load path"
+    },
+    {
+      "path": "expansion-20261015/GX19A-save-collision-runtime.json",
+      "bytes": 420,
+      "sha256": "959feba4cf25309a0e8d95d64e339b2c2a39c388a7225ce0b68ca95c51523c97",
+      "role": "Structured/static or historical evidence; pending/derived labels may be superseded"
+    },
+    {
+      "path": "expansion-20261015/GX19A_SELECTED_RUNTIME.json",
+      "bytes": 159,
+      "sha256": "6842bf8fb9fb42e8a6ec51d8beee285b0735589b350f6cf72d7985bdb2085c42",
+      "role": "Structured/static or historical evidence; pending/derived labels may be superseded"
+    },
+    {
+      "path": "expansion-20261015/GX19A_WORLD_RUNTIME.json",
+      "bytes": 393,
+      "sha256": "e53f53e5bf9ad8c4ea0c9c36d0eec6f13a112cccf1f8d87038c300d0cdd6231c",
+      "role": "Structured/static or historical evidence; pending/derived labels may be superseded"
+    },
+    {
+      "path": "expansion-20261015/SAVE_LIMITS.json",
+      "bytes": 4415,
+      "sha256": "19cf4b5be7f4d4492ee8bd9ef9dc5c6fc08f57babce74e658a7a8bcd749a1dd8",
+      "role": "Structured/static or historical evidence; pending/derived labels may be superseded"
+    },
+    {
+      "path": "expansion-20261015/SAVE_LIMITS.md",
+      "bytes": 7283,
+      "sha256": "004efa84ab0a3bc53a87e5ffc2ad2086d710ed76d55482b69e282fcf9bb30251",
+      "role": "Structured/static or historical evidence; pending/derived labels may be superseded"
+    },
+    {
+      "path": "expansion-20261015/STOP_AND_RESTORE.json",
+      "bytes": 1100,
+      "sha256": "de05e8acd0c31e6a67637abf622a4ea0378b66f1c8fcf2f3739a1cfe30803cd5",
+      "role": "Structured/static or historical evidence; pending/derived labels may be superseded"
+    },
+    {
+      "path": "expansion-20261015/TEST_AUDIT.json",
+      "bytes": 6741,
+      "sha256": "9f8c817dd3d20eccf276692bc07afeb042c7d5db077c4c335f6efc6c3bb46d39",
+      "role": "Structured/static or historical evidence; pending/derived labels may be superseded"
+    },
+    {
+      "path": "expansion-20261015/audit_expansion.py",
+      "bytes": 11124,
+      "sha256": "0bb376ce763fe0f4e51c4ee9b24c0e3ad13f87b5e78650319c38d1fda36a6508",
+      "role": "Structured/static or historical evidence; pending/derived labels may be superseded"
+    },
+    {
+      "path": "experiment-log.csv",
+      "bytes": 7975,
+      "sha256": "631bf6a14cd048a496738372f9ce684e5899b1a047f074793a1110ccf6b70e73",
+      "role": "Decoded original-file catalog; IDs and observations retain their stated namespaces"
+    },
+    {
+      "path": "g12a-rsp-evidence.jsonl",
+      "bytes": 11055,
+      "sha256": "e9d5c5cf4308282fd7942cb205ae072e7282ac9190ad50ad5ff06c7d38dfdcee",
+      "role": "Historical debugger observations/interventions; interpret with experiment history"
+    },
+    {
+      "path": "g12a-runtime-controlled.json",
+      "bytes": 2410,
+      "sha256": "9e7e70d6117cb2dcdf4fc628d5f20ea43f3d5de85f6892c9a929167e5b36ca5a",
+      "role": "Structured/static or historical evidence; pending/derived labels may be superseded"
+    },
+    {
+      "path": "g12a-simple-mission-menu.png",
+      "bytes": 515012,
+      "sha256": "72eb1615c1dbab6d9f07f8d9c140a0d2e8e9d226782857f7e31002231039567e",
+      "role": "Recorded screenshot; not independent evidence of a complete save/cold-load path"
+    },
+    {
+      "path": "g12b-rsp-evidence.jsonl",
+      "bytes": 4197,
+      "sha256": "4a8cb4aafab220dc7505d47d4cde038af83d30da421cc5b722cdff40b0dd5fe1",
+      "role": "Historical debugger observations/interventions; interpret with experiment history"
+    },
+    {
+      "path": "g12b-runtime-controlled.json",
+      "bytes": 1347,
+      "sha256": "dc163e2d6918ab9bf6c580868289b9b59b740b3f23a9c9ed904e5ba7b3cf0cbc",
+      "role": "Structured/static or historical evidence; pending/derived labels may be superseded"
+    },
+    {
+      "path": "galaxy-archive-manifest.json",
+      "bytes": 23161,
+      "sha256": "5dc823824a9194e6054986af0bbb20d66af537dae97bdee9cbaa660d57024756",
+      "role": "Structured/static or historical evidence; pending/derived labels may be superseded"
+    },
+    {
+      "path": "galaxy-character-index.csv",
+      "bytes": 5504,
+      "sha256": "de79414c71de95a5d083b683aa9e5480ba84de982392068f9aca24dcd03de84a",
+      "role": "Decoded original-file catalog; IDs and observations retain their stated namespaces"
+    },
+    {
+      "path": "galaxy-descriptors.csv",
+      "bytes": 119630,
+      "sha256": "fc31d87bea3e93fcb1ca65c2d445dbb9e7a815570795dabc9bea25855493b797",
+      "role": "Decoded original-file catalog; IDs and observations retain their stated namespaces"
+    },
+    {
+      "path": "galaxy-enemies-decoded.csv",
+      "bytes": 167841,
+      "sha256": "9a64ed076232b8ff57ec964fc581b0df75cc9f9e168419f408fa792ae00bca12",
+      "role": "Decoded original-file catalog; IDs and observations retain their stated namespaces"
+    },
+    {
+      "path": "galaxy-nodes.csv",
+      "bytes": 58307,
+      "sha256": "e4e32d4c492c7ad522e8de5f50bed42862573ad9f6ce95e35421c105e250bc21",
+      "role": "Decoded original-file catalog; IDs and observations retain their stated namespaces"
+    },
+    {
+      "path": "galaxy-preset-form-links.csv",
+      "bytes": 26062,
+      "sha256": "dae320437b99bb7c0f2a74fecdfc7f552c6989893751bbf599fd7d3c67a7a6a9",
+      "role": "Decoded original-file catalog; IDs and observations retain their stated namespaces"
+    },
+    {
+      "path": "galaxy-presets-decoded.csv",
+      "bytes": 326955,
+      "sha256": "ca7835a462d64f4e0680abb2ec6e15cca0f2fa74d257d7fb7aa492ba7df3a43f",
+      "role": "Decoded original-file catalog; IDs and observations retain their stated namespaces"
+    },
+    {
+      "path": "galaxy-transfer-20261016/TRANSFER_EN.md",
+      "bytes": 5332,
+      "sha256": "3e1c72fa699f761dbdd3b1f1b50e6de2c0e2add272e9970ab6596bda97e6c2d6",
+      "role": "Structured/static or historical evidence; pending/derived labels may be superseded"
+    },
+    {
+      "path": "galaxy-transfer-20261016/archive-preservation.json",
+      "bytes": 159,
+      "sha256": "2005b62afa5e154897b6907aabf61538bd3c154d44ec5f51b5a97b6053687432",
+      "role": "Structured/static or historical evidence; pending/derived labels may be superseded"
+    },
+    {
+      "path": "galaxy-transfer-20261016/battle-active.json",
+      "bytes": 537,
+      "sha256": "925c521f0e5f25f6a394bf94b83db454eed4718f1154ab9b4fd3bdd4baa0731f",
+      "role": "Structured/static or historical evidence; pending/derived labels may be superseded"
+    },
+    {
+      "path": "galaxy-transfer-20261016/cold-load-confirmation.png",
+      "bytes": 296321,
+      "sha256": "c095e78cf087d476222fe1ad5b27b2af4dd473b85632b2f16ab921ebecbb7d12",
+      "role": "Recorded screenshot; not independent evidence of a complete save/cold-load path"
+    },
+    {
+      "path": "galaxy-transfer-20261016/cold-save-probe.json",
+      "bytes": 470,
+      "sha256": "52ea68dacd3fa375958d2cde6609205ec6148af6d0858c6ee2204b7ccd650288",
+      "role": "Structured/static or historical evidence; pending/derived labels may be superseded"
+    },
+    {
+      "path": "galaxy-transfer-20261016/manifest.json",
+      "bytes": 3989,
+      "sha256": "5bd9dff36118cbec25209c7acd0759c5357f6fa08e98fe5fdeb266397a2d8199",
+      "role": "Structured/static or historical evidence; pending/derived labels may be superseded"
+    },
+    {
+      "path": "galaxy-transfer-20261016/mission-record-saved.png",
+      "bytes": 820592,
+      "sha256": "28279ea1c76d36f9ce71c2a8403ed041374702cad9afaed1520704d96155f9ab",
+      "role": "Recorded screenshot; not independent evidence of a complete save/cold-load path"
+    },
+    {
+      "path": "galaxy-transfer-20261016/original-donor-audit.json",
+      "bytes": 3139,
+      "sha256": "51b4aa429b3af8cd4b1aa7c6ff52ba729f6e72b71c986fb2a434c8b646195fe9",
+      "role": "Structured/static or historical evidence; pending/derived labels may be superseded"
+    },
+    {
+      "path": "galaxy-transfer-20261016/personal-goku-ssj2.png",
+      "bytes": 865597,
+      "sha256": "e60c7c0b6bf51b1e6de6665b03937dc8997ca28a4972e8c1508aa7a5a81f045b",
+      "role": "Recorded screenshot; not independent evidence of a complete save/cold-load path"
+    },
+    {
+      "path": "galaxy-transfer-20261016/result-native-final.png",
+      "bytes": 870839,
+      "sha256": "b3a4650147cf509ec4b6e2f009c8dec12450e7752c13f11d7416784349902c93",
+      "role": "Recorded screenshot; not independent evidence of a complete save/cold-load path"
+    },
+    {
+      "path": "galaxy-transfer-20261016/runtime-preparation.json",
+      "bytes": 926,
+      "sha256": "c22548607a24a4c89961a120557eaff852dd97143bb9be8651669ac528b87831",
+      "role": "Structured/static or historical evidence; pending/derived labels may be superseded"
+    },
+    {
+      "path": "galaxy-transfer-20261016/save-audit.json",
+      "bytes": 1822,
+      "sha256": "2fc20ce70d252af96d28fe9ab658809751958f4301e8bf0127d90ade8431adf2",
+      "role": "Structured/static or historical evidence; pending/derived labels may be superseded"
+    },
+    {
+      "path": "galaxy-transfer-20261016/world-goku-ssj2.png",
+      "bytes": 1318221,
+      "sha256": "220ac6222184e3183dc392daba02740f2c9c808da6c92e11af7f78ab312812ce",
+      "role": "Recorded screenshot; not independent evidence of a complete save/cold-load path"
+    },
+    {
+      "path": "gohan-goku-preset-comparison.json",
+      "bytes": 11335,
+      "sha256": "86250b18e4ad0a492047fb181313cb519a061c77357380d7a57a33a8994946bd",
+      "role": "Structured/static or historical evidence; pending/derived labels may be superseded"
+    },
+    {
+      "path": "item-catalog-BLES00978-EN.csv",
+      "bytes": 41700,
+      "sha256": "cecf7dc20009933c383c715b6f4e551a310c378f5faa50bf155e21ca5c05f3df",
+      "role": "Decoded original-file catalog; IDs and observations retain their stated namespaces"
+    },
+    {
+      "path": "item-localization-provenance-EN.json",
+      "bytes": 1426,
+      "sha256": "b49571c7888c52f677f427e5e4ab9385b1e0a4259c089698c4b8d28e51e309a5",
+      "role": "Structured/static or historical evidence; pending/derived labels may be superseded"
+    },
+    {
+      "path": "item-localization-provenance.json",
+      "bytes": 748,
+      "sha256": "6a0765ee0e4fe7dd367b73931300ddcc6b9716d056ec09a409307dba8fdde490",
+      "role": "Structured/static or historical evidence; pending/derived labels may be superseded"
+    },
+    {
+      "path": "kb07a-runtime-intro-limited.json",
+      "bytes": 2718,
+      "sha256": "c2522548d91b9e0e4868387d636e5ca21591db7f84198135fdd114db7a39e259",
+      "role": "Structured/static or historical evidence; pending/derived labels may be superseded"
+    },
+    {
+      "path": "kb08a-runtime-controlled.json",
+      "bytes": 1591,
+      "sha256": "3e79071c1d5bb807d729235ed6866b3fcbdc72ac8e76c80ccfc689b8781d49be",
+      "role": "Structured/static or historical evidence; pending/derived labels may be superseded"
+    },
+    {
+      "path": "kb09a-runtime-controlled.json",
+      "bytes": 1364,
+      "sha256": "e7e9a6d95c1966cd6472dea3477159299cb42fa8d523cda55d8fa7c58fc99a6d",
+      "role": "Structured/static or historical evidence; pending/derived labels may be superseded"
+    },
+    {
+      "path": "kb10a-rsp-evidence.jsonl",
+      "bytes": 13657,
+      "sha256": "00c8aae60e96d1f87c6cd5a1f6170a89342a2bd572f6de70f064b16e7229c163",
+      "role": "Historical debugger observations/interventions; interpret with experiment history"
+    },
+    {
+      "path": "kb10a-runtime-controlled.json",
+      "bytes": 3242,
+      "sha256": "55684a56d1e06618b89465097f73aa2dafb4c13dca22d693894008a41e89f857",
+      "role": "Structured/static or historical evidence; pending/derived labels may be superseded"
+    },
+    {
+      "path": "kb10b-rsp-evidence.jsonl",
+      "bytes": 9501,
+      "sha256": "8644b5e6f2f3b0ee84f56360d2fe094b4f9976d9cf93cbc5e39fc5d387e9ce54",
+      "role": "Historical debugger observations/interventions; interpret with experiment history"
+    },
+    {
+      "path": "kb10b-runtime-controlled.json",
+      "bytes": 2510,
+      "sha256": "58d6a38c60a0cf2774e53a4c3f22ef93d2a61230290d0ea6d95170e6279908bd",
+      "role": "Structured/static or historical evidence; pending/derived labels may be superseded"
+    },
+    {
+      "path": "kb11a-rsp-evidence.jsonl",
+      "bytes": 5277,
+      "sha256": "3dc07807c8f97a8966763248741274195ac5e7cf60b94b7ccdccbf359d13518d",
+      "role": "Historical debugger observations/interventions; interpret with experiment history"
+    },
+    {
+      "path": "kb11a-runtime-controlled.json",
+      "bytes": 1874,
+      "sha256": "b7fd39861a9b82cea6dd853c08e302bc0bfb97c202de6d2e9001a624d598d0f5",
+      "role": "Structured/static or historical evidence; pending/derived labels may be superseded"
+    },
+    {
+      "path": "kb11b-rsp-evidence.jsonl",
+      "bytes": 6186,
+      "sha256": "f4eaf48fa8c816b3fc266819b2f16aa23ec2cd583bce31651cfdb52839bfe766",
+      "role": "Historical debugger observations/interventions; interpret with experiment history"
+    },
+    {
+      "path": "kb11b-runtime-controlled.json",
+      "bytes": 1691,
+      "sha256": "17e3d06dc9fb469a2b2ffacc89bc8d5690a38e01ad700fcb4f673a9245289f5a",
+      "role": "Structured/static or historical evidence; pending/derived labels may be superseded"
+    },
+    {
+      "path": "kb11c-rsp-evidence.jsonl",
+      "bytes": 7289,
+      "sha256": "b64d99a99f64c75dc0a6eb3484e868cbd188964f7957bb9d46348fee98bd2cb6",
+      "role": "Historical debugger observations/interventions; interpret with experiment history"
+    },
+    {
+      "path": "kb11c-runtime-controlled.json",
+      "bytes": 1591,
+      "sha256": "c794b07d815c36a9f5748579555462795adb66b3e1874b60c2377434691221c2",
+      "role": "Structured/static or historical evidence; pending/derived labels may be superseded"
+    },
+    {
+      "path": "kb11d-rsp-evidence.jsonl",
+      "bytes": 3720,
+      "sha256": "4b8d8f4f9a36e3cf42d946dd4038d0d5ad4a281b8069096b157c27680f4e9981",
+      "role": "Historical debugger observations/interventions; interpret with experiment history"
+    },
+    {
+      "path": "kb11d-runtime-controlled.json",
+      "bytes": 1140,
+      "sha256": "b3aca91cda7046719a46c599792c1b480d8f4abe521daa3fddba904889fd5e19",
+      "role": "Structured/static or historical evidence; pending/derived labels may be superseded"
+    },
+    {
+      "path": "kb13a-fat-ko-check.json",
+      "bytes": 3131,
+      "sha256": "f33407452c04afc2b9f211e8f8704c9bdff7eef318b57255b2680d5d43daa629",
+      "role": "Structured/static or historical evidence; pending/derived labels may be superseded"
+    },
+    {
+      "path": "kb13a-fat-ko-melee-check.json",
+      "bytes": 3136,
+      "sha256": "7eb6a35772bbf94f49e0f5343e3efe00845ae856885a92d704cd66d50156a471",
+      "role": "Structured/static or historical evidence; pending/derived labels may be superseded"
+    },
+    {
+      "path": "kb13a-g0-confirmed.json",
+      "bytes": 3164,
+      "sha256": "647ba4f77a56fa0195bed456314f2d67639b957dd08aeee410aceb3dced7934a",
+      "role": "Structured/static or historical evidence; pending/derived labels may be superseded"
+    },
+    {
+      "path": "kb13a-g0-switch-after-recross.json",
+      "bytes": 3176,
+      "sha256": "d1df344d1299f926b9d33291567510ef9717c903c37074e163137c21ed65a1b2",
+      "role": "Structured/static or historical evidence; pending/derived labels may be superseded"
+    },
+    {
+      "path": "kb13a-g0-switch-not-yet.json",
+      "bytes": 3183,
+      "sha256": "5a9fc5ff7492d51c7588f62fa6c1e2c14b9653dd20106177bf031b4c688118ac",
+      "role": "Structured/static or historical evidence; pending/derived labels may be superseded"
+    },
+    {
+      "path": "kb13a-g2-request.json",
+      "bytes": 2903,
+      "sha256": "4d8296fbdfe067afca3ece33c6a51da4fde978eb27be3096b711b01a7887213b",
+      "role": "Structured/static or historical evidence; pending/derived labels may be superseded"
+    },
+    {
+      "path": "kb13a-g3-cancel-request.json",
+      "bytes": 3025,
+      "sha256": "658fc359c30ecbcfb439e585cbd89ec1501eec1667158080818cf959ac77d055",
+      "role": "Structured/static or historical evidence; pending/derived labels may be superseded"
+    },
+    {
+      "path": "kb13a-g3-confirmed.json",
+      "bytes": 3036,
+      "sha256": "2f568b619260bbde15763a62f94c01d39a289083ae6217f188b1a977b95f8c58",
+      "role": "Structured/static or historical evidence; pending/derived labels may be superseded"
+    },
+    {
+      "path": "kb13a-initial.json",
+      "bytes": 2899,
+      "sha256": "05f42bbda4fcec678e13c345e47a24551e64549fa6763ac0d2db86d77996e099",
+      "role": "Structured/static or historical evidence; pending/derived labels may be superseded"
+    },
+    {
+      "path": "kb13a-ko-entry-g0.json",
+      "bytes": 3130,
+      "sha256": "8aeac7c34ea47f5d67729bd8d1f71403e14421b0faffb9c213c1965ac3f41d99",
+      "role": "Structured/static or historical evidence; pending/derived labels may be superseded"
+    },
+    {
+      "path": "kb13a-rsp-evidence.jsonl",
+      "bytes": 156141,
+      "sha256": "09b10fb064be72d24b23975b3b8701e9ff02afb51f9e505781ba6b3b617fb5fb",
+      "role": "Historical debugger observations/interventions; interpret with experiment history"
+    },
+    {
+      "path": "kb13a-simple-mission-menu.png",
+      "bytes": 569381,
+      "sha256": "761c768ab429a4a51f1fc3e8c87aa44635a97945181dbfb1687dc8ac2da5cb1c",
+      "role": "Recorded screenshot; not independent evidence of a complete save/cold-load path"
+    },
+    {
+      "path": "kb13a-v0-confirmed.json",
+      "bytes": 3133,
+      "sha256": "72f9cb260b25b9860144212d6b1e4b5efbd4e963663deb224c77ffcdf8f2b902",
+      "role": "Structured/static or historical evidence; pending/derived labels may be superseded"
+    },
+    {
+      "path": "kb13a-v0-switch-after-recross.json",
+      "bytes": 3130,
+      "sha256": "19d16c883a0abb5a6fc8ecd84a489f69d6430040430f6b162969449a1e5db3cd",
+      "role": "Structured/static or historical evidence; pending/derived labels may be superseded"
+    },
+    {
+      "path": "kb13a-v0-switch-confirmed.json",
+      "bytes": 3141,
+      "sha256": "9687a08a0e7475ab614f5d418bb214b313e85aee9ff1c3e85931d236c95fcb3a",
+      "role": "Structured/static or historical evidence; pending/derived labels may be superseded"
+    },
+    {
+      "path": "kb13a-v2-request-after-recross.json",
+      "bytes": 3192,
+      "sha256": "9dadb83858040d852b405e7f1453aa19be664a3b13c5e1542d6acefcff382f8f",
+      "role": "Structured/static or historical evidence; pending/derived labels may be superseded"
+    },
+    {
+      "path": "kb15a-initial.json",
+      "bytes": 2973,
+      "sha256": "5cbc5e0f587fb5daec54220ebfaa15c40156d4fb49d35c4a720f59033addd231",
+      "role": "Structured/static or historical evidence; pending/derived labels may be superseded"
+    },
+    {
+      "path": "kb15b-g0-confirmed.json",
+      "bytes": 3252,
+      "sha256": "4dd98681cebd28ec3ef0c37bc7f0f1e81aaec1db5e6f23702052ae7119088a9b",
+      "role": "Structured/static or historical evidence; pending/derived labels may be superseded"
+    },
+    {
+      "path": "kb15b-g0-switch-check.json",
+      "bytes": 3254,
+      "sha256": "1169cdd109bc9e0ddff7acc8f1773c2987576592ddd6068096e3cfe79a8d4a3d",
+      "role": "Structured/static or historical evidence; pending/derived labels may be superseded"
+    },
+    {
+      "path": "kb15b-g2-slot1-request.json",
+      "bytes": 2998,
+      "sha256": "ded00e54c9d640755f544db53a468438a69ee3e154d6d4ec139143ac7dc52fa6",
+      "role": "Structured/static or historical evidence; pending/derived labels may be superseded"
+    },
+    {
+      "path": "kb15b-g3-cancel-request.json",
+      "bytes": 3052,
+      "sha256": "8ad5cafdd4908742538b375d60f302337c9e84063043d4d17c23401e9246a2d8",
+      "role": "Structured/static or historical evidence; pending/derived labels may be superseded"
+    },
+    {
+      "path": "kb15b-g3-confirmed.json",
+      "bytes": 3047,
+      "sha256": "ca97f444579377f49dec59d1a802869e7dc8a0ece1098829b6aa421e80e795be",
+      "role": "Structured/static or historical evidence; pending/derived labels may be superseded"
+    },
+    {
+      "path": "kb15b-resident-table-equivalence.json",
+      "bytes": 968,
+      "sha256": "17a8a763f718b02209b4b84307c04fb041655bc6f3c054beff8a1fa19257dee8",
+      "role": "Structured/static or historical evidence; pending/derived labels may be superseded"
+    },
+    {
+      "path": "limits-20261015/BATTLE_ZONE_FREE_CELLS.json",
+      "bytes": 23922,
+      "sha256": "c6c778ff875d81d9768bf47e0796574e27e81a5749d6b6b3ebb362c11ac7b07d",
+      "role": "Structured/static or historical evidence; pending/derived labels may be superseded"
+    },
+    {
+      "path": "limits-20261015/EDITOR_RELEASE.json",
+      "bytes": 396,
+      "sha256": "66f8b04840efdc1c4d4461a3c2870bbd89f69ca0b9aebbab9c91c24ce39bd4fe",
+      "role": "Structured/static or historical evidence; pending/derived labels may be superseded"
+    },
+    {
+      "path": "limits-20261015/EDITOR_RELEASE_0.4.json",
+      "bytes": 543,
+      "sha256": "38164c64ab5b2eaa993863b1b8e92678a5ee094847948f3e0345be061d128d78",
+      "role": "Structured/static or historical evidence; pending/derived labels may be superseded"
+    },
+    {
+      "path": "limits-20261015/GS512-RPCS3-patch.yml",
+      "bytes": 4365,
+      "sha256": "f4e0960fd8d1412e8dd1ce20aad427a33cfd8b9951335fc9c9af9c2fd14ba53b",
+      "role": "Historical exact-input experimental delta; not a supported Studio installation"
+    },
+    {
+      "path": "limits-20261015/GS512-patch.json",
+      "bytes": 16206,
+      "sha256": "517d859ba3e67b002f1e673b1ba8329bf986f6af9d2f8a2c5673a2107bc83ee3",
+      "role": "Historical exact-input experimental delta; not a supported Studio installation"
+    },
+    {
+      "path": "limits-20261015/GS512-r1-patch.json",
+      "bytes": 15783,
+      "sha256": "e628722534204cd11237bd98c55aeef4abd38615afd4866cdfd22eb6d586e4b9",
+      "role": "Historical exact-input experimental delta; not a supported Studio installation"
+    },
+    {
+      "path": "limits-20261015/GS512-r2-coldload-502.json",
+      "bytes": 343,
+      "sha256": "f79d62cb3ed0bde3f4eadfa53afb33a53abac20b350120e11175a1a439d95fd0",
+      "role": "Structured/static or historical evidence; pending/derived labels may be superseded"
+    },
+    {
+      "path": "limits-20261015/GS512-runtime.json",
+      "bytes": 2263,
+      "sha256": "7840c22de6ea20b5a254bc60f5796294f50094896b4024d37f7a2ab1f0320b5c",
+      "role": "Structured/static or historical evidence; pending/derived labels may be superseded"
+    },
+    {
+      "path": "limits-20261015/GS512_RUNTIME_EN.md",
+      "bytes": 8169,
+      "sha256": "2131713df3f1c7ffacb51dfabd05f880799a2efddcbe94c7ccd95287d33081a4",
+      "role": "Structured/static or historical evidence; pending/derived labels may be superseded"
+    },
+    {
+      "path": "limits-20261015/GS512_TOOLS_EN.md",
+      "bytes": 3837,
+      "sha256": "eecf51374d49692a24042c49f062e474f256971142f15265d26b37d4e086170f",
+      "role": "Structured/static or historical evidence; pending/derived labels may be superseded"
+    },
+    {
+      "path": "limits-20261015/GS512_TOOLS_PACKAGE.json",
+      "bytes": 283,
+      "sha256": "0020a2dac1e6ead5d438d7becc18a69d161f2a05db50e99ef6081ee9a9191e0e",
+      "role": "Structured/static or historical evidence; pending/derived labels may be superseded"
+    },
+    {
+      "path": "limits-20261015/M500-controlled-victory.png",
+      "bytes": 576471,
+      "sha256": "00b7c80e1c9854b62a994504fca11f8a0460f1d3319d3e42b8789172eca24f11",
+      "role": "Recorded screenshot; not independent evidence of a complete save/cold-load path"
+    },
+    {
+      "path": "limits-20261015/M500-save-result.json",
+      "bytes": 368,
+      "sha256": "f683ffbcb2174f9965db0030a8d5548eb3e9fa57c2b3d8b90852792703dd11cd",
+      "role": "Structured/static or historical evidence; pending/derived labels may be superseded"
+    },
+    {
+      "path": "limits-20261015/M512-502-intro.json",
+      "bytes": 1324,
+      "sha256": "30b50d33eab17e3576f9a5252c6fa23a2eb285e6a81e7c56e8e46d30f8354e18",
+      "role": "Structured/static or historical evidence; pending/derived labels may be superseded"
+    },
+    {
+      "path": "limits-20261015/M512-502-save-audit.json",
+      "bytes": 484,
+      "sha256": "9199a71c0c6e9ee03bced6acab456971e7f394d0328e73077bafa0909c47543a",
+      "role": "Structured/static or historical evidence; pending/derived labels may be superseded"
+    },
+    {
+      "path": "limits-20261015/M512-511-controlled-finish.json",
+      "bytes": 1060,
+      "sha256": "8bc4b9b88b33567d3f6fb92984b58b0c862ca092b572337914eb615967d34eb2",
+      "role": "Structured/static or historical evidence; pending/derived labels may be superseded"
+    },
+    {
+      "path": "limits-20261015/M512-511-intro.json",
+      "bytes": 1347,
+      "sha256": "6b8d3dc22d44c9b1843223a15085ab25b052d67a9adae908c8b14f73480514a0",
+      "role": "Structured/static or historical evidence; pending/derived labels may be superseded"
+    },
+    {
+      "path": "limits-20261015/M512-511-result-ram.json",
+      "bytes": 134,
+      "sha256": "0b7a35437ec9d414cc3d16c7a24e3d3754711c759a151c21122e17480cbfc2de",
+      "role": "Structured/static or historical evidence; pending/derived labels may be superseded"
+    },
+    {
+      "path": "limits-20261015/M512-511-result.png",
+      "bytes": 556890,
+      "sha256": "b7b4d50bc1cfaa48c8f0a03b882e19d2b5b5e0f00419471c2cf58162fe954e0e",
+      "role": "Recorded screenshot; not independent evidence of a complete save/cold-load path"
+    },
+    {
+      "path": "limits-20261015/M512-511-save-audit.json",
+      "bytes": 514,
+      "sha256": "b7a754c5f9a0e88b274829bf9a1f99bef101e789f3f7bbd78f452df753e9a283",
+      "role": "Structured/static or historical evidence; pending/derived labels may be superseded"
+    },
+    {
+      "path": "limits-20261015/MODIFIER_TARGET_RUNTIME_EN.md",
+      "bytes": 1099,
+      "sha256": "0bf53ac7b58dc3ce11fbfc866bb4517de33bef1e68527683888d384e803a2a7e",
+      "role": "Structured/static or historical evidence; pending/derived labels may be superseded"
+    },
+    {
+      "path": "limits-20261015/RESTORE_AUDIT.json",
+      "bytes": 1084,
+      "sha256": "22156e7a46a86c81bde63e589f6c99fa7b3802d8d2f96a96c72836bfb9eb056e",
+      "role": "Structured/static or historical evidence; pending/derived labels may be superseded"
+    },
+    {
+      "path": "limits-20261015/SAVE_AND_RAM_LIMITS_EN.md",
+      "bytes": 7035,
+      "sha256": "faaf4542dc452b778b83e0c4e83f55904cbfc9b6bfab70b9b2ddd7e691259e6e",
+      "role": "Structured/static or historical evidence; pending/derived labels may be superseded"
+    },
+    {
+      "path": "limits-20261015/TUTORIAL_SAVE_BOUNDS_EN.md",
+      "bytes": 2236,
+      "sha256": "c3754a0c876eda4a7321f1b30721e5d1bb2dc8517e4c9900c32c81443d5bdaa3",
+      "role": "Structured/static or historical evidence; pending/derived labels may be superseded"
+    },
+    {
+      "path": "limits-20261015/character-initialization.txt",
+      "bytes": 8361,
+      "sha256": "2666072184a2e2b9700bc5fc2fb64da75c368550f5ff94a9622ec1f92c94961d",
+      "role": "Structured/static or historical evidence; pending/derived labels may be superseded"
+    },
+    {
+      "path": "limits-20261015/initial-unlocks.json",
+      "bytes": 1277,
+      "sha256": "e182a256b78460297a50fa60d70a06453c5da32080d28d1ae069522ca76b4891",
+      "role": "Structured/static or historical evidence; pending/derived labels may be superseded"
+    },
+    {
+      "path": "limits-20261015/modifier-player-apply.txt",
+      "bytes": 3207,
+      "sha256": "c0b11fcbf5a4be79c97415c64c1c137c0dd65885ad740d8798120f9194434668",
+      "role": "Structured/static or historical evidence; pending/derived labels may be superseded"
+    },
+    {
+      "path": "limits-20261015/tutorial-records.txt",
+      "bytes": 4383,
+      "sha256": "bef0f28e2e40add9a5bfeb5d357648124afeeaaa080222d136fb33421e6a37fb",
+      "role": "Structured/static or historical evidence; pending/derived labels may be superseded"
+    },
+    {
+      "path": "limits-20261015/tutorial-save-fields.txt",
+      "bytes": 3093,
+      "sha256": "e5f9b13d43aca66f82a6571a597a4a075686100c69796280e22884664f2654a5",
+      "role": "Structured/static or historical evidence; pending/derived labels may be superseded"
+    },
+    {
+      "path": "limits-20261015/tutorial-scan.txt",
+      "bytes": 8073,
+      "sha256": "392d3c215478aa3ea99c26fe2f3d141a76aaec2ded0d4093e88f7d4afb6baa7e",
+      "role": "Structured/static or historical evidence; pending/derived labels may be superseded"
+    },
+    {
+      "path": "limits-20261015/tutorial-tail-read.txt",
+      "bytes": 5088,
+      "sha256": "92d5154772dab7d35e4fcf5446c6c5eae059c57eddd5c0d1b2dc02f209cb555b",
+      "role": "Structured/static or historical evidence; pending/derived labels may be superseded"
+    },
+    {
+      "path": "limits-20261015/zone-coordinate-path.txt",
+      "bytes": 4433,
+      "sha256": "9da6b19ef03ede6fec2366bdb64a32ee543c19ececf13d1ca1b1ea6ce47c226d",
+      "role": "Structured/static or historical evidence; pending/derived labels may be superseded"
+    },
+    {
+      "path": "limits-20261015/zone-parser.txt",
+      "bytes": 6560,
+      "sha256": "9d37c695f67d811eb1378561eff6e40d1cc9001f6de083fe3beea8f0efea9829",
+      "role": "Structured/static or historical evidence; pending/derived labels may be superseded"
+    },
+    {
+      "path": "original-flow-item-usage.json",
+      "bytes": 7541,
+      "sha256": "8e41742fd8fd775300b6746da83eea995786479ee74f36d470cbbde3fc025365",
+      "role": "Structured/static or historical evidence; pending/derived labels may be superseded"
+    },
+    {
+      "path": "property-metadata-selected.json",
+      "bytes": 3068,
+      "sha256": "016bf82ef4252d76a79cea158817074e97349c8496fc38947e67d5888551cbe9",
+      "role": "Structured/static or historical evidence; pending/derived labels may be superseded"
+    },
+    {
+      "path": "publication-checks/d2-patch.json",
+      "bytes": 201,
+      "sha256": "38dffaa30ae4ce51ef20a6ded0977351508d62e2b66fd7eb575fed8c1441e088",
+      "role": "Selected static or delta-reproduction evidence rerun for publication; no new gameplay"
+    },
+    {
+      "path": "publication-checks/main-flags.json",
+      "bytes": 5451,
+      "sha256": "84070d8ee3bd9a4c1d9a17c9cd8cf1ad8bc2078c2b62585a9c9a19c4e7e445ab",
+      "role": "Selected static or delta-reproduction evidence rerun for publication; no new gameplay"
+    },
+    {
+      "path": "publication-checks/music-proof.json",
+      "bytes": 33113,
+      "sha256": "b26f514115c8956d4b718feefc2eaeb841388fa1ac8c89a79b9a112f238acbef",
+      "role": "Selected static or delta-reproduction evidence rerun for publication; no new gameplay"
+    },
+    {
+      "path": "publication-checks/zone-outcomes.json",
+      "bytes": 7405,
+      "sha256": "adc530aa06e0dc6a1f7a489ccca591d1168fa619148a725472244325bf559814",
+      "role": "Selected static or delta-reproduction evidence rerun for publication; no new gameplay"
+    },
+    {
+      "path": "publication-checks/zone-routing.json",
+      "bytes": 52016,
+      "sha256": "611cb6f87f019b723b01d8d16cdad26c38b6e48d25dd0bd845c5deea7e7f1574",
+      "role": "Selected static or delta-reproduction evidence rerun for publication; no new gameplay"
+    },
+    {
+      "path": "ram-findings.json",
+      "bytes": 3596,
+      "sha256": "69bf74857f8b2baeae345bd39b26597a9760a84e84247ea86e8fe3a60ddee4b5",
+      "role": "Structured/static or historical evidence; pending/derived labels may be superseded"
+    },
+    {
+      "path": "studio-v02/PROGRESSION_AND_MODIFIERS_EN.md",
+      "bytes": 8506,
+      "sha256": "db5c02bc57f7f09a7adcd568963bf1d55f48b0d472d784f1361cf83bec6fa772",
+      "role": "Structured/static or historical evidence; pending/derived labels may be superseded"
+    },
+    {
+      "path": "studio-v02/PROGRESSION_REFERENCE.json",
+      "bytes": 36623,
+      "sha256": "bd2acfa142aca8c34bf622c7c0c656c12c59799fe265065a1952cd851dadf250",
+      "role": "Structured/static or historical evidence; pending/derived labels may be superseded"
+    },
+    {
+      "path": "studio-v02/RELEASE_STATUS.json",
+      "bytes": 1902,
+      "sha256": "c03f99405eb54c86bb8a8d4d3a1629628d9b58c6d883ebf9cd6b49f33f188784",
+      "role": "Structured/static or historical evidence; pending/derived labels may be superseded"
+    },
+    {
+      "path": "tutorial-analysis.json",
+      "bytes": 27790,
+      "sha256": "9cbd44c5a804659da52cd3202c500410e6571ce7b24bca31c99525fb2fa40004",
+      "role": "Structured/static or historical evidence; pending/derived labels may be superseded"
+    },
+    {
+      "path": "tutorial-descriptors.csv",
+      "bytes": 1775,
+      "sha256": "c365378b07a55c24f729e2bf8653b76ac1ea9b7e367c62efea6b2b4a38ca73fd",
+      "role": "Decoded original-file catalog; IDs and observations retain their stated namespaces"
+    },
+    {
+      "path": "tutorial-presets-decoded.csv",
+      "bytes": 6400,
+      "sha256": "053ae78f771056b3862f15b4a45d6ad208682ac1e3c603254a8ae993bd543423",
+      "role": "Decoded original-file catalog; IDs and observations retain their stated namespaces"
+    }
+  ]
+}

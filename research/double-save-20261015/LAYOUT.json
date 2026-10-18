@@ -1,0 +1,53 @@
+{
+  "format": "D2 research",
+  "size": 110000,
+  "checksum_valid": true,
+  "sha256": "a81ce4d5be2db71f4a4a9da549a9994593295ea66a75cb667d143f29dc4a2420",
+  "capacities": {
+    "galaxy": 1040,
+    "tutorial": 64,
+    "battle_zone_physical_cells_per_route": 54
+  },
+  "banks": [
+    {
+      "name": "galaxy",
+      "offset": 55040,
+      "size": 31120
+    },
+    {
+      "name": "tutorial",
+      "offset": 86192,
+      "size": 1860
+    },
+    {
+      "name": "battle_zone",
+      "offset": 88096,
+      "size": 21672
+    }
+  ],
+  "migration_lossless": true,
+  "padding_ranges": [
+    [
+      55000,
+      55040
+    ],
+    [
+      86160,
+      86192
+    ],
+    [
+      88052,
+      88096
+    ],
+    [
+      109768,
+      109936
+    ]
+  ],
+  "preserved_old_banks_inactive": true,
+  "bank_notes": {
+    "battle_zone": "4-byte route header,54x24-byte cell records,16-byte route footer;16existing routes;616-byte whole-bank tail",
+    "galaxy": "1040x28-byte rows plus original2000-byte aggregate/global tail",
+    "tutorial": "64x28-byte rows plus original68-byte trailing data"
+  }
+}

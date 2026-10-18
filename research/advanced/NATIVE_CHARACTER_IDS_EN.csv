@@ -1,0 +1,101 @@
+native_id,name,name_text_id,form_text_id
+0,Goku,0,4294967295
+1,Goku / Super Saiyan,0,43
+2,Goku / Super Saiyan 2,0,44
+3,Goku / Super Saiyan 3,0,45
+4,Kid Gohan,1,4294967295
+5,Teen Gohan,2,4294967295
+6,Teen Gohan / Super Saiyan,2,43
+7,Teen Gohan / Super Saiyan 2,2,44
+8,Gohan,3,4294967295
+9,Gohan / Super Saiyan,3,43
+10,Gohan / Super Saiyan 2,3,44
+11,Piccolo,4,4294967295
+12,Krillin,5,4294967295
+13,Yamcha,6,4294967295
+14,Tien,7,4294967295
+15,Chiaotzu,39,4294967295
+16,Vegeta (Scouter),8,4294967295
+17,Vegeta,9,4294967295
+18,Vegeta / Super Saiyan,9,43
+19,Super Vegeta,10,4294967295
+20,Vegeta / Super Saiyan 2,9,44
+21,Vegeta / Majin,9,46
+22,Trunks (Sword),11,4294967295
+23,Trunks (Sword) / Super Saiyan,11,43
+24,Trunks (Fighting Teen),12,4294967295
+25,Trunks (Fighting Teen) / Super Saiyan,12,43
+26,Super Trunks ,13,4294967295
+27,Kid Trunks,40,4294967295
+28,Kid Trunks / Super Saiyan,40,43
+29,Goten,41,4294967295
+30,Goten / Super Saiyan,41,43
+31,Gotenks,14,4294967295
+32,Gotenks / Super Saiyan,14,43
+33,Gotenks / Super Saiyan 3,14,45
+34,Vegito,15,4294967295
+35,Super Vegito,16,4294967295
+36,Videl,17,4294967295
+37,Bardock,18,4294967295
+38,Raditz,19,4294967295
+39,Nappa,20,4294967295
+40,Zarbon,21,4294967295
+41,Zarbon / Post-Transformation,21,47
+42,Dodoria,22,4294967295
+43,Captain Ginyu,23,4294967295
+44,Recoome,24,4294967295
+45,Burter,25,4294967295
+46,Jeice,26,4294967295
+47,Guldo,27,4294967295
+48,Frieza / 1st Form,28,48
+49,Frieza / 2nd Form,28,49
+50,Frieza / 3rd Form,28,50
+51,Frieza / Final Form,28,51
+52,Frieza / Full Power,28,52
+53,Android #16,29,4294967295
+54,Android #17,30,4294967295
+55,Android #18,31,4294967295
+56,Android #19,32,4294967295
+57,Dr. Gero,33,4294967295
+58,Cell / 1st Form,34,48
+59,Cell / 2nd Form,34,49
+60,Cell / Perfect Form,34,53
+61,Cell / Perfect,34,54
+62,Majin Buu,35,4294967295
+63,Super Buu,36,4294967295
+64,Super Buu / Gotenks Absorbed,36,55
+65,Super Buu / Gohan Absorbed,36,56
+66,Kid Buu,37,4294967295
+67,Broly,38,4294967295
+68,Broly / Super Saiyan,38,43
+69,Broly / Legendary Super Saiyan,38,57
+70,Super Gogeta,42,4294967295
+71,Vegeta / Super Saiyan 3,9,45
+72,Broly / Super Saiyan 3,38,45
+73,Ultimate Gohan,115,4294967295
+74,Saibamen,112,4294967295
+75,Mecha Frieza,113,4294967295
+76,Cell Jr.,114,4294967295
+77,Demon King Dabura,116,4294967295
+78,Turles,125,4294967295
+79,Cooler,118,4294967295
+80,Cooler / Final Form,118,51
+81,Meta-Cooler,119,4294967295
+82,Android #13,124,4294967295
+83,Android #13 / Fusion,124,129
+84,Zangya,120,4294967295
+85,Bojack,117,4294967295
+86,Bojack / Full Power,117,52
+87,Super Janemba,128,4294967295
+88,Future Gohan,127,4294967295
+89,Future Gohan / Super Saiyan,127,43
+90,Nail,126,4294967295
+91,Cui,122,4294967295
+92,Pikkon,123,4294967295
+93,Tarble,130,4294967295
+94,Android #14,131,4294967295
+95,Android #15,132,4294967295
+96,Salza,121,4294967295
+97,Neizu,133,4294967295
+98,Dore,134,4294967295
+99,Hatchiyack,135,4294967295

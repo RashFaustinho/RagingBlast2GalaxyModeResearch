@@ -1,0 +1,20 @@
+{
+  "mission499": [
+    4097,
+    0,
+    283155,
+    0,
+    0,
+    0,
+    0
+  ],
+  "changed_mission_records": [
+    499
+  ],
+  "changed_aggregates": [
+    21
+  ],
+  "size": 55000,
+  "sha256": "dcb7079d83416a974ecb2a1ae9b73debb426794c606c698efcfde00eb96bdcc3",
+  "status": "Controlled live battle completion saved by engine; cold reload pending; no executable edits."
+}

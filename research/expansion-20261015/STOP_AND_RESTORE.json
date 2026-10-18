@@ -1,0 +1,20 @@
+{
+  "stopped_at_user_request": true,
+  "stopped_processes": [
+    194409,
+    194512
+  ],
+  "profile_restored_and_hash_verified": {
+    "ICON0.PNG": "230f8399251c65fe1d2083f7aa3ed23e5927cd6478745a1f87c3b2d122cf62fd",
+    "PIC1.PNG": "40d91952ed977ae8deddd312faa3d6c055cc8997d673b8392e1ef5f1311ef4fc",
+    "ICON1.PAM": "3a690b4efa9e6d3c1395801d30741ec013471e530a7bba6d09e9ea885545912b",
+    "PARAM.SFO": "e6313976b35d18b1653faa8c7ce5286cdd79636fccbb36db0c7d370d4f403d15",
+    "SYS-DATA": "1b7afb290b309511ca359f420a959dd541bddd79bebaeb508383b3eef556cf33"
+  },
+  "scratch_boot_restored": true,
+  "scratch_galaxy_member_and_metadata_restored": true,
+  "uploaded_originals_untouched": true,
+  "executable_modified": false,
+  "experimental_save_preserved_separately": "/workspace/research-rb2/expansion-20261015/save-after-GX19A-interrupted",
+  "runtime_status": "Galaxy icon66 selected; mission498 launched and won; save aggregate collision confirmed. Mission499 selected but not launched. Battle Zone prototypes not installed or runtime-tested. Editor0.1.1 work interrupted; no new release verified."
+}

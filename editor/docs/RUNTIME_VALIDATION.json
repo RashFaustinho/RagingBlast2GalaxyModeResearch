@@ -1,0 +1,69 @@
+{
+  "game": "Dragon Ball Raging Blast 2",
+  "region": "BLES00978",
+  "RPCS3": "0.0.43-20291-ffba2bf0",
+  "renderer": "Vulkan / lavapipe software rendering; black character models and some garbled text; identities checked in data",
+  "executable_modified": false,
+  "guest_code_written": false,
+  "HP_or_aura_written_in_ADV18_tests": false,
+  "original_EBOOT_sha256": "da28849b6dafc65c0de74d79f3bd1c54ff19f0368ffb728faa5d97ce77a03c30",
+  "experiments": [
+    {
+      "revision": "ADV18A",
+      "galaxy_sha256": "292a9f9d6f773389142c0746200b08f867f1bef84de45bd68f8fdd63fcbb614a",
+      "boot_sha256": "e2be23c227872fd05ecfbade6f187253dc732564268791a5b86c22e537e4b3b1",
+      "result": "Failed on resource initialization before Galaxy; packing/layout/AFS relocation changed together, cause not isolated"
+    },
+    {
+      "revision": "ADV18B",
+      "galaxy_sha256": "5b9cf120bac3211603ecabfa1a9048b92a06c4bb540cdf39da43ac0f7131306e",
+      "boot_sha256": "e2be23c227872fd05ecfbade6f187253dc732564268791a5b86c22e537e4b3b1",
+      "result": "Galaxy loaded; nine of ten missions completed (90%); modified original Boss showed ally and independent Easy difficulty"
+    },
+    {
+      "revision": "ADV18C",
+      "galaxy_sha256": "cc86b50afe3527530b0af17a1d3ac1c87d00bc16cb4beb11a4f9d3c11aafee7b",
+      "boot_sha256": "e2be23c227872fd05ecfbade6f187253dc732564268791a5b86c22e537e4b3b1",
+      "result": "New node498 selected and launched; custom ally preset1064 and all five move selectors verified in live actors; task1 loaded. Objective0 retained defeat-enemy logic. Prototype local graph inconsistencies found and fixed in D."
+    },
+    {
+      "revision": "ADV18D",
+      "galaxy_sha256": "cf2af41ef94614e0d4c0d4399171cf89b44fd37abbcbdcaa93dae5a5cca06024",
+      "boot_sha256": "e2be23c227872fd05ecfbade6f187253dc732564268791a5b86c22e537e4b3b1",
+      "result": "Offline graph/archive validation only; fixed both endpoint incident lists"
+    },
+    {
+      "revision": "ADV18E",
+      "galaxy_sha256": "7b47624cb98072f8379e7462e83d2e3993f3657b1e7fb209a0edd44992d5cdf2",
+      "boot_sha256": "e2be23c227872fd05ecfbade6f187253dc732564268791a5b86c22e537e4b3b1",
+      "result": "Cold boot, new node498 selected and launched; objective29/task1 and side counts2/1 verified. Ascend performed using keyboard; victory A++, score336650, Perfect Action bonus10000; enemy still40000 HP. Returned to Galaxy map: node498 shows COMPLETED and new record. Save file changed; cold-process reload confirmed persisted node498, score336650, rankA++,100% Galaxy completion and flags2E. Live reloaded menu MAIN compared byte-for-byte to ADV18E file; exact hash match. Node498 runtime progress flags2E."
+    }
+  ],
+  "validation_files": [
+    "ADV18C-battle-actors.json",
+    "ADV18C-battle-config.json",
+    "ADV18E-battle-config-and-actors.json",
+    "ADV18E-after-action-victory-actors.json",
+    "ADV18E-live-file-identity.json",
+    "ADV18E-node-progress-flags.json",
+    "BZ01-live-preset-table-selection.json",
+    "BZ01-battle-actors.json",
+    "ADV18E-COLD_RELOAD_PERSISTENCE.json",
+    "PROFILE_SAVE_RESTORED.json"
+  ],
+  "battle_zone_runtime": {
+    "experiment": "BZ01",
+    "mode": "Normal / Green Square / first fight",
+    "breakpoint": "0x1ca768",
+    "preset_index": 0,
+    "native_expected": 74,
+    "full_normal_preset_DAT_comparison": "Exact match of all106 rows and header",
+    "root_matches_zone_green_square_node0": true,
+    "Ultimate_table": "Static selection path and149-row data validated; no separate Ultimate fight runtime test",
+    "combat_actor_check": "Initialized actors during stage introduction: playerGoku/native0, enemySaibamen/native74, normal preset0, CPUlevel7, no equipment, move selectors2/3/0/1/4. Stopped before playing through the fight."
+  },
+  "clean_extra_mission_builder": "Archive roundtrip and reciprocal graph checks passed; all original roots byte-identical; output separately labeled not played-through",
+  "offline_tests": "30 tests passed; format, archive growth, graph reciprocity, postfix semantics, tutorial ally/task separation",
+  "cold_reload_persistence": "Passed: ADV18E-COLD_RELOAD_PERSISTENCE.json",
+  "final_profile_save_status": "Restored all files byte-for-byte to the pre-ADV18A backup after stopping research RPCS3; uploaded originals unchanged"
+}

@@ -1,0 +1,98 @@
+[
+  {
+    "name": "zone_green_square.mmd",
+    "edge_count": 3,
+    "min_dy": 1.0,
+    "nonforward_edges": []
+  },
+  {
+    "name": "zone_red_triangle.mmd",
+    "edge_count": 5,
+    "min_dy": 1.0,
+    "nonforward_edges": []
+  },
+  {
+    "name": "zone_blue_lozenge.mmd",
+    "edge_count": 5,
+    "min_dy": 1.0,
+    "nonforward_edges": []
+  },
+  {
+    "name": "zone_yellow_spiral.mmd",
+    "edge_count": 7,
+    "min_dy": 1.0,
+    "nonforward_edges": []
+  },
+  {
+    "name": "zone_violet_circle.mmd",
+    "edge_count": 9,
+    "min_dy": 1.0,
+    "nonforward_edges": []
+  },
+  {
+    "name": "zone_aquamarine_sphere.mmd",
+    "edge_count": 8,
+    "min_dy": 1.0,
+    "nonforward_edges": []
+  },
+  {
+    "name": "zone_crimson_liner.mmd",
+    "edge_count": 8,
+    "min_dy": 1.0,
+    "nonforward_edges": []
+  },
+  {
+    "name": "zone_final.mmd",
+    "edge_count": 6,
+    "min_dy": 1.0,
+    "nonforward_edges": []
+  },
+  {
+    "name": "zone_ultimate_square.mmd",
+    "edge_count": 4,
+    "min_dy": 1.0,
+    "nonforward_edges": []
+  },
+  {
+    "name": "zone_ultimate_triangle.mmd",
+    "edge_count": 4,
+    "min_dy": 1.0,
+    "nonforward_edges": []
+  },
+  {
+    "name": "zone_ultimate_lozenge.mmd",
+    "edge_count": 6,
+    "min_dy": 1.0,
+    "nonforward_edges": []
+  },
+  {
+    "name": "zone_ultimate_spiral.mmd",
+    "edge_count": 7,
+    "min_dy": 1.0,
+    "nonforward_edges": []
+  },
+  {
+    "name": "zone_ultimate_circle.mmd",
+    "edge_count": 10,
+    "min_dy": 1.0,
+    "nonforward_edges": []
+  },
+  {
+    "name": "zone_ultimate_sphere.mmd",
+    "edge_count": 10,
+    "min_dy": 1.0,
+    "nonforward_edges": []
+  },
+  {
+    "name": "zone_ultimate_liner.mmd",
+    "edge_count": 10,
+    "min_dy": 1.0,
+    "nonforward_edges": []
+  },
+  {
+    "name": "zone_final_ultimate.mmd",
+    "edge_count": 10,
+    "min_dy": 1.0,
+    "nonforward_edges": []
+  }
+]

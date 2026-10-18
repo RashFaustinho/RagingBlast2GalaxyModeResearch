@@ -1,0 +1,18 @@
+{
+  "table_records": 64,
+  "displayed_roster": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    63
+  ],
+  "boundary_circle_kind": 0,
+  "all64_playable": false,
+  "reason": "Isolate save index63 from per-circle rendering pool exhaustion"
+}

@@ -1,0 +1,27 @@
+{
+  "originalExecutable": true,
+  "base": "0x30000020",
+  "bytes": 55000,
+  "wholeBufferEqualsEngineWrittenSave": true,
+  "ramSHA256": "17fb9def8e886f79ac351b0674adf0b91eec0cc9df223ed7d84798346eb5f92b",
+  "diskSHA256": "17fb9def8e886f79ac351b0674adf0b91eec0cc9df223ed7d84798346eb5f92b",
+  "mission238": [
+    4097,
+    1,
+    328618,
+    0,
+    0,
+    0,
+    0
+  ],
+  "aggregate53": [
+    7390504,
+    2,
+    238,
+    0,
+    0,
+    0,
+    0
+  ],
+  "selectedNative": 2
+}

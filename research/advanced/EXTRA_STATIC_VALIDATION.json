@@ -1,0 +1,190 @@
+{
+  "graphs": {
+    "galaxy": {
+      "node_count": 498,
+      "edge_count": 515,
+      "root_descriptor": 3465,
+      "edge_descriptor": 3466,
+      "consistent": true,
+      "problems": []
+    },
+    "tutorial": {
+      "node_count": 9,
+      "edge_count": 8,
+      "root_descriptor": 59,
+      "edge_descriptor": 60,
+      "consistent": true,
+      "problems": []
+    }
+  },
+  "tutorial_ally_rows": [
+    {
+      "node": 4,
+      "candidate": 0,
+      "preset": 6,
+      "native": 11,
+      "character": "Piccolo",
+      "group_descriptor": 26,
+      "roster_descriptor": 25,
+      "condition_descriptor": 0,
+      "condition": "1"
+    },
+    {
+      "node": 5,
+      "candidate": 0,
+      "preset": 7,
+      "native": 17,
+      "character": "Vegeta",
+      "group_descriptor": 34,
+      "roster_descriptor": 33,
+      "condition_descriptor": 0,
+      "condition": "1"
+    },
+    {
+      "node": 5,
+      "candidate": 1,
+      "preset": 8,
+      "native": 27,
+      "character": "Kid Trunks",
+      "group_descriptor": 34,
+      "roster_descriptor": 33,
+      "condition_descriptor": 0,
+      "condition": "1"
+    },
+    {
+      "node": 5,
+      "candidate": 2,
+      "preset": 9,
+      "native": 29,
+      "character": "Goten",
+      "group_descriptor": 34,
+      "roster_descriptor": 33,
+      "condition_descriptor": 0,
+      "condition": "1"
+    },
+    {
+      "node": 5,
+      "candidate": 3,
+      "preset": 24,
+      "native": 11,
+      "character": "Piccolo",
+      "group_descriptor": 34,
+      "roster_descriptor": 33,
+      "condition_descriptor": 0,
+      "condition": "1"
+    }
+  ],
+  "total_just_action_records": 240,
+  "zone_root_records": 128,
+  "zone_reward_records": 114,
+  "battle_zone_archive_copies": [
+    {
+      "member": 8,
+      "sha256": "aed2649abc60ab6cb271cca9c0313551c81c16c4821262954c013a183c2286fa",
+      "size": 25792,
+      "identical_to_member8": true
+    },
+    {
+      "member": 22,
+      "sha256": "aed2649abc60ab6cb271cca9c0313551c81c16c4821262954c013a183c2286fa",
+      "size": 25792,
+      "identical_to_member8": true
+    },
+    {
+      "member": 36,
+      "sha256": "aed2649abc60ab6cb271cca9c0313551c81c16c4821262954c013a183c2286fa",
+      "size": 25792,
+      "identical_to_member8": true
+    },
+    {
+      "member": 50,
+      "sha256": "aed2649abc60ab6cb271cca9c0313551c81c16c4821262954c013a183c2286fa",
+      "size": 25792,
+      "identical_to_member8": true
+    },
+    {
+      "member": 64,
+      "sha256": "aed2649abc60ab6cb271cca9c0313551c81c16c4821262954c013a183c2286fa",
+      "size": 25792,
+      "identical_to_member8": true
+    },
+    {
+      "member": 78,
+      "sha256": "aed2649abc60ab6cb271cca9c0313551c81c16c4821262954c013a183c2286fa",
+      "size": 25792,
+      "identical_to_member8": true
+    },
+    {
+      "member": 92,
+      "sha256": "aed2649abc60ab6cb271cca9c0313551c81c16c4821262954c013a183c2286fa",
+      "size": 25792,
+      "identical_to_member8": true
+    },
+    {
+      "member": 106,
+      "sha256": "aed2649abc60ab6cb271cca9c0313551c81c16c4821262954c013a183c2286fa",
+      "size": 25792,
+      "identical_to_member8": true
+    },
+    {
+      "member": 120,
+      "sha256": "aed2649abc60ab6cb271cca9c0313551c81c16c4821262954c013a183c2286fa",
+      "size": 25792,
+      "identical_to_member8": true
+    },
+    {
+      "member": 134,
+      "sha256": "aed2649abc60ab6cb271cca9c0313551c81c16c4821262954c013a183c2286fa",
+      "size": 25792,
+      "identical_to_member8": true
+    },
+    {
+      "member": 148,
+      "sha256": "aed2649abc60ab6cb271cca9c0313551c81c16c4821262954c013a183c2286fa",
+      "size": 25792,
+      "identical_to_member8": true
+    },
+    {
+      "member": 162,
+      "sha256": "aed2649abc60ab6cb271cca9c0313551c81c16c4821262954c013a183c2286fa",
+      "size": 25792,
+      "identical_to_member8": true
+    },
+    {
+      "member": 176,
+      "sha256": "aed2649abc60ab6cb271cca9c0313551c81c16c4821262954c013a183c2286fa",
+      "size": 25792,
+      "identical_to_member8": true
+    },
+    {
+      "member": 190,
+      "sha256": "aed2649abc60ab6cb271cca9c0313551c81c16c4821262954c013a183c2286fa",
+      "size": 25792,
+      "identical_to_member8": true
+    },
+    {
+      "member": 204,
+      "sha256": "aed2649abc60ab6cb271cca9c0313551c81c16c4821262954c013a183c2286fa",
+      "size": 25792,
+      "identical_to_member8": true
+    },
+    {
+      "member": 218,
+      "sha256": "aed2649abc60ab6cb271cca9c0313551c81c16c4821262954c013a183c2286fa",
+      "size": 25792,
+      "identical_to_member8": true
+    },
+    {
+      "member": 232,
+      "sha256": "aed2649abc60ab6cb271cca9c0313551c81c16c4821262954c013a183c2286fa",
+      "size": 25792,
+      "identical_to_member8": true
+    },
+    {
+      "member": 234,
+      "sha256": "aed2649abc60ab6cb271cca9c0313551c81c16c4821262954c013a183c2286fa",
+      "size": 25792,
+      "identical_to_member8": true
+    }
+  ]
+}

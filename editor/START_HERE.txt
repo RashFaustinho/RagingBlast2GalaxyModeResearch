@@ -1,0 +1,33 @@
+RB2 GALAXY STUDIO 1.0
+English interface - portable offline browser app for Windows
+
+PREDOMINANTLY AI-DEVELOPED AND AI-RESEARCHED
+AI generated much of the implementation, analysis and documentation, with human
+direction, game material, gameplay tests and corrections. AI output can be wrong.
+See README_EN.md and the repository's evidence/confidence levels.
+
+1. Extract this entire ZIP to a folder.
+2. Double-click "Launch Galaxy Studio.cmd".
+   Or open "index.html" in a current Microsoft Edge / Google Chrome.
+3. Open multiple extracted MMD/DAT files together.
+   Overview can also extract/import editable members from/to your own AFS files.
+
+No installation, Python, Node.js, emulator or internet is required.
+Keep js and assets beside index.html. Original inputs are never overwritten.
+Export your edits before importing the saved files into a new patched AFS copy.
+
+README_EN.md - English user guide
+TESTING.md   - verification scope and limits
+CHANGELOG.md - changes since local previews
+
+Battle Zone secret requirements and route explanations now appear only in Route.
+Ordinary route forks are choices. A native secret requirement applies to the whole
+Normal/Ultimate Zone slot and may stay latched during a run; Studio cannot change it.
+
+Stock-engine warnings remain active: 66 independent Galaxies, 500 Galaxy result
+records (498 originals), separate Tutorial/Zone progress and circle/grid limits.
+Experimental save/ELF expansion research is not an application feature.
+
+Verification runs in Linux Chromium through local HTTP. Native Windows double-click
+launch and arbitrary custom fights have not been independently certified here.
+The portable ZIP contains no game archives, game executable, firmware, saves or dumps.

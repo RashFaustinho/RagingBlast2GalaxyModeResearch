@@ -1,0 +1,58 @@
+music_id_decimal,music_id_hex_u16_BE,name_text_id,original_english_name,record_hex,stream_index,sound_bank_US_table,description
+0,0000,0,Selection,0000000000010000,0,US,Fixed music selector; stream bank depends on the resident JP/US parameter table.
+1,0001,1,Cosmic Battle,0000000100010000,1,US,Fixed music selector; stream bank depends on the resident JP/US parameter table.
+2,0002,2,Space Museum,0000000200010000,2,US,Fixed music selector; stream bank depends on the resident JP/US parameter table.
+3,0003,3,Online Fighters,0000000300010000,3,US,Fixed music selector; stream bank depends on the resident JP/US parameter table.
+4,0004,4,BUDOKAI,0000000400010000,4,US,Fixed music selector; stream bank depends on the resident JP/US parameter table.
+5,0005,5,Battle of Omega,0000000500010000,5,US,Fixed music selector; stream bank depends on the resident JP/US parameter table.
+6,0006,6,The Great Expectation,0000000600010000,6,US,Fixed music selector; stream bank depends on the resident JP/US parameter table.
+7,0007,7,Challenger,0000000700010000,7,US,Fixed music selector; stream bank depends on the resident JP/US parameter table.
+8,0008,8,Soldiers' Sorrow,0000000800010000,8,US,Fixed music selector; stream bank depends on the resident JP/US parameter table.
+9,0009,9,Speedster,0000000900010000,9,US,Fixed music selector; stream bank depends on the resident JP/US parameter table.
+10,000A,10,The Dawn Of The Extreme Battle,0000000a00010000,10,US,Fixed music selector; stream bank depends on the resident JP/US parameter table.
+11,000B,11,Get Out,0000000b00010000,11,US,Fixed music selector; stream bank depends on the resident JP/US parameter table.
+12,000C,12,Force Of Justice,0000000c00010000,12,US,Fixed music selector; stream bank depends on the resident JP/US parameter table.
+13,000D,13,Pathos,0000000d00010000,13,US,Fixed music selector; stream bank depends on the resident JP/US parameter table.
+14,000E,14,Gallant,0000000e00010000,14,US,Fixed music selector; stream bank depends on the resident JP/US parameter table.
+15,000F,15,Ultra Energy,0000000f00010000,15,US,Fixed music selector; stream bank depends on the resident JP/US parameter table.
+16,0010,16,Dangerous Zone,0000001000010000,16,US,Fixed music selector; stream bank depends on the resident JP/US parameter table.
+17,0011,17,The Hero,0000001100010000,17,US,Fixed music selector; stream bank depends on the resident JP/US parameter table.
+18,0012,18,Brave,0000001200010000,18,US,Fixed music selector; stream bank depends on the resident JP/US parameter table.
+19,0013,19,Yin-Yang,0000001300010000,19,US,Fixed music selector; stream bank depends on the resident JP/US parameter table.
+20,0014,20,Rivals,0000001400010000,20,US,Fixed music selector; stream bank depends on the resident JP/US parameter table.
+21,0015,21,The Strong Enemy,0000001500010000,21,US,Fixed music selector; stream bank depends on the resident JP/US parameter table.
+22,0016,22,The Anthem Of Lives,0000001600010000,22,US,Fixed music selector; stream bank depends on the resident JP/US parameter table.
+23,0017,23,Accelerator,0000001700010000,23,US,Fixed music selector; stream bank depends on the resident JP/US parameter table.
+24,0018,24,Weird Atmosphere,0000001800010000,24,US,Fixed music selector; stream bank depends on the resident JP/US parameter table.
+25,0019,25,Nose To Tail,0000001900010000,25,US,Fixed music selector; stream bank depends on the resident JP/US parameter table.
+26,001A,26,Katharsis,0000001a00010000,26,US,Fixed music selector; stream bank depends on the resident JP/US parameter table.
+27,001B,27,Harlequin,0000001b00010000,27,US,Fixed music selector; stream bank depends on the resident JP/US parameter table.
+28,001C,28,Defiance,0000001c00010000,28,US,Fixed music selector; stream bank depends on the resident JP/US parameter table.
+29,001D,29,Critical Power,0000001d00010000,29,US,Fixed music selector; stream bank depends on the resident JP/US parameter table.
+30,001E,58,Battle of Omega (Solo Guitar),0000003600000000,54,JP,"Bonus theme, Solo Guitar. Native name text58; stream54 in the JP sound bank. This is not Random."
+31,001F,59,Battle of Omega (Full),0000003700000000,55,JP,"Bonus theme, Full. Native name text59; stream55 in the JP sound bank. This is not an unknown/locked entry."
+32,0020,30,The Great Expectation,0000000600010000,6,US,Fixed music selector; stream bank depends on the resident JP/US parameter table.
+33,0021,31,Challenger,0000000700010000,7,US,Fixed music selector; stream bank depends on the resident JP/US parameter table.
+34,0022,32,Soldiers' Sorrow,0000000800010000,8,US,Fixed music selector; stream bank depends on the resident JP/US parameter table.
+35,0023,33,Speedster,0000000900010000,9,US,Fixed music selector; stream bank depends on the resident JP/US parameter table.
+36,0024,34,The Dawn Of The Extreme Battle,0000000a00010000,10,US,Fixed music selector; stream bank depends on the resident JP/US parameter table.
+37,0025,35,Get Out,0000000b00010000,11,US,Fixed music selector; stream bank depends on the resident JP/US parameter table.
+38,0026,36,Force Of Justice,0000000c00010000,12,US,Fixed music selector; stream bank depends on the resident JP/US parameter table.
+39,0027,37,Pathos,0000000d00010000,13,US,Fixed music selector; stream bank depends on the resident JP/US parameter table.
+40,0028,38,Gallant,0000000e00010000,14,US,Fixed music selector; stream bank depends on the resident JP/US parameter table.
+41,0029,39,Ultra Energy,0000000f00010000,15,US,Fixed music selector; stream bank depends on the resident JP/US parameter table.
+42,002A,40,Dangerous Zone,0000001000010000,16,US,Fixed music selector; stream bank depends on the resident JP/US parameter table.
+43,002B,41,The Hero,0000001100010000,17,US,Fixed music selector; stream bank depends on the resident JP/US parameter table.
+44,002C,42,Brave,0000001200010000,18,US,Fixed music selector; stream bank depends on the resident JP/US parameter table.
+45,002D,43,Yin-Yang,0000001300010000,19,US,Fixed music selector; stream bank depends on the resident JP/US parameter table.
+46,002E,44,Rivals,0000001400010000,20,US,Fixed music selector; stream bank depends on the resident JP/US parameter table.
+47,002F,45,The Strong Enemy,0000001500010000,21,US,Fixed music selector; stream bank depends on the resident JP/US parameter table.
+48,0030,46,The Anthem Of Lives,0000001600010000,22,US,Fixed music selector; stream bank depends on the resident JP/US parameter table.
+49,0031,47,Accelerator,0000001700010000,23,US,Fixed music selector; stream bank depends on the resident JP/US parameter table.
+50,0032,48,Weird Atmosphere,0000001800010000,24,US,Fixed music selector; stream bank depends on the resident JP/US parameter table.
+51,0033,49,Nose To Tail,0000001900010000,25,US,Fixed music selector; stream bank depends on the resident JP/US parameter table.
+52,0034,50,Katharsis,0000001a00010000,26,US,Fixed music selector; stream bank depends on the resident JP/US parameter table.
+53,0035,51,Harlequin,0000001b00010000,27,US,Fixed music selector; stream bank depends on the resident JP/US parameter table.
+54,0036,52,Defiance,0000001c00010000,28,US,Fixed music selector; stream bank depends on the resident JP/US parameter table.
+55,0037,53,Critical Power,0000001d00010000,29,US,Fixed music selector; stream bank depends on the resident JP/US parameter table.
+56,0038,54,Select Randomly,,,,"Random sentinel, not an audio-table row. Galaxy converts56 to6 (The Great Expectation); Tutorial passes56 to the random resolver. Stock Battle Zone ignores its MMD music word and chooses its own music."

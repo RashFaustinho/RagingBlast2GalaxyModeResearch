@@ -1,0 +1,162 @@
+text_id,text
+0,Perform Normal Movement
+1,Perform Ascend
+2,Land on the ground with Descend
+3,Perform a Quick Ascend
+4,Land on the ground with Quick Descend
+5,Perform a Jump from the Ground
+6,Perform Steps
+7,Perform Dash
+8,Perform Homing Dash
+9,Homing Dash's Sudden Stop
+10,Perform Super Dash
+11,Super Dash's Sudden Stop
+12,Perform Super Rising
+13,Super Rising's Sudden Stop
+14,Perform Super Dash from Super Rising
+15,Hit with all the Rush Attacks
+16,Perform Charge Attack
+17,Hit with Charge Attack: Max
+18,Land a Charge Attack during movement
+19,Land a Charge Attack while jumping
+20,Land a Charge Attack during Dash
+21,Hit with Smash Attack: 1
+22,Hit with Smash Attack: 2
+23,Hit with Smash Attack: 3
+24,Hit with Smash Attack: 4
+25,Hit with Smash Attack: High
+26,Hit with Air Combo
+27,Hit with Smash Attack: Low
+28,Hit with Assault Chase
+29,Hit with Knockdown Attack
+30,Hit with Pursuit Attack: 1
+31,Hit with Pursuit Attack: 2
+32,Hit with all the Pursuit Attack: 2
+33,Throw opponent
+34,Defend attack with Defense
+35,Dodge attack with Sway
+36,Counterattack with Counter
+37,Perform Vanishing
+38,Dodge attack with Steps
+39,Perform Roll
+40,Perform a Sudden Dash from Roll
+41,Perform Recovery from Faint
+42,Deflect 5 Ki blasts
+43,Perform Throw Evasion
+44,Fill Ki Gauge to max with Ki Charging
+45,Hit with Rush Blast
+46,Hit with Charge Ki Blast: Max
+47,Hit Rush Blast while jumping
+48,Hit Charge Ki Blast while jumping
+49,Maximize High-Tension Gauge with Ki Charging
+50,Become High-Tension
+51,Activate Raging Soul
+52,Perform Vanishing Move
+53,Use Super Attack↑
+54,Use Super Attack→
+55,Use Super Attack↓
+56,Use Super Attack←
+57,Use Ultimate Attack
+58,Use signature skill
+59,Pull off Super Attack BOOST
+60,Perform Transformation
+61,Perform Quick Change (Transformation)
+62,Perform Switching
+63,Perform Switching with another character
+64,Perform Quick Change (Switching)
+65,Perform Fusion
+66,Win High-Speed Blow Exchange
+67,Win Blow Exchange
+68,Win Shot Exchange
+69,Pull off Rush Vanishing
+70,Hit Max-Charge Attack while Dash
+71,Hit with Charge Attack: Snap
+72,Hit with Charge Ki Blast: Snap
+73,Hit with Smash Attacks: Snap
+74,Perform Snap-Vanishing
+75,Perform Super Attack Deflect
+76,Hit with Super Attack from Pursuit Attack
+77,Perform Cancel Attack
+78,Pull off Derived Vanishing
+79,Reduce enemy's Health to 0
+80,Use Super Attack
+81,Use Super Attack <DIG=■>
+82,Hit with Super Attack
+83,Use Ultimate Attack
+84,Hit with Ultimate Attack
+85,Use signature skill
+86,Hit with signature skill
+87,Win with Super Attack
+88,Win with Super Attack <DIG=■>
+89,Win with Ultimate Attack
+90,Wipe out enemy and win
+91,Hit with Crash
+92,Hit with Team Super Attack
+93,Hit with Combination Attack
+94,Win with an attack of <DIG=●> or more damage
+95,Do a Combo of <DIG=●> HITS or more
+96,Do a Combo of <DIG=●> damage or more
+97,Defeat enemy with over <DIG=●> damages of attack
+98,Consume 1 bar of Ki
+99,Defeat the enemy with a Super Attack
+100,Defeat the enemy with a Super Attack <DIG=■>
+101,Defeat the enemy with an Ultimate Attack
+102,Defeat the enemy while in High-Tension mode
+103,Defeat the enemy while using Raging Soul
+104,Place an Angel Halo.
+105,Defeat the enemy within <DIG=●> seconds
+106,???
+107,Hit all pursuit attacks in High-Tension
+108,<PAD=Ｌ３>
+109,<PAD=＄Ｌ１>
+110,<PAD=＄Ｌ２>
+111,<PAD=＄Ｌ１>＋<PAD=＄×>
+112,<PAD=＄Ｌ２>＋<PAD=＄×>
+113,<PAD=＄×>
+114,<PAD=Ｌ３>＋<PAD=＄×>
+115,<PAD=＄×＄Ｒ１>
+116,<PAD=＄×＄×＄×>
+117,<PAD=＄×＄×＄×＄Ｒ１>
+118,<PAD=＄Ｌ１>＋<PAD=＄Ｌ２>
+119,<PAD=＄Ｌ１>＋<PAD=＄Ｌ２＄Ｒ１>
+120,<PAD=＄Ｌ１>＋<PAD=＄Ｌ２＄×>
+121,<PAD=＄□＄□＄□＄□＄□>
+122,<PAD=＄□>
+123,<PAD=Ｌ３＄□>
+124,<PAD=＄Ｌ１＄□>
+125,<PAD=＄×＄□>
+126,<PAD=＄□＄△>
+127,<PAD=＄□＄□＄△>
+128,<PAD=＄□＄□＄□＄△>
+129,<PAD=＄□＄□＄□＄□＄△>
+130,<PAD=＄□Ｌ↑>＋<PAD=＄△>
+131,<PAD=＄×＄□＄□＄□＄□>
+132,<PAD=＄□Ｌ↓>＋<PAD=＄△>
+133,<PAD=＄□Ｌ↓>＋<PAD=＄△＄△>
+134,<PAD=Ｌ↓>＋<PAD=＄Ｒ１>＋<PAD=＄○>
+135,<PAD=＄□＄□＄□>
+136,<PAD=＄Ｒ１>＋<PAD=＄○>
+137,<PAD=＄Ｒ１>
+138,<PAD=＄Ｒ１>＋<PAD=＄□>
+139,<PAD=＄Ｒ１>＋<PAD=＄△>
+140,<PAD=＄Ｒ１>＋<PAD=＄×>
+141,<PAD=Ｐ㊦＄Ｒ１>
+142,<PAD=＄×>／<PAD=Ｌ３>＋<PAD=＄×>
+143,<PAD=Ｐ㊦>
+144,<PAD=＄△>
+145,<PAD=＄Ｌ１＄△>
+146,<PAD=Ｒ↑>
+147,<PAD=Ｒ→>
+148,<PAD=Ｒ↓>
+149,<PAD=Ｒ←>
+150,<PAD=Ｒ㊦>
+151,<PAD=＄○>
+152,<PAD=＄Ｒ２>＋<PAD=＄□>／<PAD=＄△>／<PAD=＄○>／<PAD=＄×>
+153,<PAD=＄□>／<PAD=＄△>／<PAD=＄○>／<PAD=＄×>
+154,<PAD=＄□＄×>
+155,<PAD=＄×＄□>／<PAD=Ｌ３>＋<PAD=＄×＄□>
+156,<PAD=Ｌ３>＋<PAD=＄Ｒ１>
+157,<PAD=＄□＄□＄△＄○>
+158,<PAD=＄□＄□＄□＄□＄△＄×>
+159,<PAD=Ｒ↑>／<PAD=Ｒ→>／<PAD=Ｒ↓>／<PAD=Ｒ←>
+160,<PAD=＄×＄□>／<PAD=＄□>

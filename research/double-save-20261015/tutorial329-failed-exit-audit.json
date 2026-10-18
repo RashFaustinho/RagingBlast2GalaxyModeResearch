@@ -1,0 +1,14 @@
+{
+  "result_before_failed_return": [
+    4097,
+    1,
+    395875,
+    0,
+    0,
+    0,
+    0
+  ],
+  "on_disk_still_zero": true,
+  "save_not_persisted": true,
+  "sha256": "10c1cc94a21ded586d0c04c6fa04389e92a076dcc18d811cd79f7f6c2f1ef5c6"
+}

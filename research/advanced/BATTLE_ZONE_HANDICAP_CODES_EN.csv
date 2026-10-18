@@ -1,0 +1,14 @@
+handicap_code,lookup_kind,value,item_hex,name
+0,2,48,,No item handicap (special label lookup)
+1,0,189,BD,Pursuit Attack Loss
+2,0,190,BE,Rush Attack Down
+3,0,201,C9,Ki Consumption Up
+4,0,202,CA,Amount of Ki Restricted
+5,0,203,CB,Ki Charge Speed Down
+6,0,205,CD,All Dash Ki Consumption Up
+7,0,218,DA,Defense Power Down
+8,0,219,DB,Super Health Power Down
+9,0,235,EB,Super Attack Power Down
+10,0,236,EC,Ultimate Attack Power Down
+11,0,237,ED,<PAD=Ｒ３> Seal
+12,1,42,,Health carries over

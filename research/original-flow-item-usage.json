@@ -1,0 +1,442 @@
+[
+  {
+    "item_hex": "151",
+    "strength_count": 2,
+    "galaxy_preset_count": 5,
+    "examples": [
+      {
+        "preset": 509,
+        "native": 5,
+        "strength": 243,
+        "links": [
+          510,
+          4294967295,
+          4294967295,
+          4294967295
+        ],
+        "target_native": [
+          6,
+          null,
+          null,
+          null
+        ]
+      },
+      {
+        "preset": 594,
+        "native": 40,
+        "strength": 321,
+        "links": [
+          595,
+          4294967295,
+          4294967295,
+          4294967295
+        ],
+        "target_native": [
+          41,
+          null,
+          null,
+          null
+        ]
+      },
+      {
+        "preset": 652,
+        "native": 27,
+        "strength": 321,
+        "links": [
+          653,
+          4294967295,
+          4294967295,
+          4294967295
+        ],
+        "target_native": [
+          28,
+          null,
+          null,
+          null
+        ]
+      },
+      {
+        "preset": 696,
+        "native": 29,
+        "strength": 321,
+        "links": [
+          697,
+          4294967295,
+          4294967295,
+          4294967295
+        ],
+        "target_native": [
+          30,
+          null,
+          null,
+          null
+        ]
+      },
+      {
+        "preset": 796,
+        "native": 31,
+        "strength": 321,
+        "links": [
+          797,
+          4294967295,
+          4294967295,
+          4294967295
+        ],
+        "target_native": [
+          32,
+          null,
+          null,
+          null
+        ]
+      }
+    ]
+  },
+  {
+    "item_hex": "152",
+    "strength_count": 16,
+    "galaxy_preset_count": 8,
+    "examples": [
+      {
+        "preset": 517,
+        "native": 79,
+        "strength": 277,
+        "links": [
+          518,
+          4294967295,
+          4294967295,
+          4294967295
+        ],
+        "target_native": [
+          80,
+          null,
+          null,
+          null
+        ]
+      },
+      {
+        "preset": 583,
+        "native": 59,
+        "strength": 317,
+        "links": [
+          584,
+          4294967295,
+          4294967295,
+          4294967295
+        ],
+        "target_native": [
+          60,
+          null,
+          null,
+          null
+        ]
+      },
+      {
+        "preset": 614,
+        "native": 67,
+        "strength": 327,
+        "links": [
+          615,
+          4294967295,
+          4294967295,
+          4294967295
+        ],
+        "target_native": [
+          68,
+          null,
+          null,
+          null
+        ]
+      },
+      {
+        "preset": 616,
+        "native": 0,
+        "strength": 328,
+        "links": [
+          617,
+          4294967295,
+          4294967295,
+          4294967295
+        ],
+        "target_native": [
+          1,
+          null,
+          null,
+          null
+        ]
+      },
+      {
+        "preset": 624,
+        "native": 59,
+        "strength": 329,
+        "links": [
+          625,
+          4294967295,
+          4294967295,
+          4294967295
+        ],
+        "target_native": [
+          60,
+          null,
+          null,
+          null
+        ]
+      },
+      {
+        "preset": 642,
+        "native": 88,
+        "strength": 329,
+        "links": [
+          643,
+          4294967295,
+          4294967295,
+          4294967295
+        ],
+        "target_native": [
+          89,
+          null,
+          null,
+          null
+        ]
+      },
+      {
+        "preset": 667,
+        "native": 68,
+        "strength": 345,
+        "links": [
+          668,
+          4294967295,
+          4294967295,
+          4294967295
+        ],
+        "target_native": [
+          69,
+          null,
+          null,
+          null
+        ]
+      },
+      {
+        "preset": 957,
+        "native": 79,
+        "strength": 720,
+        "links": [
+          958,
+          4294967295,
+          4294967295,
+          4294967295
+        ],
+        "target_native": [
+          80,
+          null,
+          null,
+          null
+        ]
+      }
+    ]
+  },
+  {
+    "item_hex": "153",
+    "strength_count": 3,
+    "galaxy_preset_count": 3,
+    "examples": [
+      {
+        "preset": 603,
+        "native": 50,
+        "strength": 325,
+        "links": [
+          604,
+          4294967295,
+          4294967295,
+          4294967295
+        ],
+        "target_native": [
+          51,
+          null,
+          null,
+          null
+        ]
+      },
+      {
+        "preset": 638,
+        "native": 0,
+        "strength": 337,
+        "links": [
+          639,
+          4294967295,
+          4294967295,
+          4294967295
+        ],
+        "target_native": [
+          1,
+          null,
+          null,
+          null
+        ]
+      },
+      {
+        "preset": 1040,
+        "native": 60,
+        "strength": 763,
+        "links": [
+          1041,
+          4294967295,
+          4294967295,
+          4294967295
+        ],
+        "target_native": [
+          61,
+          null,
+          null,
+          null
+        ]
+      }
+    ]
+  },
+  {
+    "item_hex": "154",
+    "strength_count": 0,
+    "galaxy_preset_count": 0,
+    "examples": []
+  },
+  {
+    "item_hex": "155",
+    "strength_count": 4,
+    "galaxy_preset_count": 4,
+    "examples": [
+      {
+        "preset": 650,
+        "native": 32,
+        "strength": 341,
+        "links": [
+          651,
+          651,
+          4294967295,
+          4294967295
+        ],
+        "target_native": [
+          33,
+          33,
+          null,
+          null
+        ]
+      },
+      {
+        "preset": 788,
+        "native": 6,
+        "strength": 676,
+        "links": [
+          789,
+          789,
+          4294967295,
+          4294967295
+        ],
+        "target_native": [
+          7,
+          7,
+          null,
+          null
+        ]
+      },
+      {
+        "preset": 869,
+        "native": 9,
+        "strength": 772,
+        "links": [
+          870,
+          870,
+          4294967295,
+          4294967295
+        ],
+        "target_native": [
+          10,
+          10,
+          null,
+          null
+        ]
+      },
+      {
+        "preset": 905,
+        "native": 6,
+        "strength": 696,
+        "links": [
+          906,
+          906,
+          4294967295,
+          4294967295
+        ],
+        "target_native": [
+          7,
+          7,
+          null,
+          null
+        ]
+      }
+    ]
+  },
+  {
+    "item_hex": "156",
+    "strength_count": 1,
+    "galaxy_preset_count": 1,
+    "examples": [
+      {
+        "preset": 1037,
+        "native": 6,
+        "strength": 760,
+        "links": [
+          1038,
+          1038,
+          4294967295,
+          4294967295
+        ],
+        "target_native": [
+          7,
+          7,
+          null,
+          null
+        ]
+      }
+    ]
+  },
+  {
+    "item_hex": "157",
+    "strength_count": 0,
+    "galaxy_preset_count": 0,
+    "examples": []
+  },
+  {
+    "item_hex": "158",
+    "strength_count": 0,
+    "galaxy_preset_count": 0,
+    "examples": []
+  },
+  {
+    "item_hex": "159",
+    "strength_count": 0,
+    "galaxy_preset_count": 0,
+    "examples": []
+  },
+  {
+    "item_hex": "15A",
+    "strength_count": 0,
+    "galaxy_preset_count": 0,
+    "examples": []
+  },
+  {
+    "item_hex": "15B",
+    "strength_count": 0,
+    "galaxy_preset_count": 0,
+    "examples": []
+  },
+  {
+    "item_hex": "15C",
+    "strength_count": 0,
+    "galaxy_preset_count": 0,
+    "examples": []
+  },
+  {
+    "item_hex": "168",
+    "strength_count": 0,
+    "galaxy_preset_count": 0,
+    "examples": []
+  }
+]

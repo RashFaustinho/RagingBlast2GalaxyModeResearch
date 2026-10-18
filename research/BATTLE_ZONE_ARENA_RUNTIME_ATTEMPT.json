@@ -1,0 +1,18 @@
+{
+  "purpose": "Arena-only control: Green Square node0 arena13 to8. Other MMD bytes unchanged. Original EBOOT and other game assets remain read-only symlinks.",
+  "mmd_offset": 428,
+  "mmd_changed_offsets": [
+    431
+  ],
+  "entry": 8,
+  "old_compressed_size": 76362,
+  "new_compressed_size": 76362,
+  "original_mmd_sha256": "37fbfc3e0529f4eda842c952d2c2727130b386680053a478201610227e153b99",
+  "edited_mmd_sha256": "69ca0be6416048bab60e41c7c1913438716b3d122a5651ebb1421b958127f6c3",
+  "runtime_result": "INCOMPLETE: RPCS3 reached the title screen, but keyboard commands were not delivered to the game; no fight was reached. This is not a successful arena gameplay test.",
+  "attempts": 3,
+  "executable_modified": false,
+  "source_game_and_save_modified": false,
+  "emulator": "RPCS3 0.0.43-20291, Vulkan software rendering",
+  "archive_scope": "Private progress copy, AFS entry8, nested battle_zone_param_m.pak/zone_green_square.mmd; other archive bytes preserved, compressed size unchanged."
+}

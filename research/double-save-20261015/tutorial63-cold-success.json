@@ -1,0 +1,24 @@
+{
+  "full_110000_bytes_match": true,
+  "sha256": "52f74932b9fe4a9ea397181d7c8600dded561c4c6ab9c09725a4572862e7da34",
+  "tutorial63": [
+    4097,
+    1,
+    398737,
+    0,
+    0,
+    0,
+    0
+  ],
+  "galaxy1039": [
+    4097,
+    1,
+    338793,
+    0,
+    0,
+    0,
+    0
+  ],
+  "loaded_after_normal_start_button": true,
+  "early_four_byte_preload_is_not_full_save_load": true
+}

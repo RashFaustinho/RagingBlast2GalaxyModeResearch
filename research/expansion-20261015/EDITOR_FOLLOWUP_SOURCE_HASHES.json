@@ -1,0 +1,8 @@
+{
+  "js/mmd.js": "ffb7f2f812322c5ba2c27774e1e11fb0efa2a12e4a6db8de3913cc4b577e018a",
+  "js/mmd-ui.js": "f409983a699bb1ea525c131db503e02082c5cb27971580e96ca11d50c008355b",
+  "js/app.js": "215d9b4cbad6b6d83a8100714a9df42683737f84aeccc62d913a6b2192772de0",
+  "README_EN.md": "8e3839be0f9d927b78fd3c053ecf2383c672fb5ab9deb19a1544cec6fb974b1e",
+  "TESTING.md": "e9b48fafe4217470a2b09c52305e233ebcbf00ca22a94a10c3d4dad3e154eaad",
+  "tests/mmd-core.test.cjs": "cebee7e0321703657aa868a26038b09b94c52e4176b2e593dfdd7fbd643516f0"
+}

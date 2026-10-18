@@ -1,0 +1,29 @@
+name: Source and research checks
+on:
+  push:
+  pull_request:
+permissions:
+  contents: read
+jobs:
+  checks:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '24'
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Editor tests (private-fixture cases explicitly skip)
+        run: node --test editor/tests/*.test.cjs
+      - name: Python helpers (private-fixture cases explicitly skip)
+        run: python -m unittest discover -s tools -p 'test_*.py' -v
+      - name: Research inventory and documentation links
+        run: python tools/verify_research_publication.py
+      - name: JavaScript lint
+        working-directory: editor
+        run: npm exec --yes --package=eslint@9.39.0 -- eslint js/ --config eslint.config.mjs
+      - name: Source formatting
+        working-directory: editor
+        run: npm exec --yes --package=prettier@3.6.2 -- prettier --check 'js/*.js' styles.css index.html eslint.config.mjs

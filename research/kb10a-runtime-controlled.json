@@ -1,0 +1,100 @@
+{
+  "experiment": "KB10A",
+  "status": "CONTROLLED_GOKU_CHAIN_AND_BASE_GEAR_VERIFIED_VEGETA_PENDING",
+  "EBOOT_sha256": "8e2b454ca5959476a5869d0ab9e652123a019d72791f61ab37f7dd9936b2b892",
+  "boot_sha256": "52f800e7df95ac2f0cb09c34b3848da1d805a837cb27e51f39f1fbcea73e631c",
+  "galaxy_sha256": "ebfa9de1489904714025c5b45d7d10ef06d490f20651d6257c3b8b3ed6985f15",
+  "runtime": "RPCS3 0.0.43-20291, PPU static interpreter, Vulkan lavapipe",
+  "source_log": "/workspace/research-rb2/rpcs3-cloud/debug-events.jsonl",
+  "phase_validation": "Before HP injection, active battle hit counter12 damage3626 and player HP40000->36374. Intro tests excluded.",
+  "probe": "Matched actor data-only HP29000/aura50, no code or register writes",
+  "observations": [
+    {
+      "utc": "2026-10-14T17:39:17Z",
+      "PC": "0x3a7c0",
+      "LR": "0x88174",
+      "r4_selector": 0,
+      "actor_native": 2,
+      "preset": 1058,
+      "gear": [
+        "153"
+      ],
+      "HP": 29000,
+      "aura": 50
+    },
+    {
+      "utc": "2026-10-14T17:39:40Z",
+      "PC": "0x3a8b4",
+      "packet_words": [
+        4,
+        1,
+        1059,
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "utc": "2026-10-14T17:40:22Z",
+      "native": 3,
+      "preset": 1059,
+      "previous_preset": 1058,
+      "HP": 29000,
+      "gear": [
+        "15A"
+      ]
+    },
+    {
+      "utc": "2026-10-14T17:40:34Z",
+      "probe": "Matched Goku SSJ3 actor HP9000 aura50"
+    },
+    {
+      "utc": "2026-10-14T17:40:54Z",
+      "native": 3,
+      "preset": 1059,
+      "HP": 9000,
+      "still_transformed": true
+    },
+    {
+      "utc": "2026-10-14T17:41:47Z",
+      "native": 0,
+      "preset": 1060,
+      "previous_preset": 1059,
+      "HP": 9000,
+      "active_enemy_slot": 0,
+      "gear": [
+        "079"
+      ],
+      "effect_079_present": true
+    }
+  ],
+  "limits": "CPU annul item successfully selects appended base preset and gear. Manual-input routine3A5EC did not break in this window; exact CPU annul request route and frame latency not yet captured. This is one controlled run, using data-only HP/aura injection, not an exact-boundary measurement.",
+  "navigation_probe_after_chain": {
+    "scope": "After successful Goku chain, not part of archive validation",
+    "HP_probes": "Goku base HP1 plus attempted normal player attacks did not defeat Goku in observed windows.",
+    "temporary_writes": [
+      {
+        "actor_relative": "0x5C",
+        "before": "00000000",
+        "temporary": "10000000",
+        "purpose": "Cambio2 property"
+      },
+      {
+        "actor_relative": "0x9C",
+        "before": "00000000",
+        "temporary": "40000000",
+        "purpose": "Item15E presence bit"
+      }
+    ],
+    "result": "No swap during30 host seconds; cached CPU state not evaluated here.",
+    "restoration": "Both words restored and read back at17:48:52Z",
+    "next_control": "KB10B fresh boot, same gear; only reorder initial Goku and Vegeta."
+  },
+  "evidence": "kb10a-rsp-evidence.jsonl",
+  "original_integrity_rechecked": {
+    "EBOOT.BIN": "da28849b6dafc65c0de74d79f3bd1c54ff19f0368ffb728faa5d97ce77a03c30",
+    "data/PS3/st_pack_boot_pt_ps3.afs": "744abd145c0690d7f4c5d33fb5e175dcdb009c45a6006577797516d9ea655af7"
+  }
+}

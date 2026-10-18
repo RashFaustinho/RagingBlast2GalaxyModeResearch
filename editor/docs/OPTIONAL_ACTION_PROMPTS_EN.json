@@ -1,0 +1,2681 @@
+{
+  "game": "Dragon Ball Raging Blast 2",
+  "region": "BLES00978",
+  "source": {
+    "file": "galaxy.mmd",
+    "sha256": "c0a12c58b22cb4b2884bcfe8c550a1f5a25f60c192986c6f1fd9bd3eccb155a7",
+    "size": 158812,
+    "root_count": 498
+  },
+  "method": "Decoded all original MAIN roots and +3C action lists; joined original appearance/preset DATs and extracted English text. No new runtime session in this follow-up.",
+  "count": 20,
+  "all_have_category_2": true,
+  "all_have_objective_other_than_29": true,
+  "ordinary_defeat_all_nodes": [
+    97,
+    174,
+    300
+  ],
+  "native_victory_control": {
+    "function": "0x000F4898",
+    "special_action_completion_branch": "0x000F49A8..0x000F49FC",
+    "objective_trigger": 29,
+    "objective_0_and_1": "Both follow ordinary team-defeat checks rather than this task-count branch."
+  },
+  "runtime_evidence": {
+    "ADV18C": "Previously played new node498: category2, objective0, action1 loaded and prompt shown, ordinary defeat-enemy goal retained. Prototype graph defects were fixed in ADV18D.",
+    "ADV18E": "Previously played corrected new node498: category2, objective29, action1. Ascend completed victory while enemy had40000HP; persisted completion after process restart.",
+    "limits": "No new play-through of the three original objective1 donor fights during this follow-up; new editor exports tested structurally, not yet launched in RPCS3."
+  },
+  "recommendation": {
+    "category": 2,
+    "objective_single_enemy": 0,
+    "objective_all_enemies": 1,
+    "actions_are_victory_only_if_objective": 29,
+    "maximum_actions": 20,
+    "safe_general_sequence": [
+      {
+        "action": 1,
+        "parameter": -1,
+        "expression": 0
+      },
+      {
+        "action": 2,
+        "parameter": -1,
+        "expression": 0
+      },
+      {
+        "action": 95,
+        "parameter": -1,
+        "expression_value": 5
+      }
+    ],
+    "parameter_note": "expression_value is an authoring convenience; on disk use a valid descriptor to a constant postfix expression. Never store literal5 as a descriptor reference."
+  },
+  "missions": [
+    {
+      "node": 41,
+      "owner_native_ids": [
+        55
+      ],
+      "owners": [
+        "Android #18"
+      ],
+      "root_offset_hex": "0x17e28",
+      "category": 2,
+      "objective_type": 30,
+      "objective_text": "Mission: Defeat the Z-Fighters!",
+      "stage": 7,
+      "music": 50,
+      "coordinates": [
+        51.0,
+        23.0
+      ],
+      "difficulty": 3,
+      "rule_selectors": [
+        56,
+        0
+      ],
+      "time": 0,
+      "action_list": {
+        "descriptor": 314,
+        "descriptor_offset_hex": "0x9f4",
+        "count": 7,
+        "stride": 12,
+        "body_offset_hex": "0x91a0"
+      },
+      "actions": [
+        {
+          "step": 1,
+          "native_action_id": 24,
+          "label": "Hit with Smash Attack: 4",
+          "direct_parameter": -1,
+          "expression_descriptor": 0,
+          "parameter_expression": "[absent]",
+          "constant_parameter": null,
+          "record_offset_hex": "0x91a0"
+        },
+        {
+          "step": 2,
+          "native_action_id": 96,
+          "label": "Do a Combo of <DIG=\u25cf> damage or more",
+          "direct_parameter": -1,
+          "expression_descriptor": 311,
+          "parameter_expression": "2000",
+          "constant_parameter": 2000,
+          "record_offset_hex": "0x91ac"
+        },
+        {
+          "step": 3,
+          "native_action_id": 99,
+          "label": "Defeat the enemy with a Super Attack",
+          "direct_parameter": -1,
+          "expression_descriptor": 0,
+          "parameter_expression": "[absent]",
+          "constant_parameter": null,
+          "record_offset_hex": "0x91b8"
+        },
+        {
+          "step": 4,
+          "native_action_id": 46,
+          "label": "Hit with Charge Ki Blast: Max",
+          "direct_parameter": -1,
+          "expression_descriptor": 0,
+          "parameter_expression": "[absent]",
+          "constant_parameter": null,
+          "record_offset_hex": "0x91c4"
+        },
+        {
+          "step": 5,
+          "native_action_id": 96,
+          "label": "Do a Combo of <DIG=\u25cf> damage or more",
+          "direct_parameter": -1,
+          "expression_descriptor": 312,
+          "parameter_expression": "10000",
+          "constant_parameter": 10000,
+          "record_offset_hex": "0x91d0"
+        },
+        {
+          "step": 6,
+          "native_action_id": 96,
+          "label": "Do a Combo of <DIG=\u25cf> damage or more",
+          "direct_parameter": -1,
+          "expression_descriptor": 313,
+          "parameter_expression": "12000",
+          "constant_parameter": 12000,
+          "record_offset_hex": "0x91dc"
+        },
+        {
+          "step": 7,
+          "native_action_id": 79,
+          "label": "Reduce enemy's Health to 0",
+          "direct_parameter": -1,
+          "expression_descriptor": 0,
+          "parameter_expression": "[absent]",
+          "constant_parameter": null,
+          "record_offset_hex": "0x91e8"
+        }
+      ],
+      "mission_modifier_items": [],
+      "enemies": [
+        {
+          "preset": 696,
+          "native_id": 29,
+          "name": "Goten",
+          "condition": "[absent]"
+        },
+        {
+          "preset": 652,
+          "native_id": 27,
+          "name": "Kid Trunks",
+          "condition": "[absent]"
+        }
+      ]
+    },
+    {
+      "node": 59,
+      "owner_native_ids": [
+        37
+      ],
+      "owners": [
+        "Bardock"
+      ],
+      "root_offset_hex": "0x184a0",
+      "category": 2,
+      "objective_type": 6,
+      "objective_text": "Mission: Settle the fight before Raging Soul ends!",
+      "stage": 9,
+      "music": 47,
+      "coordinates": [
+        22.0,
+        19.0
+      ],
+      "difficulty": 3,
+      "rule_selectors": [
+        19,
+        0
+      ],
+      "time": 0,
+      "action_list": {
+        "descriptor": 422,
+        "descriptor_offset_hex": "0xd54",
+        "count": 6,
+        "stride": 12,
+        "body_offset_hex": "0x97c0"
+      },
+      "actions": [
+        {
+          "step": 1,
+          "native_action_id": 24,
+          "label": "Hit with Smash Attack: 4",
+          "direct_parameter": -1,
+          "expression_descriptor": 0,
+          "parameter_expression": "[absent]",
+          "constant_parameter": null,
+          "record_offset_hex": "0x97c0"
+        },
+        {
+          "step": 2,
+          "native_action_id": 96,
+          "label": "Do a Combo of <DIG=\u25cf> damage or more",
+          "direct_parameter": -1,
+          "expression_descriptor": 418,
+          "parameter_expression": "3000",
+          "constant_parameter": 3000,
+          "record_offset_hex": "0x97cc"
+        },
+        {
+          "step": 3,
+          "native_action_id": 96,
+          "label": "Do a Combo of <DIG=\u25cf> damage or more",
+          "direct_parameter": -1,
+          "expression_descriptor": 419,
+          "parameter_expression": "6000",
+          "constant_parameter": 6000,
+          "record_offset_hex": "0x97d8"
+        },
+        {
+          "step": 4,
+          "native_action_id": 96,
+          "label": "Do a Combo of <DIG=\u25cf> damage or more",
+          "direct_parameter": -1,
+          "expression_descriptor": 420,
+          "parameter_expression": "9000",
+          "constant_parameter": 9000,
+          "record_offset_hex": "0x97e4"
+        },
+        {
+          "step": 5,
+          "native_action_id": 96,
+          "label": "Do a Combo of <DIG=\u25cf> damage or more",
+          "direct_parameter": -1,
+          "expression_descriptor": 421,
+          "parameter_expression": "12000",
+          "constant_parameter": 12000,
+          "record_offset_hex": "0x97f0"
+        },
+        {
+          "step": 6,
+          "native_action_id": 104,
+          "label": "Place an Angel Halo.",
+          "direct_parameter": -1,
+          "expression_descriptor": 0,
+          "parameter_expression": "[absent]",
+          "constant_parameter": null,
+          "record_offset_hex": "0x97fc"
+        }
+      ],
+      "mission_modifier_items": [
+        "0x13c"
+      ],
+      "enemies": [
+        {
+          "preset": 523,
+          "native_id": 42,
+          "name": "Dodoria",
+          "condition": "[absent]"
+        }
+      ]
+    },
+    {
+      "node": 69,
+      "owner_native_ids": [
+        85
+      ],
+      "owners": [
+        "Bojack"
+      ],
+      "root_offset_hex": "0x18838",
+      "category": 2,
+      "objective_type": 3,
+      "objective_text": "Mission: Start from Near Death and battle to the very limit!",
+      "stage": 9,
+      "music": 37,
+      "coordinates": [
+        22.0,
+        51.0
+      ],
+      "difficulty": 4,
+      "rule_selectors": [
+        16,
+        0
+      ],
+      "time": 0,
+      "action_list": {
+        "descriptor": 490,
+        "descriptor_offset_hex": "0xf74",
+        "count": 9,
+        "stride": 12,
+        "body_offset_hex": "0x9c28"
+      },
+      "actions": [
+        {
+          "step": 1,
+          "native_action_id": 60,
+          "label": "Perform Transformation",
+          "direct_parameter": -1,
+          "expression_descriptor": 0,
+          "parameter_expression": "[absent]",
+          "constant_parameter": null,
+          "record_offset_hex": "0x9c28"
+        },
+        {
+          "step": 2,
+          "native_action_id": 96,
+          "label": "Do a Combo of <DIG=\u25cf> damage or more",
+          "direct_parameter": -1,
+          "expression_descriptor": 486,
+          "parameter_expression": "2000",
+          "constant_parameter": 2000,
+          "record_offset_hex": "0x9c34"
+        },
+        {
+          "step": 3,
+          "native_action_id": 96,
+          "label": "Do a Combo of <DIG=\u25cf> damage or more",
+          "direct_parameter": -1,
+          "expression_descriptor": 487,
+          "parameter_expression": "4000",
+          "constant_parameter": 4000,
+          "record_offset_hex": "0x9c40"
+        },
+        {
+          "step": 4,
+          "native_action_id": 24,
+          "label": "Hit with Smash Attack: 4",
+          "direct_parameter": -1,
+          "expression_descriptor": 0,
+          "parameter_expression": "[absent]",
+          "constant_parameter": null,
+          "record_offset_hex": "0x9c4c"
+        },
+        {
+          "step": 5,
+          "native_action_id": 71,
+          "label": "Hit with Charge Attack: Snap",
+          "direct_parameter": -1,
+          "expression_descriptor": 0,
+          "parameter_expression": "[absent]",
+          "constant_parameter": null,
+          "record_offset_hex": "0x9c58"
+        },
+        {
+          "step": 6,
+          "native_action_id": 96,
+          "label": "Do a Combo of <DIG=\u25cf> damage or more",
+          "direct_parameter": -1,
+          "expression_descriptor": 488,
+          "parameter_expression": "5000",
+          "constant_parameter": 5000,
+          "record_offset_hex": "0x9c64"
+        },
+        {
+          "step": 7,
+          "native_action_id": 96,
+          "label": "Do a Combo of <DIG=\u25cf> damage or more",
+          "direct_parameter": -1,
+          "expression_descriptor": 489,
+          "parameter_expression": "10000",
+          "constant_parameter": 10000,
+          "record_offset_hex": "0x9c70"
+        },
+        {
+          "step": 8,
+          "native_action_id": 50,
+          "label": "Become High-Tension",
+          "direct_parameter": -1,
+          "expression_descriptor": 0,
+          "parameter_expression": "[absent]",
+          "constant_parameter": null,
+          "record_offset_hex": "0x9c7c"
+        },
+        {
+          "step": 9,
+          "native_action_id": 110,
+          "label": "[Native detector semantics unresolved; not controller-glyph text]",
+          "direct_parameter": 8607,
+          "expression_descriptor": 0,
+          "parameter_expression": "[absent]",
+          "constant_parameter": null,
+          "record_offset_hex": "0x9c88"
+        }
+      ],
+      "mission_modifier_items": [
+        "0x136"
+      ],
+      "enemies": [
+        {
+          "preset": 687,
+          "native_id": 19,
+          "name": "Super Vegeta",
+          "condition": "[absent]"
+        }
+      ]
+    },
+    {
+      "node": 97,
+      "owner_native_ids": [
+        62
+      ],
+      "owners": [
+        "Majin Buu"
+      ],
+      "root_offset_hex": "0x19248",
+      "category": 2,
+      "objective_type": 1,
+      "objective_text": "Mission: Defeat all the enemies!",
+      "stage": 0,
+      "music": 50,
+      "coordinates": [
+        55.0,
+        67.0
+      ],
+      "difficulty": 3,
+      "rule_selectors": [
+        22,
+        0
+      ],
+      "time": 0,
+      "action_list": {
+        "descriptor": 666,
+        "descriptor_offset_hex": "0x14f4",
+        "count": 6,
+        "stride": 12,
+        "body_offset_hex": "0xa6a8"
+      },
+      "actions": [
+        {
+          "step": 1,
+          "native_action_id": 22,
+          "label": "Hit with Smash Attack: 2",
+          "direct_parameter": -1,
+          "expression_descriptor": 0,
+          "parameter_expression": "[absent]",
+          "constant_parameter": null,
+          "record_offset_hex": "0xa6a8"
+        },
+        {
+          "step": 2,
+          "native_action_id": 96,
+          "label": "Do a Combo of <DIG=\u25cf> damage or more",
+          "direct_parameter": -1,
+          "expression_descriptor": 663,
+          "parameter_expression": "3000",
+          "constant_parameter": 3000,
+          "record_offset_hex": "0xa6b4"
+        },
+        {
+          "step": 3,
+          "native_action_id": 96,
+          "label": "Do a Combo of <DIG=\u25cf> damage or more",
+          "direct_parameter": -1,
+          "expression_descriptor": 664,
+          "parameter_expression": "7000",
+          "constant_parameter": 7000,
+          "record_offset_hex": "0xa6c0"
+        },
+        {
+          "step": 4,
+          "native_action_id": 96,
+          "label": "Do a Combo of <DIG=\u25cf> damage or more",
+          "direct_parameter": -1,
+          "expression_descriptor": 665,
+          "parameter_expression": "15000",
+          "constant_parameter": 15000,
+          "record_offset_hex": "0xa6cc"
+        },
+        {
+          "step": 5,
+          "native_action_id": 86,
+          "label": "Hit with signature skill",
+          "direct_parameter": -1,
+          "expression_descriptor": 0,
+          "parameter_expression": "[absent]",
+          "constant_parameter": null,
+          "record_offset_hex": "0xa6d8"
+        },
+        {
+          "step": 6,
+          "native_action_id": 89,
+          "label": "Win with Ultimate Attack",
+          "direct_parameter": -1,
+          "expression_descriptor": 0,
+          "parameter_expression": "[absent]",
+          "constant_parameter": null,
+          "record_offset_hex": "0xa6e4"
+        }
+      ],
+      "mission_modifier_items": [
+        "0x3f"
+      ],
+      "enemies": [
+        {
+          "preset": 612,
+          "native_id": 30,
+          "name": "Goten / Super Saiyan",
+          "condition": "[absent]"
+        },
+        {
+          "preset": 645,
+          "native_id": 28,
+          "name": "Kid Trunks / Super Saiyan",
+          "condition": "[absent]"
+        },
+        {
+          "preset": 792,
+          "native_id": 21,
+          "name": "Vegeta / Majin",
+          "condition": "[absent]"
+        }
+      ]
+    },
+    {
+      "node": 121,
+      "owner_native_ids": [
+        58
+      ],
+      "owners": [
+        "Cell / 1st Form"
+      ],
+      "root_offset_hex": "0x19ae8",
+      "category": 2,
+      "objective_type": 8,
+      "objective_text": "Mission: Win against enemy who gets weaker with time!",
+      "stage": 0,
+      "music": 37,
+      "coordinates": [
+        44.0,
+        52.0
+      ],
+      "difficulty": 4,
+      "rule_selectors": [
+        53,
+        0
+      ],
+      "time": 240,
+      "action_list": {
+        "descriptor": 824,
+        "descriptor_offset_hex": "0x19e4",
+        "count": 7,
+        "stride": 12,
+        "body_offset_hex": "0xb254"
+      },
+      "actions": [
+        {
+          "step": 1,
+          "native_action_id": 60,
+          "label": "Perform Transformation",
+          "direct_parameter": -1,
+          "expression_descriptor": 0,
+          "parameter_expression": "[absent]",
+          "constant_parameter": null,
+          "record_offset_hex": "0xb254"
+        },
+        {
+          "step": 2,
+          "native_action_id": 24,
+          "label": "Hit with Smash Attack: 4",
+          "direct_parameter": -1,
+          "expression_descriptor": 0,
+          "parameter_expression": "[absent]",
+          "constant_parameter": null,
+          "record_offset_hex": "0xb260"
+        },
+        {
+          "step": 3,
+          "native_action_id": 95,
+          "label": "Do a Combo of <DIG=\u25cf> HITS or more",
+          "direct_parameter": -1,
+          "expression_descriptor": 820,
+          "parameter_expression": "5",
+          "constant_parameter": 5,
+          "record_offset_hex": "0xb26c"
+        },
+        {
+          "step": 4,
+          "native_action_id": 95,
+          "label": "Do a Combo of <DIG=\u25cf> HITS or more",
+          "direct_parameter": -1,
+          "expression_descriptor": 821,
+          "parameter_expression": "10",
+          "constant_parameter": 10,
+          "record_offset_hex": "0xb278"
+        },
+        {
+          "step": 5,
+          "native_action_id": 95,
+          "label": "Do a Combo of <DIG=\u25cf> HITS or more",
+          "direct_parameter": -1,
+          "expression_descriptor": 822,
+          "parameter_expression": "15",
+          "constant_parameter": 15,
+          "record_offset_hex": "0xb284"
+        },
+        {
+          "step": 6,
+          "native_action_id": 95,
+          "label": "Do a Combo of <DIG=\u25cf> HITS or more",
+          "direct_parameter": -1,
+          "expression_descriptor": 823,
+          "parameter_expression": "20",
+          "constant_parameter": 20,
+          "record_offset_hex": "0xb290"
+        },
+        {
+          "step": 7,
+          "native_action_id": 89,
+          "label": "Win with Ultimate Attack",
+          "direct_parameter": -1,
+          "expression_descriptor": 0,
+          "parameter_expression": "[absent]",
+          "constant_parameter": null,
+          "record_offset_hex": "0xb29c"
+        }
+      ],
+      "mission_modifier_items": [],
+      "enemies": [
+        {
+          "preset": 784,
+          "native_id": 19,
+          "name": "Super Vegeta",
+          "condition": "[absent]"
+        },
+        {
+          "preset": 785,
+          "native_id": 25,
+          "name": "Trunks (Fighting Teen) / Super Saiyan",
+          "condition": "[absent]"
+        }
+      ]
+    },
+    {
+      "node": 139,
+      "owner_native_ids": [
+        79
+      ],
+      "owners": [
+        "Cooler"
+      ],
+      "root_offset_hex": "0x1a160",
+      "category": 2,
+      "objective_type": 20,
+      "objective_text": "Mission: Defeat all the enemies within <DIG=\u25cf> seconds!",
+      "stage": 6,
+      "music": 45,
+      "coordinates": [
+        17.0,
+        28.0
+      ],
+      "difficulty": 3,
+      "rule_selectors": [
+        0,
+        0
+      ],
+      "time": 180,
+      "action_list": {
+        "descriptor": 946,
+        "descriptor_offset_hex": "0x1db4",
+        "count": 9,
+        "stride": 12,
+        "body_offset_hex": "0xba88"
+      },
+      "actions": [
+        {
+          "step": 1,
+          "native_action_id": 60,
+          "label": "Perform Transformation",
+          "direct_parameter": -1,
+          "expression_descriptor": 0,
+          "parameter_expression": "[absent]",
+          "constant_parameter": null,
+          "record_offset_hex": "0xba88"
+        },
+        {
+          "step": 2,
+          "native_action_id": 18,
+          "label": "Land a Charge Attack during movement",
+          "direct_parameter": -1,
+          "expression_descriptor": 0,
+          "parameter_expression": "[absent]",
+          "constant_parameter": null,
+          "record_offset_hex": "0xba94"
+        },
+        {
+          "step": 3,
+          "native_action_id": 95,
+          "label": "Do a Combo of <DIG=\u25cf> HITS or more",
+          "direct_parameter": -1,
+          "expression_descriptor": 942,
+          "parameter_expression": "5",
+          "constant_parameter": 5,
+          "record_offset_hex": "0xbaa0"
+        },
+        {
+          "step": 4,
+          "native_action_id": 95,
+          "label": "Do a Combo of <DIG=\u25cf> HITS or more",
+          "direct_parameter": -1,
+          "expression_descriptor": 943,
+          "parameter_expression": "10",
+          "constant_parameter": 10,
+          "record_offset_hex": "0xbaac"
+        },
+        {
+          "step": 5,
+          "native_action_id": 50,
+          "label": "Become High-Tension",
+          "direct_parameter": -1,
+          "expression_descriptor": 0,
+          "parameter_expression": "[absent]",
+          "constant_parameter": null,
+          "record_offset_hex": "0xbab8"
+        },
+        {
+          "step": 6,
+          "native_action_id": 96,
+          "label": "Do a Combo of <DIG=\u25cf> damage or more",
+          "direct_parameter": -1,
+          "expression_descriptor": 944,
+          "parameter_expression": "8000",
+          "constant_parameter": 8000,
+          "record_offset_hex": "0xbac4"
+        },
+        {
+          "step": 7,
+          "native_action_id": 96,
+          "label": "Do a Combo of <DIG=\u25cf> damage or more",
+          "direct_parameter": -1,
+          "expression_descriptor": 945,
+          "parameter_expression": "12000",
+          "constant_parameter": 12000,
+          "record_offset_hex": "0xbad0"
+        },
+        {
+          "step": 8,
+          "native_action_id": 111,
+          "label": "[Native detector semantics unresolved; not controller-glyph text]",
+          "direct_parameter": -1,
+          "expression_descriptor": 0,
+          "parameter_expression": "[absent]",
+          "constant_parameter": null,
+          "record_offset_hex": "0xbadc"
+        },
+        {
+          "step": 9,
+          "native_action_id": 110,
+          "label": "[Native detector semantics unresolved; not controller-glyph text]",
+          "direct_parameter": 8006,
+          "expression_descriptor": 0,
+          "parameter_expression": "[absent]",
+          "constant_parameter": null,
+          "record_offset_hex": "0xbae8"
+        }
+      ],
+      "mission_modifier_items": [],
+      "enemies": [
+        {
+          "preset": 812,
+          "native_id": 97,
+          "name": "Neizu",
+          "condition": "[absent]"
+        },
+        {
+          "preset": 813,
+          "native_id": 98,
+          "name": "Dore",
+          "condition": "[absent]"
+        },
+        {
+          "preset": 811,
+          "native_id": 96,
+          "name": "Salza",
+          "condition": "[absent]"
+        }
+      ]
+    },
+    {
+      "node": 174,
+      "owner_native_ids": [
+        48
+      ],
+      "owners": [
+        "Frieza / 1st Form"
+      ],
+      "root_offset_hex": "0x1adf4",
+      "category": 2,
+      "objective_type": 1,
+      "objective_text": "Mission: Defeat all the enemies!",
+      "stage": 6,
+      "music": 34,
+      "coordinates": [
+        25.0,
+        23.0
+      ],
+      "difficulty": 3,
+      "rule_selectors": [
+        20,
+        0
+      ],
+      "time": 0,
+      "action_list": {
+        "descriptor": 1173,
+        "descriptor_offset_hex": "0x24cc",
+        "count": 8,
+        "stride": 12,
+        "body_offset_hex": "0xc904"
+      },
+      "actions": [
+        {
+          "step": 1,
+          "native_action_id": 60,
+          "label": "Perform Transformation",
+          "direct_parameter": -1,
+          "expression_descriptor": 0,
+          "parameter_expression": "[absent]",
+          "constant_parameter": null,
+          "record_offset_hex": "0xc904"
+        },
+        {
+          "step": 2,
+          "native_action_id": 96,
+          "label": "Do a Combo of <DIG=\u25cf> damage or more",
+          "direct_parameter": -1,
+          "expression_descriptor": 1169,
+          "parameter_expression": "2000",
+          "constant_parameter": 2000,
+          "record_offset_hex": "0xc910"
+        },
+        {
+          "step": 3,
+          "native_action_id": 22,
+          "label": "Hit with Smash Attack: 2",
+          "direct_parameter": -1,
+          "expression_descriptor": 0,
+          "parameter_expression": "[absent]",
+          "constant_parameter": null,
+          "record_offset_hex": "0xc91c"
+        },
+        {
+          "step": 4,
+          "native_action_id": 82,
+          "label": "Hit with Super Attack",
+          "direct_parameter": 5003,
+          "expression_descriptor": 0,
+          "parameter_expression": "[absent]",
+          "constant_parameter": null,
+          "record_offset_hex": "0xc928"
+        },
+        {
+          "step": 5,
+          "native_action_id": 95,
+          "label": "Do a Combo of <DIG=\u25cf> HITS or more",
+          "direct_parameter": -1,
+          "expression_descriptor": 1170,
+          "parameter_expression": "10",
+          "constant_parameter": 10,
+          "record_offset_hex": "0xc934"
+        },
+        {
+          "step": 6,
+          "native_action_id": 95,
+          "label": "Do a Combo of <DIG=\u25cf> HITS or more",
+          "direct_parameter": -1,
+          "expression_descriptor": 1171,
+          "parameter_expression": "15",
+          "constant_parameter": 15,
+          "record_offset_hex": "0xc940"
+        },
+        {
+          "step": 7,
+          "native_action_id": 95,
+          "label": "Do a Combo of <DIG=\u25cf> HITS or more",
+          "direct_parameter": -1,
+          "expression_descriptor": 1172,
+          "parameter_expression": "20",
+          "constant_parameter": 20,
+          "record_offset_hex": "0xc94c"
+        },
+        {
+          "step": 8,
+          "native_action_id": 87,
+          "label": "Win with Super Attack",
+          "direct_parameter": -1,
+          "expression_descriptor": 0,
+          "parameter_expression": "[absent]",
+          "constant_parameter": null,
+          "record_offset_hex": "0xc958"
+        }
+      ],
+      "mission_modifier_items": [],
+      "enemies": [
+        {
+          "preset": 1054,
+          "native_id": 11,
+          "name": "Piccolo",
+          "condition": "[absent]"
+        },
+        {
+          "preset": 675,
+          "native_id": 16,
+          "name": "Vegeta (Scouter)",
+          "condition": "[absent]"
+        }
+      ]
+    },
+    {
+      "node": 199,
+      "owner_native_ids": [
+        4
+      ],
+      "owners": [
+        "Kid Gohan"
+      ],
+      "root_offset_hex": "0x1b6f0",
+      "category": 2,
+      "objective_type": 31,
+      "objective_text": "Mission: Defeat all the Villain Warriors!",
+      "stage": 5,
+      "music": 35,
+      "coordinates": [
+        58.0,
+        47.0
+      ],
+      "difficulty": 1,
+      "rule_selectors": [
+        11,
+        19
+      ],
+      "time": 0,
+      "action_list": {
+        "descriptor": 1327,
+        "descriptor_offset_hex": "0x299c",
+        "count": 7,
+        "stride": 12,
+        "body_offset_hex": "0xd2dc"
+      },
+      "actions": [
+        {
+          "step": 1,
+          "native_action_id": 19,
+          "label": "Land a Charge Attack while jumping",
+          "direct_parameter": -1,
+          "expression_descriptor": 0,
+          "parameter_expression": "[absent]",
+          "constant_parameter": null,
+          "record_offset_hex": "0xd2dc"
+        },
+        {
+          "step": 2,
+          "native_action_id": 96,
+          "label": "Do a Combo of <DIG=\u25cf> damage or more",
+          "direct_parameter": -1,
+          "expression_descriptor": 1323,
+          "parameter_expression": "2000",
+          "constant_parameter": 2000,
+          "record_offset_hex": "0xd2e8"
+        },
+        {
+          "step": 3,
+          "native_action_id": 96,
+          "label": "Do a Combo of <DIG=\u25cf> damage or more",
+          "direct_parameter": -1,
+          "expression_descriptor": 1324,
+          "parameter_expression": "5000",
+          "constant_parameter": 5000,
+          "record_offset_hex": "0xd2f4"
+        },
+        {
+          "step": 4,
+          "native_action_id": 24,
+          "label": "Hit with Smash Attack: 4",
+          "direct_parameter": -1,
+          "expression_descriptor": 0,
+          "parameter_expression": "[absent]",
+          "constant_parameter": null,
+          "record_offset_hex": "0xd300"
+        },
+        {
+          "step": 5,
+          "native_action_id": 95,
+          "label": "Do a Combo of <DIG=\u25cf> HITS or more",
+          "direct_parameter": -1,
+          "expression_descriptor": 1325,
+          "parameter_expression": "10",
+          "constant_parameter": 10,
+          "record_offset_hex": "0xd30c"
+        },
+        {
+          "step": 6,
+          "native_action_id": 95,
+          "label": "Do a Combo of <DIG=\u25cf> HITS or more",
+          "direct_parameter": -1,
+          "expression_descriptor": 1326,
+          "parameter_expression": "15",
+          "constant_parameter": 15,
+          "record_offset_hex": "0xd318"
+        },
+        {
+          "step": 7,
+          "native_action_id": 88,
+          "label": "Win with Super Attack <DIG=\u25a0>",
+          "direct_parameter": 402,
+          "expression_descriptor": 0,
+          "parameter_expression": "[absent]",
+          "constant_parameter": null,
+          "record_offset_hex": "0xd324"
+        }
+      ],
+      "mission_modifier_items": [
+        "0x13c"
+      ],
+      "enemies": [
+        {
+          "preset": 532,
+          "native_id": 38,
+          "name": "Raditz",
+          "condition": "[absent]"
+        }
+      ]
+    },
+    {
+      "node": 223,
+      "owner_native_ids": [
+        73
+      ],
+      "owners": [
+        "Ultimate Gohan"
+      ],
+      "root_offset_hex": "0x1bf90",
+      "category": 2,
+      "objective_type": 30,
+      "objective_text": "Mission: Defeat the Z-Fighters!",
+      "stage": 10,
+      "music": 50,
+      "coordinates": [
+        80.0,
+        16.0
+      ],
+      "difficulty": 3,
+      "rule_selectors": [
+        19,
+        0
+      ],
+      "time": 180,
+      "action_list": {
+        "descriptor": 1488,
+        "descriptor_offset_hex": "0x2ea4",
+        "count": 8,
+        "stride": 12,
+        "body_offset_hex": "0xde84"
+      },
+      "actions": [
+        {
+          "step": 1,
+          "native_action_id": 23,
+          "label": "Hit with Smash Attack: 3",
+          "direct_parameter": -1,
+          "expression_descriptor": 0,
+          "parameter_expression": "[absent]",
+          "constant_parameter": null,
+          "record_offset_hex": "0xde84"
+        },
+        {
+          "step": 2,
+          "native_action_id": 96,
+          "label": "Do a Combo of <DIG=\u25cf> damage or more",
+          "direct_parameter": -1,
+          "expression_descriptor": 1483,
+          "parameter_expression": "2000",
+          "constant_parameter": 2000,
+          "record_offset_hex": "0xde90"
+        },
+        {
+          "step": 3,
+          "native_action_id": 96,
+          "label": "Do a Combo of <DIG=\u25cf> damage or more",
+          "direct_parameter": -1,
+          "expression_descriptor": 1484,
+          "parameter_expression": "4000",
+          "constant_parameter": 4000,
+          "record_offset_hex": "0xde9c"
+        },
+        {
+          "step": 4,
+          "native_action_id": 24,
+          "label": "Hit with Smash Attack: 4",
+          "direct_parameter": -1,
+          "expression_descriptor": 0,
+          "parameter_expression": "[absent]",
+          "constant_parameter": null,
+          "record_offset_hex": "0xdea8"
+        },
+        {
+          "step": 5,
+          "native_action_id": 95,
+          "label": "Do a Combo of <DIG=\u25cf> HITS or more",
+          "direct_parameter": -1,
+          "expression_descriptor": 1485,
+          "parameter_expression": "10",
+          "constant_parameter": 10,
+          "record_offset_hex": "0xdeb4"
+        },
+        {
+          "step": 6,
+          "native_action_id": 95,
+          "label": "Do a Combo of <DIG=\u25cf> HITS or more",
+          "direct_parameter": -1,
+          "expression_descriptor": 1486,
+          "parameter_expression": "15",
+          "constant_parameter": 15,
+          "record_offset_hex": "0xdec0"
+        },
+        {
+          "step": 7,
+          "native_action_id": 95,
+          "label": "Do a Combo of <DIG=\u25cf> HITS or more",
+          "direct_parameter": -1,
+          "expression_descriptor": 1487,
+          "parameter_expression": "20",
+          "constant_parameter": 20,
+          "record_offset_hex": "0xdecc"
+        },
+        {
+          "step": 8,
+          "native_action_id": 79,
+          "label": "Reduce enemy's Health to 0",
+          "direct_parameter": -1,
+          "expression_descriptor": 0,
+          "parameter_expression": "[absent]",
+          "constant_parameter": null,
+          "record_offset_hex": "0xded8"
+        }
+      ],
+      "mission_modifier_items": [
+        "0x13c"
+      ],
+      "enemies": [
+        {
+          "preset": 508,
+          "native_id": 11,
+          "name": "Piccolo",
+          "condition": "[absent]"
+        },
+        {
+          "preset": 798,
+          "native_id": 33,
+          "name": "Gotenks / Super Saiyan 3",
+          "condition": "[absent]"
+        }
+      ]
+    },
+    {
+      "node": 233,
+      "owner_native_ids": [
+        88
+      ],
+      "owners": [
+        "Future Gohan"
+      ],
+      "root_offset_hex": "0x1c328",
+      "category": 2,
+      "objective_type": 19,
+      "objective_text": "Mission: Defeat the enemy within <DIG=\u25cf> seconds!",
+      "stage": 0,
+      "music": 36,
+      "coordinates": [
+        38.0,
+        16.0
+      ],
+      "difficulty": 5,
+      "rule_selectors": [
+        5,
+        0
+      ],
+      "time": 90,
+      "action_list": {
+        "descriptor": 1554,
+        "descriptor_offset_hex": "0x30b4",
+        "count": 9,
+        "stride": 12,
+        "body_offset_hex": "0xe1ec"
+      },
+      "actions": [
+        {
+          "step": 1,
+          "native_action_id": 60,
+          "label": "Perform Transformation",
+          "direct_parameter": -1,
+          "expression_descriptor": 0,
+          "parameter_expression": "[absent]",
+          "constant_parameter": null,
+          "record_offset_hex": "0xe1ec"
+        },
+        {
+          "step": 2,
+          "native_action_id": 96,
+          "label": "Do a Combo of <DIG=\u25cf> damage or more",
+          "direct_parameter": -1,
+          "expression_descriptor": 1548,
+          "parameter_expression": "1000",
+          "constant_parameter": 1000,
+          "record_offset_hex": "0xe1f8"
+        },
+        {
+          "step": 3,
+          "native_action_id": 96,
+          "label": "Do a Combo of <DIG=\u25cf> damage or more",
+          "direct_parameter": -1,
+          "expression_descriptor": 1549,
+          "parameter_expression": "3000",
+          "constant_parameter": 3000,
+          "record_offset_hex": "0xe204"
+        },
+        {
+          "step": 4,
+          "native_action_id": 96,
+          "label": "Do a Combo of <DIG=\u25cf> damage or more",
+          "direct_parameter": -1,
+          "expression_descriptor": 1550,
+          "parameter_expression": "5000",
+          "constant_parameter": 5000,
+          "record_offset_hex": "0xe210"
+        },
+        {
+          "step": 5,
+          "native_action_id": 96,
+          "label": "Do a Combo of <DIG=\u25cf> damage or more",
+          "direct_parameter": -1,
+          "expression_descriptor": 1551,
+          "parameter_expression": "8000",
+          "constant_parameter": 8000,
+          "record_offset_hex": "0xe21c"
+        },
+        {
+          "step": 6,
+          "native_action_id": 86,
+          "label": "Hit with signature skill",
+          "direct_parameter": -1,
+          "expression_descriptor": 0,
+          "parameter_expression": "[absent]",
+          "constant_parameter": null,
+          "record_offset_hex": "0xe228"
+        },
+        {
+          "step": 7,
+          "native_action_id": 95,
+          "label": "Do a Combo of <DIG=\u25cf> HITS or more",
+          "direct_parameter": -1,
+          "expression_descriptor": 1552,
+          "parameter_expression": "10",
+          "constant_parameter": 10,
+          "record_offset_hex": "0xe234"
+        },
+        {
+          "step": 8,
+          "native_action_id": 95,
+          "label": "Do a Combo of <DIG=\u25cf> HITS or more",
+          "direct_parameter": -1,
+          "expression_descriptor": 1553,
+          "parameter_expression": "15",
+          "constant_parameter": 15,
+          "record_offset_hex": "0xe240"
+        },
+        {
+          "step": 9,
+          "native_action_id": 87,
+          "label": "Win with Super Attack",
+          "direct_parameter": -1,
+          "expression_descriptor": 0,
+          "parameter_expression": "[absent]",
+          "constant_parameter": null,
+          "record_offset_hex": "0xe24c"
+        }
+      ],
+      "mission_modifier_items": [],
+      "enemies": [
+        {
+          "preset": 922,
+          "native_id": 2,
+          "name": "Goku / Super Saiyan 2",
+          "condition": "[absent]"
+        }
+      ]
+    },
+    {
+      "node": 239,
+      "owner_native_ids": [
+        0
+      ],
+      "owners": [
+        "Goku"
+      ],
+      "root_offset_hex": "0x1c550",
+      "category": 2,
+      "objective_type": 30,
+      "objective_text": "Mission: Defeat the Z-Fighters!",
+      "stage": 10,
+      "music": 33,
+      "coordinates": [
+        49.0,
+        35.0
+      ],
+      "difficulty": 3,
+      "rule_selectors": [
+        53,
+        0
+      ],
+      "time": 0,
+      "action_list": {
+        "descriptor": 1597,
+        "descriptor_offset_hex": "0x320c",
+        "count": 9,
+        "stride": 12,
+        "body_offset_hex": "0xe4ec"
+      },
+      "actions": [
+        {
+          "step": 1,
+          "native_action_id": 45,
+          "label": "Hit with Rush Blast",
+          "direct_parameter": -1,
+          "expression_descriptor": 0,
+          "parameter_expression": "[absent]",
+          "constant_parameter": null,
+          "record_offset_hex": "0xe4ec"
+        },
+        {
+          "step": 2,
+          "native_action_id": 96,
+          "label": "Do a Combo of <DIG=\u25cf> damage or more",
+          "direct_parameter": -1,
+          "expression_descriptor": 1591,
+          "parameter_expression": "1000",
+          "constant_parameter": 1000,
+          "record_offset_hex": "0xe4f8"
+        },
+        {
+          "step": 3,
+          "native_action_id": 96,
+          "label": "Do a Combo of <DIG=\u25cf> damage or more",
+          "direct_parameter": -1,
+          "expression_descriptor": 1592,
+          "parameter_expression": "2000",
+          "constant_parameter": 2000,
+          "record_offset_hex": "0xe504"
+        },
+        {
+          "step": 4,
+          "native_action_id": 96,
+          "label": "Do a Combo of <DIG=\u25cf> damage or more",
+          "direct_parameter": -1,
+          "expression_descriptor": 1593,
+          "parameter_expression": "3000",
+          "constant_parameter": 3000,
+          "record_offset_hex": "0xe510"
+        },
+        {
+          "step": 5,
+          "native_action_id": 24,
+          "label": "Hit with Smash Attack: 4",
+          "direct_parameter": -1,
+          "expression_descriptor": 0,
+          "parameter_expression": "[absent]",
+          "constant_parameter": null,
+          "record_offset_hex": "0xe51c"
+        },
+        {
+          "step": 6,
+          "native_action_id": 96,
+          "label": "Do a Combo of <DIG=\u25cf> damage or more",
+          "direct_parameter": -1,
+          "expression_descriptor": 1594,
+          "parameter_expression": "4000",
+          "constant_parameter": 4000,
+          "record_offset_hex": "0xe528"
+        },
+        {
+          "step": 7,
+          "native_action_id": 96,
+          "label": "Do a Combo of <DIG=\u25cf> damage or more",
+          "direct_parameter": -1,
+          "expression_descriptor": 1595,
+          "parameter_expression": "6000",
+          "constant_parameter": 6000,
+          "record_offset_hex": "0xe534"
+        },
+        {
+          "step": 8,
+          "native_action_id": 96,
+          "label": "Do a Combo of <DIG=\u25cf> damage or more",
+          "direct_parameter": -1,
+          "expression_descriptor": 1596,
+          "parameter_expression": "8000",
+          "constant_parameter": 8000,
+          "record_offset_hex": "0xe540"
+        },
+        {
+          "step": 9,
+          "native_action_id": 79,
+          "label": "Reduce enemy's Health to 0",
+          "direct_parameter": -1,
+          "expression_descriptor": 0,
+          "parameter_expression": "[absent]",
+          "constant_parameter": null,
+          "record_offset_hex": "0xe54c"
+        }
+      ],
+      "mission_modifier_items": [],
+      "enemies": [
+        {
+          "preset": 497,
+          "native_id": 13,
+          "name": "Yamcha",
+          "condition": "[absent]"
+        },
+        {
+          "preset": 498,
+          "native_id": 14,
+          "name": "Tien",
+          "condition": "[absent]"
+        }
+      ]
+    },
+    {
+      "node": 270,
+      "owner_native_ids": [
+        99
+      ],
+      "owners": [
+        "Hatchiyack"
+      ],
+      "root_offset_hex": "0x1d074",
+      "category": 2,
+      "objective_type": 11,
+      "objective_text": "Mission: Win against enemy who powers up under certain conditions!",
+      "stage": 0,
+      "music": 37,
+      "coordinates": [
+        48.0,
+        46.0
+      ],
+      "difficulty": 3,
+      "rule_selectors": [
+        56,
+        0
+      ],
+      "time": 0,
+      "action_list": {
+        "descriptor": 1803,
+        "descriptor_offset_hex": "0x387c",
+        "count": 8,
+        "stride": 12,
+        "body_offset_hex": "0xf338"
+      },
+      "actions": [
+        {
+          "step": 1,
+          "native_action_id": 18,
+          "label": "Land a Charge Attack during movement",
+          "direct_parameter": -1,
+          "expression_descriptor": 0,
+          "parameter_expression": "[absent]",
+          "constant_parameter": null,
+          "record_offset_hex": "0xf338"
+        },
+        {
+          "step": 2,
+          "native_action_id": 23,
+          "label": "Hit with Smash Attack: 3",
+          "direct_parameter": -1,
+          "expression_descriptor": 0,
+          "parameter_expression": "[absent]",
+          "constant_parameter": null,
+          "record_offset_hex": "0xf344"
+        },
+        {
+          "step": 3,
+          "native_action_id": 95,
+          "label": "Do a Combo of <DIG=\u25cf> HITS or more",
+          "direct_parameter": -1,
+          "expression_descriptor": 1799,
+          "parameter_expression": "5",
+          "constant_parameter": 5,
+          "record_offset_hex": "0xf350"
+        },
+        {
+          "step": 4,
+          "native_action_id": 86,
+          "label": "Hit with signature skill",
+          "direct_parameter": -1,
+          "expression_descriptor": 0,
+          "parameter_expression": "[absent]",
+          "constant_parameter": null,
+          "record_offset_hex": "0xf35c"
+        },
+        {
+          "step": 5,
+          "native_action_id": 95,
+          "label": "Do a Combo of <DIG=\u25cf> HITS or more",
+          "direct_parameter": -1,
+          "expression_descriptor": 1800,
+          "parameter_expression": "10",
+          "constant_parameter": 10,
+          "record_offset_hex": "0xf368"
+        },
+        {
+          "step": 6,
+          "native_action_id": 95,
+          "label": "Do a Combo of <DIG=\u25cf> HITS or more",
+          "direct_parameter": -1,
+          "expression_descriptor": 1801,
+          "parameter_expression": "15",
+          "constant_parameter": 15,
+          "record_offset_hex": "0xf374"
+        },
+        {
+          "step": 7,
+          "native_action_id": 95,
+          "label": "Do a Combo of <DIG=\u25cf> HITS or more",
+          "direct_parameter": -1,
+          "expression_descriptor": 1802,
+          "parameter_expression": "20",
+          "constant_parameter": 20,
+          "record_offset_hex": "0xf380"
+        },
+        {
+          "step": 8,
+          "native_action_id": 89,
+          "label": "Win with Ultimate Attack",
+          "direct_parameter": -1,
+          "expression_descriptor": 0,
+          "parameter_expression": "[absent]",
+          "constant_parameter": null,
+          "record_offset_hex": "0xf38c"
+        }
+      ],
+      "mission_modifier_items": [],
+      "enemies": [
+        {
+          "preset": 674,
+          "native_id": 17,
+          "name": "Vegeta",
+          "condition": "[absent]"
+        }
+      ]
+    },
+    {
+      "node": 300,
+      "owner_native_ids": [
+        81
+      ],
+      "owners": [
+        "Meta-Cooler"
+      ],
+      "root_offset_hex": "0x1db3c",
+      "category": 2,
+      "objective_type": 1,
+      "objective_text": "Mission: Defeat all the enemies!",
+      "stage": 13,
+      "music": 35,
+      "coordinates": [
+        54.0,
+        34.0
+      ],
+      "difficulty": 4,
+      "rule_selectors": [
+        22,
+        0
+      ],
+      "time": 0,
+      "action_list": {
+        "descriptor": 1997,
+        "descriptor_offset_hex": "0x3e8c",
+        "count": 9,
+        "stride": 12,
+        "body_offset_hex": "0xfec0"
+      },
+      "actions": [
+        {
+          "step": 1,
+          "native_action_id": 50,
+          "label": "Become High-Tension",
+          "direct_parameter": -1,
+          "expression_descriptor": 0,
+          "parameter_expression": "[absent]",
+          "constant_parameter": null,
+          "record_offset_hex": "0xfec0"
+        },
+        {
+          "step": 2,
+          "native_action_id": 96,
+          "label": "Do a Combo of <DIG=\u25cf> damage or more",
+          "direct_parameter": -1,
+          "expression_descriptor": 1994,
+          "parameter_expression": "2000",
+          "constant_parameter": 2000,
+          "record_offset_hex": "0xfecc"
+        },
+        {
+          "step": 3,
+          "native_action_id": 96,
+          "label": "Do a Combo of <DIG=\u25cf> damage or more",
+          "direct_parameter": -1,
+          "expression_descriptor": 1995,
+          "parameter_expression": "5000",
+          "constant_parameter": 5000,
+          "record_offset_hex": "0xfed8"
+        },
+        {
+          "step": 4,
+          "native_action_id": 111,
+          "label": "[Native detector semantics unresolved; not controller-glyph text]",
+          "direct_parameter": -1,
+          "expression_descriptor": 0,
+          "parameter_expression": "[absent]",
+          "constant_parameter": null,
+          "record_offset_hex": "0xfee4"
+        },
+        {
+          "step": 5,
+          "native_action_id": 82,
+          "label": "Hit with Super Attack",
+          "direct_parameter": 8106,
+          "expression_descriptor": 0,
+          "parameter_expression": "[absent]",
+          "constant_parameter": null,
+          "record_offset_hex": "0xfef0"
+        },
+        {
+          "step": 6,
+          "native_action_id": 27,
+          "label": "Hit with Smash Attack: Low",
+          "direct_parameter": -1,
+          "expression_descriptor": 0,
+          "parameter_expression": "[absent]",
+          "constant_parameter": null,
+          "record_offset_hex": "0xfefc"
+        },
+        {
+          "step": 7,
+          "native_action_id": 28,
+          "label": "Hit with Assault Chase",
+          "direct_parameter": -1,
+          "expression_descriptor": 0,
+          "parameter_expression": "[absent]",
+          "constant_parameter": null,
+          "record_offset_hex": "0xff08"
+        },
+        {
+          "step": 8,
+          "native_action_id": 96,
+          "label": "Do a Combo of <DIG=\u25cf> damage or more",
+          "direct_parameter": -1,
+          "expression_descriptor": 1996,
+          "parameter_expression": "15000",
+          "constant_parameter": 15000,
+          "record_offset_hex": "0xff14"
+        },
+        {
+          "step": 9,
+          "native_action_id": 101,
+          "label": "Defeat the enemy with an Ultimate Attack",
+          "direct_parameter": -1,
+          "expression_descriptor": 0,
+          "parameter_expression": "[absent]",
+          "constant_parameter": null,
+          "record_offset_hex": "0xff20"
+        }
+      ],
+      "mission_modifier_items": [
+        "0x3f"
+      ],
+      "enemies": [
+        {
+          "preset": 504,
+          "native_id": 44,
+          "name": "Recoome",
+          "condition": "[absent]"
+        },
+        {
+          "preset": 503,
+          "native_id": 47,
+          "name": "Guldo",
+          "condition": "[absent]"
+        },
+        {
+          "preset": 507,
+          "native_id": 43,
+          "name": "Captain Ginyu",
+          "condition": "[absent]"
+        },
+        {
+          "preset": 506,
+          "native_id": 46,
+          "name": "Jeice",
+          "condition": "[absent]"
+        },
+        {
+          "preset": 505,
+          "native_id": 45,
+          "name": "Burter",
+          "condition": "[absent]"
+        }
+      ]
+    },
+    {
+      "node": 306,
+      "owner_native_ids": [
+        90
+      ],
+      "owners": [
+        "Nail"
+      ],
+      "root_offset_hex": "0x1dd64",
+      "category": 2,
+      "objective_type": 20,
+      "objective_text": "Mission: Defeat all the enemies within <DIG=\u25cf> seconds!",
+      "stage": 2,
+      "music": 49,
+      "coordinates": [
+        68.0,
+        55.0
+      ],
+      "difficulty": 4,
+      "rule_selectors": [
+        10,
+        0
+      ],
+      "time": 180,
+      "action_list": {
+        "descriptor": 2041,
+        "descriptor_offset_hex": "0x3fec",
+        "count": 9,
+        "stride": 12,
+        "body_offset_hex": "0x10200"
+      },
+      "actions": [
+        {
+          "step": 1,
+          "native_action_id": 44,
+          "label": "Fill Ki Gauge to max with Ki Charging",
+          "direct_parameter": -1,
+          "expression_descriptor": 0,
+          "parameter_expression": "[absent]",
+          "constant_parameter": null,
+          "record_offset_hex": "0x10200"
+        },
+        {
+          "step": 2,
+          "native_action_id": 96,
+          "label": "Do a Combo of <DIG=\u25cf> damage or more",
+          "direct_parameter": -1,
+          "expression_descriptor": 2035,
+          "parameter_expression": "2000",
+          "constant_parameter": 2000,
+          "record_offset_hex": "0x1020c"
+        },
+        {
+          "step": 3,
+          "native_action_id": 96,
+          "label": "Do a Combo of <DIG=\u25cf> damage or more",
+          "direct_parameter": -1,
+          "expression_descriptor": 2036,
+          "parameter_expression": "4000",
+          "constant_parameter": 4000,
+          "record_offset_hex": "0x10218"
+        },
+        {
+          "step": 4,
+          "native_action_id": 86,
+          "label": "Hit with signature skill",
+          "direct_parameter": -1,
+          "expression_descriptor": 0,
+          "parameter_expression": "[absent]",
+          "constant_parameter": null,
+          "record_offset_hex": "0x10224"
+        },
+        {
+          "step": 5,
+          "native_action_id": 96,
+          "label": "Do a Combo of <DIG=\u25cf> damage or more",
+          "direct_parameter": -1,
+          "expression_descriptor": 2037,
+          "parameter_expression": "7000",
+          "constant_parameter": 7000,
+          "record_offset_hex": "0x10230"
+        },
+        {
+          "step": 6,
+          "native_action_id": 96,
+          "label": "Do a Combo of <DIG=\u25cf> damage or more",
+          "direct_parameter": -1,
+          "expression_descriptor": 2038,
+          "parameter_expression": "9000",
+          "constant_parameter": 9000,
+          "record_offset_hex": "0x1023c"
+        },
+        {
+          "step": 7,
+          "native_action_id": 96,
+          "label": "Do a Combo of <DIG=\u25cf> damage or more",
+          "direct_parameter": -1,
+          "expression_descriptor": 2039,
+          "parameter_expression": "11000",
+          "constant_parameter": 11000,
+          "record_offset_hex": "0x10248"
+        },
+        {
+          "step": 8,
+          "native_action_id": 96,
+          "label": "Do a Combo of <DIG=\u25cf> damage or more",
+          "direct_parameter": -1,
+          "expression_descriptor": 2040,
+          "parameter_expression": "13000",
+          "constant_parameter": 13000,
+          "record_offset_hex": "0x10254"
+        },
+        {
+          "step": 9,
+          "native_action_id": 87,
+          "label": "Win with Super Attack",
+          "direct_parameter": -1,
+          "expression_descriptor": 0,
+          "parameter_expression": "[absent]",
+          "constant_parameter": null,
+          "record_offset_hex": "0x10260"
+        }
+      ],
+      "mission_modifier_items": [
+        "0x126"
+      ],
+      "enemies": [
+        {
+          "preset": 725,
+          "native_id": 4,
+          "name": "Kid Gohan",
+          "condition": "[absent]"
+        },
+        {
+          "preset": 874,
+          "native_id": 12,
+          "name": "Krillin",
+          "condition": "[absent]"
+        }
+      ]
+    },
+    {
+      "node": 320,
+      "owner_native_ids": [
+        97
+      ],
+      "owners": [
+        "Neizu"
+      ],
+      "root_offset_hex": "0x1e26c",
+      "category": 2,
+      "objective_type": 30,
+      "objective_text": "Mission: Defeat the Z-Fighters!",
+      "stage": 0,
+      "music": 34,
+      "coordinates": [
+        68.0,
+        69.0
+      ],
+      "difficulty": 4,
+      "rule_selectors": [
+        57,
+        0
+      ],
+      "time": 0,
+      "action_list": {
+        "descriptor": 2138,
+        "descriptor_offset_hex": "0x42f4",
+        "count": 9,
+        "stride": 12,
+        "body_offset_hex": "0x10768"
+      },
+      "actions": [
+        {
+          "step": 1,
+          "native_action_id": 24,
+          "label": "Hit with Smash Attack: 4",
+          "direct_parameter": -1,
+          "expression_descriptor": 0,
+          "parameter_expression": "[absent]",
+          "constant_parameter": null,
+          "record_offset_hex": "0x10768"
+        },
+        {
+          "step": 2,
+          "native_action_id": 96,
+          "label": "Do a Combo of <DIG=\u25cf> damage or more",
+          "direct_parameter": -1,
+          "expression_descriptor": 2132,
+          "parameter_expression": "1500",
+          "constant_parameter": 1500,
+          "record_offset_hex": "0x10774"
+        },
+        {
+          "step": 3,
+          "native_action_id": 96,
+          "label": "Do a Combo of <DIG=\u25cf> damage or more",
+          "direct_parameter": -1,
+          "expression_descriptor": 2133,
+          "parameter_expression": "3000",
+          "constant_parameter": 3000,
+          "record_offset_hex": "0x10780"
+        },
+        {
+          "step": 4,
+          "native_action_id": 96,
+          "label": "Do a Combo of <DIG=\u25cf> damage or more",
+          "direct_parameter": -1,
+          "expression_descriptor": 2134,
+          "parameter_expression": "6000",
+          "constant_parameter": 6000,
+          "record_offset_hex": "0x1078c"
+        },
+        {
+          "step": 5,
+          "native_action_id": 51,
+          "label": "Activate Raging Soul",
+          "direct_parameter": -1,
+          "expression_descriptor": 0,
+          "parameter_expression": "[absent]",
+          "constant_parameter": null,
+          "record_offset_hex": "0x10798"
+        },
+        {
+          "step": 6,
+          "native_action_id": 96,
+          "label": "Do a Combo of <DIG=\u25cf> damage or more",
+          "direct_parameter": -1,
+          "expression_descriptor": 2135,
+          "parameter_expression": "9000",
+          "constant_parameter": 9000,
+          "record_offset_hex": "0x107a4"
+        },
+        {
+          "step": 7,
+          "native_action_id": 96,
+          "label": "Do a Combo of <DIG=\u25cf> damage or more",
+          "direct_parameter": -1,
+          "expression_descriptor": 2136,
+          "parameter_expression": "11000",
+          "constant_parameter": 11000,
+          "record_offset_hex": "0x107b0"
+        },
+        {
+          "step": 8,
+          "native_action_id": 96,
+          "label": "Do a Combo of <DIG=\u25cf> damage or more",
+          "direct_parameter": -1,
+          "expression_descriptor": 2137,
+          "parameter_expression": "13000",
+          "constant_parameter": 13000,
+          "record_offset_hex": "0x107bc"
+        },
+        {
+          "step": 9,
+          "native_action_id": 104,
+          "label": "Place an Angel Halo.",
+          "direct_parameter": -1,
+          "expression_descriptor": 0,
+          "parameter_expression": "[absent]",
+          "constant_parameter": null,
+          "record_offset_hex": "0x107c8"
+        }
+      ],
+      "mission_modifier_items": [],
+      "enemies": [
+        {
+          "preset": 890,
+          "native_id": 11,
+          "name": "Piccolo",
+          "condition": "[absent]"
+        },
+        {
+          "preset": 875,
+          "native_id": 4,
+          "name": "Kid Gohan",
+          "condition": "[absent]"
+        }
+      ]
+    },
+    {
+      "node": 336,
+      "owner_native_ids": [
+        11
+      ],
+      "owners": [
+        "Piccolo"
+      ],
+      "root_offset_hex": "0x1e82c",
+      "category": 2,
+      "objective_type": 31,
+      "objective_text": "Mission: Defeat all the Villain Warriors!",
+      "stage": 10,
+      "music": 51,
+      "coordinates": [
+        57.0,
+        47.0
+      ],
+      "difficulty": 3,
+      "rule_selectors": [
+        0,
+        0
+      ],
+      "time": 0,
+      "action_list": {
+        "descriptor": 2249,
+        "descriptor_offset_hex": "0x466c",
+        "count": 8,
+        "stride": 12,
+        "body_offset_hex": "0x10edc"
+      },
+      "actions": [
+        {
+          "step": 1,
+          "native_action_id": 21,
+          "label": "Hit with Smash Attack: 1",
+          "direct_parameter": -1,
+          "expression_descriptor": 0,
+          "parameter_expression": "[absent]",
+          "constant_parameter": null,
+          "record_offset_hex": "0x10edc"
+        },
+        {
+          "step": 2,
+          "native_action_id": 86,
+          "label": "Hit with signature skill",
+          "direct_parameter": -1,
+          "expression_descriptor": 0,
+          "parameter_expression": "[absent]",
+          "constant_parameter": null,
+          "record_offset_hex": "0x10ee8"
+        },
+        {
+          "step": 3,
+          "native_action_id": 96,
+          "label": "Do a Combo of <DIG=\u25cf> damage or more",
+          "direct_parameter": -1,
+          "expression_descriptor": 2245,
+          "parameter_expression": "2000",
+          "constant_parameter": 2000,
+          "record_offset_hex": "0x10ef4"
+        },
+        {
+          "step": 4,
+          "native_action_id": 96,
+          "label": "Do a Combo of <DIG=\u25cf> damage or more",
+          "direct_parameter": -1,
+          "expression_descriptor": 2246,
+          "parameter_expression": "4000",
+          "constant_parameter": 4000,
+          "record_offset_hex": "0x10f00"
+        },
+        {
+          "step": 5,
+          "native_action_id": 96,
+          "label": "Do a Combo of <DIG=\u25cf> damage or more",
+          "direct_parameter": -1,
+          "expression_descriptor": 2247,
+          "parameter_expression": "7000",
+          "constant_parameter": 7000,
+          "record_offset_hex": "0x10f0c"
+        },
+        {
+          "step": 6,
+          "native_action_id": 96,
+          "label": "Do a Combo of <DIG=\u25cf> damage or more",
+          "direct_parameter": -1,
+          "expression_descriptor": 2248,
+          "parameter_expression": "10000",
+          "constant_parameter": 10000,
+          "record_offset_hex": "0x10f18"
+        },
+        {
+          "step": 7,
+          "native_action_id": 32,
+          "label": "Hit with all the Pursuit Attack: 2",
+          "direct_parameter": -1,
+          "expression_descriptor": 0,
+          "parameter_expression": "[absent]",
+          "constant_parameter": null,
+          "record_offset_hex": "0x10f24"
+        },
+        {
+          "step": 8,
+          "native_action_id": 79,
+          "label": "Reduce enemy's Health to 0",
+          "direct_parameter": -1,
+          "expression_descriptor": 0,
+          "parameter_expression": "[absent]",
+          "constant_parameter": null,
+          "record_offset_hex": "0x10f30"
+        }
+      ],
+      "mission_modifier_items": [],
+      "enemies": [
+        {
+          "preset": 564,
+          "native_id": 77,
+          "name": "Demon King Dabura",
+          "condition": "[absent]"
+        },
+        {
+          "preset": 565,
+          "native_id": 63,
+          "name": "Super Buu",
+          "condition": "[absent]"
+        }
+      ]
+    },
+    {
+      "node": 373,
+      "owner_native_ids": [
+        93
+      ],
+      "owners": [
+        "Tarble"
+      ],
+      "root_offset_hex": "0x1f578",
+      "category": 2,
+      "objective_type": 6,
+      "objective_text": "Mission: Settle the fight before Raging Soul ends!",
+      "stage": 8,
+      "music": 32,
+      "coordinates": [
+        45.0,
+        86.0
+      ],
+      "difficulty": 4,
+      "rule_selectors": [
+        19,
+        52
+      ],
+      "time": 0,
+      "action_list": {
+        "descriptor": 2489,
+        "descriptor_offset_hex": "0x4dec",
+        "count": 6,
+        "stride": 12,
+        "body_offset_hex": "0x11d78"
+      },
+      "actions": [
+        {
+          "step": 1,
+          "native_action_id": 22,
+          "label": "Hit with Smash Attack: 2",
+          "direct_parameter": -1,
+          "expression_descriptor": 0,
+          "parameter_expression": "[absent]",
+          "constant_parameter": null,
+          "record_offset_hex": "0x11d78"
+        },
+        {
+          "step": 2,
+          "native_action_id": 96,
+          "label": "Do a Combo of <DIG=\u25cf> damage or more",
+          "direct_parameter": -1,
+          "expression_descriptor": 2486,
+          "parameter_expression": "3000",
+          "constant_parameter": 3000,
+          "record_offset_hex": "0x11d84"
+        },
+        {
+          "step": 3,
+          "native_action_id": 96,
+          "label": "Do a Combo of <DIG=\u25cf> damage or more",
+          "direct_parameter": -1,
+          "expression_descriptor": 2487,
+          "parameter_expression": "6000",
+          "constant_parameter": 6000,
+          "record_offset_hex": "0x11d90"
+        },
+        {
+          "step": 4,
+          "native_action_id": 16,
+          "label": "Perform Charge Attack",
+          "direct_parameter": -1,
+          "expression_descriptor": 0,
+          "parameter_expression": "[absent]",
+          "constant_parameter": null,
+          "record_offset_hex": "0x11d9c"
+        },
+        {
+          "step": 5,
+          "native_action_id": 96,
+          "label": "Do a Combo of <DIG=\u25cf> damage or more",
+          "direct_parameter": -1,
+          "expression_descriptor": 2488,
+          "parameter_expression": "12000",
+          "constant_parameter": 12000,
+          "record_offset_hex": "0x11da8"
+        },
+        {
+          "step": 6,
+          "native_action_id": 104,
+          "label": "Place an Angel Halo.",
+          "direct_parameter": -1,
+          "expression_descriptor": 0,
+          "parameter_expression": "[absent]",
+          "constant_parameter": null,
+          "record_offset_hex": "0x11db4"
+        }
+      ],
+      "mission_modifier_items": [
+        "0x13c"
+      ],
+      "enemies": [
+        {
+          "preset": 915,
+          "native_id": 3,
+          "name": "Goku / Super Saiyan 3",
+          "condition": "[absent]"
+        }
+      ]
+    },
+    {
+      "node": 391,
+      "owner_native_ids": [
+        24
+      ],
+      "owners": [
+        "Trunks (Fighting Teen)"
+      ],
+      "root_offset_hex": "0x1fbf0",
+      "category": 2,
+      "objective_type": 4,
+      "objective_text": "Mission: Win as your Health constantly decreases!",
+      "stage": 4,
+      "music": 42,
+      "coordinates": [
+        50.0,
+        41.0
+      ],
+      "difficulty": 3,
+      "rule_selectors": [
+        10,
+        38
+      ],
+      "time": 0,
+      "action_list": {
+        "descriptor": 2607,
+        "descriptor_offset_hex": "0x519c",
+        "count": 9,
+        "stride": 12,
+        "body_offset_hex": "0x124d8"
+      },
+      "actions": [
+        {
+          "step": 1,
+          "native_action_id": 28,
+          "label": "Hit with Assault Chase",
+          "direct_parameter": -1,
+          "expression_descriptor": 0,
+          "parameter_expression": "[absent]",
+          "constant_parameter": null,
+          "record_offset_hex": "0x124d8"
+        },
+        {
+          "step": 2,
+          "native_action_id": 95,
+          "label": "Do a Combo of <DIG=\u25cf> HITS or more",
+          "direct_parameter": -1,
+          "expression_descriptor": 2601,
+          "parameter_expression": "5",
+          "constant_parameter": 5,
+          "record_offset_hex": "0x124e4"
+        },
+        {
+          "step": 3,
+          "native_action_id": 95,
+          "label": "Do a Combo of <DIG=\u25cf> HITS or more",
+          "direct_parameter": -1,
+          "expression_descriptor": 2602,
+          "parameter_expression": "10",
+          "constant_parameter": 10,
+          "record_offset_hex": "0x124f0"
+        },
+        {
+          "step": 4,
+          "native_action_id": 60,
+          "label": "Perform Transformation",
+          "direct_parameter": -1,
+          "expression_descriptor": 0,
+          "parameter_expression": "[absent]",
+          "constant_parameter": null,
+          "record_offset_hex": "0x124fc"
+        },
+        {
+          "step": 5,
+          "native_action_id": 96,
+          "label": "Do a Combo of <DIG=\u25cf> damage or more",
+          "direct_parameter": -1,
+          "expression_descriptor": 2603,
+          "parameter_expression": "3000",
+          "constant_parameter": 3000,
+          "record_offset_hex": "0x12508"
+        },
+        {
+          "step": 6,
+          "native_action_id": 96,
+          "label": "Do a Combo of <DIG=\u25cf> damage or more",
+          "direct_parameter": -1,
+          "expression_descriptor": 2604,
+          "parameter_expression": "6000",
+          "constant_parameter": 6000,
+          "record_offset_hex": "0x12514"
+        },
+        {
+          "step": 7,
+          "native_action_id": 96,
+          "label": "Do a Combo of <DIG=\u25cf> damage or more",
+          "direct_parameter": -1,
+          "expression_descriptor": 2605,
+          "parameter_expression": "9000",
+          "constant_parameter": 9000,
+          "record_offset_hex": "0x12520"
+        },
+        {
+          "step": 8,
+          "native_action_id": 96,
+          "label": "Do a Combo of <DIG=\u25cf> damage or more",
+          "direct_parameter": -1,
+          "expression_descriptor": 2606,
+          "parameter_expression": "12000",
+          "constant_parameter": 12000,
+          "record_offset_hex": "0x1252c"
+        },
+        {
+          "step": 9,
+          "native_action_id": 87,
+          "label": "Win with Super Attack",
+          "direct_parameter": -1,
+          "expression_descriptor": 0,
+          "parameter_expression": "[absent]",
+          "constant_parameter": null,
+          "record_offset_hex": "0x12538"
+        }
+      ],
+      "mission_modifier_items": [
+        "0x125"
+      ],
+      "enemies": [
+        {
+          "preset": 685,
+          "native_id": 14,
+          "name": "Tien",
+          "condition": "[absent]"
+        },
+        {
+          "preset": 581,
+          "native_id": 84,
+          "name": "Zangya",
+          "condition": "[absent]"
+        },
+        {
+          "preset": 686,
+          "native_id": 86,
+          "name": "Bojack / Full Power",
+          "condition": "[absent]"
+        }
+      ]
+    },
+    {
+      "node": 423,
+      "owner_native_ids": [
+        17
+      ],
+      "owners": [
+        "Vegeta"
+      ],
+      "root_offset_hex": "0x20770",
+      "category": 2,
+      "objective_type": 32,
+      "objective_text": "Mission: Destroy Androids!",
+      "stage": 4,
+      "music": 38,
+      "coordinates": [
+        55.0,
+        35.0
+      ],
+      "difficulty": 4,
+      "rule_selectors": [
+        16,
+        0
+      ],
+      "time": 240,
+      "action_list": {
+        "descriptor": 2826,
+        "descriptor_offset_hex": "0x5874",
+        "count": 9,
+        "stride": 12,
+        "body_offset_hex": "0x1332c"
+      },
+      "actions": [
+        {
+          "step": 1,
+          "native_action_id": 60,
+          "label": "Perform Transformation",
+          "direct_parameter": -1,
+          "expression_descriptor": 0,
+          "parameter_expression": "[absent]",
+          "constant_parameter": null,
+          "record_offset_hex": "0x1332c"
+        },
+        {
+          "step": 2,
+          "native_action_id": 95,
+          "label": "Do a Combo of <DIG=\u25cf> HITS or more",
+          "direct_parameter": -1,
+          "expression_descriptor": 2820,
+          "parameter_expression": "5",
+          "constant_parameter": 5,
+          "record_offset_hex": "0x13338"
+        },
+        {
+          "step": 3,
+          "native_action_id": 95,
+          "label": "Do a Combo of <DIG=\u25cf> HITS or more",
+          "direct_parameter": -1,
+          "expression_descriptor": 2821,
+          "parameter_expression": "10",
+          "constant_parameter": 10,
+          "record_offset_hex": "0x13344"
+        },
+        {
+          "step": 4,
+          "native_action_id": 82,
+          "label": "Hit with Super Attack",
+          "direct_parameter": 1805,
+          "expression_descriptor": 0,
+          "parameter_expression": "[absent]",
+          "constant_parameter": null,
+          "record_offset_hex": "0x13350"
+        },
+        {
+          "step": 5,
+          "native_action_id": 96,
+          "label": "Do a Combo of <DIG=\u25cf> damage or more",
+          "direct_parameter": -1,
+          "expression_descriptor": 2822,
+          "parameter_expression": "4000",
+          "constant_parameter": 4000,
+          "record_offset_hex": "0x1335c"
+        },
+        {
+          "step": 6,
+          "native_action_id": 96,
+          "label": "Do a Combo of <DIG=\u25cf> damage or more",
+          "direct_parameter": -1,
+          "expression_descriptor": 2823,
+          "parameter_expression": "7000",
+          "constant_parameter": 7000,
+          "record_offset_hex": "0x13368"
+        },
+        {
+          "step": 7,
+          "native_action_id": 96,
+          "label": "Do a Combo of <DIG=\u25cf> damage or more",
+          "direct_parameter": -1,
+          "expression_descriptor": 2824,
+          "parameter_expression": "10000",
+          "constant_parameter": 10000,
+          "record_offset_hex": "0x13374"
+        },
+        {
+          "step": 8,
+          "native_action_id": 96,
+          "label": "Do a Combo of <DIG=\u25cf> damage or more",
+          "direct_parameter": -1,
+          "expression_descriptor": 2825,
+          "parameter_expression": "16000",
+          "constant_parameter": 16000,
+          "record_offset_hex": "0x13380"
+        },
+        {
+          "step": 9,
+          "native_action_id": 89,
+          "label": "Win with Ultimate Attack",
+          "direct_parameter": -1,
+          "expression_descriptor": 0,
+          "parameter_expression": "[absent]",
+          "constant_parameter": null,
+          "record_offset_hex": "0x1338c"
+        }
+      ],
+      "mission_modifier_items": [
+        "0x134"
+      ],
+      "enemies": [
+        {
+          "preset": 621,
+          "native_id": 53,
+          "name": "Android #16",
+          "condition": "[absent]"
+        },
+        {
+          "preset": 622,
+          "native_id": 54,
+          "name": "Android #17",
+          "condition": "[absent]"
+        },
+        {
+          "preset": 623,
+          "native_id": 55,
+          "name": "Android #18",
+          "condition": "[absent]"
+        }
+      ]
+    },
+    {
+      "node": 446,
+      "owner_native_ids": [
+        34
+      ],
+      "owners": [
+        "Vegito"
+      ],
+      "root_offset_hex": "0x20fb4",
+      "category": 2,
+      "objective_type": 11,
+      "objective_text": "Mission: Win against enemy who powers up under certain conditions!",
+      "stage": 10,
+      "music": 50,
+      "coordinates": [
+        88.0,
+        55.0
+      ],
+      "difficulty": 3,
+      "rule_selectors": [
+        22,
+        56
+      ],
+      "time": 0,
+      "action_list": {
+        "descriptor": 2980,
+        "descriptor_offset_hex": "0x5d44",
+        "count": 9,
+        "stride": 12,
+        "body_offset_hex": "0x13c54"
+      },
+      "actions": [
+        {
+          "step": 1,
+          "native_action_id": 60,
+          "label": "Perform Transformation",
+          "direct_parameter": -1,
+          "expression_descriptor": 0,
+          "parameter_expression": "[absent]",
+          "constant_parameter": null,
+          "record_offset_hex": "0x13c54"
+        },
+        {
+          "step": 2,
+          "native_action_id": 96,
+          "label": "Do a Combo of <DIG=\u25cf> damage or more",
+          "direct_parameter": -1,
+          "expression_descriptor": 2975,
+          "parameter_expression": "2000",
+          "constant_parameter": 2000,
+          "record_offset_hex": "0x13c60"
+        },
+        {
+          "step": 3,
+          "native_action_id": 96,
+          "label": "Do a Combo of <DIG=\u25cf> damage or more",
+          "direct_parameter": -1,
+          "expression_descriptor": 2976,
+          "parameter_expression": "4000",
+          "constant_parameter": 4000,
+          "record_offset_hex": "0x13c6c"
+        },
+        {
+          "step": 4,
+          "native_action_id": 28,
+          "label": "Hit with Assault Chase",
+          "direct_parameter": -1,
+          "expression_descriptor": 0,
+          "parameter_expression": "[absent]",
+          "constant_parameter": null,
+          "record_offset_hex": "0x13c78"
+        },
+        {
+          "step": 5,
+          "native_action_id": 107,
+          "label": "Hit all pursuit attacks in High-Tension",
+          "direct_parameter": -1,
+          "expression_descriptor": 0,
+          "parameter_expression": "[absent]",
+          "constant_parameter": null,
+          "record_offset_hex": "0x13c84"
+        },
+        {
+          "step": 6,
+          "native_action_id": 96,
+          "label": "Do a Combo of <DIG=\u25cf> damage or more",
+          "direct_parameter": -1,
+          "expression_descriptor": 2977,
+          "parameter_expression": "10000",
+          "constant_parameter": 10000,
+          "record_offset_hex": "0x13c90"
+        },
+        {
+          "step": 7,
+          "native_action_id": 96,
+          "label": "Do a Combo of <DIG=\u25cf> damage or more",
+          "direct_parameter": -1,
+          "expression_descriptor": 2978,
+          "parameter_expression": "13000",
+          "constant_parameter": 13000,
+          "record_offset_hex": "0x13c9c"
+        },
+        {
+          "step": 8,
+          "native_action_id": 96,
+          "label": "Do a Combo of <DIG=\u25cf> damage or more",
+          "direct_parameter": -1,
+          "expression_descriptor": 2979,
+          "parameter_expression": "16000",
+          "constant_parameter": 16000,
+          "record_offset_hex": "0x13ca8"
+        },
+        {
+          "step": 9,
+          "native_action_id": 101,
+          "label": "Defeat the enemy with an Ultimate Attack",
+          "direct_parameter": -1,
+          "expression_descriptor": 0,
+          "parameter_expression": "[absent]",
+          "constant_parameter": null,
+          "record_offset_hex": "0x13cb4"
+        }
+      ],
+      "mission_modifier_items": [
+        "0x3f"
+      ],
+      "enemies": [
+        {
+          "preset": 508,
+          "native_id": 11,
+          "name": "Piccolo",
+          "condition": "[absent]"
+        },
+        {
+          "preset": 696,
+          "native_id": 29,
+          "name": "Goten",
+          "condition": "[absent]"
+        },
+        {
+          "preset": 652,
+          "native_id": 27,
+          "name": "Kid Trunks",
+          "condition": "[absent]"
+        }
+      ]
+    }
+  ]
+}

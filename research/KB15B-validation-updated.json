@@ -1,0 +1,435 @@
+{
+  "experiment": "KB15B",
+  "status": "ARCHIVES_VERIFIED_GOKU_FORM_CHAIN_OBSERVED",
+  "node": 117,
+  "simple_template_node": 238,
+  "arena": 8,
+  "menu_difficulty": 4,
+  "roster": [
+    1058,
+    1061,
+    1063
+  ],
+  "forms": [
+    {
+      "key": "goku_ssj2",
+      "preset": 1058,
+      "strength": 777,
+      "native": 2,
+      "costume_index": 0,
+      "level_word_before_item_effects": 20,
+      "AI_type_word": "FFFFFFFF",
+      "links": [
+        "0x423",
+        "0x423",
+        "0xffffffff",
+        "0xffffffff"
+      ],
+      "items": [
+        {
+          "item_index_hex": "0AD",
+          "item_index_decimal": "173",
+          "name_text_id": "173",
+          "description_text_id": "423",
+          "game_name_it": "Computer max",
+          "game_description_it": "Applica su un avversario gestito dal computer per renderlo molto pi\u00f9\nforte (solo CPU).",
+          "property_flag_indices_hex": "11E"
+        },
+        {
+          "item_index_hex": "04F",
+          "item_index_decimal": "79",
+          "name_text_id": "79",
+          "description_text_id": "329",
+          "game_name_it": "Difesa \u2191 L",
+          "game_description_it": "Aumenta notevolmente la Difesa.",
+          "property_flag_indices_hex": "6C"
+        },
+        {
+          "item_index_hex": "04E",
+          "item_index_decimal": "78",
+          "name_text_id": "78",
+          "description_text_id": "328",
+          "game_name_it": "Difesa \u2191 M",
+          "game_description_it": "Aumenta la Difesa.",
+          "property_flag_indices_hex": "6B"
+        },
+        {
+          "item_index_hex": "156",
+          "item_index_decimal": "342",
+          "name_text_id": "605",
+          "description_text_id": "719",
+          "game_name_it": "2\u00aa Trasformazione quando rimangono 3 indicatori di salute",
+          "game_description_it": "Attiva automaticamente la Trasformazione quando rimangono 3 indicatori\ndi salute. Ti trasformi in Super Saiyan 3 quando sei Super Saiyan.",
+          "property_flag_indices_hex": "E3"
+        }
+      ]
+    },
+    {
+      "key": "goku_ssj3",
+      "preset": 1059,
+      "strength": 778,
+      "native": 3,
+      "costume_index": 0,
+      "level_word_before_item_effects": 20,
+      "AI_type_word": "FFFFFFFF",
+      "links": [
+        "0x424",
+        "0xffffffff",
+        "0xffffffff",
+        "0xffffffff"
+      ],
+      "items": [
+        {
+          "item_index_hex": "0AD",
+          "item_index_decimal": "173",
+          "name_text_id": "173",
+          "description_text_id": "423",
+          "game_name_it": "Computer max",
+          "game_description_it": "Applica su un avversario gestito dal computer per renderlo molto pi\u00f9\nforte (solo CPU).",
+          "property_flag_indices_hex": "11E"
+        },
+        {
+          "item_index_hex": "04F",
+          "item_index_decimal": "79",
+          "name_text_id": "79",
+          "description_text_id": "329",
+          "game_name_it": "Difesa \u2191 L",
+          "game_description_it": "Aumenta notevolmente la Difesa.",
+          "property_flag_indices_hex": "6C"
+        },
+        {
+          "item_index_hex": "04E",
+          "item_index_decimal": "78",
+          "name_text_id": "78",
+          "description_text_id": "328",
+          "game_name_it": "Difesa \u2191 M",
+          "game_description_it": "Aumenta la Difesa.",
+          "property_flag_indices_hex": "6B"
+        },
+        {
+          "item_index_hex": "04D",
+          "item_index_decimal": "77",
+          "name_text_id": "77",
+          "description_text_id": "327",
+          "game_name_it": "Difesa \u2191 S",
+          "game_description_it": "Aumenta leggermente la Difesa.",
+          "property_flag_indices_hex": "6A"
+        },
+        {
+          "item_index_hex": "15B",
+          "item_index_decimal": "347",
+          "name_text_id": "610",
+          "description_text_id": "724",
+          "game_name_it": "Annulla Trasformazione quando rimangono 2 indicatori di salute",
+          "game_description_it": "Annulla automaticamente la Trasformazione quando rimangono 2\nindicatori di salute.",
+          "property_flag_indices_hex": "179"
+        }
+      ]
+    },
+    {
+      "key": "goku_base",
+      "preset": 1060,
+      "strength": 779,
+      "native": 0,
+      "costume_index": 0,
+      "level_word_before_item_effects": 20,
+      "AI_type_word": "FFFFFFFF",
+      "links": [
+        "0xffffffff",
+        "0xffffffff",
+        "0xffffffff",
+        "0xffffffff"
+      ],
+      "items": [
+        {
+          "item_index_hex": "0AD",
+          "item_index_decimal": "173",
+          "name_text_id": "173",
+          "description_text_id": "423",
+          "game_name_it": "Computer max",
+          "game_description_it": "Applica su un avversario gestito dal computer per renderlo molto pi\u00f9\nforte (solo CPU).",
+          "property_flag_indices_hex": "11E"
+        },
+        {
+          "item_index_hex": "04F",
+          "item_index_decimal": "79",
+          "name_text_id": "79",
+          "description_text_id": "329",
+          "game_name_it": "Difesa \u2191 L",
+          "game_description_it": "Aumenta notevolmente la Difesa.",
+          "property_flag_indices_hex": "6C"
+        },
+        {
+          "item_index_hex": "15D",
+          "item_index_decimal": "349",
+          "name_text_id": "612",
+          "description_text_id": "726",
+          "game_name_it": "Cambio quando rimane 1 indicatore di salute",
+          "game_description_it": "Effettua automaticamente il Cambio quando rimane 1 indicatore di\nsalute.",
+          "property_flag_indices_hex": "D3"
+        },
+        {
+          "item_index_hex": "161",
+          "item_index_decimal": "353",
+          "name_text_id": "616",
+          "description_text_id": "730",
+          "game_name_it": "Alta Tensione al Cambio per KO",
+          "game_description_it": "Attiva la modalit\u00e0 Alta Tensione quando effettui il Cambio per KO.\nIgnora il numero di volte in cui utilizzi Animo Furioso.",
+          "property_flag_indices_hex": "E9"
+        },
+        {
+          "item_index_hex": "071",
+          "item_index_decimal": "113",
+          "name_text_id": "113",
+          "description_text_id": "363",
+          "game_name_it": "Potenza Attacco Supremo \u2191 L",
+          "game_description_it": "Aumenta notevolmente la potenza degli Attacchi Supremi",
+          "property_flag_indices_hex": "9C"
+        },
+        {
+          "item_index_hex": "079",
+          "item_index_decimal": "121",
+          "name_text_id": "121",
+          "description_text_id": "371",
+          "game_name_it": "Animo di tutti",
+          "game_description_it": "Trasforma la Sfera Genkidama, l'Attacco Supremo di Goku, in \nuna Super Sfera Genkidama.",
+          "property_flag_indices_hex": "A5"
+        },
+        {
+          "item_index_hex": "0F0",
+          "item_index_decimal": "240",
+          "name_text_id": "240",
+          "description_text_id": "490",
+          "game_name_it": "Potenza Attacco Supremo \u2191 Max",
+          "game_description_it": "Aumenta la potenza del tuo Attacco Supremo fino ai massimi livelli.",
+          "property_flag_indices_hex": "9D"
+        },
+        {
+          "item_index_hex": "03E",
+          "item_index_decimal": "62",
+          "name_text_id": "62",
+          "description_text_id": "312",
+          "game_name_it": "Tempo extra Alta Tensione L",
+          "game_description_it": "Prolunga la durata della modalit\u00e0 Alta Tensione.",
+          "property_flag_indices_hex": "63"
+        },
+        {
+          "item_index_hex": "0B4",
+          "item_index_decimal": "180",
+          "name_text_id": "180",
+          "description_text_id": "430",
+          "game_name_it": "Tipo Tenshinhan",
+          "game_description_it": "Cerca di utilizzare Scatti letali e Attacchi Supremi capaci di\nuccidere con un colpo solo (solo CPU).",
+          "property_flag_indices_hex": "125"
+        }
+      ]
+    },
+    {
+      "key": "vegeta_ssj2",
+      "preset": 1061,
+      "strength": 780,
+      "native": 20,
+      "costume_index": 1,
+      "level_word_before_item_effects": 10,
+      "AI_type_word": "FFFFFFFF",
+      "links": [
+        "0x426",
+        "0xffffffff",
+        "0xffffffff",
+        "0xffffffff"
+      ],
+      "items": [
+        {
+          "item_index_hex": "0AD",
+          "item_index_decimal": "173",
+          "name_text_id": "173",
+          "description_text_id": "423",
+          "game_name_it": "Computer max",
+          "game_description_it": "Applica su un avversario gestito dal computer per renderlo molto pi\u00f9\nforte (solo CPU).",
+          "property_flag_indices_hex": "11E"
+        },
+        {
+          "item_index_hex": "04F",
+          "item_index_decimal": "79",
+          "name_text_id": "79",
+          "description_text_id": "329",
+          "game_name_it": "Difesa \u2191 L",
+          "game_description_it": "Aumenta notevolmente la Difesa.",
+          "property_flag_indices_hex": "6C"
+        },
+        {
+          "item_index_hex": "04E",
+          "item_index_decimal": "78",
+          "name_text_id": "78",
+          "description_text_id": "328",
+          "game_name_it": "Difesa \u2191 M",
+          "game_description_it": "Aumenta la Difesa.",
+          "property_flag_indices_hex": "6B"
+        },
+        {
+          "item_index_hex": "04D",
+          "item_index_decimal": "77",
+          "name_text_id": "77",
+          "description_text_id": "327",
+          "game_name_it": "Difesa \u2191 S",
+          "game_description_it": "Aumenta leggermente la Difesa.",
+          "property_flag_indices_hex": "6A"
+        },
+        {
+          "item_index_hex": "13C",
+          "item_index_decimal": "316",
+          "name_text_id": "579",
+          "description_text_id": "693",
+          "game_name_it": "Inizio Animo Furioso",
+          "game_description_it": "Inizia la battaglia in modalit\u00e0 Animo Furioso. Ignora il numero di\nvolte in cui attivi Animo Furioso.",
+          "property_flag_indices_hex": "B2"
+        },
+        {
+          "item_index_hex": "15B",
+          "item_index_decimal": "347",
+          "name_text_id": "610",
+          "description_text_id": "724",
+          "game_name_it": "Annulla Trasformazione quando rimangono 2 indicatori di salute",
+          "game_description_it": "Annulla automaticamente la Trasformazione quando rimangono 2\nindicatori di salute.",
+          "property_flag_indices_hex": "179"
+        }
+      ]
+    },
+    {
+      "key": "vegeta_base",
+      "preset": 1062,
+      "strength": 781,
+      "native": 17,
+      "costume_index": 1,
+      "level_word_before_item_effects": 10,
+      "AI_type_word": "FFFFFFFF",
+      "links": [
+        "0xffffffff",
+        "0xffffffff",
+        "0xffffffff",
+        "0xffffffff"
+      ],
+      "items": [
+        {
+          "item_index_hex": "0AD",
+          "item_index_decimal": "173",
+          "name_text_id": "173",
+          "description_text_id": "423",
+          "game_name_it": "Computer max",
+          "game_description_it": "Applica su un avversario gestito dal computer per renderlo molto pi\u00f9\nforte (solo CPU).",
+          "property_flag_indices_hex": "11E"
+        },
+        {
+          "item_index_hex": "04F",
+          "item_index_decimal": "79",
+          "name_text_id": "79",
+          "description_text_id": "329",
+          "game_name_it": "Difesa \u2191 L",
+          "game_description_it": "Aumenta notevolmente la Difesa.",
+          "property_flag_indices_hex": "6C"
+        },
+        {
+          "item_index_hex": "15D",
+          "item_index_decimal": "349",
+          "name_text_id": "612",
+          "description_text_id": "726",
+          "game_name_it": "Cambio quando rimane 1 indicatore di salute",
+          "game_description_it": "Effettua automaticamente il Cambio quando rimane 1 indicatore di\nsalute.",
+          "property_flag_indices_hex": "D3"
+        }
+      ]
+    },
+    {
+      "key": "fat_buu",
+      "preset": 1063,
+      "strength": 782,
+      "native": 62,
+      "costume_index": 0,
+      "level_word_before_item_effects": 10,
+      "AI_type_word": "FFFFFFFF",
+      "links": [
+        "0xffffffff",
+        "0xffffffff",
+        "0xffffffff",
+        "0xffffffff"
+      ],
+      "items": [
+        {
+          "item_index_hex": "0AD",
+          "item_index_decimal": "173",
+          "name_text_id": "173",
+          "description_text_id": "423",
+          "game_name_it": "Computer max",
+          "game_description_it": "Applica su un avversario gestito dal computer per renderlo molto pi\u00f9\nforte (solo CPU).",
+          "property_flag_indices_hex": "11E"
+        },
+        {
+          "item_index_hex": "04F",
+          "item_index_decimal": "79",
+          "name_text_id": "79",
+          "description_text_id": "329",
+          "game_name_it": "Difesa \u2191 L",
+          "game_description_it": "Aumenta notevolmente la Difesa.",
+          "property_flag_indices_hex": "6C"
+        },
+        {
+          "item_index_hex": "04E",
+          "item_index_decimal": "78",
+          "name_text_id": "78",
+          "description_text_id": "328",
+          "game_name_it": "Difesa \u2191 M",
+          "game_description_it": "Aumenta la Difesa.",
+          "property_flag_indices_hex": "6B"
+        }
+      ]
+    }
+  ],
+  "EBOOT_modified": false,
+  "root_before_hex": "4280000041880000000900040009000400020026000000010001000000000000000003130000000000000315000003160000000000000000000003170000000000000000000003180000000000000000000000000000000000000001",
+  "root_after_hex": "428000004188000000080004000e000200000000000000000001000000000000000003130000000000000315000003160000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+  "root_field_policy": "Simple template except coordinates, prerequisites+20, enemy-group+28, rewards+2C; arena8 and difficulty4",
+  "boot_sha256": "4134cd60bea322fb47620af1fded901f12f98d6188e122dbeb0bacfbfe873d65",
+  "galaxy_sha256": "f7057b124e730e6345565405d1d2f93234d65b8818791c0cc11522c23e598c54",
+  "baseline_boot_sha256": "52f800e7df95ac2f0cb09c34b3848da1d805a837cb27e51f39f1fbcea73e631c",
+  "baseline_galaxy_sha256": "d1fe4aa4a2d482bbe5becef8a53b23ad2d701eb78404caa935797c5cdaebd1aa",
+  "catalog_sha256": "1df442622aa607527c7768155a6ff2d0b4ab1041732b2c07c9186b96f8ed5295",
+  "afs": {
+    "before_sha256": "52f800e7df95ac2f0cb09c34b3848da1d805a837cb27e51f39f1fbcea73e631c",
+    "after_sha256": "4134cd60bea322fb47620af1fded901f12f98d6188e122dbeb0bacfbfe873d65",
+    "member_index": 22,
+    "old_size": 937205,
+    "new_size": 937248,
+    "slot_capacity": 937984,
+    "status": "Packaging check; gameplay observations are listed in runtime_validation",
+    "placement": "original_slot",
+    "verification": "Other 40 members and their offsets unchanged"
+  },
+  "limits": "Normal CPU teammate selection retained; newly added Vegeta base15D verified in archive without an additional gameplay test. Controlled HP/aura probes establish Goku form routes; KO-entry buffs require actual preceding KO.",
+  "runtime_validation": {
+    "goku_ssj2_to_ssj3": {
+      "HP_probe": 29000,
+      "aura_before": 50,
+      "aura_after": 20,
+      "native_slot": 1,
+      "destination_preset": 1059,
+      "observed": true
+    },
+    "goku_ssj3_to_base": {
+      "HP_probe": 19000,
+      "native_slot": 0,
+      "destination_preset": 1060,
+      "observed": true
+    },
+    "goku_base_switch": {
+      "HP_probe": 9000,
+      "observed": true,
+      "chosen_party_slot": 2,
+      "chosen_character": "Fat Buu",
+      "partner_order_not_guaranteed": true
+    },
+    "vegeta_base_switch_item_added": "15D; archive verified, no additional gameplay test after this addition",
+    "session_note": "Controlled HP/aura probes. Session started KB15A, then one guarded resident link write; all three complete runtime tables compared byte-for-byte with KB15B. Not a cold boot of KB15B."
+  },
+  "executable_modified": false,
+  "delivery_note": "No EBOOT or executable patch included. CPU chooses switch target."
+}

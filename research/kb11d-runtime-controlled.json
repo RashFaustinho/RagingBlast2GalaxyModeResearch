@@ -1,0 +1,44 @@
+{
+  "experiment": "KB11D_RAM",
+  "status": "ITEM15B_PLUS_NO_TRANSFORMATIONS_GOKU_BASE_OBSERVED",
+  "baseline": "KB11C_RAM; add169 in strength778.slot1; retire and reload mission",
+  "archives_modified": false,
+  "gear": [
+    "15B",
+    "169"
+  ],
+  "properties": [
+    "179",
+    "176"
+  ],
+  "observations": [
+    {
+      "utc": "2026-10-14T19:09:38Z",
+      "native": 3,
+      "preset": 1059,
+      "HP": 40000,
+      "properties_word_actor_70": "02400000",
+      "gear_bitmaps_actor_9c": "08000000",
+      "gear_bitmaps_actor_a0": "00000200"
+    },
+    {
+      "utc": "2026-10-14T19:10:09Z",
+      "PC": "0x3A7C0",
+      "HP": 19000,
+      "r4_selector": 0,
+      "LR": "0x88174"
+    },
+    {
+      "utc": "2026-10-14T19:11:12Z",
+      "native": 0,
+      "preset": 1060,
+      "previous_preset": 1059,
+      "HP": 19000,
+      "gear": [
+        "079"
+      ]
+    }
+  ],
+  "limits": "HP probe applied before damage had occurred in the newly loaded battle (aura0/playerHP40000); no threshold timing conclusion. No Transformations bit loaded, ordinary filtered AI arrays not yet directly read.",
+  "evidence": "kb11d-rsp-evidence.jsonl"
+}
