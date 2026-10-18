@@ -1,0 +1,52 @@
+name: Build verified release assets
+on:
+  workflow_dispatch:
+    inputs:
+      release_tag:
+        description: Existing Galaxy Studio release tag
+        required: true
+        default: v1.0.0
+        type: string
+permissions:
+  contents: write
+jobs:
+  upload:
+    runs-on: ubuntu-latest
+    env:
+      RELEASE_TAG: ${{ inputs.release_tag }}
+      GH_TOKEN: ${{ github.token }}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Build and compare with the tested portable file manifest
+        run: |
+          python - <<'PY'
+          import hashlib, json, os, subprocess
+          from pathlib import Path
+          from zipfile import ZipFile
+          if os.environ['RELEASE_TAG'] != 'v1.0.0':
+              raise SystemExit('This manifest certifies only v1.0.0. Prepare a new verified manifest for another release.')
+          output = Path('dist/RB2-Galaxy-Studio-1.0-Windows-Portable.zip')
+          subprocess.run(['python', 'tools/package_galaxy_studio.py', '--version', '1.0', '--output', str(output)], check=True)
+          with ZipFile(output) as archive:
+              manifest = archive.read('RB2-Galaxy-Studio-1.0/FILES.sha256')
+          expected = Path('.github/release-files-1.0.sha256').read_bytes()
+          if manifest != expected:
+              raise SystemExit('Packaged contents differ from the locally tested application. Do not upload.')
+          report = json.loads(Path('editor/verification/RELEASE_VALIDATION.json').read_text())
+          report['archive'] = {
+              'file': output.name,
+              'bytes': output.stat().st_size,
+              'sha256': hashlib.sha256(output.read_bytes()).hexdigest(),
+              'manifest_sha256': hashlib.sha256(manifest).hexdigest(),
+              'tested_portable_file_contents_match': True,
+              'note': 'Git checkout timestamps/permissions can change ZIP bytes. Every packaged file matches the tested portable manifest.',
+          }
+          report['build_commit'] = os.environ['GITHUB_SHA']
+          report['workflow_run'] = os.environ['GITHUB_SERVER_URL'] + '/' + os.environ['GITHUB_REPOSITORY'] + '/actions/runs/' + os.environ['GITHUB_RUN_ID']
+          Path('dist/RB2-Galaxy-Studio-1.0-RELEASE-VALIDATION.json').write_text(json.dumps(report, indent=2) + '\n')
+          PY
+      - name: Upload verified package, checksum and validation to the existing release
+        run: gh release upload "$RELEASE_TAG" dist/* --repo "$GITHUB_REPOSITORY" --clobber
