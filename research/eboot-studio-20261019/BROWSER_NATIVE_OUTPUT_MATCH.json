@@ -1,0 +1,7 @@
+{
+  "result": "PASS",
+  "browserExportEqualsNativeTestedBIN": true,
+  "binSHA256": "cc2a01ae8bfda1a1e229bd4b848005d78357f69b5b4131aac09d11af0c0eab34",
+  "source": "Actual browser bundle Game/PS3_GAME/USRDIR/EBOOT.BIN vs RPCS3-booted Studio-control.BIN",
+  "scope": "Byte identity binds browser output to the native valid-save-load control; does not add new gameplay coverage."
+}

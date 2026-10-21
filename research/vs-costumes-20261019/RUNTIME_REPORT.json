@@ -1,0 +1,298 @@
+{
+  "date": "2026-10-19",
+  "region": "BLES00978",
+  "revision": "European v1 (user confirmed)",
+  "sourceELFSHA256": "8e2b454ca5959476a5869d0ab9e652123a019d72791f61ab37f7dd9936b2b892",
+  "patchedELFSHA256": "19acb60c9f8b545f616deefba7f4529284759bbf0f4b28b3a0069484b191b08b",
+  "exportedBIN_SHA256": "e500f6434cbb9455f5bcf89eec95b2a4b515bc1d91ebc9e43539726f94947f82",
+  "outputFormat": "RPCS3 debug SELF",
+  "scope": "Normal-input ordinary VS menu, battle initialization and live combat, not a completed match or all26-form visual/transform/fusion certification",
+  "originalMenu": {
+    "input": "Goku costume1: Down to costume then one Left",
+    "visibleCostume": 7,
+    "DLCBitSet": false,
+    "GokuUnlockWord": "018ffeff"
+  },
+  "patchedMenu": {
+    "GokuVisibleCostume": 8,
+    "VegetaVisibleCostume": 3,
+    "customization": "Normal",
+    "DLCBitSet": false,
+    "GokuUnlockWord": "018ffeff",
+    "countInstruction": "8069002c",
+    "cycleHook": "48e8b868",
+    "helperSHA256": "68e1e4628a7e74c00b0c2644838f47f44f9e4a38d18c646e9dd7bbb69f980d5e"
+  },
+  "battleInitialization": {
+    "actors": [
+      {
+        "side": 0,
+        "address": "0x3aa88ae4",
+        "native": 0,
+        "costume": 7,
+        "preset": 4294967295,
+        "maxHP": 40000,
+        "HP": 40000,
+        "flags": 1
+      },
+      {
+        "side": 1,
+        "address": "0x3aa94340",
+        "native": 17,
+        "costume": 2,
+        "preset": 4294967295,
+        "maxHP": 40000,
+        "HP": 40000,
+        "flags": 1
+      }
+    ],
+    "costumeUnlockWords": {
+      "0": "018ffeff",
+      "17": "0180fe07"
+    },
+    "noGuestWrites": true
+  },
+  "activeBattleBeforeInput": [
+    {
+      "side": 0,
+      "address": "0x3aa88ae4",
+      "native": 0,
+      "costume": 7,
+      "preset": 4294967295,
+      "HP": 40000,
+      "flags": 1
+    },
+    {
+      "side": 1,
+      "address": "0x3aa94340",
+      "native": 17,
+      "costume": 2,
+      "preset": 4294967295,
+      "HP": 40000,
+      "flags": 1
+    }
+  ],
+  "activeBattleAfterNormalInput": [
+    {
+      "side": 0,
+      "native": 0,
+      "costume": 7,
+      "preset": 4294967295,
+      "HP": 39232,
+      "flags": 1
+    },
+    {
+      "side": 1,
+      "native": 17,
+      "costume": 2,
+      "preset": 4294967295,
+      "HP": 40000,
+      "flags": 1
+    }
+  ],
+  "combatInput": "Bounded forward/Square normal input; no HP/aura/native/preset/costume/code/register injection",
+  "all26UnlockWordsAfterCombat": [
+    {
+      "native": 0,
+      "before": "018ffeff",
+      "after": "018ffeff",
+      "unchanged": true
+    },
+    {
+      "native": 1,
+      "before": "0181feff",
+      "after": "0181feff",
+      "unchanged": true
+    },
+    {
+      "native": 2,
+      "before": "0181feff",
+      "after": "0181feff",
+      "unchanged": true
+    },
+    {
+      "native": 3,
+      "before": "0181feff",
+      "after": "0181feff",
+      "unchanged": true
+    },
+    {
+      "native": 5,
+      "before": "01807607",
+      "after": "01807607",
+      "unchanged": true
+    },
+    {
+      "native": 6,
+      "before": "01807e07",
+      "after": "01807e07",
+      "unchanged": true
+    },
+    {
+      "native": 7,
+      "before": "0181fe07",
+      "after": "0181fe07",
+      "unchanged": true
+    },
+    {
+      "native": 11,
+      "before": "0181fe07",
+      "after": "0181fe07",
+      "unchanged": true
+    },
+    {
+      "native": 12,
+      "before": "0180ee0f",
+      "after": "0180ee0f",
+      "unchanged": true
+    },
+    {
+      "native": 13,
+      "before": "0180fa07",
+      "after": "0180fa07",
+      "unchanged": true
+    },
+    {
+      "native": 17,
+      "before": "0180fe07",
+      "after": "0180fe07",
+      "unchanged": true
+    },
+    {
+      "native": 18,
+      "before": "0181fe07",
+      "after": "0181fe07",
+      "unchanged": true
+    },
+    {
+      "native": 19,
+      "before": "0180fe07",
+      "after": "0180fe07",
+      "unchanged": true
+    },
+    {
+      "native": 20,
+      "before": "0180fe07",
+      "after": "0180fe07",
+      "unchanged": true
+    },
+    {
+      "native": 22,
+      "before": "0180fe07",
+      "after": "0180fe07",
+      "unchanged": true
+    },
+    {
+      "native": 23,
+      "before": "0180fe07",
+      "after": "0180fe07",
+      "unchanged": true
+    },
+    {
+      "native": 34,
+      "before": "01807e07",
+      "after": "01807e07",
+      "unchanged": true
+    },
+    {
+      "native": 35,
+      "before": "0181fe07",
+      "after": "0181fe07",
+      "unchanged": true
+    },
+    {
+      "native": 37,
+      "before": "0180fe07",
+      "after": "0180fe07",
+      "unchanged": true
+    },
+    {
+      "native": 54,
+      "before": "01807e07",
+      "after": "01807e07",
+      "unchanged": true
+    },
+    {
+      "native": 55,
+      "before": "01807e0f",
+      "after": "01807e0f",
+      "unchanged": true
+    },
+    {
+      "native": 67,
+      "before": "01807e07",
+      "after": "01807e07",
+      "unchanged": true
+    },
+    {
+      "native": 68,
+      "before": "01807e07",
+      "after": "01807e07",
+      "unchanged": true
+    },
+    {
+      "native": 69,
+      "before": "0181be07",
+      "after": "0181be07",
+      "unchanged": true
+    },
+    {
+      "native": 70,
+      "before": "0181de07",
+      "after": "0181de07",
+      "unchanged": true
+    },
+    {
+      "native": 78,
+      "before": "0180fe07",
+      "after": "0180fe07",
+      "unchanged": true
+    }
+  ],
+  "validSaveLoad": {
+    "bytes": 55000,
+    "RAM_SHA256": "07b9b7a06b08bc77d271b8f84c3be8fe3b2fa9f22d4e1cfd34c8099b682c8113",
+    "diskSHA256": "07b9b7a06b08bc77d271b8f84c3be8fe3b2fa9f22d4e1cfd34c8099b682c8113",
+    "allBytesEqual": true
+  },
+  "debugAudit": {
+    "fromUTC": "2026-10-19T17:54:00",
+    "throughUTC": "2026-10-19T18:24:48.124930+00:00",
+    "events": 168,
+    "guestMemoryOrRegisterWrites": 0
+  },
+  "browserNativeMatch": {
+    "browserResult": "PASS",
+    "browserOutput": {
+      "container": "RPCS3 debug SELF",
+      "sha256": "e500f6434cbb9455f5bcf89eec95b2a4b515bc1d91ebc9e43539726f94947f82",
+      "elfSHA256": "19acb60c9f8b545f616deefba7f4529284759bbf0f4b28b3a0069484b191b08b",
+      "layout": "stock"
+    },
+    "sameBINBytes": true,
+    "noSaveInStandaloneZIP": true
+  },
+  "screenshots": [
+    {
+      "name": "original-goku-wrap.png",
+      "sha256": "81d08c448a8041729be01e9bbad8f4debf9d174a48016a85dc1caa89aa0503d8",
+      "included": false
+    },
+    {
+      "name": "patched-goku-wrap.png",
+      "sha256": "1985662ae17d8febbb60ef927a94d35d5bf6cf7f9890239ff3d5161de6c55e34",
+      "included": false
+    },
+    {
+      "name": "patched-vegeta-wrap.png",
+      "sha256": "d60df31d0b204b7825e1b88eac32cd06afb924932351654f6f30b3c57614efdf",
+      "included": false
+    }
+  ],
+  "limits": [
+    "Cloud software renderer shows the established black character-material problem; costume textures are not visually certified.",
+    "No all26 native-form gameplay matrix, transformation/fusion, new-game, online, EUv2, USA/Japan runtime or physical-console certification.",
+    "No native save-write/cold-reload cycle for costume memory is claimed; this patch does not write unlock flags or change the save layout.",
+    "Historical heap addresses are observations, not reusable pointers."
+  ]
+}

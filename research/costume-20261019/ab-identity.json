@@ -1,0 +1,12 @@
+{
+  "equalLength": true,
+  "changedByteOffsets": [
+    "0x1dd893"
+  ],
+  "changedInstructionOffset": "0x1dd890",
+  "originalSHA256": "8e2b454ca5959476a5869d0ab9e652123a019d72791f61ab37f7dd9936b2b892",
+  "patchedSHA256": "0bea38dfba3f003959b1a8c30b9e03c0784ad7f3c4450884a485f73319e1838e",
+  "inputSaveResetBetweenRuns": true,
+  "archiveLinks": "Original unmodified sources for both runs",
+  "debuggerGuestMemoryWrites": false
+}

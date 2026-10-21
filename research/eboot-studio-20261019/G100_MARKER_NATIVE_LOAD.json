@@ -1,0 +1,10 @@
+{
+  "result": "PASS",
+  "scope": "Fresh RPCS3 process using exact G100 research ELF and matching archives; complete110000-byte loaded buffer equals the earlier engine-written save with only the adapter marker/checksum added. No savestate or guest writes.",
+  "elfSHA256": "e7dbeb99982677b56b5bde5517625d130250ee63aa16edd8df7ca0c4751d1b63",
+  "length": 110000,
+  "loadedSHA256": "390d6912c1210e63f8366e4d50547436f2f3f849fb1f93157dc45a56036fa9c1",
+  "entireBufferMatchesInput": true,
+  "markerRetained": "RB2GS_SAVE1",
+  "limitations": "Marker load verification, not a new win/native rewrite/full campaign test; G100 remains a research-only patch."
+}

@@ -1,0 +1,126 @@
+{
+  "status": "BUILT_NOT_RUNTIME_VALIDATED",
+  "mmdLengthUnchanged": true,
+  "innerSTPKGeometryUnchanged": true,
+  "outerSTPKGeometryUnchanged": true,
+  "member": "zone_green_square.mmd",
+  "music": [
+    0,
+    6,
+    56,
+    56
+  ],
+  "root1Kind": 9,
+  "linksUnchanged": true,
+  "scope": "Existing root1 becomes secret; original root0 still links only to1. Override Normal0 predicate Always should admit this route; no count/grid/descriptor growth.",
+  "copies": [
+    {
+      "entry": 8,
+      "originalSize": 76362,
+      "newSize": 76362,
+      "outerGeometryIdentical": true
+    },
+    {
+      "entry": 22,
+      "originalSize": 76713,
+      "newSize": 76713,
+      "outerGeometryIdentical": true
+    },
+    {
+      "entry": 36,
+      "originalSize": 76504,
+      "newSize": 76504,
+      "outerGeometryIdentical": true
+    },
+    {
+      "entry": 50,
+      "originalSize": 76728,
+      "newSize": 76728,
+      "outerGeometryIdentical": true
+    },
+    {
+      "entry": 64,
+      "originalSize": 76381,
+      "newSize": 76381,
+      "outerGeometryIdentical": true
+    },
+    {
+      "entry": 78,
+      "originalSize": 76709,
+      "newSize": 76709,
+      "outerGeometryIdentical": true
+    },
+    {
+      "entry": 92,
+      "originalSize": 76169,
+      "newSize": 76169,
+      "outerGeometryIdentical": true
+    },
+    {
+      "entry": 106,
+      "originalSize": 76194,
+      "newSize": 76194,
+      "outerGeometryIdentical": true
+    },
+    {
+      "entry": 120,
+      "originalSize": 76879,
+      "newSize": 76879,
+      "outerGeometryIdentical": true
+    },
+    {
+      "entry": 134,
+      "originalSize": 76831,
+      "newSize": 76831,
+      "outerGeometryIdentical": true
+    },
+    {
+      "entry": 148,
+      "originalSize": 76647,
+      "newSize": 76647,
+      "outerGeometryIdentical": true
+    },
+    {
+      "entry": 162,
+      "originalSize": 76140,
+      "newSize": 76140,
+      "outerGeometryIdentical": true
+    },
+    {
+      "entry": 176,
+      "originalSize": 76561,
+      "newSize": 76561,
+      "outerGeometryIdentical": true
+    },
+    {
+      "entry": 190,
+      "originalSize": 76868,
+      "newSize": 76868,
+      "outerGeometryIdentical": true
+    },
+    {
+      "entry": 204,
+      "originalSize": 76497,
+      "newSize": 76497,
+      "outerGeometryIdentical": true
+    },
+    {
+      "entry": 218,
+      "originalSize": 76417,
+      "newSize": 76417,
+      "outerGeometryIdentical": true
+    },
+    {
+      "entry": 232,
+      "originalSize": 507349,
+      "newSize": 507349,
+      "outerGeometryIdentical": true
+    },
+    {
+      "entry": 234,
+      "originalSize": 507335,
+      "newSize": 507335,
+      "outerGeometryIdentical": true
+    }
+  ]
+}

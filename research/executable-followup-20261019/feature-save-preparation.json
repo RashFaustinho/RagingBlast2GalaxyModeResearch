@@ -1,0 +1,23 @@
+{
+  "status": "PREPARED_NOT_DEPLOYED",
+  "baseNativeSaveSHA256": "37c2b2b86598f74c21298946155fd212a86d7a6ef8310be61151a1e441837496",
+  "inputSHA256": "b44628f2a3ac18dd878c470999293fb5256101a204e7fa1b52847819f9a699e5",
+  "selectedNative": 3,
+  "selectedRoot": 500,
+  "selectedWorldIndex": 68,
+  "downloadFlagsInitially": [],
+  "enhancedGroupFlagsInitially": [],
+  "preservedRoot531": [
+    4097,
+    1,
+    339000,
+    0,
+    0,
+    0,
+    0
+  ],
+  "paddingAtEnhancedBankBefore": "00000003",
+  "paddingAtEnhancedBankPrepared": "00000000",
+  "ordinaryNativeUnlockRecordsUnchanged": true,
+  "scope": "Clear only two identified availability namespaces; preserve normal progress/resources and unknown bits. Normal valid checksum retained."
+}

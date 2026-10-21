@@ -1,0 +1,14 @@
+{
+  "status": "FAILED_BEFORE_MODIFIED_FIGHT",
+  "elfSHA256": "6dcb6f4d1376836d7c61dca3e578836d49ee6465feafecc6d361bd94beb0767e",
+  "archive": "Geometry-preserving18Zone pack replacements plus G100 entry872",
+  "MMDChangedBytes": 3,
+  "unchangedRecompressionByteIdenticalForCheckedEntries": [
+    8,
+    36,
+    232
+  ],
+  "failure": "video-thread null read reportedPC4F6ED0",
+  "scope": "First stock-pack control only held the selection menu; its Left-navigation path has not yet been tested. Therefore archive vs executable cause is NOT isolated.",
+  "normalZone0Policy": "Stock kind0; this local default-table image differs from published f8 only at helper table byte0x1000900"
+}

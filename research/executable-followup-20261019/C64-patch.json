@@ -1,0 +1,186 @@
+{
+  "status": "STATIC_CANDIDATE_NOT_RUNTIME_VALIDATED",
+  "baseSHA256": "9f24ca8d05758e112d0a649a09da7519df45a06de947e2855bdfa615bf59d028",
+  "patchedSHA256": "56614bcb7f4f927feb4efdb7e5c212b2838dbb9e44e86b343b625333ed2b1071",
+  "patches": [
+    {
+      "address": 2028944,
+      "old": "386001e8",
+      "new": "386002f0",
+      "reason": "circle manager allocation with appended category2 pointers"
+    },
+    {
+      "address": 2046024,
+      "old": "38a001e4",
+      "new": "38a002ec",
+      "reason": "circle manager constructor clear"
+    },
+    {
+      "address": 2046104,
+      "old": "38a001e4",
+      "new": "38a002ec",
+      "reason": "circle manager constructor clear"
+    },
+    {
+      "address": 2043464,
+      "old": "937d0038",
+      "new": "937d01e8",
+      "reason": "relocated category2 pointer array"
+    },
+    {
+      "address": 2043476,
+      "old": "807d0038",
+      "new": "807d01e8",
+      "reason": "relocated category2 pointer array"
+    },
+    {
+      "address": 2042336,
+      "old": "3bfe0038",
+      "new": "3bfe01e8",
+      "reason": "relocated category2 pointer array"
+    },
+    {
+      "address": 2044752,
+      "old": "3bf60038",
+      "new": "3bf601e8",
+      "reason": "relocated category2 pointer array"
+    },
+    {
+      "address": 2043492,
+      "old": "2f9f000c",
+      "new": "2f9f00fc",
+      "reason": "create64 category2 circles"
+    },
+    {
+      "address": 2042404,
+      "old": "2f9d0003",
+      "new": "2f9d003f",
+      "reason": "destroy64 category2 circles"
+    },
+    {
+      "address": 2043176,
+      "old": "38800027",
+      "new": "38800063",
+      "reason": "renderer instance allocation39 ->99"
+    },
+    {
+      "address": 2044980,
+      "old": "38800016",
+      "new": "38800052",
+      "reason": "shift renderer range/index after expanded category2"
+    },
+    {
+      "address": 2045008,
+      "old": "38800016",
+      "new": "38800052",
+      "reason": "shift renderer range/index after expanded category2"
+    },
+    {
+      "address": 2045016,
+      "old": "3be00017",
+      "new": "3be00053",
+      "reason": "shift renderer range/index after expanded category2"
+    },
+    {
+      "address": 2045036,
+      "old": "38800016",
+      "new": "38800052",
+      "reason": "shift renderer range/index after expanded category2"
+    },
+    {
+      "address": 2045064,
+      "old": "38800016",
+      "new": "38800052",
+      "reason": "shift renderer range/index after expanded category2"
+    },
+    {
+      "address": 2045080,
+      "old": "38800016",
+      "new": "38800052",
+      "reason": "shift renderer range/index after expanded category2"
+    },
+    {
+      "address": 2044888,
+      "old": "2f9c0010",
+      "new": "2f9c004c",
+      "reason": "shift renderer range/index after expanded category2"
+    },
+    {
+      "address": 2044964,
+      "old": "2f9c0015",
+      "new": "2f9c0051",
+      "reason": "shift renderer range/index after expanded category2"
+    },
+    {
+      "address": 2045240,
+      "old": "2f9f0019",
+      "new": "2f9f0055",
+      "reason": "shift renderer range/index after expanded category2"
+    },
+    {
+      "address": 2045388,
+      "old": "2f9f001c",
+      "new": "2f9f0058",
+      "reason": "shift renderer range/index after expanded category2"
+    },
+    {
+      "address": 2045464,
+      "old": "2f9f0024",
+      "new": "2f9f0060",
+      "reason": "shift renderer range/index after expanded category2"
+    },
+    {
+      "address": 2045480,
+      "old": "38800025",
+      "new": "38800061",
+      "reason": "shift renderer range/index after expanded category2"
+    },
+    {
+      "address": 2045504,
+      "old": "38800025",
+      "new": "38800061",
+      "reason": "shift renderer range/index after expanded category2"
+    },
+    {
+      "address": 2045528,
+      "old": "38800025",
+      "new": "38800061",
+      "reason": "shift renderer range/index after expanded category2"
+    },
+    {
+      "address": 2045556,
+      "old": "38800025",
+      "new": "38800061",
+      "reason": "shift renderer range/index after expanded category2"
+    },
+    {
+      "address": 2045572,
+      "old": "38800025",
+      "new": "38800061",
+      "reason": "shift renderer range/index after expanded category2"
+    },
+    {
+      "address": 2045612,
+      "old": "38800026",
+      "new": "38800062",
+      "reason": "shift renderer range/index after expanded category2"
+    },
+    {
+      "address": 2045628,
+      "old": "38800026",
+      "new": "38800062",
+      "reason": "shift renderer range/index after expanded category2"
+    },
+    {
+      "address": 2045656,
+      "old": "38000027",
+      "new": "38000063",
+      "reason": "shift renderer range/index after expanded category2"
+    }
+  ],
+  "capacity": 64,
+  "rendererInstances": 99,
+  "limits": "Only category2 circle pool expanded; other category budgets unchanged. D2 map64 and stack fixes required.",
+  "original_sha256": "9f24ca8d05758e112d0a649a09da7519df45a06de947e2855bdfa615bf59d028",
+  "patched_sha256": "56614bcb7f4f927feb4efdb7e5c212b2838dbb9e44e86b343b625333ed2b1071"
+}

@@ -1,0 +1,14 @@
+{
+  "originalLength": 1334114304,
+  "modifiedLength": 1334116352,
+  "insertedBytes": 2048,
+  "entry": 872,
+  "oldOffset": 726767616,
+  "newOffset": 726767616,
+  "oldSize": 319963,
+  "newSize": 321897,
+  "allOtherEntryBodiesByteIdentical": true,
+  "monotonicOffsets": true,
+  "filenameTableBefore": 1334007808,
+  "filenameTableAfter": 1334009856
+}

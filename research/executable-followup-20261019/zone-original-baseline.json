@@ -1,0 +1,80 @@
+{
+  "elfSHA256": "8e2b454ca5959476a5869d0ab9e652123a019d72791f61ab37f7dd9936b2b892",
+  "progressAFSSHA256": "4319445d30b8fb064f19b345881090e528674e311f153d593bf144ef0e4caf98",
+  "entireAFSMatchesOriginal": true,
+  "saveSHA256": "1b7afb290b309511ca359f420a959dd541bddd79bebaeb508383b3eef556cf33",
+  "saveLength": 55000,
+  "renderer": "Same Vulkan/lavapipe50% profile",
+  "status": "ORIGINAL_ZONE_MENU_MAP_AND_INITIALIZED_BATTLE_REACHED",
+  "stateAddress": "0x3a8289f0",
+  "mode": 0,
+  "zone": 0,
+  "root": 0,
+  "noDebuggerWrites": true,
+  "battle": {
+    "config": "0x3a829420",
+    "owner": 0,
+    "node": 0,
+    "objective": 0,
+    "taskCount": 0,
+    "firstTask": [
+      0,
+      0
+    ],
+    "actors": [
+      {
+        "side": 0,
+        "address": "0x3aa88b64",
+        "native": 0,
+        "preset": 4294967295,
+        "maxHP": 40000,
+        "HP": 40000,
+        "flags": 1
+      },
+      {
+        "side": 1,
+        "address": "0x3aa943c0",
+        "native": 74,
+        "preset": 0,
+        "maxHP": 40000,
+        "HP": 40000,
+        "flags": 65
+      }
+    ],
+    "saveBase": "0x30000020",
+    "globalNativeFlags": "0000004200000003"
+  },
+  "laterBattle": {
+    "config": "0x3a829420",
+    "owner": 0,
+    "node": 0,
+    "objective": 0,
+    "taskCount": 0,
+    "firstTask": [
+      0,
+      0
+    ],
+    "actors": [
+      {
+        "side": 0,
+        "address": "0x3aa88b64",
+        "native": 0,
+        "preset": 4294967295,
+        "maxHP": 40000,
+        "HP": 40000,
+        "flags": 1
+      },
+      {
+        "side": 1,
+        "address": "0x3aa943c0",
+        "native": 74,
+        "preset": 0,
+        "maxHP": 40000,
+        "HP": 40000,
+        "flags": 65
+      }
+    ],
+    "saveBase": "0x30000020",
+    "globalNativeFlags": "0000004200000003"
+  }
+}

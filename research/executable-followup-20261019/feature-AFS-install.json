@@ -1,0 +1,142 @@
+{
+  "originalLength": 1334114304,
+  "modifiedLength": 1334116352,
+  "replacements": [
+    {
+      "index": 872,
+      "oldOffset": 726767616,
+      "newSize": 321897,
+      "insertedBytes": 2048,
+      "preservedOpaquePadding": false
+    },
+    {
+      "index": 234,
+      "oldOffset": 386160640,
+      "newSize": 507326,
+      "insertedBytes": 0,
+      "preservedOpaquePadding": false
+    },
+    {
+      "index": 232,
+      "oldOffset": 383422464,
+      "newSize": 507381,
+      "insertedBytes": 0,
+      "preservedOpaquePadding": false
+    },
+    {
+      "index": 218,
+      "oldOffset": 359444480,
+      "newSize": 76449,
+      "insertedBytes": 0,
+      "preservedOpaquePadding": false
+    },
+    {
+      "index": 204,
+      "oldOffset": 335489024,
+      "newSize": 76517,
+      "insertedBytes": 0,
+      "preservedOpaquePadding": false
+    },
+    {
+      "index": 190,
+      "oldOffset": 311531520,
+      "newSize": 76896,
+      "insertedBytes": 0,
+      "preservedOpaquePadding": false
+    },
+    {
+      "index": 176,
+      "oldOffset": 287567872,
+      "newSize": 76585,
+      "insertedBytes": 0,
+      "preservedOpaquePadding": false
+    },
+    {
+      "index": 162,
+      "oldOffset": 263632896,
+      "newSize": 76165,
+      "insertedBytes": 0,
+      "preservedOpaquePadding": false
+    },
+    {
+      "index": 148,
+      "oldOffset": 239673344,
+      "newSize": 76671,
+      "insertedBytes": 0,
+      "preservedOpaquePadding": false
+    },
+    {
+      "index": 134,
+      "oldOffset": 215732224,
+      "newSize": 76850,
+      "insertedBytes": 0,
+      "preservedOpaquePadding": false
+    },
+    {
+      "index": 120,
+      "oldOffset": 191805440,
+      "newSize": 76907,
+      "insertedBytes": 0,
+      "preservedOpaquePadding": false
+    },
+    {
+      "index": 106,
+      "oldOffset": 167856128,
+      "newSize": 76214,
+      "insertedBytes": 0,
+      "preservedOpaquePadding": false
+    },
+    {
+      "index": 92,
+      "oldOffset": 143919104,
+      "newSize": 76198,
+      "insertedBytes": 0,
+      "preservedOpaquePadding": false
+    },
+    {
+      "index": 78,
+      "oldOffset": 119961600,
+      "newSize": 76735,
+      "insertedBytes": 0,
+      "preservedOpaquePadding": false
+    },
+    {
+      "index": 64,
+      "oldOffset": 96018432,
+      "newSize": 76399,
+      "insertedBytes": 0,
+      "preservedOpaquePadding": false
+    },
+    {
+      "index": 50,
+      "oldOffset": 72030208,
+      "newSize": 76750,
+      "insertedBytes": 0,
+      "preservedOpaquePadding": false
+    },
+    {
+      "index": 36,
+      "oldOffset": 48078848,
+      "newSize": 76515,
+      "insertedBytes": 0,
+      "preservedOpaquePadding": false
+    },
+    {
+      "index": 22,
+      "oldOffset": 24119296,
+      "newSize": 76729,
+      "insertedBytes": 0,
+      "preservedOpaquePadding": false
+    },
+    {
+      "index": 8,
+      "oldOffset": 184320,
+      "newSize": 76378,
+      "insertedBytes": 0,
+      "preservedOpaquePadding": false
+    }
+  ],
+  "allOther2158EntryBodiesByteIdentical": true,
+  "monotonicOffsets": true,
+  "originalUnmodified": true
+}

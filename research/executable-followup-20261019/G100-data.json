@@ -1,0 +1,190 @@
+{
+  "status": "MATCHED_PUBLIC_BUILDER_AND_NATIVE_BOUNDARY_CONTROL",
+  "mmdSHA256": "09c8724f5f6d0d6903410f01aacd8e0477d8b1029a5ba183b71920825c019ebf",
+  "zpakSHA256": "cbe6cf2f682c1d2357a5cef74c996a8483fc0361054ec600beee06479152904a",
+  "worldIcons": 100,
+  "originalWorldIconsPreservedExceptNeighbor53": true,
+  "originalMissionRoots": 498,
+  "totalMissionRoots": 532,
+  "newGalaxies": [
+    {
+      "owner": 1,
+      "node": 498,
+      "worldIndex": 66
+    },
+    {
+      "owner": 2,
+      "node": 499,
+      "worldIndex": 67
+    },
+    {
+      "owner": 3,
+      "node": 500,
+      "worldIndex": 68
+    },
+    {
+      "owner": 6,
+      "node": 501,
+      "worldIndex": 69
+    },
+    {
+      "owner": 7,
+      "node": 502,
+      "worldIndex": 70
+    },
+    {
+      "owner": 9,
+      "node": 503,
+      "worldIndex": 71
+    },
+    {
+      "owner": 10,
+      "node": 504,
+      "worldIndex": 72
+    },
+    {
+      "owner": 18,
+      "node": 505,
+      "worldIndex": 73
+    },
+    {
+      "owner": 19,
+      "node": 506,
+      "worldIndex": 74
+    },
+    {
+      "owner": 20,
+      "node": 507,
+      "worldIndex": 75
+    },
+    {
+      "owner": 23,
+      "node": 508,
+      "worldIndex": 76
+    },
+    {
+      "owner": 25,
+      "node": 509,
+      "worldIndex": 77
+    },
+    {
+      "owner": 26,
+      "node": 510,
+      "worldIndex": 78
+    },
+    {
+      "owner": 28,
+      "node": 511,
+      "worldIndex": 79
+    },
+    {
+      "owner": 30,
+      "node": 512,
+      "worldIndex": 80
+    },
+    {
+      "owner": 32,
+      "node": 513,
+      "worldIndex": 81
+    },
+    {
+      "owner": 33,
+      "node": 514,
+      "worldIndex": 82
+    },
+    {
+      "owner": 35,
+      "node": 515,
+      "worldIndex": 83
+    },
+    {
+      "owner": 41,
+      "node": 516,
+      "worldIndex": 84
+    },
+    {
+      "owner": 49,
+      "node": 517,
+      "worldIndex": 85
+    },
+    {
+      "owner": 50,
+      "node": 518,
+      "worldIndex": 86
+    },
+    {
+      "owner": 51,
+      "node": 519,
+      "worldIndex": 87
+    },
+    {
+      "owner": 52,
+      "node": 520,
+      "worldIndex": 88
+    },
+    {
+      "owner": 59,
+      "node": 521,
+      "worldIndex": 89
+    },
+    {
+      "owner": 60,
+      "node": 522,
+      "worldIndex": 90
+    },
+    {
+      "owner": 61,
+      "node": 523,
+      "worldIndex": 91
+    },
+    {
+      "owner": 64,
+      "node": 524,
+      "worldIndex": 92
+    },
+    {
+      "owner": 65,
+      "node": 525,
+      "worldIndex": 93
+    },
+    {
+      "owner": 68,
+      "node": 526,
+      "worldIndex": 94
+    },
+    {
+      "owner": 69,
+      "node": 527,
+      "worldIndex": 95
+    },
+    {
+      "owner": 80,
+      "node": 528,
+      "worldIndex": 96
+    },
+    {
+      "owner": 83,
+      "node": 529,
+      "worldIndex": 97
+    },
+    {
+      "owner": 86,
+      "node": 530,
+      "worldIndex": 98
+    },
+    {
+      "owner": 89,
+      "node": 531,
+      "worldIndex": 99
+    }
+  ],
+  "graph": {
+    "node_count": 532,
+    "edge_count": 515,
+    "root_descriptor": 3465,
+    "edge_descriptor": 3466,
+    "consistent": true,
+    "problems": []
+  },
+  "reproducer": "tools/build_g100_control_mmd.py"
+}

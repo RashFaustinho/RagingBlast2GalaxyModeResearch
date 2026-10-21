@@ -1,0 +1,9 @@
+{
+  "source": "Original preset_appearance_table.dat",
+  "sha256": "d051651113f89174dfb6f9845ce217497ee70532ac1304e72e138bef31a50159",
+  "row": 200,
+  "native": 0,
+  "costume": 1,
+  "costumeMode": 0,
+  "meaning": "Original fixed-costume Goku Appearance row already uses costume1; this corroborates that the requested costume exists. The main-player patch does not load this Appearance row."
+}

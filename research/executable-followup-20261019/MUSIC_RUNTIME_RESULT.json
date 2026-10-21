@@ -1,0 +1,68 @@
+{
+  "status": "TWO_EXPLICIT_ROOT_MUSIC_VALUES_REACH_NATIVE_SETUP_AND_INITIALIZED_ACTORS",
+  "elfSHA256": "f8f4c2d0843481d192c09d84889fecb401cc150dd07318dab41de3233794a29b",
+  "zone": {
+    "mode": 0,
+    "slot": 0,
+    "member": "zone_green_square.mmd"
+  },
+  "music0": {
+    "root": 0,
+    "stored": 0,
+    "activeConfig": 0,
+    "actors": [
+      {
+        "side": 0,
+        "address": "0x3aa88c14",
+        "native": 0,
+        "preset": 4294967295,
+        "maxHP": 40000,
+        "HP": 40000,
+        "flags": 1
+      },
+      {
+        "side": 1,
+        "address": "0x3aa94470",
+        "native": 74,
+        "preset": 0,
+        "maxHP": 40000,
+        "HP": 40000,
+        "flags": 65
+      }
+    ]
+  },
+  "music6": {
+    "root": 1,
+    "stored": 6,
+    "activeConfig": 6,
+    "actors": [
+      {
+        "side": 0,
+        "address": "0x3aa88c14",
+        "native": 0,
+        "preset": 4294967295,
+        "maxHP": 40000,
+        "HP": 40000,
+        "flags": 1
+      },
+      {
+        "side": 1,
+        "address": "0x3aa94470",
+        "native": 40,
+        "preset": 1,
+        "maxHP": 40000,
+        "HP": 40000,
+        "flags": 65
+      }
+    ]
+  },
+  "fallbackControl": {
+    "stored": 56,
+    "activeConfig": 9,
+    "report": "zone-music-stock56-verified.json",
+    "ELFVariant": "6dcb default, authored music code identical"
+  },
+  "flowControl": "Root0 result4862 and native advance to1 followed controlled enemy HP zero plus terminal flag; no score/save/root/code/register injection. Earlier HP1-only attempts did not complete it. Not a natural victory.",
+  "audio": "Null backend; selected IDs and configurations verified, no listening test.",
+  "limits": "One Zone, two roots and one ordinary56 fallback; other Zone modes/slots, final-Zone special cases, invalid selectors and all56 tracks were not played."
+}

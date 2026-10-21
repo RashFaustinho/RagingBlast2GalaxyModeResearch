@@ -1,0 +1,20 @@
+{
+  "elfSHA256": "f8f4c2d0843481d192c09d84889fecb401cc150dd07318dab41de3233794a29b",
+  "liveHookAndWholeHelperMatch": true,
+  "state": "0x3a8289f0",
+  "mode": 0,
+  "zone": 0,
+  "root": 1,
+  "secretLatch": 0,
+  "config": "0x3a8288c0",
+  "configGetter": "1CD534, TOC-234C ->75592C",
+  "configArena": 13,
+  "configMusic": 6,
+  "storedStageMusic": 6,
+  "maxCombo": 0,
+  "superWin": 0,
+  "ultimateWin": 0,
+  "ragingSoulWin": 0,
+  "stats": "0x3a826628",
+  "secretTable": "05140000011400000014000003140000021400000014000004140000001400000214000004140000001400000114000002140000001400000314000001140000"
+}

@@ -1,0 +1,10 @@
+{
+  "status": "PREPARED_ONLY",
+  "originalInputSHA256": "59d7e82a6938152e1fd51de5b8e052fec2bb8213ab105f2ab5b587d32f990fc9",
+  "newInputSHA256": "3dea711a9afbea9f76e30c590fa4118819a783b7e908437df3ef79c82098f5bf",
+  "change": "Restore only74non-listed low100 download availability bits from preceding native G100 save; keep26listed flags and all other state",
+  "before": "00de38ef00c0002c00004078fffffff0",
+  "after": "ffffffffffffffffffffffffffffffff",
+  "sameOutsideBitmapAndChecksum": true,
+  "note": "The cleared100-bit fixture proved scoped setting on load, but is not an ordinary intact save. This control checks whether clearing the other74 availability bits affected Zone UI."
+}

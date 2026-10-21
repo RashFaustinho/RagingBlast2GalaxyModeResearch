@@ -1,0 +1,15 @@
+{
+  "scope": "After the controlled original-cell Zone result, not an added-cell capacity test",
+  "length": 110000,
+  "sha256": "52dae88761f1a7a4205cb99ee3b4d43c4c2dd57445df586c653c74d759d934e5",
+  "checksumValid": true,
+  "changedBytes": 3,
+  "activeG100GalaxyAndGlobalsUnchanged": true,
+  "inactiveOriginalGalaxyUnchanged": true,
+  "originalTutorialUnchanged": true,
+  "allChangedOffsets": [
+    "0x3",
+    "0x17",
+    "0x1b"
+  ]
+}

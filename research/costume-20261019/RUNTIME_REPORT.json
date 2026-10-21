@@ -1,0 +1,162 @@
+{
+  "date": "2026-10-19",
+  "game": "Dragon Ball Raging Blast 2 / European BLES00978",
+  "emulator": "RPCS3 0.0.43-20291-ffba2bf0 / Linux Vulkan lavapipe, 50% scale",
+  "comparison": "Separate full-process original/patched runs; same original AFS files and restored identical private 55000-byte input save. No savestate.",
+  "fixtureSaveEdits": "Only preselection of Goku native0 and existing mission238, with original checksum regenerated. Original uploaded game/save preserved.",
+  "executableDifference": "One instruction at guest1ED890, li r8,0 -> li r8,1. One changed byte in equal-length decrypted ELF. See ab-identity.json.",
+  "original": {
+    "label": "original-intro",
+    "config": "0x3a829420",
+    "owner": 0,
+    "mission": 238,
+    "mainPlayerNative": 0,
+    "mainPlayerCostume": 0,
+    "configFirstFighter": "0000000000000000000000003f8000000000000000000000000000020000000000000000",
+    "loadedInstruction1ED890": "39000000",
+    "actors": [
+      {
+        "side": 0,
+        "slot": 0,
+        "address": "0x3aa88b64",
+        "native": 0,
+        "costume": 0,
+        "configurationIndex": 2,
+        "flags": "0x1",
+        "maxHP": 40000,
+        "HP": 40000
+      },
+      {
+        "side": 1,
+        "slot": 0,
+        "address": "0x3aa943c0",
+        "native": 12,
+        "costume": 0,
+        "configurationIndex": 496,
+        "flags": "0x41",
+        "maxHP": 40000,
+        "HP": 40000
+      }
+    ],
+    "debuggerWrites": "None; memory reads and pause/resume only"
+  },
+  "patchedInitialization": {
+    "label": "patched-stage-initialization",
+    "config": "0x3a829420",
+    "owner": 0,
+    "mission": 238,
+    "mainPlayerNative": 0,
+    "mainPlayerCostume": 1,
+    "configFirstFighter": "0000000000000000000000013f8000000000000000000000000000020000000000000000",
+    "loadedInstruction1ED890": "39000001",
+    "actors": [
+      {
+        "side": 0,
+        "slot": 0,
+        "address": "0x3aa88b64",
+        "native": 0,
+        "costume": 1,
+        "configurationIndex": 2,
+        "flags": "0x1",
+        "maxHP": 40000,
+        "HP": 40000
+      },
+      {
+        "side": 1,
+        "slot": 0,
+        "address": "0x3aa943c0",
+        "native": 12,
+        "costume": 0,
+        "configurationIndex": 496,
+        "flags": "0x41",
+        "maxHP": 40000,
+        "HP": 40000
+      }
+    ],
+    "debuggerWrites": "None; memory reads and pause/resume only"
+  },
+  "debugger": {
+    "operations": "Read memory; pause/resume emulation. No guest code/register/HP/aura/data writes.",
+    "loggedEventCounts": {
+      "original-debug-events.jsonl": 70,
+      "debug-events.jsonl": 50
+    },
+    "loggedWrites": 0
+  },
+  "originalPrivateSaveByteIdenticalAfterControl": true,
+  "renderingLimitation": "Character models render black in original and patched software-renderer sessions. Runtime costume indices verified; not a reliable visual comparison of costume textures.",
+  "notTested": [
+    "All characters and every costume",
+    "Unlock-gate bypass",
+    "Transformation/cancellation/fusion costume continuity",
+    "Retry and battle victory/result/autosave path",
+    "Native Windows and physical PS3",
+    "Other regions, v2.00, prepatched EBOOTs",
+    "Per-character/per-mission hooks and a live costume-selection UI",
+    "Combined D2 plus costume patch"
+  ],
+  "conclusion": "Changing this main-player setup instruction changes the loaded Galaxy player costume index independently of preset DATs. Per-character user-facing support is future work.",
+  "patchedLaterSnapshot": {
+    "label": "patched-active",
+    "config": "0x3a829420",
+    "owner": 0,
+    "mission": 238,
+    "mainPlayerNative": 0,
+    "mainPlayerCostume": 1,
+    "configFirstFighter": "0000000000000000000000013f8000000000000000000000000000020000000000000000",
+    "loadedInstruction1ED890": "39000001",
+    "actors": [
+      {
+        "side": 0,
+        "slot": 0,
+        "address": "0x3aa88b64",
+        "native": 0,
+        "costume": 1,
+        "configurationIndex": 2,
+        "flags": "0x1",
+        "maxHP": 40000,
+        "HP": 39264
+      },
+      {
+        "side": 1,
+        "slot": 0,
+        "address": "0x3aa943c0",
+        "native": 12,
+        "costume": 0,
+        "configurationIndex": 496,
+        "flags": "0x41",
+        "maxHP": 40000,
+        "HP": 40000
+      }
+    ],
+    "debuggerWrites": "None; memory reads and pause/resume only"
+  },
+  "originalControlReached": "Stage introduction with initialized actors; original active combat was not replayed.",
+  "patchedControlReached": "Active combat: battle HUD and natural CPU damage observed; main-player HP39264/40000, costume still1. No player action or memory injection needed.",
+  "artifacts": [
+    {
+      "file": "ab-identity.json",
+      "sha256": "d79cbf0259b566f03be815458007d9b595b18427f7b410140aeb03159771065e"
+    },
+    {
+      "file": "original-archive-identities.json",
+      "sha256": "e7e689aa9044a282b17f887ba6031c6caf3f77d08f7f0363682abb011a5154a7"
+    },
+    {
+      "file": "original-intro.json",
+      "sha256": "d31e542f44d596c3e8200f147e973978f003f677636aed7d6c6cd52c472b84d3"
+    },
+    {
+      "file": "patched-active.json",
+      "sha256": "41c8540f8d7bae045f953f7be3f552e8d8db6cd4084d10983d03e2a424828b28"
+    },
+    {
+      "file": "patched-stage-initialization.json",
+      "sha256": "2a3d7827656c17aa8acdf9d97783d35090e294f4428c4bd9baf2b145e8b32c63"
+    },
+    {
+      "file": "stock-costume-corroboration.json",
+      "sha256": "9056558f34b5336df290b3f73352bba5c3d680108f897d160d07f5f3154065d7"
+    }
+  ]
+}

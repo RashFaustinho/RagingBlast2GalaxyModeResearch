@@ -1,0 +1,283 @@
+{
+  "referenceSHA256": "8e2b454ca5959476a5869d0ab9e652123a019d72791f61ab37f7dd9936b2b892",
+  "parametersSHA256": "95511b9934ea2a1d74bd04378e35adea6f481db0d1147aed7be38fbb27ecf4c6",
+  "counts": {
+    "nativeForms": 100,
+    "DLCNativeForms": 26,
+    "baseCharacters": 14
+  },
+  "costumeParameter": {
+    "rowSize": 56,
+    "ordinaryCountOffset": 32,
+    "totalCountOffset": 44
+  },
+  "saveFlags": {
+    "offset": 32,
+    "nativeStride": 232,
+    "bit": "costume index + 1",
+    "expansionRequired": false,
+    "patchWritesSave": false
+  },
+  "catalog": [
+    {
+      "native": 0,
+      "name": "Goku",
+      "regularCount": 7,
+      "totalCount": 8,
+      "DLCIndex": 7,
+      "displayedCostume": 8
+    },
+    {
+      "native": 1,
+      "name": "Goku / Super Saiyan",
+      "regularCount": 7,
+      "totalCount": 8,
+      "DLCIndex": 7,
+      "displayedCostume": 8
+    },
+    {
+      "native": 2,
+      "name": "Goku / Super Saiyan 2",
+      "regularCount": 7,
+      "totalCount": 8,
+      "DLCIndex": 7,
+      "displayedCostume": 8
+    },
+    {
+      "native": 3,
+      "name": "Goku / Super Saiyan 3",
+      "regularCount": 7,
+      "totalCount": 8,
+      "DLCIndex": 7,
+      "displayedCostume": 8
+    },
+    {
+      "native": 5,
+      "name": "Teen Gohan",
+      "regularCount": 2,
+      "totalCount": 3,
+      "DLCIndex": 2,
+      "displayedCostume": 3
+    },
+    {
+      "native": 6,
+      "name": "Teen Gohan / Super Saiyan",
+      "regularCount": 2,
+      "totalCount": 3,
+      "DLCIndex": 2,
+      "displayedCostume": 3
+    },
+    {
+      "native": 7,
+      "name": "Teen Gohan / Super Saiyan 2",
+      "regularCount": 2,
+      "totalCount": 3,
+      "DLCIndex": 2,
+      "displayedCostume": 3
+    },
+    {
+      "native": 11,
+      "name": "Piccolo",
+      "regularCount": 2,
+      "totalCount": 3,
+      "DLCIndex": 2,
+      "displayedCostume": 3
+    },
+    {
+      "native": 12,
+      "name": "Krillin",
+      "regularCount": 3,
+      "totalCount": 4,
+      "DLCIndex": 3,
+      "displayedCostume": 4
+    },
+    {
+      "native": 13,
+      "name": "Yamcha",
+      "regularCount": 2,
+      "totalCount": 3,
+      "DLCIndex": 2,
+      "displayedCostume": 3
+    },
+    {
+      "native": 17,
+      "name": "Vegeta",
+      "regularCount": 2,
+      "totalCount": 3,
+      "DLCIndex": 2,
+      "displayedCostume": 3
+    },
+    {
+      "native": 18,
+      "name": "Vegeta / Super Saiyan",
+      "regularCount": 2,
+      "totalCount": 3,
+      "DLCIndex": 2,
+      "displayedCostume": 3
+    },
+    {
+      "native": 19,
+      "name": "Super Vegeta",
+      "regularCount": 2,
+      "totalCount": 3,
+      "DLCIndex": 2,
+      "displayedCostume": 3
+    },
+    {
+      "native": 20,
+      "name": "Vegeta / Super Saiyan 2",
+      "regularCount": 2,
+      "totalCount": 3,
+      "DLCIndex": 2,
+      "displayedCostume": 3
+    },
+    {
+      "native": 22,
+      "name": "Trunks (Sword)",
+      "regularCount": 2,
+      "totalCount": 3,
+      "DLCIndex": 2,
+      "displayedCostume": 3
+    },
+    {
+      "native": 23,
+      "name": "Trunks (Sword) / Super Saiyan",
+      "regularCount": 2,
+      "totalCount": 3,
+      "DLCIndex": 2,
+      "displayedCostume": 3
+    },
+    {
+      "native": 34,
+      "name": "Vegito",
+      "regularCount": 2,
+      "totalCount": 3,
+      "DLCIndex": 2,
+      "displayedCostume": 3
+    },
+    {
+      "native": 35,
+      "name": "Super Vegito",
+      "regularCount": 2,
+      "totalCount": 3,
+      "DLCIndex": 2,
+      "displayedCostume": 3
+    },
+    {
+      "native": 37,
+      "name": "Bardock",
+      "regularCount": 2,
+      "totalCount": 3,
+      "DLCIndex": 2,
+      "displayedCostume": 3
+    },
+    {
+      "native": 54,
+      "name": "Android #17",
+      "regularCount": 2,
+      "totalCount": 3,
+      "DLCIndex": 2,
+      "displayedCostume": 3
+    },
+    {
+      "native": 55,
+      "name": "Android #18",
+      "regularCount": 3,
+      "totalCount": 4,
+      "DLCIndex": 3,
+      "displayedCostume": 4
+    },
+    {
+      "native": 67,
+      "name": "Broly",
+      "regularCount": 2,
+      "totalCount": 3,
+      "DLCIndex": 2,
+      "displayedCostume": 3
+    },
+    {
+      "native": 68,
+      "name": "Broly / Super Saiyan",
+      "regularCount": 2,
+      "totalCount": 3,
+      "DLCIndex": 2,
+      "displayedCostume": 3
+    },
+    {
+      "native": 69,
+      "name": "Broly / Legendary Super Saiyan",
+      "regularCount": 2,
+      "totalCount": 3,
+      "DLCIndex": 2,
+      "displayedCostume": 3
+    },
+    {
+      "native": 70,
+      "name": "Super Gogeta",
+      "regularCount": 2,
+      "totalCount": 3,
+      "DLCIndex": 2,
+      "displayedCostume": 3
+    },
+    {
+      "native": 78,
+      "name": "Turles",
+      "regularCount": 2,
+      "totalCount": 3,
+      "DLCIndex": 2,
+      "displayedCostume": 3
+    }
+  ],
+  "spans": [
+    {
+      "role": "ordinaryCountGetter",
+      "address": "0x174790",
+      "fileOffset": 1460112,
+      "size": 136,
+      "sha256": "dbb7d15e2da6403daafa36bd2e28a3f66cf743ba98b598da9b43fc1c50b5af49"
+    },
+    {
+      "role": "nextPreviousSelector",
+      "address": "0x174818",
+      "fileOffset": 1460248,
+      "size": 280,
+      "sha256": "5c421cd5ede1a9767ca294e155ce14312df966fc42b141dde28134f6a6ab2daf"
+    },
+    {
+      "role": "menuCountConsumer",
+      "address": "0x1834c8",
+      "fileOffset": 1520840,
+      "size": 148,
+      "sha256": "9dfb4e339a28a1c7e7b13d25455433cfe8758ca8449908dd22e903aede38ea6c"
+    },
+    {
+      "role": "menuNextConsumer",
+      "address": "0x183cec",
+      "fileOffset": 1522924,
+      "size": 44,
+      "sha256": "a1a6ae9035058cc499cbdc8f096cd06bff11f3246c97f753189038e05c115aaf"
+    },
+    {
+      "role": "menuPreviousConsumer",
+      "address": "0x183dc8",
+      "fileOffset": 1523144,
+      "size": 44,
+      "sha256": "b5b47ce7fb1474b01a5a55a10d57401861b8faa34f39cfc7339eb4c4b6a9941e"
+    }
+  ],
+  "codeEdits": [
+    {
+      "address": "0x17480c",
+      "old": "80690020",
+      "new": "8069002c",
+      "purpose": "Return total count instead of ordinary count"
+    },
+    {
+      "address": "0x1748d8",
+      "old": "2f800000",
+      "new": "48e8b868",
+      "purpose": "Read-only selective DLC exception in next/previous filtering"
+    }
+  ],
+  "scope": "Static evidence only. Consult the separate native runtime report."
+}

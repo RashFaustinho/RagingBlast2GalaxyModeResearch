@@ -1,0 +1,7 @@
+{
+  "label": "G100-world-exit",
+  "control": "After cold load, enter100-icon world menu and leave with ordinary Circle input back to main menu",
+  "observed": "Main menu returned without observed crash",
+  "debuggerWrites": "None",
+  "limits": "Menu lifecycle observation; not an exhaustive heap/member canary proof"
+}

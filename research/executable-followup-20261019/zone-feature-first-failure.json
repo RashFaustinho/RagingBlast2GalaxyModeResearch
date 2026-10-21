@@ -1,0 +1,13 @@
+{
+  "status": "FAILED_BEFORE_COMBAT",
+  "elfSHA256": "f8f4c2d0843481d192c09d84889fecb401cc150dd07318dab41de3233794a29b",
+  "archive": "19-entry modified progress AFS, all unrelated bodies verified",
+  "selectedZone": "Unverified in this failed run; earlier normal-slot2/Blue Lozenge identification was inferred from localized caption and is withdrawn.",
+  "thread": "sp_game_server_video_thread",
+  "reportedPC": "0x4f6ed0",
+  "nullRead": "0x0",
+  "stackPointer": "0xd018bb90 (within valid thread stack)",
+  "musicAndSecretControls": "Not reached",
+  "interpretation": "Do not attribute this menu/render failure to count or feature semantics without original baseline. Reported PC is an indirect-call return location, not a decoded null-load instruction at that address.",
+  "identityCorrection": "Later native captures show slot0 loads zone_green_square.mmd despite initial Zona a losanga caption. Do not assign this historical failure a captured native slot."
+}

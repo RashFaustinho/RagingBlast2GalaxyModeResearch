@@ -1,0 +1,35 @@
+{
+  "label": "patched-active",
+  "config": "0x3a829420",
+  "owner": 0,
+  "mission": 238,
+  "mainPlayerNative": 0,
+  "mainPlayerCostume": 1,
+  "configFirstFighter": "0000000000000000000000013f8000000000000000000000000000020000000000000000",
+  "loadedInstruction1ED890": "39000001",
+  "actors": [
+    {
+      "side": 0,
+      "slot": 0,
+      "address": "0x3aa88b64",
+      "native": 0,
+      "costume": 1,
+      "configurationIndex": 2,
+      "flags": "0x1",
+      "maxHP": 40000,
+      "HP": 39264
+    },
+    {
+      "side": 1,
+      "slot": 0,
+      "address": "0x3aa943c0",
+      "native": 12,
+      "costume": 0,
+      "configurationIndex": 496,
+      "flags": "0x41",
+      "maxHP": 40000,
+      "HP": 40000
+    }
+  ],
+  "debuggerWrites": "None; memory reads and pause/resume only"
+}

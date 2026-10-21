@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "audited_on": "2026-10-18",
+  "audited_on": "2026-10-19",
   "authority": "FINDINGS.md and topic guides supersede earlier interpretations; original observations retain their scope.",
   "claims": [
     {
@@ -404,6 +404,176 @@
         "../editor/docs/RELEASE_PREPARATION_EN.md"
       ],
       "limits": "Does not establish cross-region ELF offsets or expansion-patch compatibility."
+    },
+    {
+      "id": "PLAYER-COSTUME-001",
+      "topic": "player-costume",
+      "statement": "Stock Galaxy main-player setup explicitly passes costume0; a single-instruction costume1 override reached the main-player config and initialized actor in an original/patched RPCS3 control, separately from preset allies/enemies.",
+      "evidence_levels": [
+        "code",
+        "controlled-runtime"
+      ],
+      "evidence": [
+        "GALAXY_PLAYER_COSTUME_NATIVE_EVIDENCE.json",
+        "EBOOT_PATCH_ROADMAP.md",
+        "costume-20261019/RUNTIME_REPORT.json"
+      ],
+      "limits": "European ELF only; models render black in both software-renderer runs, so the loaded indices are verified rather than texture appearance. Not a per-character chooser or a complete transformation/fusion/PS3 compatibility test."
+    },
+    {
+      "id": "DOWNLOAD-001",
+      "topic": "download-presets",
+      "statement": "The historical Enabler removes a nonvolatile r30 restore; a scoped ANDC-to-OR replacement enables the26 fixed-list flags on valid-save load without pre-unlocked savedata.",
+      "evidence_levels": [
+        "code",
+        "controlled-runtime"
+      ],
+      "evidence": [
+        "download-presets-20261019/DOWNLOAD_PRESETS_EN.md",
+        "download-presets-20261019/NATIVE_BLES00978.json",
+        "download-presets-20261019/RUNTIME_REPORT.json"
+      ],
+      "limits": "European v1 load path only. US/JP statically mapped; no all26-costume playthrough, new-game initialization, native persistence or physical PS3 signing certification."
+    },
+    {
+      "id": "EBOOT-COMPAT-001",
+      "topic": "executable-compatibility",
+      "statement": "The download-preset research patcher preserves unrelated ELF edits when nine audited local spans match one regional profile, even if the whole-file hash is unknown.",
+      "evidence_levels": [
+        "code",
+        "editor-test"
+      ],
+      "evidence": [
+        "../tools/download_preset_research.py",
+        "../tools/test_download_preset_patch.py",
+        "download-presets-20261019/EXECUTABLE_PROFILES.json",
+        "download-presets-20261019/DOWNLOAD_PRESETS_EN.md"
+      ],
+      "limits": "Feature-local layout matching, not gameplay certification of arbitrary mods. Unknown relocation, conflicting instructions, changed dependency spans and mixed policies are rejected; no Studio executable GUI yet."
+    },
+    {
+      "id": "GALAXY-AGGREGATE-067",
+      "topic": "capacity",
+      "statement": "The European G67 research prototype supports a67th independent Galaxy aggregate: root498 naturally completed for339000, saved and cold-loaded with an exact110000-byte buffer match.",
+      "evidence_levels": [
+        "code",
+        "natural-runtime",
+        "persistence"
+      ],
+      "evidence": [
+        "executable-followup-20261019/RESEARCH_EN.md",
+        "executable-followup-20261019/G67-result.json",
+        "executable-followup-20261019/G67-save-audit.json",
+        "executable-followup-20261019/G67-cold-load.json",
+        "executable-followup-20261019/G67-patch.json"
+      ],
+      "limits": "Exact European research executable/save format; stock Tutorial/Zone banks retained. No all-original campaign replay, new-game initialization, physical PS3 or arbitrary-mod certification. G100 has separate later boundary evidence."
+    },
+    {
+      "id": "GALAXY-AGGREGATE-100",
+      "topic": "capacity",
+      "statement": "The European G100 research prototype retains66 original world icons and adds34 native/form Galaxies; world index99/root531 naturally won for339000, saved and cold-loaded with an exact110000-byte buffer match.",
+      "evidence_levels": [
+        "code",
+        "natural-runtime",
+        "persistence"
+      ],
+      "evidence": [
+        "executable-followup-20261019/RESEARCH_EN.md",
+        "executable-followup-20261019/G100-result.json",
+        "executable-followup-20261019/G100-save-audit.json",
+        "executable-followup-20261019/G100-cold-load.json",
+        "executable-followup-20261019/G100-patch.json",
+        "executable-followup-20261019/G100-monotonic-AFS.json",
+        "executable-followup-20261019/G100-remaining-aggregate-scans.json"
+      ],
+      "limits": "Exact European139-instruction research layout with600 result rows/100aggregates. Highest added boundary, not every campaign or absolute maximum. Eight global aggregate scans still use66; combined-feature Zone navigation is under investigation. Original Tutorial/Zone banks retained. No arbitrary-mod/new-game/physicalPS3 certification."
+    },
+    {
+      "id": "PLAYER-COSTUME-TABLE-001",
+      "topic": "player-costume",
+      "statement": "One European G100 helper table selects different starting costumes per Galaxy owner: native3 initializes costume1 while native0 initializes costume0, retaining ordinary Custom3 and enemy preset costumes.",
+      "evidence_levels": [
+        "code",
+        "controlled-runtime"
+      ],
+      "evidence": [
+        "executable-followup-20261019/RESEARCH_EN.md",
+        "executable-followup-20261019/SCOPED_FEATURE_CONTROL.json",
+        "executable-followup-20261019/features-costume-3.json",
+        "executable-followup-20261019/features-costume-0-actor.json"
+      ],
+      "limits": "Two owner initialization controls, not all costume assets, transformation/fusion paths, retries or regions. Software-rendered texture appearance is not certified; this is not a released Studio option."
+    },
+    {
+      "id": "ENHANCED-UNLOCK-001",
+      "topic": "download-presets",
+      "statement": "A post-valid-load European helper enables all66 Enhanced group bits and exactly26 download-native bits from a cleared valid save; full110000-byte comparison finds only16 changed bytes inside the two availability bitmaps.",
+      "evidence_levels": [
+        "code",
+        "controlled-runtime"
+      ],
+      "evidence": [
+        "executable-followup-20261019/RESEARCH_EN.md",
+        "executable-followup-20261019/features-after-load.json",
+        "executable-followup-20261019/feature-save-preparation.json",
+        "executable-followup-20261019/SCOPED_FEATURE_CONTROL.json"
+      ],
+      "limits": "Successful existing-save load, not new-game initialization, all-character/costume gameplay, resource installation or physical PS3 signing. Enhanced group and download-native namespaces differ; unrelated ordinary unlocks are not forced."
+    },
+    {
+      "id": "ZONE-MUSIC-HOOK-001",
+      "topic": "battle-zone-music",
+      "statement": "A European helper makes two Zone roots honor explicit music0 and6 in native battle setup; a separate56 control retains native pool selection9.",
+      "evidence_levels": [
+        "code",
+        "controlled-runtime"
+      ],
+      "evidence": [
+        "executable-followup-20261019/MUSIC_RUNTIME_RESULT.json",
+        "executable-followup-20261019/zone-music-stock56-verified.json",
+        "executable-followup-20261019/zone-music0-initialized.json",
+        "executable-followup-20261019/zone-music6-initialized.json",
+        "executable-followup-20261019/SCOPED_FEATURE_CONTROL.json"
+      ],
+      "limits": "One Zone, two initialized encounters and ordinary56 fallback, with Null audio. Root0-to1 advance used disclosed enemy HP/terminal controls. No listening/all-track/all-slot/final-Zone/physicalPS3 coverage; no Studio GUI integration."
+    },
+    {
+      "id": "STUDIO-EBOOT-001",
+      "topic": "executable-editor",
+      "statement": "The private1.1 development workspace decodes the tested native disc BINs, recognizes supported patch states, preserves unrelated compatible edits and exports/reloads reversible RPCS3 debug SELF copies with a region-independent decrypted-save adapter.",
+      "evidence_levels": [
+        "code",
+        "editor-test",
+        "controlled-runtime"
+      ],
+      "evidence": [
+        "eboot-studio-20261019/VERIFICATION_EN.md",
+        "eboot-studio-20261019/DEVELOPMENT_CHECKS.json",
+        "eboot-studio-20261019/SMALL_MODS_NATIVE_LOAD.json",
+        "eboot-studio-20261019/G100_MARKER_NATIVE_LOAD.json",
+        "eboot-studio-20261019/DOWNGRADE_NATIVE_LOAD.json",
+        "eboot-studio-20261019/EBOOT_MODS_RESEARCH_EN.md"
+      ],
+      "limits": "Development preview, not a new release. European small-feature native load; supplied regional Enabler static/browser controls only. No fresh-game/all-costume/all-track/full-campaign/physicalPS3 certification. Research expansion installation is disabled; same-length save layouts are not guessed."
+    },
+    {
+      "id": "VS-DLC-COSTUMES-001",
+      "topic": "ordinary-vs-costumes",
+      "statement": "A scoped European v1 executable patch exposes the existing DLC extra costume in ordinary selection without changing save unlock bits: native controls reach Goku costume8 and Vegeta costume3, then initialize ordinary fighters at indices7/2 with presetFFFFFFFF.",
+      "evidence_levels": [
+        "file",
+        "code",
+        "controlled-runtime",
+        "editor-test"
+      ],
+      "evidence": [
+        "vs-costumes-20261019/VS_COSTUMES_EN.md",
+        "vs-costumes-20261019/NATIVE_EVIDENCE.json",
+        "vs-costumes-20261019/RUNTIME_REPORT.json"
+      ],
+      "limits": "All100 original count pairs and26-form exception catalog checked statically; native normal-input controls cover Goku/Vegeta only. Cloud character materials render black; all26 visual/transform/fusion paths, other regions, online and physical PS3 are not certified. No save layout expansion or unlock-bit writes."
     }
-  ]
+  ],
+  "updated_on": "2026-10-19"
 }

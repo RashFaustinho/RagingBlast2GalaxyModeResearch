@@ -1,0 +1,20 @@
+[
+  {
+    "actor_hp": {
+      "address": "0x3aa94470",
+      "before": {
+        "native": 74,
+        "preset": 0,
+        "hp": 40000,
+        "max_hp": 40000,
+        "aura": 0.0
+      },
+      "after_hp": 1,
+      "after_aura": null,
+      "only_data_fields_written": [
+        "actor+0x2c"
+      ]
+    },
+    "utc": "2026-10-19T15:02:46.744739+00:00"
+  }
+]

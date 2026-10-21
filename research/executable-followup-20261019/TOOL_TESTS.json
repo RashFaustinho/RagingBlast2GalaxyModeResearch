@@ -1,0 +1,38 @@
+{
+  "dateUTC": "2026-10-19",
+  "scope": "Relevant research-tool unit tests; no GUI release verification or new gameplay in this report",
+  "result": "PASS",
+  "testsRun": 16,
+  "skipped": 0,
+  "suites": [
+    {
+      "testFile": "tools/test_download_preset_patch.py",
+      "tests": 9,
+      "privateFixtures": "Three supplied regional legacy Enabler decrypted ELFs, selected with RB2_DLC_FIXTURES",
+      "interpreter": "analysis-venv Python with Capstone",
+      "result": "PASS"
+    },
+    {
+      "testFile": "tools/test_galaxy_aggregate_research.py",
+      "tests": 3,
+      "result": "PASS"
+    },
+    {
+      "testFile": "tools/test_double_save_research.py",
+      "tests": 4,
+      "result": "PASS"
+    }
+  ],
+  "sourceSHA256": {
+    "download_preset_research.py": "21cab95be29686c19d53f2966c511b5ae1d9637b4aaacfd4f3adc15517e3f841",
+    "test_download_preset_patch.py": "456642acaa1f40db7106948531a55fc909326f09fd57ac24cee6c8b757676492",
+    "galaxy_aggregate_research.py": "02b89eeef8493323d252551ec13c191451bf3cf05b490853fd56a2414aed5cf7",
+    "test_galaxy_aggregate_research.py": "67bd85963bcbc94bb1a97e94e8bb99c5c33f2182a79fa25b09feace1c869eeb5",
+    "double_save_research.py": "11c1fd71d4e530fad236ccb0008b3cee3cdc9cbd0d304937ff287f7540ba3f6b",
+    "test_double_save_research.py": "6dfaac9b0e789e7be8538a57d0e20dcf50b379492087293d4b2c676aece44364",
+    "reproduce_aggregate_elf.py": "9da1c005d3836b2154322be044fded8e3c8e882bf858e5af86c456dbfc2063b5",
+    "reproduce_feature_control_elf.py": "f7604f003ecd9d373400f9dc66a492ed72316fc6678b414abc04df4d1e337ee9",
+    "reproduce_circle_control_elf.py": "92d0b9cddf3a49c3b97bc95d374abb7d78579e0619f50428a9083998c5715603",
+    "build_g100_control_mmd.py": "2d9d9bd03b156738368ad521c3929b78505b83f53ba957f5c5071f4514e0c2a4"
+  }
+}

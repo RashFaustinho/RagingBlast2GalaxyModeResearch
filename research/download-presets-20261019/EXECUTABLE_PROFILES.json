@@ -1,0 +1,366 @@
+{
+  "schemaVersion": 1,
+  "scope": "Known regional builds and modified ELF files whose complete relevant code, dependency and data spans match one verified layout after normalizing only recognized patch states. Unknown relocations/conflicting local changes are rejected.",
+  "profiles": [
+    {
+      "region": "BLES00978",
+      "legacySHA256": "5ce60f33ed9931d9c9cedadd9bf3b9c655a89448d03feb236844c8b5e46fbeeb",
+      "referenceSHA256": "8e2b454ca5959476a5869d0ab9e652123a019d72791f61ab37f7dd9936b2b892",
+      "referenceProvenance": "independently verified original",
+      "restoreVA": "0x318d80",
+      "predicateVA": "0x318d18",
+      "features": {
+        "costumeArguments": "0x1ed884",
+        "cleanupTail": "0x31cc14"
+      },
+      "costumeVA": "0x1ed890",
+      "customSlotVA": "0x1ed888",
+      "cleanupWordVA": "0x31cc40",
+      "forceSHA256": "dcfb522df9f0ee194c59b9e0c545294f8730df72314c6f5e6e7b009fed19e621",
+      "cleanupFunctionVA": "0x31cbcc",
+      "cleanupCallerVA": "0x31b28c",
+      "predicateCallers": [
+        "0x274424",
+        "0x31cc0c"
+      ],
+      "toc": "0x6e8d90",
+      "fixedList": [
+        0,
+        1,
+        2,
+        3,
+        5,
+        6,
+        7,
+        11,
+        12,
+        13,
+        17,
+        18,
+        19,
+        20,
+        22,
+        23,
+        34,
+        35,
+        37,
+        54,
+        55,
+        67,
+        68,
+        69,
+        70,
+        78
+      ],
+      "fixedListVA": "0x5f66b8",
+      "flagGetterVA": "0x172578",
+      "localChecks": [
+        {
+          "role": "successful-load caller",
+          "address": "0x31b278",
+          "size": 60,
+          "sha256": "4d04b7cdd603ef07a79ba9352ca3c8a602fa66dcc5f2da59f2b72e5698fbbfd9",
+          "segmentFlags": 4194309
+        },
+        {
+          "role": "complete cleanup function",
+          "address": "0x31cbcc",
+          "size": 156,
+          "sha256": "55344f3f9cb34fce49a402bdc18391a1340801a15b9f111d080ccfa261436ff8",
+          "segmentFlags": 4194309
+        },
+        {
+          "role": "complete fixed-list predicate",
+          "address": "0x318d18",
+          "size": 160,
+          "sha256": "cf02fed9d6309e8fcd06826c63eb751ff6cfc742e4616a1f21b85fb3eb1e0d6e",
+          "segmentFlags": 4194309
+        },
+        {
+          "role": "download-bit getter",
+          "address": "0x172578",
+          "size": 92,
+          "sha256": "f0083ca7ba247282cf508d08ed75fe16d326dc40c7790a3f8987c4e836e1010c",
+          "segmentFlags": 4194309
+        },
+        {
+          "role": "fixed26-ID table",
+          "address": "0x5f66b8",
+          "size": 104,
+          "sha256": "cac2eb32481df931543b637eb93086b45a28fc8600eb8ed2d18f0f2106153711",
+          "segmentFlags": 4194309
+        },
+        {
+          "role": "TOC pointer to fixed table",
+          "address": "0x6eafe4",
+          "size": 4,
+          "sha256": "e75c4da7dd2d38eeb605f77eb79a3cca90de5609beb1a63f41301b1a8c28b514",
+          "segmentFlags": 6291462
+        },
+        {
+          "role": "ELF entry code and TOC descriptor",
+          "address": "0x6acea0",
+          "size": 8,
+          "sha256": "0542a3787c5de710d9d592b4b32f11c3311de95b21f0762b06c64c663e368b0d",
+          "segmentFlags": 6291462
+        },
+        {
+          "role": "save getter dependency",
+          "address": "0x3179c0",
+          "size": 32,
+          "sha256": "ffab5312545190ce6e12d2209368d4dd049e9f744a256242c499ce9e7eb41380",
+          "segmentFlags": 4194309
+        },
+        {
+          "role": "copy-function import dependency",
+          "address": "0x5d8e94",
+          "size": 32,
+          "sha256": "98db5fc8cc20674ced56c932ede3936e00c1e9d2b03c47dfa813de822662a696",
+          "segmentFlags": 4194309
+        }
+      ],
+      "gameRevision": "European v1 (user confirmed)",
+      "originalCallWord": "48001941"
+    },
+    {
+      "region": "BLUS30581",
+      "legacySHA256": "9ea943a0878c6174499f5ae20ab7168956aa54c82077f99bd82a24a68fd40d13",
+      "referenceSHA256": "a9882cb84ef4e10e0970a94cc34d5781295184f66ea52547df6be85cd4d231c7",
+      "referenceProvenance": "reconstructed from author-confirmed single-instruction legacy patch; NOP restored to original r30 reload",
+      "restoreVA": "0x318968",
+      "predicateVA": "0x318900",
+      "features": {
+        "costumeArguments": "0x1ed58c",
+        "cleanupTail": "0x31c7fc"
+      },
+      "costumeVA": "0x1ed598",
+      "customSlotVA": "0x1ed590",
+      "cleanupWordVA": "0x31c828",
+      "forceSHA256": "200153c5983548e6c9a67c42a0c573353264fad5f7bb66f24fa9a19e1fb54126",
+      "cleanupFunctionVA": "0x31c7b4",
+      "cleanupCallerVA": "0x31ae74",
+      "predicateCallers": [
+        "0x27412c",
+        "0x31c7f4"
+      ],
+      "toc": "0x6e8d90",
+      "fixedList": [
+        0,
+        1,
+        2,
+        3,
+        5,
+        6,
+        7,
+        11,
+        12,
+        13,
+        17,
+        18,
+        19,
+        20,
+        22,
+        23,
+        34,
+        35,
+        37,
+        54,
+        55,
+        67,
+        68,
+        69,
+        70,
+        78
+      ],
+      "fixedListVA": "0x5f6248",
+      "flagGetterVA": "0x1722e0",
+      "localChecks": [
+        {
+          "role": "successful-load caller",
+          "address": "0x31ae60",
+          "size": 60,
+          "sha256": "4d04b7cdd603ef07a79ba9352ca3c8a602fa66dcc5f2da59f2b72e5698fbbfd9",
+          "segmentFlags": 4194309
+        },
+        {
+          "role": "complete cleanup function",
+          "address": "0x31c7b4",
+          "size": 156,
+          "sha256": "55344f3f9cb34fce49a402bdc18391a1340801a15b9f111d080ccfa261436ff8",
+          "segmentFlags": 4194309
+        },
+        {
+          "role": "complete fixed-list predicate",
+          "address": "0x318900",
+          "size": 160,
+          "sha256": "641582cb53ef68a004ffcfbd3d7807b2910513077334dc6092fac1a2284a8060",
+          "segmentFlags": 4194309
+        },
+        {
+          "role": "download-bit getter",
+          "address": "0x1722e0",
+          "size": 92,
+          "sha256": "ad766ad6b0433c64f5392bc765929595516f098106902b3b04467f87a43f3d9a",
+          "segmentFlags": 4194309
+        },
+        {
+          "role": "fixed26-ID table",
+          "address": "0x5f6248",
+          "size": 104,
+          "sha256": "cac2eb32481df931543b637eb93086b45a28fc8600eb8ed2d18f0f2106153711",
+          "segmentFlags": 4194309
+        },
+        {
+          "role": "TOC pointer to fixed table",
+          "address": "0x6eafe4",
+          "size": 4,
+          "sha256": "e65843bfa233a665412bc9706c7993526fd8c7fe2826146127cae592bc74696f",
+          "segmentFlags": 6291462
+        },
+        {
+          "role": "ELF entry code and TOC descriptor",
+          "address": "0x6acea0",
+          "size": 8,
+          "sha256": "0542a3787c5de710d9d592b4b32f11c3311de95b21f0762b06c64c663e368b0d",
+          "segmentFlags": 6291462
+        },
+        {
+          "role": "save getter dependency",
+          "address": "0x3175a8",
+          "size": 32,
+          "sha256": "ffab5312545190ce6e12d2209368d4dd049e9f744a256242c499ce9e7eb41380",
+          "segmentFlags": 4194309
+        },
+        {
+          "role": "copy-function import dependency",
+          "address": "0x5d8a1c",
+          "size": 32,
+          "sha256": "98db5fc8cc20674ced56c932ede3936e00c1e9d2b03c47dfa813de822662a696",
+          "segmentFlags": 4194309
+        }
+      ],
+      "gameRevision": "USA v1/v2 not identified",
+      "originalCallWord": "48001941"
+    },
+    {
+      "region": "BLJS10085",
+      "legacySHA256": "12081ea038f539617d2560f1539cc977e237c5d489df0d13bdb2cffda5f5bd33",
+      "referenceSHA256": "c51c18d937ec768c52f3003d7afc0cdbc110fecfa2b835aca244827c69dc29bf",
+      "referenceProvenance": "reconstructed from author-confirmed single-instruction legacy patch; NOP restored to original r30 reload",
+      "restoreVA": "0x3169b8",
+      "predicateVA": "0x316950",
+      "features": {
+        "costumeArguments": "0x1ed3c8",
+        "cleanupTail": "0x31a510"
+      },
+      "costumeVA": "0x1ed3d4",
+      "customSlotVA": "0x1ed3cc",
+      "cleanupWordVA": "0x31a53c",
+      "forceSHA256": "10533ec3c394d4182c935a66fa4bfd6a3525106ea3b555ddc57290aec782e041",
+      "cleanupFunctionVA": "0x31a4c8",
+      "cleanupCallerVA": "0x318d28",
+      "predicateCallers": [
+        "0x2756ec",
+        "0x31a508"
+      ],
+      "toc": "0x6e8c48",
+      "fixedList": [
+        0,
+        1,
+        2,
+        3,
+        5,
+        6,
+        7,
+        11,
+        12,
+        13,
+        17,
+        18,
+        19,
+        20,
+        22,
+        23,
+        34,
+        35,
+        37,
+        54,
+        55,
+        67,
+        68,
+        69,
+        70,
+        78
+      ],
+      "fixedListVA": "0x5f3ae8",
+      "flagGetterVA": "0x172254",
+      "localChecks": [
+        {
+          "role": "successful-load caller",
+          "address": "0x318d14",
+          "size": 60,
+          "sha256": "e5954af8852daef388123fd02ce31ff3c7e2476badf4266b47c1ce0bf18848ed",
+          "segmentFlags": 4194309
+        },
+        {
+          "role": "complete cleanup function",
+          "address": "0x31a4c8",
+          "size": 156,
+          "sha256": "da5ae275c549f7899c45a45d35d75fdd96982a4ed8f94f20d18e23ecec591f88",
+          "segmentFlags": 4194309
+        },
+        {
+          "role": "complete fixed-list predicate",
+          "address": "0x316950",
+          "size": 160,
+          "sha256": "18b57b52db4a3642a2903ae54a14d418ec48d203f2c380b508decfcddd1ae294",
+          "segmentFlags": 4194309
+        },
+        {
+          "role": "download-bit getter",
+          "address": "0x172254",
+          "size": 92,
+          "sha256": "b419a3396a8fb67d04d4712f92123d5156d8be010c398de42f2cb509d9009794",
+          "segmentFlags": 4194309
+        },
+        {
+          "role": "fixed26-ID table",
+          "address": "0x5f3ae8",
+          "size": 104,
+          "sha256": "cac2eb32481df931543b637eb93086b45a28fc8600eb8ed2d18f0f2106153711",
+          "segmentFlags": 4194309
+        },
+        {
+          "role": "TOC pointer to fixed table",
+          "address": "0x6eae8c",
+          "size": 4,
+          "sha256": "476902bff72ffbca8acc4d6b830512ac06d227f9993ab15abac8792126bf2cd2",
+          "segmentFlags": 6291462
+        },
+        {
+          "role": "ELF entry code and TOC descriptor",
+          "address": "0x6acea0",
+          "size": 8,
+          "sha256": "d6c579c97a34944410979bacd84a2091358e6484152a0e50c1bba3d05b95be2d",
+          "segmentFlags": 6291462
+        },
+        {
+          "role": "save getter dependency",
+          "address": "0x315608",
+          "size": 32,
+          "sha256": "c8d9a415aff80061c6a6b59835a55300b27b57341c82e9237e9e3ea129fec733",
+          "segmentFlags": 4194309
+        },
+        {
+          "role": "copy-function import dependency",
+          "address": "0x5d625c",
+          "size": 32,
+          "sha256": "43beabd5c2983d065a792cd8fa795d330bdb04184231f91833b474e8f94a70a8",
+          "segmentFlags": 4194309
+        }
+      ],
+      "gameRevision": "Japanese release / anime OST (user confirmed)",
+      "originalCallWord": "480017a1"
+    }
+  ]
+}

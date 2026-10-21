@@ -1,0 +1,17 @@
+{
+  "self.cpp": {
+    "url": "https://raw.githubusercontent.com/RPCS3/rpcs3/master/rpcs3/Crypto/unself.cpp",
+    "retrievedUTC": "2026-10-19",
+    "sha256": "70aed73611c049d4a0b24fe5d07ea7f7431de91a33da94040d989e9949f03510"
+  },
+  "self.h": {
+    "url": "https://raw.githubusercontent.com/RPCS3/rpcs3/master/rpcs3/Crypto/unself.h",
+    "retrievedUTC": "2026-10-19",
+    "sha256": "9ccd45a52327750349eef58ac83c4a897e237c3f4629dd0d4f1bb0491ec0ba03"
+  },
+  "key_vault.cpp": {
+    "url": "https://raw.githubusercontent.com/RPCS3/rpcs3/master/rpcs3/Crypto/key_vault.cpp",
+    "retrievedUTC": "2026-10-19",
+    "sha256": "a2947ff6b681258c198552ec6344e16685e2df649018206daa3f41a0a1aadbd7"
+  }
+}

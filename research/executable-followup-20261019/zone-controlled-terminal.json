@@ -1,0 +1,22 @@
+[
+  {
+    "write_expected": {
+      "address": "0x3aa9449c",
+      "before": "00000001",
+      "after": "00000000",
+      "rationale": "Zone music/secret flow control: finish the matched enemy parameter state; native game must generate result, score and route state. Controlled terminal state, not a natural KO.",
+      "verified": true
+    },
+    "utc": "2026-10-19T15:10:56.660742+00:00"
+  },
+  {
+    "write_expected": {
+      "address": "0x3aa944ad",
+      "before": "41",
+      "after": "43",
+      "rationale": "Pair the matched enemy HP zero with its native terminal bit for this controlled result-flow probe; no save, score, code or register writes.",
+      "verified": true
+    },
+    "utc": "2026-10-19T15:10:56.932802+00:00"
+  }
+]

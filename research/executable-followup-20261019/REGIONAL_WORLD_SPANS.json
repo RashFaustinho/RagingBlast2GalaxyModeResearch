@@ -1,0 +1,168 @@
+[
+  {
+    "feature": "worldControllerDestructor",
+    "region": "BLES00978",
+    "EUReferenceVA": "0x1d65e8",
+    "bytesCompared": 484,
+    "maskedWordCount": 0,
+    "matches": [
+      "0x1d65e8"
+    ],
+    "scope": "Static instruction-layout/internal-branch comparison; external call targets and TOC offsets are masked and are NOT proved semantically identical by this scan. Not a gameplay control or generic patch permission."
+  },
+  {
+    "feature": "worldControllerDestructor",
+    "region": "BLUS30581",
+    "EUReferenceVA": "0x1d65e8",
+    "bytesCompared": 484,
+    "maskedWordCount": 0,
+    "matches": [
+      "0x1d62f0"
+    ],
+    "scope": "Static instruction-layout/internal-branch comparison; external call targets and TOC offsets are masked and are NOT proved semantically identical by this scan. Not a gameplay control or generic patch permission."
+  },
+  {
+    "feature": "worldControllerDestructor",
+    "region": "BLJS10085",
+    "EUReferenceVA": "0x1d65e8",
+    "bytesCompared": 484,
+    "maskedWordCount": 0,
+    "matches": [
+      "0x1d62b8"
+    ],
+    "scope": "Static instruction-layout/internal-branch comparison; external call targets and TOC offsets are masked and are NOT proved semantically identical by this scan. Not a gameplay control or generic patch permission."
+  },
+  {
+    "feature": "worldControllerPoolConstructor",
+    "region": "BLES00978",
+    "EUReferenceVA": "0x1d702c",
+    "bytesCompared": 264,
+    "maskedWordCount": 8,
+    "matches": [
+      "0x1d702c"
+    ],
+    "scope": "Static instruction-layout/internal-branch comparison; external call targets and TOC offsets are masked and are NOT proved semantically identical by this scan. Not a gameplay control or generic patch permission."
+  },
+  {
+    "feature": "worldControllerPoolConstructor",
+    "region": "BLUS30581",
+    "EUReferenceVA": "0x1d702c",
+    "bytesCompared": 264,
+    "maskedWordCount": 8,
+    "matches": [
+      "0x1d6d34"
+    ],
+    "scope": "Static instruction-layout/internal-branch comparison; external call targets and TOC offsets are masked and are NOT proved semantically identical by this scan. Not a gameplay control or generic patch permission."
+  },
+  {
+    "feature": "worldControllerPoolConstructor",
+    "region": "BLJS10085",
+    "EUReferenceVA": "0x1d702c",
+    "bytesCompared": 264,
+    "maskedWordCount": 8,
+    "matches": [
+      "0x1d6cfc"
+    ],
+    "scope": "Static instruction-layout/internal-branch comparison; external call targets and TOC offsets are masked and are NOT proved semantically identical by this scan. Not a gameplay control or generic patch permission."
+  },
+  {
+    "feature": "worldControllerConstructor",
+    "region": "BLES00978",
+    "EUReferenceVA": "0x1d7f04",
+    "bytesCompared": 128,
+    "maskedWordCount": 5,
+    "matches": [
+      "0x1d7800",
+      "0x1d7f04"
+    ],
+    "scope": "Static instruction-layout/internal-branch comparison; external call targets and TOC offsets are masked and are NOT proved semantically identical by this scan. Not a gameplay control or generic patch permission."
+  },
+  {
+    "feature": "worldControllerConstructor",
+    "region": "BLUS30581",
+    "EUReferenceVA": "0x1d7f04",
+    "bytesCompared": 128,
+    "maskedWordCount": 5,
+    "matches": [
+      "0x1d7508",
+      "0x1d7c0c"
+    ],
+    "scope": "Static instruction-layout/internal-branch comparison; external call targets and TOC offsets are masked and are NOT proved semantically identical by this scan. Not a gameplay control or generic patch permission."
+  },
+  {
+    "feature": "worldControllerConstructor",
+    "region": "BLJS10085",
+    "EUReferenceVA": "0x1d7f04",
+    "bytesCompared": 128,
+    "maskedWordCount": 5,
+    "matches": [
+      "0x1d74d0",
+      "0x1d7bd4"
+    ],
+    "scope": "Static instruction-layout/internal-branch comparison; external call targets and TOC offsets are masked and are NOT proved semantically identical by this scan. Not a gameplay control or generic patch permission."
+  },
+  {
+    "feature": "galaxyAggregateInitializer",
+    "region": "BLES00978",
+    "EUReferenceVA": "0x3190d4",
+    "bytesCompared": 116,
+    "maskedWordCount": 1,
+    "matches": [
+      "0x3190d4"
+    ],
+    "scope": "Static instruction-layout/internal-branch comparison; external call targets and TOC offsets are masked and are NOT proved semantically identical by this scan. Not a gameplay control or generic patch permission."
+  },
+  {
+    "feature": "galaxyAggregateInitializer",
+    "region": "BLUS30581",
+    "EUReferenceVA": "0x3190d4",
+    "bytesCompared": 116,
+    "maskedWordCount": 1,
+    "matches": [
+      "0x318cbc"
+    ],
+    "scope": "Static instruction-layout/internal-branch comparison; external call targets and TOC offsets are masked and are NOT proved semantically identical by this scan. Not a gameplay control or generic patch permission."
+  },
+  {
+    "feature": "galaxyAggregateInitializer",
+    "region": "BLJS10085",
+    "EUReferenceVA": "0x3190d4",
+    "bytesCompared": 116,
+    "maskedWordCount": 1,
+    "matches": [],
+    "scope": "Static instruction-layout/internal-branch comparison; external call targets and TOC offsets are masked and are NOT proved semantically identical by this scan. Not a gameplay control or generic patch permission."
+  },
+  {
+    "feature": "galaxyCostumeArguments",
+    "region": "BLES00978",
+    "EUReferenceVA": "0x1ed87c",
+    "bytesCompared": 100,
+    "maskedWordCount": 3,
+    "matches": [
+      "0x1ed87c"
+    ],
+    "scope": "Static instruction-layout/internal-branch comparison; external call targets and TOC offsets are masked and are NOT proved semantically identical by this scan. Not a gameplay control or generic patch permission."
+  },
+  {
+    "feature": "galaxyCostumeArguments",
+    "region": "BLUS30581",
+    "EUReferenceVA": "0x1ed87c",
+    "bytesCompared": 100,
+    "maskedWordCount": 3,
+    "matches": [
+      "0x1ed584"
+    ],
+    "scope": "Static instruction-layout/internal-branch comparison; external call targets and TOC offsets are masked and are NOT proved semantically identical by this scan. Not a gameplay control or generic patch permission."
+  },
+  {
+    "feature": "galaxyCostumeArguments",
+    "region": "BLJS10085",
+    "EUReferenceVA": "0x1ed87c",
+    "bytesCompared": 100,
+    "maskedWordCount": 3,
+    "matches": [
+      "0x1ed3c0"
+    ],
+    "scope": "Static instruction-layout/internal-branch comparison; external call targets and TOC offsets are masked and are NOT proved semantically identical by this scan. Not a gameplay control or generic patch permission."
+  }
+]

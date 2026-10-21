@@ -1,0 +1,29 @@
+{
+  "status": "SAME_FEATURE_ELF_REACHES_STOCK_GREEN_MAP_AFTER_RESTORING74OTHER_FLAGS",
+  "elfSHA256": "6dcb6f4d1376836d7c61dca3e578836d49ee6465feafecc6d361bd94beb0767e",
+  "inputSHA256": "3dea711a9afbea9f76e30c590fa4118819a783b7e908437df3ef79c82098f5bf",
+  "loadedDownloadFlags": "ffffffffffffffffffffffffffffffff",
+  "loadedEnhancedFlags": "ffffffffffffffff00000003",
+  "zoneState": {
+    "elfSHA256": "6dcb6f4d1376836d7c61dca3e578836d49ee6465feafecc6d361bd94beb0767e",
+    "liveHookAndWholeHelperMatch": true,
+    "state": "0x3a8289f0",
+    "mode": 0,
+    "zone": 0,
+    "root": 0,
+    "secretLatch": 0,
+    "maxCombo": 0,
+    "superWin": 0,
+    "ultimateWin": 0,
+    "ragingSoulWin": 0,
+    "stats": "0x3a826628",
+    "secretTable": "00140000011400000014000003140000021400000014000004140000001400000214000004140000001400000114000002140000001400000314000001140000",
+    "inactiveMAINConfig": "0x3a829420",
+    "inactiveMAINConfigMusic": 0,
+    "configCaveat": "Early probe read MAIN singleton755944; Zone uses1CD534/75592C. Use laterBattleConfigCapture for Zone music."
+  },
+  "debuggerWrites": "None",
+  "interpretation": "The earlier cleared100-bit fixture is an invalid general baseline for unrelated Zone tests. The hook sets26bits and does not clear the other74; preserve their ordinary saved state.",
+  "scope": "Stock Green Square map reached with locally verified default kind0 helper table. Published f8 control uses kind5; local default image is6dcb and differs only at file0x730900/guest0x1000900. Music/secret combat pending.",
+  "laterBattleConfigCapture": "zone-music-stock56-verified.json"
+}

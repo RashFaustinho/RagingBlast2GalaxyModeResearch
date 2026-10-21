@@ -1,0 +1,12 @@
+{
+  "PS3_GAME/USRDIR/data/PS3/st_pack_progress_pt_ps3.afs": {
+    "readOnlySourceLink": true,
+    "sha256": "4319445d30b8fb064f19b345881090e528674e311f153d593bf144ef0e4caf98",
+    "bytes": 1334114304
+  },
+  "PS3_GAME/USRDIR/data/PS3/st_pack_boot_pt_ps3.afs": {
+    "readOnlySourceLink": true,
+    "sha256": "744abd145c0690d7f4c5d33fb5e175dcdb009c45a6006577797516d9ea655af7",
+    "bytes": 24590336
+  }
+}

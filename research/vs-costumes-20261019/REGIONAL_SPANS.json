@@ -1,0 +1,68 @@
+[
+  {
+    "feature": "costumeCount",
+    "region": "BLES00978",
+    "EUReferenceVA": "0x174790",
+    "bytesCompared": 136,
+    "maskedWordCount": 3,
+    "matches": [
+      "0x174790"
+    ],
+    "scope": "Static instruction-layout/internal-branch comparison; external call targets and TOC offsets are masked and are NOT proved semantically identical by this scan. Not a gameplay control or generic patch permission."
+  },
+  {
+    "feature": "costumeCount",
+    "region": "BLUS30581",
+    "EUReferenceVA": "0x174790",
+    "bytesCompared": 136,
+    "maskedWordCount": 3,
+    "matches": [
+      "0x1744f8"
+    ],
+    "scope": "Static instruction-layout/internal-branch comparison; external call targets and TOC offsets are masked and are NOT proved semantically identical by this scan. Not a gameplay control or generic patch permission."
+  },
+  {
+    "feature": "costumeCount",
+    "region": "BLJS10085",
+    "EUReferenceVA": "0x174790",
+    "bytesCompared": 136,
+    "maskedWordCount": 3,
+    "matches": [
+      "0x17446c"
+    ],
+    "scope": "Static instruction-layout/internal-branch comparison; external call targets and TOC offsets are masked and are NOT proved semantically identical by this scan. Not a gameplay control or generic patch permission."
+  },
+  {
+    "feature": "costumeCycle",
+    "region": "BLES00978",
+    "EUReferenceVA": "0x174818",
+    "bytesCompared": 280,
+    "maskedWordCount": 2,
+    "matches": [
+      "0x174818"
+    ],
+    "scope": "Static instruction-layout/internal-branch comparison; external call targets and TOC offsets are masked and are NOT proved semantically identical by this scan. Not a gameplay control or generic patch permission."
+  },
+  {
+    "feature": "costumeCycle",
+    "region": "BLUS30581",
+    "EUReferenceVA": "0x174818",
+    "bytesCompared": 280,
+    "maskedWordCount": 2,
+    "matches": [
+      "0x174580"
+    ],
+    "scope": "Static instruction-layout/internal-branch comparison; external call targets and TOC offsets are masked and are NOT proved semantically identical by this scan. Not a gameplay control or generic patch permission."
+  },
+  {
+    "feature": "costumeCycle",
+    "region": "BLJS10085",
+    "EUReferenceVA": "0x174818",
+    "bytesCompared": 280,
+    "maskedWordCount": 2,
+    "matches": [
+      "0x1744f4"
+    ],
+    "scope": "Static instruction-layout/internal-branch comparison; external call targets and TOC offsets are masked and are NOT proved semantically identical by this scan. Not a gameplay control or generic patch permission."
+  }
+]

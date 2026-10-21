@@ -4,6 +4,13 @@ This is the current interpretation, audited for the first GitHub release on
 18 October 2026. Older reports are retained where useful, but are not equally
 authoritative. See [experiment history](EXPERIMENT_HISTORY.md) for corrections.
 
+The 19 October [main-player costume follow-up and EBOOT roadmap](EBOOT_PATCH_ROADMAP.md)
+add a separate exact-input code investigation; the published 1.0 application is unchanged.
+The [ordinary VS DLC costume follow-up](vs-costumes-20261019/VS_COSTUMES_EN.md)
+verifies Goku Costume 8 and Vegeta Costume 3 through normal selection and native
+battle initialization. It is separate from Download preset availability and does
+not write costume-unlock bits or enlarge saves.
+
 ## Evidence vocabulary
 
 | Label | Meaning |
@@ -26,6 +33,7 @@ authoritative. See [experiment history](EXPERIMENT_HISTORY.md) for corrections.
 | Appearance contains five local move selectors | File/code; all five custom selectors reached a live ally | [Advanced moves](advanced/GALAXY_ADVANCED_RESEARCH_EN.md) |
 | Form changes can load the destination preset's equipment/moves | Controlled runtime; later user tests | `kb15b-g3-confirmed.json`, `kb15b-g0-confirmed.json` |
 | Native form slots select action/animation independently from preset destinations | File/code; user animation report; controlled corrected requests | `NATIVE_FORM_SLOTS_BLES00978.csv`, [transformation analysis](PRESETS_ITEMS_AND_TRANSFORMATIONS.md) |
+| Galaxy main player explicitly starts in costume0; a one-instruction costume1 override reached config and actor | File/code; separate-process RPCS3 control | [Costume and executable roadmap](EBOOT_PATCH_ROADMAP.md); visual textures and form continuity not certified |
 | Shared missions use conditional team candidates | File/code; original mission 491; six-perspective editor regression | [Teams](TEAMS_CONDITIONS_AND_ACTIONS.md) |
 | MAIN modifiers equip the player team, including allies; enemy items belong in Strength | Traced merge plus controlled runtime | [Modifier runtime](limits-20261015/MODIFIER_TARGET_RUNTIME_EN.md) |
 | Rule wording, equipment and UI item icons are independent fields | File/code; original mission 496 control | [Progression/modifiers](../editor/docs/PROGRESSION_AND_MODIFIERS_EN.md) |
@@ -46,6 +54,7 @@ authoritative. See [experiment history](EXPERIMENT_HISTORY.md) for corrections.
 | Outcome flags 11/12/13 are Super win / Ultimate win / Raging Soul win | Reproduced cross-check with native action/result bits | Static proof, not a new playthrough of every secret route |
 | Zone +30 stores an expression but the traced stock secret flow does not evaluate it | Traced flow; selected-stage copy | Not proven globally unused; preserve it |
 | Zone arenas vary and are read at +1C; +20 music is ignored by stock selection | Original 16 MMDs; native code | Arena-only gameplay attempt did not reach combat |
+| A scoped Zone music hook passes explicit0/6 from two roots into native setup;56 retains a native-pool fallback | Verified helper/config and initialized actors; controlled root0 finish/advance | Null audio; one Zone, not all songs/modes/final-Zone cases; see [follow-up](executable-followup-20261019/RESEARCH_EN.md) |
 | Music 30/31 are the two Battle of Omega variants; 56 is mode-dependent | Original localization plus native consumers | No listening test of every song; regional audio tables differ |
 
 ## Capacity results: what was actually demonstrated
@@ -53,7 +62,10 @@ authoritative. See [experiment history](EXPERIMENT_HISTORY.md) for corrections.
 - Stock Galaxy has 498 roots and 500 result records. ADV18E's added root 498
   completed and persisted with the original executable. That is not a 501-record test.
 - A 67th world icon was selectable and could launch combat, but its score aliased
-  unrelated saved globals. It is **not** a successful safe independent-Galaxy expansion.
+  unrelated saved globals. That original-executable fixture was unsafe. The later
+  G67 executable/save prototype isolates67 aggregates and now has a native339000-point
+  win, engine save and exact full-buffer cold reload; see the
+  [follow-up](executable-followup-20261019/RESEARCH_EN.md). G100 later demonstrated world index99/root531 with native save and exact cold reload; this is a boundary control, not100 fully played Galaxies.
 - A replacement Goku → Goku SSJ2 Galaxy completed a natural diagnostic action win,
   saved, and cold-loaded with the original executable and existing 66-icon count.
 - GS512 is a mission-only experimental format. Its limited successful runtime tests

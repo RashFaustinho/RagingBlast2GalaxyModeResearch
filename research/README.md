@@ -1,10 +1,19 @@
 # Research knowledge base
 
+The owner-only development checkout has a separate
+[EBOOT.BIN Mods / DB_SAVE adapter guide](eboot-studio-20261019/EBOOT_MODS_RESEARCH_EN.md), with
+[source-bound implementation and native-load verification](eboot-studio-20261019/VERIFICATION_EN.md).
+Broad expansion research remains distinct from installable preview features.
+The new editor/package remain private; this GitHub update publishes research only,
+while the existing public editor and release stay at version 1.0.
+The later [ordinary VS DLC costume investigation](vs-costumes-20261019/VS_COSTUMES_EN.md)
+adds a separate, nonpersistent selector option to the development preview.
+
 **This research was produced predominantly with AI assistance.** Start with the
 [project disclosure](../README.md). The evidence labels below exist because early
 AI interpretations were sometimes wrong and later controls changed the conclusions.
 
-This is the curated English entry point for the work of 14–18 October 2026. It
+This is the curated English entry point for the work of 14–19 October 2026. It
 replaces the original Discord exports and scattered personal working notes in the
 current repository tree. At the owner’s explicit request, the previous Git history containing private Discord
 exports is replaced by a clean root. Local transcript-bearing backups are removed;
@@ -24,6 +33,9 @@ language for identification; all current explanations and guides are English.
 | [Galaxy graph and progression](GALAXY_GRAPH_AND_PROGRESSION.md) | Reachable new fights, circle pools, freeing IDs and transferring an existing Galaxy |
 | [Battle Zone](BATTLE_ZONE.md) | Directed routes, per-Zone secret actions, rewards, arenas, music and grid keys |
 | [Save/RAM and expansion](SAVE_RAM_AND_EXPANSION.md) | Stock boundaries, GS512/D2 outcomes, corruption paths and what remains unproven |
+| [Download presets and modded EBOOT compatibility](download-presets-20261019/DOWNLOAD_PRESETS_EN.md) | Legacy Enabler repair, scoped unlock, regional profiles and feature-local verification |
+| [Executable follow-up: current status](executable-followup-20261019/STATUS_EN.md) | G67/G100 persistence, costumes/unlocks/music, regional compatibility and exact remaining limits |
+| [Executable patch roadmap](EBOOT_PATCH_ROADMAP.md) | Costume research, demonstrated prototypes and future patch-manager requirements |
 | [Experiment history](EXPERIMENT_HISTORY.md) | Failed controls, withdrawn observations and corrected assumptions |
 | [Open questions](OPEN_QUESTIONS.md) | Unresolved consumers and useful next experiments |
 | [AI/human handoff](AI_HANDOFF.md) | Resume without repeating disproven theories or stale operational instructions |

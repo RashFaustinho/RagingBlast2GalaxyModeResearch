@@ -1,0 +1,34 @@
+{
+  "config": "0x3a829420",
+  "owner": 3,
+  "node": 498,
+  "objective": 29,
+  "taskCount": 1,
+  "firstTask": [
+    1,
+    0
+  ],
+  "actors": [
+    {
+      "side": 0,
+      "address": "0x3aa88b64",
+      "native": 3,
+      "preset": 2,
+      "maxHP": 40000,
+      "HP": 40000,
+      "flags": 1
+    },
+    {
+      "side": 1,
+      "address": "0x3aa943c0",
+      "native": 12,
+      "preset": 496,
+      "maxHP": 40000,
+      "HP": 40000,
+      "flags": 65
+    }
+  ],
+  "saveBase": "0x30000020",
+  "inactiveOriginalBankNativeFlags": "0000004200000003",
+  "activeGlobalsEvidence": "G67-result.json and G67-cold-load.json"
+}

@@ -1,0 +1,69 @@
+{
+  "status": "FAILED_BEFORE_FULL_TUTORIAL_MAP",
+  "elfSHA256": "56614bcb7f4f927feb4efdb7e5c212b2838dbb9e44e86b343b625333ed2b1071",
+  "all29C64WordsMatchLiveMemory": true,
+  "archiveAudit": "C64-monotonic-AFS.json",
+  "input": "Full64 Tutorial membership,55category2 roots; matching D2 save",
+  "inputSaveSHA256": "cd4b024673f037a42121a02db1c709c0e32203ca3ab13af68997740b7b388cc6",
+  "thread": "main_thread",
+  "reportedReturnPC": "003c3fd4",
+  "nativeError": "Access violation writing location0",
+  "registers": {
+    "r1": "0xd00ffea0",
+    "r2": "0x6f8d70",
+    "r3": "0x0",
+    "r4": "0x0",
+    "r5": "0x4",
+    "r19": "0x650738",
+    "r20": "0x3ba24ed0",
+    "r21": "0x54",
+    "r22": "0x3ba25440",
+    "r23": "0x30ac1450",
+    "r25": "0x30ac145c",
+    "r31": "0x3ba25440"
+  },
+  "frames": [
+    {
+      "sp": "0xd00ffea0",
+      "back": "0xd00fff80",
+      "savedLR": "0x3c3fd4"
+    },
+    {
+      "sp": "0xd00fff80",
+      "back": "0xd0100030",
+      "savedLR": "0x3c3214"
+    },
+    {
+      "sp": "0xd0100030",
+      "back": "0xd01000a0",
+      "savedLR": "0x3c544c"
+    },
+    {
+      "sp": "0xd01000a0",
+      "back": "0xd0100140",
+      "savedLR": "0x3c0c7c"
+    },
+    {
+      "sp": "0xd0100140",
+      "back": "0xd0100210",
+      "savedLR": "0x2156f0"
+    },
+    {
+      "sp": "0xd0100210",
+      "back": "0xd01002a0",
+      "savedLR": "0x21230c"
+    },
+    {
+      "sp": "0xd01002a0",
+      "back": "0xd0100330",
+      "savedLR": "0x20d4c8"
+    },
+    {
+      "sp": "0xd0100330",
+      "back": "0xd0100810",
+      "savedLR": "0x1cff08"
+    }
+  ],
+  "scope": "Normal menu/controller input only; read-only debugger, no guest memory/register writes. Tutorial map and root63 were not reached. This is not a new persistence test.",
+  "cause": "Unresolved; reported PC follows allocation helper5D95D4 in resource parser. No proof yet that the allocation count, heap budget, resource input or another caller caused the null write."
+}

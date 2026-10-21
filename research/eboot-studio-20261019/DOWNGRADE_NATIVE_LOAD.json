@@ -1,0 +1,10 @@
+{
+  "result": "PASS",
+  "scope": "Original European ELF and original archives, fresh process and native valid-save loading. JS adapter downgrade from engine-written G100 progress, with explicit loss/reset flags. No guest writes or savestate.",
+  "elfSHA256": "8e2b454ca5959476a5869d0ab9e652123a019d72791f61ab37f7dd9936b2b892",
+  "length": 55000,
+  "sha256": "07b9b7a06b08bc77d271b8f84c3be8fe3b2fa9f22d4e1cfd34c8099b682c8113",
+  "fullBufferEqualsDowngradedInput": true,
+  "selectedNative": 0,
+  "limitations": "Native load, not a complete replay of all retained progress or a cross-region runtime test."
+}

@@ -1,0 +1,39 @@
+{
+  "label": "G100",
+  "length": 110000,
+  "sha256": "37c2b2b86598f74c21298946155fd212a86d7a6ef8310be61151a1e441837496",
+  "checksumValid": true,
+  "changedMissionRows": [
+    531
+  ],
+  "changedAggregates": [
+    99
+  ],
+  "oldGalaxyUnchanged": true,
+  "globalsUnchanged": true,
+  "selectedNative": 89,
+  "allChangedOffsets": [
+    "0x2",
+    "0x3",
+    "0x7",
+    "0x13",
+    "0x17",
+    "0x1b",
+    "0xcd21",
+    "0xcd22",
+    "0xcd23",
+    "0xcd25",
+    "0xcd27",
+    "0xcd2a",
+    "0xcd2b",
+    "0x11116",
+    "0x11117",
+    "0x1111b",
+    "0x1111d",
+    "0x1111e",
+    "0x1111f",
+    "0x12375",
+    "0x12376",
+    "0x12377"
+  ]
+}

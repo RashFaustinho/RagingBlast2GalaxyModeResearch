@@ -134,8 +134,13 @@ marks that report as historical. Do not advertise 848 playable Zone fights or a
 ## Conclusions and remaining coverage
 
 There is no demonstrated absolute maximum for a fully rewritten engine and no
-supported "double save" toggle in Studio. Extra independent Galaxies and standalone
-Zone slots were not solved by mission-bank relocation. Physical PS3, encrypted-save
+supported "double save" toggle in Studio. Standalone Zone slots were not solved by mission-bank relocation. A later isolated
+G67 prototype now demonstrates a67th independent Galaxy aggregate with a natural
+win, native save and exact whole-buffer cold reload. G100 additionally demonstrates
+world index99/root531 with the same full-buffer persistence check. Both layouts
+are distinct from D2; their successful Galaxy controls do not certify Battle Zone
+transitions under the combined feature prototype.
+See [the19October follow-up](executable-followup-20261019/RESEARCH_EN.md). Physical PS3, encrypted-save
 import, fresh-game initialization, all unlock states, every UI reader and arbitrary
 mod combinations remain outside the demonstrated coverage.
 

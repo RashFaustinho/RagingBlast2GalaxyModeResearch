@@ -1,0 +1,71 @@
+{
+  "date": "2026-10-19",
+  "scope": "European v1 successful-valid-save-load path, original game archives and isolated emulator/save profile",
+  "referenceELFSHA256": "8e2b454ca5959476a5869d0ab9e652123a019d72791f61ab37f7dd9936b2b892",
+  "patchedELFSHA256": "dcfb522df9f0ee194c59b9e0c545294f8730df72314c6f5e6e7b009fed19e621",
+  "preparation": "Private 55,000-byte checksum-valid save with all100 download availability bits cleared. Original progress retained. Source game/save not modified.",
+  "observation": {
+    "label": "force-after-load",
+    "saveBase": "0x30000020",
+    "inputSaveSHA256": "562c542db08ff9a8a652c546f33ee2efdc433510755a6abb047a87b3e8dd242b",
+    "inputDownloadIDs": [],
+    "loadedDownloadIDs": [
+      0,
+      1,
+      2,
+      3,
+      5,
+      6,
+      7,
+      11,
+      12,
+      13,
+      17,
+      18,
+      19,
+      20,
+      22,
+      23,
+      34,
+      35,
+      37,
+      54,
+      55,
+      67,
+      68,
+      69,
+      70,
+      78
+    ],
+    "downloadBankBefore": "000000000000000000000000fffffff0",
+    "downloadBankAfter": "00de38ef00c0002c00004078fffffff0",
+    "loadedCleanupWord": "7c005b78",
+    "loadedRegisterRestore": "ebc100e0",
+    "changedByteOffsets": [
+      "0xcd21",
+      "0xcd22",
+      "0xcd23",
+      "0xcd25",
+      "0xcd27",
+      "0xcd2a",
+      "0xcd2b"
+    ],
+    "debuggerWrites": "None; read-only queries and pause/resume"
+  },
+  "controls": [
+    "Original AFS archives unchanged",
+    "r30 register-restore instruction original",
+    "Only one ELF instruction changed (one byte within ANDC -> OR)",
+    "No guest debugger memory/register/code/HP writes; reads and pause/resume only",
+    "Entire loaded55,000-byte buffer compared to prepared save; only seven bytes changed, all within download availability bank"
+  ],
+  "limits": [
+    "No all26-costume gameplay test",
+    "No USA/Japan runtime certification",
+    "No fresh-game initialization control",
+    "No native-save/cold-reload persistence control",
+    "No physical PS3/signing control",
+    "Unknown-hash compatibility tested by byte-preservation/conflict checks, not third-party mod gameplay"
+  ],
+  "cleanup": "Isolated RPCS3 process, debugger helper and Xvfb stopped; private inputs and full RAM not published"
+}

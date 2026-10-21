@@ -1,0 +1,29 @@
+{
+  "result": "PASS",
+  "scope": "Actual JS-generated debug SELF/EBOOT.BIN booted in RPCS3; completed valid original55000-byte save load. Four hooks and whole4096-byte authored module matched live memory. No guest writes.",
+  "elfSHA256": "be7889ae408c84072b01c5d0a5dd5ad0b17f30645ce3957032fb802f40d24ba1",
+  "binSHA256": "cc2a01ae8bfda1a1e229bd4b848005d78357f69b5b4131aac09d11af0c0eab34",
+  "inputSaveSHA256": "cd8f89a74a7b7075608985d3e831fdcdbbafdd83dc619fb1cc7f3c2f888d3f53",
+  "loadedSaveSHA256": "fc369629afbe8557594c0bb75f02a48f603c88648402669e1a32b7698801a786",
+  "changedOffsets": [
+    "0x5b80",
+    "0x5b81",
+    "0x5b82",
+    "0x5b83",
+    "0x5b84",
+    "0x5b85",
+    "0x5b86",
+    "0x5b87",
+    "0x5b8b",
+    "0xcd21",
+    "0xcd22",
+    "0xcd23",
+    "0xcd25",
+    "0xcd27",
+    "0xcd2a",
+    "0xcd2b"
+  ],
+  "entireBufferEqualsExpectedBitUpdates": true,
+  "layout": "stock",
+  "limitations": "Does not constitute a new costume-texture, every-track, all-regional-runtime, hardware or fresh-game test."
+}

@@ -1,0 +1,12 @@
+{
+  "status": "EXACT_ONE_BYTE_TABLE_VARIANT",
+  "publishedControlSHA256": "f8f4c2d0843481d192c09d84889fecb401cc150dd07318dab41de3233794a29b",
+  "localDefaultSHA256": "6dcb6f4d1376836d7c61dca3e578836d49ee6465feafecc6d361bd94beb0767e",
+  "guestAddress": "0x1000900",
+  "fileOffset": "0x730900",
+  "publishedByte": 5,
+  "defaultByte": 0,
+  "allOtherBytesIdentical": true,
+  "meaning": "NormalZone0 secret predicate Always vs Stock Disabled; authored code is identical",
+  "scope": "The restarted Zone controls used local default6dcb, not the published f8 label formerly hardcoded by the probe. Reports corrected by actual file hash and matching live hook instructions plus whole helper segment."
+}

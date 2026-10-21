@@ -1,0 +1,16 @@
+{
+  "status": "UNLOCK_AND_COSTUME_INITIALIZATION_RUNTIME_CHECKED;ZONE_CONTROLS_PENDING",
+  "baseProfile": "G100",
+  "elfSHA256": "f8f4c2d0843481d192c09d84889fecb401cc150dd07318dab41de3233794a29b",
+  "costumeTable": {
+    "3": 1,
+    "others": 0
+  },
+  "secretRequirements": {
+    "normalZone0": "Always predicate; existing eligibility/latch logic retained. Clearing the current stage is still required to follow an outgoing route.",
+    "other15Slots": "Stock predicates retained"
+  },
+  "musicPolicy": "Explicit0..55;56 or invalid uses stock picker",
+  "unlockPolicy": "Post-valid-load26download native/form flags and66enhanced group flags",
+  "futureControlledZoneTest": "Optional identity-guarded enemyHP1 then native ordinary attack; must be labeled controlledHP, not naturalwin"
+}

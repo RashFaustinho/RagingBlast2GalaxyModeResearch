@@ -1,0 +1,39 @@
+{
+  "label": "G67",
+  "length": 110000,
+  "sha256": "c7b68b6960b0ed2add59adb602a9c3415fd53d82bcba923dd9317d1c3f2fb639",
+  "checksumValid": true,
+  "changedMissionRows": [
+    498
+  ],
+  "changedAggregates": [
+    66
+  ],
+  "oldGalaxyUnchanged": true,
+  "globalsUnchanged": true,
+  "selectedNative": 3,
+  "allChangedOffsets": [
+    "0x2",
+    "0x3",
+    "0x7",
+    "0x13",
+    "0x17",
+    "0x1b",
+    "0xcd21",
+    "0xcd22",
+    "0xcd23",
+    "0xcd25",
+    "0xcd27",
+    "0xcd2a",
+    "0xcd2b",
+    "0x10d7a",
+    "0x10d7b",
+    "0x10d7f",
+    "0x10d81",
+    "0x10d82",
+    "0x10d83",
+    "0x114e9",
+    "0x114ea",
+    "0x114eb"
+  ]
+}

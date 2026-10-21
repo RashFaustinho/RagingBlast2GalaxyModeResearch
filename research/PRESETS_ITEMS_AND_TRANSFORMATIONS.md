@@ -23,6 +23,14 @@ Appearance 174, native 74, Strength 330. Preset 519 also occurs in mission 315.
 The user's successful G04 health-item test established that this preset equipment
 path affects actual combat; it did not prove every transformation item.
 
+## Selected main player is a separate setup path
+
+The selected Galaxy main player does not take the same starting Appearance path
+as preset allies/enemies. Stock code explicitly passes costume0 for side0/slot0;
+changing an unrelated Appearance row will not change that argument. See the
+[19 October costume investigation and executable roadmap](EBOOT_PATCH_ROADMAP.md)
+for the traced config/actor path, minimal patch candidate and runtime scope.
+
 ## Why the two item lists misled the investigation
 
 The supplied save-editing/community labels were not a reliable equipment-index

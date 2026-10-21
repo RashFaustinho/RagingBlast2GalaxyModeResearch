@@ -1,0 +1,26 @@
+{
+  "label": "G67-cold-load",
+  "saveBase": "0x30000020",
+  "sha256": "c7b68b6960b0ed2add59adb602a9c3415fd53d82bcba923dd9317d1c3f2fb639",
+  "whole110000ByteBufferEqualsNativeSave": true,
+  "row498": [
+    4097,
+    1,
+    339000,
+    0,
+    0,
+    0,
+    0
+  ],
+  "aggregate66": [
+    339000,
+    0,
+    498,
+    0,
+    0,
+    0,
+    0
+  ],
+  "selectedNative": 3,
+  "debuggerWrites": "None; queries and pause/resume only"
+}

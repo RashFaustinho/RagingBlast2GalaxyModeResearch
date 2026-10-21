@@ -1,0 +1,45 @@
+{
+  "config": "0x3a829420",
+  "owner": 3,
+  "node": 500,
+  "objective": 29,
+  "taskCount": 1,
+  "firstTask": [
+    1,
+    0
+  ],
+  "actors": [
+    {
+      "side": 0,
+      "address": "0x3aa88c14",
+      "native": 3,
+      "preset": 2,
+      "maxHP": 40000,
+      "HP": 40000,
+      "flags": 1,
+      "costume": 1
+    },
+    {
+      "side": 1,
+      "address": "0x3aa94470",
+      "native": 12,
+      "preset": 496,
+      "maxHP": 40000,
+      "HP": 40000,
+      "flags": 65,
+      "costume": 0
+    }
+  ],
+  "saveBase": "0x30000020",
+  "globalNativeFlags": "0000004200000003",
+  "playerConfig": {
+    "0x38": 0,
+    "0x6c": 3,
+    "0x70": 1,
+    "0x80": 2
+  },
+  "liveCostumeTable": "00000001000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+  "elfSHA256": "f8f4c2d0843481d192c09d84889fecb401cc150dd07318dab41de3233794a29b",
+  "debuggerWrites": "None",
+  "note": "Config and actors initialized during stage introduction; no visual texture or form-chain certification. Ordinary player customization index2 is Custom3, not Galaxy preset2. globalNativeFlags is an inactive-original-bank read retained from the generic probe and is not the G100 active globals."
+}

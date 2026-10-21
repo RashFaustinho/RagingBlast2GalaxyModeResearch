@@ -1,0 +1,13 @@
+{
+  "input": "Previously audited European D2 expansion prototype",
+  "inputSHA256": "9f24ca8d05758e112d0a649a09da7519df45a06de947e2855bdfa615bf59d028",
+  "outputSHA256": "66fe382fdc06326746e7a39a6f533932926cfdbc644615626657617024b881f3",
+  "recognized": "verified-local-layout",
+  "localChecks": 9,
+  "changedByteOffsets": [
+    "0x30cc42"
+  ],
+  "sameLength": true,
+  "allOtherBytesPreserved": true,
+  "scope": "Static composition only; not a new D2 runtime playthrough"
+}

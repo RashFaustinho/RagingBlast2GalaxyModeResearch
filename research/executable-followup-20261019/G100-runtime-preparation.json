@@ -1,0 +1,16 @@
+{
+  "label": "G100",
+  "worldIcons": 100,
+  "missionRoots": 532,
+  "missionCapacity": 600,
+  "aggregateCapacity": 100,
+  "selectedNative": 89,
+  "selectedRoot": 531,
+  "selectedWorldIndex": 99,
+  "AFSEntry": 872,
+  "AFSReplacementOffset": 1334114304,
+  "AFSReplacementSize": 321897,
+  "sourceFilesUnchanged": true,
+  "originalTutorialAndZoneBanksRetained": true,
+  "debugger": "Read-only queries and execution control only"
+}

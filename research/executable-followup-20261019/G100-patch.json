@@ -1,0 +1,852 @@
+{
+  "label": "G100",
+  "status": "100-icon menu, natural root531 victory339000, engine save and exact whole-buffer cold reload verified",
+  "saveSHA256": "b0ce20ea474c02f5112a0131b7d0b8465e9239728f2c24db311883202eb85942",
+  "length": 110000,
+  "galaxyBank": 55040,
+  "missionCount": 600,
+  "aggregateCount": 100,
+  "aggregateBase": 71840,
+  "globalBase": 74640,
+  "galaxySize": 19752,
+  "patches": [
+    {
+      "address": 999364,
+      "old": "39298148",
+      "new": "3929d700",
+      "reason": "Galaxy bank / aggregates / globals"
+    },
+    {
+      "address": 1001408,
+      "old": "39298148",
+      "new": "3929d700",
+      "reason": "Galaxy bank / aggregates / globals"
+    },
+    {
+      "address": 1011132,
+      "old": "39298148",
+      "new": "3929d700",
+      "reason": "Galaxy bank / aggregates / globals"
+    },
+    {
+      "address": 1016264,
+      "old": "3bc98148",
+      "new": "3bc9d700",
+      "reason": "Galaxy bank / aggregates / globals"
+    },
+    {
+      "address": 1016368,
+      "old": "392936b0",
+      "new": "392941a0",
+      "reason": "Galaxy bank / aggregates / globals"
+    },
+    {
+      "address": 1016568,
+      "old": "39298148",
+      "new": "3929d700",
+      "reason": "Galaxy bank / aggregates / globals"
+    },
+    {
+      "address": 1016664,
+      "old": "392936b0",
+      "new": "392941a0",
+      "reason": "Galaxy bank / aggregates / globals"
+    },
+    {
+      "address": 1016700,
+      "old": "392936b0",
+      "new": "392941a0",
+      "reason": "Galaxy bank / aggregates / globals"
+    },
+    {
+      "address": 1892212,
+      "old": "39298148",
+      "new": "3929d700",
+      "reason": "Galaxy bank / aggregates / globals"
+    },
+    {
+      "address": 1892380,
+      "old": "392936b0",
+      "new": "392941a0",
+      "reason": "Galaxy bank / aggregates / globals"
+    },
+    {
+      "address": 1892440,
+      "old": "81243de8",
+      "new": "81244c90",
+      "reason": "Galaxy bank / aggregates / globals"
+    },
+    {
+      "address": 1892448,
+      "old": "81243dec",
+      "new": "81244c94",
+      "reason": "Galaxy bank / aggregates / globals"
+    },
+    {
+      "address": 1892744,
+      "old": "81243dec",
+      "new": "81244c94",
+      "reason": "Galaxy bank / aggregates / globals"
+    },
+    {
+      "address": 1892784,
+      "old": "81243de8",
+      "new": "81244c90",
+      "reason": "Galaxy bank / aggregates / globals"
+    },
+    {
+      "address": 1892792,
+      "old": "81243dec",
+      "new": "81244c94",
+      "reason": "Galaxy bank / aggregates / globals"
+    },
+    {
+      "address": 1905276,
+      "old": "8009bf30",
+      "new": "80092390",
+      "reason": "Galaxy bank / aggregates / globals"
+    },
+    {
+      "address": 1909844,
+      "old": "3be98148",
+      "new": "3be9d700",
+      "reason": "Galaxy bank / aggregates / globals"
+    },
+    {
+      "address": 1910204,
+      "old": "392936b0",
+      "new": "392941a0",
+      "reason": "Galaxy bank / aggregates / globals"
+    },
+    {
+      "address": 1912832,
+      "old": "39298148",
+      "new": "3929d700",
+      "reason": "Galaxy bank / aggregates / globals"
+    },
+    {
+      "address": 1919776,
+      "old": "3929b7f8",
+      "new": "392918a0",
+      "reason": "Galaxy bank / aggregates / globals"
+    },
+    {
+      "address": 1928956,
+      "old": "3bcab7fc",
+      "new": "3bca18a4",
+      "reason": "Galaxy bank / aggregates / globals"
+    },
+    {
+      "address": 1990032,
+      "old": "39298148",
+      "new": "3929d700",
+      "reason": "Galaxy bank / aggregates / globals"
+    },
+    {
+      "address": 1990040,
+      "old": "801a3dec",
+      "new": "801a4c94",
+      "reason": "Galaxy bank / aggregates / globals"
+    },
+    {
+      "address": 1990428,
+      "old": "39298148",
+      "new": "3929d700",
+      "reason": "Galaxy bank / aggregates / globals"
+    },
+    {
+      "address": 1990436,
+      "old": "801a3dec",
+      "new": "801a4c94",
+      "reason": "Galaxy bank / aggregates / globals"
+    },
+    {
+      "address": 1998348,
+      "old": "3bc98148",
+      "new": "3bc9d700",
+      "reason": "Galaxy bank / aggregates / globals"
+    },
+    {
+      "address": 1998788,
+      "old": "390b8148",
+      "new": "390bd700",
+      "reason": "Galaxy bank / aggregates / globals"
+    },
+    {
+      "address": 1999220,
+      "old": "3b898148",
+      "new": "3b89d700",
+      "reason": "Galaxy bank / aggregates / globals"
+    },
+    {
+      "address": 1999944,
+      "old": "3b098148",
+      "new": "3b09d700",
+      "reason": "Galaxy bank / aggregates / globals"
+    },
+    {
+      "address": 2000264,
+      "old": "392936b0",
+      "new": "392941a0",
+      "reason": "Galaxy bank / aggregates / globals"
+    },
+    {
+      "address": 2000912,
+      "old": "901e3de8",
+      "new": "901e4c90",
+      "reason": "Galaxy bank / aggregates / globals"
+    },
+    {
+      "address": 2000952,
+      "old": "392936b0",
+      "new": "392941a0",
+      "reason": "Galaxy bank / aggregates / globals"
+    },
+    {
+      "address": 2001620,
+      "old": "3b698148",
+      "new": "3b69d700",
+      "reason": "Galaxy bank / aggregates / globals"
+    },
+    {
+      "address": 2001728,
+      "old": "392936b0",
+      "new": "392941a0",
+      "reason": "Galaxy bank / aggregates / globals"
+    },
+    {
+      "address": 2001832,
+      "old": "392936b0",
+      "new": "392941a0",
+      "reason": "Galaxy bank / aggregates / globals"
+    },
+    {
+      "address": 2002108,
+      "old": "901e3de8",
+      "new": "901e4c90",
+      "reason": "Galaxy bank / aggregates / globals"
+    },
+    {
+      "address": 2002144,
+      "old": "392936b0",
+      "new": "392941a0",
+      "reason": "Galaxy bank / aggregates / globals"
+    },
+    {
+      "address": 2002496,
+      "old": "392936b0",
+      "new": "392941a0",
+      "reason": "Galaxy bank / aggregates / globals"
+    },
+    {
+      "address": 2007700,
+      "old": "3ac98148",
+      "new": "3ac9d700",
+      "reason": "Galaxy bank / aggregates / globals"
+    },
+    {
+      "address": 2009120,
+      "old": "8009bf34",
+      "new": "80092394",
+      "reason": "Galaxy bank / aggregates / globals"
+    },
+    {
+      "address": 2010716,
+      "old": "3b498148",
+      "new": "3b49d700",
+      "reason": "Galaxy bank / aggregates / globals"
+    },
+    {
+      "address": 2011200,
+      "old": "800a3dec",
+      "new": "800a4c94",
+      "reason": "Galaxy bank / aggregates / globals"
+    },
+    {
+      "address": 2011212,
+      "old": "900a3dec",
+      "new": "900a4c94",
+      "reason": "Galaxy bank / aggregates / globals"
+    },
+    {
+      "address": 2011260,
+      "old": "800a3dec",
+      "new": "800a4c94",
+      "reason": "Galaxy bank / aggregates / globals"
+    },
+    {
+      "address": 2011272,
+      "old": "900a3dec",
+      "new": "900a4c94",
+      "reason": "Galaxy bank / aggregates / globals"
+    },
+    {
+      "address": 2012464,
+      "old": "392936b0",
+      "new": "392941a0",
+      "reason": "Galaxy bank / aggregates / globals"
+    },
+    {
+      "address": 2022920,
+      "old": "3b9c8148",
+      "new": "3b9cd700",
+      "reason": "Galaxy bank / aggregates / globals"
+    },
+    {
+      "address": 2022928,
+      "old": "901c3de8",
+      "new": "901c4c90",
+      "reason": "Galaxy bank / aggregates / globals"
+    },
+    {
+      "address": 2022964,
+      "old": "392936b0",
+      "new": "392941a0",
+      "reason": "Galaxy bank / aggregates / globals"
+    },
+    {
+      "address": 2025244,
+      "old": "801dbf34",
+      "new": "801d2394",
+      "reason": "Galaxy bank / aggregates / globals"
+    },
+    {
+      "address": 2026800,
+      "old": "3ac98148",
+      "new": "3ac9d700",
+      "reason": "Galaxy bank / aggregates / globals"
+    },
+    {
+      "address": 2496056,
+      "old": "3b498148",
+      "new": "3b49d700",
+      "reason": "Galaxy bank / aggregates / globals"
+    },
+    {
+      "address": 2496736,
+      "old": "800936b0",
+      "new": "800941a0",
+      "reason": "Galaxy bank / aggregates / globals"
+    },
+    {
+      "address": 3153140,
+      "old": "3929b7f8",
+      "new": "392918a0",
+      "reason": "Galaxy bank / aggregates / globals"
+    },
+    {
+      "address": 3157736,
+      "old": "3929b7f8",
+      "new": "392918a0",
+      "reason": "Galaxy bank / aggregates / globals"
+    },
+    {
+      "address": 3157960,
+      "old": "3929b7f8",
+      "new": "392918a0",
+      "reason": "Galaxy bank / aggregates / globals"
+    },
+    {
+      "address": 3158152,
+      "old": "3929b7f8",
+      "new": "392918a0",
+      "reason": "Galaxy bank / aggregates / globals"
+    },
+    {
+      "address": 3158292,
+      "old": "3929b7f8",
+      "new": "392918a0",
+      "reason": "Galaxy bank / aggregates / globals"
+    },
+    {
+      "address": 3158504,
+      "old": "3929b7f8",
+      "new": "392918a0",
+      "reason": "Galaxy bank / aggregates / globals"
+    },
+    {
+      "address": 3158728,
+      "old": "3929b7f8",
+      "new": "392918a0",
+      "reason": "Galaxy bank / aggregates / globals"
+    },
+    {
+      "address": 3176476,
+      "old": "3bbd8150",
+      "new": "3bbdd708",
+      "reason": "Galaxy bank / aggregates / globals"
+    },
+    {
+      "address": 3184088,
+      "old": "3969b7fc",
+      "new": "396918a4",
+      "reason": "Galaxy bank / aggregates / globals"
+    },
+    {
+      "address": 3184308,
+      "old": "3969b7fc",
+      "new": "396918a4",
+      "reason": "Galaxy bank / aggregates / globals"
+    },
+    {
+      "address": 3184524,
+      "old": "3969b7fc",
+      "new": "396918a4",
+      "reason": "Galaxy bank / aggregates / globals"
+    },
+    {
+      "address": 3184740,
+      "old": "3969b7fc",
+      "new": "396918a4",
+      "reason": "Galaxy bank / aggregates / globals"
+    },
+    {
+      "address": 3184956,
+      "old": "3969b7fc",
+      "new": "396918a4",
+      "reason": "Galaxy bank / aggregates / globals"
+    },
+    {
+      "address": 3185172,
+      "old": "3969b7fc",
+      "new": "396918a4",
+      "reason": "Galaxy bank / aggregates / globals"
+    },
+    {
+      "address": 3185384,
+      "old": "3969b7fc",
+      "new": "396918a4",
+      "reason": "Galaxy bank / aggregates / globals"
+    },
+    {
+      "address": 3185600,
+      "old": "39698148",
+      "new": "3969d700",
+      "reason": "Galaxy bank / aggregates / globals"
+    },
+    {
+      "address": 3248416,
+      "old": "900936b8",
+      "new": "900941a8",
+      "reason": "Galaxy bank / aggregates / globals"
+    },
+    {
+      "address": 3248428,
+      "old": "901e3de8",
+      "new": "901e4c90",
+      "reason": "Galaxy bank / aggregates / globals"
+    },
+    {
+      "address": 3250064,
+      "old": "397c36b0",
+      "new": "397c41a0",
+      "reason": "Galaxy bank / aggregates / globals"
+    },
+    {
+      "address": 3250104,
+      "old": "392936b0",
+      "new": "392941a0",
+      "reason": "Galaxy bank / aggregates / globals"
+    },
+    {
+      "address": 3250156,
+      "old": "90193de8",
+      "new": "90194c90",
+      "reason": "Galaxy bank / aggregates / globals"
+    },
+    {
+      "address": 3250200,
+      "old": "80193dec",
+      "new": "80194c94",
+      "reason": "Galaxy bank / aggregates / globals"
+    },
+    {
+      "address": 3250208,
+      "old": "90193dec",
+      "new": "90194c94",
+      "reason": "Galaxy bank / aggregates / globals"
+    },
+    {
+      "address": 3255644,
+      "old": "38638148",
+      "new": "3863d700",
+      "reason": "Galaxy bank / aggregates / globals"
+    },
+    {
+      "address": 3256184,
+      "old": "38638148",
+      "new": "3863d700",
+      "reason": "Galaxy bank / aggregates / globals"
+    },
+    {
+      "address": 4340436,
+      "old": "39498148",
+      "new": "3949d700",
+      "reason": "Galaxy bank / aggregates / globals"
+    },
+    {
+      "address": 4340476,
+      "old": "800936b0",
+      "new": "800941a0",
+      "reason": "Galaxy bank / aggregates / globals"
+    },
+    {
+      "address": 1910328,
+      "old": "3929b7f0",
+      "new": "39291898",
+      "reason": "aggregate minus8 reader"
+    },
+    {
+      "address": 1017712,
+      "old": "3929b7f0",
+      "new": "39291898",
+      "reason": "aggregate minus8 reader"
+    },
+    {
+      "address": 1017320,
+      "old": "39298140",
+      "new": "3929d6f8",
+      "reason": "mission minus8 reader"
+    },
+    {
+      "address": 1897472,
+      "old": "39298140",
+      "new": "3929d6f8",
+      "reason": "mission minus8 reader"
+    },
+    {
+      "address": 2035412,
+      "old": "39298140",
+      "new": "3929d6f8",
+      "reason": "mission minus8 reader"
+    },
+    {
+      "address": 3248368,
+      "old": "38a03e80",
+      "new": "38a04d28",
+      "reason": "Galaxy initializer span"
+    },
+    {
+      "address": 1912796,
+      "old": "380001f4",
+      "new": "38000258",
+      "reason": "Galaxy mission row count"
+    },
+    {
+      "address": 3185580,
+      "old": "380001f4",
+      "new": "38000258",
+      "reason": "Galaxy mission row count"
+    },
+    {
+      "address": 3250040,
+      "old": "2fbd01f4",
+      "new": "2fbd0258",
+      "reason": "Galaxy mission row count"
+    },
+    {
+      "address": 3250140,
+      "old": "380001f4",
+      "new": "38000258",
+      "reason": "Galaxy mission row count"
+    },
+    {
+      "address": 1893188,
+      "old": "38600a80",
+      "new": "38600b30",
+      "reason": "extended launch config allocation and clear"
+    },
+    {
+      "address": 1891952,
+      "old": "38a00a80",
+      "new": "38a00b30",
+      "reason": "extended launch config allocation and clear"
+    },
+    {
+      "address": 1892012,
+      "old": "38a00a80",
+      "new": "38a00b30",
+      "reason": "extended launch config allocation and clear"
+    },
+    {
+      "address": 1893292,
+      "old": "38a00a80",
+      "new": "38a00b30",
+      "reason": "extended launch config allocation and clear"
+    },
+    {
+      "address": 1890848,
+      "old": "39200010",
+      "new": "39200013",
+      "reason": "launch bitmap words"
+    },
+    {
+      "address": 1890876,
+      "old": "9009000c",
+      "new": "90090a80",
+      "reason": "launch bitmap appended after original config"
+    },
+    {
+      "address": 1890924,
+      "old": "8003000c",
+      "new": "80030a80",
+      "reason": "launch bitmap appended after original config"
+    },
+    {
+      "address": 1890932,
+      "old": "9003000c",
+      "new": "90030a80",
+      "reason": "launch bitmap appended after original config"
+    },
+    {
+      "address": 1890968,
+      "old": "8063000c",
+      "new": "80630a80",
+      "reason": "launch bitmap appended after original config"
+    },
+    {
+      "address": 1923784,
+      "old": "38600280",
+      "new": "38600420",
+      "reason": "world controller allocation with appended pointer array"
+    },
+    {
+      "address": 1931336,
+      "old": "38a00250",
+      "new": "38a003f0",
+      "reason": "both world constructor clear lengths"
+    },
+    {
+      "address": 1933132,
+      "old": "38a00250",
+      "new": "38a003f0",
+      "reason": "both world constructor clear lengths"
+    },
+    {
+      "address": 1926676,
+      "old": "3be30030",
+      "new": "3be30280",
+      "reason": "world pointer-array access"
+    },
+    {
+      "address": 1928244,
+      "old": "80690030",
+      "new": "80690280",
+      "reason": "world pointer-array access"
+    },
+    {
+      "address": 1928464,
+      "old": "80690030",
+      "new": "80690280",
+      "reason": "world pointer-array access"
+    },
+    {
+      "address": 1928928,
+      "old": "3bfb0030",
+      "new": "3bfb0280",
+      "reason": "world pointer-array access"
+    },
+    {
+      "address": 1929428,
+      "old": "93890030",
+      "new": "93890280",
+      "reason": "world pointer-array access"
+    },
+    {
+      "address": 1929572,
+      "old": "80690030",
+      "new": "80690280",
+      "reason": "world pointer-array access"
+    },
+    {
+      "address": 1929672,
+      "old": "80690030",
+      "new": "80690280",
+      "reason": "world pointer-array access"
+    },
+    {
+      "address": 1929772,
+      "old": "80690030",
+      "new": "80690280",
+      "reason": "world pointer-array access"
+    },
+    {
+      "address": 1929872,
+      "old": "80690030",
+      "new": "80690280",
+      "reason": "world pointer-array access"
+    },
+    {
+      "address": 1929972,
+      "old": "80690030",
+      "new": "80690280",
+      "reason": "world pointer-array access"
+    },
+    {
+      "address": 1930072,
+      "old": "80690030",
+      "new": "80690280",
+      "reason": "world pointer-array access"
+    },
+    {
+      "address": 1930172,
+      "old": "80690030",
+      "new": "80690280",
+      "reason": "world pointer-array access"
+    },
+    {
+      "address": 1930284,
+      "old": "80690030",
+      "new": "80690280",
+      "reason": "world pointer-array access"
+    },
+    {
+      "address": 1928256,
+      "old": "2f9f0108",
+      "new": "2f9f0190",
+      "reason": "world pointer-array inclusive byte bound"
+    },
+    {
+      "address": 1928476,
+      "old": "2f9f0108",
+      "new": "2f9f0190",
+      "reason": "world pointer-array inclusive byte bound"
+    },
+    {
+      "address": 1929440,
+      "old": "2f9f0108",
+      "new": "2f9f0190",
+      "reason": "world pointer-array inclusive byte bound"
+    },
+    {
+      "address": 1929584,
+      "old": "2f9f0108",
+      "new": "2f9f0190",
+      "reason": "world pointer-array inclusive byte bound"
+    },
+    {
+      "address": 1929684,
+      "old": "2f9f0108",
+      "new": "2f9f0190",
+      "reason": "world pointer-array inclusive byte bound"
+    },
+    {
+      "address": 1929784,
+      "old": "2f9f0108",
+      "new": "2f9f0190",
+      "reason": "world pointer-array inclusive byte bound"
+    },
+    {
+      "address": 1929884,
+      "old": "2f9f0108",
+      "new": "2f9f0190",
+      "reason": "world pointer-array inclusive byte bound"
+    },
+    {
+      "address": 1929984,
+      "old": "2f9f0108",
+      "new": "2f9f0190",
+      "reason": "world pointer-array inclusive byte bound"
+    },
+    {
+      "address": 1930084,
+      "old": "2f9f0108",
+      "new": "2f9f0190",
+      "reason": "world pointer-array inclusive byte bound"
+    },
+    {
+      "address": 1930184,
+      "old": "2f9f0108",
+      "new": "2f9f0190",
+      "reason": "world pointer-array inclusive byte bound"
+    },
+    {
+      "address": 1930296,
+      "old": "2f9e0108",
+      "new": "2f9e0190",
+      "reason": "world pointer-array inclusive byte bound"
+    },
+    {
+      "address": 1926740,
+      "old": "2f9e0042",
+      "new": "2f9e0064",
+      "reason": "world destructor inclusive element bound"
+    },
+    {
+      "address": 3248388,
+      "old": "39200042",
+      "new": "39200064",
+      "reason": "aggregate initializer count"
+    },
+    {
+      "address": 3250060,
+      "old": "38000042",
+      "new": "38000064",
+      "reason": "aggregate initializer count"
+    },
+    {
+      "address": 3250360,
+      "old": "38800000",
+      "new": "3c800001",
+      "reason": "save size highword"
+    },
+    {
+      "address": 3250372,
+      "old": "6084d6d8",
+      "new": "6084adb0",
+      "reason": "save size lowword"
+    },
+    {
+      "address": 3250400,
+      "old": "38a00000",
+      "new": "3ca00001",
+      "reason": "save size highword"
+    },
+    {
+      "address": 3250412,
+      "old": "60a5d6d8",
+      "new": "60a5adb0",
+      "reason": "save size lowword"
+    },
+    {
+      "address": 3264640,
+      "old": "38e00000",
+      "new": "3ce00001",
+      "reason": "save size highword"
+    },
+    {
+      "address": 3264656,
+      "old": "60e7d6d8",
+      "new": "60e7adb0",
+      "reason": "save size lowword"
+    },
+    {
+      "address": 3267376,
+      "old": "38e00000",
+      "new": "3ce00001",
+      "reason": "save size highword"
+    },
+    {
+      "address": 3267396,
+      "old": "60e7d6d8",
+      "new": "60e7adb0",
+      "reason": "save size lowword"
+    },
+    {
+      "address": 3246516,
+      "old": "38000000",
+      "new": "3c000001",
+      "reason": "save size highword"
+    },
+    {
+      "address": 3246524,
+      "old": "6000d6d0",
+      "new": "6000ada8",
+      "reason": "save size lowword"
+    }
+  ],
+  "worldObjectExpansion": true,
+  "tutorialAndZoneUnchanged": true,
+  "original_sha256": "8e2b454ca5959476a5869d0ab9e652123a019d72791f61ab37f7dd9936b2b892",
+  "patched_sha256": "e7dbeb99982677b56b5bde5517625d130250ee63aa16edd8df7ca0c4751d1b63"
+}
